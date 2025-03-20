@@ -194,6 +194,7 @@ exclude:
   - vendor
   - _pages/publications.md
   - _pages/repositories.md
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll
