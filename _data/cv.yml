@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Wilson Chong Man Hin
     - name: Date of Birth
-      value: 14th March 1879
+      value: Sept 2002
     - name: Languages
-      value: English, German
+      value: English, Putonghua, Cantonese
 
 - title: Education
   type: time_table
