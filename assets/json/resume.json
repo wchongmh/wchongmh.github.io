@@ -1,12 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Wilson Chong , Man Hin",
+    "label": "Engineering Graduate | Scholarship Recipient | Award-Winning Leader",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "wchongmh@gmail.com",
+    "phone": "",
+    "url": "https://wchongmh.github.io/",
+    "summary": "Meticulous, task-focused with professional training in building services engineering, I am competent in
+the design and installation of lighting, acoustic, HVAC, pipe & drainage systems, electricity and fire safety
+systems. Proficient in AutoCAD, BIM, and IoT programming, with a proven track record in optimizing
+large-scale residential projects. Awarded multiple scholarships for academic excellence and leadership in
+engineering societies.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
