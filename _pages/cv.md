@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: Wilson Chong Man Hin.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Award-winning UK Engineering graduate with a strong technical foundation and leadership acumen, specializing in innovative building services solutions. Recognized with the SCEBE Prize for top academic performance and fully funded through the Alistair Harvey Foundation Scholarship to complete BEng/MSc degrees. Combines advanced engineering expertise with a track record of driving impactful projects.
 toc:
   sidebar: left
 ---
