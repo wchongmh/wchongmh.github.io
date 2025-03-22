@@ -44,28 +44,26 @@
       "institution": "Glasgow Caledonian University",
       "location": "Glasgow, Scotland, UK",
       "url": "https://www.gcu.ac.uk/study/courses/undergraduate-building-services-engineering-glasgow",
-      "area": "Building Services Engineering",
-      "studyType": "BEng (Hons)",
-      "startDate": "2022-10",
-      "endDate": "2024-06",
-      "highlights": [
+      "area": "Sustainable Building Design, Smart Systems Integration, Fluid Mechanics.",
+      "studyType": "BEng (Hons) Building Services Engineering",
+      "startDate": "2022-09",
+      "endDate": "2024-09",
+      "courses": [
         "Ranked #1 in third-year cohort.",
-        "Recipient of Alistair Harvey Foundation Scholarship (full funding).",
-        "Coursework: Sustainable Building Design, Smart Systems Integration, Fluid Mechanics."
+        "Recipient of Alistair Harvey Foundation Scholarship (full funding)."
       ]
     },
     {
       "institution": "Hong Kong Institute of Vocational Education (IVE Morrison Hill)",
       "location": "Hong Kong",
       "url": "https://www.vtc.edu.hk/admission/en/programme/eg114702-higher-diploma-in-building-services-engineering/",
-      "area": "Building Services Engineering",
-      "studyType": "Higher Diploma",
+      "area": "Thesis: Optimization of Drainage Systems in High-Density Residential Buildings.",
+      "studyType": "Higher Diploma in Building Services Engineering",
       "startDate": "2020-09",
       "endDate": "2022-06",
-      "highlights": [
+      "courses": [
         "Graduated with Distinction Award.",
-        "Thesis: Optimization of Drainage Systems in High-Density Residential Buildings.",
-        "Integrated BIM and HVAC design modules into curriculum."
+        "Software Training: Integrated BIM and HVAC design modules into curriculum."
       ]
     }
   ],
