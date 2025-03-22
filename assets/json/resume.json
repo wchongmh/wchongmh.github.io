@@ -44,13 +44,13 @@
       "institution": "Glasgow Caledonian University",
       "location": "Glasgow, Scotland, UK",
       "url": "https://www.gcu.ac.uk/study/courses/undergraduate-building-services-engineering-glasgow",
-      "area": "Sustainable Building Design, Smart Systems Integration, Fluid Mechanics.",
+      "area": "Relevant Coursework: Sustainable Building Design, Smart Systems Integration, Fluid Mechanics.",
       "studyType": "BEng (Hons) Building Services Engineering",
       "startDate": "2022-09",
       "endDate": "2024-09",
       "courses": [
-        "Ranked #1 in third-year cohort.",
-        "Recipient of Alistair Harvey Foundation Scholarship (full funding)."
+        "Academic Excellence: Ranked #1 in third-year cohort and selected as the best-performing student in the program.",
+        "Alistair Harvey Foundation Scholar: Fully funded bachelor’s and master’s studies in the UK for academic excellence."
       ]
     },
     {
@@ -96,10 +96,51 @@
         "Orchestrated 3 field trips to MEP facilities, boosting student engagement by 40%.",
         "Organized technical talks featuring industry professionals, attended by 150+ students."
       ]
+    },
+    {
+      "organization": "HKIE BSE Student Liaison Group",
+      "position": "Committee Member",
+      "startDate": "2021-01",
+      "endDate": "2022-12",
+      "highlights": [
+        "Hosted networking sessions connecting students with engineering professionals.",
+        "Facilitated site visits to BEAM Plus-certified buildings to promote sustainable practices."
+      ]
+    },
+    {
+      "organization": "48th Students’ Union Council",
+      "position": "President of Finance Committee",
+      "startDate": "2020-01",
+      "endDate": "2021-12",
+      "highlights": [
+        "Managed an annual budget exceeding HKD 50,000, ensuring responsible financial allocation.",
+        "Coordinated high-impact student initiatives, achieving a 90% satisfaction rate."
+      ]
     }
   ],
   "projects": [],
-  "interests": [
+  "skills": [
+    {
+      "name": "Technical Design",
+      "keywords": ["AutoCAD", "BIM (Revit)", "Dialux", "Hevacomp", "IES VE ModelIT"]
+    },
+    {
+      "name": "Systems Expertise",
+      "keywords": ["HVAC Design", "Fire Safety Systems", "Pipe & Drainage Design", "Building Performance Modeling", "Energy Assessment"]
+    },
+    {
+      "name": "Programming & Automation",
+      "keywords": ["Raspberry Pi", "Arduino", "Smart Home Technology (TensorFlow, OpenCV)"]
+    }
+ ],
+  "certificates": [
+    {
+      "name": "CIC Green Card",
+      "date": "2021-01",
+      "issuer": "HKSAR Industry Council"
+    }
+  ],
+   "interests": [
     {
       "name": "Sustainable Engineering",
       "keywords": ["Green Building Design", "Energy-Efficient HVAC", "Smart Cities"],
@@ -116,30 +157,13 @@
       "icon": "fa-solid fa-location-dot"
     }
   ],
-  "certificates": [
+  "references": [
     {
-      "name": "CIC Green Card",
-      "date": "2021-01",
-      "issuer": "HKSAR Industry Council"
+      "name": "Dr Ing Liang Wong",
+      "position": "Programme Leader of BEng (Hons) Building Services Engineering",
+      "organization": "Glasgow Caledonian University",
+      "title": "Senior Lecturer in Sustainable Design and Construction",
+      "department": "Department of Civil, Engineering and Environmental Management"
     }
-  ],
-  "skills": [
-    {
-      "name": "Technical Design",
-      "keywords": ["AutoCAD", "BIM (Revit)", "Dialux", "Hevacomp", "IES VE ModelIT"]
-    },
-    {
-      "name": "Systems Expertise",
-      "keywords": ["HVAC Design", "Fire Safety Systems", "Pipe & Drainage Design", "Building Performance Modeling", "Energy Assessment"]
-    },
-    {
-      "name": "Programming & Automation",
-      "keywords": ["Raspberry Pi", "Arduino", "Smart Home Technology (TensorFlow, OpenCV)"]
-    }
-  ],
-  "languages": [
-    { "language": "Cantonese", "fluency": "Native" },
-    { "language": "English", "fluency": "Fluent" },
-    { "language": "Putonghua", "fluency": "Fluent" }
   ]
 }
