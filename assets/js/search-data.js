@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Award-winning UK Engineering graduate with a strong technical foundation and leadership acumen, specializing in innovative building services solutions. Recognized with the SCEBE Prize for top academic performance and fully funded through the Alistair Harvey Foundation Scholarship to complete BEng/MSc degrees. Combines advanced engineering expertise with a track record of driving impactful projects.",
+          description: "Award-winning UK Engineering graduate with a strong technical foundation and leadership acumen, specializing in innovative building services solutions. Recognized with the SCEBE Prize for top academic performance and fully funded through the Alistair Harvey Foundation Scholarship to complete BEng/MSc degrees.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
