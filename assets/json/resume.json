@@ -25,8 +25,8 @@
   "work": [
      {
       "name": "Work Authorization",
-      "icon": "fa-solid fa-person-circle-check",
-      "summary": "Eligible to work in the UK without visa sponsorship."
+      "position": "Eligible to work in the UK without visa sponsorship.",
+      "icon": "fa-solid fa-person-circle-check"
     },
     {
       "name": "Wong & Ouyang (Building Services) Ltd.",
