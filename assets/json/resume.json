@@ -23,6 +23,11 @@
     ]
   },
   "work": [
+     {
+      "title": "Work Authorization",
+      "summary": "Eligible to work in the UK without visa sponsorship.",
+      "icon": "fa-solid fa-person-circle-check"
+    },
     {
       "name": "Wong & Ouyang (Building Services) Ltd.",
       "position": "Internship Trainee",
@@ -122,22 +127,26 @@
   "skills": [
     {
       "name": "Technical Design",
-      "keywords": ["AutoCAD", "BIM (Revit)", "Dialux", "Hevacomp", "IES VE ModelIT"]
+      "keywords": ["AutoCAD", "BIM (Revit)", "Dialux", "Hevacomp", "IES VE ModelIT"],
+      "icon": "fa-solid fa-house-laptop"
     },
     {
       "name": "Systems Expertise",
-      "keywords": ["HVAC Design", "Fire Safety Systems", "Pipe & Drainage Design", "Building Performance Modeling", "Energy Assessment"]
+      "keywords": ["HVAC Design", "Fire Safety Systems", "Pipe & Drainage Design", "Building Performance Modeling", "Energy Assessment"],
+      "icon": "fa-solid fa-computer"
     },
     {
       "name": "Programming & Automation",
-      "keywords": ["Raspberry Pi", "Arduino", "Smart Home Technology (TensorFlow, OpenCV)"]
+      "keywords": ["Raspberry Pi", "Arduino", "Smart Home Technology (TensorFlow, OpenCV)"],
+      "icon": "fa-solid fa-robot"
     }
  ],
   "certificates": [
     {
       "name": "CIC Green Card",
       "date": "2021-01",
-      "issuer": "HKSAR Industry Council"
+      "issuer": "HKSAR Industry Council",
+      "icon": "fa-solid fa-id-card-clip"
     }
   ],
    "interests": [
@@ -149,21 +158,19 @@
     {
       "name": "Technology & Automation",
       "keywords": ["IoT in Building Services", "AI for Predictive Maintenance", "Building Information Modeling (BIM)"],
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-wrench"
     },
     {
       "name": "Professional Development",
       "keywords": ["Engineering Leadership", "STEM Outreach", "Technical Writing"],
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-chalkboard-user"
     }
   ],
   "references": [
     {
       "name": "Dr Ing Liang Wong",
-      "position": "Programme Leader of BEng (Hons) Building Services Engineering",
-      "organization": "Glasgow Caledonian University",
-      "title": "Senior Lecturer in Sustainable Design and Construction",
-      "department": "Department of Civil, Engineering and Environmental Management"
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Programme Leader, Senior Lecturer in Sustainable Design and Construction, Department of Civil Engineering and Environmental Management, Glasgow Caledonian University, UK."
     }
   ]
 }
