@@ -104,15 +104,18 @@
   "interests": [
     {
       "name": "Sustainable Engineering",
-      "keywords": ["Green Building Design", "Energy-Efficient HVAC", "Smart Cities"]
+      "keywords": ["Green Building Design", "Energy-Efficient HVAC", "Smart Cities"],
+      "icon": "<i class="fa-solid fa-tree-city"></i>"
     },
     {
       "name": "Technology & Automation",
-      "keywords": ["IoT in Building Services", "AI for Predictive Maintenance", "Building Information Modeling (BIM)"]
+      "keywords": ["IoT in Building Services", "AI for Predictive Maintenance", "Building Information Modeling (BIM)"],
+      "icon": "fa-solid fa-location-dot"
     },
     {
       "name": "Professional Development",
-      "keywords": ["Engineering Leadership", "STEM Outreach", "Technical Writing"]
+      "keywords": ["Engineering Leadership", "STEM Outreach", "Technical Writing"],
+      "icon": "fa-solid fa-location-dot"
     }
   ],
   "certificates": [
