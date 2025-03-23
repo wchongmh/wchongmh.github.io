@@ -1,6 +1,6 @@
 ---
 title: "Media Coverage"
-permalink: /coverage/
+permalink: /media-coverage/
 layout: page
 ---
 
