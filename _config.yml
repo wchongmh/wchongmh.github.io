@@ -152,6 +152,9 @@ collections:
     output: true
   projects:
     output: true
+  pages:
+    output: true
+    permalink: /:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
