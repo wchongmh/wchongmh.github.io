@@ -24,7 +24,7 @@
   },
   "work": [
      {
-      "name": " ✅ Eligible to work in the UK without visa sponsorship.",
+      "name": " ☑ Eligible to work in the UK without visa sponsorship.",
       "position": "Work Authorization",
       "location": "UK",
       "icon": "fa-solid fa-person-circle-check"
@@ -85,6 +85,7 @@
       { "name": "Sky Post", "url": "https://skypost.ulifestyle.com.hk/article/3306096" },
       { "name": "Oriental Daily", "url": "https://orientaldaily.on.cc" },
       { "name": "Line Today", "url": "https://today.line.me/hk/v2/article/yzLgJ2o" } 
+    ] }
   ],
   "volunteer": [
     {
