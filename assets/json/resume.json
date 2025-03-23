@@ -24,8 +24,9 @@
   },
   "work": [
      {
-      "name": "Work Authorization",
-      "position": "Eligible to work in the UK without visa sponsorship.",
+      "name": " ✅ Eligible to work in the UK without visa sponsorship.",
+      "position": "Work Authorization",
+      "location": "UK",
       "icon": "fa-solid fa-person-circle-check"
     },
     {
@@ -79,6 +80,11 @@
     { "title": "HKIE BSD Outstanding Student Award", "date": "2022-05", "awarder": "The Hong Kong Institution of Engineers", "summary": "Awarded to the top 5% of students excelling in Building Services Engineering." },
     { "title": "Endeavour Merit Award", "date": "2022-01", "awarder": "The HKSAR Government", "summary": "Awarded for academic distinction and contributions to student leadership and professional development." },
     { "title": "HKSAR Government Scholarship", "date": "2021-06", "awarder": "The HKSAR Government", "summary": "Prestigious government scholarship recognizing academic excellence and commitment to engineering." }
+    { "title": "Featured in Media", "date": "2022-07", "awarder": "Various News Outlets", "summary": "Recognized in multiple Hong Kong media outlets for receiving the Alistair Harvey Foundation Scholarship and pursuing further studies in the UK.", "links": [
+      { "name": "HK01 News", "url": "https://www.hk01.com/18區新聞/794031" },
+      { "name": "Sky Post", "url": "https://skypost.ulifestyle.com.hk/article/3306096" },
+      { "name": "Oriental Daily", "url": "https://orientaldaily.on.cc" },
+      { "name": "Line Today", "url": "https://today.line.me/hk/v2/article/yzLgJ2o" } 
   ],
   "volunteer": [
     {
@@ -165,6 +171,11 @@
       "keywords": ["Engineering Leadership", "STEM Outreach", "Technical Writing"],
       "icon": "fa-solid fa-chalkboard-user"
     }
+  ],
+  "languages": [
+    { "language": "Cantonese", "fluency": "Native", "icon": "fa-solid fa-language" },
+    { "language": "English", "fluency": "Fluent", "icon": "fa-solid fa-language" },
+    { "language": "Putonghua", "fluency": "Fluent", "icon": "fa-solid fa-language" }
   ],
   "references": [
     {
