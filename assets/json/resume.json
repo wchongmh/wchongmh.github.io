@@ -33,6 +33,7 @@
       "name": "Wong & Ouyang (Building Services) Ltd.",
       "position": "Internship Trainee",
       "location": "Hong Kong",
+      "url": "http://www.wobse.com/en/about",
       "startDate": "2022-01",
       "endDate": "2022-04",
       "summary": "Contributed to the design and optimization of building services for a large-scale public housing project, focusing on sustainable and cost-efficient engineering solutions.",
@@ -74,8 +75,13 @@
     }
   ],
   "awards": [
-    { "title": "GCU SCEBE Prize", "date": "2023-10", "awarder": "Clancy Consulting", "summary": "Awarded for outstanding academic achievement in Building Services Engineering." },
-    { "title": "Alistair Harvey Foundation Scholarship", "date": "2022-07", "awarder": "Alistair Harvey Foundation", "summary": "Full scholarship covering undergraduate and postgraduate studies in the UK, recognizing academic excellence and leadership potential." },
+    { "title": "GCU SCEBE Prize",
+      "date": "2023-10",
+      "awarder": "Clancy Consulting",
+      "url": "https://www.gcu.ac.uk/aboutgcu/academicschools/cebe/aboutus/studentprizegiving",
+      "summary": "Awarded for outstanding academic achievement in Building Services Engineering." },
+    { "title": "Alistair Harvey Foundation Scholarship",
+      "date": "2022-07", "awarder": "Alistair Harvey Foundation", "summary": "Full scholarship covering undergraduate and postgraduate studies in the UK, recognizing academic excellence and leadership potential." },
     { "title": "The HKIE Prize for Outstanding Engineering Student", "date": "2022-06", "awarder": "The Hong Kong Institution of Engineers", "summary": "Recognized for exceptional performance and contributions to the field of engineering in Hong Kong." },
     { "title": "HKIE BSD Outstanding Student Award", "date": "2022-05", "awarder": "The Hong Kong Institution of Engineers", "summary": "Awarded to the top 5% of students excelling in Building Services Engineering." },
     { "title": "Endeavour Merit Award", "date": "2022-01", "awarder": "The HKSAR Government", "summary": "Awarded for academic distinction and contributions to student leadership and professional development." },
