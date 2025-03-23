@@ -88,11 +88,28 @@
     { "title": "The HKIE Prize for Outstanding Engineering Student",
       "date": "2022-06",
       "awarder": "The Hong Kong Institution of Engineers",
+      "url": "https://www.gcu.ac.uk/aboutgcu/academicschools/cebe/aboutus/studentprizegiving",
       "summary": "Recognized for exceptional performance and contributions to the field of engineering in Hong Kong." },
-    { "title": "HKIE BSD Outstanding Student Award", "date": "2022-05", "awarder": "The Hong Kong Institution of Engineers", "summary": "Awarded to the top 5% of students excelling in Building Services Engineering." },
-    { "title": "Endeavour Merit Award", "date": "2022-01", "awarder": "The HKSAR Government", "summary": "Awarded for academic distinction and contributions to student leadership and professional development." },
-    { "title": "HKSAR Government Scholarship", "date": "2021-06", "awarder": "The HKSAR Government", "summary": "Prestigious government scholarship recognizing academic excellence and commitment to engineering." },
-    { "title": "Featured in Media", "date": "In the News", "awarder": "Various News Outlets", "summary": "Recognized in multiple Hong Kong media outlets for receiving the Alistair Harvey Foundation Scholarship and pursuing further studies in the UK.", "highlights": [
+    { "title": "HKIE BSD Outstanding Student Award",
+      "date": "2022-05",
+      "awarder": "The Hong Kong Institution of Engineers",
+      "url": "https://www.gcu.ac.uk/aboutgcu/academicschools/cebe/aboutus/studentprizegiving",
+      "summary": "Awarded to the top 5% of students excelling in Building Services Engineering." },
+    { "title": "Endeavour Merit Award",
+      "date": "2022-01",
+      "awarder": "The HKSAR Government",
+      "url": "https://www.gcu.ac.uk/aboutgcu/academicschools/cebe/aboutus/studentprizegiving",
+      "summary": "Awarded for academic distinction and contributions to student leadership and professional development." },
+    { "title": "HKSAR Government Scholarship",
+      "date": "2021-06",
+      "awarder": "The HKSAR Government",
+      "url": "https://www.gcu.ac.uk/aboutgcu/academicschools/cebe/aboutus/studentprizegiving",
+      "summary": "Prestigious government scholarship recognizing academic excellence and commitment to engineering." },
+    { "title": "Featured in Media",
+      "date": "In the News",
+      "awarder": "Various News Outlets",
+      "icon": "fa-solid fa-newspaper"
+      "summary": "Recognized in multiple Hong Kong media outlets for receiving the Alistair Harvey Foundation Scholarship and pursuing further studies in the UK.", "highlights": [
       "Interviewed by major news platforms about academic achievements and future aspirations.",
       "Showcased in multiple reports as an exemplary scholarship recipient."
     ], "links": [
