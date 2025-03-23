@@ -405,7 +405,52 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "pages-page-not-found",
+          title: 'Page not found',
+          description: "Looks like there has been a mistake. Nothing exists here.",
+          section: "Pages",handler: () => {
+              window.location.href = "/404.html";
+            },},{id: "pages-about",
+          title: 'about',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/";
+            },},{id: "pages-blog",
+          title: 'blog',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/blog/";
+            },},{id: "pages-bookshelf",
+          title: 'bookshelf',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/books/";
+            },},{id: "pages-media-coverage",
+          title: 'Media Coverage',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/coverage/";
+            },},{id: "pages-cv",
+          title: 'cv',
+          description: "Award-winning UK Engineering graduate with a strong technical foundation and leadership acumen, specializing in innovative building services solutions. Recognized with the SCEBE Prize for top academic performance and fully funded through the Alistair Harvey Foundation Scholarship to complete BEng/MSc degrees.",
+          section: "Pages",handler: () => {
+              window.location.href = "/cv/";
+            },},{id: "pages-news",
+          title: 'news',
+          description: "",
+          section: "Pages",handler: () => {
+              window.location.href = "/news/";
+            },},{id: "pages-projects",
+          title: 'projects',
+          description: "A growing collection of your cool projects.",
+          section: "Pages",handler: () => {
+              window.location.href = "/projects/";
+            },},{id: "pages-teaching",
+          title: 'teaching',
+          description: "Materials for courses you taught. Replace this text with your description.",
+          section: "Pages",handler: () => {
+              window.location.href = "/teaching/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
