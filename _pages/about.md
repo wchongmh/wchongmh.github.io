@@ -13,7 +13,7 @@ profile:
     <p>📍 SCT | UK | HKG</p>
     <p>🎓 Engineering Graduate</p>
     <p>🛠️ Building Services Engineer </p>
-    <p>🏆 Scholarship Recipient</p>
+    <p>🏅 Scholarship Recipient</p>
     <p>🌟 Award-Winning Leader</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
