@@ -31,7 +31,7 @@ latest_posts:
 ---
 
 ### Building the Future, Sustainably  
-As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated [**ranked first in my cohort**](https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment) and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html). 
+As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated with [**first place in my third-year cohort**](https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment) and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html). 
 
 With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
 
@@ -39,7 +39,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-## 📌 Professional Journey  
+## Professional Journey 📌  
 
 #### 🎓 Academic Excellence & Research  
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
@@ -83,7 +83,7 @@ Beyond technical work, I have actively contributed to the engineering community 
 
 ---
 
-## 🌱 Commitment to Sustainable Engineering & Innovation  
+## Commitment to Sustainable Engineering & Innovation 🌱
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
 1️⃣ **Passive Design First** ✏️ : Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br>
@@ -98,7 +98,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 
 ---
 
-## 🔍 Looking Ahead  
+## Looking Ahead 🔍
 
 #### 🎯 Future Goals
 
@@ -112,7 +112,7 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
 
 ---
 
-### 📬 **Let’s Connect!**   
+### **Let’s Connect!** 📬  
 📧 **Email:** [wchongmh@gmail.com](mailto:wchongmh@gmail.com) <br>
 💼 **LinkedIn:** [wchongmh](https://linkedin.com/in/wchongmh/)
 
