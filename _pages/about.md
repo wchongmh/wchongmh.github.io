@@ -35,14 +35,46 @@ As a **Building Services Engineer**, I specialize in integrating **sustainabilit
 
 With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
 
-I am always eager to collaborate on **innovative projects** that push the boundaries of **smart and sustainable engineering**. Let's build the future together!" 
+I am always eager to collaborate on **innovative projects** that push the boundaries of **smart and sustainable engineering**. Let's build the future together ! 
 
 ---
 
-#### 🔧 Technical Leadership  
-- **Optimized 1,200+ Public Housing Units** at Wong & Ouyang (BSE) Ltd. using BIM clash detection, achieving **12% material savings** while ensuring BEAM Plus Gold compliance.  
-- **Pioneered Smart HVAC Prototypes** using Raspberry Pi and TensorFlow to predict maintenance needs, reducing system downtime by **18%** in simulations.  
-- **Authored Award-Winning Research** on rooftop renewable energy feasibility, demonstrating **25% carbon reduction potential** for university campuses.  
+## 📌 Professional Journey  
+
+### 🎓 Academic Excellence & Research  
+I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:  
+
+✔ **GCU SCEBE Prize Winner**
+✔ **Alistair Harvey Foundation Scholarship (Full Sponsorship)**
+✔ **The HKIE Prize for Outstanding Engineering Student**
+✔ **HKIE BSD Outstanding Student Award**
+✔ **Endeavour Merit Award**
+✔ **HKSAR Government Scholarship**
+
+My research interests focus on **renewable energy integration and smart building automation**, with my undergraduate thesis analyzing the **development potential of rooftop photovoltaic systems** on university campuses.  
+
+### 🏗️ Industry Impact & Innovation  
+During my time at **Wong & Ouyang (Building Services) Ltd.**, I contributed to the **Fanling North Public Rental Housing** project, where I leveraged **BIM-driven clash detection** to optimize water supply networks, achieving a **12% material cost reduction** while ensuring compliance with **BEAM Plus Gold standards**.  
+
+Additionally, I have developed **predictive maintenance models** for **HVAC automation** using **TensorFlow and OpenCV**, demonstrating my ability to integrate **IoT and AI** into **building services engineering**.  
+
+### 🌍 Leadership & Community Engagement  
+Beyond technical work, I have actively contributed to the engineering community, serving as:  
+
+✔ **Chairman of IVE Morrison Hill Engineering Society** – Modernized the curriculum by integrating **BIM and AI applications**.  
+✔ **External Vice President of ASHRAE IVE Student Branch** – Organized high-impact technical talks and site visits, increasing student engagement by **40%**.  
+✔ **Committee Member of HKIE BSE Student Liaison Group** – Bridged industry and academia to promote emerging trends in **sustainable engineering**.  
+✔ **President of the Finance Committee (48th Students’ Union Council)** – Managed an annual budget exceeding **HKD 50,000**, leading strategic financial initiatives.  
+
+---
+
+## 🔧 Technical Expertise  
+- **BIM & Building Simulation**: AutoCAD, Revit, IES VE, Hevacomp  
+- **Lighting & HVAC Modeling**: Dialux, ASHRAE standards, CIBSE guidelines  
+- **IoT & Smart Systems**: Raspberry Pi, Arduino, Python, TensorFlow  
+- **Fire Safety & Drainage Design**: NFPA standards, pipe network simulation  
+
+---
 
 #### 🏆 Honors & Impact  
 - **Alistair Harvey Scholar** | **SCEBE Prize Winner** | **HKIE Outstanding Student**  
@@ -59,14 +91,10 @@ Diagnosed with dyslexia and ADHD, I’ve transformed neurodiversity into a super
 
 ---
 
-### Next Chapter  
-**Goal**: Attain Chartered Engineer status (CEng MCIBSE) by 2028.  
-**Path**:  
-- Join a **Graduate Training Scheme** to master fire safety, HVAC, and energy modeling.  
-- Publish research on **AI-driven building analytics** in journals like *Building and Environment*.  
-- Mentor neurodiverse students pursuing STEM careers.  
+### 🎯 Future Aspirations  
+I am committed to **sustainable building innovation**, integrating **AI, IoT, and renewable energy solutions** to push the boundaries of traditional engineering. My goal is to achieve **Chartered Engineer status** within the next five years, continuing my professional journey through rigorous **on-the-job training, research, and practical implementation**.  
 
-Let’s connect to redefine what buildings can achieve:  
+Fluent in **English, Mandarin, and Cantonese**, and **eligible to work in the UK without visa sponsorship**, I am ready to contribute my skills to global engineering challenges.  
+
+Let’s collaborate and shape the future of building services together! 🚀  
 📧 [wchongmh@gmail.com](mailto:wchongmh@gmail.com) | 💼 [LinkedIn](https://linkedin.com/in/wchongmh/)  
-🇬🇧 **UK Work Rights**: With Right to Work without Sponsorship (No Sponsorship Required)  
-🗣️ **Languages**: Native Cantonese | Fluent English & Mandarin  
