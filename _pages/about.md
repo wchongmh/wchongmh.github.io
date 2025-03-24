@@ -44,12 +44,12 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 #### 🎓 Academic Excellence & Research  
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
-✔ **GCU SCEBE Prize Winner** 🏆
-✔ **Alistair Harvey Foundation Scholarship (Full Sponsorship)** 🏆
-✔ **The HKIE Prize for Outstanding Engineering Student** 🏆
-✔ **HKIE BSD Outstanding Student Award** 🏆
-✔ **Endeavour Merit Award** 🏆
-✔ **HKSAR Government Scholarship** 🏆
+✔ **GCU SCEBE Prize Winner** - 🏆
+✔ **Alistair Harvey Foundation Scholarship (Full Sponsorship)** - 🏆
+✔ **The HKIE Prize for Outstanding Engineering Student** - 🏆
+✔ **HKIE BSD Outstanding Student Award** - 🏆
+✔ **Endeavour Merit Award** - 🏆
+✔ **HKSAR Government Scholarship** - 🏆
 
 My research interests focus on **renewable energy integration and smart building automation**, with my undergraduate thesis analyzing the **development potential of rooftop photovoltaic systems** on university campuses.  
 
