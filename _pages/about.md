@@ -93,19 +93,20 @@ This hands-on experience reinforced my ability to **integrate advanced engineeri
 Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
 
 #### **Chairman | IVE Morrison Hill Engineering Society (2021-2022)**  
-✔ Led **industry seminars on sustainable construction**, engaging **100+ students**  
-✔ Advocated curriculum enhancements integrating **BIM & AI applications**  
-- Led **IVE’s Engineering Society** to revamp curricula with BIM/AI training, preparing 150+ students for Industry 4.0 challenges.
+✔ Led **industry seminars** on sustainable construction, engaging **100+ students**  
+✔ Advocated **curriculum enhancements**, integrating **BIM & AI applications**  
+✔ Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0**  
 
 #### **External Vice President | ASHRAE IVE Student Branch (2020-2022)**  
-✔ Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%**
-- Spearheaded ASHRAE technical talks on CIBSE TM52 thermal comfort models, boosting student engagement by **40%**.  
+✔ Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%**  
+✔ Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**, deepening understanding of adaptive thermal comfort
 
 #### **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
-✔ Hosted **technical talks with 150+ attendees**, featuring engineers from **top firms**  
+✔ Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees**  
 
 #### **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
-✔ Oversaw an **annual budget of HKD 50,000+** and coordinated **high-impact student initiatives**  
+✔ Managed an **annual budget exceeding HKD 50,000**  
+✔ Coordinated **high-impact student initiatives**, ensuring financial sustainability and strategic resource allocation
 
 ---
 
