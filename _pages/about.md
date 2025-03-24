@@ -43,7 +43,6 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 #### 🎓 Academic Excellence & Research  
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
-
 🏆 **GCU SCEBE Prize Winner**
 🏆 **Alistair Harvey Foundation Scholarship (Full Sponsorship)**
 🏆 **The HKIE Prize for Outstanding Engineering Student**
