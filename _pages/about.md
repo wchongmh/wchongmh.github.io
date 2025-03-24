@@ -36,6 +36,7 @@ As a **Building Services Engineer**, I specialize in integrating **sustainabilit
 With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
 
 I am always eager to collaborate on **innovative projects** that push the boundaries of **smart and sustainable engineering**. Let's build the future together!" 
+
 ---
 
 #### 🔧 Technical Leadership  
