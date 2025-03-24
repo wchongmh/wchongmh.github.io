@@ -59,11 +59,26 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---  
 
+#### 🏗️ Industry Experience  
+
+**Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022, Hong Kong)*  
+
+**Project:** *Public Rental Housing Phase 1, Fanling North Area 15 East (1,200+ units), Hong Kong*  
+
+**Key Contributions:**  
+✔ **Optimized water supply networks** using **BIM clash detection**, achieving **12% material savings**  
+✔ Coordinated **installation of 50+ pumps and tanks**, **accelerating commissioning by 8 days**  
+✔ Developed **technical documentation**, ensuring **100% compliance with Hong Kong safety regulations**  
+
+This hands-on experience strengthened my ability to **apply advanced engineering tools in large-scale projects**, balancing **technical precision with practical implementation** to drive efficiency and compliance.  
+
+---  
+
 #### 🏗️ Industry Experience
 
-**Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022)*  
+**Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022, Hong Kong)*  
 
-**Project:** *Public Rental Housing Phase 1 at Fanling North Area 15 East (1,200+ units)*  
+**Project:** *Public Rental Housing Phase 1 at Fanling North Area 15 East (1,200+ units), Hong Kong*  
 
 **Key Contributions:**  
 ✔ **Re-engineered water supply networks** using **BIM**, reducing material costs by **12%**  
@@ -77,14 +92,14 @@ This hands-on experience reinforced my ability to **integrate advanced engineeri
 ## Technical Skills 🔧 
 
 #### **Software & Design**  
-✔ **AutoCAD, Revit (BIM), Dialux, Hevacomp, IES VE (ModelIT)**  
+- **AutoCAD, Revit (BIM), Dialux, Hevacomp, IES VE (ModelIT)**  
 
 #### **Building Systems**  
-✔ **HVAC Design, Fire Safety Systems, Pipe & Drainage Design**  
-✔ **Building Performance Modeling & Energy Assessment**  
+- **HVAC Design, Fire Safety Systems, Pipe & Drainage Design**  
+- **Building Performance Modeling & Energy Assessment**  
 
 #### **Automation & Programming**  
-✔ **Raspberry Pi, Arduino, Smart Home Technology (TensorFlow, OpenCV)**  
+- **Raspberry Pi, Arduino, Smart Home Technology (TensorFlow, OpenCV)**  
 
 ---
 
