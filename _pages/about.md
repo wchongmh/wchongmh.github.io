@@ -60,32 +60,19 @@ These research projects reflect my **commitment to sustainability and efficiency
 ---  
 
 #### 🏗️ Industry Experience  
-
-**Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022, Hong Kong)*  
+**Building Services Engineering Intern**  
+**Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022, Hong Kong)*  
 
 **Project:** *Public Rental Housing Phase 1, Fanling North Area 15 East (1,200+ units), Hong Kong*  
 
-**Key Contributions:**  
-✔ **Optimized water supply networks** using **BIM clash detection**, achieving **12% material savings**  
-✔ Coordinated **installation of 50+ pumps and tanks**, **accelerating commissioning by 8 days**  
-✔ Developed **technical documentation**, ensuring **100% compliance with Hong Kong safety regulations**  
+**Key Contributions**:  
+- **BIM-Driven Optimization**: Redesigned water supply networks via Revit clash detection, **reducing material waste by 12%** while maintaining HK Building Code compliance.  
+- **Commissioning Efficiency**: Spearheaded installation of 50+ WHO-compliant low-noise pumps, **shortening commissioning timelines by 8 days** through real-time contractor coordination.  
+- **Safety Documentation**: Authored 30+ technical submittals for fire safety and drainage systems, achieving **100% regulatory approval** on first submission.  
 
-This hands-on experience strengthened my ability to **apply advanced engineering tools in large-scale projects**, balancing **technical precision with practical implementation** to drive efficiency and compliance.  
+**Tools Used**: *Revit BIM , AutoCAD and BEAM Plus Guidelines*    
 
----  
-
-#### 🏗️ Industry Experience
-
-**Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022, Hong Kong)*  
-
-**Project:** *Public Rental Housing Phase 1 at Fanling North Area 15 East (1,200+ units), Hong Kong*  
-
-**Key Contributions:**  
-✔ **Re-engineered water supply networks** using **BIM**, reducing material costs by **12%**  
-✔ Coordinated **installation of 50+ pumps and tanks**, **accelerating commissioning by 8 days**  
-✔ Ensured **100% compliance with HK safety standards** through detailed technical documentation  
-
-This hands-on experience reinforced my ability to **integrate advanced engineering tools with real-world project management**, effectively balancing **technical accuracy with practical implementation**.  
+*This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong’s high-density urban constraints.*  
 
 ---
 
