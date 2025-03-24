@@ -63,9 +63,9 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 **Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022)*  
 
-🏗 **Project:** *Public Rental Housing Phase 1 at Fanling North Area 15 East (1,200+ units)*  
+**Project:** *Public Rental Housing Phase 1 at Fanling North Area 15 East (1,200+ units)*  
 
-🚀 **Key Contributions:**  
+**Key Contributions:**  
 ✔ **Re-engineered water supply networks** using **BIM**, reducing material costs by **12%**  
 ✔ Coordinated **installation of 50+ pumps and tanks**, **accelerating commissioning by 8 days**  
 ✔ Ensured **100% compliance with HK safety standards** through detailed technical documentation  
@@ -74,7 +74,7 @@ This hands-on experience reinforced my ability to **integrate advanced engineeri
 
 ---
 
-## 🛠 Technical Skills 🔧 
+## Technical Skills 🔧 
 
 #### **Software & Design**  
 ✔ **AutoCAD, Revit (BIM), Dialux, Hevacomp, IES VE (ModelIT)**  
@@ -112,13 +112,9 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
 ## Commitment to Sustainable Engineering & Innovation 🌱
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
-1. **Passive Design First**: Prioritizing natural ventilation and daylighting.  
-2. **Active Efficiency**: Deploying IoT-driven systems for real-time energy optimization.  
-3. **Renewable Integration**: Advocating for photovoltaic retrofits in high-density urban areas.  
-
-1️. **Passive Design First** ✏ : Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br>
-2️. **Active Efficiency** : Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br>
-3️. **Renewable Integration** : Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>
+1. **Passive Design First**: Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br> 
+2. **Active Efficiency**: Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br> 
+3. **Renewable Integration**: Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>  
 
 Whether assessing **rooftop renewable energy applications**, **optimizing drainage layouts**, or **developing AI-driven HVAC controls**, I strive to **reduce environmental impact** while enhancing **functionality and efficiency**.    
 
