@@ -44,12 +44,12 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 #### 🎓 Academic Excellence & Research  
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
-🏆 - **GCU SCEBE Prize Winner** <br>
-🏆 - **Alistair Harvey Foundation Scholarship (Full Sponsorship)** <br>
-🏆 - **The HKIE Prize for Outstanding Engineering Student** <br>
-🏆 - **HKIE BSD Outstanding Student Award** <br>
-🏆 - **Endeavour Merit Award** <br>
-🏆 - **HKSAR Government Scholarship** <br>
+✔ **GCU SCEBE Prize Winner** 🏆 <br>
+✔ **Alistair Harvey Foundation Scholarship (Full Sponsorship)** 🏆 <br>
+✔ **The HKIE Prize for Outstanding Engineering Student** 🏆 <br>
+✔ **HKIE BSD Outstanding Student Award** 🏆 <br>
+✔ **Endeavour Merit Award** 🏆 <br>
+✔ **HKSAR Government Scholarship** 🏆 <br>
 
 My research interests focus on **renewable energy integration and smart building automation**, with my undergraduate thesis analyzing the **development potential of rooftop photovoltaic systems** on university campuses.  
 
@@ -84,10 +84,11 @@ Beyond technical work, I have actively contributed to the engineering community 
 ---
 
 ## 🌱 Commitment to Sustainable Engineering & Innovation  
-I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:  
-1️⃣ **Passive Design First** : Climate-responsive architecture. (Prioritizing natural ventilation and daylighting.）
-2️⃣ **Active Efficiency** : Deploying IoT-driven systems for real-time energy optimization. (Optimized HVAC & energy-efficient systems)
-3️⃣ **Renewable Integration** : Smart grids & photovoltaic applications. (Advocating for photovoltaic retrofits in high-density urban areas.)
+I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
+
+1️⃣ **Passive Design First** : Climate-responsive architecture. (Prioritizing natural ventilation and daylighting.）<br>
+2️⃣ **Active Efficiency** : Deploying IoT-driven systems for real-time energy optimization. (Optimized HVAC & energy-efficient systems) <br>
+3️⃣ **Renewable Integration** : Smart grids & photovoltaic applications. (Advocating for photovoltaic retrofits in high-density urban areas.) <br>
 
 Whether assessing **rooftop renewable energy applications**, **optimizing drainage layouts**, or **developing AI-driven HVAC controls**, I strive to **reduce environmental impact** while enhancing **functionality and efficiency**.    
 
