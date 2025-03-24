@@ -41,7 +41,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ## 📌 Professional Journey  
 
-   #### 🎓 Academic Excellence & Research  
+#### 🎓 Academic Excellence & Research  
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
 🏆 - **GCU SCEBE Prize Winner**
@@ -50,15 +50,19 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 🏆 - **HKIE BSD Outstanding Student Award**
 🏆 - **Endeavour Merit Award**
 🏆 - **HKSAR Government Scholarship**
+- Line 1<br>Line 2
+- Line 1  
+  Line 2
+
 
 My research interests focus on **renewable energy integration and smart building automation**, with my undergraduate thesis analyzing the **development potential of rooftop photovoltaic systems** on university campuses.  
 
-   #### 🏗️ Industry Impact & Innovation  
+#### 🏗️ Industry Impact & Innovation  
 During my time at **Wong & Ouyang (Building Services) Ltd.**, I contributed to the **Fanling North Public Rental Housing** project, where I leveraged **BIM-driven clash detection** to optimize water supply networks, achieving a **12% material cost reduction** while ensuring compliance with **BEAM Plus Gold standards**.  
 
 Additionally, I have developed **predictive maintenance models** for **HVAC automation** using **TensorFlow and OpenCV**, demonstrating my ability to integrate **IoT and AI** into **building services engineering**.  
 
-   #### 🌍 Leadership & Community Engagement  
+#### 🌍 Leadership & Community Engagement  
 Beyond technical work, I have actively contributed to the engineering community and thrive in **leadership roles**, serving as:  
 
 ✔ **Chairman of IVE Morrison Hill Engineering Society** – Modernized the curriculum by integrating **BIM and AI applications**.  
