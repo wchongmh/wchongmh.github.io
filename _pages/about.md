@@ -44,12 +44,12 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 #### 🎓 Academic Excellence 
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
-🏆 **GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)** <br>
-🏆 **Alistair Harvey Foundation Scholarship (Full Sponsorship)** <br>
-🏆 **The HKIE Prize for Outstanding Engineering Student** <br>
-🏆 **HKIE BSD Outstanding Student Award** <br>
-🏆 **Endeavour Merit Award** <br>
-🏆 **HKSAR Government Scholarship** <br>
+- 🏆 **GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)** <br>
+- 🏆 **Alistair Harvey Foundation Scholarship (Full Sponsorship)** <br>
+- 🏆 **The HKIE Prize for Outstanding Engineering Student** <br>
+- 🏆 **HKIE BSD Outstanding Student Award** <br>
+- 🏆 **Endeavour Merit Award** <br>
+- 🏆 **HKSAR Government Scholarship** <br>
 
 #### 📖 Research Highlights
 - **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
@@ -95,20 +95,20 @@ These research projects reflect my **commitment to sustainability and efficiency
 Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
 
 #### **Chairman | IVE Morrison Hill Engineering Society (2021-2022)**  
-✔ Led **industry seminars** on sustainable construction, engaging **100+ students**  
-✔ Advocated **curriculum enhancements**, integrating **BIM & AI applications**  
-✔ Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0**  
+- Led **industry seminars** on sustainable construction, engaging **100+ students** ✔ 
+- Advocated **curriculum enhancements**, integrating **BIM & AI applications** ✔
+- Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0** ✔
 
 #### **External Vice President | ASHRAE IVE Student Branch (2020-2022)**  
-✔ Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%**  
-✔ Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**, deepening understanding of adaptive thermal comfort
+- Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%** ✔
+- Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**, deepening understanding of adaptive thermal comfort ✔
 
 #### **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
-✔ Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees**  
+- Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees** ✔ 
 
 #### **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
-✔ Managed an **annual budget exceeding HKD 50,000**  
-✔ Coordinated **high-impact student initiatives**, ensuring financial sustainability and strategic resource allocation
+- Managed an **annual budget exceeding HKD 50,000** ✔ 
+- Coordinated **high-impact student initiatives**, ensuring financial sustainability and strategic resource allocation ✔
 
 ---
 
