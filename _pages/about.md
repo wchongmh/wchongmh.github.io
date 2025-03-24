@@ -41,7 +41,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ## Professional Journey 📌  
 
-#### 🎓 Academic Excellence & Research  
+#### 🎓 Academic Excellence 
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
 🏆 **GCU SCEBE Prize Winner** (**Ranked #1** in my third-year cohort) <br>
@@ -51,7 +51,7 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 🏆 **Endeavour Merit Award** <br>
 🏆 **HKSAR Government Scholarship** <br>
 
-#### 📖 **Research Highlights**  
+#### 📖 Research Highlights
 - **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
 - **Undergraduate Thesis:** *Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in University Campuses*  
 
@@ -64,28 +64,53 @@ During my time at **Wong & Ouyang (Building Services) Ltd.**, I contributed to t
 
 Additionally, I have developed **predictive maintenance models** for **HVAC automation** using **TensorFlow and OpenCV**, demonstrating my ability to integrate **IoT and AI** into **building services engineering**.  
 
-#### 🌍 Leadership & Community Engagement  
-Beyond technical work, I have actively contributed to the engineering community and thrive in **leadership roles**, serving as:  
+#### 🏢 Professional Experience  
 
-✔ **Chairman of IVE Morrison Hill Engineering Society** – Modernized the curriculum by integrating **BIM and AI applications**.  
-✔ **External Vice President of ASHRAE IVE Student Branch** – Organized high-impact technical talks and site visits, increasing student engagement by **40%**.  
-✔ **Committee Member of HKIE BSE Student Liaison Group** – Bridged industry and academia to promote emerging trends in **sustainable engineering**.  
-✔ **President of the Finance Committee (48th Students’ Union Council)** – Managed an annual budget exceeding **HKD 50,000**, leading strategic financial initiatives.  
+**Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022)*  
 
----
+🏗 **Project:** *Public Rental Housing Phase 1 at Fanling North Area 15 East (1,200+ units)*  
 
-#### 🔧 Technical Expertise  
-- **BIM & Building Simulation**: AutoCAD, Revit, IES VE, Hevacomp  
-- **Lighting & HVAC Modeling**: Dialux, ASHRAE standards, CIBSE guidelines  
-- **IoT & Smart Systems**: Raspberry Pi, Arduino, Python, TensorFlow  
-- **Fire Safety & Drainage Design**: NFPA standards, pipe network simulation  
+🚀 **Key Contributions:**  
+✔ **Re-engineered water supply networks** using **BIM**, reducing material costs by **12%**  
+✔ Coordinated **installation of 50+ pumps and tanks**, **accelerating commissioning by 8 days**  
+✔ Ensured **100% compliance with HK safety standards** through detailed technical documentation  
+
+This hands-on experience reinforced my ability to **integrate advanced engineering tools with real-world project management**, effectively balancing **technical accuracy with practical implementation**.  
 
 ---
 
-#### 🏆 Honors & Impact  
-- **Alistair Harvey Scholar** | **SCEBE Prize Winner** | **HKIE Outstanding Student**  
-- Led **IVE’s Engineering Society** to revamp curricula with BIM/AI training, preparing 150+ students for Industry 4.0 challenges.  
+## 🛠 Technical Skills 🔧 
+
+#### **Software & Design**  
+✔ **AutoCAD, Revit (BIM), Dialux, Hevacomp, IES VE (ModelIT)**  
+
+#### **Building Systems**  
+✔ **HVAC Design, Fire Safety Systems, Pipe & Drainage Design**  
+✔ **Building Performance Modeling & Energy Assessment**  
+
+#### **Automation & Programming**  
+✔ **Raspberry Pi, Arduino, Smart Home Technology (TensorFlow, OpenCV)**  
+
+---
+
+## 🌍 Leadership & Advocacy  
+
+Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
+
+#### **Chairman | IVE Morrison Hill Engineering Society (2021-2022)**  
+✔ Led **industry seminars on sustainable construction**, engaging **100+ students**  
+✔ Advocated curriculum enhancements integrating **BIM & AI applications**  
+- Led **IVE’s Engineering Society** to revamp curricula with BIM/AI training, preparing 150+ students for Industry 4.0 challenges.
+
+#### **External Vice President | ASHRAE IVE Student Branch (2020-2022)**  
+✔ Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%**
 - Spearheaded ASHRAE technical talks on CIBSE TM52 thermal comfort models, boosting student engagement by **40%**.  
+
+#### **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
+✔ Hosted **technical talks with 150+ attendees**, featuring engineers from **top firms**  
+
+### **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
+✔ Oversaw an **annual budget of HKD 50,000+** and coordinated **high-impact student initiatives**  
 
 ---
 
