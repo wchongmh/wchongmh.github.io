@@ -112,6 +112,10 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
 ## Commitment to Sustainable Engineering & Innovation 🌱
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
+1. **Passive Design First**: Prioritizing natural ventilation and daylighting.  
+2. **Active Efficiency**: Deploying IoT-driven systems for real-time energy optimization.  
+3. **Renewable Integration**: Advocating for photovoltaic retrofits in high-density urban areas.  
+
 1️. **Passive Design First** ✏ : Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br>
 2️. **Active Efficiency** : Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br>
 3️. **Renewable Integration** : Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>
