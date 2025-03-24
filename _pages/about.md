@@ -44,7 +44,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 #### 🎓 Academic Excellence 
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
-🏆 **GCU SCEBE Prize Winner** (**Ranked #1** in my third-year cohort) <br>
+🏆 **GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)** <br>
 🏆 **Alistair Harvey Foundation Scholarship (Full Sponsorship)** <br>
 🏆 **The HKIE Prize for Outstanding Engineering Student** <br>
 🏆 **HKIE BSD Outstanding Student Award** <br>
@@ -59,12 +59,7 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---  
 
-#### 🏗️ Industry Impact & Innovation  
-During my time at **Wong & Ouyang (Building Services) Ltd.**, I contributed to the **Fanling North Public Rental Housing** project, where I leveraged **BIM-driven clash detection** to optimize water supply networks, achieving a **12% material cost reduction** while ensuring compliance with **BEAM Plus Gold standards**.  
-
-Additionally, I have developed **predictive maintenance models** for **HVAC automation** using **TensorFlow and OpenCV**, demonstrating my ability to integrate **IoT and AI** into **building services engineering**.  
-
-#### 🏢 Professional Experience  
+#### 🏗️ Industry Experience
 
 **Internship Trainee | Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022)*  
 
@@ -109,7 +104,7 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
 #### **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
 ✔ Hosted **technical talks with 150+ attendees**, featuring engineers from **top firms**  
 
-### **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
+#### **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
 ✔ Oversaw an **annual budget of HKD 50,000+** and coordinated **high-impact student initiatives**  
 
 ---
@@ -117,9 +112,9 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
 ## Commitment to Sustainable Engineering & Innovation 🌱
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
-1️⃣ **Passive Design First** ✏️ : Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br>
-2️⃣ **Active Efficiency** ⚡ : Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br>
-3️⃣ **Renewable Integration** 🔋 : Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>
+1️. **Passive Design First** ✏ : Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br>
+2️. **Active Efficiency** : Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br>
+3️. **Renewable Integration** : Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>
 
 Whether assessing **rooftop renewable energy applications**, **optimizing drainage layouts**, or **developing AI-driven HVAC controls**, I strive to **reduce environmental impact** while enhancing **functionality and efficiency**.    
 
