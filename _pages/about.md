@@ -44,14 +44,20 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 #### 🎓 Academic Excellence & Research  
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
-🏆 **GCU SCEBE Prize Winner** <br>
+🏆 **GCU SCEBE Prize Winner** (**Ranked #1** in my third-year cohort) <br>
 🏆 **Alistair Harvey Foundation Scholarship (Full Sponsorship)** <br>
 🏆 **The HKIE Prize for Outstanding Engineering Student** <br>
 🏆 **HKIE BSD Outstanding Student Award** <br>
 🏆 **Endeavour Merit Award** <br>
 🏆 **HKSAR Government Scholarship** <br>
 
-My research interests focus on **renewable energy integration and smart building automation**, with my undergraduate thesis analyzing the **development potential of rooftop photovoltaic systems** on university campuses.  
+#### 📖 **Research Highlights**  
+- **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
+- **Undergraduate Thesis:** *Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in University Campuses*  
+
+These research projects reflect my **commitment to sustainability and efficiency** in the built environment.  
+
+---  
 
 #### 🏗️ Industry Impact & Innovation  
 During my time at **Wong & Ouyang (Building Services) Ltd.**, I contributed to the **Fanling North Public Rental Housing** project, where I leveraged **BIM-driven clash detection** to optimize water supply networks, achieving a **12% material cost reduction** while ensuring compliance with **BEAM Plus Gold standards**.  
