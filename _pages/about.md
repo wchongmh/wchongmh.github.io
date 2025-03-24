@@ -90,7 +90,7 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---
 
-## 🌍 Leadership & Advocacy  
+## Leadership & Advocacy 🌍
 
 Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
 
