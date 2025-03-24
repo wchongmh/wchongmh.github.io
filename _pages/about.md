@@ -86,9 +86,9 @@ Beyond technical work, I have actively contributed to the engineering community 
 ## 🌱 Commitment to Sustainable Engineering & Innovation  
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
-1️⃣ **Passive Design First** : Climate-responsive architecture. (Prioritizing natural ventilation and daylighting.）<br>
-2️⃣ **Active Efficiency** : Deploying IoT-driven systems for real-time energy optimization. (Optimized HVAC & energy-efficient systems) <br>
-3️⃣ **Renewable Integration** : Smart grids & photovoltaic applications. (Advocating for photovoltaic retrofits in high-density urban areas.) <br>
+1️⃣ **Passive Design First** ✏️ : Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br>
+2️⃣ **Active Efficiency** ⚡ : Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br>
+3️⃣ **Renewable Integration** 🔋 : Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>
 
 Whether assessing **rooftop renewable energy applications**, **optimizing drainage layouts**, or **developing AI-driven HVAC controls**, I strive to **reduce environmental impact** while enhancing **functionality and efficiency**.    
 
@@ -113,7 +113,7 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
 ---
 
 ### 📬 **Let’s Connect!**   
-📧 **Email:** [wchongmh@gmail.com](mailto:wchongmh@gmail.com)
+📧 **Email:** [wchongmh@gmail.com](mailto:wchongmh@gmail.com) <br>
 💼 **LinkedIn:** [wchongmh](https://linkedin.com/in/wchongmh/)
 
 Let's build a **greener, smarter, and more efficient future** together! 🚀 
