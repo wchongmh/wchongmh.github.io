@@ -31,7 +31,7 @@ latest_posts:
 ---
 
 ### Building the Future, Sustainably  
-As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated [**ranked first in my cohort**]([https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment]) and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**]([https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html]). 
+As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated [**ranked first in my cohort**](https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment) and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html). 
 
 With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
 
