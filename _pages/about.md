@@ -10,9 +10,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📍 Scotland, UK / Hong KongEngineering Graduate</p>
-    <p>🌱 Open to Graduate Engineering Roles</p>
-    <p>🛠️Scholarship Recipient | Award-Winning Leader</p>
+    <p>📍 SCT | UK | HKG</p>
+    <p>🎓 Engineering Graduate</p>
+    <p>🛠️ Building Services Engineer </p>
+    <p>🏆 Scholarship Recipient</p>
+    <p>🌟 Award-Winning Leader</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
