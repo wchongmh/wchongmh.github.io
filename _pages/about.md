@@ -14,7 +14,7 @@ profile:
     <p>🎓 Engineering Graduate</p>
     <p>🛠️ Building Services Engineer </p>
     <p>🏅 Scholarship Recipient</p>
-    <p>🌟 Award-Winning Leader</p>
+    <p>🌟 AI, BIM & IoT in the Built Environment</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -31,8 +31,11 @@ latest_posts:
 ---
 
 ### Building the Future, Sustainably  
-I’m a **Chartered Engineer in Training** specializing in Building Services Engineering, driven by a mission to harmonize technical precision with poetic sustainability. Recognized as the **#1 ranked student** in my cohort at Glasgow Caledonian University and a recipient of the fully-funded [Alistair Harvey Foundation Scholarship]([https://example.com](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html)), I bridge cutting-edge tools (BIM, IoT, AI) with climate-responsive design to create smarter, greener built environments.
+As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated [**ranked first in my cohort**]([https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment]) and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**]([https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html]). 
 
+With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
+
+I am always eager to collaborate on **innovative projects** that push the boundaries of **smart and sustainable engineering**. Let's build the future together!" 
 ---
 
 #### 🔧 Technical Leadership  
