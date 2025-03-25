@@ -109,6 +109,31 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 <small>*Articles are in Chinese. [Google Translate](https://translate.google.com/) provides approximate English translations.*</small>
 
+## 📰 Media & Recognition
+
+My academic achievements and receipt of the **Alistair Harvey Foundation Scholarship** have been featured in several Hong Kong media outlets:&#8203;:contentReference[oaicite:2]{index=2}
+
+- **Hong Kong 01**  
+  :contentReference[oaicite:3]{index=3}  
+  :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+
+- **Sky Post**  
+  :contentReference[oaicite:7]{index=7}  
+  :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+
+- **Line Today**  
+  :contentReference[oaicite:11]{index=11}  
+  :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+
+- **Yahoo News**  
+  :contentReference[oaicite:15]{index=15}  
+  :contentReference[oaicite:16]{index=16} :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
+
+- **Oriental Daily News**  
+  :contentReference[oaicite:19]{index=19}  
+  :contentReference[oaicite:20]{index=20} :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
+
+
 #### 📖 Research Highlights
 - **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
 - **Undergraduate Thesis:** *Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in University Campuses*  
