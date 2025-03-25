@@ -56,21 +56,54 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 <small>*Selected press coverage of my scholarship journey (Chinese articles):*</small>  
 
 <div class="row">
-  <div class="col-sm-6 mt-3 mt-md-0">
-    <a href="/assets/pdf/press-1.pdf" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/press-1-thumbnail.jpg" alt="Ming Pao News Feature (2022)">
+  <!-- Hong Kong 01 -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/AHFS_News_Prove.pdf#page=1" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/hk01-thumb.jpg" alt="Hong Kong 01 Feature">
     </a>
-    <div class="caption">  
-      *Ming Pao*: "Alistair Harvey Scholar [Your Name] Aims to Redefine Sustainable Engineering" (2022)  
+    <div class="caption">
+      **"Engineering Beyond Gender Boundaries"**  
+      *Hong Kong 01 | Jul 2022*  
+      Featured for overcoming DSE setbacks to earn the Alistair Harvey Scholarship and championing gender equality in engineering.  
+      [Original Article](https://www.hk01.com/article/794031){:target="_blank"}
     </div>
   </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    <a href="/assets/pdf/press-2.pdf" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/press-2-thumbnail.jpg" alt="Hong Kong Economic Times Coverage (2022)">
+
+  <!-- Oriental Daily -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/AHFS_News_Prove.pdf#page=6" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/oriental-thumb.jpg" alt="Oriental Daily Feature">
     </a>
-    <div class="caption">  
-      *HKET*: "Local Student Earns Prestigious UK Scholarship for Green Building Innovation" (2022)  
+    <div class="caption">
+      **Top IVE Graduate's UK Ambitions**  
+      *Oriental Daily | Jul 2022*  
+      Highlighted as a model for vocational education success, with plans to bring smart city expertise back to Hong Kong's Northern Metropolis development.  
+      [Original Article](https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html){:target="_blank"}
     </div>
+  </div>
+
+  <!-- Sky Post -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/AHFS_News_Prove.pdf#page=7" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/skypost-thumb.jpg" alt="Sky Post Feature">
+    </a>
+    <div class="caption">
+      **From IVE to UK Smart Grids**  
+      *Sky Post | Jul 2022*  
+      Profiled for pioneering smart grid research at IVE and sustainable engineering aspirations.  
+      [Original Article](https://skypost.hk/article/3306096/){:target="_blank"}
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <!-- Additional Outlets -->
+  <div class="col-sm-12">
+    <h4>Additional Coverage</h4>
+    <ul>
+      <li><a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank">Line Today</a> - "13 IVE Scholars' Advice for DSE Students"</li>
+      <li><a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B-%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank">Yahoo News</a> - "Breaking STEM Stereotypes"</li>
+    </ul>
   </div>
 </div>
 
