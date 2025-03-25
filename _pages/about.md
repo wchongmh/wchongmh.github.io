@@ -51,6 +51,8 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
 
+<small>*Articles are in Chinese. [Google Translate](https://translate.google.com/) provides approximate English translations.*</small>
+
 #### 📖 Research Highlights
 - **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
 - **Undergraduate Thesis:** *Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in University Campuses*  
