@@ -51,8 +51,9 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
 
-### 📰 Media Recognition  
-<small>*Selected press coverage of my academic journey (Chinese articles):*</small>  
+#### 📰 Media Recognition
+My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
+<small>*Selected press coverage of my scholarship journey (Chinese articles):*</small>  
 
 <div class="row">
   <div class="col-sm-6 mt-3 mt-md-0">
@@ -72,6 +73,7 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
     </div>
   </div>
 </div>
+
 <small>*Articles are in Chinese. [Google Translate](https://translate.google.com/) provides approximate English translations.*</small>
 
 #### 📖 Research Highlights
