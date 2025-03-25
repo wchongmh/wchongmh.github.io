@@ -51,6 +51,27 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
 
+### 📰 Media Recognition  
+<small>*Selected press coverage of my academic journey (Chinese articles):*</small>  
+
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/pdf/press-1.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/press-1-thumbnail.jpg" alt="Ming Pao News Feature (2022)">
+    </a>
+    <div class="caption">  
+      *Ming Pao*: "Alistair Harvey Scholar [Your Name] Aims to Redefine Sustainable Engineering" (2022)  
+    </div>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/pdf/press-2.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/press-2-thumbnail.jpg" alt="Hong Kong Economic Times Coverage (2022)">
+    </a>
+    <div class="caption">  
+      *HKET*: "Local Student Earns Prestigious UK Scholarship for Green Building Innovation" (2022)  
+    </div>
+  </div>
+</div>
 <small>*Articles are in Chinese. [Google Translate](https://translate.google.com/) provides approximate English translations.*</small>
 
 #### 📖 Research Highlights
