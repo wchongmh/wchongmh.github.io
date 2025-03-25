@@ -109,30 +109,71 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 <small>*Articles are in Chinese. [Google Translate](https://translate.google.com/) provides approximate English translations.*</small>
 
-## 📰 Media & Recognition
+<div class="row">
+  <!-- Hong Kong 01 -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <a href="https://www.hk01.com/article/794031" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/hk01-thumb.jpg" alt="Hong Kong 01 Feature">
+    </a>
+    <div class="caption">
+      **Breaking Gender Barriers in Engineering**  
+      *Hong Kong 01 (2022)*: Featured for overcoming academic challenges and gender stereotypes through IVE's vocational education pathway, leading to full UK scholarship sponsorship.  
+      [Full Article ↗](https://www.hk01.com/article/794031)
+    </div>
+  </div>
 
-My academic achievements and receipt of the **Alistair Harvey Foundation Scholarship** have been featured in several Hong Kong media outlets:&#8203;:contentReference[oaicite:2]{index=2}
+  <!-- Oriental Daily -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/oriental-thumb.jpg" alt="Oriental Daily Feature">
+    </a>
+    <div class="caption">
+      **Pioneering Vocational Excellence**  
+      *Oriental Daily (Circulation 300K, 2022)*: Highlighted in print (A04) and online editions as a model for vocational education success in building services engineering.  
+      [Online Version ↗](https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html)
+    </div>
+  </div>
 
-- **Hong Kong 01**  
-  :contentReference[oaicite:3]{index=3}  
-  :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+  <!-- Sky Post -->
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <a href="https://skypost.hk/article/3306096" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/skypost-thumb.jpg" alt="Sky Post Feature">
+    </a>
+    <div class="caption">
+      **Sustainable Engineering Vision**  
+      *Sky Post (2022)*: Recognized for smart grid research and ambitions to implement UK-acquired knowledge in Hong Kong's Northern Metropolis development.  
+      [Full Article ↗](https://skypost.hk/article/3306096)
+    </div>
+  </div>
+</div>
 
-- **Sky Post**  
-  :contentReference[oaicite:7]{index=7}  
-  :contentReference[oaicite:8]{index=8} :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+<div class="row mt-4">
+  <!-- Line Today -->
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Career Development Advocacy</h5>
+        <p class="card-text">
+          *Line Today (2022)*: Quoted as advising DSE students to "pursue passion over convention" in STEM fields.  
+          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank">Read Feature ↗</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
-- **Line Today**  
-  :contentReference[oaicite:11]{index=11}  
-  :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
-
-- **Yahoo News**  
-  :contentReference[oaicite:15]{index=15}  
-  :contentReference[oaicite:16]{index=16} :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
-
-- **Oriental Daily News**  
-  :contentReference[oaicite:19]{index=19}  
-  :contentReference[oaicite:20]{index=20} :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
-
+  <!-- Yahoo News -->
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Industry Leadership</h5>
+        <p class="card-text">
+          *Yahoo News (2022)*: Highlighted as future leader in HK's engineering sector through innovative building services solutions.  
+          <a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B-%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank">Read Feature ↗</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 #### 📖 Research Highlights
 - **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
