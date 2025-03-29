@@ -51,6 +51,76 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
 
+####
+<div class="row">
+  <!-- Hong Kong 01 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Breaking Gender Barriers</strong><br>
+      <em>Hong Kong 01</em> | 2022
+    </div>
+  </div>
+
+  <!-- Oriental Daily (Print) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Front-Page Engineering Spotlight</strong><br>
+      <em>Oriental Daily</em> | 2022
+    </div>
+  </div>
+
+  <!-- ON.CC (Oriental Daily Web) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Digital Engineering Advocate</strong><br>
+      <em>ON.CC</em> | 2022
+    </div>
+  </div>
+
+  <!-- Sky Post -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Smart Energy Pioneer</strong><br>
+      <em>Sky Post</em> | 2022
+    </div>
+  </div>
+
+  <!-- Line Today -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Career Pathway Guidance</strong><br>
+      <em>Line Today</em> | 2022
+    </div>
+  </div>
+
+  <!-- Yahoo News -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Technical Systems Authority</strong><br>
+      <em>Yahoo News</em> | 2022
+    </div>
+  </div>
+</div>
+
+
 #### 📰 Media Recognition
 My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
 <small>*Selected press coverage of my scholarship journey (Chinese articles):*</small>  
