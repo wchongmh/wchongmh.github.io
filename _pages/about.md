@@ -50,6 +50,81 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **HKIE BSD Outstanding Student Award** <br>
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
+####
+
+<div class="row">
+  <!-- Oriental Daily (Print) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf#page=1" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Feature">
+    </a>
+    <div class="caption">
+      **Front-Page Engineering Spotlight**  
+      *Oriental Daily (Print, 2022)*: Featured in A04 section as top news story with 621-word coverage.  
+      [English Summary ↗](/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf)
+    </div>
+  </div>
+
+  <!-- ON.CC (Oriental Daily Website) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Digital Feature">
+    </a>
+    <div class="caption">
+      **Vocational Education Advocate**  
+      *ON.CC (Web, 2022)*: Highlighted leadership in engineering and Northern Metropolis aspirations.  
+      [English Summary ↗](/assets/pdf/press/ONCC-ENG.pdf)
+    </div>
+  </div>
+
+  <!-- Hong Kong 01 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature">
+    </a>
+    <div class="caption">
+      **Breaking Gender Barriers**  
+      *Hong Kong 01 (2022)*: Recognized for overcoming stereotypes through vocational education.  
+      [English Summary ↗](/assets/pdf/press/HK01-ENG.pdf)
+    </div>
+  </div>
+
+  <!-- Sky Post -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature">
+    </a>
+    <div class="caption">
+      **Smart Grid Innovator**  
+      *Sky Post (2022)*: Spotlighted for renewable energy research and UK study plans.  
+      [English Summary ↗](/assets/pdf/press/SKY_POST-ENG.pdf)
+    </div>
+  </div>
+
+  <!-- Line Today -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature">
+    </a>
+    <div class="caption">
+      **Career Pathway Pioneer**  
+      *Line Today (2022)*: Advised students on passion-driven engineering careers.  
+      [English Summary ↗](/assets/pdf/press/LINE_TODAY-ENG.pdf)
+    </div>
+  </div>
+
+  <!-- Yahoo News -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature">
+    </a>
+    <div class="caption">
+      **MEP Systems Authority**  
+      *Yahoo News (2022)*: Recognized for technical mastery in HVAC and plumbing.  
+      [English Summary ↗](/assets/pdf/press/YAHOO_NEWS-ENG.pdf)
+    </div>
+  </div>
+</div>
 
 ####
 
