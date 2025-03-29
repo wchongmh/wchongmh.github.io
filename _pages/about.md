@@ -57,120 +57,68 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 <div class="row">
   <!-- Hong Kong 01 -->
-  <div class="col-sm-4 mt-3 mt-md-0">
-    <a href="/assets/pdf/AHFS_News_Prove.pdf#page=1" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/hk01-thumb.jpg" alt="Hong Kong 01 Feature">
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="width:300px; height:200px;">
     </a>
-    <div class="caption">
-      **"Engineering Beyond Gender Boundaries"**  
-      *Hong Kong 01 | Jul 2022*  
-      Featured for overcoming DSE setbacks to earn the Alistair Harvey Scholarship and championing gender equality in engineering.  
-      [Original Article](https://www.hk01.com/article/794031){:target="_blank"}
+    <div class="caption mt-2">
+      <strong>Breaking Gender Barriers</strong><br>
+      <em>Hong Kong 01</em> | 2022
     </div>
   </div>
 
-  <!-- Oriental Daily -->
-  <div class="col-sm-4 mt-3 mt-md-0">
-    <a href="/assets/pdf/AHFS_News_Prove.pdf#page=6" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/oriental-thumb.jpg" alt="Oriental Daily Feature">
+  <!-- Oriental Daily (Print) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print" style="width:300px; height:200px;">
     </a>
-    <div class="caption">
-      **Top IVE Graduate's UK Ambitions**  
-      *Oriental Daily | Jul 2022*  
-      Highlighted as a model for vocational education success, with plans to bring smart city expertise back to Hong Kong's Northern Metropolis development.  
-      [Original Article](https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html){:target="_blank"}
+    <div class="caption mt-2">
+      <strong>Front-Page Engineering Spotlight</strong><br>
+      <em>Oriental Daily</em> | 2022
     </div>
   </div>
 
-  <!-- Sky Post -->
-  <div class="col-sm-4 mt-3 mt-md-0">
-    <a href="/assets/pdf/AHFS_News_Prove.pdf#page=7" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/skypost-thumb.jpg" alt="Sky Post Feature">
+  <!-- ON.CC (Oriental Daily Web) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="width:300px; height:200px;">
     </a>
-    <div class="caption">
-      **From IVE to UK Smart Grids**  
-      *Sky Post | Jul 2022*  
-      Profiled for pioneering smart grid research at IVE and sustainable engineering aspirations.  
-      [Original Article](https://skypost.hk/article/3306096/){:target="_blank"}
-    </div>
-  </div>
-</div>
-
-<div class="row mt-4">
-  <!-- Additional Outlets -->
-  <div class="col-sm-12">
-    <h4>Additional Coverage</h4>
-    <ul>
-      <li><a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank">Line Today</a> - "13 IVE Scholars' Advice for DSE Students"</li>
-      <li><a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B-%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank">Yahoo News</a> - "Breaking STEM Stereotypes"</li>
-    </ul>
-  </div>
-</div>
-
-<small>*Articles are in Chinese. [Google Translate](https://translate.google.com/) provides approximate English translations.*</small>
-
-<div class="row">
-  <!-- Hong Kong 01 -->
-  <div class="col-sm-4 mt-3 mt-md-0">
-    <a href="https://www.hk01.com/article/794031" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/hk01-thumb.jpg" alt="Hong Kong 01 Feature">
-    </a>
-    <div class="caption">
-      **Breaking Gender Barriers in Engineering**  
-      *Hong Kong 01 (2022)*: Featured for overcoming academic challenges and gender stereotypes through IVE's vocational education pathway, leading to full UK scholarship sponsorship.  
-      [Full Article ↗](https://www.hk01.com/article/794031)
-    </div>
-  </div>
-
-  <!-- Oriental Daily -->
-  <div class="col-sm-4 mt-3 mt-md-0">
-    <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/oriental-thumb.jpg" alt="Oriental Daily Feature">
-    </a>
-    <div class="caption">
-      **Pioneering Vocational Excellence**  
-      *Oriental Daily (Circulation 300K, 2022)*: Highlighted in print (A04) and online editions as a model for vocational education success in building services engineering.  
-      [Online Version ↗](https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html)
+    <div class="caption mt-2">
+      <strong>Digital Engineering Advocate</strong><br>
+      <em>ON.CC</em> | 2022
     </div>
   </div>
 
   <!-- Sky Post -->
-  <div class="col-sm-4 mt-3 mt-md-0">
-    <a href="https://skypost.hk/article/3306096" target="_blank">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/skypost-thumb.jpg" alt="Sky Post Feature">
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature" style="width:300px; height:200px;">
     </a>
-    <div class="caption">
-      **Sustainable Engineering Vision**  
-      *Sky Post (2022)*: Recognized for smart grid research and ambitions to implement UK-acquired knowledge in Hong Kong's Northern Metropolis development.  
-      [Full Article ↗](https://skypost.hk/article/3306096)
+    <div class="caption mt-2">
+      <strong>Smart Energy Pioneer</strong><br>
+      <em>Sky Post</em> | 2022
     </div>
   </div>
-</div>
 
-<div class="row mt-4">
   <!-- Line Today -->
-  <div class="col-sm-6 mt-3 mt-md-0">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Career Development Advocacy</h5>
-        <p class="card-text">
-          *Line Today (2022)*: Quoted as advising DSE students to "pursue passion over convention" in STEM fields.  
-          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank">Read Feature ↗</a>
-        </p>
-      </div>
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Career Pathway Guidance</strong><br>
+      <em>Line Today</em> | 2022
     </div>
   </div>
 
   <!-- Yahoo News -->
-  <div class="col-sm-6 mt-3 mt-md-0">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Industry Leadership</h5>
-        <p class="card-text">
-          *Yahoo News (2022)*: Highlighted as future leader in HK's engineering sector through innovative building services solutions.  
-          <a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B-%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank">Read Feature ↗</a>
-        </p>
-      </div>
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature" style="width:300px; height:200px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Technical Systems Authority</strong><br>
+      <em>Yahoo News</em> | 2022
     </div>
   </div>
 </div>
