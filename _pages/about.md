@@ -64,7 +64,7 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     <div class="caption mt-2">
       <strong>HK01 Digital Feature</strong><br>
       <em>Full Article ↗</em> | 
-      <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank">English Summary</a>
+      <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank">English</a>
     </div>
   </div>
 
@@ -136,7 +136,7 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     <div class="caption mt-2">
       <strong>Print Edition Clipping</strong><br>
       <em>Section A04</em> | 
-      <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank">English Scan</a>
+      <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank">English</a>
     </div>
   </div>
 </div>
