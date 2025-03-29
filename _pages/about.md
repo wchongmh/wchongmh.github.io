@@ -59,68 +59,93 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
   <!-- Hong Kong 01 -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank">
-      <img class="rounded z-depth-1" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="width:300px; height:200px;">
+      <img class="rounded z-depth-1" src="/assets/img/press/HK01.png" alt="HK01: Gender Barrier Breakthrough" style="width:auto; height:180px;">
     </a>
     <div class="caption mt-2">
-      <strong>Breaking Gender Barriers</strong><br>
-      <em>Hong Kong 01</em> | 2022
+      <strong>HK01 Digital Feature</strong><br>
+      <em>Full Article ↗</em> | 
+      <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank">English Summary</a>
     </div>
   </div>
 
-  <!-- Oriental Daily (Print) -->
+  <!-- Oriental Daily Print -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank">
-      <img class="rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print" style="width:300px; height:200px;">
+      <img class="rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Edition" style="width:auto; height:180px;">
     </a>
     <div class="caption mt-2">
-      <strong>Front-Page Engineering Spotlight</strong><br>
-      <em>Oriental Daily</em> | 2022
+      <strong>Front Page Spotlight</strong><br>
+      <em>Print Circulation: 300K</em> | 
+      <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank">English</a>
     </div>
   </div>
 
-  <!-- ON.CC (Oriental Daily Web) -->
+  <!-- ON.CC Website -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank">
-      <img class="rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="width:300px; height:200px;">
+      <img class="rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Digital Article" style="width:auto; height:180px;">
     </a>
     <div class="caption mt-2">
-      <strong>Digital Engineering Advocate</strong><br>
-      <em>ON.CC</em> | 2022
+      <strong>Digital Engineering Feature</strong><br>
+      <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank">Original Article ↗</a> | 
+      <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank">English</a>
     </div>
   </div>
 
   <!-- Sky Post -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank">
-      <img class="rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature" style="width:300px; height:200px;">
+      <img class="rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Smart Grid" style="width:auto; height:180px;">
     </a>
     <div class="caption mt-2">
-      <strong>Smart Energy Pioneer</strong><br>
-      <em>Sky Post</em> | 2022
+      <strong>Smart Grid Innovation</strong><br>
+      <a href="https://skypost.hk/article/3306096" target="_blank">Original ↗</a> | 
+      <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank">English</a>
     </div>
   </div>
 
   <!-- Line Today -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank">
-      <img class="rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature" style="width:300px; height:200px;">
+      <img class="rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Career Advice" style="width:auto; height:180px;">
     </a>
     <div class="caption mt-2">
       <strong>Career Pathway Guidance</strong><br>
-      <em>Line Today</em> | 2022
+      <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank">Web Version ↗</a> | 
+      <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank">English</a>
     </div>
   </div>
 
   <!-- Yahoo News -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank">
-      <img class="rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature" style="width:300px; height:200px;">
+      <img class="rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo Technical Expertise" style="width:auto; height:180px;">
     </a>
     <div class="caption mt-2">
-      <strong>Technical Systems Authority</strong><br>
-      <em>Yahoo News</em> | 2022
+      <strong>MEP Systems Mastery</strong><br>
+      <a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B-%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank">Original ↗</a> | 
+      <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank">English</a>
     </div>
   </div>
+
+  <!-- Newspaper Clippings -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf#page=1" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" alt="Original Newspaper Clip" style="width:auto; height:180px;">
+    </a>
+    <div class="caption mt-2">
+      <strong>Print Edition Clipping</strong><br>
+      <em>Section A04</em> | 
+      <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank">English Scan</a>
+    </div>
+  </div>
+</div>
+
+<div class="mt-4">
+  <a href="/assets/pdf/press/press-kit.zip" class="btn btn-outline-primary">
+    <i class="fas fa-file-archive me-2"></i>Download Complete Press Kit (ZIP)
+  </a>
+  <small class="ms-3">Includes all 14 PDFs + 7 images</small>
 </div>
 
 #### 📖 Research Highlights
