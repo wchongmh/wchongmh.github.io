@@ -50,7 +50,188 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **HKIE BSD Outstanding Student Award** <br>
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
+
+#####
+
+<div class="row">
+  <!-- Hong Kong 01 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Breaking Gender Norms in STEM</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>Hong Kong 01</em> | July 19, 2022<br>
+          Word Count: 621 | Section: Community News
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Oriental Daily (Print) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Front-Page Engineering Spotlight</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>Oriental Daily</em> | July 20, 2022<br>
+          Section A04 | Circulation: 300,000
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="https://orientaldaily.on.cc/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ON.CC (Oriental Daily Web) -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/ONCC.png" alt="ON.CC Digital Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Vocational Education Success Story</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>ON.CC</em> | July 19, 2022<br>
+          1,200+ Social Shares | 22.9K Followers
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sky Post -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/SKY_POST.png" alt="Sky Post Smart Grid Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Smart Grid Innovation Pioneer</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>Sky Post</em> | July 19, 2022<br>
+          Trending #3 in Technology | 150+ Comments
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="https://skypost.hk/article/3306096" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Line Today -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Career Guidance" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Career Pathway Advocacy</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>Line Today</em> | July 19, 2022<br>
+          40% Engagement Increase | 1,500+ Views
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Yahoo News -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Technical Expertise" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">MEP Systems Authority</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>Yahoo News</em> | July 19, 2022<br>
+          Featured in "Tech" Section | 850+ Shares
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="https://hk.news.yahoo.com/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newspaper Clipping -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" alt="Original Print Clipping" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-1">Print Edition Feature</h6>
+        <p class="card-text text-muted small mb-2">
+          <em>Oriental Daily</em> | July 20, 2022<br>
+          Full-Page Spread | Ad Value: HKD 48,381
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-image me-1"></i>English Scan
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            Full Translation
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-4 text-center">
+  <a href="/assets/pdf/press/press-kit.zip" class="btn btn-lg btn-primary">
+    <i class="fas fa-file-archive me-2"></i>Download Complete Press Kit
+  </a>
+  <p class="text-muted small mt-2">Includes all articles, translations, and images (16 files)</p>
+</div>
+
 ####
+
 
 <div class="row">
   <!-- Oriental Daily (Print) -->
@@ -125,6 +306,7 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
     </div>
   </div>
 </div>
+
 
 ####
 
