@@ -380,10 +380,10 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
         <h6 class="mb-1">Print Edition Feature(Newspaper Clipping)</h6>
         <p class="text-muted small mb-2"><em>Oriental Daily (Print)</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
-          <a href="/assets/pdf/press/NEWSPAPER_CLIPPING-CHN.jpg" target="_blank" class="btn btn-sm btn-primary">
+          <a href="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-image me-1"></i>Chinese Scan
           </a>
-          <a href="/assets/pdf/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank" class="btn btn-sm btn-success">
+          <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank" class="btn btn-sm btn-success">
             <i class="fas fa-image me-1"></i>English Scan
           </a>
         </div>
@@ -391,6 +391,8 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     </div>
   </div>
 </div>
+
+---
 
 #### 📖 Research Highlights
 - **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
