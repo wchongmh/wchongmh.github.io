@@ -39,6 +39,57 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
+#### 🎓 Academic Excellence 
+<div class="d-flex align-items-center mb-3">
+  <i class="fas fa-graduation-cap me-3 fa-2x text-primary"></i>
+  <div>
+    Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and <strong>Hong Kong Institute of Vocational Education</strong>
+  </div>
+</div>
+
+<div class="row g-4">
+  <div class="col-md-6">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title mb-3"><i class="fas fa-trophy me-2 text-warning"></i>Awards & Honors</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="text-decoration-none">
+              🏆 GCU SCEBE Prize Winner (Ranked #1)
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="text-decoration-none">
+              🏆 Alistair Harvey Foundation Scholarship
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="/assets/pdf/awards/hkie-outstanding.pdf" target="_blank" class="text-decoration-none">
+              🏆 HKIE Outstanding Engineering Student
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="/assets/pdf/awards/hkie-bsd-award.pdf" target="_blank" class="text-decoration-none">
+              🏆 HKIE BSD Student Award
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="/assets/pdf/awards/endeavour-merit.pdf" target="_blank" class="text-decoration-none">
+              🏆 Endeavour Merit Award
+            </a>
+          </li>
+          <li>
+            <a href="/assets/pdf/awards/hksar-scholarship.pdf" target="_blank" class="text-decoration-none">
+              🏆 HKSAR Government Scholarship
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  ---
+
 ## 🚀 Professional Journey
 
 #### <i class="fas fa-university"></i> Academic Excellence 
@@ -59,7 +110,7 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
       <i class="fas fa-trophy me-2 text-secondary"></i>HKSAR Government Scholarship
     </div>
   </div>
-</div>
+ </div>
 </div>
 
 ---
