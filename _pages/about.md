@@ -10,11 +10,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📍 SCT | UK | HKG</p>
-    <p>🎓 Engineering Graduate</p>
-    <p>🛠️ Building Services Engineer </p>
-    <p>🏅 Scholarship Recipient</p>
-    <p>🌟 BIM, AI & IoT in Built</p>
+    <p><i class="fas fa-map-marker-alt"></i> SCT | UK | HKG</p>
+    <p><i class="fas fa-graduation-cap"></i> Engineering Graduate</p>
+    <p>i class="fas fa-hard-hat"></i> Building Services Engineer</p>
+    <p><i class="fas fa-award"></i> Scholarship Recipient</p>
+    <p><i class="fas fa-microchip"></i> BIM, AI & IoT in Built</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -30,20 +30,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="text-justify">
-
-### Building the Future, Sustainably  
-As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated with [**first place in my third-year cohort**](https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment) and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html). 
+### <i class="fas fa-building"></i> Building the Future, Sustainably  
+As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated with [**first place in my third-year cohort**](https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment) <i class="fas fa-trophy"></i> and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html) <i class="fas fa-medal"></i>. 
 
 With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
 
 I am always eager to collaborate on **innovative projects** that push the boundaries of **smart and sustainable engineering**. Let's build the future together! 
-
-<div class="text-center mt-4 mb-5">
-  <a href="#lets-connect" class="btn btn-lg btn-success px-5">
-    <i class="fas fa-handshake me-2"></i>Let's Collaborate
-  </a>
-</div>
 
 ---
 
