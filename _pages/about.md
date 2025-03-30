@@ -39,13 +39,10 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-#### 🎓 Academic Excellence 
-<div class="d-flex align-items-center mb-3">
-  <i class="fas fa-graduation-cap me-3 fa-2x text-primary"></i>
-  <div>
-    Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and <strong>Hong Kong Institute of Vocational Education</strong>
-  </div>
-</div>
+## 🚀 Professional Journey
+
+#### <i class="fas fa-university"></i> Academic Excellence 
+I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
 <div class="row g-4">
   <div class="col-md-6">
@@ -55,12 +52,12 @@ I am always eager to collaborate on **innovative projects** that push the bounda
         <ul class="list-unstyled">
           <li class="mb-2">
             <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="text-decoration-none">
-              🏆 GCU SCEBE Prize Winner (Ranked #1)
+              🏆 GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)
             </a>
           </li>
           <li class="mb-2">
             <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="text-decoration-none">
-              🏆 Alistair Harvey Foundation Scholarship
+              🏆 Alistair Harvey Foundation Scholarship (Full Sponsorship)
             </a>
           </li>
           <li class="mb-2">
@@ -87,31 +84,6 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       </div>
     </div>
   </div>
-
-  ---
-
-## 🚀 Professional Journey
-
-#### <i class="fas fa-university"></i> Academic Excellence 
-I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
-
-<div class="row mt-3 g-3">
-  <div class="col-md-6">
-    <div class="p-3 border rounded bg-light">
-      <i class="fas fa-trophy me-2 text-warning"></i>GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)<br>
-      <i class="fas fa-trophy me-2 text-primary"></i>Alistair Harvey Foundation Scholarship (Full Sponsorship)<br>
-      <i class="fas fa-trophy me-2 text-info"></i>HKIE Outstanding Engineering Student
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="p-3 border rounded bg-light">
-      <i class="fas fa-trophy me-2 text-success"></i>HKIE BSD Student Award<br>
-      <i class="fas fa-trophy me-2 text-danger"></i>Endeavour Merit Award<br>
-      <i class="fas fa-trophy me-2 text-secondary"></i>HKSAR Government Scholarship
-    </div>
-  </div>
- </div>
-</div>
 
 ---
 
@@ -314,8 +286,10 @@ These research projects reflect my **commitment to sustainability and efficiency
     <div class="p-3 border rounded h-100">
       <h5><i class="fas fa-laptop-code me-2 text-primary"></i>Software & Design</h5>
       <ul class="list-unstyled">
-        <li><i class="fas fa-check-circle text-success me-2"></i>AutoCAD, Revit (BIM)</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Dialux, Hevacomp</li>
+        <li><i class="fas fa-check-circle text-success me-2"></i>AutoCAD</li>
+        <li><i class="fas fa-check-circle text-success me-2"></i>Revit (BIM)</li>
+        <li><i class="fas fa-check-circle text-success me-2"></i>Dialux</li>
+        <li><i class="fas fa-check-circle text-success me-2"></i>Hevacomp</li>
         <li><i class="fas fa-check-circle text-success me-2"></i>IES VE (ModelIT)</li>
       </ul>
     </div>
@@ -327,6 +301,8 @@ These research projects reflect my **commitment to sustainability and efficiency
       <ul class="list-unstyled">
         <li><i class="fas fa-check-circle text-success me-2"></i>HVAC Design</li>
         <li><i class="fas fa-check-circle text-success me-2"></i>Fire Safety Systems</li>
+        <li><i class="fas fa-check-circle text-success me-2"></i>Pipe & Drainage Design</li>
+        <li><i class="fas fa-check-circle text-success me-2"></i>Building Performance Modeling</li>
         <li><i class="fas fa-check-circle text-success me-2"></i>Energy Assessment</li>
       </ul>
     </div>
@@ -340,83 +316,6 @@ These research projects reflect my **commitment to sustainability and efficiency
         <li><i class="fas fa-check-circle text-success me-2"></i>Smart Home Tech</li>
         <li><i class="fas fa-check-circle text-success me-2"></i>TensorFlow/OpenCV</li>
       </ul>
-    </div>
-  </div>
-</div>
-
----
-
-## <i class="fas fa-tools"></i> Technical Skills
-
-<div class="skills-container">
-  <div class="skill-category">
-    <h5><i class="fas fa-desktop"></i> Software & Design</h5>
-    <div class="skill-item">AutoCAD</div>
-    <div class="skill-item">Revit BIM</div>
-    <div class="skill-item">Dialux</div>
-  </div>
-
-  <div class="skill-category">
-    <h5><i class="fas fa-building"></i> Building Systems</h5>
-    <div class="skill-item">HVAC Design</div>
-    <div class="skill-item">Fire Safety Systems</div>
-  </div>
-</div>
-
----
-
-## Technical Skills 🔧 
-
-#### **Software & Design**  
-- **AutoCAD, Revit (BIM), Dialux, Hevacomp, IES VE (ModelIT)**  
-
-#### **Building Systems**  
-- **HVAC Design, Fire Safety Systems, Pipe & Drainage Design**  
-- **Building Performance Modeling & Energy Assessment**  
-
-#### **Automation & Programming**  
-- **Raspberry Pi, Arduino, Smart Home Technology (TensorFlow, OpenCV)**  
-
----
-
-### 🔧 Technical Expertise
-<div class="row g-4">
-  <div class="col-md-4">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title"><i class="fas fa-tools me-2"></i>Software</h5>
-        <ul class="list-unstyled">
-          <li>▹ AutoCAD</li>
-          <li>▹ Revit (BIM)</li>
-          <li>▹ Dialux</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title"><i class="fas fa-building me-2"></i>Systems</h5>
-        <ul class="list-unstyled">
-          <li>▹ HVAC Design</li>
-          <li>▹ Fire Safety Systems</li>
-          <li>▹ Pipe Networks</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title"><i class="fas fa-microchip me-2"></i>Automation</h5>
-        <ul class="list-unstyled">
-          <li>▹ Raspberry Pi</li>
-          <li>▹ Arduino</li>
-          <li>▹ TensorFlow</li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>
