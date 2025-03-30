@@ -89,6 +89,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       </div>
     </div>
   </div>
+</div>
 
 ---
 
