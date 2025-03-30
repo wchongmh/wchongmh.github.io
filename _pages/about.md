@@ -381,7 +381,9 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 
 ---
 
-## 🔭 Future Goals
+## Looking Ahead 🔍
+
+#### 🎯 Future Goals
 
 <div class="d-flex flex-column gap-2">
   <div class="d-flex align-items-center">
@@ -397,39 +399,6 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
     Gain 2+ years hands-on industry experience
   </div>
 </div>
-
----
-
-### 🚀 Future Goals
-<div class="d-flex flex-column gap-3">
-  <div class="d-flex align-items-center">
-    <div class="icon-lg bg-primary text-white rounded-circle me-3">
-      <i class="fas fa-bullseye"></i>
-    </div>
-    <div>
-      <strong>Chartered Engineer (CEng)</strong> qualification within 5-6 years
-    </div>
-  </div>
-  
-  <div class="d-flex align-items-center">
-    <div class="icon-lg bg-info text-white rounded-circle me-3">
-      <i class="fas fa-hands-helping"></i>
-    </div>
-    <div>
-      Participate in engineering graduate training program
-    </div>
-  </div>
-</div>
-
----
-
-## Looking Ahead 🔍
-
-#### 🎯 Future Goals
-
-- **Earn Chartered Engineer (CEng) qualification within 5-6 years**  
-- **Participate in an engineering graduate training program**  
-- **Gain 2+ years of hands-on industry experience**  
 
 **My passion is driven by the aspiration to become a professional Building Services Engineer**, eager to **tackle complex challenges** and contribute to global progress through **innovative, forward-thinking solutions**. I am dedicated to **advancing sustainable building practices** by integrating **cutting-edge technologies like AI, IoT, and renewable energy systems**, striving to transcend the limitations of conventional engineering approaches.
 
@@ -450,4 +419,3 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
   <p class="mb-0">Let's build a <strong>greener, smarter future</strong> together! 🌍
   </p>
 </div>
-
