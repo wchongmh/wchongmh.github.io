@@ -45,7 +45,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 <div class="d-flex align-items-center mb-3">
   <i class="fas fa-graduation-cap me-3 fa-2x text-primary"></i>
   <div>
-    I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
+    I graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple scholarships and awards, including:
   </div>
 </div>
 
