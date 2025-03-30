@@ -322,46 +322,25 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---
 
-## <i class="fas fa-users-cog"></i> Leadership & Advocacy
-
-<div class="accordion mt-3" id="leadershipAccordion">
-  <div class="accordion-item">
-    <h3 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-        <i class="fas fa-users-cog me-2 text-primary"></i>IVE Engineering Society Chairman
-      </button>
-    </h3>
-    <div id="collapseOne" class="accordion-collapse collapse show">
-      <div class="accordion-body">
-        • Led industry seminars (100+ students)<br>
-        • Integrated BIM/AI training<br>
-        • Prepared 150+ students for Industry 4.0
-      </div>
-    </div>
-  </div>
-</div>
-
----
-
 ## <i class="fas fa-users-cog"></i> Leadership & Advocacy 🌍
 
 Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
 
-#### <i class="fas fa-briefcase"></i> **Chairman | IVE Morrison Hill Engineering Society (2021-2022)**  
-- Led **industry seminars** on sustainable construction, engaging **100+ students** ✔ 
-- Advocated **curriculum enhancements**, integrating **BIM & AI applications** ✔
-- Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0** ✔
+#### **<a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="pdf-link">Chairman | IVE Morrison Hill Engineering Society (2021-2022) <i class="fas fa-file-pdf"></i></a>**
+- <i class="fas fa-check-circle text-success"></i> Led **industry seminars** on sustainable construction, engaging **100+ students** ✔ 
+- <i class="fas fa-check-circle text-success"></i> Advocated **curriculum enhancements**, integrating **BIM & AI applications** ✔
+- <i class="fas fa-check-circle text-success"></i> Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0** ✔
 
-#### <i class="fas fa-briefcase"></i> **External Vice President | ASHRAE IVE Student Branch (2020-2022)**  
-- Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%** ✔
-- Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**, deepening understanding of adaptive thermal comfort ✔
+#### **<a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="pdf-link">External Vice President | ASHRAE IVE Student Branch (2020-2022) <i class="fas fa-file-pdf"></i></a>**
+- <i class="fas fa-check-circle text-success"></i> Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%** ✔
+- <i class="fas fa-check-circle text-success"></i> Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models** ✔
 
-#### <i class="fas fa-briefcase"></i> **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
-- Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees** ✔ 
+#### **<a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="pdf-link">Committee Member | HKIE BSE Student Liaison Group (2021-2022) <i class="fas fa-file-pdf"></i></a>**
+- <i class="fas fa-check-circle text-success"></i> Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees** ✔ 
 
-#### <i class="fas fa-briefcase"></i> **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
-- Managed an **annual budget exceeding HKD 50,000** ✔ 
-- Coordinated **high-impact student initiatives**, ensuring financial sustainability and strategic resource allocation ✔
+#### **<a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="pdf-link">President of Finance Committee | 48th Students’ Union Council (2020-2021) <i class="fas fa-file-pdf"></i></a>**
+- <i class="fas fa-check-circle text-success"></i> Managed an **annual budget exceeding HKD 50,000** ✔ 
+- <i class="fas fa-check-circle text-success"></i> Coordinated **high-impact student initiatives** ✔
 
 ---
 
