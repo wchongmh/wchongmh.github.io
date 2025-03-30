@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p><i class="fas fa-map-marker-alt"></i> SCT | UK | HKG</p>
     <p><i class="fas fa-graduation-cap"></i> Engineering Graduate</p>
-    <p>i class="fas fa-hard-hat"></i> Building Services Engineer</p>
+    <p><i class="fas fa-hard-hat"></i> Building Services Engineer</p>
     <p><i class="fas fa-award"></i> Scholarship Recipient</p>
     <p><i class="fas fa-microchip"></i> BIM, AI & IoT in Built</p>
 
@@ -39,9 +39,9 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-## Professional Journey 📌  
+## <i class="fas fa-briefcase"></i> Professional Journey
 
-#### 🎓 Academic Excellence 
+#### <i class="fas fa-university"></i> Academic Excellence 
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
 - 🏆 **GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)** <br>
@@ -69,6 +69,15 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 </div>
 </div>
 
+<div class="awards-grid">
+  <div class="award-item"><i class="fas fa-star"></i> GCU SCEBE Prize Winner</div>
+  <div class="award-item"><i class="fas fa-star"></i> Alistair Harvey Foundation Scholarship</div>
+  <div class="award-item"><i class="fas fa-star"></i> HKIE Outstanding Engineering Student</div>
+  <div class="award-item"><i class="fas fa-star"></i> HKIE BSD Outstanding Student</div>
+  <div class="award-item"><i class="fas fa-star"></i> Endeavour Merit Award</div>
+  <div class="award-item"><i class="fas fa-star"></i> HKSAR Government Scholarship</div>
+</div>
+
 ---
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
@@ -93,7 +102,7 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 
 ---
 
-#### 📰 Media Recognition
+#### <i class="fas fa-newspaper"></i> Media Recognition
 My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
 
 <small>*Featured in Hong Kong’s leading publications:*</small>  
