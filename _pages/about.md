@@ -39,7 +39,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-## <i class="fas fa-briefcase"></i> Professional Journey
+## Professional Journey <i class="fas fa-briefcase"></i>
 
 #### <i class="fas fa-university"></i> Academic Excellence 
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
@@ -80,9 +80,8 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 
 ---
 
-#### <i class="fas fa-newspaper"></i> Media Recognition
+#### 📰 Media Recognition
 My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
-
 <small>*Featured in Hong Kong’s leading publications:*</small>  
 
 <div class="row">
@@ -464,21 +463,22 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
 
 ---
 
-### 🌐 Let’s Connect!
-<div class="text-center mt-4">
-  <a href="mailto:wchongmh@gmail.com" class="btn btn-lg btn-primary m-2">
-    <i class="fas fa-envelope me-2"></i>Email Me
-  </a>
-  <a href="https://linkedin.com/in/wchongmh" class="btn btn-lg btn-linkedin m-2">
-    <i class="fab fa-linkedin me-2"></i>LinkedIn
-  </a>
-</div>
-
+### 📬 Let's Connect
+<div class="text-center py-4 bg-light rounded-3">
+  <div class="d-flex justify-content-center gap-3 mb-3">
+    <a href="mailto:wchongmh@gmail.com" class="btn btn-primary btn-lg">
+      <i class="fas fa-envelope me-2"></i>Email Me
+    </a>
+    <a href="https://linkedin.com/in/wchongmh" class="btn btn-linkedin btn-lg">
+      <i class="fab fa-linkedin me-2"></i>LinkedIn
+    </a>
+  </div>
+  <p class="mb-0">Let's build a <strong>greener, smarter future</strong> together! 🌍</p>
 </div>
 
 ---
 
-### **Let’s Connect!** 📬  
+### 📬**Let’s Connect!**  
 📧 **Email:** [wchongmh@gmail.com](mailto:wchongmh@gmail.com) <br>
 💼 **LinkedIn:** [wchongmh](https://linkedin.com/in/wchongmh/)
 
