@@ -84,9 +84,8 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
       </div>
     </div>
   </div>
-
----
   
+---
 #### 📰 Media Recognition
 My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
 <small>*Featured in Hong Kong’s leading publications:*</small>  
