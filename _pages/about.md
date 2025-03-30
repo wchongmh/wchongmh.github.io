@@ -411,6 +411,95 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
 
 ---
 
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <!-- CEng Goal -->
+  <div class="col">
+    <div class="card h-100 border-primary shadow-lg hover-effect">
+      <div class="card-header bg-primary text-white">
+        <i class="fas fa-user-tie fa-2x mb-2"></i>
+        <h5 class="card-title mb-0">Professional Certification</h5>
+      </div>
+      <div class="card-body">
+        <h6 class="text-primary">Chartered Engineer (CEng)</h6>
+        <p class="card-text">Target completion within 5-6 years</p>
+        <div class="progress" style="height: 8px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <small class="text-muted mt-2 d-block">Estimated timeline: 2028-2029</small>
+        <div class="mt-3">
+          <span class="badge bg-light text-primary border border-primary">UK-SPEC</span>
+          <span class="badge bg-light text-primary border border-primary">CIBSE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Graduate Program -->
+  <div class="col">
+    <div class="card h-100 border-success shadow-lg hover-effect">
+      <div class="card-header bg-success text-white">
+        <i class="fas fa-graduation-cap fa-2x mb-2"></i>
+        <h5 class="card-title mb-0">Training Program</h5>
+      </div>
+      <div class="card-body">
+        <h6 class="text-success">Engineering Graduate Scheme</h6>
+        <p class="card-text">Seeking accredited program participation</p>
+        <div class="timeline-steps">
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="inner-circle"></div>
+              <p class="h6 mt-3 mb-1">Year 1</p>
+              <p class="small">Core Competencies</p>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="inner-circle"></div>
+              <p class="h6 mt-3 mb-1">Year 2</p>
+              <p class="small">Specialization</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Experience -->
+  <div class="col">
+    <div class="card h-100 border-info shadow-lg hover-effect">
+      <div class="card-header bg-info text-white">
+        <i class="fas fa-hard-hat fa-2x mb-2"></i>
+        <h5 class="card-title mb-0">Hands-On Experience</h5>
+      </div>
+      <div class="card-body">
+        <h6 class="text-info">2+ Years Industry Practice</h6>
+        <p class="card-text">Target sectors:</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-light text-info border border-info">Sustainable Design</span>
+          <span class="badge bg-light text-info border border-info">Smart Buildings</span>
+          <span class="badge bg-light text-info border border-info">BIM Implementation</span>
+        </div>
+        <div class="mt-3">
+          <i class="fas fa-chart-line text-info me-2"></i>
+          <span class="small">Career progression track:</span>
+          <div class="mt-2">
+            <div class="d-flex align-items-center mb-2">
+              <div class="bullet-point bg-info"></div>
+              <span class="ms-2">Junior Engineer</span>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="bullet-point bg-info"></div>
+              <span class="ms-2">Project Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
 ### 📬 Let's Connect
 <div class="text-center py-4 bg-light rounded-3">
   <div class="d-flex justify-content-center gap-3 mb-3">
