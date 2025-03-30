@@ -80,28 +80,6 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 
 ---
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
-  <!-- Hong Kong 01 -->
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/img/press/HK01.png" class="card-img-top" alt="HK01 Feature">
-      <div class="card-body">
-        <h6 class="card-title">Redefining STEM Accessibility</h6>
-        <p class="text-muted small"><em>Hong Kong 01</em> | 2022</p>
-        <div class="d-grid gap-2">
-          <a href="/assets/pdf/press/HK01-CHN.pdf" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-file-pdf me-1"></i>中文版
-          </a>
-          <a href="https://www.hk01.com/article/794031" class="btn btn-sm btn-primary">
-            <i class="fas fa-external-link-alt me-1"></i>View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
----
-
 #### <i class="fas fa-newspaper"></i> Media Recognition
 My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
 
