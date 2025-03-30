@@ -51,6 +51,135 @@ I graduated with distinction from both **Glasgow Caledonian University** and the
 - 🏆 **Endeavour Merit Award** <br>
 - 🏆 **HKSAR Government Scholarship** <br>
 
+######
+
+<div class="row">
+  <!-- Hong Kong 01 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-2">Breaking Gender Norms in STEM</h6>
+        <p class="text-muted small mb-3"><em>Hong Kong 01</em> | 2022</p>
+        <div class="d-grid gap-2">
+          <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-2"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-2"></i>English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Oriental Daily -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-2">Front-Page Engineering Spotlight</h6>
+        <p class="text-muted small mb-3"><em>Oriental Daily</em> | 2022</p>
+        <div class="d-grid gap-2">
+          <a href="https://orientaldaily.on.cc/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-2"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-2"></i>English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ON.CC -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-2">Vocational Education Success</h6>
+        <p class="text-muted small mb-3"><em>ON.CC</em> | 2022</p>
+        <div class="d-grid gap-2">
+          <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-2"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-2"></i>English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sky Post -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-2">Smart Grid Innovation</h6>
+        <p class="text-muted small mb-3"><em>Sky Post</em> | 2022</p>
+        <div class="d-grid gap-2">
+          <a href="https://skypost.hk/article/3306096" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-2"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-2"></i>English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Line Today -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-2">Career Pathway Guidance</h6>
+        <p class="text-muted small mb-3"><em>Line Today</em> | 2022</p>
+        <div class="d-grid gap-2">
+          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-2"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-2"></i>English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Yahoo News -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank">
+        <img class="card-img-top rounded-top" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature" style="object-fit: contain; height: 200px;">
+      </a>
+      <div class="card-body">
+        <h6 class="card-title mb-2">Technical Expertise Highlight</h6>
+        <p class="text-muted small mb-3"><em>Yahoo News</em> | 2022</p>
+        <div class="d-grid gap-2">
+          <a href="https://hk.news.yahoo.com/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-2"></i>Web Version
+          </a>
+          <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-2"></i>English Summary
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ######
 
