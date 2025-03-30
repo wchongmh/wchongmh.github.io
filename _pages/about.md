@@ -345,6 +345,7 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
 ---
 
 ## 🌱 Sustainability Commitment
+I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
 <div class="row g-4 mt-2">
   <div class="col-md-4 text-center">
@@ -374,18 +375,7 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
   <i class="fas fa-brain me-2"></i><strong>Neurodiversity Advantage:</strong> Transforming dyslexia & ADHD into innovative problem-solving strengths
 </div>
 
----
-
-## Commitment to Sustainable Engineering & Innovation 🌱
-I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
-
-1. **Passive Design First**: Climate-responsive architecture, prioritizing **natural ventilation and daylighting**. <br> 
-2. **Active Efficiency**: Deploying **IoT-driven systems** for real-time energy optimization, focusing on **HVAC and energy-efficient solutions**. <br> 
-3. **Renewable Integration**: Advocating for **smart grids and photovoltaic retrofits** in high-density urban areas. <br>  
-
 Whether assessing **rooftop renewable energy applications**, **optimizing drainage layouts**, or **developing AI-driven HVAC controls**, I strive to **reduce environmental impact** while enhancing **functionality and efficiency**.    
-
-📌 Diagnosed with **dyslexia and ADHD**, I have transformed challenges into **strengths**, cultivating **resilience and adaptive problem-solving skills** that fuel my **drive to innovate**.  
 
 Today, I aim to **leverage emerging technologies**—from **IoT automation to AI-powered building analytics**—to **redefine industry standards** and **inspire the next generation of engineers**.  
 
@@ -405,6 +395,29 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
   <div class="d-flex align-items-center">
     <i class="fas fa-briefcase fa-lg me-3 text-info"></i>
     Gain 2+ years hands-on industry experience
+  </div>
+</div>
+
+---
+
+### 🚀 Future Goals
+<div class="d-flex flex-column gap-3">
+  <div class="d-flex align-items-center">
+    <div class="icon-lg bg-primary text-white rounded-circle me-3">
+      <i class="fas fa-bullseye"></i>
+    </div>
+    <div>
+      <strong>Chartered Engineer (CEng)</strong> qualification within 5-6 years
+    </div>
+  </div>
+  
+  <div class="d-flex align-items-center">
+    <div class="icon-lg bg-info text-white rounded-circle me-3">
+      <i class="fas fa-hands-helping"></i>
+    </div>
+    <div>
+      Participate in engineering graduate training program
+    </div>
   </div>
 </div>
 
