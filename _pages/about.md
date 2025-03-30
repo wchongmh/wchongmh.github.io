@@ -39,43 +39,27 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-## Professional Journey <i class="fas fa-briefcase"></i>
+## 🚀 Professional Journey
 
 #### <i class="fas fa-university"></i> Academic Excellence 
 I graduated with distinction from both **Glasgow Caledonian University** and the **Hong Kong Institute of Vocational Education (IVE Morrison Hill)**, earning multiple scholarships and awards, including:
 
-- 🏆 **GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)** <br>
-- 🏆 **Alistair Harvey Foundation Scholarship (Full Sponsorship)** <br>
-- 🏆 **The HKIE Prize for Outstanding Engineering Student** <br>
-- 🏆 **HKIE BSD Outstanding Student Award** <br>
-- 🏆 **Endeavour Merit Award** <br>
-- 🏆 **HKSAR Government Scholarship** <br>
-
 <div class="row mt-3 g-3">
   <div class="col-md-6">
     <div class="p-3 border rounded bg-light">
-      <i class="fas fa-trophy me-2 text-warning"></i>GCU SCEBE Prize Winner (Ranked #1)<br>
-      <i class="fas fa-award me-2 text-primary"></i>Alistair Harvey Foundation Scholarship<br>
-      <i class="fas fa-medal me-2 text-info"></i>HKIE Outstanding Engineering Student
+      <i class="fas fa-trophy me-2 text-warning"></i>GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)<br>
+      <i class="fas fa-trophy me-2 text-primary"></i>Alistair Harvey Foundation Scholarship (Full Sponsorship)<br>
+      <i class="fas fa-trophy me-2 text-info"></i>HKIE Outstanding Engineering Student
     </div>
   </div>
   <div class="col-md-6">
     <div class="p-3 border rounded bg-light">
-      <i class="fas fa-star me-2 text-success"></i>HKIE BSD Student Award<br>
-      <i class="fas fa-certificate me-2 text-danger"></i>Endeavour Merit Award<br>
-      <i class="fas fa-graduation-cap me-2 text-secondary"></i>HKSAR Government Scholarship
+      <i class="fas fa-trophy me-2 text-success"></i>HKIE BSD Student Award<br>
+      <i class="fas fa-trophy me-2 text-danger"></i>Endeavour Merit Award<br>
+      <i class="fas fa-trophy me-2 text-secondary"></i>HKSAR Government Scholarship
     </div>
   </div>
 </div>
-</div>
-
-<div class="awards-grid">
-  <div class="award-item"><i class="fas fa-star"></i> GCU SCEBE Prize Winner</div>
-  <div class="award-item"><i class="fas fa-star"></i> Alistair Harvey Foundation Scholarship</div>
-  <div class="award-item"><i class="fas fa-star"></i> HKIE Outstanding Engineering Student</div>
-  <div class="award-item"><i class="fas fa-star"></i> HKIE BSD Outstanding Student</div>
-  <div class="award-item"><i class="fas fa-star"></i> Endeavour Merit Award</div>
-  <div class="award-item"><i class="fas fa-star"></i> HKSAR Government Scholarship</div>
 </div>
 
 ---
@@ -239,7 +223,7 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 ---
 
-### 🔬 Research Highlights
+#### 📖 Research Highlights
 <div class="d-flex gap-3 flex-wrap justify-content-center mt-4">
   <div class="flex-grow-1 p-3 border rounded bg-light-hover">
     <i class="fas fa-water me-2 text-info"></i><strong>Higher Diploma Thesis:</strong><br>
@@ -250,12 +234,6 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     Rooftop Renewable Energy Applications in University Campuses
   </div>
 </div>
-
----
-
-#### 📖 Research Highlights
-- **Higher Diploma Thesis:** *Optimization of Drainage Systems in High-Density Residential Buildings*  
-- **Undergraduate Thesis:** *Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in University Campuses*  
 
 These research projects reflect my **commitment to sustainability and efficiency** in the built environment.  
 
@@ -278,9 +256,7 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---
 
----
-
-## 🛠️ Technical Skills
+## 🔧 Technical Skills
 
 <div class="row g-4 mt-2">
   <div class="col-md-4">
@@ -319,6 +295,23 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---
 
+## <i class="fas fa-tools"></i> Technical Skills
+
+<div class="skills-container">
+  <div class="skill-category">
+    <h5><i class="fas fa-desktop"></i> Software & Design</h5>
+    <div class="skill-item">AutoCAD</div>
+    <div class="skill-item">Revit BIM</div>
+    <div class="skill-item">Dialux</div>
+  </div>
+
+  <div class="skill-category">
+    <h5><i class="fas fa-building"></i> Building Systems</h5>
+    <div class="skill-item">HVAC Design</div>
+    <div class="skill-item">Fire Safety Systems</div>
+  </div>
+</div>
+
 ---
 
 ## Technical Skills 🔧 
@@ -335,9 +328,51 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---
 
+### 🔧 Technical Expertise
+<div class="row g-4">
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-tools me-2"></i>Software</h5>
+        <ul class="list-unstyled">
+          <li>▹ AutoCAD</li>
+          <li>▹ Revit (BIM)</li>
+          <li>▹ Dialux</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-building me-2"></i>Systems</h5>
+        <ul class="list-unstyled">
+          <li>▹ HVAC Design</li>
+          <li>▹ Fire Safety Systems</li>
+          <li>▹ Pipe Networks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-microchip me-2"></i>Automation</h5>
+        <ul class="list-unstyled">
+          <li>▹ Raspberry Pi</li>
+          <li>▹ Arduino</li>
+          <li>▹ TensorFlow</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 ---
 
-## 🌟 Leadership & Advocacy
+## <i class="fas fa-users-cog"></i> Leadership & Advocacy
 
 <div class="accordion mt-3" id="leadershipAccordion">
   <div class="accordion-item">
@@ -358,28 +393,25 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 ---
 
-## Leadership & Advocacy 🌍
+## <i class="fas fa-users-cog"></i> Leadership & Advocacy 🌍
 
 Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
 
-#### **Chairman | IVE Morrison Hill Engineering Society (2021-2022)**  
+#### <i class="fas fa-briefcase"></i> **Chairman | IVE Morrison Hill Engineering Society (2021-2022)**  
 - Led **industry seminars** on sustainable construction, engaging **100+ students** ✔ 
 - Advocated **curriculum enhancements**, integrating **BIM & AI applications** ✔
 - Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0** ✔
 
-#### **External Vice President | ASHRAE IVE Student Branch (2020-2022)**  
+#### <i class="fas fa-briefcase"></i> **External Vice President | ASHRAE IVE Student Branch (2020-2022)**  
 - Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%** ✔
 - Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**, deepening understanding of adaptive thermal comfort ✔
 
-#### **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
+#### <i class="fas fa-briefcase"></i> **Committee Member | HKIE BSE Student Liaison Group (2021-2022)**  
 - Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees** ✔ 
 
-#### **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
+#### <i class="fas fa-briefcase"></i> **President of Finance Committee | 48th Students’ Union Council (2020-2021)**  
 - Managed an **annual budget exceeding HKD 50,000** ✔ 
 - Coordinated **high-impact student initiatives**, ensuring financial sustainability and strategic resource allocation ✔
-
-
----
 
 ---
 
@@ -473,13 +505,7 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
       <i class="fab fa-linkedin me-2"></i>LinkedIn
     </a>
   </div>
-  <p class="mb-0">Let's build a <strong>greener, smarter future</strong> together! 🌍</p>
+  <p class="mb-0">Let's build a <strong>greener, smarter future</strong> together! 🌍
+  </p>
 </div>
 
----
-
-### 📬**Let’s Connect!**  
-📧 **Email:** [wchongmh@gmail.com](mailto:wchongmh@gmail.com) <br>
-💼 **LinkedIn:** [wchongmh](https://linkedin.com/in/wchongmh/)
-
-Let's build a **greener, smarter, and more efficient future** together! 🚀 
