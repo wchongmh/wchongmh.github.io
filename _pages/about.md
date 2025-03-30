@@ -39,11 +39,10 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-## 🚀 Professional Journey
+## <i class="fas fa-university me-3 fa-2x text-primary"></i> Professional Journey
 
-#### <i class="fas fa-university"></i> Academic Excellence 
+#### 🎓 Academic Excellence 
 <div class="d-flex align-items-center mb-3">
-  <i class="fas fa-graduation-cap me-3 fa-2x text-primary"></i>
   <div>
     I graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple scholarships and awards, including:
   </div>
