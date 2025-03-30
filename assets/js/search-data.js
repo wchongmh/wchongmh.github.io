@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-award-gallery",
+          title: "Award Gallery",
+          description: "Moments from my award journey",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/award-gallery/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Award-winning UK Engineering graduate with a strong technical foundation and leadership acumen, specializing in innovative building services solutions. Recognized with the SCEBE Prize for top academic performance and fully funded through the Alistair Harvey Foundation Scholarship to complete BEng/MSc degrees.",
