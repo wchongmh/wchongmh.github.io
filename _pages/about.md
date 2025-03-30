@@ -352,7 +352,7 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 ######
 
-<small>*Featured across Hong Kong’s leading publications:*</small>  
+<small>*Featured in Hong Kong’s leading publications:*</small>  
 
 <div class="row">
   <!-- Hong Kong 01 -->
@@ -362,12 +362,17 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
       <div class="mt-2">
         <h6 class="mb-1">Breaking Gender Norms in STEM</h6>
         <p class="text-muted small mb-2"><em>Hong Kong 01</em> | 2022</p>
-        <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -379,29 +384,39 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
       <div class="mt-2">
         <h6 class="mb-1">Front-Page Engineering Spotlight</h6>
         <p class="text-muted small mb-2"><em>Oriental Daily</em> | 2022</p>
-        <a href="https://orientaldaily.on.cc/[...]" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://orientaldaily.on.cc/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- ON.CC (Oriental Daily Web) -->
+  <!-- ON.CC -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <div class="text-center">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Digital Feature">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Feature">
       <div class="mt-2">
         <h6 class="mb-1">Vocational Education Success</h6>
         <p class="text-muted small mb-2"><em>ON.CC</em> | 2022</p>
-        <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/[...]" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -409,16 +424,21 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
   <!-- Sky Post -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <div class="text-center">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Smart Grid Feature">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature">
       <div class="mt-2">
         <h6 class="mb-1">Smart Energy Systems</h6>
         <p class="text-muted small mb-2"><em>Sky Post</em> | 2022</p>
-        <a href="https://skypost.hk/article/3306096" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://skypost.hk/article/3306096" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -426,16 +446,21 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
   <!-- Line Today -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <div class="text-center">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Career Guidance">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature">
       <div class="mt-2">
         <h6 class="mb-1">Career Pathway Advice</h6>
         <p class="text-muted small mb-2"><em>Line Today</em> | 2022</p>
-        <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -443,33 +468,43 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
   <!-- Yahoo News -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <div class="text-center">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Technical Expertise">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature">
       <div class="mt-2">
-        <h6 class="mb-1">MEP Systems Mastery</h6>
+        <h6 class="mb-1">Technical Expertise Highlight</h6>
         <p class="text-muted small mb-2"><em>Yahoo News</em> | 2022</p>
-        <a href="https://hk.news.yahoo.com/[...]" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://hk.news.yahoo.com/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Print Edition Clipping -->
+  <!-- Newspaper Clipping -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <div class="text-center">
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" alt="Oriental Daily Print Clipping">
+      <img class="img-fluid rounded z-depth-1" src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" alt="Print Edition Feature">
       <div class="mt-2">
         <h6 class="mb-1">Print Edition Feature</h6>
         <p class="text-muted small mb-2"><em>Oriental Daily</em> | 2022</p>
-        <a href="https://orientaldaily.on.cc/[...]" target="_blank" class="btn btn-sm btn-outline-primary me-1">
-          <i class="fas fa-globe me-1"></i>Website
-        </a>
-        <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-          <i class="fas fa-file-pdf me-1"></i>Chinese PDF
-        </a>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+          <a href="https://orientaldaily.on.cc/[...]" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-external-link-alt me-1"></i>Website
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+            <i class="fas fa-file-pdf me-1"></i>Chinese
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+            <i class="fas fa-file-alt me-1"></i>English
+          </a>
+        </div>
       </div>
     </div>
   </div>
