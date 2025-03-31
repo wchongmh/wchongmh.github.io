@@ -65,7 +65,7 @@ nav_order: 5  # Adjust position in menu
   </div>
 
   <!-- Ceremony Photo 5 -->
-    <div class="col-12 col-sm-6 col-lg-4">
+  <div class="col-12 col-sm-6 col-lg-4">
     <figure>
       <img src="/assets/img/awards/scebe-2.jpg" 
            class="img-fluid rounded" 
@@ -109,23 +109,23 @@ My mother accepted the award on my behalf while I was studying in the UK.*
 <div class="row g-4">
 
 <div class="col-md-3 col-6">
-![HKIE award certificate](/assets/img/awards/hkie-1.jpg)
-<small class="text-muted">HKIE award certificate</small>
+  <img src="/assets/img/awards/hkie-1.jpg" alt="HKIE award certificate" class="img-fluid">
+  <small class="text-muted d-block mt-2">HKIE award certificate</small>
 </div>
 
 <div class="col-md-3 col-6">
-![Official ceremony proceedings with HKIE committee members](/assets/img/awards/hkie-2.jpg)
-<small class="text-muted">Official ceremony proceedings with HKIE committee members</small>
+  <img src="/assets/img/awards/hkie-2.jpg" alt="Official ceremony proceedings with HKIE committee members" class="img-fluid">
+  <small class="text-muted d-block mt-2">Official ceremony proceedings with HKIE committee members</small>
 </div>
 
 <div class="col-md-3 col-6">
-![Award acceptance by my mother](/assets/img/awards/hkie-3.jpg)
-<small class="text-muted">Award acceptance by my mother</small>
+  <img src="/assets/img/awards/hkie-3.jpg" alt="Award acceptance by my mother" class="img-fluid">
+  <small class="text-muted d-block mt-2">Award acceptance by my mother</small>
 </div>
 
 <div class="col-md-3 col-6">
-![Flyer: The Iconic Mascot of HKIE](/assets/img/awards/hkie-4.jpg)
-<small class="text-muted">Flyer: The Iconic Mascot of HKIE</small>
+  <img src="/assets/img/awards/hkie-4.jpg" alt="Flyer: The Iconic Mascot of HKIE" class="img-fluid">
+  <small class="text-muted d-block mt-2">Flyer: The Iconic Mascot of HKIE</small>
 </div>
 
 </div>
