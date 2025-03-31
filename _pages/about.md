@@ -331,19 +331,19 @@ These research projects reflect my **commitment to sustainability and efficiency
 
 Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
 
-#### **<a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="pdf-link">Chairman | IVE Morrison Hill Engineering Society (2021-2022) <i class="fas fa-file-pdf"></i></a>**
+#### **<a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="pdf-link">Chairman | IVE Morrison Hill Engineering Society (2021-2022) </a>**
 - <i class="fas fa-check-circle text-success"></i> Led **industry seminars** on sustainable construction, engaging **100+ students**
 - <i class="fas fa-check-circle text-success"></i> Advocated **curriculum enhancements**, integrating **BIM & AI applications**
 - <i class="fas fa-check-circle text-success"></i> Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0**
 
-#### **<a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="pdf-link">External Vice President | ASHRAE IVE Student Branch (2020-2022) <i class="fas fa-file-pdf"></i></a>**
+#### **<a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="pdf-link">External Vice President | ASHRAE IVE Student Branch (2020-2022) </a>**
 - <i class="fas fa-check-circle text-success"></i> Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%**
 - <i class="fas fa-check-circle text-success"></i> Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**
 
-#### **<a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="pdf-link">Committee Member | HKIE BSE Student Liaison Group (2021-2022) <i class="fas fa-file-pdf"></i></a>**
+#### **<a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="pdf-link">Committee Member | HKIE BSE Student Liaison Group (2021-2022) </a>**
 - <i class="fas fa-check-circle text-success"></i> Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees**
 
-#### **<a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="pdf-link">President of Finance Committee | 48th Students’ Union Council (2020-2021) <i class="fas fa-file-pdf"></i></a>**
+#### **<a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="pdf-link">President of Finance Committee | 48th Students’ Union Council (2020-2021) </a>**
 - <i class="fas fa-check-circle text-success"></i> Managed an **annual budget exceeding HKD 50,000**
 - <i class="fas fa-check-circle text-success"></i> Coordinated **high-impact student initiatives**
 
