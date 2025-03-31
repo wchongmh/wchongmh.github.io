@@ -447,7 +447,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 <!-- Industry Experience -->
   <div class="col">
     <div class="card h-100 border-info shadow-lg">
-      <div class="card-header bg-info text-dark">
+      <div class="card-header bg-info text-white">
         <i class="fas fa-hard-hat fa-2x mb-2"></i>
         <h5 class="card-title mb-0">Hands-On Experience</h5>
       </div>
