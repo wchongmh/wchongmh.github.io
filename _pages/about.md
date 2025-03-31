@@ -391,8 +391,6 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 #### 🎯 Future Goals
 **My passion is driven by the aspiration to become a professional Building Services Engineer**, eager to **tackle complex challenges** and contribute to global progress through **innovative, forward-thinking solutions**. I am dedicated to **advancing sustainable building practices** by integrating **cutting-edge technologies like AI, IoT, and renewable energy systems**, striving to transcend the limitations of conventional engineering approaches.
 
-I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural communication and thriving in diverse environments. Additionally, I am **eligible to work in the UK without visa sponsorship**, making me readily available to contribute my skills and expertise to the industry.  
-
 <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
     <!-- CEng Goal -->
     <div class="col">
@@ -490,6 +488,53 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
             </div>
         </div>
     </div>
+</div>
+
+---
+
+## <i class="fas fa-globe"></i> Language & Work Eligibility
+
+<div class="row g-4">
+  <!-- Languages -->
+  <div class="col-12 col-md-8">
+    <div class="eligibility-card">
+      <div class="d-flex align-items-center gap-3">
+        <div class="icon-wrapper bg-primary">
+          <i class="fas fa-comments fa-2x text-white"></i>
+        </div>
+        <div>
+          <h5>Language Proficiency</h5>
+          <div class="d-flex gap-3 flex-wrap">
+            <div class="language-item">
+              <i class="fas fa-language"></i> English <span class="badge bg-success">Fluent</span>
+            </div>
+            <div class="language-item">
+              <i class="fas fa-language"></i> Mandarin <span class="badge bg-success">Fluent</span>
+            </div>
+            <div class="language-item">
+              <i class="fas fa-language"></i> Cantonese <span class="badge bg-success">Fluent</span>
+            </div>
+          </div>
+          <p class="mt-2 mb-0">Excel in cross-cultural communication and thrive in diverse environments</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work Eligibility -->
+  <div class="col-12 col-md-4">
+    <div class="eligibility-card h-100">
+      <div class="d-flex align-items-center gap-3">
+        <div class="icon-wrapper bg-success">
+          <i class="fas fa-check-circle fa-2x text-white"></i>
+        </div>
+        <div>
+          <h5>UK Work Status</h5>
+          <p class="mb-0">Eligible to work without visa sponsorship</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 ---
