@@ -16,7 +16,7 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 1 -->
  <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/gallery/awards/scebe-1.jpg" 
+      <img src="/assets/img/awards/scebe-1.jpg" 
            class="img-fluid rounded" 
            alt="Award certificate and materials">
       <figcaption class="mt-2 text-muted small">
@@ -28,7 +28,7 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 2 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/gallery/awards/scebe-2.jpg" 
+      <img src="/assets/img/awards/scebe-2.jpg" 
            class="img-fluid rounded" 
            alt="Receiving award from Clancy Consulting representative">
       <figcaption class="mt-2 text-muted small">
@@ -40,7 +40,7 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 3 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/gallery/awards/scebe-3.jpg" 
+      <img src="/assets/img/awards/scebe-3.jpg" 
            class="img-fluid rounded" 
            alt="Accepting certificate with faculty members">
       <figcaption class="mt-2 text-muted small">
@@ -52,7 +52,7 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 4 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/gallery/awards/scebe-4.jpg" 
+      <img src="/assets/img/awards/scebe-4.jpg" 
            class="img-fluid rounded" 
            alt="Photo with My Inspiring Professors">
       <figcaption class="mt-2 text-muted small">
@@ -64,7 +64,7 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 5 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/gallery/awards/scebe-5.jpg" 
+      <img src="/assets/img/awards/scebe-5.jpg" 
            class="img-fluid rounded" 
            alt="Celebratory moment with other awardees">
       <figcaption class="mt-2 text-muted small">
@@ -76,7 +76,7 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 6 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/gallery/awards/scebe-6.jpg" 
+      <img src="/assets/img/awards/scebe-6.jpg" 
            class="img-fluid rounded" 
            alt="Group photo with SCEBE faculty members">
       <figcaption class="mt-2 text-muted small">
