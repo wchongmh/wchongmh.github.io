@@ -7,7 +7,10 @@ nav: true  # Add to navigation menu
 nav_order: 5  # Adjust position in menu
 ---
 
-## 🏆  SCEBE Annual Student Prize Giving Ceremony
+## 🏆  SCEBE Annual Celebration Gallery
+
+### 📸 Ceremony Photos
+*These images were taken at the (SCEBE) Annual Celebration student prize giving ceremony (2024-04-27).*
 
 > *"I extend my heartfelt gratitude to [Clancy Consulting](https://www.clancy.co.uk/) for their generous sponsorship of this award. Your support elevates educational experiences and inspires students to strive for excellence.*  
 > *A special thank you to my lecturers at [SCEBE](https://www.gcu.ac.uk/scebe/) – your guidance has been instrumental in my journey. I'm proud to be part of this community and excited for future opportunities."*
@@ -28,11 +31,11 @@ nav_order: 5  # Adjust position in menu
   <!-- Ceremony Photo 2 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/awards/scebe-2.jpg" 
+      <img src="/assets/img/awards/scebe-5.jpg" 
            class="img-fluid rounded" 
-           alt="Receiving award from Clancy Consulting representative">
+           alt="Celebratory moment with other awardees">
       <figcaption class="mt-2 text-muted small">
-        Receiving award from Clancy Consulting representative
+        Celebratory moment with other awardees
       </figcaption>
     </figure>
   </div>
@@ -62,17 +65,17 @@ nav_order: 5  # Adjust position in menu
   </div>
 
   <!-- Ceremony Photo 5 -->
-  <div class="col-12 col-sm-6 col-lg-4">
+    <div class="col-12 col-sm-6 col-lg-4">
     <figure>
-      <img src="/assets/img/awards/scebe-5.jpg" 
+      <img src="/assets/img/awards/scebe-2.jpg" 
            class="img-fluid rounded" 
-           alt="Celebratory moment with other awardees">
+           alt="Receiving award from Clancy Consulting representative">
       <figcaption class="mt-2 text-muted small">
-        Celebratory moment with other awardees
+        Receiving award from Clancy Consulting representative
       </figcaption>
     </figure>
   </div>
-
+  
   <!-- Ceremony Photo 6 -->
   <div class="col-12 col-sm-6 col-lg-4">
     <figure>
@@ -85,3 +88,53 @@ nav_order: 5  # Adjust position in menu
     </figure>
   </div>
 </div>
+
+</div>
+
+### 🎥 Award Acceptance Moment
+<video controls style="max-width: 100%; height: auto;">
+  <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<small class="text-muted d-block mt-2">
+  🎥 Recording of my award acceptance moment - Captured live as I walked on stage to receive the SCEBE Prize at the Annual Celebration 2024
+</small>
+
+---
+
+## 🏆 HKIE Awards Gallery
+
+### 📷 Certificate Collection
+*These photos were taken at the HKIE awards ceremony in Hong Kong (2023-04-14).  
+My mother accepted the award on my behalf while I was studying in the UK.*
+
+<div class="row g-4">
+
+<div class="col-md-3 col-6">
+![Mother receiving certificate](/assets/img/awards/hkie-1.jpg)
+<small class="text-muted">HKIE award certificate</small>
+</div>
+
+<div class="col-md-3 col-6">
+![Certificate close-up](/assets/img/awards/hkie-2.png)
+<small class="text-muted">Official ceremony proceedings with HKIE committee members</small>
+</div>
+
+<div class="col-md-3 col-6">
+![Ceremony stage](/assets/img/awards/hkie-3.png)
+<small class="text-muted">Award acceptance by my mother</small>
+</div>
+
+<div class="col-md-3 col-6">
+![Group photo](/assets/img/awards/hkie-4.png)
+<small class="text-muted">Flyer: The Iconic Mascot of HKIE 🚀🤖</small>
+</div>
+
+</div>
+
+---
+
+## 💌 Special Thanks
+> Thank you to Clancy Consulting, HKIE, SCEBE faculty, and especially my mother for their support.  
+> These recognitions fuel my commitment to engineering excellence.  
+> *Original media sizes preserved as requested*
