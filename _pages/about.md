@@ -386,30 +386,9 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 
 ---
 
-## Looking Ahead 🔍
+## 🔍 Looking Ahead
 
 #### 🎯 Future Goals
-
-<div class="d-flex flex-column gap-2">
-  <div class="d-flex align-items-center">
-    <i class="fas fa-bullseye fa-lg me-3 text-primary"></i>
-    Chartered Engineer (CEng) qualification in 5-6 years
-  </div>
-  <div class="d-flex align-items-center">
-    <i class="fas fa-graduation-cap fa-lg me-3 text-success"></i>
-    Complete graduate training program
-  </div>
-  <div class="d-flex align-items-center">
-    <i class="fas fa-briefcase fa-lg me-3 text-info"></i>
-    Gain 2+ years hands-on industry experience
-  </div>
-</div>
-
-**My passion is driven by the aspiration to become a professional Building Services Engineer**, eager to **tackle complex challenges** and contribute to global progress through **innovative, forward-thinking solutions**. I am dedicated to **advancing sustainable building practices** by integrating **cutting-edge technologies like AI, IoT, and renewable energy systems**, striving to transcend the limitations of conventional engineering approaches.
-
-I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural communication and thriving in diverse environments. Additionally, I am **eligible to work in the UK without visa sponsorship**, making me readily available to contribute my skills and expertise to the industry.  
-
----
 
 <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
   <!-- CEng Goal -->
@@ -497,6 +476,10 @@ I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural
     </div>
   </div>
 </div>
+
+**My passion is driven by the aspiration to become a professional Building Services Engineer**, eager to **tackle complex challenges** and contribute to global progress through **innovative, forward-thinking solutions**. I am dedicated to **advancing sustainable building practices** by integrating **cutting-edge technologies like AI, IoT, and renewable energy systems**, striving to transcend the limitations of conventional engineering approaches.
+
+I am **fluent** in English, Mandarin, and Cantonese, excelling in cross-cultural communication and thriving in diverse environments. Additionally, I am **eligible to work in the UK without visa sponsorship**, making me readily available to contribute my skills and expertise to the industry.  
 
 ---
 
