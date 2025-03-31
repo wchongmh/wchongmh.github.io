@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: “The engineers of the future will be poets.” ― Terence McKenna
 description: "Building Services Engineer | Sustainable Design Advocate | IoT Innovator"
@@ -383,6 +383,60 @@ I am deeply passionate about **sustainability and smart system integration**. My
 Whether assessing **rooftop renewable energy applications**, **optimizing drainage layouts**, or **developing AI-driven HVAC controls**, I strive to **reduce environmental impact** while enhancing **functionality and efficiency**.    
 
 Today, I aim to **leverage emerging technologies**—from **IoT automation to AI-powered building analytics**—to **redefine industry standards** and **inspire the next generation of engineers**.  
+
+---
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <!-- CEng Goal -->
+  <div class="col">
+    <div class="card h-100 border-primary shadow-lg">
+      <div class="card-header bg-primary text-white">
+        <i class="fas fa-user-tie fa-2x mb-2"></i>
+        <h5 class="card-title mb-0">Professional Certification</h5>
+      </div>
+      <div class="card-body">
+        <h6 class="text-primary">Chartered Engineer (CEng)</h6>
+        <p class="card-text">Target completion within 5-6 years</p>
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="badge bg-dark text-white fs-6 py-2">
+            <i class="fas fa-university me-2"></i>UK-SPEC
+          </span>
+          <span class="badge bg-info text-dark fs-6 py-2">
+            <i class="fas fa-building me-2"></i>CIBSE
+          </span>
+        </div>
+        <div class="progress" style="height: 8px;">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 20%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Industry Experience -->
+  <div class="col">
+    <div class="card h-100 border-info shadow-lg">
+      <div class="card-header bg-info text-dark">
+        <i class="fas fa-hard-hat fa-2x mb-2"></i>
+        <h5 class="card-title mb-0">Hands-On Experience</h5>
+      </div>
+      <div class="card-body">
+        <h6 class="text-info">2+ Years Industry Practice</h6>
+        <p class="card-text">Target sectors:</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-success text-white fs-6 py-2">
+            <i class="fas fa-leaf me-2"></i>Sustainable Design
+          </span>
+          <span class="badge bg-warning text-dark fs-6 py-2">
+            <i class="fas fa-brain me-2"></i>Smart Buildings
+          </span>
+          <span class="badge bg-danger text-white fs-6 py-2">
+            <i class="fas fa-cube me-2"></i>BIM Implementation
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
