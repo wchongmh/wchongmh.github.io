@@ -89,8 +89,6 @@ nav_order: 5  # Adjust position in menu
   </div>
 </div>
 
-</div>
-
 ### 🎥 Award Acceptance Moment
 <video controls style="max-width: 100%; height: auto;">
   <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
@@ -111,23 +109,23 @@ My mother accepted the award on my behalf while I was studying in the UK.*
 <div class="row g-4">
 
 <div class="col-md-3 col-6">
-![Mother receiving certificate](/assets/img/awards/hkie-1.jpg)
+![HKIE award certificate](/assets/img/awards/hkie-1.jpg)
 <small class="text-muted">HKIE award certificate</small>
 </div>
 
 <div class="col-md-3 col-6">
-![Certificate close-up](/assets/img/awards/hkie-2.png)
+![Official ceremony proceedings with HKIE committee members](/assets/img/awards/hkie-2.jpg)
 <small class="text-muted">Official ceremony proceedings with HKIE committee members</small>
 </div>
 
 <div class="col-md-3 col-6">
-![Ceremony stage](/assets/img/awards/hkie-3.png)
+![Award acceptance by my mother](/assets/img/awards/hkie-3.jpg)
 <small class="text-muted">Award acceptance by my mother</small>
 </div>
 
 <div class="col-md-3 col-6">
-![Group photo](/assets/img/awards/hkie-4.png)
-<small class="text-muted">Flyer: The Iconic Mascot of HKIE 🚀🤖</small>
+![Flyer: The Iconic Mascot of HKIE](/assets/img/awards/hkie-4.jpg)
+<small class="text-muted">Flyer: The Iconic Mascot of HKIE</small>
 </div>
 
 </div>
