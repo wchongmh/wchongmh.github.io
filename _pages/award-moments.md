@@ -1,0 +1,55 @@
+---
+layout: page
+title: Award Moments
+permalink: /award-moments/
+description: "Celebrating academic achievements and gratitude"
+---
+
+## 🏆 Student Prize Giving Ceremony
+
+> *"I extend my heartfelt gratitude to [Clancy Consulting](https://www.clancy.co.uk/) for their generous sponsorship of this award. Your support elevates educational experiences and inspires students to strive for excellence.*  
+> *A special thank you to my lecturers at [SCEBE](https://www.gcu.ac.uk/scebe/) – your guidance has been instrumental in my journey. I'm proud to be part of this community and excited for future opportunities."*
+
+<div class="row mt-5">
+  <!-- Ceremony Photo 1 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/img/award-moments/award-1.jpg" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/award-moments/award-1.jpg" alt="Receiving award from Clancy Consulting representative" style="max-width: 100%; height: auto;">
+    </a>
+  </div>
+
+  <!-- Ceremony Photo 2 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/img/award-moments/award-2.jpg" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/award-moments/award-2.jpg" alt="Accepting certificate with faculty members" style="max-width: 100%; height: auto;">
+    </a>
+  </div>
+
+  <!-- Ceremony Photo 3 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/img/award-moments/award-3.jpg" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/award-moments/award-3.jpg" alt="Group photo with award sponsors" style="max-width: 100%; height: auto;">
+    </a>
+  </div>
+
+  <!-- Ceremony Photo 4 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/img/award-moments/award-4.jpg" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/award-moments/award-4.jpg" alt="Presentation moment on stage" style="max-width: 100%; height: auto;">
+    </a>
+  </div>
+
+  <!-- Ceremony Photo 5 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/img/award-moments/award-5.jpg" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/award-moments/award-5.jpg" alt="Celebratory moment with classmates" style="max-width: 100%; height: auto;">
+    </a>
+  </div>
+
+  <!-- Ceremony Photo 6 -->
+  <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
+    <a href="/assets/img/award-moments/award-6.jpg" target="_blank">
+      <img class="rounded z-depth-1" src="/assets/img/award-moments/award-6.jpg" alt="Official award documentation" style="max-width: 100%; height: auto;">
+    </a>
+  </div>
+</div>
