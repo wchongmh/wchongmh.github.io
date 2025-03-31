@@ -492,46 +492,61 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 
 ---
 
-## <i class="fas fa-globe"></i> Language & Work Eligibility
+## 🌐 Global Competence
 
-<div class="row g-4">
+<div class="row g-4 mt-3">
   <!-- Languages -->
-  <div class="col-12 col-md-8">
-    <div class="eligibility-card">
-      <div class="d-flex align-items-center gap-3">
-        <div class="icon-wrapper bg-primary">
-          <i class="fas fa-comments fa-2x text-white"></i>
-        </div>
-        <div>
-          <h5>Language Proficiency</h5>
-          <div class="d-flex gap-3 flex-wrap">
-            <div class="language-item">
-              <i class="fas fa-language"></i> English <span class="badge bg-success">Fluent</span>
-            </div>
-            <div class="language-item">
-              <i class="fas fa-language"></i> Mandarin <span class="badge bg-success">Fluent</span>
-            </div>
-            <div class="language-item">
-              <i class="fas fa-language"></i> Cantonese <span class="badge bg-success">Fluent</span>
-            </div>
+  <div class="col-md-6">
+    <div class="p-4 border rounded-3 bg-light-hover h-100">
+      <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-globe-asia fa-2x text-primary me-3"></i>
+        <h4 class="mb-0">Language Proficiency</h4>
+      </div>
+      <div class="row g-3">
+        <div class="col-4 text-center">
+          <div class="lang-card p-2 rounded">
+            <i class="flag-icon flag-icon-gb fa-2x text-danger mb-2"></i>
+            <div class="fw-bold">English</div>
+            <small class="text-muted">Fluent</small>
           </div>
-          <p class="mt-2 mb-0">Excel in cross-cultural communication and thrive in diverse environments</p>
+        </div>
+        <div class="col-4 text-center">
+          <div class="lang-card p-2 rounded">
+            <i class="flag-icon flag-icon-cn fa-2x text-success mb-2"></i>
+            <div class="fw-bold">Mandarin</div>
+            <small class="text-muted">Native</small>
+          </div>
+        </div>
+        <div class="col-4 text-center">
+          <div class="lang-card p-2 rounded">
+            <i class="flag-icon flag-icon-hk fa-2x text-warning mb-2"></i>
+            <div class="fw-bold">Cantonese</div>
+            <small class="text-muted">Native</small>
+          </div>
         </div>
       </div>
+      <p class="mt-3 mb-0 text-muted">
+        <i class="fas fa-comments me-2"></i>Excel in cross-cultural communication and thrive in diverse environments
+      </p>
     </div>
   </div>
 
   <!-- Work Eligibility -->
-  <div class="col-12 col-md-4">
-    <div class="eligibility-card h-100">
-      <div class="d-flex align-items-center gap-3">
-        <div class="icon-wrapper bg-success">
-          <i class="fas fa-check-circle fa-2x text-white"></i>
-        </div>
+  <div class="col-md-6">
+    <div class="p-4 border rounded-3 bg-light-hover h-100">
+      <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-check-circle fa-2x text-success me-3"></i>
+        <h4 class="mb-0">Work Authorization</h4>
+      </div>
+      <div class="d-flex align-items-center bg-success-light p-3 rounded mb-3">
+        <i class="fas fa-passport fa-3x text-success me-3"></i>
         <div>
-          <h5>UK Work Status</h5>
-          <p class="mb-0">Eligible to work without visa sponsorship</p>
+          <h5 class="mb-1">UK Work Rights</h5>
+          <p class="mb-0 small">No visa sponsorship required</p>
         </div>
+      </div>
+      <div class="alert alert-success mb-0">
+        <i class="fas fa-clock me-2"></i>Immediately available to contribute skills and expertise
       </div>
     </div>
   </div>
