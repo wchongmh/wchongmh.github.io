@@ -108,24 +108,24 @@ My mother accepted the award on my behalf while I was studying in the UK.*
 
 <div class="row g-4">
 
-<div class="col-md-3 col-6">
-  <img src="/assets/img/awards/hkie-1.jpg" alt="HKIE award certificate" class="img-fluid">
-  <small class="text-muted d-block mt-2">HKIE award certificate</small>
+<div class="col-lg-4 col-md-6 col-12">
+  <img src="/assets/img/awards/hkie-1.jpg" alt="HKIE award certificate" class="img-fluid rounded shadow-sm" style="max-height: 500px; width: auto;">
+  <small class="text-muted d-block mt-2 text-center">HKIE award certificate</small>
 </div>
 
-<div class="col-md-3 col-6">
-  <img src="/assets/img/awards/hkie-2.jpg" alt="Official ceremony proceedings with HKIE committee members" class="img-fluid">
-  <small class="text-muted d-block mt-2">Official ceremony proceedings with HKIE committee members</small>
+<div class="col-lg-4 col-md-6 col-12">
+  <img src="/assets/img/awards/hkie-2.jpg" alt="Official ceremony proceedings with HKIE committee members" class="img-fluid rounded shadow-sm" style="max-height: 500px; width: auto;">
+  <small class="text-muted d-block mt-2 text-center">Official ceremony proceedings with HKIE committee members</small>
 </div>
 
-<div class="col-md-3 col-6">
-  <img src="/assets/img/awards/hkie-3.jpg" alt="Award acceptance by my mother" class="img-fluid">
-  <small class="text-muted d-block mt-2">Award acceptance by my mother</small>
+<div class="col-lg-4 col-md-6 col-12">
+  <img src="/assets/img/awards/hkie-3.jpg" alt="Award acceptance by my mother" class="img-fluid rounded shadow-sm" style="max-height: 500px; width: auto;">
+  <small class="text-muted d-block mt-2 text-center">Award acceptance by my mother</small>
 </div>
 
-<div class="col-md-3 col-6">
-  <img src="/assets/img/awards/hkie-4.jpg" alt="Flyer: The Iconic Mascot of HKIE" class="img-fluid">
-  <small class="text-muted d-block mt-2">Flyer: The Iconic Mascot of HKIE</small>
+<div class="col-lg-4 col-md-6 col-12">
+  <img src="/assets/img/awards/hkie-4.jpg" alt="Flyer: The Iconic Mascot of HKIE" class="img-fluid rounded shadow-sm" style="max-height: 500px; width: auto;">
+  <small class="text-muted d-block mt-2 text-center">Flyer: The Iconic Mascot of HKIE</small>
 </div>
 
 </div>
