@@ -3,7 +3,7 @@ layout: page
 title: Award Gallery
 permalink: /award-gallery/
 description: "Moments from my award journey"
-nav: true  # Add to navigation menu
+nav: false  # Add to navigation menu
 nav_order: 5  # Adjust position in menu
 ---
 
