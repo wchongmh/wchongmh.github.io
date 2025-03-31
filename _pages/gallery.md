@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Award Moments
-permalink: /award-moments/
+title: Gallery
+permalink: /gallery/
 description: "Moments from my award journey"
 nav: true  # Add to navigation menu
 nav_order: 5  # Adjust position in menu
