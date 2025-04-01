@@ -91,28 +91,14 @@ nav_order: 5  # Adjust position in menu
 
 ### 🎥 Award Acceptance Moment
 
-<div class="video-hero" style="position: relative; max-width: 800px; margin: 0 auto 2rem; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <video controls style="width: 100%; display: block;">
-    <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
-  </video>
-  <div class="video-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 1.5rem; color: white; text-align: center;">
-    <p style="margin: 0; font-size: 1.1em;">🎬 My Award Acceptance Moment</p>
-    <small style="opacity: 0.9;">SCEBE Annual Celebration 2024</small>
-  </div>
-</div>
-
 <div class="video-container" style="max-width: 600px; margin: 0 auto 1.5rem; border-radius: 8px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
   <video controls style="width: 100%; display: block;">
     <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
   </video>
   <div style="background: rgba(0,0,0,0.7); padding: 0.8rem; text-align: center;">
-    <p style="margin: 0; font-size: 0.95em; color: white; font-weight: 500;">🎬 My Award Acceptance Moment</p>
-    <small style="color: white; opacity: 0.9;">SCEBE Annual Celebration 2024</small>
+    <p style="margin: 0; font-size: 0.95em; color: white; font-weight: 500;">🎥 My Award Acceptance Moment</p>
+    <small style="color: white; opacity: 0.9;">Receiving the SCEBE Prize at the SCEBE Annual Celebration 2024</small>
   </div>
-</div>
-
-  🎥 Recording of my award acceptance moment - Receiving the SCEBE Prize at the Annual Celebration 2024
-  </p>
 </div>
 
 ---
@@ -153,7 +139,3 @@ My mother accepted the award on my behalf while I was studying in the UK.*
   <h3 style="margin-top: 0; color: #333;">Special Thanks</h3>
   <p style="margin-bottom: 0;">To Clancy Consulting, HKIE, SCEBE faculty, and especially my mother for their unwavering support in making these achievements possible.</p>
 </div>
-
-## 💌 Special Thanks
-> Thank you to Clancy Consulting, HKIE, SCEBE faculty, and especially my mother for their support.  
-> These recognitions fuel my commitment to engineering excellence.
