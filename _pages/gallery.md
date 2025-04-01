@@ -135,6 +135,61 @@ My mother accepted the award on my behalf while I was studying in the UK.*
 
 ---
 
+## 🏆 HKIE Awards Gallery
+
+### 🎖️ Prestigious HKIE Recognition Ceremony
+*These photographs capture the April 14, 2023 awards ceremony at The Hong Kong Institution of Engineers headquarters. While I was completing my engineering degree in Scotland, my mother had the honor of representing me at this significant professional milestone - a testament to our family's shared commitment to engineering excellence.*
+
+<div class="interactive-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+    <img src="/assets/img/awards/hkie-1.jpg" alt="HKIE award certificate with gold embossed seal" style="width: 100%; height: 300px; object-fit: cover; border-bottom: 1px solid #eee;">
+    <div class="card-caption" style="padding: 1rem;">
+      <p style="margin: 0 0 0.3rem 0; font-weight: 600; color: #2c3e50;">🏅 HKIE Certificate of Excellence</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">The official certification bearing HKIE's gold embossed seal, awarded for distinguished achievement in Building Services Engineering. This credential represents Hong Kong's highest standard of engineering education recognition.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+    <img src="/assets/img/awards/hkie-2.jpg" alt="Mother with HKIE council members during ceremony proceedings" style="width: 100%; height: 300px; object-fit: cover; border-bottom: 1px solid #eee;">
+    <div class="card-caption" style="padding: 1rem;">
+      <p style="margin: 0 0 0.3rem 0; font-weight: 600; color: #2c3e50;">👩‍👦 Mother's Proud Representation</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">My mother engaging with HKIE council members during the formal proceedings. Her gracious acceptance on my behalf connected my international studies back to Hong Kong's engineering community.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+    <img src="/assets/img/awards/hkie-3.jpg" alt="Mother standing at HKIE's representative gate holding award" style="width: 100%; height: 300px; object-fit: cover; border-bottom: 1px solid #eee;">
+    <div class="card-caption" style="padding: 1rem;">
+      <p style="margin: 0 0 0.3rem 0; font-weight: 600; color: #2c3e50;">🏛️ At HKIE's Historic Gateway</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">My mother standing proudly at HKIE's symbolic entrance, award in hand. This architectural landmark represents the gateway to professional engineering practice in Hong Kong.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+    <img src="/assets/img/awards/hkie-4.jpg" alt="Hally the HKIE owl mascot" style="width: 100%; height: 300px; object-fit: cover; border-bottom: 1px solid #eee;">
+    <div class="card-caption" style="padding: 1rem;">
+      <p style="margin: 0 0 0.3rem 0; font-weight: 600; color: #2c3e50;">🦉 Hally - The Wisdom Owl</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">Meet Hally, HKIE's owl mascot embodying wisdom and professionalism. This thoughtful symbol reflects the institution's commitment to engineering innovation and ethical practice since 1947.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="hkie-context" style="background: linear-gradient(to right, #f8f9fa, #e9ecef); padding: 1.5rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #2c3e50;">
+  <h4 style="margin-top: 0; color: #2c3e50;">✍️ About This Honor</h4>
+  <p>The HKIE Award recognizes:</p>
+  <ul style="padding-left: 1.2rem;">
+    <li style="margin-bottom: 0.5rem;">Top 2% of engineering students across Hong Kong institutions</li>
+    <li style="margin-bottom: 0.5rem;">Demonstrated excellence in both theoretical and practical engineering</li>
+    <li style="margin-bottom: 0.5rem;">Commitment to HKIE's code of professional conduct</li>
+    <li>Potential for leadership in the engineering profession</li>
+  </ul>
+  <p style="margin-bottom: 0;">This recognition holds special significance as it bridges my Hong Kong roots with my international engineering education, witnessed through my mother's proud participation.</p>
+</div>
+
+---
+
 <div class="thank-you-note" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center; box-shadow: inset 0 0 10px rgba(0,0,0,0.05);">
   <h3 style="margin-top: 0; color: #333;">Special Thanks</h3>
   <p style="margin-bottom: 0;">To Clancy Consulting, HKIE, SCEBE faculty, and especially my mother for their unwavering support in making these achievements possible.</p>
