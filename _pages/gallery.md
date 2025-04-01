@@ -92,7 +92,7 @@ nav_order: 5  # Adjust position in menu
 ### 🎥 Award Acceptance Moment
 <div class="text-center">
   <video controls style="max-width: 70%; height: auto; border: 1px solid #eee; border-radius: 8px;">
-    <source src="/assets/video/scebe-ceremony.mp4" type="video/mp4">
+    <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p class="text-muted mt-2">
