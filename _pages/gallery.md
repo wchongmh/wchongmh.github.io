@@ -90,13 +90,15 @@ nav_order: 5  # Adjust position in menu
 </div>
 
 ### 🎥 Award Acceptance Moment
-<video controls style="max-width: 100%; height: auto;">
-  <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<small class="text-muted d-block mt-2">
+<div class="text-center">
+  <video controls style="max-width: 70%; height: auto; border: 1px solid #eee; border-radius: 8px;">
+    <source src="/assets/media/scebe-ceremony.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p class="text-muted mt-2">
   🎥 Recording of my award acceptance moment - Captured live as I walked on stage to receive the SCEBE Prize at the Annual Celebration 2024
-</small>
+  </p>
+</div>
 
 ---
 
