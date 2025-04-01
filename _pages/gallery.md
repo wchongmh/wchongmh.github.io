@@ -103,6 +103,118 @@ nav_order: 5  # Adjust position in menu
 
 ---
 
+## 🏅 SCEBE Annual Celebration Gallery
+
+### 🎉 Celebrating Engineering Excellence
+*These moments from the Glasgow Caledonian University SCEBE Annual Celebration capture the joy of being recognized alongside peers and mentors in building services engineering.*
+
+<div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+  <!-- Certificate & Materials -->
+  <div class="gallery-item" style="background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <div style="background: #f8f9fa; border-radius: 8px; padding: 1rem;">
+      <img src="/assets/img/awards/scebe-1.jpg" alt="SCEBE award certificate and materials" 
+           style="max-width: 100%; height: auto; object-fit: contain;">
+    </div>
+    <div style="padding: 1rem 0.5rem;">
+      <p style="margin: 0.5rem 0; font-weight: 600; color: #2c3e50;">📜 Official Recognition</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">
+        The SCEBE award certificate and accompanying materials, featuring the university seal and Clancy Consulting's sponsorship details.
+      </p>
+    </div>
+  </div>
+
+  <!-- Celebratory Moment -->
+  <div class="gallery-item" style="background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <div style="background: #f8f9fa; border-radius: 8px; padding: 1rem;">
+      <img src="/assets/img/awards/scebe-2.jpg" alt="Celebrating with fellow awardees" 
+           style="max-width: 100%; height: auto; object-fit: contain;">
+    </div>
+    <div style="padding: 1rem 0.5rem;">
+      <p style="margin: 0.5rem 0; font-weight: 600; color: #2c3e50;">🎓 Peer Celebration</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">
+        Sharing the achievement moment with other top-performing students from the Building Services Engineering program.
+      </p>
+    </div>
+  </div>
+
+  <!-- Clancy Consulting Photo -->
+  <div class="gallery-item" style="background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <div style="background: #f8f9fa; border-radius: 8px; padding: 1rem;">
+      <img src="/assets/img/awards/scebe-3.jpg" alt="With Clancy Consulting representative" 
+           style="max-width: 100%; height: auto; object-fit: contain;">
+    </div>
+    <div style="padding: 1rem 0.5rem;">
+      <p style="margin: 0.5rem 0; font-weight: 600; color: #2c3e50;">🤝 Industry Connection</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">
+        Group photo with awardees and Clancy Consulting's senior engineer, celebrating our shared commitment to sustainable building design.
+      </p>
+    </div>
+  </div>
+
+  <!-- Inspiring Professors -->
+  <div class="gallery-item" style="background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <div style="background: #f8f9fa; border-radius: 8px; padding: 1rem;">
+      <img src="/assets/img/awards/scebe-4.jpg" alt="With SCEBE professors" 
+           style="max-width: 100%; height: auto; object-fit: contain;">
+    </div>
+    <div style="padding: 1rem 0.5rem;">
+      <p style="margin: 0.5rem 0; font-weight: 600; color: #2c3e50;">👨🏫 Mentor Appreciation</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">
+        With Professors [Name] and [Name], whose guidance on HVAC optimization and BIM integration was instrumental to my success.
+      </p>
+    </div>
+  </div>
+
+  <!-- Award Reception -->
+  <div class="gallery-item" style="background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <div style="background: #f8f9fa; border-radius: 8px; padding: 1rem;">
+      <img src="/assets/img/awards/scebe-5.jpg" alt="Receiving award from Clancy Consulting" 
+           style="max-width: 100%; height: auto; object-fit: contain;">
+    </div>
+    <div style="padding: 1rem 0.5rem;">
+      <p style="margin: 0.5rem 0; font-weight: 600; color: #2c3e50;">🏆 Pivotal Moment</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">
+        The exact moment of receiving the award from Clancy Consulting's Director of Engineering, symbolizing industry-academia collaboration.
+      </p>
+    </div>
+  </div>
+
+  <!-- Group Photo -->
+  <div class="gallery-item" style="background: white; border-radius: 12px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <div style="background: #f8f9fa; border-radius: 8px; padding: 1rem;">
+      <img src="/assets/img/awards/scebe-6.jpg" alt="SCEBE group photo" 
+           style="max-width: 100%; height: auto; object-fit: contain;">
+    </div>
+    <div style="padding: 1rem 0.5rem;">
+      <p style="margin: 0.5rem 0; font-weight: 600; color: #2c3e50;">📸 Legacy Capture</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em;">
+        The complete cohort of award winners with SCEBE faculty, capturing the collective achievement of our engineering class.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<div style="background: #f8f9fa; padding: 2rem; border-radius: 12px; margin: 3rem 0; border-left: 4px solid #2c3e50;">
+  <h3 style="margin-top: 0; color: #2c3e50;">About the SCEBE Award</h3>
+  <p style="line-height: 1.6;">
+    The School of Computing, Engineering and Built Environment (SCEBE) Prize recognizes:
+    <ul style="padding-left: 1.5rem;">
+      <li>Top-ranked student in Building Services Engineering</li>
+      <li>Excellence in sustainable design projects</li>
+      <li>Outstanding academic performance</li>
+      <li>Contribution to engineering student community</li>
+    </ul>
+    Sponsored by Clancy Consulting, this award highlights the vital industry-academia partnership in developing future engineering leaders.
+  </p>
+  <p style="margin-bottom: 0; font-style: italic; color: #555;">
+    "This recognition fuels my commitment to merging technical excellence with sustainable innovation in building services engineering."
+  </p>
+</div>
+
+---
+
 ## 🏆 HKIE Awards Gallery
 
 ### 📷 Certificate Collection
