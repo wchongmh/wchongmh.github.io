@@ -134,5 +134,4 @@ My mother accepted the award on my behalf while I was studying in the UK.*
 
 ## 💌 Special Thanks
 > Thank you to Clancy Consulting, HKIE, SCEBE faculty, and especially my mother for their support.  
-> These recognitions fuel my commitment to engineering excellence.  
-> *Original media sizes preserved as requested*
+> These recognitions fuel my commitment to engineering excellence.
