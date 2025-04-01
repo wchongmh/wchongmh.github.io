@@ -190,6 +190,75 @@ My mother accepted the award on my behalf while I was studying in the UK.*
 
 ---
 
+<div class="interactive-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+  <!-- Certificate -->
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+    <div style="display: flex; justify-content: center; align-items: center; height: 300px; background: #f8f9fa;">
+      <img src="/assets/img/awards/hkie-1.jpg" alt="HKIE award certificate" 
+           style="max-width: 100%; max-height: 100%; object-fit: contain; padding: 1rem;">
+    </div>
+    <div style="padding: 1.5rem;">
+      <p style="margin: 0 0 0.5rem 0; font-weight: 600; color: #2c3e50;">🏅 HKIE Certificate of Excellence</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em; line-height: 1.5;">
+        The complete certificate with gold embossed seal, awarded for distinguished achievement in Building Services Engineering.
+      </p>
+    </div>
+  </div>
+
+  <!-- Mother with Committee -->
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+    <div style="display: flex; justify-content: center; align-items: center; height: 300px; background: #f8f9fa;">
+      <img src="/assets/img/awards/hkie-2.jpg" alt="Mother with HKIE committee" 
+           style="max-width: 100%; max-height: 100%; object-fit: contain; padding: 1rem;">
+    </div>
+    <div style="padding: 1.5rem;">
+      <p style="margin: 0 0 0.5rem 0; font-weight: 600; color: #2c3e50;">👩‍👦 Mother's Proud Representation</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em; line-height: 1.5;">
+        My mother accepting the award alongside HKIE council members during the formal ceremony proceedings.
+      </p>
+    </div>
+  </div>
+
+  <!-- HKIE Gate -->
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+    <div style="display: flex; justify-content: center; align-items: center; height: 300px; background: #f8f9fa;">
+      <img src="/assets/img/awards/hkie-3.jpg" alt="Mother at HKIE gate" 
+           style="max-width: 100%; max-height: 100%; object-fit: contain; padding: 1rem;">
+    </div>
+    <div style="padding: 1.5rem;">
+      <p style="margin: 0 0 0.5rem 0; font-weight: 600; color: #2c3e50;">🏛️ At HKIE's Historic Gateway</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em; line-height: 1.5;">
+        My mother standing at HKIE's representative entrance, holding the award certificate with pride.
+      </p>
+    </div>
+  </div>
+
+  <!-- Hally Mascot -->
+  <div class="gallery-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+    <div style="display: flex; justify-content: center; align-items: center; height: 300px; background: #f8f9fa;">
+      <img src="/assets/img/awards/hkie-4.jpg" alt="Hally the HKIE owl mascot" 
+           style="max-width: 100%; max-height: 100%; object-fit: contain; padding: 1rem;">
+    </div>
+    <div style="padding: 1.5rem;">
+      <p style="margin: 0 0 0.5rem 0; font-weight: 600; color: #2c3e50;">🦉 Hally - The Wisdom Owl</p>
+      <p style="margin: 0; color: #555; font-size: 0.9em; line-height: 1.5;">
+        The official HKIE mascot representing wisdom and professionalism in engineering practice.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
+  <h4 style="margin-top: 0; color: #2c3e50;">About the Award</h4>
+  <p style="margin-bottom: 0; line-height: 1.6;">
+    This recognition from Hong Kong's premier engineering institution celebrates academic excellence and professional potential in building services engineering. The ceremony marks an important milestone in my engineering journey, made especially meaningful by my mother's participation.
+  </p>
+</div>
+
+---
+
 <div class="thank-you-note" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0; text-align: center; box-shadow: inset 0 0 10px rgba(0,0,0,0.05);">
   <h3 style="margin-top: 0; color: #333;">Special Thanks</h3>
   <p style="margin-bottom: 0;">To Clancy Consulting, HKIE, SCEBE faculty, and especially my mother for their unwavering support in making these achievements possible.</p>
