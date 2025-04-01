@@ -356,6 +356,162 @@ nav_order: 5  # Adjust position in menu
 
 ---
 
+## 🏅 SCEBE Annual Celebration Gallery
+
+### 🎉 Celebrating Engineering Excellence
+*Relive these special moments from the Glasgow Caledonian University SCEBE Annual Celebration*
+
+<style>
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2.5rem;
+  margin: 3rem 0;
+}
+.gallery-card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.gallery-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 2rem;
+  min-height: 450px;
+}
+.gallery-img {
+  max-width: 100%;
+  max-height: 420px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  transition: transform 0.4s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.02);
+}
+.caption {
+  padding: 1.8rem;
+}
+.caption h4 {
+  margin: 0 0 1rem 0;
+  color: #1a365d;
+  font-size: 1.25rem;
+}
+.caption p {
+  margin: 0;
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+</style>
+
+<div class="gallery-container">
+
+  <!-- Award Reception -->
+  <div class="gallery-card">
+    <div class="image-container">
+      <img src="/assets/img/awards/scebe-5.jpg" 
+           alt="Receiving award from Clancy Consulting representative" 
+           class="gallery-img">
+    </div>
+    <div class="caption">
+      <h4>🏆 The Pivotal Moment</h4>
+      <p>The defining moment receiving the award from Clancy Consulting's Director of Engineering, marking the culmination of my building services engineering studies.</p>
+    </div>
+  </div>
+
+  <!-- Certificate -->
+  <div class="gallery-card">
+    <div class="image-container">
+      <img src="/assets/img/awards/scebe-1.jpg" 
+           alt="SCEBE award certificate and materials" 
+           class="gallery-img">
+    </div>
+    <div class="caption">
+      <h4>📜 Official Recognition</h4>
+      <p>The embossed certificate and award materials featuring both GCU and Clancy Consulting insignia, representing academic excellence and industry recognition.</p>
+    </div>
+  </div>
+
+  <!-- With Professors -->
+  <div class="gallery-card">
+    <div class="image-container">
+      <img src="/assets/img/awards/scebe-4.jpg" 
+           alt="With two SCEBE professors" 
+           class="gallery-img">
+    </div>
+    <div class="caption">
+      <h4>👨🏫 Mentors Who Inspired</h4>
+      <p>With Professors [Name] and [Name], whose guidance on sustainable HVAC design and building automation systems was instrumental to my success.</p>
+    </div>
+  </div>
+
+  <!-- Clancy Consulting Group -->
+  <div class="gallery-card">
+    <div class="image-container">
+      <img src="/assets/img/awards/scebe-3.jpg" 
+           alt="With Clancy Consulting representative and fellow awardees" 
+           class="gallery-img">
+    </div>
+    <div class="caption">
+      <h4>🤝 Industry Connection</h4>
+      <p>Celebrating with fellow awardees and Clancy Consulting engineers, symbolizing the bridge between academic achievement and professional practice.</p>
+    </div>
+  </div>
+
+  <!-- Peer Celebration -->
+  <div class="gallery-card">
+    <div class="image-container">
+      <img src="/assets/img/awards/scebe-2.jpg" 
+           alt="Celebrating with fellow award winners" 
+           class="gallery-img">
+    </div>
+    <div class="caption">
+      <h4>🎓 Shared Success</h4>
+      <p>Joyful moment with other top-performing students in Building Services Engineering, reflecting SCEBE's strong collaborative culture.</p>
+    </div>
+  </div>
+
+  <!-- Group Photo -->
+  <div class="gallery-card">
+    <div class="image-container">
+      <img src="/assets/img/awards/scebe-6.jpg" 
+           alt="Group photo with SCEBE faculty and all awardees" 
+           class="gallery-img">
+    </div>
+    <div class="caption">
+      <h4>📸 Legacy Portrait</h4>
+      <p>The complete assembly of award winners with SCEBE faculty and Clancy Consulting representatives - a historic record of excellence.</p>
+    </div>
+  </div>
+
+</div>
+
+<div style="background: linear-gradient(to right, #f5f7fa, #e2e8f0); padding: 2.5rem; border-radius: 14px; margin: 4rem 0; border-left: 6px solid #2c5282;">
+  <h3 style="margin-top: 0; color: #2c5282; font-size: 1.5rem;">About the SCEBE Prize</h3>
+  <p style="line-height: 1.7; font-size: 1.1rem; color: #4a5568;">
+    Awarded annually to the top Building Services Engineering student, this prize recognizes:
+    <ul style="padding-left: 2rem; line-height: 1.7; font-size: 1.1rem; color: #4a5568;">
+      <li><strong>Academic Excellence:</strong> First-class performance across all engineering modules</li>
+      <li><strong>Technical Innovation:</strong> Demonstrated through sustainable design projects</li>
+      <li><strong>Professional Promise:</strong> As evaluated by both faculty and industry sponsors</li>
+    </ul>
+    Sponsored by Clancy Consulting, this award represents the vital connection between academic achievement and professional engineering practice.
+  </p>
+</div>
+
+---
+
 ## 🏆 HKIE Awards Gallery
 
 ### 🎖️ Prestigious HKIE Recognition Ceremony
