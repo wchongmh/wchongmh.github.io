@@ -91,6 +91,12 @@ nav_order: 5  # Adjust position in menu
 
 ### 🎥 Award Acceptance Moment
 
+<video controls style="max-width: 100%; height: auto;">
+  <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<small class="text-muted d-block mt-2">Full ceremony highlights - SCEBE Annual Celebration 2022</small>
+
 <video controls width="80%" style="display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
   <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
   Your browser does not support the video tag.
