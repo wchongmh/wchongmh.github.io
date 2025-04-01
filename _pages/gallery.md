@@ -402,6 +402,146 @@ nav_order: 5  # Adjust position in menu
 
 ---
 
+---
+## 🏅 SCEBE Annual Celebration Gallery
+
+### 🎉 Celebrating Engineering Excellence
+
+<style>
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin: 3rem 0;
+}
+.gallery-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  min-height: 300px;
+  flex-grow: 1;
+}
+.gallery-img {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.caption {
+  padding: 1.5rem;
+  background: white;
+}
+</style>
+
+<div class="gallery-container">
+
+<!-- Award Reception -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-5.jpg" 
+         alt="Receiving award from Clancy Consulting" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🏆 The Pivotal Moment</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      Receiving the award from Clancy Consulting's Director of Engineering.
+    </p>
+  </div>
+</div>
+
+<!-- Certificate -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-1.jpg" 
+         alt="SCEBE award certificate" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">📜 Official Certification</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      The embossed certificate recognizing academic excellence.
+    </p>
+  </div>
+</div>
+
+<!-- With Professors -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-4.jpg" 
+         alt="With SCEBE professors" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">👨🏫 Mentor Appreciation</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      With professors who guided my research.
+    </p>
+  </div>
+</div>
+
+<!-- Clancy Consulting Group -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-3.jpg" 
+         alt="With Clancy Consulting" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🤝 Industry Partners</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      Celebrating with Clancy Consulting engineers.
+    </p>
+  </div>
+</div>
+
+<!-- Peer Celebration -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-2.jpg" 
+         alt="With fellow awardees" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🎓 Shared Achievement</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      With other top-performing students.
+    </p>
+  </div>
+</div>
+
+<!-- Group Photo -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-6.jpg" 
+         alt="Group photo with faculty" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">📸 Legacy Portrait</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      Complete cohort with SCEBE faculty and sponsors.
+    </p>
+  </div>
+</div>
+
+</div>
+
+---
+
 ## 🏆 HKIE Awards Gallery
 
 ### 🎖️ Prestigious HKIE Recognition Ceremony
