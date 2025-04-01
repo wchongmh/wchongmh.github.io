@@ -263,149 +263,10 @@ nav_order: 5  # Adjust position in menu
 
 ---
 
----
 ## 🏅 SCEBE Annual Celebration Gallery
 
 ### 🎉 Celebrating Engineering Excellence
-
-<style>
-.gallery-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 3rem;
-  margin: 3rem 0;
-}
-.gallery-card {
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  overflow: visible;
-}
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  height: 500px; /* Fixed height */
-  overflow: hidden;
-}
-.gallery-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.5s ease;
-}
-.gallery-card:hover .gallery-img {
-  transform: scale(1.05);
-}
-.caption {
-  padding: 2rem;
-  background: white;
-}
-</style>
-
-<div class="gallery-container">
-
-<!-- Award Reception -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-5.jpg" 
-         alt="Receiving award from Clancy Consulting" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🏆 The Pivotal Moment</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      The exact moment of receiving the SCEBE Prize from Clancy Consulting's Director of Engineering.
-    </p>
-  </div>
-</div>
-
-<!-- Certificate -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-1.jpg" 
-         alt="SCEBE award certificate" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">📜 Official Certification</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      The embossed certificate recognizing academic excellence in Building Services Engineering.
-    </p>
-  </div>
-</div>
-
-<!-- With Professors -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-4.jpg" 
-         alt="With SCEBE professors" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">👨🏫 Mentor Appreciation</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      With my professors who guided my research in sustainable building systems.
-    </p>
-  </div>
-</div>
-
-<!-- Clancy Consulting Group -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-3.jpg" 
-         alt="With Clancy Consulting" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🤝 Industry Partners</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      Celebrating with Clancy Consulting engineers who sponsor this prestigious award.
-    </p>
-  </div>
-</div>
-
-<!-- Peer Celebration -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-2.jpg" 
-         alt="With fellow awardees" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🎓 Shared Achievement</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      With other top-performing students in Building Services Engineering.
-    </p>
-  </div>
-</div>
-
-<!-- Group Photo -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-6.jpg" 
-         alt="Group photo with faculty" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">📸 Legacy Portrait</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      The complete cohort of award winners with SCEBE faculty and sponsors.
-    </p>
-  </div>
-</div>
-
-</div>
-
----
-
----
-## 🏅 SCEBE Annual Celebration Gallery
-
-### 🎉 Celebrating Engineering Excellence
+*These moments from the Glasgow Caledonian University SCEBE Annual Celebration capture the joy of being recognized alongside peers and mentors.*
 
 <style>
 .gallery-container {
@@ -448,21 +309,6 @@ nav_order: 5  # Adjust position in menu
 
 <div class="gallery-container">
 
-<!-- Award Reception -->
-<div class="gallery-card">
-  <div class="image-container">
-    <img src="/assets/img/awards/scebe-5.jpg" 
-         alt="Receiving award from Clancy Consulting" 
-         class="gallery-img">
-  </div>
-  <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🏆 The Pivotal Moment</h3>
-    <p style="margin:0; color:#4a5568; line-height:1.6;">
-      Receiving the award from Clancy Consulting's Director of Engineering.
-    </p>
-  </div>
-</div>
-
 <!-- Certificate -->
 <div class="gallery-card">
   <div class="image-container">
@@ -473,22 +319,22 @@ nav_order: 5  # Adjust position in menu
   <div class="caption">
     <h3 style="margin:0 0 1rem 0; color:#1a365d;">📜 Official Certification</h3>
     <p style="margin:0; color:#4a5568; line-height:1.6;">
-      The embossed certificate recognizing academic excellence.
+      The embossed certificate recognizing academic excellence in Building Services Engineering.
     </p>
   </div>
 </div>
 
-<!-- With Professors -->
+<!-- Award Reception -->
 <div class="gallery-card">
   <div class="image-container">
-    <img src="/assets/img/awards/scebe-4.jpg" 
-         alt="With SCEBE professors" 
+    <img src="/assets/img/awards/scebe-2.jpg" 
+         alt="Receiving award from Clancy Consulting" 
          class="gallery-img">
   </div>
   <div class="caption">
-    <h3 style="margin:0 0 1rem 0; color:#1a365d;">👨🏫 Mentor Appreciation</h3>
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🏆 The Pivotal Moment</h3>
     <p style="margin:0; color:#4a5568; line-height:1.6;">
-      With professors who guided my research.
+      The exact moment of receiving the SCEBE Prize from Clancy Consulting's Director of Engineering.
     </p>
   </div>
 </div>
@@ -503,7 +349,22 @@ nav_order: 5  # Adjust position in menu
   <div class="caption">
     <h3 style="margin:0 0 1rem 0; color:#1a365d;">🤝 Industry Partners</h3>
     <p style="margin:0; color:#4a5568; line-height:1.6;">
-      Celebrating with Clancy Consulting engineers.
+      Celebrating with Clancy Consulting engineers who sponsor this prestigious award.
+    </p>
+  </div>
+</div>
+
+<!-- With Professors -->
+<div class="gallery-card">
+  <div class="image-container">
+    <img src="/assets/img/awards/scebe-4.jpg" 
+         alt="With SCEBE professors" 
+         class="gallery-img">
+  </div>
+  <div class="caption">
+    <h3 style="margin:0 0 1rem 0; color:#1a365d;">🏫 Mentor Appreciation</h3>
+    <p style="margin:0; color:#4a5568; line-height:1.6;">
+      With my professors who guided my research in sustainable building systems.
     </p>
   </div>
 </div>
@@ -511,14 +372,14 @@ nav_order: 5  # Adjust position in menu
 <!-- Peer Celebration -->
 <div class="gallery-card">
   <div class="image-container">
-    <img src="/assets/img/awards/scebe-2.jpg" 
+    <img src="/assets/img/awards/scebe-5.jpg" 
          alt="With fellow awardees" 
          class="gallery-img">
   </div>
   <div class="caption">
     <h3 style="margin:0 0 1rem 0; color:#1a365d;">🎓 Shared Achievement</h3>
     <p style="margin:0; color:#4a5568; line-height:1.6;">
-      With other top-performing students.
+      Alongside other top-performing students in various subjects.
     </p>
   </div>
 </div>
@@ -533,11 +394,42 @@ nav_order: 5  # Adjust position in menu
   <div class="caption">
     <h3 style="margin:0 0 1rem 0; color:#1a365d;">📸 Legacy Portrait</h3>
     <p style="margin:0; color:#4a5568; line-height:1.6;">
-      Complete cohort with SCEBE faculty and sponsors.
+      The complete cohort of award winners with SCEBE faculty and sponsors.
     </p>
   </div>
 </div>
 
+</div>
+
+### 🎥 Award Acceptance Moment
+
+<div class="video-container" style="max-width: 600px; margin: 0 auto 1.5rem; border-radius: 8px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+  <video controls style="width: 100%; display: block;">
+    <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
+  </video>
+  <div style="background: rgba(0,0,0,0.7); padding: 0.8rem; text-align: center;">
+    <p style="margin: 0; font-size: 0.95em; color: white; font-weight: 500;">🎥 My Award Acceptance Moment</p>
+    <small style="color: white; opacity: 0.9;">Receiving the SCEBE Prize at the SCEBE Annual Celebration 2024</small>
+  </div>
+</div>
+
+</div>
+
+<div style="background: #f8f9fa; padding: 2rem; border-radius: 12px; margin: 3rem 0; border-left: 4px solid #2c3e50;">
+  <h3 style="margin-top: 0; color: #2c3e50;">About the SCEBE Award</h3>
+  <p style="line-height: 1.6;">
+    The School of Computing, Engineering and Built Environment (SCEBE) Prize recognizes:
+    <ul style="padding-left: 1.5rem;">
+      <li>Top-ranked student in Building Services Engineering</li>
+      <li>Excellence in sustainable design projects</li>
+      <li>Outstanding academic performance</li>
+      <li>Contribution to engineering student community</li>
+    </ul>
+    Sponsored by Clancy Consulting, this award highlights the vital industry-academia partnership in developing future engineering leaders.
+  </p>
+  <p style="margin-bottom: 0; font-style: italic; color: #555;">
+    "This recognition fuels my commitment to merging technical excellence with sustainable innovation in building services engineering."
+  </p>
 </div>
 
 ---
