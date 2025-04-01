@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
           description: "Award-winning UK Engineering graduate with a strong technical foundation and leadership acumen, specializing in innovative building services solutions. Recognized with the SCEBE Prize for top academic performance and fully funded through the Alistair Harvey Foundation Scholarship to complete BEng/MSc degrees.",
           section: "Navigation",
