@@ -90,6 +90,15 @@ nav_order: 5  # Adjust position in menu
 </div>
 
 ### 🎥 Award Acceptance Moment
+
+<video controls width="80%" style="display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
+  <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p style="text-align: center; color: #666; margin-top: 8px;">
+  🎬 My award acceptance moment - Receiving the SCEBE Prize at the Annual Celebration 2022
+</p>
+
 <div class="text-center">
   <video controls style="max-width: 70%; height: auto; border: 1px solid #eee; border-radius: 8px;">
     <source src="/assets/video/awards/scebe-ceremony.mp4" type="video/mp4">
