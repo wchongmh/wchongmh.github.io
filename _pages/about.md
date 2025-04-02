@@ -156,8 +156,21 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-#### 📰 Media Recognition
-My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
+#### 📰 Media Recognition & Press Features
+<div class="lead mb-4">
+  My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
+</div>
+
+<div class="press-highlight-box mb-5 p-4 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #0d6efd;">
+  <div class="d-flex align-items-center">
+    <i class="fas fa-quote-left fa-2x me-3" style="color: #0d6efd; opacity: 0.3;"></i>
+    <div>
+      <p class="mb-2 fst-italic">"Demonstrating exceptional potential in engineering innovation and commitment to STEM education accessibility."</p>
+      <p class="text-muted mb-0">— Hong Kong 01</p>
+    </div>
+  </div>
+</div>
+
 <small>*Featured in Hong Kong’s leading publications:*</small>  
 
 <div class="row">
