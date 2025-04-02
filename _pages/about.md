@@ -41,61 +41,12 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ## <i class="fas fa-university"></i> Professional Journey
 
-#### 🎓 Academic Excellence 
-<div class="d-flex align-items-center mb-3">
-  <div>
-    I graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple scholarships and awards, including:
-  </div>
-</div>
-
-<div class="row g-4">
-  <div class="col-md-6">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title mb-3"><i class="fas fa-trophy me-2 text-warning"></i>Awards & Honors</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2">
-            <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="text-decoration-none">
-              🏆 GCU SCEBE Prize Winner (Ranked #1 in my third-year cohort)
-            </a>
-          </li>
-          <li class="mb-2">
-            <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="text-decoration-none">
-              🏆 Alistair Harvey Foundation Scholarship (Full Sponsorship)
-            </a>
-          </li>
-          <li class="mb-2">
-            <a href="/assets/pdf/awards/hkie-outstanding.pdf" target="_blank" class="text-decoration-none">
-              🏆 HKIE Outstanding Engineering Student
-            </a>
-          </li>
-          <li class="mb-2">
-            <a href="/assets/pdf/awards/hkie-bsd-award.pdf" target="_blank" class="text-decoration-none">
-              🏆 HKIE BSD Student Award
-            </a>
-          </li>
-          <li class="mb-2">
-            <a href="/assets/pdf/awards/endeavour-merit.pdf" target="_blank" class="text-decoration-none">
-              🏆 Endeavour Merit Award
-            </a>
-          </li>
-          <li>
-            <a href="/assets/pdf/awards/hksar-scholarship.pdf" target="_blank" class="text-decoration-none">
-              🏆 HKSAR Government Scholarship
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
 ---
 
 <!-- 🎓 Academic Excellence Section -->
 <div class="academic-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
-    <h2 class="mb-0"><i class="fas fa-graduation-cap me-3 text-primary"></i>Academic Excellence</h2>
+    <h2 class="mb-0">🎓 Academic Excellence</h2>
   </div>
   
   <div class="intro-text mb-4 p-3 bg-light rounded">
