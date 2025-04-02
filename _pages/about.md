@@ -334,8 +334,8 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
   <!-- Hong Kong 01 -->
   <div class="col-md-6 col-lg-4">
     <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top overflow-hidden" style="height: 180px;">
-        <img src="/assets/img/press/HK01.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Hong Kong 01 Feature">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/HK01.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Hong Kong 01 Feature">
       </div>
       <div class="card-body">
         <h5 class="card-title">Redefining STEM Accessibility</h5>
@@ -355,15 +355,15 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     </div>
   </div>
 
-  <!-- Oriental Daily -->
+  <!-- Oriental Daily (Website) -->
   <div class="col-md-6 col-lg-4">
     <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top overflow-hidden" style="height: 180px;">
-        <img src="/assets/img/press/ORIENTAL_DAILY.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Oriental Daily Feature">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/ORIENTAL_DAILY.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Oriental Daily Feature">
       </div>
       <div class="card-body">
         <h5 class="card-title">Front-Page Engineering Spotlight</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Oriental Daily</em> | July 2022</p>
+        <p class="card-subtitle text-muted small mb-3"><em>Oriental Daily (Website)</em> | July 2022</p>
         <div class="d-flex flex-wrap gap-2">
           <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -379,11 +379,107 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     </div>
   </div>
 
+  <!-- ON.CC -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/ONCC.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="ON.CC Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Vocational Education Success</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>ON.CC</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+          </a>
+          <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> English PDF
+          </a>
+          <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
+            <i class="fas fa-external-link-alt me-1"></i> View Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sky Post -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/SKY_POST.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Sky Post Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Smart Energy Systems</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>Sky Post</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+          </a>
+          <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> English PDF
+          </a>
+          <a href="https://skypost.hk/article/3306096/DSE2022-IVE%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%95%A2%E6%A5%AD%E7%94%9F%E7%8D%B2%E7%8D%8E%E5%AD%B8%E9%87%91-%E5%B0%87%E8%B5%B4%E8%8B%B1%E5%8D%87%E5%AD%B8%E8%BF%BD%E9%80%90%E5%A4%A2%E6%83%B3" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
+            <i class="fas fa-external-link-alt me-1"></i> View Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Line Today -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/LINE_TODAY.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Line Today Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Career Pathway Advice</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>Line Today</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+          </a>
+          <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> English PDF
+          </a>
+          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
+            <i class="fas fa-external-link-alt me-1"></i> View Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Yahoo News -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/YAHOO_NEWS.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Yahoo News Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Technical Expertise Highlight</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>Yahoo News</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+          </a>
+          <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> English PDF
+          </a>
+          <a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
+            <i class="fas fa-external-link-alt me-1"></i> View Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Newspaper Clipping -->
   <div class="col-md-6 col-lg-4">
     <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top overflow-hidden" style="height: 180px;">
-        <img src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Print Edition Feature">
+      <div class="card-img-top p-3 text-center bg-light">
+        <img src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" class="img-fluid" style="max-height: 200px; width: auto;" alt="Print Edition Feature">
       </div>
       <div class="card-body">
         <h5 class="card-title">Print Edition Feature</h5>
@@ -399,8 +495,6 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
       </div>
     </div>
   </div>
-
-  <!-- Other publications as cards... -->
 </div>
 
 <style>
@@ -417,8 +511,11 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
   }
-  .object-fit-cover {
-    object-fit: cover;
+  .card-img-top {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>
 
