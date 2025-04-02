@@ -69,7 +69,7 @@ latest_posts:
                    target="_blank" 
                    class="text-decoration-none d-inline-block mt-1">
                   <span class="badge bg-light text-dark">
-                    <i class="fas fa-external-link-alt me-1"></i>View Achievement
+                    <i class="fas fa-external-link-alt me-1"></i>View Details
                   </span>
                 </a>
               </div>
@@ -87,7 +87,7 @@ latest_posts:
                    target="_blank" 
                    class="text-decoration-none d-inline-block mt-1">
                   <span class="badge bg-light text-dark">
-                    <i class="fas fa-external-link-alt me-1"></i>View Details
+                    <i class="fas fa-external-link-alt me-1"></i>View Achievement
                   </span>
                 </a>
               </div>
