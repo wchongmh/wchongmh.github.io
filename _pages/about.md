@@ -790,8 +790,6 @@ latest_posts:
   </div>
 </div>
 
-
-
 <!-- 📖 Research Highlights Section -->
 <section class="research-section mb-5">
   <div class="section-header text-center mb-5">
@@ -932,7 +930,6 @@ latest_posts:
     background-size: 15px 15px;
   }
 </style>
-
 <!-- 🏗️ Industry Experience Section -->
 <div class="industry-experience-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
@@ -1060,7 +1057,6 @@ latest_posts:
     transform: translateY(-2px);
   }
 </style>
-
 <!-- 🔧 Technical Skills Section -->
 <div class="technical-skills-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
@@ -1365,11 +1361,10 @@ latest_posts:
     }
   }
 </style>
-
 <!-- Leadership & Advocacy Section -->
 <div class="leadership-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
-    <h2 class="mb-0"><i class="fas fa-users-cog me-3 text-primary"></i>Leadership & Advocacy <span class="text-globe">🌍</span></h2>
+    <h2 class="mb-0"><i class="fas fa-users-cog me-3 text-primary"></i>Leadership & Advocacy <span class="text-globe"></span></h2>
   </div>
   
   <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded-3 border-start border-4 border-primary">
@@ -1389,7 +1384,7 @@ latest_posts:
               <i class="fas fa-chair me-2"></i>Chairman
             </a>
           </h4>
-          <span class="badge bg-white text-primary">2021-2022</span>
+          <span class="badge bg-light text-primary">2021-2022</span>
         </div>
         <div class="card-body">
           <h5 class="card-subtitle mb-3 text-muted">IVE Morrison Hill Engineering Society</h5>
@@ -1425,7 +1420,7 @@ latest_posts:
               <i class="fas fa-user-tie me-2"></i>External Vice President
             </a>
           </h4>
-          <span class="badge bg-white text-info">2020-2022</span>
+          <span class="badge bg-light text-info">2020-2022</span>
         </div>
         <div class="card-body">
           <h5 class="card-subtitle mb-3 text-muted">ASHRAE IVE Student Branch</h5>
@@ -1457,7 +1452,7 @@ latest_posts:
               <i class="fas fa-users me-2"></i>Committee Member
             </a>
           </h4>
-          <span class="badge bg-white text-warning">2021-2022</span>
+          <span class="badge bg-light text-warning">2021-2022</span>
         </div>
         <div class="card-body">
           <h5 class="card-subtitle mb-3 text-muted">HKIE BSE Student Liaison Group</h5>
@@ -1485,7 +1480,7 @@ latest_posts:
               <i class="fas fa-coins me-2"></i>President of Finance Committee
             </a>
           </h4>
-          <span class="badge bg-white text-success">2020-2021</span>
+          <span class="badge bg-light text-success">2020-2021</span>
         </div>
         <div class="card-body">
           <h5 class="card-subtitle mb-3 text-muted">48th Students' Union Council</h5>
