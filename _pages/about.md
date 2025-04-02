@@ -547,9 +547,9 @@ These research projects reflect my **commitment to sustainability and efficiency
     <div class="card-header bg-gradient-warning text-white">
       <div class="d-flex justify-content-between align-items-center">
         <h4 class="mb-0">Building Services Engineering Intern</h4>
-        <span class="badge bg-white text-dark">Jan – Apr 2022</span>
+        <span class="badge bg-white text-dark">Jan &ndash; Apr 2022</span>
       </div>
-      <h5 class="mb-0 mt-2">Wong & Ouyang (Building Services) Ltd. <small class="text-white-50">(Hong Kong)</small></h5>
+      <h5 class="mb-0 mt-2">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-white-50">(Hong Kong)</small></h5>
     </div>
     
     <div class="card-body">
@@ -585,7 +585,7 @@ These research projects reflect my **commitment to sustainability and efficiency
       </ul>
 
       <div class="tools-section mt-4 pt-3 border-top">
-        <h6 class="text-uppercase text-muted mb-3">Tools & Standards</h6>
+        <h6 class="text-uppercase text-muted mb-3">Tools &amp; Standards</h6>
         <div class="d-flex flex-wrap gap-2">
           <span class="badge bg-light text-dark border py-2 px-3">
             <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
@@ -594,7 +594,7 @@ These research projects reflect my **commitment to sustainability and efficiency
             <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
           </span>
           <span class="badge bg-light text-dark border py-2 px-3">
-            <i class="fas fa-book me-2 text-primary"></i>BEAM Plus Guidelines
+            <i class="fas fa-book me-2 text-primary"></i>BEAM Plus
           </span>
         </div>
       </div>
@@ -610,6 +610,9 @@ These research projects reflect my **commitment to sustainability and efficiency
 </div>
 
 <hr class="my-5 border-top border-2 border-warning opacity-25">
+
+<!-- Character Encoding Fix -->
+<meta charset="utf-8">
 
 <!-- Optional CSS -->
 <style>
