@@ -930,6 +930,7 @@ latest_posts:
     background-size: 15px 15px;
   }
 </style>
+
 <!-- 🏗️ Industry Experience Section -->
 <div class="industry-experience-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
@@ -1057,6 +1058,7 @@ latest_posts:
     transform: translateY(-2px);
   }
 </style>
+
 <!-- 🔧 Technical Skills Section -->
 <div class="technical-skills-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
@@ -1361,6 +1363,7 @@ latest_posts:
     }
   }
 </style>
+
 <!-- Leadership & Advocacy Section -->
 <div class="leadership-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
@@ -1565,30 +1568,6 @@ latest_posts:
   }
 </style>
 
----
-
-## <i class="fas fa-users-cog"></i> Leadership & Advocacy 🌍
-
-Beyond technical expertise, my **leadership and advocacy** within the engineering community have been instrumental in my professional growth:  
-
-#### **<a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="pdf-link">Chairman | IVE Morrison Hill Engineering Society (2021-2022) </a>**
-- <i class="fas fa-check-circle text-success"></i> Led **industry seminars** on sustainable construction, engaging **100+ students**
-- <i class="fas fa-check-circle text-success"></i> Advocated **curriculum enhancements**, integrating **BIM & AI applications**
-- <i class="fas fa-check-circle text-success"></i> Revamped curricula with **BIM/AI training**, preparing **150+ students** for **Industry 4.0**
-
-#### **<a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="pdf-link">External Vice President | ASHRAE IVE Student Branch (2020-2022) </a>**
-- <i class="fas fa-check-circle text-success"></i> Organized **3 field trips** to MEP facilities, increasing **student engagement by 40%**
-- <i class="fas fa-check-circle text-success"></i> Spearheaded **technical talks** on **CIBSE TM52 thermal comfort models**
-
-#### **<a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="pdf-link">Committee Member | HKIE BSE Student Liaison Group (2021-2022) </a>**
-- <i class="fas fa-check-circle text-success"></i> Hosted **technical talks** featuring **top industry engineers**, attracting **150+ attendees**
-
-#### **<a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="pdf-link">President of Finance Committee | 48th Students’ Union Council (2020-2021) </a>**
-- <i class="fas fa-check-circle text-success"></i> Managed an **annual budget exceeding HKD 50,000**
-- <i class="fas fa-check-circle text-success"></i> Coordinated **high-impact student initiatives**
-
----
-
 <!-- Sustainability Commitment Section -->
 <div class="sustainability-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
@@ -1613,9 +1592,9 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
           <h3 class="pillar-title mb-3">Passive Design First</h3>
           <p class="pillar-description">Natural ventilation & daylighting strategies that reduce energy demand</p>
           <div class="pillar-features mt-3">
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Bioclimatic Design</span>
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Thermal Mass</span>
-            <span class="badge rounded-pill bg-white text-dark mb-1">Solar Shading</span>
+            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Bioclimatic Design</span>
+            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Thermal Mass</span>
+            <span class="badge rounded-pill bg-light text-dark mb-1">Solar Shading</span>
           </div>
         </div>
       </div>
@@ -1629,9 +1608,9 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
           <h3 class="pillar-title mb-3">Active Efficiency</h3>
           <p class="pillar-description">IoT-driven energy optimization and smart building systems</p>
           <div class="pillar-features mt-3">
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Predictive Control</span>
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Real-time Monitoring</span>
-            <span class="badge rounded-pill bg-white text-dark mb-1">Machine Learning</span>
+            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Predictive Control</span>
+            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Real-time Monitoring</span>
+            <span class="badge rounded-pill bg-light text-dark mb-1">Machine Learning</span>
           </div>
         </div>
       </div>
@@ -1645,9 +1624,9 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
           <h3 class="pillar-title mb-3">Renewable Integration</h3>
           <p class="pillar-description">Smart grid solutions and photovoltaic system optimization</p>
           <div class="pillar-features mt-3">
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Solar PV</span>
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Energy Storage</span>
-            <span class="badge rounded-pill bg-white text-dark mb-1">Microgrids</span>
+            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Solar PV</span>
+            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Energy Storage</span>
+            <span class="badge rounded-pill bg-light text-dark mb-1">Microgrids</span>
           </div>
         </div>
       </div>
