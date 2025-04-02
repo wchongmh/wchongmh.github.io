@@ -574,6 +574,160 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
+<!-- 📖 Research Highlights Section -->
+<section class="research-section mb-5">
+  <div class="section-header text-center mb-5">
+    <div class="icon-circle bg-primary bg-opacity-10 mx-auto mb-3">
+      <i class="fas fa-book-open fa-lg text-primary"></i>
+    </div>
+    <h2 class="fw-bold mb-3">Research Highlights</h2>
+    <p class="lead text-muted mx-auto" style="max-width: 700px;">
+      Academic research with practical applications in sustainable building systems
+    </p>
+  </div>
+
+  <div class="research-cards row g-4">
+    <!-- Thesis 1 -->
+    <div class="col-md-6">
+      <div class="research-card card h-100 border-0 shadow-sm hover-effect">
+        <div class="card-body p-4">
+          <div class="d-flex align-items-start">
+            <div class="icon-wrapper bg-info bg-opacity-10 p-3 rounded-circle me-3">
+              <i class="fas fa-water fa-lg text-info"></i>
+            </div>
+            <div>
+              <span class="badge bg-info bg-opacity-10 text-info mb-2">Higher Diploma Thesis</span>
+              <h4 class="card-title mb-3 fw-bold">Optimization of Plumbing Systems in High-Density Residential Buildings</h4>
+            </div>
+          </div>
+          <div class="mt-3 pt-3 border-top">
+            <ul class="research-details list-unstyled mb-0">
+              <li class="mb-2"><i class="fas fa-check-circle me-2 text-info"></i>Improved water efficiency by <strong>18%</strong></li>
+              <li class="mb-2"><i class="fas fa-check-circle me-2 text-info"></i>Reduced maintenance costs by <strong>22%</strong></li>
+              <li><i class="fas fa-check-circle me-2 text-info"></i>Successfully implemented in HK housing projects</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer bg-transparent border-0 pt-0 pb-3 px-4">
+          <a href="#" class="btn btn-sm btn-outline-info">Read Abstract <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thesis 2 -->
+    <div class="col-md-6">
+      <div class="research-card card h-100 border-0 shadow-sm hover-effect">
+        <div class="card-body p-4">
+          <div class="d-flex align-items-start">
+            <div class="icon-wrapper bg-warning bg-opacity-10 p-3 rounded-circle me-3">
+              <i class="fas fa-solar-panel fa-lg text-warning"></i>
+            </div>
+            <div>
+              <span class="badge bg-warning bg-opacity-10 text-warning mb-2">Undergraduate Thesis</span>
+              <h4 class="card-title mb-3 fw-bold">Rooftop Renewable Energy Applications in University Campuses</h4>
+            </div>
+          </div>
+          <div class="mt-3 pt-3 border-top">
+            <ul class="research-details list-unstyled mb-0">
+              <li class="mb-2"><i class="fas fa-check-circle me-2 text-warning"></i>Potential <strong>35% energy savings</strong> for campus facilities</li>
+              <li class="mb-2"><i class="fas fa-check-circle me-2 text-warning"></i>Estimated payback period under <strong>5 years</strong></li>
+              <li><i class="fas fa-check-circle me-2 text-warning"></i>Featured in University Research Symposium 2023</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer bg-transparent border-0 pt-0 pb-3 px-4">
+          <a href="#" class="btn btn-sm btn-outline-warning">Read Abstract <i class="fas fa-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-summary mt-5 p-4 p-md-5 bg-light bg-opacity-10 rounded-4 text-center position-relative overflow-hidden">
+    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-25">
+      <div class="pattern-dots-md" style="color: var(--bs-success);"></div>
+    </div>
+    <div class="position-relative">
+      <i class="fas fa-quote-left fa-2x mb-4 text-success opacity-25"></i>
+      <p class="lead mb-4 fs-4" style="line-height: 1.7;">
+        These research projects reflect my <span class="text-gradient-primary fw-bold">commitment to sustainability</span> and <span class="text-gradient-primary fw-bold">engineering efficiency</span> in the built environment, combining academic rigor with practical applications that create measurable impact.
+      </p>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="border-end border-success pe-3 me-3">
+          <i class="fas fa-leaf fa-lg text-success me-2"></i>
+        </div>
+        <small class="text-muted">Research recognized by Department of Building Services Engineering</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="my-5 border-top border-2 border-primary opacity-10">
+
+<!-- Enhanced CSS -->
+<style>
+  .research-section {
+    position: relative;
+  }
+  .section-header .icon-circle {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .research-card {
+    transition: all 0.3s ease;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+  .research-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.1) !important;
+  }
+  .icon-wrapper {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+  .research-card:hover .icon-wrapper {
+    transform: scale(1.1);
+  }
+  .hover-effect:hover {
+    background-color: rgba(248,249,250,0.7);
+  }
+  .research-details li {
+    position: relative;
+    padding-left: 1.75rem;
+    line-height: 1.6;
+  }
+  .research-details i {
+    position: absolute;
+    left: 0;
+    top: 0.35rem;
+  }
+  .research-summary {
+    border-left: 4px solid var(--bs-success);
+    transition: all 0.4s ease;
+    background: linear-gradient(to right, rgba(25,135,84,0.02), rgba(25,135,84,0.05));
+  }
+  .research-summary:hover {
+    background-color: rgba(25,135,84,0.08) !important;
+    transform: translateY(-2px);
+  }
+  .text-gradient-primary {
+    background: linear-gradient(90deg, #0d6efd, #0dcaf0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .pattern-dots-md {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: 15px 15px;
+  }
+</style>
+
+---
+
 <!-- 🏗️ Industry Experience Section -->
 <div class="industry-experience-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
