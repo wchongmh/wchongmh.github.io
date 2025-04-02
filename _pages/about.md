@@ -1767,6 +1767,138 @@ latest_posts:
   }
 </style>
 
+<!-- Sustainability Commitment Section -->
+<section class="sustainability-commitment py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 display-4 fw-bold text-success">
+      <i class="fas fa-seedling me-2"></i> Sustainability Commitment
+    </h2>
+    
+    <p class="lead text-center mb-5 px-lg-5">
+      I am deeply passionate about <span class="highlight-text">sustainability and smart system integration</span>. 
+      My engineering philosophy centers on creating solutions that harmonize technology with ecological responsibility.
+    </p>
+
+    <!-- Principles Cards -->
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="p-4 border-0 rounded-3 h-100 bg-white shadow-sm hover-effect">
+          <div class="icon-wrapper bg-success-light mb-4">
+            <i class="fas fa-leaf fa-2x text-success"></i>
+          </div>
+          <h4 class="fw-bold text-center mb-3">Passive Design First</h4>
+          <p class="text-muted text-center">
+            Natural ventilation & daylighting strategies that reduce energy demand
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="p-4 border-0 rounded-3 h-100 bg-white shadow-sm hover-effect">
+          <div class="icon-wrapper bg-warning-light mb-4">
+            <i class="fas fa-bolt fa-2x text-warning"></i>
+          </div>
+          <h4 class="fw-bold text-center mb-3">Active Efficiency</h4>
+          <p class="text-muted text-center">
+            IoT-driven energy optimization with real-time monitoring
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="p-4 border-0 rounded-3 h-100 bg-white shadow-sm hover-effect">
+          <div class="icon-wrapper bg-danger-light mb-4">
+            <i class="fas fa-sun fa-2x text-danger"></i>
+          </div>
+          <h4 class="fw-bold text-center mb-3">Renewable Integration</h4>
+          <p class="text-muted text-center">
+            Smart grid solutions with seamless photovoltaic adoption
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Neurodiversity Callout -->
+    <div class="alert alert-info mt-5 border-0 rounded-3 shadow-sm" role="alert">
+      <div class="d-flex align-items-center">
+        <i class="fas fa-brain fa-2x me-3 text-info"></i>
+        <div>
+          <h5 class="alert-heading mb-2 fw-bold">Neurodiversity Advantage</h5>
+          <p class="mb-0">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering perspectives.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Closing Statement -->
+    <div class="closing-statement mt-5 p-4 bg-white rounded-3 shadow-sm">
+      <p class="mb-3">
+        Whether assessing <span class="highlight-text">rooftop renewable energy applications</span>, 
+        <span class="highlight-text">optimizing drainage layouts</span>, or 
+        <span class="highlight-text">developing AI-driven HVAC controls</span>, 
+        I strive to <strong>reduce environmental impact</strong> while enhancing 
+        <strong>functionality and efficiency</strong>.
+      </p>
+      
+      <p class="mb-0">
+        Today, I aim to <span class="highlight-text">leverage emerging technologies</span>—from 
+        <span class="highlight-text">IoT automation</span> to 
+        <span class="highlight-text">AI-powered building analytics</span>—to 
+        <strong>redefine industry standards</strong> and 
+        <strong>inspire the next generation of engineers</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles (to add to your stylesheet) -->
+<style>
+  .sustainability-commitment {
+    background-color: #f8f9fa;
+  }
+  
+  .highlight-text {
+    background: linear-gradient(120deg, #e0f7fa, #b2ebf2);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .bg-success-light {
+    background-color: rgba(40, 167, 69, 0.1);
+  }
+  
+  .bg-warning-light {
+    background-color: rgba(255, 193, 7, 0.1);
+  }
+  
+  .bg-danger-light {
+    background-color: rgba(220, 53, 69, 0.1);
+  }
+  
+  .hover-effect {
+    transition: all 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  }
+  
+  .closing-statement {
+    border-left: 4px solid #20c997;
+  }
+</style>
+
 <!--🔍 Looking Ahead Section -->
 <div class="future-goals-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
