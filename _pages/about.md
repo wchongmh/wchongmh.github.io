@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
- image_style: "border: 3px solid #ffc107; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 280px; margin-left: 2rem; margin-bottom: 2rem;"
+ image_style: "border: 3px solid #ffc107; box-shadow: 0 4px 12px rgba(0,0,0,0.15)"
   more_info: >
     <p><i class="fas fa-map-marker-alt text-primary"></i> SCT | UK | HKG</p>
     <p><i class="fas fa-graduation-cap text-info"></i> Engineering Graduate</p>
