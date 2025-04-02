@@ -1638,6 +1638,210 @@ latest_posts:
   }
 </style>
 
+<!-- Leadership & Advocacy Section -->
+<div class="leadership-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h2 class="mb-0"><i class="fas fa-users-cog me-3 text-primary"></i>Leadership & Advocacy <span class="text-globe">🌍</span></h2>
+  </div>
+  
+  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded-3 border-start border-4 border-primary">
+    <p class="mb-0 lead">
+      Beyond technical expertise, my <strong>leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
+    </p>
+  </div>
+
+  <!-- Leadership Cards -->
+  <div class="row g-4">
+    <!-- Chairman Card -->
+    <div class="col-md-6">
+      <div class="card leadership-card h-100 border-0 shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+          <h4 class="mb-0">
+            <a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="text-white text-decoration-none">
+              <i class="fas fa-chair me-2"></i>Chairman
+            </a>
+          </h4>
+          <span class="badge bg-white text-primary">2021-2022</span>
+        </div>
+        <div class="card-body">
+          <h5 class="card-subtitle mb-3 text-muted">IVE Morrison Hill Engineering Society</h5>
+          <ul class="leadership-list">
+            <li class="mb-2 d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Led <strong>industry seminars</strong> on sustainable construction, engaging <strong>100+ students</strong></span>
+            </li>
+            <li class="mb-2 d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Advocated <strong>curriculum enhancements</strong>, integrating <strong>BIM & AI applications</strong></span>
+            </li>
+            <li class="d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Revamped curricula with <strong>BIM/AI training</strong>, preparing <strong>150+ students</strong> for <strong>Industry 4.0</strong></span>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer bg-light bg-opacity-10">
+          <a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="btn btn-sm btn-outline-primary">
+            <i class="fas fa-file-pdf me-1"></i> View Documentation
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ASHRAE Card -->
+    <div class="col-md-6">
+      <div class="card leadership-card h-100 border-0 shadow-sm">
+        <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+          <h4 class="mb-0">
+            <a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="text-white text-decoration-none">
+              <i class="fas fa-user-tie me-2"></i>External Vice President
+            </a>
+          </h4>
+          <span class="badge bg-white text-info">2020-2022</span>
+        </div>
+        <div class="card-body">
+          <h5 class="card-subtitle mb-3 text-muted">ASHRAE IVE Student Branch</h5>
+          <ul class="leadership-list">
+            <li class="mb-2 d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Organized <strong>3 field trips</strong> to MEP facilities, increasing <strong>student engagement by 40%</strong></span>
+            </li>
+            <li class="d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Spearheaded <strong>technical talks</strong> on <strong>CIBSE TM52 thermal comfort models</strong></span>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer bg-light bg-opacity-10">
+          <a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="btn btn-sm btn-outline-info">
+            <i class="fas fa-file-pdf me-1"></i> View Documentation
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- HKIE Card -->
+    <div class="col-md-6">
+      <div class="card leadership-card h-100 border-0 shadow-sm">
+        <div class="card-header bg-warning text-dark d-flex justify-content-between align-items-center">
+          <h4 class="mb-0">
+            <a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="text-dark text-decoration-none">
+              <i class="fas fa-users me-2"></i>Committee Member
+            </a>
+          </h4>
+          <span class="badge bg-white text-warning">2021-2022</span>
+        </div>
+        <div class="card-body">
+          <h5 class="card-subtitle mb-3 text-muted">HKIE BSE Student Liaison Group</h5>
+          <ul class="leadership-list">
+            <li class="d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Hosted <strong>technical talks</strong> featuring <strong>top industry engineers</strong>, attracting <strong>150+ attendees</strong></span>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer bg-light bg-opacity-10">
+          <a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="btn btn-sm btn-outline-warning">
+            <i class="fas fa-file-pdf me-1"></i> View Documentation
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Finance Card -->
+    <div class="col-md-6">
+      <div class="card leadership-card h-100 border-0 shadow-sm">
+        <div class="card-header bg-success text-white d-flex justify-content-between align-items-center">
+          <h4 class="mb-0">
+            <a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="text-white text-decoration-none">
+              <i class="fas fa-coins me-2"></i>President of Finance Committee
+            </a>
+          </h4>
+          <span class="badge bg-white text-success">2020-2021</span>
+        </div>
+        <div class="card-body">
+          <h5 class="card-subtitle mb-3 text-muted">48th Students' Union Council</h5>
+          <ul class="leadership-list">
+            <li class="mb-2 d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Managed an <strong>annual budget exceeding HKD 50,000</strong></span>
+            </li>
+            <li class="d-flex">
+              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
+              <span>Coordinated <strong>high-impact student initiatives</strong></span>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer bg-light bg-opacity-10">
+          <a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="btn btn-sm btn-outline-success">
+            <i class="fas fa-file-pdf me-1"></i> View Documentation
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Leadership Section Styles */
+  .leadership-section {
+    position: relative;
+  }
+  
+  .text-globe {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+  }
+  
+  .leadership-card {
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .leadership-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .leadership-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .leadership-list li {
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-left: 0.5rem;
+  }
+  
+  .card-header a:hover {
+    text-decoration: underline !important;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .leadership-card {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  /* Button Enhancements */
+  .btn-outline-primary {
+    border-width: 2px;
+  }
+  .btn-outline-info {
+    border-width: 2px;
+  }
+  .btn-outline-warning {
+    border-width: 2px;
+  }
+  .btn-outline-success {
+    border-width: 2px;
+  }
+</style>
+
 ---
 
 ## <i class="fas fa-users-cog"></i> Leadership & Advocacy 🌍
