@@ -296,6 +296,116 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 ---
 
+---
+#### 📰 Media Recognition & Press Features
+<div class="lead mb-4">
+  My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
+</div>
+
+<div class="press-highlight-box mb-5 p-4 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #0d6efd;">
+  <div class="d-flex align-items-center">
+    <i class="fas fa-quote-left fa-2x me-3" style="color: #0d6efd; opacity: 0.3;"></i>
+    <div>
+      <p class="mb-2 fst-italic">"Demonstrating exceptional potential in engineering innovation and commitment to STEM education accessibility."</p>
+      <p class="text-muted mb-0">— Hong Kong 01</p>
+    </div>
+  </div>
+</div>
+
+<div class="row g-4">
+  <!-- Hong Kong 01 -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top overflow-hidden" style="height: 180px;">
+        <img src="/assets/img/press/HK01.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Hong Kong 01 Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Redefining STEM Accessibility</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>Hong Kong 01</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+          </a>
+          <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> English PDF
+          </a>
+          <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
+            <i class="fas fa-external-link-alt me-1"></i> View Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Oriental Daily -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top overflow-hidden" style="height: 180px;">
+        <img src="/assets/img/press/ORIENTAL_DAILY.png" class="img-fluid w-100 h-100 object-fit-cover" alt="Oriental Daily Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Front-Page Engineering Spotlight</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>Oriental Daily</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+          </a>
+          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-file-pdf me-1"></i> English PDF
+          </a>
+          <a href="https://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20220720-0720_00176_025/IVE%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
+            <i class="fas fa-external-link-alt me-1"></i> View Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newspaper Clipping -->
+  <div class="col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm border-0">
+      <div class="card-img-top overflow-hidden" style="height: 180px;">
+        <img src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Print Edition Feature">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Print Edition Feature</h5>
+        <p class="card-subtitle text-muted small mb-3"><em>Oriental Daily (Print)</em> | July 2022</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
+            <i class="fas fa-image me-1"></i> Chinese Scan
+          </a>
+          <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
+            <i class="fas fa-image me-1"></i> English Scan
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Other publications as cards... -->
+</div>
+
+<style>
+  .press-highlight-box {
+    transition: transform 0.3s ease;
+  }
+  .press-highlight-box:hover {
+    transform: translateY(-3px);
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  }
+  .object-fit-cover {
+    object-fit: cover;
+  }
+</style>
+
+---
+
 #### 📖 Research Highlights
 <div class="d-flex gap-3 flex-wrap justify-content-center mt-4">
   <div class="flex-grow-1 p-3 border rounded bg-light-hover">
