@@ -895,9 +895,6 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 <!-- 📖 Research Highlights Section -->
 <section class="research-section mb-5">
   <div class="section-header text-center mb-5">
-    <div class="icon-circle bg-primary bg-opacity-10 mx-auto mb-3">
-      📖
-    </div>
     <div class="research-highlights mt-4 mb-5">
       <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
         <i class="fas fa-book-open me-2"></i>Research Highlights
@@ -985,14 +982,6 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 <style>
   .research-section {
     position: relative;
-  }
-  .section-header .icon-circle {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
   }
   .research-card {
     transition: all 0.3s ease;
