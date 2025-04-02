@@ -1170,6 +1170,307 @@ latest_posts:
   }
 </style>
 
+## 🔧 Technical Skills
+
+<div class="skills-container mt-4">
+  <div class="row g-4">
+    <!-- Software & Design Card -->
+    <div class="col-md-4">
+      <div class="skill-card h-100">
+        <div class="skill-header bg-primary-gradient">
+          <i class="fas fa-laptop-code"></i>
+          <h5>Software & Design</h5>
+        </div>
+        <div class="skill-body">
+          <ul class="skill-list">
+            <li>
+              <span class="skill-badge bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>AutoCAD</span>
+                <div class="skill-bar" style="width: 95%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Revit (BIM)</span>
+                <div class="skill-bar" style="width: 90%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Dialux</span>
+                <div class="skill-bar" style="width: 85%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Hevacomp</span>
+                <div class="skill-bar" style="width: 80%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>IES VE (ModelIT)</span>
+                <div class="skill-bar" style="width: 75%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Building Systems Card -->
+    <div class="col-md-4">
+      <div class="skill-card h-100">
+        <div class="skill-header bg-info-gradient">
+          <i class="fas fa-building"></i>
+          <h5>Building Systems</h5>
+        </div>
+        <div class="skill-body">
+          <ul class="skill-list">
+            <li>
+              <span class="skill-badge bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>HVAC Design</span>
+                <div class="skill-bar" style="width: 90%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Fire Safety Systems</span>
+                <div class="skill-bar" style="width: 85%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Pipe & Drainage Design</span>
+                <div class="skill-bar" style="width: 88%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Building Performance Modeling</span>
+                <div class="skill-bar" style="width: 82%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Energy Assessment</span>
+                <div class="skill-bar" style="width: 78%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Automation Card -->
+    <div class="col-md-4">
+      <div class="skill-card h-100">
+        <div class="skill-header bg-danger-gradient">
+          <i class="fas fa-robot"></i>
+          <h5>Automation</h5>
+        </div>
+        <div class="skill-body">
+          <ul class="skill-list">
+            <li>
+              <span class="skill-badge bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Raspberry Pi/Arduino</span>
+                <div class="skill-bar" style="width: 80%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Smart Home Tech</span>
+                <div class="skill-bar" style="width: 75%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>TensorFlow/OpenCV</span>
+                <div class="skill-bar" style="width: 70%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>IoT Integration</span>
+                <div class="skill-bar" style="width: 78%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="skill-badge bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div>
+                <span>Home Assistant</span>
+                <div class="skill-bar" style="width: 72%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .skills-container {
+    position: relative;
+  }
+  
+  .skill-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+  }
+  
+  .skill-header {
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill-header i {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+  }
+  
+  .skill-header h5 {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  
+  .skill-body {
+    padding: 1.5rem;
+  }
+  
+  .skill-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .skill-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+  
+  .skill-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .skill-badge {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    color: white;
+  }
+  
+  .skill-list li div {
+    flex-grow: 1;
+  }
+  
+  .skill-bar {
+    height: 4px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    border-radius: 2px;
+    margin-top: 0.3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skill-bar:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 2px;
+    background: currentColor;
+  }
+  
+  .bg-primary-gradient {
+    background: linear-gradient(135deg, #007bff, #3d8bfd);
+  }
+  
+  .bg-info-gradient {
+    background: linear-gradient(135deg, #17a2b8, #39b9d1);
+  }
+  
+  .bg-danger-gradient {
+    background: linear-gradient(135deg, #dc3545, #e4606d);
+  }
+  
+  .skill-list li:nth-child(1) .skill-bar:after { width: 95%; }
+  .skill-list li:nth-child(2) .skill-bar:after { width: 90%; }
+  .skill-list li:nth-child(3) .skill-bar:after { width: 85%; }
+  .skill-list li:nth-child(4) .skill-bar:after { width: 80%; }
+  .skill-list li:nth-child(5) .skill-bar:after { width: 75%; }
+  
+  @media (max-width: 768px) {
+    .skill-header {
+      padding: 1rem;
+    }
+    .skill-body {
+      padding: 1rem;
+    }
+  }
+</style>
+
 ---
 
 ## 🔧 Technical Skills
