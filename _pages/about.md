@@ -312,7 +312,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Redefining STEM Accessibility</strong></h6>
-        <p class="text-muted small mb-2"><em>Hong Kong 01</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>Hong Kong 01</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -334,7 +334,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Front-Page Engineering Spotlight</strong></h6>
-        <p class="text-muted small mb-2"><em>Oriental Daily (Website)</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>Oriental Daily (Website)</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -356,7 +356,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Vocational Education Success</strong></h6>
-        <p class="text-muted small mb-2"><em>ON.CC</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>ON.CC</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -378,7 +378,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Smart Energy Systems</strong></h6>
-        <p class="text-muted small mb-2"><em>Sky Post</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>Sky Post</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -400,7 +400,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Career Pathway Advice</strong></h6>
-        <p class="text-muted small mb-2"><em>Line Today</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>Line Today</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -422,7 +422,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Technical Expertise Highlight</strong></h6>
-        <p class="text-muted small mb-2"><em>Yahoo News</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>Yahoo News</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-file-pdf me-1"></i> Chinese PDF
@@ -444,7 +444,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" alt="Print Edition Feature">
       <div class="mt-2">
         <h6 class="mb-1"><strong>Print Edition Feature (Newspaper Clipping)</strong></h6>
-        <p class="text-muted small mb-2"><em>Oriental Daily (Print)</em> | 2022</p>
+        <p class="text-muted small mb-2"><em>Oriental Daily (Print)</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" target="_blank" class="btn btn-sm btn-primary">
             <i class="fas fa-image me-1"></i> Chinese Scan
