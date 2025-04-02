@@ -698,124 +698,14 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 ---
 
 <!-- 📖 Research Highlights Section -->
-<div class="research-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0"><i class="fas fa-book-open me-3 text-primary"></i>Research Highlights</h3>
-  </div>
-
-  <div class="research-cards row g-4">
-    <!-- Thesis 1 -->
-    <div class="col-md-6">
-      <div class="research-card card h-100 border-0 shadow-sm hover-effect">
-        <div class="card-body p-4">
-          <div class="d-flex align-items-start">
-            <div class="icon-wrapper bg-info bg-opacity-10 p-3 rounded-circle me-3">
-              <i class="fas fa-water fa-lg text-info"></i>
-            </div>
-            <div>
-              <h5 class="card-title mb-2">Higher Diploma Thesis</h5>
-              <p class="card-text mb-0">
-                <strong>Optimization of Plumbing Systems in High-Density Residential Buildings</strong>
-              </p>
-            </div>
-          </div>
-          <div class="mt-3 pt-2 border-top">
-            <ul class="research-details list-unstyled small text-muted mb-0">
-              <li class="mb-1"><i class="fas fa-check-circle me-2 text-info"></i>Improved water efficiency by 18%</li>
-              <li class="mb-1"><i class="fas fa-check-circle me-2 text-info"></i>Reduced maintenance costs by 22%</li>
-              <li><i class="fas fa-check-circle me-2 text-info"></i>Implemented in HK housing projects</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Thesis 2 -->
-    <div class="col-md-6">
-      <div class="research-card card h-100 border-0 shadow-sm hover-effect">
-        <div class="card-body p-4">
-          <div class="d-flex align-items-start">
-            <div class="icon-wrapper bg-warning bg-opacity-10 p-3 rounded-circle me-3">
-              <i class="fas fa-solar-panel fa-lg text-warning"></i>
-            </div>
-            <div>
-              <h5 class="card-title mb-2">Undergraduate Thesis</h5>
-              <p class="card-text mb-0">
-                <strong>Rooftop Renewable Energy Applications in University Campuses</strong>
-              </p>
-            </div>
-          </div>
-          <div class="mt-3 pt-2 border-top">
-            <ul class="research-details list-unstyled small text-muted mb-0">
-              <li class="mb-1"><i class="fas fa-check-circle me-2 text-warning"></i>Potential 35% energy savings</li>
-              <li class="mb-1"><i class="fas fa-check-circle me-2 text-warning"></i>Payback period under 5 years</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="research-summary mt-4 p-3 p-md-4 bg-light bg-opacity-10 rounded-3 text-center">
-    <p class="lead mb-0">
-      These research projects reflect my <strong class="text-primary">commitment to sustainability and efficiency</strong> in the built environment,
-      combining academic rigor with practical applications that create real-world impact.
-      <i class="fas fa-leaf ms-2 text-success"></i>
-    </p>
-  </div>
-</div>
-
-<hr class="my-5 border-top border-2 border-primary opacity-25">
-
-<!-- Optional CSS -->
-<style>
-  .research-section {
-    position: relative;
-  }
-  .research-card {
-    transition: all 0.3s ease;
-    border-radius: 0.5rem;
-  }
-  .research-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1) !important;
-  }
-  .icon-wrapper {
-    transition: transform 0.3s ease;
-  }
-  .research-card:hover .icon-wrapper {
-    transform: scale(1.1);
-  }
-  .hover-effect:hover {
-    background-color: rgba(248,249,250,0.7);
-  }
-  .research-details li {
-    position: relative;
-    padding-left: 1.5rem;
-  }
-  .research-details i {
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
-  }
-  .research-summary {
-    border-left: 3px solid var(--bs-success);
-    transition: background-color 0.3s ease;
-  }
-  .research-summary:hover {
-    background-color: rgba(25,135,84,0.05) !important;
-  }
-</style>
-
----
-
-<!-- 📖 Research Highlights Section -->
 <section class="research-section mb-5">
   <div class="section-header text-center mb-5">
     <div class="icon-circle bg-primary bg-opacity-10 mx-auto mb-3">
-      <i class="fas fa-book-open fa-lg text-primary"></i>
-    </div>
-    <h2 class="fw-bold mb-3">Research Highlights</h2>
+      📖
+    <div class="research-highlights mt-4 mb-5">
+  <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
+    <i class="fas fa-book-open me-2"></i>Research Highlights
+  </h2>
     <p class="lead text-muted mx-auto" style="max-width: 700px;">
       Academic research with practical applications in sustainable building systems
     </p>
@@ -827,7 +717,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <div class="research-card card h-100 border-0 shadow-sm hover-effect">
         <div class="card-body p-4">
           <div class="d-flex align-items-start">
-            <div class="icon-wrapper bg-info bg-opacity-10 p-3 rounded-circle me-3">
+            <div class="icon-wrapper bg-info-light bg-opacity-10 p-3 rounded-circle me-3">
               <i class="fas fa-water fa-lg text-info"></i>
             </div>
             <div>
@@ -854,7 +744,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
       <div class="research-card card h-100 border-0 shadow-sm hover-effect">
         <div class="card-body p-4">
           <div class="d-flex align-items-start">
-            <div class="icon-wrapper bg-warning bg-opacity-10 p-3 rounded-circle me-3">
+            <div class="icon-wrapper bg-warning-light bg-opacity-10 p-3 rounded-circle me-3">
               <i class="fas fa-solar-panel fa-lg text-warning"></i>
             </div>
             <div>
@@ -866,7 +756,6 @@ I am always eager to collaborate on **innovative projects** that push the bounda
             <ul class="research-details list-unstyled mb-0">
               <li class="mb-2"><i class="fas fa-check-circle me-2 text-warning"></i>Potential <strong>35% energy savings</strong> for campus facilities</li>
               <li class="mb-2"><i class="fas fa-check-circle me-2 text-warning"></i>Estimated payback period under <strong>5 years</strong></li>
-              <li><i class="fas fa-check-circle me-2 text-warning"></i>Featured in University Research Symposium 2023</li>
             </ul>
           </div>
         </div>
@@ -884,13 +773,11 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="position-relative">
       <i class="fas fa-quote-left fa-2x mb-4 text-success opacity-25"></i>
       <p class="lead mb-4 fs-4" style="line-height: 1.7;">
-        These research projects reflect my <span class="text-gradient-primary fw-bold">commitment to sustainability</span> and <span class="text-gradient-primary fw-bold">engineering efficiency</span> in the built environment, combining academic rigor with practical applications that create measurable impact.
+        These research projects reflect my <span class="text-gradient-primary fw-bold">commitment to sustainability</span> and <span class="text-gradient-primary fw-bold">engineering efficiency</span> in the built environment, combining academic rigor with practical applications that create measurable impact. <i class="fas fa-leaf fa-lg text-success"></i>
       </p>
       <div class="d-flex align-items-center justify-content-center">
         <div class="border-end border-success pe-3 me-3">
-          <i class="fas fa-leaf fa-lg text-success me-2"></i>
         </div>
-        <small class="text-muted">Research recognized by Department of Building Services Engineering</small>
       </div>
     </div>
   </div>
