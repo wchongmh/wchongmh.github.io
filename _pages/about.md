@@ -31,45 +31,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
----
-layout: about
-title: About
-permalink: /
-subtitle: “The engineers of the future will be poets.” ― Terence McKenna
-description: "Building Services Engineer | Sustainable Design Advocate | IoT Innovator"
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: true
-  more_info: >
-    <div class="profile-details">
-      <p><i class="fas fa-map-marker-alt text-primary"></i> <strong>SCT | UK | HKG</strong></p>
-      <p><i class="fas fa-graduation-cap text-info"></i> Engineering Graduate</p>
-      <p><i class="fas fa-hard-hat text-warning"></i> Building Services Engineer</p>
-      <p><i class="fas fa-award text-danger"></i> Scholarship Recipient</p>
-      <p><i class="fas fa-microchip text-success"></i> BIM, AI & IoT Specialist</p>
-    </div>
-
-selected_papers: false
-social: false
-
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
----
-
 <div class="about-container">
   <!-- Hero Section -->
   <section class="hero-section mb-5">
     <div class="hero-content">
-      <h1 class="hero-title">Building the Future, <span class="text-gradient">Sustainably</span></h1>
+      <h1 class="hero-title"><i class="fas fa-building me-3 text-primary"></i> Building the Future, <span class="text-gradient">Sustainably</span></h1>
       <div class="hero-divider"></div>
     </div>
   </section>
