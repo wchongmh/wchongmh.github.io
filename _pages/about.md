@@ -31,6 +31,312 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+---
+layout: about
+title: About
+permalink: /
+subtitle: “The engineers of the future will be poets.” ― Terence McKenna
+description: "Building Services Engineer | Sustainable Design Advocate | IoT Innovator"
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: true
+  more_info: >
+    <div class="profile-details">
+      <p><i class="fas fa-map-marker-alt text-primary"></i> <strong>SCT | UK | HKG</strong></p>
+      <p><i class="fas fa-graduation-cap text-info"></i> Engineering Graduate</p>
+      <p><i class="fas fa-hard-hat text-warning"></i> Building Services Engineer</p>
+      <p><i class="fas fa-award text-danger"></i> Scholarship Recipient</p>
+      <p><i class="fas fa-microchip text-success"></i> BIM, AI & IoT Specialist</p>
+    </div>
+
+selected_papers: false
+social: false
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: true
+  scrollable: true
+  limit: 3
+---
+
+<div class="about-container">
+  <!-- Hero Section -->
+  <section class="hero-section mb-5">
+    <div class="hero-content">
+      <h1 class="hero-title">Building the Future, <span class="text-gradient">Sustainably</span></h1>
+      <div class="hero-divider"></div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="about-content">
+    <p class="lead intro-text">
+      As a <strong class="highlight">Building Services Engineer</strong>, I bridge sustainability with smart technologies to create efficient, future-ready infrastructure.
+    </p>
+
+    <!-- Education Card -->
+    <div class="education-card card mb-4 border-0 shadow-sm">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-graduation-cap fa-3x me-3 text-primary"></i> <!-- Bigger graduation cap -->
+          <div>
+            <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
+            <p class="mb-0 text-muted">Glasgow Caledonian University</p>
+          </div>
+        </div>
+        
+        <div class="achievements mt-4">
+          <div class="achievement-highlight p-3 mb-3 rounded">
+            <div class="d-flex align-items-center">
+              <span class="achievement-icon bg-success text-white me-3">
+                <i class="fas fa-trophy"></i>
+              </span>
+              <div>
+                <h5 class="mb-1">🏆 First Place in Third-Year Cohort</h5>
+                <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" 
+                   target="_blank" 
+                   class="text-decoration-none d-inline-block mt-1">
+                  <span class="badge bg-light text-dark">
+                    <i class="fas fa-external-link-alt me-1"></i>View Achievement
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="achievement-highlight p-3 rounded">
+            <div class="d-flex align-items-center">
+              <span class="achievement-icon bg-info text-white me-3">
+                <i class="fas fa-medal"></i>
+              </span>
+              <div>
+                <h5 class="mb-1">🎖️ Fully Funded Alistair Harvey Scholarship</h5>
+                <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" 
+                   target="_blank" 
+                   class="text-decoration-none d-inline-block mt-1">
+                  <span class="badge bg-light text-dark">
+                    <i class="fas fa-external-link-alt me-1"></i>View Details
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Expertise Section -->
+    <div class="expertise-section mb-4">
+      <h3 class="section-title mb-4">
+        <i class="fas fa-cogs me-2"></i>
+        <span class="underline-title">Technical Expertise</span>
+      </h3>
+      
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-fan text-primary me-2"></i>
+              <h5 class="mb-0">HVAC Systems</h5>
+            </div>
+            <p class="text-muted">Climate-optimized designs for energy efficiency</p>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-volume-up text-info me-2"></i>
+              <h5 class="mb-0">Acoustic Engineering</h5>
+            </div>
+            <p class="text-muted">Noise control and soundscape optimization</p>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-lightbulb text-warning me-2"></i>
+              <h5 class="mb-0">Lighting Design</h5>
+            </div>
+            <p class="text-muted">Human-centric illumination solutions</p>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-fire-extinguisher text-danger me-2"></i>
+              <h5 class="mb-0">Fire Safety</h5>
+            </div>
+            <p class="text-muted">Code-compliant protection systems</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technology Integration -->
+    <div class="tech-section card border-0 bg-light mb-4">
+      <div class="card-body">
+        <h3 class="section-title mb-4">
+          <i class="fas fa-microchip me-2"></i>
+          <span class="underline-title">Technology Integration</span>
+        </h3>
+        
+        <div class="d-flex flex-wrap gap-3">
+          <div class="tech-pill">
+            <i class="fas fa-cube me-2"></i> BIM Modeling
+          </div>
+          <div class="tech-pill">
+            <i class="fas fa-network-wired me-2"></i> IoT Systems
+          </div>
+          <div class="tech-pill">
+            <i class="fas fa-robot me-2"></i> AI Solutions
+          </div>
+          <div class="tech-pill">
+            <i class="fas fa-chart-line me-2"></i> Data Analytics
+          </div>
+        </div>
+        
+        <p class="mt-3 mb-0">
+          I combine these technologies to create <strong>intelligent building systems</strong> that are both <strong>sustainable</strong> and <strong>responsive</strong> to user needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Custom Styles */
+  .hero-title {
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #007bff, #00b894);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .hero-divider {
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(90deg, #007bff, #00b894);
+    margin: 1.5rem 0;
+    border-radius: 3px;
+    opacity: 0.8;
+  }
+  
+  .highlight {
+    background-color: rgba(0, 184, 148, 0.15);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .intro-text {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+  
+  .education-card {
+    border-left: 4px solid #007bff !important;
+  }
+  
+  .achievement-highlight {
+    background-color: rgba(248, 249, 250, 0.8);
+    border-left: 3px solid;
+    transition: all 0.3s ease;
+  }
+  
+  .achievement-highlight:first-child {
+    border-color: #28a745;
+  }
+  
+  .achievement-highlight:last-child {
+    border-color: #17a2b8;
+  }
+  
+  .achievement-highlight:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .achievement-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  }
+  
+  .section-title {
+    position: relative;
+    font-weight: 600;
+  }
+  
+  .underline-title:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, #007bff, #00b894);
+    border-radius: 3px;
+  }
+  
+  .skill-card {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
+  
+  .tech-pill {
+    background-color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+    font-weight: 500;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .tech-pill:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .profile-details i {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .tech-section {
+    background: linear-gradient(135deg, rgba(0,123,255,0.03), rgba(0,184,148,0.03)) !important;
+  }
+</style>
+
+---
+
 <div class="about-container">
   <!-- Hero Section -->
   <section class="hero-section mb-5">
@@ -620,95 +926,20 @@ I am always eager to collaborate on **innovative projects** that push the bounda
   </div>
 </div>
 
----
-
-<!-- 📖 Research Highlights Section -->
-<div class="research-highlights mt-4 mb-5">
-  <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
-    <i class="fas fa-book-open me-2"></i>Research Highlights
-  </h2>
-  
-  <div class="row g-4 justify-content-center">
-    <!-- Thesis Card 1 -->
-    <div class="col-md-6 col-lg-5">
-      <div class="card h-100 shadow-sm border-0 hover-effect">
-        <div class="card-body p-4">
-          <div class="d-flex align-items-center mb-3">
-            <div class="icon-circle bg-info-light">
-              <i class="fas fa-water text-info fa-lg"></i>
-            </div>
-            <h3 class="h5 mb-0 ms-3" style="color: #2980b9;">Higher Diploma Thesis</h3>
-          </div>
-          <p class="card-text" style="color: #34495e;">
-            Optimization of Drainage Systems in High-Density Residential Buildings
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Thesis Card 2 -->
-    <div class="col-md-6 col-lg-5">
-      <div class="card h-100 shadow-sm border-0 hover-effect">
-        <div class="card-body p-4">
-          <div class="d-flex align-items-center mb-3">
-            <div class="icon-circle bg-warning-light">
-              <i class="fas fa-solar-panel text-warning fa-lg"></i>
-            </div>
-            <h3 class="h5 mb-0 ms-3" style="color: #f39c12;">Undergraduate Thesis</h3>
-          </div>
-          <p class="card-text" style="color: #34495e;">
-            Rooftop Renewable Energy Applications in University Campuses
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <p class="text-center mt-4 mb-0" style="color: #7f8c8d; font-style: italic;">
-    These research projects reflect my <strong style="color: #27ae60;">commitment to sustainability and efficiency</strong> in the built environment.
-  </p>
-</div>
-
-<style>
-  /* Custom CSS for enhanced styling */
-  .hover-effect {
-    transition: all 0.3s ease;
-    border-radius: 8px !important;
-  }
-  .hover-effect:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
-  }
-  .icon-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .bg-info-light {
-    background-color: rgba(52, 152, 219, 0.1);
-  }
-  .bg-warning-light {
-    background-color: rgba(241, 196, 15, 0.1);
-  }
-</style>
-
----
-
 <!-- 📖 Research Highlights Section -->
 <section class="research-section mb-5">
   <div class="section-header text-center mb-5">
     <div class="icon-circle bg-primary bg-opacity-10 mx-auto mb-3">
       📖
+    </div>
     <div class="research-highlights mt-4 mb-5">
-  <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
-    <i class="fas fa-book-open me-2"></i>Research Highlights
-  </h2>
-    <p class="lead text-muted mx-auto" style="max-width: 700px;">
-      Academic research with practical applications in sustainable building systems
-    </p>
+      <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
+        <i class="fas fa-book-open me-2"></i>Research Highlights
+      </h2>
+      <p class="lead text-muted mx-auto" style="max-width: 700px;">
+        Academic research with practical applications in sustainable building systems
+      </p>
+    </div>
   </div>
 
   <div class="research-cards row g-4">
@@ -776,8 +1007,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
         These research projects reflect my <span class="text-gradient-primary fw-bold">commitment to sustainability</span> and <span class="text-gradient-primary fw-bold">engineering efficiency</span> in the built environment, combining academic rigor with practical applications that create measurable impact. <i class="fas fa-leaf fa-lg text-success"></i>
       </p>
       <div class="d-flex align-items-center justify-content-center">
-        <div class="border-end border-success pe-3 me-3">
-        </div>
+        <div class="border-end border-success pe-3 me-3"></div>
       </div>
     </div>
   </div>
