@@ -767,7 +767,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
   <div class="section-header text-center mb-5">
     <div class="research-highlights mt-4 mb-5">
       <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
-        <i class="fas fa-book-open me-2"></i>Research Highlights
+        📖 Research Highlights
       </h2>
       <p class="lead text-muted mx-auto" style="max-width: 700px;">
         Academic research with practical applications in sustainable building systems
