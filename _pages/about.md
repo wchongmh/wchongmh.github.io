@@ -16,6 +16,7 @@ profile:
     <p><i class="fas fa-hard-hat text-warning"></i> Building Services Engineer</p>
     <p><i class="fas fa-award text-danger"></i> 6x Scholarship Recipient</p>
     <p><i class="fas fa-microchip text-success"></i> BIM, AI & IoT in Built</p>
+    
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 announcements:
