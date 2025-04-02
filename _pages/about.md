@@ -35,7 +35,7 @@ latest_posts:
   <!-- Hero Section -->
   <section class="hero-section mb-5">
     <div class="hero-content">
-      <h1 class="hero-title">Building the Future, <span class="text-gradient">Sustainably</span></h1>
+      <h1 class="hero-title"><i class="fas fa-building me-3 text-primary"></i> Building the Future, <span class="text-gradient">Sustainably</span></h1>
       <div class="hero-divider"></div>
     </div>
   </section>
@@ -49,7 +49,7 @@ latest_posts:
     <div class="education-card card mb-4 border-0 shadow-sm">
       <div class="card-body">
         <div class="d-flex align-items-center mb-3">
-          <i class="fas fa-university fa-2x me-3 text-primary"></i>
+          <i class="fas fa-graduation-cap fa-2x me-3 text-primary"></i>
           <div>
             <h3 class="mb-0">BEng (Hons) in Building Services Engineering</h3>
             <p class="mb-0 text-muted">Glasgow Caledonian University</p>
@@ -61,7 +61,7 @@ latest_posts:
             <span class="achievement-badge bg-success me-3"><i class="fas fa-trophy"></i></span>
             <div>
               <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" target="_blank" class="text-decoration-none">
-                First place in third-year cohort
+                <strong>First place in third-year cohort</strong>
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@ latest_posts:
             <span class="achievement-badge bg-info me-3"><i class="fas fa-medal"></i></span>
             <div>
               <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" target="_blank" class="text-decoration-none">
-                Fully funded Alistair Harvey Foundation Scholarship
+                <strong>Fully funded Alistair Harvey Foundation Scholarship</strong>
               </a>
             </div>
           </div>
