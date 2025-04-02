@@ -11,11 +11,11 @@ profile:
   image_circular: false # crops the image to make it circular
   image_style: "border: 3px solid #ffc107; box-shadow: 0 4px 12px rgba(0,0,0,0.15)"
   more_info: >
-    <p><i class="fas fa-map-marker-alt text-primary"></i>  SCT | UK | HKG</p>
-    <p><i class="fas fa-graduation-cap text-info"></i> Engineering Graduate</p>
-    <p><i class="fas fa-hard-hat text-warning"></i>  Building Services Engineer</p>
-    <p><i class="fas fa-award text-danger"></i>  6x Scholarship Recipient</p>
-    <p><i class="fas fa-microchip text-success"></i>  BIM, AI & IoT in Built</p>
+    <p><i class="fas fa-map-marker-alt text-primary"></i>SCT | UK | HKG</p>
+    <p><i class="fas fa-graduation-cap text-info"></i>Engineering Graduate</p>
+    <p><i class="fas fa-hard-hat text-warning"></i>Building Services Engineer</p>
+    <p><i class="fas fa-award text-danger"></i>6x Scholarship Recipient</p>
+    <p><i class="fas fa-microchip text-success"></i>BIM, AI & IoT in Built</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -300,178 +300,6 @@ latest_posts:
     background: linear-gradient(135deg, rgba(0,123,255,0.03), rgba(0,184,148,0.03)) !important;
   }
 </style>
-
----
-
-<div class="about-container">
-  <!-- Hero Section -->
-  <section class="hero-section mb-5">
-    <div class="hero-content">
-      <h1 class="hero-title"><i class="fas fa-building me-3 text-primary"></i> Building the Future, <span class="text-gradient">Sustainably</span></h1>
-      <div class="hero-divider"></div>
-    </div>
-  </section>
-
-  <!-- Main Content -->
-  <div class="about-content">
-    <p class="lead">
-      As a <strong class="highlight">Building Services Engineer</strong>, I specialize in integrating <strong>sustainability</strong>, <strong>smart technologies</strong>, and <strong>efficiency</strong> into modern infrastructure.
-    </p>
-
-    <div class="education-card card mb-4 border-0 shadow-sm">
-      <div class="card-body">
-        <div class="d-flex align-items-center mb-3">
-          <i class="fas fa-graduation-cap fa-2x me-3 text-primary"></i>
-          <div>
-            <h3 class="mb-0">BEng (Hons) in Building Services Engineering</h3>
-            <p class="mb-0 text-muted">Glasgow Caledonian University</p>
-          </div>
-        </div>
-        
-        <div class="achievements mt-3">
-          <div class="achievement-item d-flex align-items-center mb-2">
-            <span class="achievement-badge bg-success me-3"><i class="fas fa-trophy"></i></span>
-            <div>
-              <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" target="_blank" class="text-decoration-none">
-                <strong>First place in third-year cohort</strong>
-              </a>
-            </div>
-          </div>
-          <div class="achievement-item d-flex align-items-center">
-            <span class="achievement-badge bg-info me-3"><i class="fas fa-medal"></i></span>
-            <div>
-              <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" target="_blank" class="text-decoration-none">
-                <strong>Fully funded Alistair Harvey Foundation Scholarship</strong>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="expertise-section mb-4">
-      <h3 class="mb-3"><i class="fas fa-cogs me-2 text-primary"></i>Technical Expertise</h3>
-      <div class="row g-3">
-        <div class="col-md-6">
-          <ul class="expertise-list">
-            <li><i class="fas fa-check-circle text-success me-2"></i> HVAC System Design</li>
-            <li><i class="fas fa-check-circle text-success me-2"></i> Acoustic Engineering</li>
-            <li><i class="fas fa-check-circle text-success me-2"></i> Lighting Solutions</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <ul class="expertise-list">
-            <li><i class="fas fa-check-circle text-success me-2"></i> Pipe Network Optimization</li>
-            <li><i class="fas fa-check-circle text-success me-2"></i> Fire Safety Systems</li>
-            <li><i class="fas fa-check-circle text-success me-2"></i> Climate-responsive Design</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="innovation-section card border-0 bg-light mb-4">
-      <div class="card-body">
-        <h3 class="mb-3"><i class="fas fa-brain me-2 text-primary"></i>Technological Integration</h3>
-        <p>
-          I leverage <strong>BIM</strong>, <strong>IoT</strong>, and <strong>AI</strong> to create <span class="highlight">intelligent, responsive spaces</span> that combine technological advancement with environmental responsibility.
-        </p>
-        <div class="tech-badges mt-3">
-          <span class="badge bg-primary me-2 mb-2"><i class="fas fa-cube me-1"></i> BIM</span>
-          <span class="badge bg-info me-2 mb-2"><i class="fas fa-network-wired me-1"></i> IoT</span>
-          <span class="badge bg-success me-2 mb-2"><i class="fas fa-robot me-1"></i> AI</span>
-          <span class="badge bg-warning text-dark me-2 mb-2"><i class="fas fa-leaf me-1"></i> Sustainable Design</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="cta-section text-center py-4 bg-primary text-white rounded">
-      <h3 class="mb-3">Let's Build the Future Together!</h3>
-      <p class="mb-0">I'm always eager to collaborate on innovative projects that push the boundaries of smart and sustainable engineering.</p>
-    </div>
-  </div>
-</div>
-
-<style>
-  /* Custom Styles */
-  .hero-title {
-    font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .text-gradient {
-    background: linear-gradient(135deg, #007bff, #00b894);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-  
-  .hero-divider {
-    width: 100px;
-    height: 4px;
-    background: linear-gradient(90deg, #007bff, #00b894);
-    margin: 1rem 0;
-    border-radius: 2px;
-  }
-  
-  .highlight {
-    background-color: rgba(0, 184, 148, 0.2);
-    padding: 0.2rem 0.4rem;
-    border-radius: 4px;
-    font-weight: 600;
-  }
-  
-  .achievement-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    color: white;
-  }
-  
-  .expertise-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .expertise-list li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .tech-badges .badge {
-    font-size: 0.9rem;
-    padding: 0.5rem 0.8rem;
-    border-radius: 20px;
-  }
-  
-  .profile-details i {
-    width: 20px;
-    text-align: center;
-    margin-right: 8px;
-  }
-  
-  .cta-section {
-    transition: all 0.3s ease;
-  }
-  
-  .cta-section:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  }
-</style>
-
----
-
-### <i class="fas fa-building"></i> Building the Future, Sustainably  
-As a **Building Services Engineer**, I specialize in integrating **sustainability, smart technologies, and efficiency** into modern infrastructure. I hold a **BEng (Hons) in Building Services Engineering** from **Glasgow Caledonian University**, where I graduated with [**first place in my third-year cohort**](https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment) <i class="fas fa-trophy"></i> and was awarded the prestigious, [**fully funded Alistair Harvey Foundation Scholarship**](https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html) <i class="fas fa-medal"></i>. 
-
-With expertise in **HVAC, acoustics, lighting, pipe networks, and fire safety**, I design, optimize, and implement critical building systems. I leverage **BIM, IoT, and AI** to create **climate-responsive, intelligent spaces**, ensuring that modern engineering solutions are both technologically advanced and environmentally responsible.
-
-I am always eager to collaborate on **innovative projects** that push the boundaries of **smart and sustainable engineering**. Let's build the future together! 
-
----
 
 <!-- Professional Journey Header -->
 <div class="professional-journey-header mb-5">
@@ -762,6 +590,8 @@ I am always eager to collaborate on **innovative projects** that push the bounda
   </div>
 </div>
 
+
+
 <!-- 📖 Research Highlights Section -->
 <section class="research-section mb-5">
   <div class="section-header text-center mb-5">
@@ -903,7 +733,7 @@ I am always eager to collaborate on **innovative projects** that push the bounda
   }
 </style>
 
----
+
 
 <!-- 🏗️ Industry Experience Section -->
 <div class="industry-experience-section mb-5">
