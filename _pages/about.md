@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  image_style: "border: 3px solid #ffc107; box-shadow: 0 4px 12px rgba(0,0,0,0.15)" 
+ image_style: "border: 3px solid #ffc107; box-shadow: 0 4px 12px rgba(0,0,0,0.15); max-width: 280px; margin-left: 2rem; margin-bottom: 2rem;"
   more_info: >
     <p><i class="fas fa-map-marker-alt text-primary"></i> SCT | UK | HKG</p>
     <p><i class="fas fa-graduation-cap text-info"></i> Engineering Graduate</p>
@@ -32,6 +32,152 @@ latest_posts:
 ---
 
 <!-- 🏢 Professional Profile Section -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Profile content column -->
+    <div class="col-lg-8 col-md-7">
+      <div class="profile-section mb-5 py-4 px-3 px-md-4 rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0d6efd;">
+        <div class="section-header d-flex align-items-center mb-4">
+          <h2 class="mb-0"><i class="fas fa-building me-3 text-primary"></i>Building the Future, <span class="text-primary">Sustainably</span></h2>
+        </div>
+
+        <div class="profile-content">
+          <p class="lead mb-4">
+            As a <strong class="text-primary">Building Services Engineer</strong>, I specialize in integrating 
+            <span class="highlight-tag">sustainability</span>, 
+            <span class="highlight-tag">smart technologies</span>, and 
+            <span class="highlight-tag">efficiency</span> into modern infrastructure.
+          </p>
+
+          <div class="qualification-card bg-white p-3 p-md-4 mb-4 rounded-3 shadow-sm">
+            <div class="d-flex flex-column flex-md-row align-items-md-center">
+              <div class="me-md-4 mb-3 mb-md-0">
+                <i class="fas fa-graduation-cap fa-2x text-primary"></i>
+              </div>
+              <div>
+                <h5 class="mb-1">I hold a <strong>BEng (Hons) in Building Services Engineering</strong> from</h5>
+                <p class="mb-2">Glasgow Caledonian University</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" 
+                     target="_blank" 
+                     class="badge bg-primary bg-opacity-10 text-primary text-decoration-none">
+                    <i class="fas fa-trophy me-1"></i> Ranked #1 in third-year cohort
+                  </a>
+                  <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" 
+                     target="_blank" 
+                     class="badge bg-success bg-opacity-10 text-success text-decoration-none">
+                    <i class="fas fa-medal me-1"></i> Alistair Harvey Scholar
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="expertise-section mb-4">
+            <h5 class="mb-3 text-dark">Core Expertise</h5>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="expertise-badge">HVAC Systems</span>
+              <span class="expertise-badge">Acoustics Engineering</span>
+              <span class="expertise-badge">Lighting Design</span>
+              <span class="expertise-badge">Pipe Network Optimization</span>
+              <span class="expertise-badge">Fire Safety Systems</span>
+            </div>
+            <p class="mb-0">
+              I design, optimize, and implement critical building systems with precision and innovation.
+            </p>
+          </div>
+
+          <div class="technology-section mb-4 p-3 bg-light bg-opacity-10 rounded-3">
+            <h5 class="mb-3 text-dark">Technology Integration</h5>
+            <div class="d-flex flex-wrap gap-2 mb-2">
+              <span class="tech-badge"><i class="fas fa-cube me-1"></i> BIM</span>
+              <span class="tech-badge"><i class="fas fa-network-wired me-1"></i> IoT</span>
+              <span class="tech-badge"><i class="fas fa-robot me-1"></i> AI</span>
+            </div>
+            <p class="mb-0">
+              Leveraging cutting-edge technologies to create <strong>climate-responsive, intelligent spaces</strong> that 
+              balance technological advancement with environmental responsibility.
+            </p>
+          </div>
+
+          <div class="cta-section text-center mt-4 pt-3">
+            <p class="lead mb-3">
+              I'm eager to collaborate on <strong>innovative projects</strong> that push the boundaries of 
+              <span class="text-primary">smart and sustainable engineering</span>.
+            </p>
+            <h4 class="mb-0">Let's build the future together! <i class="fas fa-hands-helping ms-2 text-primary"></i></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Profile picture column - will be automatically positioned by the about layout -->
+  </div>
+</div>
+
+<hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<style>
+  .profile-section {
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  .highlight-tag {
+    background-color: rgba(13,110,253,0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+  }
+  .qualification-card {
+    transition: transform 0.3s ease;
+    border-left: 3px solid #0d6efd;
+  }
+  .qualification-card:hover {
+    transform: translateY(-3px);
+  }
+  .expertise-badge {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    padding: 0.35rem 0.75rem;
+    border-radius: 50rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .tech-badge {
+    background-color: rgba(13,110,253,0.08);
+    border: 1px solid rgba(13,110,253,0.2);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+  }
+  .tech-badge:hover {
+    background-color: rgba(13,110,253,0.15);
+  }
+  .cta-section {
+    position: relative;
+  }
+  .cta-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+  }
+  
+  /* Ensure profile image doesn't overlap on mobile */
+  @media (max-width: 991.98px) {
+    .profile img {
+      float: none !important;
+      margin: 0 auto 2rem !important;
+      display: block;
+    }
+  }
+</style>
+
+---
+
 <!-- Add margin to the top of the profile section to prevent overlap -->
 <div class="profile-section mb-5 py-4 px-3 px-md-4 rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0d6efd; margin-top: 2rem;">
   <div class="section-header d-flex align-items-center mb-4">
