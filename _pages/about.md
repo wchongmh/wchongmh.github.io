@@ -621,7 +621,8 @@ These research projects reflect my **commitment to sustainability and efficiency
       <div class="d-flex justify-content-between align-items-center">
         <h4 class="mb-0">Building Services Engineering Intern</h4>
         <span class="badge bg-light text-dark fw-bold py-2 px-3 rounded-pill">
-           <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022</span>
+          <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022
+        </span>
       </div>
       <h5 class="mb-0 mt-2">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-muted">(Hong Kong)</small></h5>
     </div>
@@ -658,22 +659,22 @@ These research projects reflect my **commitment to sustainability and efficiency
         </li>
       </ul>
 
-    <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
-          </span>
-          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
-          </span>
-          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-book me-2 text-primary"></i>BEAM Plus
-          </span>
-          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-fire-extinguisher me-2 text-primary"></i>Fire Safety Code
-          </span>
-          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-tint me-2 text-primary"></i>Plumbing Standards
-          </span>
-        </div>
+      <div class="tools-section mt-4">
+        <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
+          <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
+        </span>
+        <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
+          <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
+        </span>
+        <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
+          <i class="fas fa-book me-2 text-primary"></i>BEAM Plus
+        </span>
+        <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
+          <i class="fas fa-fire-extinguisher me-2 text-primary"></i>Fire Safety Code
+        </span>
+        <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
+          <i class="fas fa-tint me-2 text-primary"></i>Plumbing Standards
+        </span>
       </div>
     </div>
 
