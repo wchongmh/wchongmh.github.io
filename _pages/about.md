@@ -32,10 +32,10 @@ latest_posts:
 ---
 
 <!-- 🏢 Professional Profile Section -->
-<div class="container-fluid px-0">
+<div class="container-xxl">
   <div class="row">
-    <!-- Profile content column -->
-    <div class="col-lg-8 col-md-7 pe-lg-4">
+    <div class="col-lg-8">
+      <div class="profile-content-section">
       <div class="profile-section mb-5 py-4 px-3 px-md-4 rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0d6efd;">
         
         <!-- Rest of your profile content remains exactly the same -->
