@@ -328,212 +328,6 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
-#### 📰 Media Recognition & Press Features
-<div class="lead mb-4">
-  My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
-</div>
-
-<div class="press-highlight-box mb-5 p-4 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #0d6efd;">
-  <div class="d-flex align-items-center">
-    <i class="fas fa-quote-left fa-2x me-3" style="color: #0d6efd; opacity: 0.3;"></i>
-    <div>
-      <p class="mb-2 fst-italic">"Demonstrating exceptional potential in engineering innovation and commitment to STEM education accessibility."</p>
-      <p class="text-muted mb-0">— Hong Kong 01</p>
-    </div>
-  </div>
-</div>
-
-<div class="row g-4">
-  <!-- Hong Kong 01 -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/HK01.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Hong Kong 01 Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Redefining STEM Accessibility</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Hong Kong 01</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-          </a>
-          <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> English PDF
-          </a>
-          <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
-            <i class="fas fa-external-link-alt me-1"></i> View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Oriental Daily (Website) -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/ORIENTAL_DAILY.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Oriental Daily Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Front-Page Engineering Spotlight</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Oriental Daily (Website)</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-          </a>
-          <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> English PDF
-          </a>
-          <a href="https://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20220720-0720_00176_025/IVE%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
-            <i class="fas fa-external-link-alt me-1"></i> View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ON.CC -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/ONCC.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="ON.CC Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Vocational Education Success</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>ON.CC</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-          </a>
-          <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> English PDF
-          </a>
-          <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
-            <i class="fas fa-external-link-alt me-1"></i> View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Sky Post -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/SKY_POST.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Sky Post Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Smart Energy Systems</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Sky Post</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-          </a>
-          <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> English PDF
-          </a>
-          <a href="https://skypost.hk/article/3306096/DSE2022-IVE%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%95%A2%E6%A5%AD%E7%94%9F%E7%8D%B2%E7%8D%8E%E5%AD%B8%E9%87%91-%E5%B0%87%E8%B5%B4%E8%8B%B1%E5%8D%87%E5%AD%B8%E8%BF%BD%E9%80%90%E5%A4%A2%E6%83%B3" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
-            <i class="fas fa-external-link-alt me-1"></i> View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Line Today -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/LINE_TODAY.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Line Today Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Career Pathway Advice</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Line Today</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-          </a>
-          <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> English PDF
-          </a>
-          <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
-            <i class="fas fa-external-link-alt me-1"></i> View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Yahoo News -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/YAHOO_NEWS.png" class="img-fluid" style="max-height: 200px; width: auto;" alt="Yahoo News Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Technical Expertise Highlight</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Yahoo News</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-          </a>
-          <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-file-pdf me-1"></i> English PDF
-          </a>
-          <a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank" class="btn btn-sm btn-primary flex-grow-1">
-            <i class="fas fa-external-link-alt me-1"></i> View Online
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Newspaper Clipping -->
-  <div class="col-md-6 col-lg-4">
-    <div class="card h-100 shadow-sm border-0">
-      <div class="card-img-top p-3 text-center bg-light">
-        <img src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" class="img-fluid" style="max-height: 200px; width: auto;" alt="Print Edition Feature">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Print Edition Feature</h5>
-        <p class="card-subtitle text-muted small mb-3"><em>Oriental Daily (Print)</em> | July 2022</p>
-        <div class="d-flex flex-wrap gap-2">
-          <a href="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" target="_blank" class="btn btn-sm btn-outline-primary flex-grow-1">
-            <i class="fas fa-image me-1"></i> Chinese Scan
-          </a>
-          <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank" class="btn btn-sm btn-outline-success flex-grow-1">
-            <i class="fas fa-image me-1"></i> English Scan
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  .press-highlight-box {
-    transition: transform 0.3s ease;
-  }
-  .press-highlight-box:hover {
-    transform: translateY(-3px);
-  }
-  .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
-  }
-  .card-img-top {
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-</style>
-
----
-
 #### 📖 Research Highlights
 <div class="d-flex gap-3 flex-wrap justify-content-center mt-4">
   <div class="flex-grow-1 p-3 border rounded bg-light-hover">
@@ -547,6 +341,134 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 </div>
 
 These research projects reflect my **commitment to sustainability and efficiency** in the built environment.  
+
+---
+
+<!-- 🏗️ Industry Experience Section -->
+<div class="industry-experience-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0"><i class="fas fa-hard-hat me-3 text-warning"></i>Industry Experience</h3>
+  </div>
+
+  <div class="experience-card card border-0 shadow-sm mb-4">
+    <div class="card-header bg-gradient-warning text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">Building Services Engineering Intern</h4>
+        <span class="badge bg-white text-dark">Jan &ndash; Apr 2022</span>
+      </div>
+      <h5 class="mb-0 mt-2">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-white-50">(Hong Kong)</small></h5>
+    </div>
+    
+    <div class="card-body">
+      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded">
+        <h6 class="text-uppercase text-muted mb-2">Featured Project</h6>
+        <h5 class="mb-1">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
+        <p class="mb-0 text-muted">1,200+ residential units | Hong Kong</p>
+      </div>
+
+      <h5 class="mb-3 text-primary">Key Contributions</h5>
+      <ul class="contribution-list list-unstyled">
+        <li class="mb-3 d-flex">
+          <span class="me-3 contribution-badge bg-primary text-white">1</span>
+          <div>
+            <strong>BIM-Driven Optimization</strong>
+            <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
+          </div>
+        </li>
+        <li class="mb-3 d-flex">
+          <span class="me-3 contribution-badge bg-primary text-white">2</span>
+          <div>
+            <strong>Commissioning Efficiency</strong>
+            <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
+          </div>
+        </li>
+        <li class="d-flex">
+          <span class="me-3 contribution-badge bg-primary text-white">3</span>
+          <div>
+            <strong>Safety Documentation</strong>
+            <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="tools-section mt-4 pt-3 border-top">
+        <h6 class="text-uppercase text-muted mb-3">Tools &amp; Standards</h6>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-light text-dark border py-2 px-3">
+            <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
+          </span>
+          <span class="badge bg-light text-dark border py-2 px-3">
+            <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
+          </span>
+          <span class="badge bg-light text-dark border py-2 px-3">
+            <i class="fas fa-book me-2 text-primary"></i>BEAM Plus
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-footer bg-light bg-opacity-10">
+      <p class="mb-0 text-muted">
+        <i class="fas fa-lightbulb text-warning me-2"></i>
+        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr class="my-5 border-top border-2 border-warning opacity-25">
+
+<!-- Character Encoding Fix -->
+<meta charset="utf-8">
+
+<!-- Optional CSS -->
+<style>
+  .industry-experience-section {
+    position: relative;
+  }
+  .experience-card {
+    transition: transform 0.3s ease;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .experience-card:hover {
+    transform: translateY(-3px);
+  }
+  .card-header.bg-gradient-warning {
+    background: linear-gradient(135deg, #ffc107, #fd7e14);
+  }
+  .contribution-list li {
+    position: relative;
+    padding-left: 0.5rem;
+  }
+  .contribution-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .highlight-stat {
+    background-color: rgba(255, 193, 7, 0.2);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+  }
+  .project-highlight {
+    border-left: 3px solid #ffc107;
+  }
+  .tools-section .badge {
+    transition: all 0.2s ease;
+  }
+  .tools-section .badge:hover {
+    background-color: #f8f9fa !important;
+    transform: translateY(-2px);
+  }
+</style>
 
 ---
 
