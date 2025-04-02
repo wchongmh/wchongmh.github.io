@@ -458,6 +458,163 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
+<!-- 📰 Media Recognition Section -->
+<div class="media-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h2 class="mb-0"><i class="fas fa-newspaper me-3 text-danger"></i>Media Recognition & Press Features</h2>
+  </div>
+
+  <div class="intro-text mb-4 p-3 p-md-4 rounded-3" style="background-color: rgba(220,53,69,0.05); border-left: 4px solid #dc3545;">
+    <p class="lead mb-0">
+      My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
+    </p>
+  </div>
+
+  <!-- Featured Quote -->
+  <div class="press-quote mb-5 p-4 p-md-5 rounded-4 position-relative" style="background-color: #f8f9fa;">
+    <div class="quote-icon text-danger opacity-10 position-absolute top-0 start-0 mt-3 ms-4">
+      <i class="fas fa-quote-left fa-3x"></i>
+    </div>
+    <div class="position-relative">
+      <blockquote class="mb-3 fs-5 fst-italic text-dark" style="line-height: 1.6;">
+        "Demonstrating exceptional potential in engineering innovation and commitment to STEM education accessibility."
+      </blockquote>
+      <footer class="text-end text-danger fw-bold">— Hong Kong 01</footer>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <h5 class="text-center mb-3 text-muted">Featured in Hong Kong's Leading Publications</h5>
+    <div class="row g-4">
+      <!-- Press Item Template - Repeat for each publication -->
+      <div class="col-md-6 col-lg-4">
+        <div class="press-card h-100 card border-0 shadow-sm overflow-hidden">
+          <div class="press-image-container position-relative">
+            <img class="img-fluid w-100" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="height: 180px; object-fit: cover;">
+            <div class="publication-badge bg-danger text-white px-3 py-1 position-absolute bottom-0 start-0 mb-3 ms-3 rounded-pill">
+              Hong Kong 01
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-2">Redefining STEM Accessibility</h5>
+            <p class="text-muted small mb-3"><i class="far fa-calendar-alt me-1"></i> 2022</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-danger flex-grow-1">
+                <i class="fas fa-file-pdf me-1"></i> Chinese
+              </a>
+              <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-danger flex-grow-1">
+                <i class="fas fa-file-pdf me-1"></i> English
+              </a>
+              <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-danger flex-grow-1">
+                <i class="fas fa-external-link-alt me-1"></i> View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oriental Daily -->
+      <div class="col-md-6 col-lg-4">
+        <div class="press-card h-100 card border-0 shadow-sm overflow-hidden">
+          <div class="press-image-container position-relative">
+            <img class="img-fluid w-100" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Feature" style="height: 180px; object-fit: cover;">
+            <div class="publication-badge bg-danger text-white px-3 py-1 position-absolute bottom-0 start-0 mb-3 ms-3 rounded-pill">
+              Oriental Daily
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-2">Front-Page Engineering Spotlight</h5>
+            <p class="text-muted small mb-3"><i class="far fa-calendar-alt me-1"></i> 2022</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-danger flex-grow-1">
+                <i class="fas fa-file-pdf me-1"></i> Chinese
+              </a>
+              <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-danger flex-grow-1">
+                <i class="fas fa-file-pdf me-1"></i> English
+              </a>
+              <a href="https://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20220720-0720_00176_025/IVE%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90" target="_blank" class="btn btn-sm btn-danger flex-grow-1">
+                <i class="fas fa-external-link-alt me-1"></i> View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ON.CC -->
+      <div class="col-md-6 col-lg-4">
+        <div class="press-card h-100 card border-0 shadow-sm overflow-hidden">
+          <div class="press-image-container position-relative">
+            <img class="img-fluid w-100" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="height: 180px; object-fit: cover;">
+            <div class="publication-badge bg-danger text-white px-3 py-1 position-absolute bottom-0 start-0 mb-3 ms-3 rounded-pill">
+              ON.CC
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-2">Vocational Education Success</h5>
+            <p class="text-muted small mb-3"><i class="far fa-calendar-alt me-1"></i> 2022</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-outline-danger flex-grow-1">
+                <i class="fas fa-file-pdf me-1"></i> Chinese
+              </a>
+              <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-outline-danger flex-grow-1">
+                <i class="fas fa-file-pdf me-1"></i> English
+              </a>
+              <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank" class="btn btn-sm btn-danger flex-grow-1">
+                <i class="fas fa-external-link-alt me-1"></i> View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional publications would follow the same pattern -->
+    </div>
+  </div>
+</div>
+
+<hr class="my-5 border-top border-2 border-danger opacity-25">
+
+<!-- Optional CSS -->
+<style>
+  .media-section {
+    position: relative;
+  }
+  .press-quote {
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  .press-quote:hover {
+    transform: translateY(-3px);
+  }
+  .press-card {
+    transition: all 0.3s ease;
+    border-radius: 0.5rem !important;
+  }
+  .press-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+  }
+  .press-image-container {
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+  .publication-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .btn-outline-danger {
+    transition: all 0.2s ease;
+  }
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white !important;
+  }
+</style>
+
+---
+
 #### 📖 Research Highlights
 <div class="d-flex gap-3 flex-wrap justify-content-center mt-4">
   <div class="flex-grow-1 p-3 border rounded bg-light-hover">
