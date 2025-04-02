@@ -1589,6 +1589,207 @@ Beyond technical expertise, my **leadership and advocacy** within the engineerin
 
 ---
 
+<!-- Sustainability Commitment Section -->
+<div class="sustainability-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h2 class="mb-0">🌱 Sustainability Commitment</h2>
+  </div>
+  
+  <div class="intro-text mb-4">
+    <p class="lead">
+      I am deeply passionate about <strong class="highlight-green">sustainability and smart system integration</strong>. My engineering philosophy centers on creating solutions that harmonize ecological responsibility with technological innovation.
+    </p>
+  </div>
+
+  <!-- Sustainability Pillars -->
+  <div class="pillars-container mb-5">
+    <div class="row g-4">
+      <!-- Passive Design -->
+      <div class="col-md-4">
+        <div class="pillar-card passive-design h-100 p-4 rounded-4 text-center">
+          <div class="pillar-icon mb-3">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3 class="pillar-title mb-3">Passive Design First</h3>
+          <p class="pillar-description">Natural ventilation & daylighting strategies that reduce energy demand</p>
+          <div class="pillar-features mt-3">
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Bioclimatic Design</span>
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Thermal Mass</span>
+            <span class="badge rounded-pill bg-white text-dark mb-1">Solar Shading</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Active Efficiency -->
+      <div class="col-md-4">
+        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 text-center">
+          <div class="pillar-icon mb-3">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3 class="pillar-title mb-3">Active Efficiency</h3>
+          <p class="pillar-description">IoT-driven energy optimization and smart building systems</p>
+          <div class="pillar-features mt-3">
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Predictive Control</span>
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Real-time Monitoring</span>
+            <span class="badge rounded-pill bg-white text-dark mb-1">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Renewable Integration -->
+      <div class="col-md-4">
+        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 text-center">
+          <div class="pillar-icon mb-3">
+            <i class="fas fa-sun"></i>
+          </div>
+          <h3 class="pillar-title mb-3">Renewable Integration</h3>
+          <p class="pillar-description">Smart grid solutions and photovoltaic system optimization</p>
+          <div class="pillar-features mt-3">
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Solar PV</span>
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1">Energy Storage</span>
+            <span class="badge rounded-pill bg-white text-dark mb-1">Microgrids</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Neurodiversity Card -->
+  <div class="neurodiversity-card card border-0 mb-4">
+    <div class="card-body p-4 rounded-3">
+      <div class="d-flex align-items-center">
+        <div class="neuro-icon me-3">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div>
+          <h4 class="card-title mb-1">Neurodiversity Advantage</h4>
+          <p class="card-text mb-0">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Closing Statement -->
+  <div class="closing-statement mt-4 p-4 rounded-3">
+    <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
+    
+    <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+  </div>
+</div>
+
+<style>
+  /* Sustainability Section Styles */
+  .sustainability-section h2 {
+    font-weight: 700;
+    color: #28a745;
+  }
+  
+  .highlight-green {
+    background-color: rgba(40, 167, 69, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Pillar Cards */
+  .pillar-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pillar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .passive-design {
+    background: linear-gradient(135deg, #f8f9fa, #d1e7dd);
+    color: #0f5132;
+  }
+  
+  .active-efficiency {
+    background: linear-gradient(135deg, #f8f9fa, #fff3cd);
+    color: #664d03;
+  }
+  
+  .renewable-integration {
+    background: linear-gradient(135deg, #f8f9fa, #f5c2c7);
+    color: #842029;
+  }
+  
+  .pillar-icon {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .passive-design .pillar-icon {
+    color: #28a745;
+  }
+  
+  .active-efficiency .pillar-icon {
+    color: #ffc107;
+  }
+  
+  .renewable-integration .pillar-icon {
+    color: #dc3545;
+  }
+  
+  .pillar-title {
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .pillar-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: currentColor;
+    border-radius: 3px;
+  }
+  
+  /* Neurodiversity Card */
+  .neurodiversity-card {
+    background: linear-gradient(135deg, #e2e3e5, #cfe2ff);
+    border-left: 4px solid #0d6efd !important;
+  }
+  
+  .neuro-icon {
+    font-size: 2rem;
+    color: #0d6efd;
+  }
+  
+  /* Closing Statement */
+  .closing-statement {
+    background-color: #f8f9fa;
+    border-left: 4px solid #28a745;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .pillar-card {
+      margin-bottom: 1.5rem;
+    }
+  }
+</style>
+
+---
+
 ## 🌱 Sustainability Commitment
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
