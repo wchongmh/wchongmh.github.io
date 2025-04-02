@@ -304,184 +304,267 @@ latest_posts:
 ---
 
 <div class="about-container">
-  <!-- Education Card with Badges (Previous Section) -->
-  <!-- ... (previous education card code remains exactly the same) ... -->
+  <!-- Hero Section -->
+  <section class="hero-section mb-5">
+    <div class="hero-content">
+      <h1 class="hero-title">Building the Future, <span class="text-gradient">Sustainably</span></h1>
+      <div class="hero-divider"></div>
+    </div>
+  </section>
 
-  <!-- Technical Expertise Section -->
-  <div class="expertise-section mb-4">
-    <h3 class="section-title mb-4">
-      <i class="fas fa-cogs me-2"></i>
-      <span class="underline-title">Technical Expertise</span>
-    </h3>
-    
-    <div class="row g-4">
-      <!-- HVAC Systems -->
-      <div class="col-md-6 col-lg-4">
-        <div class="skill-card p-3 h-100 rounded">
-          <div class="d-flex align-items-center mb-2">
-            <div class="skill-badge bg-primary text-white me-3">
-              <i class="fas fa-fan"></i>
-            </div>
-            <h5 class="mb-0">HVAC Systems</h5>
-          </div>
-          <p class="text-muted mb-2">Climate-optimized designs for energy efficiency</p>
-          <div class="skill-tags mt-2">
-            <span class="skill-tag">Energy Modeling</span>
-            <span class="skill-tag">Thermal Comfort</span>
-            <span class="skill-tag">Ventilation</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Acoustic Engineering -->
-      <div class="col-md-6 col-lg-4">
-        <div class="skill-card p-3 h-100 rounded">
-          <div class="d-flex align-items-center mb-2">
-            <div class="skill-badge bg-info text-white me-3">
-              <i class="fas fa-volume-up"></i>
-            </div>
-            <h5 class="mb-0">Acoustic Engineering</h5>
-          </div>
-          <p class="text-muted mb-2">Noise control and soundscape optimization</p>
-          <div class="skill-tags mt-2">
-            <span class="skill-tag">STC Ratings</span>
-            <span class="skill-tag">Vibration Control</span>
-            <span class="skill-tag">Room Acoustics</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Lighting Design -->
-      <div class="col-md-6 col-lg-4">
-        <div class="skill-card p-3 h-100 rounded">
-          <div class="d-flex align-items-center mb-2">
-            <div class="skill-badge bg-warning text-white me-3">
-              <i class="fas fa-lightbulb"></i>
-            </div>
-            <h5 class="mb-0">Lighting Design</h5>
-          </div>
-          <p class="text-muted mb-2">Human-centric illumination solutions</p>
-          <div class="skill-tags mt-2">
-            <span class="skill-tag">Daylighting</span>
-            <span class="skill-tag">LED Technology</span>
-            <span class="skill-tag">Circadian Lighting</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Fire Safety -->
-      <div class="col-md-6 col-lg-4">
-        <div class="skill-card p-3 h-100 rounded">
-          <div class="d-flex align-items-center mb-2">
-            <div class="skill-badge bg-danger text-white me-3">
-              <i class="fas fa-fire-extinguisher"></i>
-            </div>
-            <h5 class="mb-0">Fire Safety</h5>
-          </div>
-          <p class="text-muted mb-2">Code-compliant protection systems</p>
-          <div class="skill-tags mt-2">
-            <span class="skill-tag">Sprinkler Systems</span>
-            <span class="skill-tag">Egress Planning</span>
-            <span class="skill-tag">Smoke Control</span>
-          </div>
-        </div>
-      </div>
+  <!-- Main Content -->
+  <div class="about-content">
+    <p class="lead intro-text">
+      As a <strong class="highlight">Building Services Engineer</strong>, I bridge sustainability with smart technologies to create efficient, future-ready infrastructure.
+    </p>
 
-      <!-- Climate-responsive Design -->
-      <div class="col-md-6 col-lg-4">
-        <div class="skill-card p-3 h-100 rounded">
-          <div class="d-flex align-items-center mb-2">
-            <div class="skill-badge bg-success text-white me-3">
-              <i class="fas fa-cloud-sun"></i>
-            </div>
-            <h5 class="mb-0">Climate-responsive Design</h5>
-          </div>
-          <p class="text-muted mb-2">Adaptive solutions for environmental conditions</p>
-          <div class="skill-tags mt-2">
-            <span class="skill-tag">Passive Design</span>
-            <span class="skill-tag">Thermal Analysis</span>
-            <span class="skill-tag">Bioclimatic</span>
+    <!-- Education Card -->
+    <div class="education-card card mb-4 border-0 shadow-sm">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-graduation-cap fa-3x me-3 text-primary"></i>
+          <div>
+            <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
+            <p class="mb-0 text-muted">Glasgow Caledonian University</p>
           </div>
         </div>
-      </div>
-      
-      <!-- Pipe Network Optimization -->
-      <div class="col-md-6 col-lg-4">
-        <div class="skill-card p-3 h-100 rounded">
-          <div class="d-flex align-items-center mb-2">
-            <div class="skill-badge bg-primary text-white me-3">
-              <i class="fas fa-water"></i>
+        
+        <div class="achievements mt-4">
+          <!-- First Place Badge -->
+          <div class="achievement-highlight p-0 mb-3 overflow-hidden rounded">
+            <div class="d-flex align-items-center">
+              <div class="badge-ribbon bg-success text-white d-flex align-items-center justify-content-center">
+                <i class="fas fa-trophy fa-lg"></i>
+              </div>
+              <div class="p-3 flex-grow-1">
+                <h5 class="mb-1">First Place in Third-Year Cohort</h5>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                  <span class="badge-sm-pill bg-success-light text-success">
+                    <i class="fas fa-star me-1"></i> Academic Excellence
+                  </span>
+                  <span class="badge-sm-pill bg-success-light text-success">
+                    <i class="fas fa-chart-line me-1"></i> Top Performance
+                  </span>
+                  <span class="badge-sm-pill bg-success-light text-success">
+                    <i class="fas fa-medal me-1"></i> Distinguished Achievement
+                  </span>
+                </div>
+                <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" 
+                   target="_blank" 
+                   class="btn btn-sm btn-outline-success mt-2">
+                  <i class="fas fa-external-link-alt me-1"></i>View Official Announcement
+                </a>
+              </div>
             </div>
-            <h5 class="mb-0">Pipe Network Optimization</h5>
           </div>
-          <p class="text-muted mb-2">Efficient fluid distribution systems</p>
-          <div class="skill-tags mt-2">
-            <span class="skill-tag">Hydraulic Analysis</span>
-            <span class="skill-tag">Pump Selection</span>
-            <span class="skill-tag">Water Conservation</span>
+
+          <!-- Scholarship Badge -->
+          <div class="achievement-highlight p-0 overflow-hidden rounded">
+            <div class="d-flex align-items-center">
+              <div class="badge-ribbon bg-info text-white d-flex align-items-center justify-content-center">
+                <i class="fas fa-medal fa-lg"></i>
+              </div>
+              <div class="p-3 flex-grow-1">
+                <h5 class="mb-1">Fully Funded Alistair Harvey Scholarship</h5>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                  <span class="badge-sm-pill bg-info-light text-info">
+                    <i class="fas fa-award me-1"></i> Prestigious Honor
+                  </span>
+                  <span class="badge-sm-pill bg-info-light text-info">
+                    <i class="fas fa-graduation-cap me-1"></i> Full Sponsorship
+                  </span>
+                  <span class="badge-sm-pill bg-info-light text-info">
+                    <i class="fas fa-globe-europe me-1"></i> International Recognition
+                  </span>
+                </div>
+                <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" 
+                   target="_blank" 
+                   class="btn btn-sm btn-outline-info mt-2">
+                  <i class="fas fa-external-link-alt me-1"></i>View Scholarship Details
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Technology Integration Section -->
-  <div class="tech-section card border-0 bg-light mb-4">
-    <div class="card-body">
+    <!-- Technical Expertise Section -->
+    <div class="expertise-section mb-4">
       <h3 class="section-title mb-4">
-        <i class="fas fa-microchip me-2"></i>
-        <span class="underline-title">Technology Integration</span>
+        <i class="fas fa-cogs me-2"></i>
+        <span class="underline-title">Technical Expertise</span>
       </h3>
       
-      <div class="tech-grid">
-        <!-- BIM -->
-        <div class="tech-card bg-primary-gradient">
-          <div class="tech-icon">
-            <i class="fas fa-cube"></i>
+      <div class="row g-4">
+        <!-- HVAC Systems -->
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <div class="skill-badge bg-primary text-white me-3">
+                <i class="fas fa-fan"></i>
+              </div>
+              <h5 class="mb-0">HVAC Systems</h5>
+            </div>
+            <p class="text-muted mb-2">Climate-optimized designs for energy efficiency</p>
+            <div class="skill-tags mt-2">
+              <span class="skill-tag">Energy Modeling</span>
+              <span class="skill-tag">Thermal Comfort</span>
+              <span class="skill-tag">Ventilation</span>
+            </div>
           </div>
-          <h5>BIM Modeling</h5>
-          <p class="tech-desc">3D modeling with clash detection and construction sequencing</p>
-          <div class="tech-badge">Revit | Navisworks</div>
         </div>
         
-        <!-- IoT -->
-        <div class="tech-card bg-info-gradient">
-          <div class="tech-icon">
-            <i class="fas fa-network-wired"></i>
+        <!-- Acoustic Engineering -->
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <div class="skill-badge bg-info text-white me-3">
+                <i class="fas fa-volume-up"></i>
+              </div>
+              <h5 class="mb-0">Acoustic Engineering</h5>
+            </div>
+            <p class="text-muted mb-2">Noise control and soundscape optimization</p>
+            <div class="skill-tags mt-2">
+              <span class="skill-tag">STC Ratings</span>
+              <span class="skill-tag">Vibration Control</span>
+              <span class="skill-tag">Room Acoustics</span>
+            </div>
           </div>
-          <h5>IoT Systems</h5>
-          <p class="tech-desc">Smart building sensors and real-time monitoring</p>
-          <div class="tech-badge">BACnet | LoRaWAN</div>
         </div>
         
-        <!-- AI -->
-        <div class="tech-card bg-dark-gradient">
-          <div class="tech-icon">
-            <i class="fas fa-robot"></i>
+        <!-- Lighting Design -->
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <div class="skill-badge bg-warning text-white me-3">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h5 class="mb-0">Lighting Design</h5>
+            </div>
+            <p class="text-muted mb-2">Human-centric illumination solutions</p>
+            <div class="skill-tags mt-2">
+              <span class="skill-tag">Daylighting</span>
+              <span class="skill-tag">LED Technology</span>
+              <span class="skill-tag">Circadian Lighting</span>
+            </div>
           </div>
-          <h5>AI Solutions</h5>
-          <p class="tech-desc">Predictive maintenance and energy optimization</p>
-          <div class="tech-badge">Machine Learning</div>
         </div>
         
-        <!-- Data Analytics -->
-        <div class="tech-card bg-warning-gradient">
-          <div class="tech-icon">
-            <i class="fas fa-chart-line"></i>
+        <!-- Fire Safety -->
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <div class="skill-badge bg-danger text-white me-3">
+                <i class="fas fa-fire-extinguisher"></i>
+              </div>
+              <h5 class="mb-0">Fire Safety</h5>
+            </div>
+            <p class="text-muted mb-2">Code-compliant protection systems</p>
+            <div class="skill-tags mt-2">
+              <span class="skill-tag">Sprinkler Systems</span>
+              <span class="skill-tag">Egress Planning</span>
+              <span class="skill-tag">Smoke Control</span>
+            </div>
           </div>
-          <h5>Data Analytics</h5>
-          <p class="tech-desc">Performance benchmarking and KPI tracking</p>
-          <div class="tech-badge">Power BI | Python</div>
+        </div>
+
+        <!-- Climate-responsive Design -->
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <div class="skill-badge bg-success text-white me-3">
+                <i class="fas fa-cloud-sun"></i>
+              </div>
+              <h5 class="mb-0">Climate-responsive Design</h5>
+            </div>
+            <p class="text-muted mb-2">Adaptive solutions for environmental conditions</p>
+            <div class="skill-tags mt-2">
+              <span class="skill-tag">Passive Design</span>
+              <span class="skill-tag">Thermal Analysis</span>
+              <span class="skill-tag">Bioclimatic</span>
+            </div>
+          </div>
         </div>
         
-        <!-- Sustainable Design -->
-        <div class="tech-card bg-success-gradient">
-          <div class="tech-icon">
-            <i class="fas fa-leaf"></i>
+        <!-- Pipe Network Optimization -->
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card p-3 h-100 rounded">
+            <div class="d-flex align-items-center mb-2">
+              <div class="skill-badge bg-primary text-white me-3">
+                <i class="fas fa-water"></i>
+              </div>
+              <h5 class="mb-0">Pipe Network Optimization</h5>
+            </div>
+            <p class="text-muted mb-2">Efficient fluid distribution systems</p>
+            <div class="skill-tags mt-2">
+              <span class="skill-tag">Hydraulic Analysis</span>
+              <span class="skill-tag">Pump Selection</span>
+              <span class="skill-tag">Water Conservation</span>
+            </div>
           </div>
-          <h5>Sustainable Design</h5>
-          <p class="tech-desc">LEED and BEAM Plus compliant solutions</p>
-          <div class="tech-badge">Lifecycle Analysis</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technology Integration Section -->
+    <div class="tech-section card border-0 bg-light mb-4">
+      <div class="card-body">
+        <h3 class="section-title mb-4">
+          <i class="fas fa-microchip me-2"></i>
+          <span class="underline-title">Technology Integration</span>
+        </h3>
+        
+        <div class="tech-grid">
+          <!-- BIM -->
+          <div class="tech-card bg-primary-gradient">
+            <div class="tech-icon">
+              <i class="fas fa-cube"></i>
+            </div>
+            <h5>BIM Modeling</h5>
+            <p class="tech-desc">3D modeling with clash detection and construction sequencing</p>
+            <div class="tech-badge">Revit | Navisworks</div>
+          </div>
+          
+          <!-- IoT -->
+          <div class="tech-card bg-info-gradient">
+            <div class="tech-icon">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h5>IoT Systems</h5>
+            <p class="tech-desc">Smart building sensors and real-time monitoring</p>
+            <div class="tech-badge">BACnet | LoRaWAN</div>
+          </div>
+          
+          <!-- AI Solutions (Updated Color) -->
+          <div class="tech-card bg-purple-gradient">
+            <div class="tech-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h5>AI Solutions</h5>
+            <p class="tech-desc">Predictive maintenance and energy optimization</p>
+            <div class="tech-badge">Machine Learning</div>
+          </div>
+          
+          <!-- Data Analytics -->
+          <div class="tech-card bg-warning-gradient">
+            <div class="tech-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h5>Data Analytics</h5>
+            <p class="tech-desc">Performance benchmarking and KPI tracking</p>
+            <div class="tech-badge">Power BI | Python</div>
+          </div>
+          
+          <!-- Sustainable Design -->
+          <div class="tech-card bg-success-gradient">
+            <div class="tech-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h5>Sustainable Design</h5>
+            <p class="tech-desc">LEED and BEAM Plus compliant solutions</p>
+            <div class="tech-badge">Lifecycle Analysis</div>
+          </div>
         </div>
       </div>
     </div>
@@ -489,7 +572,77 @@ latest_posts:
 </div>
 
 <style>
-  /* Technical Expertise Styles */
+  /* Base Styles */
+  .hero-title {
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #007bff, #00b894);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .hero-divider {
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(90deg, #007bff, #00b894);
+    margin: 1.5rem 0;
+    border-radius: 3px;
+    opacity: 0.8;
+  }
+  
+  .highlight {
+    background-color: rgba(0, 184, 148, 0.15);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Achievement Badges */
+  .badge-ribbon {
+    width: 60px;
+    height: 100%;
+    min-height: 100px;
+    position: relative;
+    flex-shrink: 0;
+    clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%);
+  }
+  
+  .badge-ribbon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+    border-color: transparent rgba(0,0,0,0.1) transparent transparent;
+  }
+  
+  .badge-sm-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .bg-success-light {
+    background-color: rgba(40, 167, 69, 0.1);
+  }
+  
+  .bg-info-light {
+    background-color: rgba(23, 162, 184, 0.1);
+  }
+  
+  /* Technical Expertise */
   .skill-badge {
     width: 36px;
     height: 36px;
@@ -525,7 +678,7 @@ latest_posts:
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   }
   
-  /* Technology Integration Styles */
+  /* Technology Integration */
   .tech-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -577,8 +730,8 @@ latest_posts:
     background: linear-gradient(135deg, #17a2b8, #39b9d1);
   }
   
-  .bg-dark-gradient {
-    background: linear-gradient(135deg, #343a40, #5a6268);
+  .bg-purple-gradient {
+    background: linear-gradient(135deg, #6f42c1, #8e63e2);
   }
   
   .bg-warning-gradient {
@@ -599,11 +752,21 @@ latest_posts:
     .tech-grid {
       grid-template-columns: 1fr 1fr;
     }
+    
+    .badge-ribbon {
+      width: 100%;
+      height: 50px;
+      clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    }
   }
   
   @media (max-width: 576px) {
     .tech-grid {
       grid-template-columns: 1fr;
+    }
+    
+    .hero-title {
+      font-size: 2rem;
     }
   }
 </style>
@@ -1170,7 +1333,11 @@ latest_posts:
   }
 </style>
 
-## 🔧 Technical Skills
+<!-- 🔧 Technical Skills Section -->
+<div class="technical-skills-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0">🔧 Technical Skills</h3>
+  </div>
 
 <div class="skills-container mt-4">
   <div class="row g-4">
@@ -1470,49 +1637,6 @@ latest_posts:
     }
   }
 </style>
-
----
-
-## 🔧 Technical Skills
-
-<div class="row g-4 mt-2">
-  <div class="col-md-4">
-    <div class="p-3 border rounded h-100">
-      <h5><i class="fas fa-laptop-code me-2 text-primary"></i>Software & Design</h5>
-      <ul class="list-unstyled">
-        <li><i class="fas fa-check-circle text-success me-2"></i>AutoCAD</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Revit (BIM)</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Dialux</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Hevacomp</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>IES VE (ModelIT)</li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="col-md-4">
-    <div class="p-3 border rounded h-100">
-      <h5><i class="fas fa-building me-2 text-info"></i>Building Systems</h5>
-      <ul class="list-unstyled">
-        <li><i class="fas fa-check-circle text-success me-2"></i>HVAC Design</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Fire Safety Systems</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Pipe & Drainage Design</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Building Performance Modeling</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Energy Assessment</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="p-3 border rounded h-100">
-      <h5><i class="fas fa-robot me-2 text-danger"></i>Automation</h5>
-      <ul class="list-unstyled">
-        <li><i class="fas fa-check-circle text-success me-2"></i>Raspberry Pi/Arduino</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>Smart Home Tech</li>
-        <li><i class="fas fa-check-circle text-success me-2"></i>TensorFlow/OpenCV</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
 ---
 
