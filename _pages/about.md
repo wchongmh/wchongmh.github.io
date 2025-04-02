@@ -31,7 +31,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-  
   <!-- 🏢 Professional Profile Section -->
 <div class="profile-section mb-5 py-4 px-3 px-md-4 rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0d6efd; margin-top: 2rem;">
   <div class="section-header d-flex align-items-center mb-4">
@@ -459,6 +458,81 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     </div>
   </div>
 </div>
+
+---
+
+<!-- 📖 Research Highlights Section -->
+<div class="research-highlights mt-4 mb-5">
+  <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
+    <i class="fas fa-book-open me-2"></i>Research Highlights
+  </h2>
+  
+  <div class="row g-4 justify-content-center">
+    <!-- Thesis Card 1 -->
+    <div class="col-md-6 col-lg-5">
+      <div class="card h-100 shadow-sm border-0 hover-effect">
+        <div class="card-body p-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="icon-circle bg-info-light">
+              <i class="fas fa-water text-info fa-lg"></i>
+            </div>
+            <h3 class="h5 mb-0 ms-3" style="color: #2980b9;">Higher Diploma Thesis</h3>
+          </div>
+          <p class="card-text" style="color: #34495e;">
+            Optimization of Drainage Systems in High-Density Residential Buildings
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Thesis Card 2 -->
+    <div class="col-md-6 col-lg-5">
+      <div class="card h-100 shadow-sm border-0 hover-effect">
+        <div class="card-body p-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="icon-circle bg-warning-light">
+              <i class="fas fa-solar-panel text-warning fa-lg"></i>
+            </div>
+            <h3 class="h5 mb-0 ms-3" style="color: #f39c12;">Undergraduate Thesis</h3>
+          </div>
+          <p class="card-text" style="color: #34495e;">
+            Rooftop Renewable Energy Applications in University Campuses
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <p class="text-center mt-4 mb-0" style="color: #7f8c8d; font-style: italic;">
+    These research projects reflect my <strong style="color: #27ae60;">commitment to sustainability and efficiency</strong> in the built environment.
+  </p>
+</div>
+
+<style>
+  /* Custom CSS for enhanced styling */
+  .hover-effect {
+    transition: all 0.3s ease;
+    border-radius: 8px !important;
+  }
+  .hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  }
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-info-light {
+    background-color: rgba(52, 152, 219, 0.1);
+  }
+  .bg-warning-light {
+    background-color: rgba(241, 196, 15, 0.1);
+  }
+</style>
 
 ---
 
