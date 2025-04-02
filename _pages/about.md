@@ -301,6 +301,159 @@ latest_posts:
   }
 </style>
 
+---
+
+<div class="about-container">
+  <!-- Education Card -->
+  <div class="education-card card mb-4 border-0 shadow-sm">
+    <div class="card-body">
+      <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-graduation-cap fa-3x me-3 text-primary"></i>
+        <div>
+          <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
+          <p class="mb-0 text-muted">Glasgow Caledonian University</p>
+        </div>
+      </div>
+      
+      <div class="achievements mt-4">
+        <!-- First Place Badge -->
+        <div class="achievement-highlight p-0 mb-3 overflow-hidden rounded">
+          <div class="d-flex align-items-center">
+            <div class="badge-ribbon bg-success text-white d-flex align-items-center justify-content-center">
+              <i class="fas fa-trophy fa-lg"></i>
+            </div>
+            <div class="p-3 flex-grow-1">
+              <h5 class="mb-1">First Place in Third-Year Cohort</h5>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <span class="badge-sm-pill bg-success-light text-success">
+                  <i class="fas fa-star me-1"></i> Academic Excellence
+                </span>
+                <span class="badge-sm-pill bg-success-light text-success">
+                  <i class="fas fa-chart-line me-1"></i> Top Performance
+                </span>
+                <span class="badge-sm-pill bg-success-light text-success">
+                  <i class="fas fa-medal me-1"></i> Distinguished Achievement
+                </span>
+              </div>
+              <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" 
+                 target="_blank" 
+                 class="btn btn-sm btn-outline-success mt-2">
+                <i class="fas fa-external-link-alt me-1"></i>View Official Announcement
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scholarship Badge -->
+        <div class="achievement-highlight p-0 overflow-hidden rounded">
+          <div class="d-flex align-items-center">
+            <div class="badge-ribbon bg-info text-white d-flex align-items-center justify-content-center">
+              <i class="fas fa-medal fa-lg"></i>
+            </div>
+            <div class="p-3 flex-grow-1">
+              <h5 class="mb-1">Fully Funded Alistair Harvey Scholarship</h5>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <span class="badge-sm-pill bg-info-light text-info">
+                  <i class="fas fa-award me-1"></i> Prestigious Honor
+                </span>
+                <span class="badge-sm-pill bg-info-light text-info">
+                  <i class="fas fa-graduation-cap me-1"></i> Full Sponsorship
+                </span>
+                <span class="badge-sm-pill bg-info-light text-info">
+                  <i class="fas fa-globe-europe me-1"></i> International Recognition
+                </span>
+              </div>
+              <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" 
+                 target="_blank" 
+                 class="btn btn-sm btn-outline-info mt-2">
+                <i class="fas fa-external-link-alt me-1"></i>View Scholarship Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Badge Ribbon Design */
+  .badge-ribbon {
+    width: 60px;
+    height: 100%;
+    min-height: 100px;
+    position: relative;
+    flex-shrink: 0;
+    clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%);
+  }
+
+  .badge-ribbon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+    border-color: transparent rgba(0,0,0,0.1) transparent transparent;
+  }
+
+  /* Small Pill Badges */
+  .badge-sm-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .bg-success-light {
+    background-color: rgba(40, 167, 69, 0.1);
+  }
+
+  .bg-info-light {
+    background-color: rgba(23, 162, 184, 0.1);
+  }
+
+  /* Achievement Highlight Cards */
+  .achievement-highlight {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+
+  .achievement-highlight:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  /* Buttons */
+  .btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 576px) {
+    .d-flex {
+      flex-direction: column;
+    }
+    .badge-ribbon {
+      width: 100%;
+      height: 50px;
+      clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    }
+    .badge-ribbon i {
+      transform: translateY(5px);
+    }
+  }
+</style>
+
+---
+
 <!-- Professional Journey Header -->
 <div class="professional-journey-header mb-5">
   <div class="d-flex align-items-center">
