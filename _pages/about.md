@@ -32,7 +32,8 @@ latest_posts:
 ---
 
 <!-- 🏢 Professional Profile Section -->
-<div class="profile-section mb-5 py-4 px-3 px-md-4 rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0d6efd;">
+<!-- Add margin to the top of the profile section to prevent overlap -->
+<div class="profile-section mb-5 py-4 px-3 px-md-4 rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0d6efd; margin-top: 2rem;">
   <div class="section-header d-flex align-items-center mb-4">
     <h2 class="mb-0"><i class="fas fa-building me-3 text-primary"></i>Building the Future, <span class="text-primary">Sustainably</span></h2>
   </div>
