@@ -137,6 +137,123 @@ I am always eager to collaborate on **innovative projects** that push the bounda
 
 ---
 
+<!-- Professional Journey Header -->
+<div class="professional-journey-header mb-5">
+  <div class="d-flex align-items-center">
+    <div class="me-3 display-4 text-primary">
+      <i class="fas fa-university"></i>
+    </div>
+    <div>
+      <h2 class="mb-1">Professional Journey</h2>
+      <p class="text-muted mb-0">My path through education and career milestones</p>
+    </div>
+  </div>
+</div>
+
+<!-- 🎓 Academic Excellence Section -->
+<div class="academic-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0"><i class="fas fa-graduation-cap me-3 text-primary"></i>Academic Excellence</h3>
+  </div>
+  
+  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded">
+    <p class="mb-0 lead">
+      Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the 
+      <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple 
+      prestigious scholarships and awards that recognize academic achievement and leadership.
+    </p>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-lg-8 mx-auto">
+      <div class="card award-card h-100 shadow-sm border-0">
+        <div class="card-header bg-primary text-white rounded-top">
+          <h4 class="mb-0"><i class="fas fa-trophy me-2"></i>Awards & Honors</h4>
+        </div>
+        <div class="card-body p-0">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>GCU SCEBE Prize Winner</strong> - Ranked #1 in my third-year cohort
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>Alistair Harvey Foundation Scholarship</strong> - Full Sponsorship
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/hkie-outstanding.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>HKIE Outstanding Engineering Student</strong>
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/hkie-bsd-award.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>HKIE BSD Student Award</strong>
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/endeavour-merit.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>Endeavour Merit Award</strong>
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/hksar-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>HKSAR Government Scholarship</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer bg-light bg-opacity-10 rounded-bottom">
+          <small class="text-muted">Click any award to view documentation</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<!-- Optional CSS to add to your stylesheet -->
+<style>
+  .professional-journey-header h2 {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+  .award-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .award-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.1) !important;
+  }
+  .award-icon {
+    font-size: 1.25rem;
+    min-width: 30px;
+    text-align: center;
+  }
+  .stretched-link::after {
+    z-index: 1;
+  }
+  .list-group-item {
+    transition: background-color 0.2s ease;
+  }
+  .list-group-item:hover {
+    background-color: rgba(13,110,253,0.05);
+  }
+  .intro-text {
+    border-left: 3px solid var(--bs-primary);
+  }
+</style>
+
+---
+
 #### 📰 Media Recognition
 My achievements have been featured in **Hong Kong newspapers**, recognizing my academic excellence and the prestigious **Alistair Harvey Foundation Scholarship**.  
 <small>*Featured in Hong Kong’s leading publications:*</small>  
