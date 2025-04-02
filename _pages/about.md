@@ -179,17 +179,17 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Redefining STEM Accessibility</h6>
+        <h6 class="mb-1"><strong>Redefining STEM Accessibility</strong></h6>
         <p class="text-muted small mb-2"><em>Hong Kong 01</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-file-pdf me-1"></i>Chinese
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
           </a>
           <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-file-pdf me-1"></i>English
+            <i class="fas fa-file-pdf me-1"></i> English PDF
           </a>
           <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-external-link-alt me-1"></i>Website
+            <i class="fas fa-external-link-alt me-1"></i> Website
           </a>
         </div>
       </div>
@@ -201,17 +201,17 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Front-Page Engineering Spotlight</h6>
+        <h6 class="mb-1"><strong>Front-Page Engineering Spotlight</strong></h6>
         <p class="text-muted small mb-2"><em>Oriental Daily (Website)</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-file-pdf me-1"></i>Chinese
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
           </a>
           <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-file-pdf me-1"></i>English
+            <i class="fas fa-file-pdf me-1"></i> English PDF
           </a>
            <a href="https://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20220720-0720_00176_025/IVE%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-external-link-alt me-1"></i>Website
+            <i class="fas fa-external-link-alt me-1"></i> Website
           </a>
         </div>
       </div>
@@ -223,17 +223,17 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/ONCC.png" alt="ON.CC Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Vocational Education Success</h6>
+        <h6 class="mb-1"><strong>Vocational Education Success</strong></h6>
         <p class="text-muted small mb-2"><em>ON.CC</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-file-pdf me-1"></i>Chinese
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
           </a>
           <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-file-pdf me-1"></i>English
+            <i class="fas fa-file-pdf me-1"></i> English PDF
           </a>
           <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-external-link-alt me-1"></i>Website
+            <i class="fas fa-external-link-alt me-1"></i> Website
           </a>
         </div>
       </div>
@@ -245,17 +245,17 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/SKY_POST.png" alt="Sky Post Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Smart Energy Systems</h6>
+        <h6 class="mb-1"><strong>Smart Energy Systems</strong></h6>
         <p class="text-muted small mb-2"><em>Sky Post</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/SKY_POST-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-file-pdf me-1"></i>Chinese
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
           </a>
           <a href="/assets/pdf/press/SKY_POST-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-file-pdf me-1"></i>English
+            <i class="fas fa-file-pdf me-1"></i> English PDF
           </a>
            <a href="https://skypost.hk/article/3306096/DSE2022-IVE%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%95%A2%E6%A5%AD%E7%94%9F%E7%8D%B2%E7%8D%8E%E5%AD%B8%E9%87%91-%E5%B0%87%E8%B5%B4%E8%8B%B1%E5%8D%87%E5%AD%B8%E8%BF%BD%E9%80%90%E5%A4%A2%E6%83%B3" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-external-link-alt me-1"></i>Website
+            <i class="fas fa-external-link-alt me-1"></i> Website
           </a>
         </div>
       </div>
@@ -267,17 +267,17 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/LINE_TODAY.png" alt="Line Today Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Career Pathway Advice</h6>
+        <h6 class="mb-1"><strong>Career Pathway Advice</strong></h6>
         <p class="text-muted small mb-2"><em>Line Today</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/LINE_TODAY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-file-pdf me-1"></i>Chinese
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
           </a>
           <a href="/assets/pdf/press/LINE_TODAY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-file-pdf me-1"></i>English
+            <i class="fas fa-file-pdf me-1"></i> English PDF
           </a>
           <a href="https://today.line.me/hk/v2/article/yzLgJ2o" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-external-link-alt me-1"></i>Website
+            <i class="fas fa-external-link-alt me-1"></i> Website
           </a>
         </div>
       </div>
@@ -289,17 +289,17 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/YAHOO_NEWS.png" alt="Yahoo News Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Technical Expertise Highlight</h6>
+        <h6 class="mb-1"><strong>Technical Expertise Highlight</strong></h6>
         <p class="text-muted small mb-2"><em>Yahoo News</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/pdf/press/YAHOO_NEWS-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-file-pdf me-1"></i>Chinese
+            <i class="fas fa-file-pdf me-1"></i> Chinese PDF
           </a>
           <a href="/assets/pdf/press/YAHOO_NEWS-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-file-pdf me-1"></i>English
+            <i class="fas fa-file-pdf me-1"></i> English PDF
           </a>
           <a href="https://hk.news.yahoo.com/ive%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B-%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90-214500713.html" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-external-link-alt me-1"></i>Website
+            <i class="fas fa-external-link-alt me-1"></i> Website
           </a>
         </div>
       </div>
@@ -311,14 +311,14 @@ I am always eager to collaborate on **innovative projects** that push the bounda
     <div class="text-center">
       <img class="img-fluid rounded z-depth-1" src="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" alt="Print Edition Feature">
       <div class="mt-2">
-        <h6 class="mb-1">Print Edition Feature (Newspaper Clipping)</h6>
+        <h6 class="mb-1"><strong>Print Edition Feature (Newspaper Clipping)</strong></h6>
         <p class="text-muted small mb-2"><em>Oriental Daily (Print)</em> | 2022</p>
         <div class="d-flex flex-wrap gap-2 justify-content-center">
           <a href="/assets/img/press/NEWSPAPER_CLIPPING-CHN.jpg" target="_blank" class="btn btn-sm btn-primary">
-            <i class="fas fa-image me-1"></i>Chinese Scan
+            <i class="fas fa-image me-1"></i> Chinese Scan
           </a>
           <a href="/assets/img/press/NEWSPAPER_CLIPPING-ENG.jpg" target="_blank" class="btn btn-sm btn-success">
-            <i class="fas fa-image me-1"></i>English Scan
+            <i class="fas fa-image me-1"></i> English Scan
           </a>
         </div>
       </div>
