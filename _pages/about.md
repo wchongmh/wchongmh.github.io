@@ -525,19 +525,19 @@ These research projects reflect my **commitment to sustainability and efficiency
         </li>
       </ul>
 
-    <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+    <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
             <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
           </span>
-          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
             <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
           </span>
-          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
             <i class="fas fa-book me-2 text-primary"></i>BEAM Plus
           </span>
-          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
             <i class="fas fa-fire-extinguisher me-2 text-primary"></i>Fire Safety Code
           </span>
-          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+          <span class="badge bg-warning border py-2 px-3 rounded-pill d-flex align-items-center">
             <i class="fas fa-tint me-2 text-primary"></i>Plumbing Standards
           </span>
         </div>
