@@ -438,8 +438,132 @@ My achievements have been featured in **Hong Kong newspapers**, recognizing my a
 
 These research projects reflect my **commitment to sustainability and efficiency** in the built environment.  
 
----  
+---
 
+<!-- 🏗️ Industry Experience Section -->
+<div class="industry-experience-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0"><i class="fas fa-hard-hat me-3 text-warning"></i>Industry Experience</h3>
+  </div>
+
+  <div class="experience-card card border-0 shadow-sm mb-4">
+    <div class="card-header bg-gradient-warning text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">Building Services Engineering Intern</h4>
+        <span class="badge bg-white text-dark">Jan – Apr 2022</span>
+      </div>
+      <h5 class="mb-0 mt-2">Wong & Ouyang (Building Services) Ltd. <small class="text-white-50">(Hong Kong)</small></h5>
+    </div>
+    
+    <div class="card-body">
+      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded">
+        <h6 class="text-uppercase text-muted mb-2">Featured Project</h6>
+        <h5 class="mb-1">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
+        <p class="mb-0 text-muted">1,200+ residential units | Hong Kong</p>
+      </div>
+
+      <h5 class="mb-3 text-primary">Key Contributions</h5>
+      <ul class="contribution-list list-unstyled">
+        <li class="mb-3 d-flex">
+          <span class="me-3 contribution-badge bg-primary text-white">1</span>
+          <div>
+            <strong>BIM-Driven Optimization</strong>
+            <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
+          </div>
+        </li>
+        <li class="mb-3 d-flex">
+          <span class="me-3 contribution-badge bg-primary text-white">2</span>
+          <div>
+            <strong>Commissioning Efficiency</strong>
+            <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
+          </div>
+        </li>
+        <li class="d-flex">
+          <span class="me-3 contribution-badge bg-primary text-white">3</span>
+          <div>
+            <strong>Safety Documentation</strong>
+            <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="tools-section mt-4 pt-3 border-top">
+        <h6 class="text-uppercase text-muted mb-3">Tools & Standards</h6>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-light text-dark border py-2 px-3">
+            <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
+          </span>
+          <span class="badge bg-light text-dark border py-2 px-3">
+            <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
+          </span>
+          <span class="badge bg-light text-dark border py-2 px-3">
+            <i class="fas fa-book me-2 text-primary"></i>BEAM Plus Guidelines
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-footer bg-light bg-opacity-10">
+      <p class="mb-0 text-muted">
+        <i class="fas fa-lightbulb text-warning me-2"></i>
+        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr class="my-5 border-top border-2 border-warning opacity-25">
+
+<!-- Optional CSS -->
+<style>
+  .industry-experience-section {
+    position: relative;
+  }
+  .experience-card {
+    transition: transform 0.3s ease;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .experience-card:hover {
+    transform: translateY(-3px);
+  }
+  .card-header.bg-gradient-warning {
+    background: linear-gradient(135deg, #ffc107, #fd7e14);
+  }
+  .contribution-list li {
+    position: relative;
+    padding-left: 0.5rem;
+  }
+  .contribution-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .highlight-stat {
+    background-color: rgba(255, 193, 7, 0.2);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+  }
+  .project-highlight {
+    border-left: 3px solid #ffc107;
+  }
+  .tools-section .badge {
+    transition: all 0.2s ease;
+  }
+  .tools-section .badge:hover {
+    background-color: #f8f9fa !important;
+    transform: translateY(-2px);
+  }
+</style>
+
+---
 #### 🏗️ Industry Experience  
 **Building Services Engineering Intern**  
 **Wong & Ouyang (Building Services) Ltd.** *(Jan – Apr 2022, Hong Kong)*  
