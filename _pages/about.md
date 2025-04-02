@@ -301,7 +301,9 @@ I am always eager to collaborate on **innovative projects** that push the bounda
   </div>
 </div>
 
-<small>*Featured in Hong Kong’s leading publications:*</small>  
+  <div class="mb-4">
+    <h5 class="text-center mb-3 text-muted">Featured in Hong Kong's Leading Publications</h5>
+    <div class="row g-4">
 
 <div class="row">
   <!-- Hong Kong 01 -->
@@ -754,6 +756,271 @@ These research projects reflect my **commitment to sustainability and efficiency
   .tools-section .badge:hover {
     background-color: #f8f9fa !important;
     transform: translateY(-2px);
+  }
+</style>
+
+---
+
+<!-- 🏗️ Industry Experience Section - Enhanced -->
+<section class="industry-experience-section mb-5">
+  <div class="section-header mb-4 position-relative">
+    <div class="section-decoration"></div>
+    <h3 class="mb-0 position-relative">
+      <i class="fas fa-hard-hat me-3 text-warning"></i>Industry Experience
+      <span class="section-subtitle d-block text-muted fs-6 mt-1">Hands-on engineering in high-density urban environments</span>
+    </h3>
+  </div>
+
+  <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
+    <!-- Card Header with improved gradient -->
+    <div class="card-header bg-gradient-warning text-white position-relative">
+      <div class="header-pattern"></div>
+      <div class="position-relative">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <h4 class="mb-0 fw-bold">Building Services Engineering Intern</h4>
+          <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill">
+            <i class="fas fa-calendar-alt me-2 text-warning"></i>Jan &ndash; Apr 2022
+          </span>
+        </div>
+        <h5 class="mb-0 mt-2 fw-medium">
+          Wong &amp; Ouyang (Building Services) Ltd. 
+          <small class="text-white-50 d-block d-sm-inline">Hong Kong</small>
+        </h5>
+      </div>
+    </div>
+    
+    <!-- Card Body with improved layout -->
+    <div class="card-body">
+      <!-- Project Highlight with visual emphasis -->
+      <div class="project-highlight mb-4 p-3 rounded position-relative">
+        <div class="highlight-accent"></div>
+        <div class="position-relative">
+          <h6 class="text-uppercase text-warning mb-2 fw-bold d-flex align-items-center">
+            <i class="fas fa-star me-2"></i>Featured Project
+          </h6>
+          <h5 class="mb-1 fw-semibold">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
+          <p class="mb-0 text-muted d-flex align-items-center">
+            <i class="fas fa-building me-2"></i>1,200+ residential units | Hong Kong
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Contributions with improved numbering -->
+      <h5 class="mb-3 text-primary d-flex align-items-center">
+        <i class="fas fa-trophy me-2"></i>Key Contributions
+      </h5>
+      <div class="contribution-list">
+        <div class="contribution-item mb-4">
+          <div class="contribution-number">01</div>
+          <div class="contribution-content">
+            <h6 class="fw-semibold mb-2">BIM-Driven Optimization</h6>
+            <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
+          </div>
+        </div>
+        <div class="contribution-item mb-4">
+          <div class="contribution-number">02</div>
+          <div class="contribution-content">
+            <h6 class="fw-semibold mb-2">Commissioning Efficiency</h6>
+            <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
+          </div>
+        </div>
+        <div class="contribution-item">
+          <div class="contribution-number">03</div>
+          <div class="contribution-content">
+            <h6 class="fw-semibold mb-2">Safety Documentation</h6>
+            <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Standards with icons and better grouping -->
+      <div class="tools-section mt-5 pt-4 border-top">
+        <h6 class="text-uppercase text-muted mb-3 d-flex align-items-center">
+          <i class="fas fa-tools me-2 text-warning"></i>Tools &amp; Standards
+        </h6>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-cube me-2 text-warning"></i>Revit BIM
+          </span>
+          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-drafting-compass me-2 text-warning"></i>AutoCAD
+          </span>
+          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-book me-2 text-warning"></i>BEAM Plus
+          </span>
+          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-fire-extinguisher me-2 text-warning"></i>Fire Safety Code
+          </span>
+          <span class="badge bg-light border py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-tint me-2 text-warning"></i>Plumbing Standards
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Footer with improved styling -->
+    <div class="card-footer bg-light bg-opacity-10 border-top-0">
+      <div class="key-takeaway p-3 rounded">
+        <i class="fas fa-lightbulb text-warning me-2"></i>
+        <strong class="text-warning">Key Takeaway: </strong>
+        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="my-5 border-top border-2 border-warning opacity-25">
+
+<!-- Enhanced CSS -->
+<style>
+  /* Base Styles */
+  .industry-experience-section {
+    position: relative;
+    padding: 0 15px;
+  }
+  
+  .section-header {
+    padding-bottom: 15px;
+  }
+  
+  .section-header h3 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  .section-subtitle {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Card Styles */
+  .experience-card {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  }
+  
+  /* Header Styles */
+  .card-header.bg-gradient-warning {
+    background: linear-gradient(135deg, #FFB347 0%, #FFCC33 100%);
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-pattern {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" fill-opacity="0.1"><rect width="20" height="20" fill="white"/></svg>');
+    opacity: 0.2;
+  }
+  
+  /* Project Highlight */
+  .project-highlight {
+    background: linear-gradient(to right, rgba(255, 193, 7, 0.05) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-left: 4px solid #FFB347;
+    position: relative;
+  }
+  
+  .highlight-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, #FFB347, #FFCC33);
+  }
+  
+  /* Contribution List */
+  .contribution-list {
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  .contribution-item {
+    position: relative;
+    display: flex;
+    padding-left: 40px;
+  }
+  
+  .contribution-number {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgba(255, 193, 7, 0.3);
+    width: 40px;
+    text-align: center;
+  }
+  
+  .contribution-content h6 {
+    color: #444;
+    font-size: 1.05rem;
+  }
+  
+  /* Highlight Stats */
+  .highlight-stat {
+    background-color: rgba(255, 193, 7, 0.15);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #d48a00;
+    white-space: nowrap;
+  }
+  
+  /* Tools Section */
+  .tools-section .badge {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 193, 7, 0.3);
+    font-weight: 500;
+  }
+  
+  .tools-section .badge:hover {
+    background-color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 193, 7, 0.2);
+    border-color: #FFB347;
+  }
+  
+  /* Key Takeaway */
+  .key-takeaway {
+    background: rgba(255, 193, 7, 0.05);
+    border-left: 3px solid #FFB347;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .section-header h3 {
+      font-size: 1.5rem;
+    }
+    
+    .card-header.bg-gradient-warning {
+      padding: 1rem;
+    }
+    
+    .contribution-item {
+      padding-left: 35px;
+    }
+    
+    .contribution-number {
+      width: 35px;
+      font-size: 1rem;
+    }
   }
 </style>
 
