@@ -499,7 +499,7 @@ These research projects reflect my **commitment to sustainability and efficiency
     
     <div class="card-body">
       <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded">
-        <h6 class="text-uppercase text-muted mb-2"><i class="fas fa-star me-2"></i>Featured Project</h6>
+        <h6 class="text-uppercase text-muted mb-2"><i class="fas fa-star me-2 text warning"></i>Featured Project</h6>
         <h5 class="mb-1">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
         <p class="mb-0 text-muted"><i class="fas fa-building me-2"></i>1,200+ residential units | Hong Kong</p>
       </div>
@@ -531,19 +531,19 @@ These research projects reflect my **commitment to sustainability and efficiency
 
       <div class="tools-section mt-4">
         <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
-          <i class="fas fa-cube me-2 text-primary"></i>Revit BIM
+          <i class="fas fa-cube me-2 text-white"></i>Revit BIM
         </span>
         <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
-          <i class="fas fa-drafting-compass me-2 text-primary"></i>AutoCAD
+          <i class="fas fa-drafting-compass me-2 text-white"></i>AutoCAD
         </span>
         <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
-          <i class="fas fa-book me-2 text-primary"></i>BEAM Plus
+          <i class="fas fa-book me-2 text-white"></i>BEAM Plus
         </span>
         <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
-          <i class="fas fa-fire-extinguisher me-2 text-primary"></i>Fire Safety Code
+          <i class="fas fa-fire-extinguisher me-2 text-white"></i>Fire Safety Code
         </span>
         <span class="badge bg-warning border py-2 px-3 rounded-pill d-inline-flex align-items-center me-2 mb-2">
-          <i class="fas fa-tint me-2 text-primary"></i>Plumbing Standards
+          <i class="fas fa-tint me-2 text-white"></i>Plumbing Standards
         </span>
       </div>
     </div>
