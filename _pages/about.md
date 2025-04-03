@@ -2507,7 +2507,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
     </div>
     
     <div class="position-relative text-center">
-      <h4 class="mb-4">Ready to Build the Future Together?</h4>
+      <h4 class="mb-4"><strong>Ready to Build the Future Together?</strong></h4>
       
       <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
         <!-- Email Button -->
