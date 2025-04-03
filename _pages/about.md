@@ -2659,13 +2659,13 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
     <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
   </div>
   
-  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
-    <!-- Background elements -->
-    <div class="position-absolute top-0 end-0 me-4 mt-3 opacity-10">
-      <i class="fas fa-globe-americas fa-4x text-primary"></i>
+  <div class="connect-card p-4 p-md-5 rounded-4 position-relative overflow-hidden">
+    <!-- Background elements - moved lower and smaller on mobile -->
+    <div class="position-absolute top-0 end-0 me-2 me-md-4 mt-2 mt-md-3 opacity-10 d-none d-md-block">
+      <i class="fas fa-globe-americas fa-3x fa-md-4x text-primary"></i>
     </div>
-    <div class="position-absolute bottom-0 start-0 ms-4 mb-3 opacity-10">
-      <i class="fas fa-leaf fa-4x text-success"></i>
+    <div class="position-absolute bottom-0 start-0 ms-2 ms-md-4 mb-2 mb-md-3 opacity-10 d-none d-md-block">
+      <i class="fas fa-leaf fa-3x fa-md-4x text-success"></i>
     </div>
     
     <div class="position-relative text-center">
@@ -2733,14 +2733,15 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
     text-decoration: none;
     overflow: hidden;
     position: relative;
-    height: 56px;
-    width: 180px;
+    height: 50px;
+    width: 160px;
     transition: all 0.4s ease;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    z-index: 1; /* Ensure buttons stay above background */
   }
   
   .btn-content, .btn-hover-content {
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.25rem;
     width: 100%;
     position: absolute;
     transition: all 0.4s ease;
@@ -2766,8 +2767,8 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
   }
   
   .btn-icon {
-    margin-right: 0.75rem;
-    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
   }
   
   /* Email Button */
@@ -2794,22 +2795,24 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
   
   /* Connect Message */
   .connect-message {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 1; /* Ensure text stays above background */
   }
   
   /* Responsive */
-  @media (max-width: 768px) {
-    .connect-card {
-      padding: 2.5rem 1.5rem;
+  @media (min-width: 768px) {
+    .connect-btn {
+      height: 56px;
+      width: 180px;
     }
     
-    .connect-btn {
-      width: 160px;
-      height: 50px;
+    .btn-icon {
+      margin-right: 0.75rem;
+      font-size: 1.25rem;
     }
   }
 </style>
-
