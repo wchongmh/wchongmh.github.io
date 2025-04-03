@@ -620,8 +620,8 @@ latest_posts:
     <div class="row g-4 align-items-center">
       <div class="col-lg-5">
         <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
-        <p class="lead">Explore highlights from my university years, award ceremonies, and memorable academic moments.</p>
-        <p>From classroom projects to graduation celebrations, these snapshots capture my educational journey.</p>
+        <p class="lead">Moments of recognition and celebration from my academic achievements.</p>
+        <p>These photographs capture special ceremonies and milestones where my hard work was honored.</p>
         <a href="/gallery" class="btn btn-primary mt-2">
           <i class="fas fa-images me-2"></i>View Full Gallery
         </a>
