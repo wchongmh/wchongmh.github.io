@@ -646,12 +646,6 @@ latest_posts:
               <div class="gallery-caption">Invited to Share Experience</div>
             </a>
           </div>
-          <div class="col-6">
-            <a href="/gallery" class="gallery-item rounded overflow-hidden">
-              <img src="/assets/img/gallery/preview4.jpg" class="img-fluid" alt="Graduation Day">
-              <div class="gallery-caption">Graduation Day</div>
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -726,14 +720,14 @@ latest_posts:
           <div class="row g-3 mb-3">
             <div class="col-6">
               <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
-                <img src="/assets/img/awards/scebe-2" class="img-fluid w-100" alt="Award Ceremony" style="height: auto; object-fit: contain;">
+                <img src="/assets/img/awards/scebe-2.jpg" class="img-fluid w-100" alt="Award Ceremony" style="height: auto; object-fit: contain;">
                 <div class="gallery-caption">Award Ceremony</div>
               </a>
             </div>
             <div class="col-6">
               <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
-                <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid w-100" alt="Campus Life" style="height: auto; object-fit: contain;">
-                <div class="gallery-caption">Campus Life</div>
+                <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid w-100" alt="Outstanding Engineering Student" style="height: auto; object-fit: contain;">
+                <div class="gallery-caption">Outstanding Engineering Student</div>
               </a>
             </div>
           </div>
@@ -742,8 +736,8 @@ latest_posts:
           <div class="row">
             <div class="col-12">
               <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
-                <img src="/assets/img/awards/sharing-experience.png" class="img-fluid w-100" alt="Project Work" style="height: auto; max-height: 300px; object-fit: contain;">
-                <div class="gallery-caption">Project Work</div>
+                <img src="/assets/img/awards/sharing-experience.png" class="img-fluid w-100" alt="Invited to Share Experience" style="height: auto; max-height: 300px; object-fit: contain;">
+                <div class="gallery-caption">Invited to Share Experience</div>
               </a>
             </div>
           </div>
@@ -1953,293 +1947,6 @@ latest_posts:
   /* Responsive Adjustments */
   @media (max-width: 768px) {
     .pillar-card {
-      margin-bottom: 1.5rem;
-    }
-  }
-</style>
-
----
-
-<!-- Looking Ahead Section -->
-<div class="future-goals-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h2 class="mb-0"><i class="fas fa-binoculars me-3 text-primary"></i>Looking Ahead</h2>
-  </div>
-  
-  <div class="vision-statement p-4 mb-4 rounded-4 bg-light bg-opacity-10 border-start border-4 border-primary">
-    <p class="lead mb-0">
-      My passion is driven by the aspiration to become a <strong>professional Building Services Engineer</strong>, 
-      eager to tackle complex challenges and contribute to global progress through <strong>innovative, 
-      forward-thinking solutions</strong>. I am dedicated to advancing sustainable building practices by 
-      integrating <strong>AI, IoT, and renewable energy systems</strong> to transcend conventional engineering approaches.
-    </p>
-  </div>
-
-  <!-- Goals Cards -->
-  <div class="row g-4">
-    <!-- Professional Certification -->
-    <div class="col-lg-4">
-      <div class="goal-card h-100 border-0 shadow-lg rounded-4 overflow-hidden">
-        <div class="card-header bg-primary-gradient text-white p-4">
-          <div class="d-flex align-items-center">
-            <div class="goal-icon me-3">
-              <i class="fas fa-user-tie"></i>
-            </div>
-            <div>
-              <h3 class="h4 mb-0">Professional Certification</h3>
-              <p class="mb-0 small opacity-75">Chartered Engineer (CEng)</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-body p-4">
-          <div class="d-flex justify-content-between mb-3">
-            <span class="badge bg-primary bg-opacity-10 text-primary">Target: 2028-2029</span>
-            <span class="badge bg-white text-primary">5-6 Years</span>
-          </div>
-          
-          <div class="progress-container mb-4">
-            <div class="d-flex justify-content-between mb-2">
-              <small>Progress</small>
-              <small>20%</small>
-            </div>
-            <div class="progress" style="height: 8px;">
-              <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          
-          <h5 class="h6 text-uppercase text-muted mb-3">Accreditation Bodies</h5>
-          <div class="d-flex flex-wrap gap-2">
-            <span class="badge bg-dark bg-opacity-10 text-dark">
-              <i class="fas fa-university me-1"></i>UK-SPEC
-            </span>
-            <span class="badge bg-info bg-opacity-10 text-info">
-              <i class="fas fa-building me-1"></i>CIBSE
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Graduate Program -->
-    <div class="col-lg-4">
-      <div class="goal-card h-100 border-0 shadow-lg rounded-4 overflow-hidden">
-        <div class="card-header bg-success-gradient text-white p-4">
-          <div class="d-flex align-items-center">
-            <div class="goal-icon me-3">
-              <i class="fas fa-graduation-cap"></i>
-            </div>
-            <div>
-              <h3 class="h4 mb-0">Training Program</h3>
-              <p class="mb-0 small opacity-75">Engineering Graduate Scheme</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-body p-4">
-          <div class="milestone-timeline">
-            <div class="timeline-progress"></div>
-            <div class="milestone">
-              <div class="milestone-marker"></div>
-              <div class="milestone-content">
-                <h5 class="mb-1">Year 1</h5>
-                <p class="small text-muted mb-0">Core Competencies</p>
-                <ul class="mt-2 ps-3 small">
-                  <li>HVAC Fundamentals</li>
-                  <li>Building Regulations</li>
-                  <li>Energy Analysis</li>
-                </ul>
-              </div>
-            </div>
-            <div class="milestone">
-              <div class="milestone-marker"></div>
-              <div class="milestone-content">
-                <h5 class="mb-1">Year 2</h5>
-                <p class="small text-muted mb-0">Specialization</p>
-                <ul class="mt-2 ps-3 small">
-                  <li>Sustainable Design</li>
-                  <li>Smart Systems</li>
-                  <li>Project Management</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Industry Experience -->
-    <div class="col-lg-4">
-      <div class="goal-card h-100 border-0 shadow-lg rounded-4 overflow-hidden">
-        <div class="card-header bg-info-gradient text-white p-4">
-          <div class="d-flex align-items-center">
-            <div class="goal-icon me-3">
-              <i class="fas fa-hard-hat"></i>
-            </div>
-            <div>
-              <h3 class="h4 mb-0">Hands-On Experience</h3>
-              <p class="mb-0 small opacity-75">2+ Years Industry Practice</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-body p-4">
-          <h5 class="h6 text-uppercase text-muted mb-3">Target Sectors</h5>
-          <div class="d-flex flex-wrap gap-2 mb-4">
-            <span class="badge bg-success bg-opacity-10 text-success">
-              <i class="fas fa-leaf me-1"></i>Sustainable Design
-            </span>
-            <span class="badge bg-warning bg-opacity-10 text-warning">
-              <i class="fas fa-brain me-1"></i>Smart Buildings
-            </span>
-            <span class="badge bg-danger bg-opacity-10 text-danger">
-              <i class="fas fa-cube me-1"></i>BIM Implementation
-            </span>
-          </div>
-          
-          <h5 class="h6 text-uppercase text-muted mb-3">Career Progression</h5>
-          <div class="career-path">
-            <div class="path-step active">
-              <div class="step-marker"></div>
-              <div class="step-content">
-                <h6 class="mb-0">Junior Engineer</h6>
-                <small class="text-muted">0-2 years experience</small>
-              </div>
-            </div>
-            <div class="path-step">
-              <div class="step-marker"></div>
-              <div class="step-content">
-                <h6 class="mb-0">Project Engineer</h6>
-                <small class="text-muted">2-5 years experience</small>
-              </div>
-            </div>
-            <div class="path-step">
-              <div class="step-marker"></div>
-              <div class="step-content">
-                <h6 class="mb-0">Senior Engineer</h6>
-                <small class="text-muted">5+ years experience</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  /* Future Goals Section */
-  .future-goals-section h2 {
-    font-weight: 700;
-    color: #212529;
-  }
-  
-  .vision-statement {
-    border-left: 4px solid var(--bs-primary);
-  }
-  
-  .goal-card {
-    transition: all 0.3s ease;
-  }
-  
-  .goal-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
-  }
-  
-  .goal-icon {
-    width: 50px;
-    height: 50px;
-    background-color: rgba(255,255,255,0.2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-  }
-  
-  /* Gradient Backgrounds */
-  .bg-primary-gradient {
-    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
-  }
-  
-  .bg-success-gradient {
-    background: linear-gradient(135deg, #198754, #2ea672);
-  }
-  
-  .bg-info-gradient {
-    background: linear-gradient(135deg, #0dcaf0, #3dd5f3);
-  }
-  
-  /* Milestone Timeline */
-  .milestone-timeline {
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .timeline-progress {
-    position: absolute;
-    left: 10px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: #e9ecef;
-  }
-  
-  .milestone {
-    position: relative;
-    padding-bottom: 1.5rem;
-  }
-  
-  .milestone-marker {
-    position: absolute;
-    left: -30px;
-    top: 5px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #198754;
-    border: 3px solid white;
-    box-shadow: 0 0 0 2px #198754;
-  }
-  
-  /* Career Path */
-  .career-path {
-    position: relative;
-  }
-  
-  .path-step {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 1rem;
-  }
-  
-  .path-step:last-child {
-    margin-bottom: 0;
-  }
-  
-  .step-marker {
-    position: absolute;
-    left: 0;
-    top: 5px;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #e9ecef;
-    border: 3px solid white;
-  }
-  
-  .path-step.active .step-marker {
-    background-color: #0dcaf0;
-    box-shadow: 0 0 0 2px #0dcaf0;
-  }
-  
-  /* Badges */
-  .badge {
-    font-weight: 500;
-    padding: 0.35em 0.65em;
-  }
-  
-  /* Responsive */
-  @media (max-width: 992px) {
-    .goal-card {
       margin-bottom: 1.5rem;
     }
   }
