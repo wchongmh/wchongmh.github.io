@@ -582,18 +582,149 @@ latest_posts:
   </div>
 </div>
 
+<!-- 🎓 Academic Excellence Section -->
+<div class="academic-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0">🎓 Academic Excellence</h3>
+  </div>
+  
+  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded">
+    <p class="mb-0 lead">
+      Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the 
+      <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple 
+      prestigious scholarships and awards that recognize academic achievement and leadership.
+    </p>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-lg-8 mx-auto">
+      <div class="card award-card h-100 shadow-sm border-0">
+        <div class="card-header bg-primary text-white rounded-top">
+          <h4 class="mb-0"><i class="fas fa-trophy me-2"></i>Awards & Honors</h4>
+        </div>
+        <div class="card-body p-0">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>GCU SCEBE Prize Winner</strong> - Ranked #1 in my third-year cohort
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>Alistair Harvey Foundation Scholarship</strong> - Full Sponsorship
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/hkie-outstanding.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>HKIE Outstanding Engineering Student</strong>
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/hkie-bsd-award.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>HKIE BSD Student Award</strong>
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/endeavour-merit.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>Endeavour Merit Award</strong>
+              </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center py-3">
+              <span class="award-icon me-3">🏆</span>
+              <a href="/assets/pdf/awards/hksar-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none">
+                <strong>HKSAR Government Scholarship</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer bg-light bg-opacity-10 rounded-bottom">
+          <small class="text-muted">Click any award to view documentation</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 🖼️ Gallery Teaser Section -->
+<div class="gallery-teaser mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0">📸 Behind the Achievements</h3>
+  </div>
+  
+  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded">
+    <p class="mb-0 lead">
+      Discover the journey behind these accomplishments in my <a href="/gallery" class="text-primary fw-bold">Gallery</a> - 
+      featuring memorable moments from university life, award ceremonies, study abroad experiences, and more.
+    </p>
+  </div>
+
+  <div class="row g-3 gallery-preview">
+    <!-- Gallery Preview Item 1 -->
+    <div class="col-md-4 col-6">
+      <a href="/gallery" class="gallery-thumbnail">
+        <div class="ratio ratio-1x1">
+          <div class="bg-primary bg-opacity-10 d-flex align-items-center justify-content-center rounded overflow-hidden">
+            <div class="text-center p-3">
+              <i class="fas fa-graduation-cap fa-3x text-primary mb-2"></i>
+              <p class="mb-0 fw-bold">Graduation Moments</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <!-- Gallery Preview Item 2 -->
+    <div class="col-md-4 col-6">
+      <a href="/gallery" class="gallery-thumbnail">
+        <div class="ratio ratio-1x1">
+          <div class="bg-primary bg-opacity-10 d-flex align-items-center justify-content-center rounded overflow-hidden">
+            <div class="text-center p-3">
+              <i class="fas fa-trophy fa-3x text-primary mb-2"></i>
+              <p class="mb-0 fw-bold">Award Ceremonies</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <!-- Gallery Preview Item 3 -->
+    <div class="col-md-4 col-6">
+      <a href="/gallery" class="gallery-thumbnail">
+        <div class="ratio ratio-1x1">
+          <div class="bg-primary bg-opacity-10 d-flex align-items-center justify-content-center rounded overflow-hidden">
+            <div class="text-center p-3">
+              <i class="fas fa-globe-asia fa-3x text-primary mb-2"></i>
+              <p class="mb-0 fw-bold">Study Abroad</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="text-center mt-3">
+    <a href="/gallery" class="btn btn-primary px-4">
+      <i class="fas fa-images me-2"></i> View Full Gallery
+    </a>
+  </div>
+</div>
+
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
-<!-- Optional CSS to add to your stylesheet -->
 <style>
   .professional-journey-header h2 {
     font-weight: 600;
     letter-spacing: -0.5px;
   }
-  .award-card {
+  .award-card, .gallery-thumbnail {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  .award-card:hover {
+  .award-card:hover, .gallery-thumbnail:hover {
     transform: translateY(-5px);
     box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.1) !important;
   }
@@ -613,6 +744,35 @@ latest_posts:
   }
   .intro-text {
     border-left: 3px solid var(--bs-primary);
+  }
+  /* Gallery specific styles */
+  .gallery-preview {
+    margin-bottom: 1rem;
+  }
+  .gallery-thumbnail {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .gallery-thumbnail:hover .ratio > div {
+    background-color: rgba(13,110,253,0.15) !important;
+  }
+  /* Ensure consistent section headers */
+  .section-header h3 {
+    font-weight: 600;
+    position: relative;
+    padding-left: 15px;
+  }
+  .section-header h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 4px;
+    background: var(--bs-primary);
+    border-radius: 2px;
   }
 </style>
 
