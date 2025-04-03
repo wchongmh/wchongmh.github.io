@@ -674,89 +674,55 @@ latest_posts:
             </li>
           </ul>
         </div>
-        <div class="card-footer bg-light bg-opacity-10 rounded-bottom">
+        <div class="card-footer bg-light bg-opacity-10 rounded-bottom d-flex justify-content-between align-items-center">
           <small class="text-muted">Click any award to view documentation</small>
+          <a href="/gallery" class="btn btn-sm btn-outline-primary gallery-cta">
+            <i class="fas fa-images me-1"></i> View Achievement Gallery
+          </a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- 🖼️ Gallery Teaser Section -->
-<div class="gallery-teaser mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0">📸 Behind the Achievements</h3>
-  </div>
-  
-  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded">
-    <p class="mb-0 lead">
-      Discover the journey behind these accomplishments in my <a href="/gallery" class="text-primary fw-bold">Gallery</a> - 
-      featuring memorable moments from university life, award ceremonies, study abroad experiences, and more.
-    </p>
-  </div>
-
-  <div class="row g-3 gallery-preview">
-    <!-- Gallery Preview Item 1 -->
-    <div class="col-md-4 col-6">
-      <a href="/gallery" class="gallery-thumbnail">
-        <div class="ratio ratio-1x1">
-          <div class="bg-primary bg-opacity-10 d-flex align-items-center justify-content-center rounded overflow-hidden">
-            <div class="text-center p-3">
-              <i class="fas fa-graduation-cap fa-3x text-primary mb-2"></i>
-              <p class="mb-0 fw-bold">Graduation Moments</p>
-            </div>
+<!-- Gallery Preview Modal (hidden by default) -->
+<div class="modal fade" id="galleryPreview" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">My Academic Journey</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-3">
+          <div class="col-6">
+            <img src="/assets/img/gallery/preview1.jpg" class="img-fluid rounded" alt="Award Ceremony">
+          </div>
+          <div class="col-6">
+            <img src="/assets/img/gallery/preview2.jpg" class="img-fluid rounded" alt="University Project">
+          </div>
+          <div class="col-6">
+            <img src="/assets/img/gallery/preview3.jpg" class="img-fluid rounded" alt="Scholarship Event">
+          </div>
+          <div class="col-6">
+            <img src="/assets/img/gallery/preview4.jpg" class="img-fluid rounded" alt="Graduation">
           </div>
         </div>
-      </a>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a href="/gallery" class="btn btn-primary">
+          <i class="fas fa-images me-2"></i> View Full Gallery
+        </a>
+      </div>
     </div>
-    
-    <!-- Gallery Preview Item 2 -->
-    <div class="col-md-4 col-6">
-      <a href="/gallery" class="gallery-thumbnail">
-        <div class="ratio ratio-1x1">
-          <div class="bg-primary bg-opacity-10 d-flex align-items-center justify-content-center rounded overflow-hidden">
-            <div class="text-center p-3">
-              <i class="fas fa-trophy fa-3x text-primary mb-2"></i>
-              <p class="mb-0 fw-bold">Award Ceremonies</p>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    
-    <!-- Gallery Preview Item 3 -->
-    <div class="col-md-4 col-6">
-      <a href="/gallery" class="gallery-thumbnail">
-        <div class="ratio ratio-1x1">
-          <div class="bg-primary bg-opacity-10 d-flex align-items-center justify-content-center rounded overflow-hidden">
-            <div class="text-center p-3">
-              <i class="fas fa-globe-asia fa-3x text-primary mb-2"></i>
-              <p class="mb-0 fw-bold">Study Abroad</p>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="text-center mt-3">
-    <a href="/gallery" class="btn btn-primary px-4">
-      <i class="fas fa-images me-2"></i> View Full Gallery
-    </a>
   </div>
 </div>
 
-<hr class="my-5 border-top border-2 border-primary opacity-25">
-
 <style>
-  .professional-journey-header h2 {
-    font-weight: 600;
-    letter-spacing: -0.5px;
-  }
-  .award-card, .gallery-thumbnail {
+  .award-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  .award-card:hover, .gallery-thumbnail:hover {
+  .award-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.1) !important;
   }
@@ -777,36 +743,36 @@ latest_posts:
   .intro-text {
     border-left: 3px solid var(--bs-primary);
   }
-  /* Gallery specific styles */
-  .gallery-preview {
-    margin-bottom: 1rem;
-  }
-  .gallery-thumbnail {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-  }
-  .gallery-thumbnail:hover .ratio > div {
-    background-color: rgba(13,110,253,0.15) !important;
-  }
-  /* Ensure consistent section headers */
-  .section-header h3 {
-    font-weight: 600;
+  .gallery-cta {
     position: relative;
-    padding-left: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
   }
-  .section-header h3::before {
-    content: "";
+  .gallery-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .gallery-cta::after {
+    content: "→";
     position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 70%;
-    width: 4px;
-    background: var(--bs-primary);
-    border-radius: 2px;
+    right: -20px;
+    transition: all 0.3s ease;
+  }
+  .gallery-cta:hover::after {
+    right: 10px;
   }
 </style>
+
+<script>
+  // Optional: Add this if you want the modal to show automatically
+  document.addEventListener('DOMContentLoaded', function() {
+    // Show modal after 5 seconds of viewing the section
+    setTimeout(function() {
+      var galleryModal = new bootstrap.Modal(document.getElementById('galleryPreview'));
+      galleryModal.show();
+    }, 5000);
+  });
+</script>
 
 ---
 
