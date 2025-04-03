@@ -1862,6 +1862,147 @@ latest_posts:
 
 ---
 
+## 🔍 Looking Ahead
+
+<div class="future-goals-intro mb-4">
+  <p class="lead">I aspire to become a professional Building Services Engineer who tackles complex challenges through innovative, sustainable solutions. My focus is on integrating cutting-edge technologies like AI, IoT, and renewable energy systems to advance building practices beyond conventional approaches.</p>
+</div>
+
+<div class="row g-4">
+  <!-- Professional Certification -->
+  <div class="col-md-4">
+    <div class="card h-100 border-start border-primary border-4">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-user-tie text-primary fa-lg me-3"></i>
+          <h5 class="mb-0">Professional Certification</h5>
+        </div>
+        <h6 class="text-primary mb-3">Chartered Engineer (CEng)</h6>
+        <p class="mb-3">Target completion: 2028-2029 (5-6 years)</p>
+        <div class="progress mb-3" style="height: 6px;">
+          <div class="progress-bar bg-primary" style="width: 20%"></div>
+        </div>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-light text-dark border">
+            <i class="fas fa-university text-primary me-1"></i>UK-SPEC
+          </span>
+          <span class="badge bg-light text-dark border">
+            <i class="fas fa-building text-primary me-1"></i>CIBSE
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Training Program -->
+  <div class="col-md-4">
+    <div class="card h-100 border-start border-success border-4">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-graduation-cap text-success fa-lg me-3"></i>
+          <h5 class="mb-0">Training Program</h5>
+        </div>
+        <h6 class="text-success mb-3">Engineering Graduate Scheme</h6>
+        <p class="mb-3">Seeking accredited program participation</p>
+        <div class="timeline-simple">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <strong>Year 1</strong>
+              <p class="small mb-0">Core Competencies</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <strong>Year 2</strong>
+              <p class="small mb-0">Specialization</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Industry Experience -->
+  <div class="col-md-4">
+    <div class="card h-100 border-start border-info border-4">
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-hard-hat text-info fa-lg me-3"></i>
+          <h5 class="mb-0">Hands-On Experience</h5>
+        </div>
+        <h6 class="text-info mb-3">2+ Years Industry Practice</h6>
+        <p class="mb-2">Target sectors:</p>
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span class="badge bg-light text-dark border">
+            <i class="fas fa-leaf text-success me-1"></i>Sustainable Design
+          </span>
+          <span class="badge bg-light text-dark border">
+            <i class="fas fa-brain text-warning me-1"></i>Smart Buildings
+          </span>
+          <span class="badge bg-light text-dark border">
+            <i class="fas fa-cube text-danger me-1"></i>BIM Implementation
+          </span>
+        </div>
+        <p class="small mb-2">Career progression:</p>
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="fas fa-arrow-right text-muted me-2"></i>Junior Engineer</li>
+          <li><i class="fas fa-arrow-right text-muted me-2"></i>Project Engineer</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .future-goals-intro .lead {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .timeline-simple {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  
+  .timeline-marker {
+    position: absolute;
+    left: -1.5rem;
+    top: 0.3rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--bs-success);
+  }
+  
+  .timeline-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .badge {
+    font-weight: normal;
+    padding: 0.35rem 0.65rem;
+  }
+</style>
+
+---
+
 ## 🌱 Sustainability Commitment
 I am deeply passionate about **sustainability and smart system integration**. My engineering philosophy centers on:
 
