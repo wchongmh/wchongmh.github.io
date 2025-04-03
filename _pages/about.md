@@ -2225,6 +2225,142 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 ## 🌐 Global Competence
 
 <div class="row g-4 mt-3">
+  <!-- Languages Card - Enhanced with subtle animation and better hierarchy -->
+  <div class="col-md-6">
+    <div class="p-4 border rounded-3 bg-light-hover h-100 shadow-sm hover-shadow transition-all">
+      <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-language fa-2x text-primary me-3"></i>
+        <h4 class="mb-0 text-gradient-primary">Language Proficiency</h4>
+      </div>
+      
+      <div class="row g-3">
+        <!-- English -->
+        <div class="col-4 text-center">
+          <div class="lang-card p-3 rounded bg-white shadow-xs hover-transform-up">
+            <i class="flag-icon flag-icon-gb fa-2x text-danger mb-2"></i>
+            <div class="fw-bold mb-1">English</div>
+            <div class="badge bg-danger-light text-danger rounded-pill">Fluent</div>
+          </div>
+        </div>
+        
+        <!-- Mandarin -->
+        <div class="col-4 text-center">
+          <div class="lang-card p-3 rounded bg-white shadow-xs hover-transform-up">
+            <i class="flag-icon flag-icon-cn fa-2x text-success mb-2"></i>
+            <div class="fw-bold mb-1">Mandarin</div>
+            <div class="badge bg-success-light text-success rounded-pill">Native</div>
+          </div>
+        </div>
+        
+        <!-- Cantonese -->
+        <div class="col-4 text-center">
+          <div class="lang-card p-3 rounded bg-white shadow-xs hover-transform-up">
+            <i class="flag-icon flag-icon-hk fa-2x text-warning mb-2"></i>
+            <div class="fw-bold mb-1">Cantonese</div>
+            <div class="badge bg-warning-light text-warning rounded-pill">Native</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mt-4 pt-2 border-top">
+        <p class="mb-0 text-muted d-flex align-items-center">
+          <i class="fas fa-comment-dots me-2 text-primary"></i>
+          <span>Excel in cross-cultural communication with professional fluency in 3 languages</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work Eligibility Card - More polished with status indicators -->
+  <div class="col-md-6">
+    <div class="p-4 border rounded-3 bg-light-hover h-100 shadow-sm hover-shadow transition-all">
+      <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-user-check fa-2x text-success me-3"></i>
+        <h4 class="mb-0 text-gradient-success">Work Authorization</h4>
+      </div>
+      
+      <div class="d-flex align-items-start bg-success-soft p-3 rounded-3 mb-3 border border-success border-opacity-10">
+        <i class="fas fa-id-card fa-2x text-success mt-1 me-3"></i>
+        <div>
+          <h5 class="mb-1 d-flex align-items-center">
+            <span class="me-2">UK Work Rights</span>
+            <span class="badge bg-success rounded-pill px-2 py-1">
+              <i class="fas fa-check-circle me-1"></i> Verified
+            </span>
+          </h5>
+          <p class="mb-0 small text-success-dark">No visa sponsorship required • Full working rights</p>
+        </div>
+      </div>
+      
+      <div class="alert alert-success-soft border border-success border-opacity-10 d-flex align-items-center">
+        <i class="fas fa-bolt text-success me-3 fa-lg"></i>
+        <div>
+          <strong>Immediately available</strong> to contribute skills and expertise
+          <div class="small mt-1 opacity-75">Can start within 2 weeks notice</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Add these CSS styles to your stylesheet */
+  .text-gradient-primary {
+    background: linear-gradient(90deg, #4e73df 0%, #224abe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-success {
+    background: linear-gradient(90deg, #1cc88a 0%, #13855c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hover-shadow {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1) !important;
+  }
+  
+  .hover-transform-up {
+    transition: transform 0.2s ease;
+  }
+  
+  .hover-transform-up:hover {
+    transform: translateY(-3px);
+  }
+  
+  .shadow-xs {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.05);
+  }
+  
+  .bg-success-soft {
+    background-color: rgba(28, 200, 138, 0.1);
+  }
+  
+  .bg-danger-light {
+    background-color: rgba(231, 74, 59, 0.1);
+  }
+  
+  .bg-success-light {
+    background-color: rgba(28, 200, 138, 0.1);
+  }
+  
+  .bg-warning-light {
+    background-color: rgba(240, 173, 78, 0.1);
+  }
+</style>
+
+---
+
+## 🌐 Global Competence
+
+<div class="row g-4 mt-3">
   <!-- Languages -->
   <div class="col-md-6">
     <div class="p-4 border rounded-3 bg-light-hover h-100">
