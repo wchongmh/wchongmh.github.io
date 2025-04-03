@@ -702,104 +702,6 @@ latest_posts:
   }
 </style>
 
-<!-- Gallery Preview Section -->
-<div class="gallery-preview-section mb-5">
-  <div class="container">
-    <div class="row g-4 align-items-center">
-      <div class="col-lg-5">
-        <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
-        <p class="lead">These photographs capture moments of recognition and celebration from special ceremonies and milestones honoring my academic achievements.</p>
-        <a href="/gallery" class="btn btn-primary mt-2">
-          <i class="fas fa-images me-2"></i> View Full Gallery
-        </a>
-      </div>
-      <div class="col-lg-7">
-        <div class="gallery-preview">
-          <!-- Top Row - Two Images -->
-          <div class="row g-3 mb-3">
-            <div class="col-6">
-              <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
-                <img src="/assets/img/awards/scebe-2.jpg" class="img-fluid w-100" alt="Award Ceremony" style="height: auto; object-fit: contain;">
-                <div class="gallery-caption">Award Ceremony</div>
-              </a>
-            </div>
-            <div class="col-6">
-              <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
-                <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid w-100" alt="Outstanding Engineering Student" style="height: auto; object-fit: contain;">
-                <div class="gallery-caption">Outstanding Engineering Student</div>
-              </a>
-            </div>
-          </div>
-          
-          <!-- Bottom Row - Project Image -->
-          <div class="row">
-            <div class="col-12">
-              <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
-                <img src="/assets/img/awards/sharing-experience.png" class="img-fluid w-100" alt="Invited to Share Experience" style="height: auto; max-height: 300px; object-fit: contain;">
-                <div class="gallery-caption">Invited to Share Experience</div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  .gallery-preview-section {
-    background-color: #f8f9fa;
-    padding: 3rem 0;
-    border-radius: 0.5rem;
-    border-top: 4px solid var(--bs-primary);
-  }
-  
-  .gallery-item {
-    display: block;
-    position: relative;
-    transition: all 0.3s ease;
-    overflow: hidden;
-    border: 1px solid rgba(0,0,0,0.1);
-  }
-  
-  .gallery-item img {
-    transition: transform 0.5s ease;
-    width: 100%;
-  }
-  
-  .gallery-item:hover img {
-    transform: scale(1.03);
-  }
-  
-  .gallery-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,0.7);
-    color: white;
-    padding: 0.5rem;
-    text-align: center;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
-  }
-  
-  .gallery-item:hover .gallery-caption {
-    transform: translateY(0);
-  }
-  
-  @media (max-width: 992px) {
-    .gallery-preview-section {
-      text-align: center;
-    }
-    
-    .gallery-preview .col-6, 
-    .gallery-preview .col-12 {
-      margin-bottom: 1rem;
-    }
-  }
-</style>
-
 ---
 
 <!-- 📰 Media Recognition & Press Features -->
@@ -827,154 +729,6 @@ latest_posts:
 
   <!-- Press Features Grid -->
   <div class="row g-4">
-    <!-- Hong Kong 01 -->
-    <div class="col-sm-6 col-lg-4">
-      <div class="press-card h-100 p-3 rounded-3">
-        <div class="text-center">
-          <img class="img-fluid rounded z-depth-1 mb-3" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="max-height: 150px;">
-          <div class="mt-2">
-            <h6 class="mb-1"><strong>Redefining STEM Accessibility</strong></h6>
-            <p class="text-muted small mb-2"><em>Hong Kong 01</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
-            <div class="d-flex flex-wrap gap-2 justify-content-center">
-              <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-                <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-              </a>
-              <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-                <i class="fas fa-file-pdf me-1"></i> English PDF
-              </a>
-              <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> Website
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Oriental Daily -->
-    <div class="col-sm-6 col-lg-4">
-      <div class="press-card h-100 p-3 rounded-3">
-        <div class="text-center">
-          <img class="img-fluid rounded z-depth-1 mb-3" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Feature" style="max-height: 150px;">
-          <div class="mt-2">
-            <h6 class="mb-1"><strong>Front-Page Engineering Spotlight</strong></h6>
-            <p class="text-muted small mb-2"><em>Oriental Daily (Website)</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
-            <div class="d-flex flex-wrap gap-2 justify-content-center">
-              <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-                <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-              </a>
-              <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-                <i class="fas fa-file-pdf me-1"></i> English PDF
-              </a>
-              <a href="https://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20220720-0720_00176_025/IVE%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> Website
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ON.CC -->
-    <div class="col-sm-6 col-lg-4">
-      <div class="press-card h-100 p-3 rounded-3">
-        <div class="text-center">
-          <img class="img-fluid rounded z-depth-1 mb-3" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="max-height: 150px;">
-          <div class="mt-2">
-            <h6 class="mb-1"><strong>Vocational Education Success</strong></h6>
-            <p class="text-muted small mb-2"><em>ON.CC</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
-            <div class="d-flex flex-wrap gap-2 justify-content-center">
-              <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
-                <i class="fas fa-file-pdf me-1"></i> Chinese PDF
-              </a>
-              <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
-                <i class="fas fa-file-pdf me-1"></i> English PDF
-              </a>
-              <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank" class="btn btn-sm btn-outline-primary">
-                <i class="fas fa-external-link-alt me-1"></i> Website
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Additional press items (Sky Post, Line Today, Yahoo News, Newspaper Clipping) -->
-    <!-- ... include the remaining press items with the same structure ... -->
-  </div>
-</div>
-
-<!-- Optional CSS to enhance the press section -->
-<style>
-  .press-section {
-    position: relative;
-    padding: 2rem 0;
-  }
-  
-  .publications-header {
-    position: relative;
-    padding: 1.5rem 0;
-  }
-  
-  .publications-header h5 {
-    position: relative;
-    display: inline-block;
-    padding: 0 2rem;
-  }
-  
-  .publications-header h5:before,
-  .publications-header h5:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 50px;
-    height: 1px;
-    background: #dee2e6;
-  }
-  
-  .publications-header h5:before {
-    left: -60px;
-  }
-  
-  .publications-header h5:after {
-    right: -60px;
-  }
-  
-  .press-card {
-    transition: all 0.3s ease;
-    border: 1px solid rgba(0,0,0,0.05);
-  }
-  
-  .press-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    border-color: rgba(13, 110, 253, 0.2);
-  }
-</style>
-
----
-
-#### 📰 Media Recognition & Press Features
-<div class="lead mb-4">
-  My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
-</div>
-
-<div class="press-highlight-box mb-5 p-4 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #0d6efd;">
-  <div class="d-flex align-items-center">
-    <i class="fas fa-quote-left fa-2x me-3" style="color: #0d6efd; opacity: 0.3;"></i>
-    <div>
-      <p class="mb-2 fst-italic">"Demonstrating exceptional potential in engineering innovation and commitment to STEM education accessibility."</p>
-      <p class="text-muted mb-0">— Hong Kong 01</p>
-    </div>
-  </div>
-</div>
-
-  <div class="mb-4">
-    <h5 class="text-center mb-3 text-muted">Featured in Hong Kong's Leading Publications</h5>
-    <div class="row g-4">
-     </div>
-
-<div class="row">
   <!-- Hong Kong 01 -->
   <div class="col-sm-6 col-lg-4 mt-3 mt-md-0">
     <div class="text-center">
@@ -2249,11 +2003,25 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
             justify-content: center;
         }
         
-        /* Grid Layouts */
+        /* Grid Layouts - FIXED */
         .sectors-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
+            margin-bottom: 1rem;
+        }
+        
+        .sector-item {
+            display: flex;
+        }
+        
+        .sector-item .badge {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            white-space: normal;
         }
         
         .benefits-grid {
@@ -2269,6 +2037,9 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
             text-align: center;
             padding: 0.5rem;
             border-radius: 0.25rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         .benefit-item:hover {
@@ -2332,7 +2103,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
             background: linear-gradient(135deg, var(--info) 0%, #258391 100%);
         }
         
-        /* Timeline Styles */
+        /* Timeline Styles - FIXED */
         .timeline-container {
             position: relative;
         }
@@ -2365,9 +2136,18 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
             height: 16px;
             border-radius: 50%;
             border: 3px solid white;
+            z-index: 1;
         }
         
-        /* Responsive Adjustments */
+        .timeline-content {
+            padding-left: 0.5rem;
+        }
+        
+        .timeline-content ul {
+            margin-bottom: 0;
+        }
+        
+        /* Responsive Adjustments - IMPROVED */
         @media (max-width: 992px) {
             .card-header .d-flex {
                 flex-direction: column;
@@ -2396,6 +2176,14 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
             .benefits-grid {
                 grid-template-columns: repeat(2, 1fr) !important;
             }
+            
+            .timeline:before {
+                left: 10px;
+            }
+            
+            .timeline-badge {
+                left: -1.8rem;
+            }
         }
         
         @media (max-width: 576px) {
@@ -2406,6 +2194,10 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
             
             .icon-box, .program-icon, .experience-icon {
                 margin: 0 auto 0.5rem auto !important;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr !important;
             }
         }
     </style>
@@ -2595,7 +2387,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
                                 </div>
                             </div>
                             
-                            <div class="sectors-grid mb-4">
+                            <div class="sectors-grid">
                                 <div class="sector-item">
                                     <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-10 py-2 px-3">
                                         <i class="fas fa-leaf me-2"></i>Sustainable Design
