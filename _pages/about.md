@@ -1767,6 +1767,47 @@ latest_posts:
   }
 </style>
 
+---
+## 🔍 Looking Ahead: My Engineering Vision
+
+<div class="future-goals-intro mb-4">
+    <p class="lead">My passion is driven by the aspiration to become a <span class="highlight-primary">professional Building Services Engineer</span>, eager to tackle complex challenges and contribute to global progress through <span class="highlight-innovative">innovative, forward-thinking solutions</span>. I am dedicated to advancing <span class="highlight-green">sustainable building practices</span> by integrating cutting-edge technologies like <span class="highlight-tech">AI, IoT, and renewable energy systems</span>.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-5">
+
+    <!-- CEng Goal - Enhanced Card -->
+    <div class="col">
+        <div class="card h-100 border-2 border-primary shadow-lg hover-scale">
+            <div class="card-header bg-gradient-primary text-white">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-user-tie fa-2x me-3"></i>
+                    <div>
+                        <h5 class="card-title mb-0">Professional Certification</h5>
+                        <p class="card-subtitle small opacity-75 mt-1">Milestone Achievement</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <h6 class="text-primary fw-bold mb-3">Chartered Engineer (CEng)</h6>
+                <p class="card-text">Target completion within 5-6 years through structured development</p>
+                
+                <div class="progress-container mt-4">
+                    <div class="d-flex justify-content-between mb-2">
+                        <small>Progress</small>
+                        <small>20%</small>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 20%"></div>
+                    </div>
+                    <small class="text-muted mt-2 d-block timeline-text">
+                        <i class="far fa-calendar-alt me-1"></i> Estimated: 2028-2029
+                    </small>
+                </div>
+                
+                <div class="badge-container mt-4">
+                    <h6 class="text
+
 <!-- Improved Version -->
 <div class="future-goals-section py-5 px-3 px-md-5 bg-light">
     <div class="container">
