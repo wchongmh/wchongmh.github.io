@@ -1915,10 +1915,14 @@ latest_posts:
             box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.08) !important;
         }
         
-        /* Card Header Styles */
+        /* Card Header Styles - Fixed */
         .card-header {
             border-bottom: none !important;
             position: relative;
+            padding-right: 100px !important;
+            min-height: 90px;
+            display: flex;
+            align-items: center;
         }
         
         /* Professional Certification Card */
@@ -1964,11 +1968,11 @@ latest_posts:
             justify-content: center;
         }
         
-        /* Grid Layouts */
+        /* Grid Layouts - Fixed */
         .sectors-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 12px;
+            gap: 10px;
             margin: 1rem 0;
         }
         
@@ -1978,13 +1982,13 @@ latest_posts:
         
         .sector-item .badge {
             width: 100%;
-            display: flex;
+            display: inline-flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             white-space: normal;
             word-wrap: break-word;
-            padding: 0.5rem !important;
+            padding: 0.5em !important;
             line-height: 1.3;
             min-height: 38px;
         }
@@ -2033,7 +2037,7 @@ latest_posts:
             justify-content: center;
         }
         
-        /* Badge Styles */
+        /* Badge Styles - Fixed */
         .pulse-badge {
             animation: pulse 2s infinite;
         }
@@ -2115,33 +2119,11 @@ latest_posts:
             margin-bottom: 0;
         }
         
-        /* Fixes for display issues */
-        /* 1. Title and badge positioning */
-        .text-center.mb-5 {
-            position: relative;
-            padding-top: 20px;
-        }
-
+        /* Absolute Positioning Fixes */
         .position-absolute.top-0.end-0 {
-            transform: translateY(-50%);
-            right: 20px !important;
-        }
-
-        /* 2. Program benefits section */
-        .program-benefits {
-            padding-top: 15px !important;
-            margin-top: 15px !important;
-        }
-
-        /* 4. Badge text visibility */
-        .badge {
-            overflow: visible;
-            white-space: normal;
-            word-break: break-word;
-            height: auto;
-            min-height: 38px;
-            display: inline-flex;
-            align-items: center;
+            right: 15px !important;
+            top: 15px !important;
+            transform: none !important;
         }
         
         /* Responsive Adjustments */
@@ -2463,8 +2445,6 @@ latest_posts:
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
----
 
 ## 🌐 Global Competence
 
