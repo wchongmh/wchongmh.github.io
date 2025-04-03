@@ -2467,7 +2467,7 @@ latest_posts:
       
       <div class="mt-4 pt-2 border-top">
         <p class="mb-0 text-muted d-flex align-items-center">
-          <i class="fas fa-comment-dots me-2 text-primary"></i>
+          <i class="fas fa-comments me-2 text-primary"></i>
           <span>Excel in cross-cultural communication with professional fluency in 3 languages</span>
         </p>
       </div>
@@ -2483,7 +2483,7 @@ latest_posts:
       </div>
       
       <div class="d-flex align-items-start bg-success-soft p-3 rounded-3 mb-3 border border-success border-opacity-10">
-        <i class="fas fa-id-card fa-2x text-success mt-1 me-3"></i>
+        <i class="fas fa-passport fa-3x text-success me-3"></i>
         <div>
           <h5 class="mb-1 d-flex align-items-center">
             <span class="me-2">UK Work Rights</span>
@@ -2496,10 +2496,9 @@ latest_posts:
       </div>
       
       <div class="alert alert-success-soft border border-success border-opacity-10 d-flex align-items-center">
-        <i class="fas fa-bolt text-success me-3 fa-lg"></i>
+        <i class="fa-clock me-2"></i>
         <div>
           <strong>Immediately available</strong> to contribute skills and expertise
-          <div class="small mt-1 opacity-75">Can start within 2 weeks notice</div>
         </div>
       </div>
     </div>
@@ -2558,68 +2557,6 @@ latest_posts:
     background-color: rgba(240, 173, 78, 0.1);
   }
 </style>
-
----
-
-## 🌐 Global Competence
-
-<div class="row g-4 mt-3">
-  <!-- Languages -->
-  <div class="col-md-6">
-    <div class="p-4 border rounded-3 bg-light-hover h-100">
-      <div class="d-flex align-items-center mb-3">
-        <i class="fas fa-globe-asia fa-2x text-primary me-3"></i>
-        <h4 class="mb-0">Language Proficiency</h4>
-      </div>
-      <div class="row g-3">
-        <div class="col-4 text-center">
-          <div class="lang-card p-2 rounded">
-            <i class="flag-icon flag-icon-gb fa-2x text-danger mb-2"></i>
-            <div class="fw-bold">English</div>
-            <small class="text-muted">Fluent</small>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="lang-card p-2 rounded">
-            <i class="flag-icon flag-icon-cn fa-2x text-success mb-2"></i>
-            <div class="fw-bold">Mandarin</div>
-            <small class="text-muted">Native</small>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="lang-card p-2 rounded">
-            <i class="flag-icon flag-icon-hk fa-2x text-warning mb-2"></i>
-            <div class="fw-bold">Cantonese</div>
-            <small class="text-muted">Native</small>
-          </div>
-        </div>
-      </div>
-      <p class="mt-3 mb-0 text-muted">
-        <i class="fas fa-comments me-2"></i>Excel in cross-cultural communication and thrive in diverse environments
-      </p>
-    </div>
-  </div>
-
-  <!-- Work Eligibility -->
-  <div class="col-md-6">
-    <div class="p-4 border rounded-3 bg-light-hover h-100">
-      <div class="d-flex align-items-center mb-3">
-        <i class="fas fa-check-circle fa-2x text-success me-3"></i>
-        <h4 class="mb-0">Work Authorization</h4>
-      </div>
-      <div class="d-flex align-items-center bg-success-light p-3 rounded mb-3">
-        <i class="fas fa-passport fa-3x text-success me-3"></i>
-        <div>
-          <h5 class="mb-1">UK Work Rights</h5>
-          <p class="mb-0 small">No visa sponsorship required</p>
-        </div>
-      </div>
-      <div class="alert alert-success mb-0">
-        <i class="fas fa-clock me-2"></i>Immediately available to contribute skills and expertise
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
