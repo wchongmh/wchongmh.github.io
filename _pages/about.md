@@ -1988,6 +1988,8 @@ Whether assessing **rooftop renewable energy applications**, **optimizing draina
 
 Today, I aim to **leverage emerging technologies**—from **IoT automation to AI-powered building analytics**—to **redefine industry standards** and **inspire the next generation of engineers**.  
 
+---
+
 <!-- 🔍 Looking Ahead -->
 <div class="future-goals-section py-5 px-3 px-md-5 bg-light">
     <div class="container">
@@ -2019,16 +2021,13 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
                         </div>
                     </div>
                     <div class="card-body">
-                        <h4 class="h5 text-primary mb-3">Chartered Engineer (CEng)</h4>
+                        <h4 class="h5 text-primary mb-3 highlighted-text">Chartered Engineer (CEng)</h4>
                         <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
                         
                         <div class="border-top pt-3">
                             <h5 class="h6 mb-3">Key Organizations:</h5>
                             <div class="d-flex flex-wrap gap-2">
-                                <span class="badge bg-dark bg-opacity-10 text-dark border border-dark border-opacity-10 py-2 px-3">
-                                    <i class="fas fa-university me-2"></i>UK-SPEC
-                                </span>
-                                <span class="badge bg-info bg-opacity-10 text-info border border-info border-opacity-10 py-2 px-3">
+                                <span class="badge bg-info bg-opacity-10 text-info border border-info border-opacity-10 py-2 px-3 highlighted-badge">
                                     <i class="fas fa-building me-2"></i>CIBSE
                                 </span>
                             </div>
@@ -2232,13 +2231,18 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
         font-weight: 600;
     }
     
-    .progress-bar-animated {
-        animation: progress-bar-stripes 1s linear infinite;
+    /* New highlight styles */
+    .highlighted-text {
+        font-weight: 700;
+        color: #224abe !important;
+        text-shadow: 0 0 8px rgba(34, 74, 190, 0.1);
     }
     
-    @keyframes progress-bar-stripes {
-        from { background-position: 1rem 0; }
-        to { background-position: 0 0; }
+    .highlighted-badge {
+        background-color: #224abe !important;
+        color: white !important;
+        border-color: #224abe !important;
+        box-shadow: 0 0 10px rgba(34, 74, 190, 0.3);
     }
 </style>
 
