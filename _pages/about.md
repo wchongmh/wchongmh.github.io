@@ -2468,7 +2468,7 @@ latest_posts:
       <div class="mt-4 pt-2 border-top">
         <p class="mb-0 text-muted d-flex align-items-center">
           <i class="fas fa-comments me-2 text-primary"></i>
-          <span>Excel in cross-cultural communication with professional fluency in 3 languages</span>
+          <span>Excel in cross-cultural communication and thrive in diverse environments</span>
         </p>
       </div>
     </div>
@@ -2557,8 +2557,6 @@ latest_posts:
     background-color: rgba(240, 173, 78, 0.1);
   }
 </style>
-
----
 
 <!--📬 Let's Connect Section -->
 <div class="connect-section mb-5">
