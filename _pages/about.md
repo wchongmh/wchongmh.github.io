@@ -2009,20 +2009,54 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 
         <!-- Cards Grid -->
         <div class="row g-4">
-            <!-- CEng Goal Card -->
+            <!-- CEng Goal Card - Enhanced -->
             <div class="col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="card-header bg-gradient-primary text-white py-4">
+                <div class="card h-100 border-0 shadow-lg hover-transform transition-all professional-cert-card">
+                    <div class="card-header bg-gradient-primary text-white py-4 position-relative">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-user-tie fa-3x opacity-25 me-3"></i>
                             <div>
                                 <h3 class="h5 mb-1">Professional Certification</h3>
                             </div>
                         </div>
+                        <div class="position-absolute top-0 end-0 mt-3 me-3">
+                            <span class="badge bg-white text-primary rounded-pill px-3 py-1 pulse-badge">
+                                <i class="fas fa-star me-1"></i>Goal
+                            </span>
+                        </div>
                     </div>
                     <div class="card-body">
-                        <h4 class="h5 text-primary mb-3 highlighted-text">Chartered Engineer (CEng)</h4>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle p-3 me-3">
+                                <i class="fas fa-medal fa-2x"></i>
+                            </div>
+                            <div>
+                                <h4 class="h5 text-primary mb-0 highlighted-text">Chartered Engineer (CEng)</h4>
+                                <small class="text-muted">Engineering Council UK</small>
+                            </div>
+                        </div>
                         <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
+                        
+                        <div class="certification-features mb-4">
+                            <div class="feature-item d-flex mb-2">
+                                <div class="feature-icon text-primary me-2">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span>Internationally recognized qualification</span>
+                            </div>
+                            <div class="feature-item d-flex mb-2">
+                                <div class="feature-icon text-primary me-2">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span>Demonstrates highest standards of competence</span>
+                            </div>
+                            <div class="feature-item d-flex">
+                                <div class="feature-icon text-primary me-2">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span>Commitment to professional development</span>
+                            </div>
+                        </div>
                         
                         <div class="border-top pt-3">
                             <h5 class="h6 mb-3">Key Organizations:</h5>
@@ -2036,44 +2070,76 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
                 </div>
             </div>
 
-            <!-- Graduate Program Card -->
+            <!-- Graduate Program Card - Enhanced -->
             <div class="col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="card-header bg-gradient-success text-white py-4">
+                <div class="card h-100 border-0 shadow-lg hover-transform transition-all training-program-card">
+                    <div class="card-header bg-gradient-success text-white py-4 position-relative">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-graduation-cap fa-3x opacity-25 me-3"></i>
                             <div>
                                 <h3 class="h5 mb-1">Training Program</h3>
                             </div>
                         </div>
+                        <div class="position-absolute top-0 end-0 mt-3 me-3">
+                            <span class="badge bg-white text-success rounded-pill px-3 py-1">
+                                <i class="fas fa-road me-1"></i>Pathway
+                            </span>
+                        </div>
                     </div>
                     <div class="card-body">
-                        <h4 class="h5 text-success mb-3">Engineering Graduate Scheme</h4>
+                        <div class="program-header d-flex align-items-center mb-4">
+                            <div class="program-icon bg-success bg-opacity-10 text-success rounded p-3 me-3">
+                                <i class="fas fa-user-graduate fa-2x"></i>
+                            </div>
+                            <div>
+                                <h4 class="h5 text-success mb-0">Engineering Graduate Scheme</h4>
+                                <small class="text-muted">Accredited Development Program</small>
+                            </div>
+                        </div>
                         <p class="text-muted mb-4">Seeking accredited program participation with clear milestones</p>
                         
                         <div class="timeline-container mt-4">
                             <div class="timeline">
                                 <div class="timeline-item">
-                                    <div class="timeline-badge bg-success"></div>
+                                    <div class="timeline-badge bg-success pulse-badge"></div>
                                     <div class="timeline-content">
                                         <h5 class="h6 mb-1">Year 1</h5>
                                         <p class="small text-muted">Core Competencies Development</p>
                                         <ul class="small ps-3">
                                             <li>Fundamental engineering principles</li>
                                             <li>Industry standards & regulations</li>
+                                            <li>Technical skills enhancement</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="timeline-item">
-                                    <div class="timeline-badge bg-success"></div>
+                                    <div class="timeline-badge bg-success pulse-badge"></div>
                                     <div class="timeline-content">
                                         <h5 class="h6 mb-1">Year 2</h5>
                                         <p class="small text-muted">Specialization Phase</p>
                                         <ul class="small ps-3">
                                             <li>Advanced systems design</li>
-                                            <li>Project management</li>
+                                            <li>Innovation in building services</li>
                                         </ul>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="program-benefits mt-4 pt-3 border-top">
+                            <h5 class="h6 mb-3">Program Benefits:</h5>
+                            <div class="benefits-grid">
+                                <div class="benefit-item text-center p-2 rounded">
+                                    <i class="fas fa-network-wired text-success mb-2"></i>
+                                    <small>Industry Network</small>
+                                </div>
+                                <div class="benefit-item text-center p-2 rounded">
+                                    <i class="fas fa-certificate text-success mb-2"></i>
+                                    <small>Accreditation</small>
+                                </div>
+                                <div class="benefit-item text-center p-2 rounded">
+                                    <i class="fas fa-chart-line text-success mb-2"></i>
+                                    <small>Career Growth</small>
                                 </div>
                             </div>
                         </div>
@@ -2081,58 +2147,93 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
                 </div>
             </div>
 
-            <!-- Industry Experience Card -->
+            <!-- Industry Experience Card - Enhanced -->
             <div class="col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div class="card-header bg-gradient-info text-white py-4">
+                <div class="card h-100 border-0 shadow-lg hover-transform transition-all experience-card">
+                    <div class="card-header bg-gradient-info text-white py-4 position-relative">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-hard-hat fa-3x opacity-25 me-3"></i>
                             <div>
                                 <h3 class="h5 mb-1">Hands-On Experience</h3>
                             </div>
                         </div>
+                        <div class="position-absolute top-0 end-0 mt-3 me-3">
+                            <span class="badge bg-white text-info rounded-pill px-3 py-1">
+                                <i class="fas fa-briefcase me-1"></i>Practice
+                            </span>
+                        </div>
                     </div>
                     <div class="card-body">
-                        <h4 class="h5 text-info mb-3">2+ Years Industry Practice</h4>
-                        <p class="text-muted mb-3">Target sectors for professional development:</p>
+                        <div class="experience-header d-flex align-items-center mb-4">
+                            <div class="experience-icon bg-info bg-opacity-10 text-info rounded p-3 me-3">
+                                <i class="fas fa-building fa-2x"></i>
+                            </div>
+                            <div>
+                                <h4 class="h5 text-info mb-0">2+ Years Industry Practice</h4>
+                                <small class="text-muted">Target sectors for development</small>
+                            </div>
+                        </div>
                         
-                        <div class="mb-4">
-                            <div class="d-flex flex-wrap gap-2 mb-3">
+                        <div class="sectors-grid mb-4">
+                            <div class="sector-item">
                                 <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-10 py-2 px-3">
                                     <i class="fas fa-leaf me-2"></i>Sustainable Design
                                 </span>
+                            </div>
+                            <div class="sector-item">
                                 <span class="badge bg-warning bg-opacity-10 text-warning border border-warning border-opacity-10 py-2 px-3">
                                     <i class="fas fa-brain me-2"></i>Smart Buildings
                                 </span>
+                            </div>
+                            <div class="sector-item">
                                 <span class="badge bg-danger bg-opacity-10 text-danger border border-danger border-opacity-10 py-2 px-3">
                                     <i class="fas fa-cube me-2"></i>BIM Implementation
                                 </span>
                             </div>
+                            <div class="sector-item">
+                                <span class="badge bg-purple bg-opacity-10 text-purple border border-purple border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-bolt me-2"></i>Energy Efficiency
+                                </span>
+                            </div>
+                            <div class="sector-item">
+                                <span class="badge bg-teal bg-opacity-10 text-teal border border-teal border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-recycle me-2"></i>Circular Economy
+                                </span>
+                            </div>
+                            <div class="sector-item">
+                                <span class="badge bg-indigo bg-opacity-10 text-indigo border border-indigo border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-fire-extinguisher me-2"></i>Fire Safety
+                                </span>
+                            </div>
                         </div>
                         
-                        <div class="border-top pt-3">
-                            <h5 class="h6 mb-3">Career Progression Track:</h5>
-                            <div class="career-path">
-                                <div class="path-item active">
-                                    <div class="path-node bg-info"></div>
-                                    <div class="path-content">
-                                        <h6 class="mb-0">Junior Engineer</h6>
-                                        <small class="text-muted">0-2 years experience</small>
-                                    </div>
+                        <div class="experience-highlights border-top pt-3">
+                            <h5 class="h6 mb-3">Experience Focus:</h5>
+                            <div class="highlight-item d-flex mb-3">
+                                <div class="highlight-icon bg-info text-white rounded-circle p-2 me-3">
+                                    <i class="fas fa-lightbulb"></i>
                                 </div>
-                                <div class="path-item">
-                                    <div class="path-node bg-info bg-opacity-25"></div>
-                                    <div class="path-content">
-                                        <h6 class="mb-0">Project Engineer</h6>
-                                        <small class="text-muted">3-5 years experience</small>
-                                    </div>
+                                <div>
+                                    <h6 class="mb-1">Innovation</h6>
+                                    <small class="text-muted">Implementing cutting-edge solutions</small>
                                 </div>
-                                <div class="path-item">
-                                    <div class="path-node bg-info bg-opacity-10"></div>
-                                    <div class="path-content">
-                                        <h6 class="mb-0">Senior Engineer</h6>
-                                        <small class="text-muted">5+ years experience</small>
-                                    </div>
+                            </div>
+                            <div class="highlight-item d-flex mb-3">
+                                <div class="highlight-icon bg-info text-white rounded-circle p-2 me-3">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1">Collaboration</h6>
+                                    <small class="text-muted">Working with multidisciplinary teams</small>
+                                </div>
+                            </div>
+                            <div class="highlight-item d-flex">
+                                <div class="highlight-icon bg-info text-white rounded-circle p-2 me-3">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1">Impact</h6>
+                                    <small class="text-muted">Delivering measurable results</small>
                                 </div>
                             </div>
                         </div>
@@ -2144,7 +2245,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
 </div>
 
 <style>
-    /* Custom CSS for enhanced design */
+    /* Base Styles */
     .future-goals-section {
         background-color: #f8f9fa;
         border-radius: 0.5rem;
@@ -2154,15 +2255,154 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
         max-width: 800px;
     }
     
-    .hover-shadow {
+    /* Card Enhancements */
+    .hover-transform {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     
-    .hover-shadow:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 1rem 2rem rgba(0,0,0,0.15) !important;
+    .hover-transform:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,0.1) !important;
     }
     
+    .shadow-lg {
+        box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.08) !important;
+    }
+    
+    /* Professional Certification Card */
+    .professional-cert-card {
+        border-top: 4px solid #4e73df;
+    }
+    
+    .certification-features .feature-icon {
+        min-width: 20px;
+    }
+    
+    .icon-box {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Training Program Card */
+    .training-program-card {
+        border-top: 4px solid #1cc88a;
+    }
+    
+    .program-icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+    
+    .benefit-item {
+        background-color: rgba(28, 200, 138, 0.05);
+        transition: all 0.3s ease;
+    }
+    
+    .benefit-item:hover {
+        background-color: rgba(28, 200, 138, 0.1);
+        transform: translateY(-2px);
+    }
+    
+    /* Industry Experience Card */
+    .experience-card {
+        border-top: 4px solid #36b9cc;
+    }
+    
+    .experience-icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sectors-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .highlight-item {
+        transition: all 0.3s ease;
+    }
+    
+    .highlight-item:hover {
+        background-color: rgba(54, 185, 204, 0.05);
+        border-radius: 0.25rem;
+        padding: 0.25rem;
+    }
+    
+    .highlight-icon {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Badge Styles */
+    .pulse-badge {
+        animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+    
+    /* Color Extensions */
+    .bg-purple {
+        background-color: #6f42c1 !important;
+    }
+    
+    .text-purple {
+        color: #6f42c1 !important;
+    }
+    
+    .bg-teal {
+        background-color: #20c997 !important;
+    }
+    
+    .text-teal {
+        color: #20c997 !important;
+    }
+    
+    .bg-indigo {
+        background-color: #6610f2 !important;
+    }
+    
+    .text-indigo {
+        color: #6610f2 !important;
+    }
+    
+    /* Highlight Styles */
+    .highlighted-text {
+        font-weight: 700;
+        color: #224abe !important;
+        text-shadow: 0 0 8px rgba(34, 74, 190, 0.1);
+    }
+    
+    .highlighted-badge {
+        background-color: #224abe !important;
+        color: white !important;
+        border-color: #224abe !important;
+        box-shadow: 0 0 10px rgba(34, 74, 190, 0.3);
+    }
+    
+    /* Gradient Backgrounds */
     .bg-gradient-primary {
         background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
     }
@@ -2175,6 +2415,7 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
         background: linear-gradient(135deg, #36b9cc 0%, #258391 100%);
     }
     
+    /* Timeline Styles */
     .timeline-container {
         position: relative;
     }
@@ -2207,42 +2448,6 @@ Today, I aim to **leverage emerging technologies**—from **IoT automation to AI
         height: 16px;
         border-radius: 50%;
         border: 3px solid white;
-    }
-    
-    .career-path .path-item {
-        display: flex;
-        margin-bottom: 1rem;
-        align-items: center;
-    }
-    
-    .path-node {
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        margin-right: 1rem;
-        flex-shrink: 0;
-    }
-    
-    .path-content {
-        flex-grow: 1;
-    }
-    
-    .path-item.active .path-content h6 {
-        font-weight: 600;
-    }
-    
-    /* New highlight styles */
-    .highlighted-text {
-        font-weight: 700;
-        color: #224abe !important;
-        text-shadow: 0 0 8px rgba(34, 74, 190, 0.1);
-    }
-    
-    .highlighted-badge {
-        background-color: #224abe !important;
-        color: white !important;
-        border-color: #224abe !important;
-        box-shadow: 0 0 10px rgba(34, 74, 190, 0.3);
     }
 </style>
 
