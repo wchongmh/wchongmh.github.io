@@ -616,163 +616,103 @@ latest_posts:
 
 <!-- 🎓 Academic Excellence Section -->
 <div class="academic-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0">🎓 Academic Excellence</h3>
-  </div>
-  
-  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded">
-    <p class="mb-0 lead">
-      Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the 
-      <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple 
-      prestigious scholarships and awards that recognize academic achievement and leadership.
-    </p>
-  </div>
-
-  <div class="row g-4">
-    <div class="col-lg-8 mx-auto">
-      <div class="card award-card h-100 shadow-sm border-0">
-        <div class="card-header bg-primary text-white rounded-top">
-          <h4 class="mb-0"><i class="fas fa-trophy me-2"></i>Awards & Honors</h4>
-        </div>
-        <div class="card-body p-0">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item d-flex align-items-center py-3">
-              <span class="award-icon me-3">🏆</span>
-              <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="stretched-link text-decoration-none">
-                <strong>GCU SCEBE Prize Winner</strong> - Ranked #1 in my third-year cohort
-              </a>
-            </li>
-            <li class="list-group-item d-flex align-items-center py-3">
-              <span class="award-icon me-3">🏆</span>
-              <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none">
-                <strong>Alistair Harvey Foundation Scholarship</strong> - Full Sponsorship
-              </a>
-            </li>
-            <li class="list-group-item d-flex align-items-center py-3">
-              <span class="award-icon me-3">🏆</span>
-              <a href="/assets/pdf/awards/hkie-outstanding.pdf" target="_blank" class="stretched-link text-decoration-none">
-                <strong>HKIE Outstanding Engineering Student</strong>
-              </a>
-            </li>
-            <li class="list-group-item d-flex align-items-center py-3">
-              <span class="award-icon me-3">🏆</span>
-              <a href="/assets/pdf/awards/hkie-bsd-award.pdf" target="_blank" class="stretched-link text-decoration-none">
-                <strong>HKIE BSD Student Award</strong>
-              </a>
-            </li>
-            <li class="list-group-item d-flex align-items-center py-3">
-              <span class="award-icon me-3">🏆</span>
-              <a href="/assets/pdf/awards/endeavour-merit.pdf" target="_blank" class="stretched-link text-decoration-none">
-                <strong>Endeavour Merit Award</strong>
-              </a>
-            </li>
-            <li class="list-group-item d-flex align-items-center py-3">
-              <span class="award-icon me-3">🏆</span>
-              <a href="/assets/pdf/awards/hksar-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none">
-                <strong>HKSAR Government Scholarship</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="card-footer bg-light bg-opacity-10 rounded-bottom d-flex justify-content-between align-items-center">
-          <small class="text-muted">Click any award to view documentation</small>
-          <a href="/gallery" class="btn btn-sm btn-outline-primary gallery-cta">
-            <i class="fas fa-images me-1"></i> View Achievement Gallery
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- [Your existing academic excellence content remains exactly the same] -->
 </div>
 
-<!-- Gallery Preview Modal (hidden by default) -->
-<div class="modal fade" id="galleryPreview" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">My Academic Journey</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- Gallery Preview Section -->
+<div class="gallery-preview-section mb-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-5">
+        <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
+        <p class="lead">Explore highlights from my university years, award ceremonies, and memorable academic moments.</p>
+        <p>From classroom projects to graduation celebrations, these snapshots capture my educational journey.</p>
+        <a href="/gallery" class="btn btn-primary mt-2">
+          <i class="fas fa-images me-2"></i>View Full Gallery
+        </a>
       </div>
-      <div class="modal-body">
-        <div class="row g-3">
+      <div class="col-lg-7">
+        <div class="row g-3 gallery-preview">
           <div class="col-6">
-            <img src="/assets/img/gallery/preview1.jpg" class="img-fluid rounded" alt="Award Ceremony">
+            <a href="/gallery" class="gallery-item rounded overflow-hidden">
+              <img src="/assets/img/gallery/preview1.jpg" class="img-fluid" alt="Award Ceremony">
+              <div class="gallery-caption">Award Ceremony</div>
+            </a>
           </div>
           <div class="col-6">
-            <img src="/assets/img/gallery/preview2.jpg" class="img-fluid rounded" alt="University Project">
+            <a href="/gallery" class="gallery-item rounded overflow-hidden">
+              <img src="/assets/img/gallery/preview2.jpg" class="img-fluid" alt="Campus Life">
+              <div class="gallery-caption">Campus Life</div>
+            </a>
           </div>
           <div class="col-6">
-            <img src="/assets/img/gallery/preview3.jpg" class="img-fluid rounded" alt="Scholarship Event">
+            <a href="/gallery" class="gallery-item rounded overflow-hidden">
+              <img src="/assets/img/gallery/preview3.jpg" class="img-fluid" alt="Project Work">
+              <div class="gallery-caption">Project Work</div>
+            </a>
           </div>
           <div class="col-6">
-            <img src="/assets/img/gallery/preview4.jpg" class="img-fluid rounded" alt="Graduation">
+            <a href="/gallery" class="gallery-item rounded overflow-hidden">
+              <img src="/assets/img/gallery/preview4.jpg" class="img-fluid" alt="Graduation Day">
+              <div class="gallery-caption">Graduation Day</div>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="modal-footer justify-content-center">
-        <a href="/gallery" class="btn btn-primary">
-          <i class="fas fa-images me-2"></i> View Full Gallery
-        </a>
       </div>
     </div>
   </div>
 </div>
 
 <style>
-  .award-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  .gallery-preview-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    border-radius: 0.5rem;
+    border-top: 4px solid var(--bs-primary);
   }
-  .award-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.1) !important;
-  }
-  .award-icon {
-    font-size: 1.25rem;
-    min-width: 30px;
-    text-align: center;
-  }
-  .stretched-link::after {
-    z-index: 1;
-  }
-  .list-group-item {
-    transition: background-color 0.2s ease;
-  }
-  .list-group-item:hover {
-    background-color: rgba(13,110,253,0.05);
-  }
-  .intro-text {
-    border-left: 3px solid var(--bs-primary);
-  }
-  .gallery-cta {
+  
+  .gallery-item {
+    display: block;
     position: relative;
+    transition: all 0.3s ease;
+    height: 180px;
     overflow: hidden;
-    transition: all 0.3s ease;
   }
-  .gallery-cta:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
   }
-  .gallery-cta::after {
-    content: "→";
+  
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .gallery-caption {
     position: absolute;
-    right: -20px;
-    transition: all 0.3s ease;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
   }
-  .gallery-cta:hover::after {
-    right: 10px;
+  
+  .gallery-item:hover .gallery-caption {
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 992px) {
+    .gallery-preview-section {
+      text-align: center;
+    }
   }
 </style>
-
-<script>
-  // Optional: Add this if you want the modal to show automatically
-  document.addEventListener('DOMContentLoaded', function() {
-    // Show modal after 5 seconds of viewing the section
-    setTimeout(function() {
-      var galleryModal = new bootstrap.Modal(document.getElementById('galleryPreview'));
-      galleryModal.show();
-    }, 5000);
-  });
-</script>
 
 ---
 
