@@ -642,7 +642,7 @@ latest_posts:
           </div>
           <div class="col-6">
             <a href="/gallery" class="gallery-item rounded overflow-hidden">
-              <img src="/assets/img/awards/sharing-experience.jpg" class="img-fluid" alt="Invited to Share Experience">
+              <img src="/assets/img/awards/sharing-experience.png" class="img-fluid" alt="Invited to Share Experience">
               <div class="gallery-caption">Invited to Share Experience</div>
             </a>
           </div>
