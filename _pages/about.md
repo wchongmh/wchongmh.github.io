@@ -715,35 +715,35 @@ latest_posts:
     <div class="row g-4 align-items-center">
       <div class="col-lg-5">
         <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
-        <p class="lead">Moments of recognition and celebration from my academic achievements.</p>
+        <p class="lead">Explore highlights from my university years, award ceremonies, and memorable academic moments.</p>
         <a href="/gallery" class="btn btn-primary mt-2">
           <i class="fas fa-images me-2"></i>View Full Gallery
         </a>
       </div>
       <div class="col-lg-7">
         <div class="gallery-preview">
-          <!-- Top Row - Two Square Images -->
+          <!-- Top Row - Two Images -->
           <div class="row g-3 mb-3">
             <div class="col-6">
-              <a href="/gallery" class="gallery-item rounded overflow-hidden">
-                <img src="/assets/img/awards/scebe-2.jpg" class="img-fluid" alt="Award Ceremony" style="object-fit: cover; height: 180px; width: 100%;">
+              <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
+                <img src="/assets/img/awards/scebe-2" class="img-fluid w-100" alt="Award Ceremony" style="height: auto; object-fit: contain;">
                 <div class="gallery-caption">Award Ceremony</div>
               </a>
             </div>
             <div class="col-6">
-              <a href="/gallery" class="gallery-item rounded overflow-hidden">
-                <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid" alt="Outstanding Engineering Student" style="object-fit: cover; height: 180px; width: 100%;">
-                <div class="gallery-caption">Outstanding Engineering Student</div>
+              <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
+                <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid w-100" alt="Campus Life" style="height: auto; object-fit: contain;">
+                <div class="gallery-caption">Campus Life</div>
               </a>
             </div>
           </div>
           
-          <!-- Bottom Row - Single Wide Project Image -->
+          <!-- Bottom Row - Project Image -->
           <div class="row">
             <div class="col-12">
-              <a href="/gallery" class="gallery-item rounded overflow-hidden">
-                <img src="/assets/img/awards/sharing-experience.png" class="img-fluid" alt="Invited to Share Experience" style="width: 100%; height: auto; max-height: 200px; object-fit: contain;">
-                <div class="gallery-caption">Invited to Share Experience</div>
+              <a href="/gallery" class="gallery-item rounded overflow-hidden d-block">
+                <img src="/assets/img/awards/sharing-experience.png" class="img-fluid w-100" alt="Project Work" style="height: auto; max-height: 300px; object-fit: contain;">
+                <div class="gallery-caption">Project Work</div>
               </a>
             </div>
           </div>
@@ -766,10 +766,12 @@ latest_posts:
     position: relative;
     transition: all 0.3s ease;
     overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.1);
   }
   
   .gallery-item img {
     transition: transform 0.5s ease;
+    width: 100%;
   }
   
   .gallery-item:hover img {
@@ -798,8 +800,9 @@ latest_posts:
       text-align: center;
     }
     
-    .gallery-preview .col-12 img {
-      max-height: 180px;
+    .gallery-preview .col-6, 
+    .gallery-preview .col-12 {
+      margin-bottom: 1rem;
     }
   }
 </style>
