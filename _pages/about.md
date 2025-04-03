@@ -1988,6 +1988,260 @@ Whether assessing **rooftop renewable energy applications**, **optimizing draina
 
 Today, I aim to **leverage emerging technologies**—from **IoT automation to AI-powered building analytics**—to **redefine industry standards** and **inspire the next generation of engineers**.  
 
+<!-- 🔍 Looking Ahead -->
+<div class="future-goals-section py-5 px-3 px-md-5 bg-light">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+            <span class="badge bg-primary bg-opacity-10 text-primary fs-6 mb-3 px-4 py-2 rounded-pill">
+                <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
+            </span>
+            <h2 class="display-5 fw-bold mb-3">Future Goals & Professional Journey</h2>
+            <p class="lead text-muted max-w-800 mx-auto">
+                My passion is driven by the aspiration to become a professional Building Services Engineer, 
+                eager to tackle complex challenges and contribute to global progress through innovative, 
+                forward-thinking solutions. I am dedicated to advancing sustainable building practices 
+                by integrating cutting-edge technologies like AI, IoT, and renewable energy systems.
+            </p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="row g-4">
+            <!-- CEng Goal Card -->
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                    <div class="card-header bg-gradient-primary text-white py-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-user-tie fa-3x opacity-25 me-3"></i>
+                            <div>
+                                <h3 class="h5 mb-1">Professional Certification</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="h5 text-primary mb-3">Chartered Engineer (CEng)</h4>
+                        <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
+                        
+                        <div class="border-top pt-3">
+                            <h5 class="h6 mb-3">Key Organizations:</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-dark bg-opacity-10 text-dark border border-dark border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-university me-2"></i>UK-SPEC
+                                </span>
+                                <span class="badge bg-info bg-opacity-10 text-info border border-info border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-building me-2"></i>CIBSE
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Graduate Program Card -->
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                    <div class="card-header bg-gradient-success text-white py-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-graduation-cap fa-3x opacity-25 me-3"></i>
+                            <div>
+                                <h3 class="h5 mb-1">Training Program</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="h5 text-success mb-3">Engineering Graduate Scheme</h4>
+                        <p class="text-muted mb-4">Seeking accredited program participation with clear milestones</p>
+                        
+                        <div class="timeline-container mt-4">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-badge bg-success"></div>
+                                    <div class="timeline-content">
+                                        <h5 class="h6 mb-1">Year 1</h5>
+                                        <p class="small text-muted">Core Competencies Development</p>
+                                        <ul class="small ps-3">
+                                            <li>Fundamental engineering principles</li>
+                                            <li>Industry standards & regulations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-badge bg-success"></div>
+                                    <div class="timeline-content">
+                                        <h5 class="h6 mb-1">Year 2</h5>
+                                        <p class="small text-muted">Specialization Phase</p>
+                                        <ul class="small ps-3">
+                                            <li>Advanced systems design</li>
+                                            <li>Project management</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Industry Experience Card -->
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-sm hover-shadow transition-all">
+                    <div class="card-header bg-gradient-info text-white py-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-hard-hat fa-3x opacity-25 me-3"></i>
+                            <div>
+                                <h3 class="h5 mb-1">Hands-On Experience</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="h5 text-info mb-3">2+ Years Industry Practice</h4>
+                        <p class="text-muted mb-3">Target sectors for professional development:</p>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-leaf me-2"></i>Sustainable Design
+                                </span>
+                                <span class="badge bg-warning bg-opacity-10 text-warning border border-warning border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-brain me-2"></i>Smart Buildings
+                                </span>
+                                <span class="badge bg-danger bg-opacity-10 text-danger border border-danger border-opacity-10 py-2 px-3">
+                                    <i class="fas fa-cube me-2"></i>BIM Implementation
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="border-top pt-3">
+                            <h5 class="h6 mb-3">Career Progression Track:</h5>
+                            <div class="career-path">
+                                <div class="path-item active">
+                                    <div class="path-node bg-info"></div>
+                                    <div class="path-content">
+                                        <h6 class="mb-0">Junior Engineer</h6>
+                                        <small class="text-muted">0-2 years experience</small>
+                                    </div>
+                                </div>
+                                <div class="path-item">
+                                    <div class="path-node bg-info bg-opacity-25"></div>
+                                    <div class="path-content">
+                                        <h6 class="mb-0">Project Engineer</h6>
+                                        <small class="text-muted">3-5 years experience</small>
+                                    </div>
+                                </div>
+                                <div class="path-item">
+                                    <div class="path-node bg-info bg-opacity-10"></div>
+                                    <div class="path-content">
+                                        <h6 class="mb-0">Senior Engineer</h6>
+                                        <small class="text-muted">5+ years experience</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Custom CSS for enhanced design */
+    .future-goals-section {
+        background-color: #f8f9fa;
+        border-radius: 0.5rem;
+    }
+    
+    .max-w-800 {
+        max-width: 800px;
+    }
+    
+    .hover-shadow {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .hover-shadow:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 2rem rgba(0,0,0,0.15) !important;
+    }
+    
+    .bg-gradient-primary {
+        background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    }
+    
+    .bg-gradient-success {
+        background: linear-gradient(135deg, #1cc88a 0%, #13855c 100%);
+    }
+    
+    .bg-gradient-info {
+        background: linear-gradient(135deg, #36b9cc 0%, #258391 100%);
+    }
+    
+    .timeline-container {
+        position: relative;
+    }
+    
+    .timeline {
+        position: relative;
+        padding-left: 2rem;
+    }
+    
+    .timeline:before {
+        content: '';
+        position: absolute;
+        left: 7px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #e9ecef;
+    }
+    
+    .timeline-item {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+    
+    .timeline-badge {
+        position: absolute;
+        left: -2rem;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    
+    .career-path .path-item {
+        display: flex;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    
+    .path-node {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+    
+    .path-content {
+        flex-grow: 1;
+    }
+    
+    .path-item.active .path-content h6 {
+        font-weight: 600;
+    }
+    
+    .progress-bar-animated {
+        animation: progress-bar-stripes 1s linear infinite;
+    }
+    
+    @keyframes progress-bar-stripes {
+        from { background-position: 1rem 0; }
+        to { background-position: 0 0; }
+    }
+</style>
+
 ---
 
 ## 🔍 Looking Ahead
