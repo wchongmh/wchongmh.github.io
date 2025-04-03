@@ -1964,12 +1964,12 @@ latest_posts:
             justify-content: center;
         }
         
-        /* Grid Layouts - FIXED */
+        /* Grid Layouts */
         .sectors-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            margin-bottom: 1rem;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin: 1rem 0;
         }
         
         .sector-item {
@@ -1983,12 +1983,17 @@ latest_posts:
             justify-content: center;
             text-align: center;
             white-space: normal;
+            word-wrap: break-word;
+            padding: 0.5rem !important;
+            line-height: 1.3;
+            min-height: 38px;
         }
         
         .benefits-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+            margin-bottom: 1rem;
         }
         
         /* Interactive Elements */
@@ -1996,11 +2001,13 @@ latest_posts:
             background-color: rgba(28, 200, 138, 0.05);
             transition: all 0.3s ease;
             text-align: center;
-            padding: 0.5rem;
+            padding: 0.75rem !important;
             border-radius: 0.25rem;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
+            min-height: 80px;
         }
         
         .benefit-item:hover {
@@ -2064,7 +2071,7 @@ latest_posts:
             background: linear-gradient(135deg, var(--info) 0%, #258391 100%);
         }
         
-        /* Timeline Styles - FIXED */
+        /* Timeline Styles */
         .timeline-container {
             position: relative;
         }
@@ -2108,7 +2115,36 @@ latest_posts:
             margin-bottom: 0;
         }
         
-        /* Responsive Adjustments - IMPROVED */
+        /* Fixes for display issues */
+        /* 1. Title and badge positioning */
+        .text-center.mb-5 {
+            position: relative;
+            padding-top: 20px;
+        }
+
+        .position-absolute.top-0.end-0 {
+            transform: translateY(-50%);
+            right: 20px !important;
+        }
+
+        /* 2. Program benefits section */
+        .program-benefits {
+            padding-top: 15px !important;
+            margin-top: 15px !important;
+        }
+
+        /* 4. Badge text visibility */
+        .badge {
+            overflow: visible;
+            white-space: normal;
+            word-break: break-word;
+            height: auto;
+            min-height: 38px;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        /* Responsive Adjustments */
         @media (max-width: 992px) {
             .card-header .d-flex {
                 flex-direction: column;
@@ -2126,6 +2162,7 @@ latest_posts:
                 right: auto !important;
                 margin-top: 0.5rem;
                 justify-content: center !important;
+                transform: none !important;
             }
         }
         
@@ -2159,6 +2196,10 @@ latest_posts:
             
             .benefits-grid {
                 grid-template-columns: 1fr !important;
+            }
+            
+            .badge {
+                font-size: 0.8rem !important;
             }
         }
     </style>
