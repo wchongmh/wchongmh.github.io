@@ -620,7 +620,7 @@ latest_posts:
     <div class="row g-4 align-items-center">
       <div class="col-lg-5">
         <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
-        <p class="lead">"These photographs capture moments of recognition and celebration from special ceremonies and milestones honoring my academic achievements."</p>
+        <p class="lead">These photographs capture moments of recognition and celebration from special ceremonies and milestones honoring my academic achievements.</p>
         <a href="/gallery" class="btn btn-primary mt-2">
           <i class="fas fa-images me-2"></i> View Full Gallery
         </a>
