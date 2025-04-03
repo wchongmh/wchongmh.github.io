@@ -630,20 +630,20 @@ latest_posts:
         <div class="row g-3 gallery-preview">
           <div class="col-6">
             <a href="/gallery" class="gallery-item rounded overflow-hidden">
-              <img src="/assets/img/gallery/preview1.jpg" class="img-fluid" alt="Award Ceremony">
+              <img src="/assets/img/awards/scebe-2.jpg" class="img-fluid" alt="Award Ceremony">
               <div class="gallery-caption">Award Ceremony</div>
             </a>
           </div>
           <div class="col-6">
             <a href="/gallery" class="gallery-item rounded overflow-hidden">
-              <img src="/assets/img/gallery/preview2.jpg" class="img-fluid" alt="Campus Life">
-              <div class="gallery-caption">Campus Life</div>
+              <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid" alt="Outstanding Engineering Student">
+              <div class="gallery-caption">Outstanding Engineering Student</div>
             </a>
           </div>
           <div class="col-6">
             <a href="/gallery" class="gallery-item rounded overflow-hidden">
-              <img src="/assets/img/gallery/preview3.jpg" class="img-fluid" alt="Project Work">
-              <div class="gallery-caption">Project Work</div>
+              <img src="/assets/img/awards/sharing-experience.jpg" class="img-fluid" alt="Invited to Share Experience">
+              <div class="gallery-caption">Invited to Share Experience</div>
             </a>
           </div>
           <div class="col-6">
@@ -705,113 +705,6 @@ latest_posts:
   @media (max-width: 992px) {
     .gallery-preview-section {
       text-align: center;
-    }
-  }
-</style>
-
-<!-- Award Journey Gallery Preview -->
-<div class="award-gallery-preview py-5 mb-5 bg-light rounded-3">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-5 mb-4 mb-lg-0">
-        <div class="pe-lg-4">
-          <h3 class="mb-3"><i class="fas fa-medal text-warning me-2"></i>My Award Journey</h3>
-          <p class="lead">Moments of recognition and celebration from my academic achievements.</p>
-          <p>These photographs capture special ceremonies and milestones where my hard work was honored.</p>
-          <a href="/gallery" class="btn btn-outline-primary mt-2">
-            <i class="fas fa-trophy me-2"></i>View Award Gallery
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="row g-3">
-          <!-- Award Photo 1 -->
-          <div class="col-md-6">
-            <div class="award-photo-container rounded-3 overflow-hidden shadow-sm">
-              <img src="/assets/img/awards/ceremony1.jpg" class="img-fluid hover-zoom" alt="Receiving GCU SCEBE Prize">
-              <div class="award-photo-caption p-3">
-                <h6 class="mb-0">GCU SCEBE Prize Award</h6>
-                <small class="text-muted">Ranked #1 in my cohort</small>
-              </div>
-            </div>
-          </div>
-          <!-- Award Photo 2 -->
-          <div class="col-md-6">
-            <div class="award-photo-container rounded-3 overflow-hidden shadow-sm">
-              <img src="/assets/img/awards/scholarship.jpg" class="img-fluid hover-zoom" alt="Alistair Harvey Scholarship">
-              <div class="award-photo-caption p-3">
-                <h6 class="mb-0">Alistair Harvey Scholarship</h6>
-                <small class="text-muted">Full sponsorship award</small>
-              </div>
-            </div>
-          </div>
-          <!-- Award Photo 3 -->
-          <div class="col-md-6">
-            <div class="award-photo-container rounded-3 overflow-hidden shadow-sm">
-              <img src="/assets/img/awards/hkie-award.jpg" class="img-fluid hover-zoom" alt="HKIE Outstanding Student">
-              <div class="award-photo-caption p-3">
-                <h6 class="mb-0">HKIE Recognition</h6>
-                <small class="text-muted">Outstanding Engineering Student</small>
-              </div>
-            </div>
-          </div>
-          <!-- Award Photo 4 -->
-          <div class="col-md-6">
-            <div class="award-photo-container rounded-3 overflow-hidden shadow-sm">
-              <img src="/assets/img/awards/graduation.jpg" class="img-fluid hover-zoom" alt="Graduation with Honors">
-              <div class="award-photo-caption p-3">
-                <h6 class="mb-0">Graduation Honors</h6>
-                <small class="text-muted">Distinction achievement</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  .award-gallery-preview {
-    border-top: 4px solid var(--bs-warning);
-    transition: all 0.3s ease;
-  }
-  
-  .award-gallery-preview:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
-  }
-  
-  .award-photo-container {
-    position: relative;
-    height: 200px;
-    background: #f8f9fa;
-    transition: all 0.3s ease;
-  }
-  
-  .award-photo-container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.1) !important;
-  }
-  
-  .hover-zoom {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-  }
-  
-  .award-photo-container:hover .hover-zoom {
-    transform: scale(1.05);
-  }
-  
-  .award-photo-caption {
-    background: white;
-    border-top: 1px solid rgba(0,0,0,0.1);
-  }
-  
-  @media (max-width: 768px) {
-    .award-photo-container {
-      height: 160px;
     }
   }
 </style>
