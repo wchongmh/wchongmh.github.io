@@ -640,9 +640,9 @@ latest_posts:
               <div class="gallery-caption">Outstanding Engineering Student</div>
             </a>
           </div>
-          <div class="col-6">
+          <div class="col-12"> <!-- Changed to full width -->
             <a href="/gallery" class="gallery-item rounded overflow-hidden">
-              <img src="/assets/img/awards/sharing-experience.png" class="img-fluid" alt="Invited to Share Experience">
+              <img src="/assets/img/awards/sharing-experience.png" class="img-fluid" alt="Invited to Share Experience" style="width: 100%; height: auto; max-height: 300px; object-fit: contain;">
               <div class="gallery-caption">Invited to Share Experience</div>
             </a>
           </div>
@@ -670,19 +670,15 @@ latest_posts:
     display: block;
     position: relative;
     transition: all 0.3s ease;
-    height: 180px;
     overflow: hidden;
   }
   
   .gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     transition: transform 0.5s ease;
   }
   
   .gallery-item:hover img {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
   
   .gallery-caption {
@@ -705,6 +701,10 @@ latest_posts:
   @media (max-width: 992px) {
     .gallery-preview-section {
       text-align: center;
+    }
+    
+    .gallery-preview .col-12 img {
+      max-height: 200px; /* Adjust for mobile */
     }
   }
 </style>
