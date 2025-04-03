@@ -802,6 +802,158 @@ latest_posts:
 
 ---
 
+<!-- 📰 Media Recognition & Press Features -->
+<div class="press-section mb-5">
+  <h4 class="mb-4">📰 Media Recognition & Press Features</h4>
+  
+  <div class="lead mb-4">
+    My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
+  </div>
+
+  <div class="press-highlight-box mb-5 p-4 rounded-3" style="background-color: #f8f9fa; border-left: 4px solid #0d6efd;">
+    <div class="d-flex align-items-center">
+      <i class="fas fa-quote-left fa-2x me-3" style="color: #0d6efd; opacity: 0.3;"></i>
+      <div>
+        <p class="mb-2 fst-italic">"Demonstrating exceptional potential in engineering innovation and commitment to STEM education accessibility."</p>
+        <p class="text-muted mb-0">— Hong Kong 01</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Publications Heading - Now properly spaced -->
+  <div class="publications-header mb-5">
+    <h5 class="text-center mb-4">Featured in Hong Kong's Leading Publications</h5>
+  </div>
+
+  <!-- Press Features Grid -->
+  <div class="row g-4">
+    <!-- Hong Kong 01 -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="press-card h-100 p-3 rounded-3">
+        <div class="text-center">
+          <img class="img-fluid rounded z-depth-1 mb-3" src="/assets/img/press/HK01.png" alt="Hong Kong 01 Feature" style="max-height: 150px;">
+          <div class="mt-2">
+            <h6 class="mb-1"><strong>Redefining STEM Accessibility</strong></h6>
+            <p class="text-muted small mb-2"><em>Hong Kong 01</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+              <a href="/assets/pdf/press/HK01-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+                <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+              </a>
+              <a href="/assets/pdf/press/HK01-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+                <i class="fas fa-file-pdf me-1"></i> English PDF
+              </a>
+              <a href="https://www.hk01.com/article/794031" target="_blank" class="btn btn-sm btn-outline-primary">
+                <i class="fas fa-external-link-alt me-1"></i> Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Oriental Daily -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="press-card h-100 p-3 rounded-3">
+        <div class="text-center">
+          <img class="img-fluid rounded z-depth-1 mb-3" src="/assets/img/press/ORIENTAL_DAILY.png" alt="Oriental Daily Print Feature" style="max-height: 150px;">
+          <div class="mt-2">
+            <h6 class="mb-1"><strong>Front-Page Engineering Spotlight</strong></h6>
+            <p class="text-muted small mb-2"><em>Oriental Daily (Website)</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+              <a href="/assets/pdf/press/ORIENTAL_DAILY-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+                <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+              </a>
+              <a href="/assets/pdf/press/ORIENTAL_DAILY-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+                <i class="fas fa-file-pdf me-1"></i> English PDF
+              </a>
+              <a href="https://orientaldaily.on.cc/content/%E8%A6%81%E8%81%9E%E6%B8%AF%E8%81%9E/odn-20220720-0720_00176_025/IVE%E7%94%9F%E8%B5%B4%E8%8B%B1%E8%AE%80%E5%B7%A5%E7%A8%8B--%E5%AF%84%E8%AA%9E%E6%8F%80%E7%A7%91%E5%8B%BF%E8%A8%AD%E9%99%90" target="_blank" class="btn btn-sm btn-outline-primary">
+                <i class="fas fa-external-link-alt me-1"></i> Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ON.CC -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="press-card h-100 p-3 rounded-3">
+        <div class="text-center">
+          <img class="img-fluid rounded z-depth-1 mb-3" src="/assets/img/press/ONCC.png" alt="ON.CC Feature" style="max-height: 150px;">
+          <div class="mt-2">
+            <h6 class="mb-1"><strong>Vocational Education Success</strong></h6>
+            <p class="text-muted small mb-2"><em>ON.CC</em> | <i class="far fa-calendar-alt me-1"></i> 2022</p>
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+              <a href="/assets/pdf/press/ONCC-CHN.pdf" target="_blank" class="btn btn-sm btn-primary">
+                <i class="fas fa-file-pdf me-1"></i> Chinese PDF
+              </a>
+              <a href="/assets/pdf/press/ONCC-ENG.pdf" target="_blank" class="btn btn-sm btn-success">
+                <i class="fas fa-file-pdf me-1"></i> English PDF
+              </a>
+              <a href="https://hk.on.cc/hk/bkn/cnt/news/20220719/bkn-20220719161912442-0719_00822_001.html" target="_blank" class="btn btn-sm btn-outline-primary">
+                <i class="fas fa-external-link-alt me-1"></i> Website
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Additional press items (Sky Post, Line Today, Yahoo News, Newspaper Clipping) -->
+    <!-- ... include the remaining press items with the same structure ... -->
+  </div>
+</div>
+
+<!-- Optional CSS to enhance the press section -->
+<style>
+  .press-section {
+    position: relative;
+    padding: 2rem 0;
+  }
+  
+  .publications-header {
+    position: relative;
+    padding: 1.5rem 0;
+  }
+  
+  .publications-header h5 {
+    position: relative;
+    display: inline-block;
+    padding: 0 2rem;
+  }
+  
+  .publications-header h5:before,
+  .publications-header h5:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 1px;
+    background: #dee2e6;
+  }
+  
+  .publications-header h5:before {
+    left: -60px;
+  }
+  
+  .publications-header h5:after {
+    right: -60px;
+  }
+  
+  .press-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  .press-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: rgba(13, 110, 253, 0.2);
+  }
+</style>
+
+---
+
 #### 📰 Media Recognition & Press Features
 <div class="lead mb-4">
   My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
