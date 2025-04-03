@@ -709,6 +709,101 @@ latest_posts:
   }
 </style>
 
+<!-- Gallery Preview Section -->
+<div class="gallery-preview-section mb-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-5">
+        <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
+        <p class="lead">Moments of recognition and celebration from my academic achievements.</p>
+        <a href="/gallery" class="btn btn-primary mt-2">
+          <i class="fas fa-images me-2"></i>View Full Gallery
+        </a>
+      </div>
+      <div class="col-lg-7">
+        <div class="gallery-preview">
+          <!-- Top Row - Two Square Images -->
+          <div class="row g-3 mb-3">
+            <div class="col-6">
+              <a href="/gallery" class="gallery-item rounded overflow-hidden">
+                <img src="/assets/img/awards/scebe-2.jpg" class="img-fluid" alt="Award Ceremony" style="object-fit: cover; height: 180px; width: 100%;">
+                <div class="gallery-caption">Award Ceremony</div>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="/gallery" class="gallery-item rounded overflow-hidden">
+                <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid" alt="Outstanding Engineering Student" style="object-fit: cover; height: 180px; width: 100%;">
+                <div class="gallery-caption">Outstanding Engineering Student</div>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Bottom Row - Single Wide Project Image -->
+          <div class="row">
+            <div class="col-12">
+              <a href="/gallery" class="gallery-item rounded overflow-hidden">
+                <img src="/assets/img/awards/sharing-experience.png" class="img-fluid" alt="Invited to Share Experience" style="width: 100%; height: auto; max-height: 200px; object-fit: contain;">
+                <div class="gallery-caption">Invited to Share Experience</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .gallery-preview-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    border-radius: 0.5rem;
+    border-top: 4px solid var(--bs-primary);
+  }
+  
+  .gallery-item {
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    transition: transform 0.5s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.03);
+  }
+  
+  .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover .gallery-caption {
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 992px) {
+    .gallery-preview-section {
+      text-align: center;
+    }
+    
+    .gallery-preview .col-12 img {
+      max-height: 180px;
+    }
+  }
+</style>
+
 ---
 
 #### 📰 Media Recognition & Press Features
