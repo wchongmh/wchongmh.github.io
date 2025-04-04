@@ -1294,6 +1294,9 @@ latest_posts:
   </div>
 </div>
 
+<!-- ========== Next Section: 📖 Research Highlights ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
+
 <!-- Animated Separator -->
 <div class="dotted-divider my-5 py-2" style="border-top: 2px dotted #0d6efd; opacity: 0.3; position: relative;">
   <div class="position-absolute top-0 start-0 h-100 bg-primary" style="width: 30px; animation: moveLine 3s infinite linear;"></div>
