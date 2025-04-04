@@ -1160,9 +1160,6 @@ latest_posts:
   }
 </style>
 
-<!-- ========== Next Section: Optimized Industry Experience ========== -->
-<hr class="my-5 border-top border-2 border-primary opacity-25">
-
 <!-- 🏗️ Optimized Industry Experience Section -->
 <div class="industry-experience-section mb-5">
   <!-- Section Header with Subtle Glow -->
