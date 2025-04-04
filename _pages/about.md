@@ -1807,6 +1807,429 @@ latest_posts:
   });
 </script>
 
+<!-- 🔧 Technical Skills Section - Optimized -->
+<div class="technical-skills-section mb-5">
+  <div class="section-header mb-4">
+    <h3 class="section-title">🔧 Technical Skills</h3>
+  </div>
+
+  <div class="skills-container">
+    <div class="skills-grid">
+      <!-- Software & Design Card -->
+      <div class="skill-card" tabindex="0" aria-label="Software and Design Skills">
+        <div class="card-header bg-primary-gradient">
+          <i class="fas fa-laptop-code" aria-hidden="true"></i>
+          <h4>Software & Design</h4>
+        </div>
+        <div class="card-body">
+          <ul class="skills-list">
+            <li class="skill-item">
+              <span class="skill-icon bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">AutoCAD</span>
+                <div class="skill-progress" data-level="95%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <!-- Repeat for other skills -->
+            <li class="skill-item">
+              <span class="skill-icon bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Revit (BIM)</span>
+                <div class="skill-progress" data-level="90%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Dialux</span>
+                <div class="skill-progress" data-level="85%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Hevacomp</span>
+                <div class="skill-progress" data-level="80%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-primary">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">IES VE (ModelIT)</span>
+                <div class="skill-progress" data-level="75%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Building Systems Card -->
+      <div class="skill-card">
+        <div class="card-header bg-info-gradient">
+          <i class="fas fa-building"></i>
+          <h4>Building Systems</h4>
+        </div>
+        <div class="card-body">
+          <ul class="skills-list">
+            <li class="skill-item">
+              <span class="skill-icon bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">HVAC Design</span>
+                <div class="skill-progress" data-level="90%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <!-- Repeat for other skills -->
+            <li class="skill-item">
+              <span class="skill-icon bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Fire Safety Systems</span>
+                <div class="skill-progress" data-level="85%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Pipe & Drainage Design</span>
+                <div class="skill-progress" data-level="88%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Building Performance Modeling</span>
+                <div class="skill-progress" data-level="82%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-info">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Energy Assessment</span>
+                <div class="skill-progress" data-level="78%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Automation Card -->
+      <div class="skill-card">
+        <div class="card-header bg-danger-gradient">
+          <i class="fas fa-robot"></i>
+          <h4>Automation</h4>
+        </div>
+        <div class="card-body">
+          <ul class="skills-list">
+            <li class="skill-item">
+              <span class="skill-icon bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Raspberry Pi/Arduino</span>
+                <div class="skill-progress" data-level="80%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <!-- Repeat for other skills -->
+            <li class="skill-item">
+              <span class="skill-icon bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Smart Home Tech</span>
+                <div class="skill-progress" data-level="75%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">TensorFlow/OpenCV</span>
+                <div class="skill-progress" data-level="70%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">IoT Integration</span>
+                <div class="skill-progress" data-level="78%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-icon bg-danger">
+                <i class="fas fa-check"></i>
+              </span>
+              <div class="skill-content">
+                <span class="skill-name">Home Assistant</span>
+                <div class="skill-progress" data-level="72%">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ===== CSS Variables ===== */
+  :root {
+    --primary-gradient: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    --info-gradient: linear-gradient(135deg, #11998e, #38ef7d);
+    --danger-gradient: linear-gradient(135deg, #ff416c, #ff4b2b);
+    --card-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    --card-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  /* ===== Base Styles ===== */
+  .technical-skills-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    position: relative;
+    display: inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--primary-gradient);
+    border-radius: 3px;
+  }
+
+  /* ===== Skills Grid Layout ===== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  /* ===== Skill Cards ===== */
+  .skill-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-shadow-hover);
+  }
+
+  .card-header {
+    padding: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .card-header i {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+
+  .skill-card:hover .card-header i {
+    transform: scale(1.15);
+  }
+
+  .card-header h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+  }
+
+  /* ===== Skills List ===== */
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .skill-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .skill-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .skill-item:hover .skill-icon {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+  }
+
+  .skill-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .skill-name {
+    font-weight: 500;
+    color: #34495e;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  /* ===== Progress Bars ===== */
+  .skill-progress {
+    height: 6px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 3px;
+    transition: width 1s ease-out;
+  }
+
+  /* Gradient Backgrounds */
+  .bg-primary-gradient { background: var(--primary-gradient); }
+  .bg-info-gradient { background: var(--info-gradient); }
+  .bg-danger-gradient { background: var(--danger-gradient); }
+
+  .bg-primary { background: #3a7bd5; }
+  .bg-info { background: #11998e; }
+  .bg-danger { background: #ff416c; }
+
+  /* Progress bar colors */
+  .skill-card:nth-child(1) .progress-bar { background: #3a7bd5; }
+  .skill-card:nth-child(2) .progress-bar { background: #11998e; }
+  .skill-card:nth-child(3) .progress-bar { background: #ff416c; }
+
+  /* ===== Responsive Adjustments ===== */
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .skill-card {
+      border-radius: 10px;
+    }
+    
+    .card-header, .card-body {
+      padding: 1.25rem;
+    }
+  }
+</style>
+
+<script>
+  // Animate progress bars on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    const progressContainers = document.querySelectorAll('.skill-progress');
+    
+    progressContainers.forEach(container => {
+      const level = container.getAttribute('data-level');
+      const bar = container.querySelector('.progress-bar');
+      
+      // Delay animation slightly for staggered effect
+      setTimeout(() => {
+        bar.style.width = level;
+      }, 100);
+    });
+  });
+</script>
+
 <!-- ========== Next Section: Sustainability Commitment ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
