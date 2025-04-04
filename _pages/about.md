@@ -1636,13 +1636,14 @@ latest_posts:
 <!--🌱 Sustainability Commitment Section -->
 <div class="sustainability-section mb-5">
   <!-- Section Header with Animated Emoji -->
-  <div class="section-header mb-4">
+  <div class="section-header mb-4 text-center">
     <h2 class="mb-0 animate-float">🌱 Sustainability Commitment</h2>
+    <div class="header-divider mx-auto my-3"></div>
   </div>
   
   <!-- Intro Text with Subtle Background -->
-  <div class="intro-text mb-4 p-3 rounded-3 bg-soft-green">
-    <p class="lead mb-0">
+  <div class="intro-text mb-4 p-4 rounded-4 bg-soft-green border-start border-4 border-success">
+    <p class="lead mb-0 text-center">
       I am deeply passionate about <strong class="highlight-green">sustainability and smart system integration</strong>. My engineering philosophy centers on creating solutions that harmonize ecological responsibility with technological innovation.
     </p>
   </div>
@@ -1652,48 +1653,54 @@ latest_posts:
     <div class="row g-4">
       <!-- Passive Design -->
       <div class="col-lg-4 col-md-6">
-        <div class="pillar-card passive-design h-100 p-4 rounded-4 text-center hover-scale">
-          <div class="pillar-icon mb-3 pulse">
-            <i class="fas fa-leaf"></i>
+        <div class="pillar-card passive-design h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-leaf"></i>
+            </div>
           </div>
-          <h3 class="pillar-title mb-3">Passive Design First</h3>
-          <p class="pillar-description mb-3">Natural ventilation & daylighting strategies that reduce energy demand</p>
-          <div class="pillar-features">
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Bioclimatic Design</span>
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Thermal Mass</span>
-            <span class="badge rounded-pill bg-white text-dark mb-1 shadow-sm">Solar Shading</span>
+          <h3 class="pillar-title text-center mb-3">Passive Design First</h3>
+          <p class="pillar-description text-center mb-4">Natural ventilation & daylighting strategies that reduce energy demand</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Bioclimatic Design</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Thermal Mass</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Solar Shading</span>
           </div>
         </div>
       </div>
       
       <!-- Active Efficiency -->
       <div class="col-lg-4 col-md-6">
-        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 text-center hover-scale">
-          <div class="pillar-icon mb-3 pulse">
-            <i class="fas fa-bolt"></i>
+        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-bolt"></i>
+            </div>
           </div>
-          <h3 class="pillar-title mb-3">Active Efficiency</h3>
-          <p class="pillar-description mb-3">IoT-driven energy optimization and smart building systems</p>
-          <div class="pillar-features">
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Predictive Control</span>
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Real-time Monitoring</span>
-            <span class="badge rounded-pill bg-white text-dark mb-1 shadow-sm">Machine Learning</span>
+          <h3 class="pillar-title text-center mb-3">Active Efficiency</h3>
+          <p class="pillar-description text-center mb-4">IoT-driven energy optimization and smart building systems</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Predictive Control</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Real-time Monitoring</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Machine Learning</span>
           </div>
         </div>
       </div>
       
       <!-- Renewable Integration -->
       <div class="col-lg-4 col-md-6">
-        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 text-center hover-scale">
-          <div class="pillar-icon mb-3 pulse">
-            <i class="fas fa-sun"></i>
+        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-sun"></i>
+            </div>
           </div>
-          <h3 class="pillar-title mb-3">Renewable Integration</h3>
-          <p class="pillar-description mb-3">Smart grid solutions and photovoltaic system optimization</p>
-          <div class="pillar-features">
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Solar PV</span>
-            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Energy Storage</span>
-            <span class="badge rounded-pill bg-white text-dark mb-1 shadow-sm">Microgrids</span>
+          <h3 class="pillar-title text-center mb-3">Renewable Integration</h3>
+          <p class="pillar-description text-center mb-4">Smart grid solutions and photovoltaic system optimization</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Solar PV</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Energy Storage</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Microgrids</span>
           </div>
         </div>
       </div>
@@ -1701,39 +1708,54 @@ latest_posts:
   </div>
 
   <!-- Neurodiversity Card - Enhanced Visual Pop -->
-  <div class="neurodiversity-card card border-0 mb-4 shadow-sm hover-grow">
+  <div class="neurodiversity-card card border-0 mb-4 hover-grow">
     <div class="card-body p-4 rounded-3">
       <div class="d-flex align-items-center">
-        <div class="neuro-icon me-3 pulse">
+        <div class="neuro-icon me-3 pulse rounded-circle p-3 bg-primary bg-opacity-10 text-primary">
           <i class="fas fa-brain"></i>
         </div>
         <div>
-          <h4 class="card-title mb-1">Neurodiversity Advantage</h4>
-          <p class="card-text mb-0">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
+          <h4 class="card-title mb-2">Neurodiversity Advantage</h4>
+          <p class="card-text mb-0 text-muted">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Closing Statement - Gradient Border -->
-  <div class="closing-statement p-4 rounded-3 border-start border-4 border-success bg-light-gradient">
-    <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
-    <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+  <div class="closing-statement p-4 p-lg-5 rounded-4 bg-light-gradient position-relative overflow-hidden">
+    <div class="position-absolute top-0 start-0 h-100 w-4 bg-success"></div>
+    <div class="ps-4">
+      <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
+      <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+    </div>
   </div>
 </div>
 
 <style>
-  /* ===== Modern Enhancements ===== */
+  /* ===== Optimized Modern Enhancements ===== */
   /* Core Colors */
   :root {
     --green: #28a745;
-    --yellow: #ffc107;
-    --red: #dc3545;
-    --blue: #0d6efd;
+    --soft-green: rgba(40, 167, 69, 0.08);
+    --light-gray: #f8f9fa;
+    --dark-gray: #212529;
+  }
+
+  /* Section Header */
+  .section-header {
+    position: relative;
+  }
+  .header-divider {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--green), rgba(40, 167, 69, 0.3));
+    border-radius: 3px;
   }
 
   /* Animated Header */
   .animate-float {
+    display: inline-block;
     animation: float 3s ease-in-out infinite;
   }
   @keyframes float {
@@ -1741,27 +1763,59 @@ latest_posts:
     50% { transform: translateY(-5px); }
   }
 
-  /* Soft Background for Intro */
+  /* Intro Text */
   .bg-soft-green {
-    background-color: rgba(40, 167, 69, 0.08);
+    background-color: var(--soft-green);
+  }
+  .highlight-green {
+    color: var(--green);
   }
 
-  /* Pillar Cards - Enhanced */
+  /* Pillar Cards */
   .pillar-card {
     transition: all 0.3s ease;
-    border: none !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    background: white;
+    position: relative;
     overflow: hidden;
   }
+  .pillar-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--green), #6c757d);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
   .hover-scale:hover {
-    transform: scale(1.03) translateY(-5px);
-    box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  .hover-scale:hover::after {
+    transform: scaleX(1);
+  }
+  .pillar-icon-wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
   }
   .pillar-icon {
-    transition: all 0.3s ease;
     width: 70px;
     height: 70px;
     font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    background-color: rgba(40, 167, 69, 0.1);
+    border-radius: 50%;
+  }
+  .pulse {
+    transition: all 0.3s ease;
   }
   .pulse:hover {
     animation: pulse 1.5s infinite;
@@ -1775,30 +1829,50 @@ latest_posts:
   /* Neurodiversity Card */
   .neurodiversity-card {
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #f8f9fa, #e7f1ff);
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-radius: 12px !important;
   }
   .hover-grow:hover {
-    transform: scale(1.01);
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  .neuro-icon {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
   }
 
   /* Closing Statement */
   .bg-light-gradient {
     background: linear-gradient(to right, #f8f9fa, #ffffff);
+    border-left: 4px solid var(--green) !important;
   }
 
-  /* Badges - Modern Flat Style */
+  /* Badges */
   .badge {
     font-weight: 500;
-    padding: 0.35em 0.65em;
+    padding: 0.5em 0.8em;
+    transition: all 0.2s ease;
+  }
+  .badge:hover {
+    transform: translateY(-2px);
   }
 
   /* Responsive Tweaks */
   @media (max-width: 768px) {
     .pillar-card {
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
     }
     .intro-text {
-      padding: 1rem !important;
+      padding: 1.25rem !important;
+    }
+    .neurodiversity-card .d-flex {
+      flex-direction: column;
+      text-align: center;
+    }
+    .neuro-icon {
+      margin-bottom: 1rem;
+      margin-right: 0 !important;
     }
   }
 </style>
@@ -2928,168 +3002,6 @@ latest_posts:
     margin: 0;
     font-size: 0.875rem;
     color: #6c757d;
-  }
-</style>
-
-<!-- ========== Next Section: Let's Connect Section ========== -->
-<hr class="my-5 border-top border-2 border-primary opacity-25">
-
-<!--📬 Let's Connect Section -->
-<div class="connect-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
-  </div>
-  
-  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
-    <!-- Background elements -->
-    <div class="position-absolute top-0 end-0 me-4 mt-3 opacity-10">
-      <i class="fas fa-globe-americas fa-4x text-primary"></i>
-    </div>
-    <div class="position-absolute bottom-0 start-0 ms-4 mb-3 opacity-10">
-      <i class="fas fa-leaf fa-4x text-success"></i>
-    </div>
-      
-      <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-        <!-- Email Button -->
-        <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
-          <div class="btn-content">
-            <div class="btn-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <span>Email Me</span>
-          </div>
-          <div class="btn-hover-content">
-            <span>wchongmh@gmail.com</span>
-          </div>
-        </a>
-        
-        <!-- LinkedIn Button -->
-        <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
-          <div class="btn-content">
-            <div class="btn-icon">
-              <i class="fab fa-linkedin-in"></i>
-            </div>
-            <span>LinkedIn</span>
-          </div>
-          <div class="btn-hover-content">
-            <span>linkedin.com/in/wchongmh</span>
-          </div>
-        </a>
-      </div>
-      
-      <p class="mb-0 connect-message">
-        Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
-        <span class="d-inline-block ms-2"></span>
-      </p>
-    </div>
-  </div>
-</div>
-
-<style>
-  /* Connect Section Styles */
-  .connect-section {
-    position: relative;
-  }
-  
-  .connect-card {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-    border: 1px solid rgba(0,0,0,0.05);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  }
-  
-  .highlight-green {
-    background-color: rgba(40, 167, 69, 0.2);
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-weight: 600;
-  }
-  
-  /* Connect Buttons */
-  .connect-btn {
-    display: inline-flex;
-    align-items: center;
-    padding: 0;
-    border-radius: 50px;
-    text-decoration: none;
-    overflow: hidden;
-    position: relative;
-    height: 56px;
-    width: 180px;
-    transition: all 0.4s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  }
-  
-  .btn-content, .btn-hover-content {
-    padding: 0.75rem 1.5rem;
-    width: 100%;
-    position: absolute;
-    transition: all 0.4s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .btn-content {
-    top: 0;
-  }
-  
-  .btn-hover-content {
-    top: 100%;
-  }
-  
-  .connect-btn:hover .btn-content {
-    top: -100%;
-  }
-  
-  .connect-btn:hover .btn-hover-content {
-    top: 0;
-  }
-  
-  .btn-icon {
-    margin-right: 0.75rem;
-    font-size: 1.25rem;
-  }
-  
-  /* Email Button */
-  .email-btn {
-    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
-    color: white;
-  }
-  
-  .email-btn .btn-hover-content {
-    background: linear-gradient(135deg, #0b5ed7, #2b78e0);
-    color: white;
-  }
-  
-  /* LinkedIn Button */
-  .linkedin-btn {
-    background: linear-gradient(135deg, #0077b5, #00a0dc);
-    color: white;
-  }
-  
-  .linkedin-btn .btn-hover-content {
-    background: linear-gradient(135deg, #006097, #008cc9);
-    color: white;
-  }
-  
-  /* Connect Message */
-  .connect-message {
-    font-size: 1.15rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .connect-card {
-      padding: 2.5rem 1.5rem;
-    }
-    
-    .connect-btn {
-      width: 160px;
-      height: 50px;
-    }
   }
 </style>
 
