@@ -2255,11 +2255,27 @@ latest_posts:
             line-height: 1.6;
             color: #495057;
         }
+
+         /* Looking Ahead Banner */
+        .looking-ahead-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 3rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .looking-ahead-banner i {
+            margin-right: 0.75rem;
+        }
         
         /* Section Styling */
         .future-goals-section {
             background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f9 100%);
-            padding: 4rem 0;
+            padding: 2rem 0 4rem 0;
         }
         
         .max-w-800 {
@@ -2726,14 +2742,16 @@ latest_posts:
     </style>
 </head>
 <body>
+    <!-- Looking Ahead Banner -->
+    <div class="looking-ahead-banner">
+        <i class="fas fa-binoculars"></i>LOOKING AHEAD
+    </div>
+
     <!-- Future Goals Section -->
     <section class="future-goals-section">
         <div class="container">
             <!-- Section Header -->
             <div class="section-header text-center">
-                <span class="section-badge rounded-pill">
-                    <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
-                </span>
                 <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
                 <p class="lead text-muted max-w-800 mx-auto">
                     My passion is driven by the aspiration to become a professional Building Services Engineer, 
