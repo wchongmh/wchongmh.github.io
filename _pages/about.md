@@ -1742,6 +1742,155 @@ latest_posts:
   }
 </style>
 
+<!-- 🏗️ Optimized Industry Experience Section -->
+<div class="industry-experience-section mb-5">
+  <!-- Section Header with Subtle Glow -->
+  <div class="section-header mb-4">
+    <h3 class="display-6 fw-bold mb-0 position-relative ps-4">
+      <i class="fas fa-hard-hat me-3 text-danger" style="filter: drop-shadow(0 2px 4px rgba(220, 53, 69, 0.3));"></i>
+      Industry Experience
+      <span class="position-absolute top-0 start-0 w-3 h-100 bg-danger opacity-10 rounded-pill"></span>
+    </h3>
+  </div>
+
+  <!-- Experience Card with Enhanced Styling -->
+  <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
+    <!-- Changed to bg-danger -->
+    <div class="card-header bg-danger text-white py-3">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
+        <div class="mb-2 mb-md-0">
+          <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
+          <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-white opacity-75">(Hong Kong)</small></h5>
+        </div>
+        <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm">
+          <i class="fas fa-calendar-alt me-2 text-danger"></i> Jan &ndash; Apr 2022
+        </span>
+      </div>
+    </div>
+    
+    <!-- Card Body with Cleaner Spacing -->
+    <div class="card-body px-4 py-3">
+      <!-- Project Highlight with Subtle Glow -->
+      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded position-relative" 
+           style="box-shadow: inset 0 0 12px rgba(220, 53, 69, 0.05);">
+        <div class="position-absolute top-0 start-0 h-100 bg-danger opacity-10" style="width: 3px;"></div>
+        <h6 class="text-uppercase text-muted mb-2 fs-7">
+          <i class="fas fa-star me-2 text-danger"></i>Featured Project
+        </h6>
+        <h5 class="mb-1 fw-semibold">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
+        <p class="mb-0 text-muted"><i class="fas fa-building me-2"></i>1,200+ residential units | Hong Kong</p>
+      </div>
+
+      <!-- Key Contributions with Numbered List -->
+      <h5 class="mb-3 text-danger fw-bold"><i class="fas fa-tasks me-2"></i>Key Contributions</h5>
+      <div class="contribution-list ps-2">
+        <div class="mb-3 d-flex align-items-start">
+          <span class="contribution-badge bg-danger text-white mt-1">1</span>
+          <div class="ms-3">
+            <strong class="d-block mb-1">BIM-Driven Optimization</strong>
+            <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
+          </div>
+        </div>
+        <div class="mb-3 d-flex align-items-start">
+          <span class="contribution-badge bg-danger text-white mt-1">2</span>
+          <div class="ms-3">
+            <strong class="d-block mb-1">Commissioning Efficiency</strong>
+            <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
+          </div>
+        </div>
+        <div class="d-flex align-items-start">
+          <span class="contribution-badge bg-danger text-white mt-1">3</span>
+          <div class="ms-3">
+            <strong class="d-block mb-1">Safety Documentation</strong>
+            <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools Section with Fixed Icons (now white) -->
+      <div class="tools-section mt-4 pt-3 border-top border-light">
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-danger bg-opacity-15 text-dark border border-danger border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
+            <i class="fas fa-cube me-2 text-white"></i> Revit BIM
+          </span>
+          <span class="badge bg-danger bg-opacity-15 text-dark border border-danger border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
+            <i class="fas fa-drafting-compass me-2 text-white"></i> AutoCAD
+          </span>
+          <span class="badge bg-danger bg-opacity-15 text-dark border border-danger border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
+            <i class="fas fa-book me-2 text-white"></i> BEAM Plus
+          </span>
+          <span class="badge bg-danger bg-opacity-15 text-dark border border-danger border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
+            <i class="fas fa-tint me-2 text-white"></i> Plumbing Standards
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Footer with Insight -->
+    <div class="card-footer bg-light bg-opacity-10 py-3 px-4">
+      <p class="mb-0 text-muted fst-italic">
+        <i class="fas fa-lightbulb text-danger me-2"></i>
+        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr class="my-5 border-danger opacity-10" style="height: 2px;">
+
+<!-- Optimized CSS (Updated for Danger Theme) -->
+<style>
+  .industry-experience-section {
+    position: relative;
+  }
+  .experience-card {
+    transition: all 0.3s ease;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  }
+  .card-header.bg-danger {
+    background-color: #dc3545 !important;
+  }
+  .contribution-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .highlight-stat {
+    background-color: rgba(220, 53, 69, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  .highlight-stat:hover {
+    background-color: rgba(220, 53, 69, 0.3);
+  }
+  .project-highlight {
+    transition: all 0.3s ease;
+  }
+  .project-highlight:hover {
+    box-shadow: inset 0 0 15px rgba(220, 53, 69, 0.1);
+  }
+  .tools-section .badge {
+    transition: all 0.25s ease;
+  }
+  .tools-section .badge:hover {
+    background-color: rgba(255,255,255,0.9) !important;
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+</style>
+
 <!-- 🔧 Technical Skills Section - Optimized -->
 <div class="technical-skills-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
