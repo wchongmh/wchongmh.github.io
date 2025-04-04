@@ -1406,10 +1406,10 @@ latest_posts:
   <div class="skills-container mt-4">
     <div class="row g-4">
       <!-- Software & Design Card -->
-      <div class="col-md-4">
-        <div class="skill-card h-100">
+     <div class="col-md-4">
+        <div class="skill-card h-100" tabindex="0" aria-label="Software and Design Skills">
           <div class="skill-header bg-primary-gradient">
-            <i class="fas fa-laptop-code"></i>
+            <i class="fas fa-laptop-code" aria-hidden="true"></i>
             <h5>Software & Design</h5>
           </div>
           <div class="skill-body">
@@ -1586,6 +1586,98 @@ latest_posts:
 </div>
 
 <style>
+  :root {
+  --primary-gradient: linear-gradient(135deg, #3a7bd5, #00d2ff);
+  --info-gradient: linear-gradient(135deg, #11998e, #38ef7d);
+  --danger-gradient: linear-gradient(135deg, #ff416c, #ff4b2b);
+  --skill-bar-height: 6px;
+}
+
+/* ===== Enhanced Skill Cards ===== */
+.skill-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  border: none;
+  position: relative;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card:focus-visible {
+  outline: 2px solid var(--primary-color);
+}
+
+/* Gradient Headers with Icon Pulse */
+.skill-header {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+  position: relative;
+}
+
+.skill-header i {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-header i {
+  transform: scale(1.1);
+}
+
+/* Animated Skill Bars */
+.skill-bar {
+  height: var(--skill-bar-height);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.skill-bar::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 100px;
+  background: currentColor;
+  transition: width 1.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+/* Badge Glow Effect */
+.skill-badge {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-list li:hover .skill-badge {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+/* Mobile Tweaks */
+@media (max-width: 768px) {
+  .skill-card {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+  }
+  .skill-header {
+    padding: 1rem;
+  }
+}
   /* === Optimized CSS (Modular + Performance) === */
   .skills-container {
     position: relative;
