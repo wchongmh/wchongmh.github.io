@@ -1742,6 +1742,324 @@ latest_posts:
   }
 </style>
 
+<!-- 🔧 Technical Skills Section - Optimized -->
+<div class="technical-skills-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0">🔧 Technical Skills</h3>
+  </div>
+
+  <div class="skills-container mt-4">
+    <div class="row g-4">
+      <!-- Software & Design Card -->
+      <div class="col-md-4">
+        <div class="skill-card h-100">
+          <div class="skill-header bg-primary-gradient">
+            <i class="fas fa-laptop-code"></i>
+            <h5>Software & Design</h5>
+          </div>
+          <div class="skill-body">
+            <ul class="skill-list">
+              <li>
+                <span class="skill-badge bg-primary">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>AutoCAD</span>
+                  <div class="skill-bar" data-width="95%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-primary">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Revit (BIM)</span>
+                  <div class="skill-bar" data-width="90%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-primary">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Dialux</span>
+                  <div class="skill-bar" data-width="85%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-primary">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Hevacomp</span>
+                  <div class="skill-bar" data-width="80%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-primary">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>IES VE (ModelIT)</span>
+                  <div class="skill-bar" data-width="75%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Building Systems Card -->
+      <div class="col-md-4">
+        <div class="skill-card h-100">
+          <div class="skill-header bg-info-gradient">
+            <i class="fas fa-building"></i>
+            <h5>Building Systems</h5>
+          </div>
+          <div class="skill-body">
+            <ul class="skill-list">
+              <li>
+                <span class="skill-badge bg-info">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>HVAC Design</span>
+                  <div class="skill-bar" data-width="90%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-info">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Fire Safety Systems</span>
+                  <div class="skill-bar" data-width="85%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-info">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Pipe & Drainage Design</span>
+                  <div class="skill-bar" data-width="88%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-info">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Building Performance Modeling</span>
+                  <div class="skill-bar" data-width="82%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-info">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Energy Assessment</span>
+                  <div class="skill-bar" data-width="78%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Automation Card -->
+      <div class="col-md-4">
+        <div class="skill-card h-100">
+          <div class="skill-header bg-danger-gradient">
+            <i class="fas fa-robot"></i>
+            <h5>Automation</h5>
+          </div>
+          <div class="skill-body">
+            <ul class="skill-list">
+              <li>
+                <span class="skill-badge bg-danger">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Raspberry Pi/Arduino</span>
+                  <div class="skill-bar" data-width="80%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-danger">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Smart Home Tech</span>
+                  <div class="skill-bar" data-width="75%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-danger">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>TensorFlow/OpenCV</span>
+                  <div class="skill-bar" data-width="70%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-danger">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>IoT Integration</span>
+                  <div class="skill-bar" data-width="78%"></div>
+                </div>
+              </li>
+              <li>
+                <span class="skill-badge bg-danger">
+                  <i class="fas fa-check"></i>
+                </span>
+                <div>
+                  <span>Home Assistant</span>
+                  <div class="skill-bar" data-width="72%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* === Optimized CSS (Modular + Performance) === */
+  .skills-container {
+    position: relative;
+  }
+  
+  .skill-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .skill-header {
+    color: white;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .skill-header i {
+    font-size: 1.5rem;
+  }
+  
+  .skill-header h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .skill-body {
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .skill-badge {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 0.7rem;
+  }
+  
+  .skill-list li > div {
+    flex: 1;
+    min-width: 0; /* Prevent overflow */
+  }
+  
+  .skill-bar {
+    height: 6px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    margin-top: 0.25rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .skill-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0; /* Animated via JS/data-width */
+    border-radius: 3px;
+    background: currentColor;
+    transition: width 1s ease-out;
+  }
+  
+  /* Gradient Headers */
+  .bg-primary-gradient {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+  }
+  .bg-info-gradient {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+  }
+  .bg-danger-gradient {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    .skill-card {
+      border-radius: 10px;
+    }
+    .skill-header, .skill-body {
+      padding: 1rem;
+    }
+  }
+</style>
+
+<!-- Animate skill bars on load -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const bars = document.querySelectorAll('.skill-bar');
+    bars.forEach(bar => {
+      const width = bar.getAttribute('data-width');
+      bar.style.setProperty('--target-width', width);
+      bar.querySelector('::after').style.width = width;
+    });
+  });
+</script>
+
 <!-- Leadership & Advocacy Section -->
 <div class="leadership-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
