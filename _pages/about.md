@@ -1038,6 +1038,241 @@ latest_posts:
   }
 </style>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Journey</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    /* Custom Styles */
+    :root {
+      --bs-primary-rgb: 13, 110, 253;
+    }
+    
+    /* Enhanced animations and transitions */
+    .transition-all {
+      transition: all 0.25s ease-in-out;
+    }
+    
+    /* Award card hover effect */
+    .award-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    /* List item hover */
+    .hover-bg-light:hover {
+      background-color: rgba(var(--bs-primary-rgb), 0.05) !important;
+    }
+    
+    /* Gallery improvements */
+    .gallery-preview-section {
+      border-top: 4px solid var(--bs-primary);
+      background: linear-gradient(to bottom, rgba(248, 249, 250, 0.5), white 90%);
+    }
+    
+    .gallery-item {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .gallery-item:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    .gallery-caption {
+      font-size: 0.9rem;
+      padding: 0.75rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+      color: white;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+    
+    .gallery-item:hover .gallery-caption {
+      transform: translateY(0);
+    }
+    
+    /* Responsive tweaks */
+    @media (max-width: 992px) {
+      .gallery-preview-section {
+        text-align: center;
+        padding: 2rem 0;
+      }
+      
+      .gallery-preview .col-12 .gallery-item {
+        margin-top: 1rem;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .professional-journey-header h2 {
+        font-size: 1.75rem;
+      }
+    }
+    
+    /* Custom utilities */
+    .bg-gradient-primary {
+      background: linear-gradient(135deg, rgba(var(--bs-primary-rgb), 1) 0%, rgba(var(--bs-primary-rgb), 0.9) 100%) !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Professional Journey Header -->
+  <div class="container py-5">
+    <div class="professional-journey-header mb-5 animate__animated animate__fadeIn">
+      <div class="d-flex align-items-center">
+        <div class="me-3 display-4 text-primary">
+          <i class="fas fa-university fa-fw"></i>
+        </div>
+        <div>
+          <h2 class="mb-1 fw-bold">Professional Journey</h2>
+          <p class="text-muted mb-0 fs-5">My path through education and career milestones</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🎓 Academic Excellence Section -->
+    <div class="academic-section mb-5">
+      <div class="section-header d-flex align-items-center mb-4">
+        <h3 class="mb-0 fw-semibold">🎓 Academic Excellence</h3>
+      </div>
+      
+      <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded-3 border-start border-primary border-4">
+        <p class="mb-0 lead">
+          Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the 
+          <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple 
+          prestigious scholarships and awards that recognize academic achievement and leadership.
+        </p>
+      </div>
+
+      <div class="row justify-content-center g-4">
+        <div class="col-lg-8 col-xl-7">
+          <div class="card award-card h-100 shadow-sm border-0 overflow-hidden transition-all">
+            <div class="card-header bg-gradient-primary text-white rounded-top py-3">
+              <h4 class="mb-0"><i class="fas fa-trophy me-2"></i>Awards & Honors</h4>
+            </div>
+            <div class="card-body p-0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex align-items-center py-3 hover-bg-light">
+                  <span class="award-icon me-3 fs-5">🏆</span>
+                  <a href="/assets/pdf/awards/gcu-scebe-prize.pdf" target="_blank" class="stretched-link text-decoration-none text-dark">
+                    <strong>GCU SCEBE Prize Winner</strong> - Ranked #1 in my third-year cohort
+                  </a>
+                </li>
+                <li class="list-group-item d-flex align-items-center py-3 hover-bg-light">
+                  <span class="award-icon me-3 fs-5">🏆</span>
+                  <a href="/assets/pdf/awards/alistair-harvey-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none text-dark">
+                    <strong>Alistair Harvey Foundation Scholarship</strong> - Full Sponsorship
+                  </a>
+                </li>
+                <li class="list-group-item d-flex align-items-center py-3 hover-bg-light">
+                  <span class="award-icon me-3 fs-5">🏆</span>
+                  <a href="/assets/pdf/awards/hkie-outstanding.pdf" target="_blank" class="stretched-link text-decoration-none text-dark">
+                    <strong>HKIE Outstanding Engineering Student</strong>
+                  </a>
+                </li>
+                <li class="list-group-item d-flex align-items-center py-3 hover-bg-light">
+                  <span class="award-icon me-3 fs-5">🏆</span>
+                  <a href="/assets/pdf/awards/hkie-bsd-award.pdf" target="_blank" class="stretched-link text-decoration-none text-dark">
+                    <strong>HKIE BSD Student Award</strong>
+                  </a>
+                </li>
+                <li class="list-group-item d-flex align-items-center py-3 hover-bg-light">
+                  <span class="award-icon me-3 fs-5">🏆</span>
+                  <a href="/assets/pdf/awards/endeavour-merit.pdf" target="_blank" class="stretched-link text-decoration-none text-dark">
+                    <strong>Endeavour Merit Award</strong>
+                  </a>
+                </li>
+                <li class="list-group-item d-flex align-items-center py-3 hover-bg-light">
+                  <span class="award-icon me-3 fs-5">🏆</span>
+                  <a href="/assets/pdf/awards/hksar-scholarship.pdf" target="_blank" class="stretched-link text-decoration-none text-dark">
+                    <strong>HKSAR Government Scholarship</strong>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer bg-light bg-opacity-10 rounded-bottom py-2">
+              <small class="text-muted d-flex align-items-center">
+                <i class="fas fa-info-circle me-2"></i>Click any award to view documentation
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery Preview Section -->
+    <div class="gallery-preview-section mb-5 py-4 bg-light bg-opacity-25 rounded-3">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5 pe-lg-4">
+            <h3 class="mb-4"><i class="fas fa-camera-retro me-2 text-primary"></i>Academic Journey in Pictures</h3>
+            <p class="lead mb-4">These photographs capture moments of recognition and celebration from special ceremonies and milestones honoring my academic achievements.</p>
+            <a href="/gallery" class="btn btn-primary btn-lg px-4">
+              <i class="fas fa-images me-2"></i> View Full Gallery
+            </a>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3 gallery-preview">
+              <div class="col-6">
+                <a href="/gallery" class="gallery-item rounded-3 overflow-hidden d-block ratio ratio-4x3">
+                  <img src="/assets/img/awards/scebe-2.jpg" class="img-fluid object-fit-cover" alt="Award Ceremony">
+                  <div class="gallery-caption fs-6">Award Ceremony</div>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="/gallery" class="gallery-item rounded-3 overflow-hidden d-block ratio ratio-4x3">
+                  <img src="/assets/img/awards/hkie-1.jpg" class="img-fluid object-fit-cover" alt="Outstanding Engineering Student">
+                  <div class="gallery-caption fs-6">Outstanding Engineering Student</div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a href="/gallery" class="gallery-item rounded-3 overflow-hidden d-block ratio ratio-16x9">
+                  <img src="/assets/img/awards/sharing-experience.png" class="img-fluid object-fit-contain bg-white" alt="Invited to Share Experience">
+                  <div class="gallery-caption fs-6">Invited to Share Experience</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Simple animation trigger for elements
+    document.addEventListener('DOMContentLoaded', function() {
+      const animateElements = document.querySelectorAll('.animate-on-scroll');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      animateElements.forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
+
 ---
 
 <!-- Professional Journey Header -->
