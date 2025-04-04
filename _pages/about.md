@@ -1630,210 +1630,6 @@ latest_posts:
   });
 </script>
 
-<!-- Leadership & Advocacy Section -->
-<div class="leadership-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h2 class="mb-0"><i class="fas fa-users-cog me-3 text-primary"></i>Leadership & Advocacy <span class="text-globe"></span></h2>
-  </div>
-  
-  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded-3 border-start border-4 border-primary">
-    <p class="mb-0 lead">
-      Beyond technical expertise, my <strong>leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
-    </p>
-  </div>
-
-  <!-- Leadership Cards -->
-  <div class="row g-4">
-    <!-- Chairman Card -->
-    <div class="col-md-6">
-      <div class="card leadership-card h-100 border-0 shadow-sm">
-        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-          <h4 class="mb-0">
-            <a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="text-white text-decoration-none">
-              <i class="fas fa-chair me-2"></i>Chairman
-            </a>
-          </h4>
-          <span class="badge bg-light text-primary">2021-2022</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-subtitle mb-3 text-muted">IVE Morrison Hill Engineering Society</h5>
-          <ul class="leadership-list">
-            <li class="mb-2 d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Led <strong>industry seminars</strong> on sustainable construction, engaging <strong>100+ students</strong></span>
-            </li>
-            <li class="mb-2 d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Advocated <strong>curriculum enhancements</strong>, integrating <strong>BIM & AI applications</strong></span>
-            </li>
-            <li class="d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Revamped curricula with <strong>BIM/AI training</strong>, preparing <strong>150+ students</strong> for <strong>Industry 4.0</strong></span>
-            </li>
-          </ul>
-        </div>
-        <div class="card-footer bg-light bg-opacity-10">
-          <a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="btn btn-sm btn-outline-primary">
-            <i class="fas fa-file-pdf me-1"></i> View Documentation
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- ASHRAE Card -->
-    <div class="col-md-6">
-      <div class="card leadership-card h-100 border-0 shadow-sm">
-        <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
-          <h4 class="mb-0">
-            <a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="text-white text-decoration-none">
-              <i class="fas fa-user-tie me-2"></i>External Vice President
-            </a>
-          </h4>
-          <span class="badge bg-light text-info">2020-2022</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-subtitle mb-3 text-muted">ASHRAE IVE Student Branch</h5>
-          <ul class="leadership-list">
-            <li class="mb-2 d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Organized <strong>3 field trips</strong> to MEP facilities, increasing <strong>student engagement by 40%</strong></span>
-            </li>
-            <li class="d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Spearheaded <strong>technical talks</strong> on <strong>CIBSE TM52 thermal comfort models</strong></span>
-            </li>
-          </ul>
-        </div>
-        <div class="card-footer bg-light bg-opacity-10">
-          <a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="btn btn-sm btn-outline-info">
-            <i class="fas fa-file-pdf me-1"></i> View Documentation
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- HKIE Card -->
-    <div class="col-md-6">
-      <div class="card leadership-card h-100 border-0 shadow-sm">
-        <div class="card-header bg-warning text-dark d-flex justify-content-between align-items-center">
-          <h4 class="mb-0">
-            <a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="text-dark text-decoration-none">
-              <i class="fas fa-users me-2"></i>Committee Member
-            </a>
-          </h4>
-          <span class="badge bg-light text-warning">2021-2022</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-subtitle mb-3 text-muted">HKIE BSE Student Liaison Group</h5>
-          <ul class="leadership-list">
-            <li class="d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Hosted <strong>technical talks</strong> featuring <strong>top industry engineers</strong>, attracting <strong>150+ attendees</strong></span>
-            </li>
-          </ul>
-        </div>
-        <div class="card-footer bg-light bg-opacity-10">
-          <a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="btn btn-sm btn-outline-warning">
-            <i class="fas fa-file-pdf me-1"></i> View Documentation
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Finance Card -->
-    <div class="col-md-6">
-      <div class="card leadership-card h-100 border-0 shadow-sm">
-        <div class="card-header bg-success text-white d-flex justify-content-between align-items-center">
-          <h4 class="mb-0">
-            <a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="text-white text-decoration-none">
-              <i class="fas fa-coins me-2"></i>President of Finance Committee
-            </a>
-          </h4>
-          <span class="badge bg-light text-success">2020-2021</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-subtitle mb-3 text-muted">48th Students' Union Council</h5>
-          <ul class="leadership-list">
-            <li class="mb-2 d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Managed an <strong>annual budget exceeding HKD 50,000</strong></span>
-            </li>
-            <li class="d-flex">
-              <span class="me-2 text-success"><i class="fas fa-check-circle"></i></span>
-              <span>Coordinated <strong>high-impact student initiatives</strong></span>
-            </li>
-          </ul>
-        </div>
-        <div class="card-footer bg-light bg-opacity-10">
-          <a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="btn btn-sm btn-outline-success">
-            <i class="fas fa-file-pdf me-1"></i> View Documentation
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  /* Leadership Section Styles */
-  .leadership-section {
-    position: relative;
-  }
-  
-  .text-globe {
-    font-size: 1.5rem;
-    vertical-align: middle;
-    margin-left: 0.5rem;
-  }
-  
-  .leadership-card {
-    transition: all 0.3s ease;
-    border-radius: 0.5rem;
-    overflow: hidden;
-  }
-  
-  .leadership-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  }
-  
-  .leadership-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .leadership-list li {
-    margin-bottom: 0.75rem;
-    position: relative;
-    padding-left: 0.5rem;
-  }
-  
-  .card-header a:hover {
-    text-decoration: underline !important;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .leadership-card {
-      margin-bottom: 1.5rem;
-    }
-  }
-  
-  /* Button Enhancements */
-  .btn-outline-primary {
-    border-width: 2px;
-  }
-  .btn-outline-info {
-    border-width: 2px;
-  }
-  .btn-outline-warning {
-    border-width: 2px;
-  }
-  .btn-outline-success {
-    border-width: 2px;
-  }
-</style>
-
 <!-- Leadership & Advocacy Section - Optimized -->
 <div class="leadership-section mb-5">
   <div class="section-header mb-5">
@@ -2056,6 +1852,176 @@ latest_posts:
   @media (max-width: 768px) {
     .section-header h2 {
       font-size: 1.8rem;
+    }
+  }
+</style>
+
+<!--🌱 Sustainability Commitment Section -->
+<div class="sustainability-section mb-5">
+  <!-- Section Header with Animated Emoji -->
+  <div class="section-header mb-4">
+    <h2 class="mb-0 animate-float">🌱 Sustainability Commitment</h2>
+  </div>
+  
+  <!-- Intro Text with Subtle Background -->
+  <div class="intro-text mb-4 p-3 rounded-3 bg-soft-green">
+    <p class="lead mb-0">
+      I am deeply passionate about <strong class="highlight-green">sustainability and smart system integration</strong>. My engineering philosophy centers on creating solutions that harmonize ecological responsibility with technological innovation.
+    </p>
+  </div>
+
+  <!-- Sustainability Pillars - Improved Grid & Hover Effects -->
+  <div class="pillars-container mb-5">
+    <div class="row g-4">
+      <!-- Passive Design -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card passive-design h-100 p-4 rounded-4 text-center hover-scale">
+          <div class="pillar-icon mb-3 pulse">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3 class="pillar-title mb-3">Passive Design First</h3>
+          <p class="pillar-description mb-3">Natural ventilation & daylighting strategies that reduce energy demand</p>
+          <div class="pillar-features">
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Bioclimatic Design</span>
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Thermal Mass</span>
+            <span class="badge rounded-pill bg-white text-dark mb-1 shadow-sm">Solar Shading</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Active Efficiency -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 text-center hover-scale">
+          <div class="pillar-icon mb-3 pulse">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3 class="pillar-title mb-3">Active Efficiency</h3>
+          <p class="pillar-description mb-3">IoT-driven energy optimization and smart building systems</p>
+          <div class="pillar-features">
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Predictive Control</span>
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Real-time Monitoring</span>
+            <span class="badge rounded-pill bg-white text-dark mb-1 shadow-sm">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Renewable Integration -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 text-center hover-scale">
+          <div class="pillar-icon mb-3 pulse">
+            <i class="fas fa-sun"></i>
+          </div>
+          <h3 class="pillar-title mb-3">Renewable Integration</h3>
+          <p class="pillar-description mb-3">Smart grid solutions and photovoltaic system optimization</p>
+          <div class="pillar-features">
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Solar PV</span>
+            <span class="badge rounded-pill bg-white text-dark me-1 mb-1 shadow-sm">Energy Storage</span>
+            <span class="badge rounded-pill bg-white text-dark mb-1 shadow-sm">Microgrids</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Neurodiversity Card - Enhanced Visual Pop -->
+  <div class="neurodiversity-card card border-0 mb-4 shadow-sm hover-grow">
+    <div class="card-body p-4 rounded-3">
+      <div class="d-flex align-items-center">
+        <div class="neuro-icon me-3 pulse">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div>
+          <h4 class="card-title mb-1">Neurodiversity Advantage</h4>
+          <p class="card-text mb-0">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Closing Statement - Gradient Border -->
+  <div class="closing-statement p-4 rounded-3 border-start border-4 border-success bg-light-gradient">
+    <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
+    <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+  </div>
+</div>
+
+<style>
+  /* ===== Modern Enhancements ===== */
+  /* Core Colors */
+  :root {
+    --green: #28a745;
+    --yellow: #ffc107;
+    --red: #dc3545;
+    --blue: #0d6efd;
+  }
+
+  /* Animated Header */
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+
+  /* Soft Background for Intro */
+  .bg-soft-green {
+    background-color: rgba(40, 167, 69, 0.08);
+  }
+
+  /* Pillar Cards - Enhanced */
+  .pillar-card {
+    transition: all 0.3s ease;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .hover-scale:hover {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+  }
+  .pillar-icon {
+    transition: all 0.3s ease;
+    width: 70px;
+    height: 70px;
+    font-size: 1.75rem;
+  }
+  .pulse:hover {
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  /* Neurodiversity Card */
+  .neurodiversity-card {
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #f8f9fa, #e7f1ff);
+  }
+  .hover-grow:hover {
+    transform: scale(1.01);
+  }
+
+  /* Closing Statement */
+  .bg-light-gradient {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+  }
+
+  /* Badges - Modern Flat Style */
+  .badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+  }
+
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .pillar-card {
+      margin-bottom: 1.25rem;
+    }
+    .intro-text {
+      padding: 1rem !important;
     }
   }
 </style>
