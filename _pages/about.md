@@ -2234,33 +2234,49 @@ latest_posts:
         }
         
         /* Enhanced CIBSE Badge with Larger Logo */
-        .cibse-badge {
-            padding: 0.85rem 1.5rem;
-            border-radius: 8px;
-            font-weight: 600;
+       .cibse-badge {
+            padding: 1rem 1.75rem;
+            border-radius: 10px;
+            font-weight: 700; /* Bolder text */
             display: inline-flex;
             align-items: center;
-            font-size: 1.2rem;
-            background-color: rgba(54, 185, 204, 0.1);
-            border: 1px solid rgba(54, 185, 204, 0.2);
-            transition: var(--transition);
+            font-size: 1.4rem; /* Much larger text */
+            background-color: rgba(54, 185, 204, 0.15);
+            border: 2px solid rgba(54, 185, 204, 0.3);
+            transition: all 0.3s ease;
+            margin: 0.5rem 0;
         }
 
-        .cibse-badge:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        .cibse-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem; /* Increased spacing */
         }
 
         .cibse-logo {
-            width: 42px;
-            height: 42px;
-            margin-right: 1rem;
+            width: 60px !important; /* 50% larger than previous */
+            height: 60px !important;
+            margin-right: 1.25rem;
             object-fit: contain;
-            transition: transform 0.3s ease;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+        }
+
+        .cibse-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        /* Hover effects */
+        .cibse-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            background-color: rgba(54, 185, 204, 0.2);
         }
 
         .cibse-badge:hover .cibse-logo {
-            transform: scale(1.05);
+            transform: scale(1.08);
+            filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15));
         }
         
         /* Animations */
@@ -2403,12 +2419,14 @@ latest_posts:
                                 </div>
                             </div>
                             
-                            <div class="border-top pt-3 mt-auto">
-                                <h5 class="h6 mb-3">Key Organizations:</h5>
+                            <div class="border-top pt-4 mt-auto">
+                                <h5 class="h5 mb-3">Key Organizations:</h5>
                                 <div class="d-flex">
                                     <span class="cibse-badge">
-                                        <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
-                                        <span class="align-middle">CIBSE</span>
+                                        <div class="cibse-logo-container">
+                                            <img src="/assets/img/logo/cibse-logo.jpg" alt="CIBSE Logo" class="cibse-logo">
+                                            <span class="cibse-text">CIBSE</span>
+                                        </div>
                                     </span>
                                 </div>
                             </div>
@@ -2728,9 +2746,6 @@ latest_posts:
     <div class="position-absolute bottom-0 start-0 ms-4 mb-3 opacity-10">
       <i class="fas fa-leaf fa-4x text-success"></i>
     </div>
-    
-    <div class="position-relative text-center">
-      <h4 class="mb-4"><strong>Ready to Build the Future Together?</strong></h4>
       
       <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
         <!-- Email Button -->
