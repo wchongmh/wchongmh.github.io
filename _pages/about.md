@@ -1806,204 +1806,8 @@ latest_posts:
   }
 </style>
 
-<!--🌱 Sustainability Commitment Section -->
-<div class="sustainability-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h2 class="mb-0">🌱 Sustainability Commitment</h2>
-  </div>
-  
-  <div class="intro-text mb-4">
-    <p class="lead">
-      I am deeply passionate about <strong class="highlight-green">sustainability and smart system integration</strong>. My engineering philosophy centers on creating solutions that harmonize ecological responsibility with technological innovation.
-    </p>
-  </div>
-
-  <!-- Sustainability Pillars -->
-  <div class="pillars-container mb-5">
-    <div class="row g-4">
-      <!-- Passive Design -->
-      <div class="col-md-4">
-        <div class="pillar-card passive-design h-100 p-4 rounded-4 text-center">
-          <div class="pillar-icon mb-3">
-            <i class="fas fa-leaf"></i>
-          </div>
-          <h3 class="pillar-title mb-3">Passive Design First</h3>
-          <p class="pillar-description">Natural ventilation & daylighting strategies that reduce energy demand</p>
-          <div class="pillar-features mt-3">
-            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Bioclimatic Design</span>
-            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Thermal Mass</span>
-            <span class="badge rounded-pill bg-light text-dark mb-1">Solar Shading</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Active Efficiency -->
-      <div class="col-md-4">
-        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 text-center">
-          <div class="pillar-icon mb-3">
-            <i class="fas fa-bolt"></i>
-          </div>
-          <h3 class="pillar-title mb-3">Active Efficiency</h3>
-          <p class="pillar-description">IoT-driven energy optimization and smart building systems</p>
-          <div class="pillar-features mt-3">
-            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Predictive Control</span>
-            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Real-time Monitoring</span>
-            <span class="badge rounded-pill bg-light text-dark mb-1">Machine Learning</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Renewable Integration -->
-      <div class="col-md-4">
-        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 text-center">
-          <div class="pillar-icon mb-3">
-            <i class="fas fa-sun"></i>
-          </div>
-          <h3 class="pillar-title mb-3">Renewable Integration</h3>
-          <p class="pillar-description">Smart grid solutions and photovoltaic system optimization</p>
-          <div class="pillar-features mt-3">
-            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Solar PV</span>
-            <span class="badge rounded-pill bg-light text-dark me-1 mb-1">Energy Storage</span>
-            <span class="badge rounded-pill bg-light text-dark mb-1">Microgrids</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Neurodiversity Card -->
-  <div class="neurodiversity-card card border-0 mb-4">
-    <div class="card-body p-4 rounded-3">
-      <div class="d-flex align-items-center">
-        <div class="neuro-icon me-3">
-          <i class="fas fa-brain"></i>
-        </div>
-        <div>
-          <h4 class="card-title mb-1">Neurodiversity Advantage</h4>
-          <p class="card-text mb-0">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Closing Statement -->
-  <div class="closing-statement mt-4 p-4 rounded-3">
-    <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
-    
-    <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
-  </div>
-</div>
-
-<style>
-  /* Sustainability Section Styles */
-  .sustainability-section h2 {
-    font-weight: 700;
-    color: #28a745;
-  }
-  
-  .highlight-green {
-    background-color: rgba(40, 167, 69, 0.2);
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-weight: 600;
-  }
-  
-  /* Pillar Cards */
-  .pillar-card {
-    transition: all 0.3s ease;
-    border: none;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .pillar-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  }
-  
-  .passive-design {
-    background: linear-gradient(135deg, #f8f9fa, #d1e7dd);
-    color: #0f5132;
-  }
-  
-  .active-efficiency {
-    background: linear-gradient(135deg, #f8f9fa, #fff3cd);
-    color: #664d03;
-  }
-  
-  .renewable-integration {
-    background: linear-gradient(135deg, #f8f9fa, #f5c2c7);
-    color: #842029;
-  }
-  
-  .pillar-icon {
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  }
-  
-  .passive-design .pillar-icon {
-    color: #28a745;
-  }
-  
-  .active-efficiency .pillar-icon {
-    color: #ffc107;
-  }
-  
-  .renewable-integration .pillar-icon {
-    color: #dc3545;
-  }
-  
-  .pillar-title {
-    font-weight: 600;
-    position: relative;
-    padding-bottom: 0.5rem;
-  }
-  
-  .pillar-title:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 3px;
-    background-color: currentColor;
-    border-radius: 3px;
-  }
-  
-  /* Neurodiversity Card */
-  .neurodiversity-card {
-    background: linear-gradient(135deg, #e2e3e5, #cfe2ff);
-    border-left: 4px solid #0d6efd !important;
-  }
-  
-  .neuro-icon {
-    font-size: 2rem;
-    color: #0d6efd;
-  }
-  
-  /* Closing Statement */
-  .closing-statement {
-    background-color: #f8f9fa;
-    border-left: 4px solid #28a745;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .pillar-card {
-      margin-bottom: 1.5rem;
-    }
-  }
-</style>
+<!-- ========== Next Section: Future Goals Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- DOCTYPE html -->
 <html lang="en">
@@ -2746,8 +2550,10 @@ latest_posts:
 </body>
 </html>
 
-## 🌐 Global Competence
+<!-- ========== Next Section: Global Competence ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
+<!--🌐 Global Competence -->
 <div class="row g-4 mt-3">
   <!-- Languages Card - Enhanced with subtle animation and better hierarchy -->
   <div class="col-md-6">
@@ -2878,6 +2684,258 @@ latest_posts:
     background-color: rgba(240, 173, 78, 0.1);
   }
 </style>
+
+<!-- ========== Next Section: Global Competence ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<!--🌐 Global Competence -->
+<div class="global-competence-container">
+  <!-- Languages Card - More organized with consistent spacing -->
+  <div class="language-card">
+    <div class="card-header">
+      <i class="fas fa-language"></i>
+      <h4>Language Proficiency</h4>
+    </div>
+    
+    <div class="language-grid">
+      <!-- English -->
+      <div class="language-item english">
+        <i class="flag-icon flag-icon-gb"></i>
+        <div class="language-name">English</div>
+        <div class="language-level">Fluent</div>
+      </div>
+      
+      <!-- Mandarin -->
+      <div class="language-item mandarin">
+        <i class="flag-icon flag-icon-cn"></i>
+        <div class="language-name">Mandarin</div>
+        <div class="language-level">Native</div>
+      </div>
+      
+      <!-- Cantonese -->
+      <div class="language-item cantonese">
+        <i class="flag-icon flag-icon-hk"></i>
+        <div class="language-name">Cantonese</div>
+        <div class="language-level">Native</div>
+      </div>
+    </div>
+    
+    <div class="card-footer">
+      <i class="fas fa-comments"></i>
+      <p>Excel in cross-cultural communication and thrive in diverse environments</p>
+    </div>
+  </div>
+
+  <!-- Work Eligibility Card - Better visual flow -->
+  <div class="work-card">
+    <div class="card-header">
+      <i class="fas fa-user-check"></i>
+      <h4>Work Authorization</h4>
+    </div>
+    
+    <div class="authorization-banner">
+      <i class="fas fa-passport"></i>
+      <div>
+        <h5>UK Work Rights <span class="verified-badge">Verified</span></h5>
+        <p>No visa sponsorship required • Full working rights</p>
+      </div>
+    </div>
+    
+    <div class="availability-alert">
+      <i class="fa-solid fa-clock"></i>
+      <p><strong>Immediately available</strong> to contribute skills and expertise</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Base Styles */
+  .global-competence-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .language-card, .work-card {
+    flex: 1 1 45%;
+    min-width: 300px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e0e0e0;
+    background: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .language-card:hover, .work-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Card Header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-header i {
+    font-size: 1.75rem;
+    margin-right: 1rem;
+  }
+  
+  .language-card .card-header i { color: #4e73df; }
+  .work-card .card-header i { color: #1cc88a; }
+  
+  .card-header h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .language-card h4 { --primary-color: #4e73df; --primary-dark: #224abe; }
+  .work-card h4 { --primary-color: #1cc88a; --primary-dark: #13855c; }
+  
+  /* Language Grid */
+  .language-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .language-item {
+    padding: 1rem;
+    text-align: center;
+    background: white;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .language-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .language-item i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .language-name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .language-level {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+  }
+  
+  .english i { color: #e74a3b; }
+  .english .language-level { background: rgba(231, 74, 59, 0.1); color: #e74a3b; }
+  
+  .mandarin i { color: #1cc88a; }
+  .mandarin .language-level { background: rgba(28, 200, 138, 0.1); color: #1cc88a; }
+  
+  .cantonese i { color: #f6b343; }
+  .cantonese .language-level { background: rgba(240, 173, 78, 0.1); color: #f6b343; }
+  
+  /* Work Authorization Section */
+  .authorization-banner {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(28, 200, 138, 0.1);
+    border-radius: 0.375rem;
+    border: 1px solid rgba(28, 200, 138, 0.2);
+  }
+  
+  .authorization-banner i {
+    font-size: 2rem;
+    color: #1cc88a;
+    margin-right: 1rem;
+  }
+  
+  .authorization-banner h5 {
+    margin: 0 0 0.25rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .verified-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background: #1cc88a;
+    color: white;
+    border-radius: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .verified-badge i {
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+  }
+  
+  .authorization-banner p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #13855c;
+  }
+  
+  /* Availability Alert */
+  .availability-alert {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: rgba(28, 200, 138, 0.1);
+    border-radius: 0.375rem;
+    border: 1px solid rgba(28, 200, 138, 0.2);
+  }
+  
+  .availability-alert i {
+    margin-right: 0.75rem;
+    color: #1cc88a;
+  }
+  
+  .availability-alert p {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .card-footer i {
+    margin-right: 0.75rem;
+    color: #4e73df;
+  }
+  
+  .card-footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+</style>
+
+<!-- ========== Next Section: Let's Connect Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!--📬 Let's Connect Section -->
 <div class="connect-section mb-5">
@@ -3034,6 +3092,154 @@ latest_posts:
     .connect-btn {
       width: 160px;
       height: 50px;
+    }
+  }
+</style>
+
+<!-- ========== Next Section: Let's Connect Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<!--📬 Let's Connect Section -->
+<div class="connect-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
+  </div>
+  
+  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
+    <!-- Background elements (subtle animated) -->
+    <div class="position-absolute top-0 end-0 me-4 mt-3 opacity-10 globe-spin">
+      <i class="fas fa-globe-americas fa-4x text-primary"></i>
+    </div>
+    <div class="position-absolute bottom-0 start-0 ms-4 mb-3 opacity-10 leaf-float">
+      <i class="fas fa-leaf fa-4x text-success"></i>
+    </div>
+      
+    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+      <!-- Email Button -->
+      <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
+        <div class="btn-content">
+          <div class="btn-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <span>Email Me</span>
+        </div>
+        <div class="btn-hover-content">
+          <span>wchongmh@gmail.com</span>
+        </div>
+      </a>
+      
+      <!-- LinkedIn Button -->
+      <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
+        <div class="btn-content">
+          <div class="btn-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <span>LinkedIn</span>
+        </div>
+        <div class="btn-hover-content">
+          <span>linkedin.com/in/wchongmh</span>
+        </div>
+      </a>
+    </div>
+    
+    <p class="mb-0 connect-message text-center">
+      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
+    </p>
+  </div>
+</div>
+
+<style>
+  /* ===== Modern Layout Improvements ===== */
+  .connect-section {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .connect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  }
+  
+  .highlight-green {
+    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.3));
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  /* ===== Animated Background Icons ===== */
+  .globe-spin {
+    animation: spin 20s linear infinite;
+  }
+  
+  .leaf-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* ===== Enhanced Buttons ===== */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .connect-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2rem !important;
+    }
+    
+    .connect-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+    
+    .connect-message {
+      font-size: 1rem;
     }
   }
 </style>
