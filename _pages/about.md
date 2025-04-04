@@ -1880,16 +1880,19 @@ latest_posts:
 <!-- ========== Next Section: Future Goals Section ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
-<!-- DOCTYPE html -->
+<-- !DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Future Goals & Professional Journey</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (Optimized with `preconnect` and `preload`) -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    <!-- Bootstrap CSS (Optimized with `preload`) -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"></noscript>
     <style>
         :root {
             --primary: #4e73df;
@@ -1898,12 +1901,6 @@ latest_posts:
             --secondary-dark: #13855c;
             --info: #36b9cc;
             --info-dark: #258391;
-            --purple: #6f42c1;
-            --teal: #20c997;
-            --indigo: #6610f2;
-            --orange: #fd7e14;
-            --pink: #d63384;
-            --blue: #0d6efd;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
         
@@ -1911,12 +1908,12 @@ latest_posts:
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             line-height: 1.6;
             color: #495057;
+            background-color: #f8f9fa;
         }
         
         /* Section Styling */
         .future-goals-section {
-            background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f9 100%);
-            padding: 4rem 0;
+            padding: 3.5rem 0;
         }
         
         .max-w-800 {
@@ -1925,7 +1922,7 @@ latest_posts:
         
         /* Header Styling */
         .section-header {
-            margin-bottom: 3.5rem;
+            margin-bottom: 3rem;
         }
         
         .section-badge {
@@ -1933,16 +1930,15 @@ latest_posts:
             background-color: rgba(78, 115, 223, 0.1);
             color: var(--primary);
             font-weight: 600;
-            letter-spacing: 0.5px;
             padding: 0.5rem 1.25rem;
             margin-bottom: 1rem;
+            border-radius: 50px;
         }
         
         .section-title {
             font-weight: 700;
             margin-bottom: 1rem;
             position: relative;
-            display: inline-block;
         }
         
         .section-title:after {
@@ -1957,7 +1953,7 @@ latest_posts:
             border-radius: 3px;
         }
         
-        /* Card Styling */
+        /* Card Styling (Consolidated) */
         .card {
             border: none;
             border-radius: 0.75rem;
@@ -1965,52 +1961,33 @@ latest_posts:
             transition: var(--transition);
             height: 100%;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            position: relative;
-            z-index: 1;
+            background: white;
         }
         
-        .card:before {
-            content: '';
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-header {
+            padding: 1.75rem;
+            position: relative;
+            overflow: hidden;
+            border-bottom: none;
+        }
+        
+        .card-header-gradient {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: white;
-            z-index: -1;
-            border-radius: 0.75rem;
+            z-index: 0;
         }
         
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-        }
-        
-        .card-header {
-            padding: 1.75rem;
-            border-bottom: none;
+        .card-header-content {
             position: relative;
             z-index: 1;
-            overflow: hidden;
-        }
-        
-        .card-header:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: inherit;
-            z-index: -1;
-            transform-origin: bottom;
-            transform: skewY(-2deg);
-        }
-        
-        .card-header-icon {
-            font-size: 2.5rem;
-            opacity: 0.2;
-            margin-right: 1rem;
         }
         
         .card-badge {
@@ -2019,73 +1996,39 @@ latest_posts:
             right: 1.5rem;
             font-weight: 600;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            z-index: 2;
         }
         
-        .card-body {
-            padding: 2rem;
-        }
-        
-        /* Card Type Specific */
-        .professional-cert-card .card-header {
+        /* Card Types */
+        .professional-cert-card .card-header-gradient {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
         }
         
-        .training-program-card .card-header {
+        .training-program-card .card-header-gradient {
             background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
         }
         
-        .experience-card .card-header {
+        .experience-card .card-header-gradient {
             background: linear-gradient(135deg, var(--info) 0%, var(--info-dark) 100%);
         }
         
-        /* Content Elements */
+        /* Content Elements (Optimized) */
         .content-icon-box {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-right: 1rem;
             flex-shrink: 0;
+            background-color: rgba(0, 0, 0, 0.05);
         }
         
-        .content-title {
-            font-weight: 600;
-            margin-bottom: 0.25rem;
-        }
-        
-        .content-subtitle {
-            font-size: 0.85rem;
-            color: #6c757d;
-        }
-        
-        /* Feature List */
-        .feature-list {
-            margin: 1.5rem 0;
-        }
-        
-        .feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-        }
-        
-        .feature-icon {
-            color: var(--primary);
-            margin-right: 0.75rem;
-            margin-top: 0.2rem;
-            flex-shrink: 0;
-        }
-        
-        /* Timeline */
-        .timeline-container {
-            margin: 1.5rem 0;
-        }
-        
+        /* Timeline (Simplified) */
         .timeline {
             position: relative;
-            padding-left: 2rem;
+            padding-left: 1.5rem;
         }
         
         .timeline:before {
@@ -2100,232 +2043,74 @@ latest_posts:
         
         .timeline-item {
             position: relative;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.25rem;
         }
         
         .timeline-badge {
             position: absolute;
-            left: -1.95rem;
+            left: -1.5rem;
             top: 0.25rem;
-            width: 16px;
-            height: 16px;
+            width: 14px;
+            height: 14px;
             border-radius: 50%;
             border: 3px solid white;
             z-index: 1;
         }
         
-        .timeline-content {
-            padding-left: 0.5rem;
-        }
-        
-        .timeline-title {
-            font-weight: 600;
-            margin-bottom: 0.25rem;
-            font-size: 1rem;
-        }
-        
-        /* Sector Grid */
+        /* Sector Grid (Optimized) */
         .sectors-grid {
             display: grid;
-            grid-template-columns: repeat(2, minmax(120px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 0.75rem;
-            margin: 1.5rem 0;
         }
         
         .sector-badge {
             display: flex;
             align-items: center;
-            justify-content: flex-start;
             padding: 0.75rem;
             border-radius: 8px;
             font-weight: 500;
-            text-align: left;
-            transition: var(--transition);
             min-height: 60px;
-            white-space: normal;
-            word-break: break-word;
-            font-size: 0.9rem;
-            line-height: 1.3;
-        }
-        
-        .sector-badge i {
-            margin-right: 0.5rem;
-            flex-shrink: 0;
-            color: inherit;
-        }
-
-        /* Specific sector badge styles */
-        .sector-badge.bg-success {
-            background-color: rgba(28, 200, 138, 0.1) !important;
-            color: var(--secondary) !important;
-            border: 1px solid rgba(28, 200, 138, 0.2) !important;
-        }
-
-        .sector-badge.bg-warning {
-            background-color: rgba(255, 193, 7, 0.1) !important;
-            color: #ffc107 !important;
-            border: 1px solid rgba(255, 193, 7, 0.2) !important;
-        }
-
-        .sector-badge.bg-orange {
-            background-color: rgba(253, 126, 20, 0.1) !important;
-            color: var(--orange) !important;
-            border: 1px solid rgba(253, 126, 20, 0.2) !important;
-        }
-
-        .sector-badge.bg-purple {
-            background-color: rgba(111, 66, 193, 0.1) !important;
-            color: var(--purple) !important;
-            border: 1px solid rgba(111, 66, 193, 0.2) !important;
-        }
-
-        .sector-badge.bg-teal {
-            background-color: rgba(32, 201, 151, 0.1) !important;
-            color: var(--teal) !important;
-            border: 1px solid rgba(32, 201, 151, 0.2) !important;
-        }
-
-        .sector-badge.bg-pink {
-            background-color: rgba(214, 51, 132, 0.1) !important;
-            color: var(--pink) !important;
-            border: 1px solid rgba(214, 51, 132, 0.2) !important;
+            transition: var(--transition);
+            background-color: rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(0, 0, 0, 0.05);
         }
         
         .sector-badge:hover {
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
         }
         
-        /* Benefits Grid */
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 0.75rem;
-            margin: 1.5rem 0;
-        }
-        
-        .benefit-item {
-            background-color: rgba(28, 200, 138, 0.05);
-            border-radius: 8px;
+        /* CIBSE Badge (Optimized) */
+        .cibse-badge {
             padding: 1rem;
-            text-align: center;
-            transition: var(--transition);
-        }
-        
-        .benefit-item:hover {
-            background-color: rgba(28, 200, 138, 0.1);
-            transform: translateY(-3px);
-        }
-        
-        .benefit-icon {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-            color: var(--secondary);
-        }
-        
-        /* Highlight Items */
-        .highlight-item {
-            display: flex;
-            align-items: flex-start;
-            padding: 0.75rem;
-            border-radius: 8px;
-            transition: var(--transition);
-            margin-bottom: 0.75rem;
-        }
-        
-        .highlight-item:hover {
-            background-color: rgba(54, 185, 204, 0.05);
-        }
-        
-        .highlight-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1rem;
-            flex-shrink: 0;
-            color: white;
-            font-size: 1rem;
-        }
-        
-        .highlight-title {
-            font-weight: 600;
-            margin-bottom: 0.25rem;
-        }
-        
-        /* Enhanced CIBSE Badge with Larger Logo */
-       .cibse-badge {
-            padding: 1rem 1.75rem;
             border-radius: 10px;
-            font-weight: 700; /* Bolder text */
             display: inline-flex;
-            align-items: center;
-            font-size: 1.4rem; /* Much larger text */
-            background-color: rgba(54, 185, 204, 0.15);
-            border: 2px solid rgba(54, 185, 204, 0.3);
-            transition: all 0.3s ease;
-            margin: 0.5rem 0;
-        }
-
-        .cibse-logo-container {
-            display: flex;
-            align-items: center;
-            gap: 1.25rem; /* Increased spacing */
-        }
-
-        .cibse-logo {
-            width: 60px !important; /* 50% larger than previous */
-            height: 60px !important;
-            margin-right: 1.25rem;
-            object-fit: contain;
-            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
-        }
-
-        .cibse-text {
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-        }
-
-        /* Hover effects */
-        .cibse-badge:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-            background-color: rgba(54, 185, 204, 0.2);
-        }
-
-        .cibse-badge:hover .cibse-logo {
-            transform: scale(1.08);
-            filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15));
+            background-color: rgba(54, 185, 204, 0.1);
+            border: 2px solid rgba(54, 185, 204, 0.2);
+            transition: var(--transition);
         }
         
-        /* Animations */
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+        .cibse-logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 1rem;
+        }
+        
+        /* Animations (Performance-Friendly) */
+        @keyframes subtlePulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
         }
         
         .pulse {
-            animation: pulse 2s infinite;
+            animation: subtlePulse 3s ease-in-out infinite;
         }
         
         /* Responsive Adjustments */
         @media (max-width: 992px) {
             .card-header {
                 padding: 1.5rem;
-            }
-            
-            .card-header .d-flex {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .card-header-icon {
-                margin-right: 0;
-                margin-bottom: 1rem;
             }
             
             .card-badge {
@@ -2342,42 +2127,18 @@ latest_posts:
                 grid-template-columns: 1fr;
             }
             
-            .benefits-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .future-goals-section {
+                padding: 2.5rem 0;
             }
         }
         
         @media (max-width: 576px) {
-            .section-header {
-                margin-bottom: 2.5rem;
-            }
-            
             .content-icon-box {
                 margin: 0 auto 1rem auto;
             }
             
-            .benefits-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .card-body {
-                padding: 1.5rem;
-            }
-            
-            .sector-badge {
-                min-height: 50px;
-                font-size: 0.85rem;
-            }
-
-            .cibse-badge {
-                padding: 0.75rem 1.25rem;
-                font-size: 1.1rem;
-            }
-
-            .cibse-logo {
-                width: 36px;
-                height: 36px;
-                margin-right: 0.75rem;
+            .section-header {
+                margin-bottom: 2rem;
             }
         }
     </style>
@@ -2388,7 +2149,7 @@ latest_posts:
         <div class="container">
             <!-- Section Header -->
             <div class="section-header text-center">
-                <span class="section-badge rounded-pill">
+                <span class="section-badge">
                     <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
                 </span>
                 <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
@@ -2406,8 +2167,9 @@ latest_posts:
                 <div class="col-lg-4">
                     <div class="card h-100 professional-cert-card">
                         <div class="card-header text-white">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie card-header-icon"></i>
+                            <div class="card-header-gradient"></div>
+                            <div class="card-header-content d-flex align-items-center">
+                                <i class="fas fa-user-tie me-3 fs-3 opacity-25"></i>
                                 <h3 class="h5 mb-0">Professional Certification</h3>
                             </div>
                             <span class="card-badge badge bg-white text-primary rounded-pill pulse">
@@ -2416,40 +2178,36 @@ latest_posts:
                         </div>
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-4">
-                                <div class="content-icon-box bg-primary bg-opacity-10 text-primary">
-                                    <i class="fas fa-medal fa-lg"></i>
+                                <div class="content-icon-box text-primary">
+                                    <i class="fas fa-medal"></i>
                                 </div>
                                 <div>
-                                    <h4 class="content-title text-primary">Chartered Engineer (CEng)</h4>
-                                    <small class="content-subtitle">Engineering Council UK</small>
+                                    <h4 class="h5 text-primary mb-1">Chartered Engineer (CEng)</h4>
+                                    <small class="text-muted">Engineering Council UK</small>
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
                             
-                            <div class="feature-list">
-                                <div class="feature-item">
-                                    <i class="feature-icon fas fa-check-circle"></i>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2 d-flex">
+                                    <i class="fas fa-check-circle text-primary me-2 mt-1"></i>
                                     <span>Internationally recognized qualification</span>
-                                </div>
-                                <div class="feature-item">
-                                    <i class="feature-icon fas fa-check-circle"></i>
+                                </li>
+                                <li class="mb-2 d-flex">
+                                    <i class="fas fa-check-circle text-primary me-2 mt-1"></i>
                                     <span>Demonstrates highest standards of competence</span>
-                                </div>
-                                <div class="feature-item">
-                                    <i class="feature-icon fas fa-check-circle"></i>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-check-circle text-primary me-2 mt-1"></i>
                                     <span>Commitment to professional development</span>
-                                </div>
-                            </div>
+                                </li>
+                            </ul>
                             
-                            <div class="border-top pt-4 mt-auto">
-                                <h5 class="h5 mb-3">Key Organizations:</h5>
-                                <div class="d-flex">
-                                    <span class="cibse-badge">
-                                        <div class="cibse-logo-container">
-                                            <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
-                                            <span class="cibse-text">CIBSE</span>
-                                        </div>
-                                    </span>
+                            <div class="border-top pt-4">
+                                <h5 class="h6 mb-3">Key Organizations:</h5>
+                                <div class="cibse-badge">
+                                    <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
+                                    <span class="h5 mb-0 align-self-center">CIBSE</span>
                                 </div>
                             </div>
                         </div>
@@ -2460,8 +2218,9 @@ latest_posts:
                 <div class="col-lg-4">
                     <div class="card h-100 training-program-card">
                         <div class="card-header text-white">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-graduation-cap card-header-icon"></i>
+                            <div class="card-header-gradient"></div>
+                            <div class="card-header-content d-flex align-items-center">
+                                <i class="fas fa-graduation-cap me-3 fs-3 opacity-25"></i>
                                 <h3 class="h5 mb-0">Training Program</h3>
                             </div>
                             <span class="card-badge badge bg-white text-success rounded-pill">
@@ -2470,58 +2229,61 @@ latest_posts:
                         </div>
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-4">
-                                <div class="content-icon-box bg-success bg-opacity-10 text-success">
-                                    <i class="fas fa-user-graduate fa-lg"></i>
+                                <div class="content-icon-box text-success">
+                                    <i class="fas fa-user-graduate"></i>
                                 </div>
                                 <div>
-                                    <h4 class="content-title text-success">Engineering Graduate Scheme</h4>
-                                    <small class="content-subtitle">Accredited Development Program</small>
+                                    <h4 class="h5 text-success mb-1">Engineering Graduate Scheme</h4>
+                                    <small class="text-muted">Accredited Development Program</small>
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Seeking accredited program participation with clear milestones</p>
                             
-                            <div class="timeline-container">
-                                <div class="timeline">
-                                    <div class="timeline-item">
-                                        <div class="timeline-badge bg-success pulse"></div>
-                                        <div class="timeline-content">
-                                            <h5 class="timeline-title">Year 1</h5>
-                                            <p class="small text-muted">Core Competencies Development</p>
-                                            <ul class="small ps-3 mb-0">
-                                                <li>Fundamental engineering principles</li>
-                                                <li>Industry standards & regulations</li>
-                                                <li>Technical skills enhancement</li>
-                                            </ul>
-                                        </div>
+                            <div class="timeline mb-4">
+                                <div class="timeline-item">
+                                    <div class="timeline-badge bg-success pulse"></div>
+                                    <div class="timeline-content">
+                                        <h5 class="h6 mb-1">Year 1</h5>
+                                        <p class="small text-muted mb-2">Core Competencies Development</p>
+                                        <ul class="small ps-3 mb-0">
+                                            <li>Fundamental engineering principles</li>
+                                            <li>Industry standards & regulations</li>
+                                        </ul>
                                     </div>
-                                    <div class="timeline-item">
-                                        <div class="timeline-badge bg-success pulse"></div>
-                                        <div class="timeline-content">
-                                            <h5 class="timeline-title">Year 2</h5>
-                                            <p class="small text-muted">Specialization Phase</p>
-                                            <ul class="small ps-3 mb-0">
-                                                <li>Advanced systems design</li>
-                                                <li>Innovation in building services</li>
-                                            </ul>
-                                        </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-badge bg-success pulse"></div>
+                                    <div class="timeline-content">
+                                        <h5 class="h6 mb-1">Year 2</h5>
+                                        <p class="small text-muted mb-2">Specialization Phase</p>
+                                        <ul class="small ps-3 mb-0">
+                                            <li>Advanced systems design</li>
+                                            <li>Innovation in building services</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Program Benefits:</h5>
-                                <div class="benefits-grid">
-                                    <div class="benefit-item">
-                                        <i class="benefit-icon fas fa-network-wired"></i>
-                                        <small>Industry Network</small>
+                                <div class="row g-2">
+                                    <div class="col-4">
+                                        <div class="text-center p-2 rounded">
+                                            <i class="fas fa-network-wired text-success mb-1"></i>
+                                            <small class="d-block">Industry Network</small>
+                                        </div>
                                     </div>
-                                    <div class="benefit-item">
-                                        <i class="benefit-icon fas fa-certificate"></i>
-                                        <small>Accreditation</small>
+                                    <div class="col-4">
+                                        <div class="text-center p-2 rounded">
+                                            <i class="fas fa-certificate text-success mb-1"></i>
+                                            <small class="d-block">Accreditation</small>
+                                        </div>
                                     </div>
-                                    <div class="benefit-item">
-                                        <i class="benefit-icon fas fa-chart-line"></i>
-                                        <small>Career Growth</small>
+                                    <div class="col-4">
+                                        <div class="text-center p-2 rounded">
+                                            <i class="fas fa-chart-line text-success mb-1"></i>
+                                            <small class="d-block">Career Growth</small>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -2533,8 +2295,9 @@ latest_posts:
                 <div class="col-lg-4">
                     <div class="card h-100 experience-card">
                         <div class="card-header text-white">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-hard-hat card-header-icon"></i>
+                            <div class="card-header-gradient"></div>
+                            <div class="card-header-content d-flex align-items-center">
+                                <i class="fas fa-hard-hat me-3 fs-3 opacity-25"></i>
                                 <h3 class="h5 mb-0">Hands-On Experience</h3>
                             </div>
                             <span class="card-badge badge bg-white text-info rounded-pill">
@@ -2543,68 +2306,68 @@ latest_posts:
                         </div>
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-4">
-                                <div class="content-icon-box bg-info bg-opacity-10 text-info">
-                                    <i class="fas fa-building fa-lg"></i>
+                                <div class="content-icon-box text-info">
+                                    <i class="fas fa-building"></i>
                                 </div>
                                 <div>
-                                    <h4 class="content-title text-info">2+ Years Industry Practice</h4>
-                                    <small class="content-subtitle">Target sectors for development</small>
+                                    <h4 class="h5 text-info mb-1">2+ Years Industry Practice</h4>
+                                    <small class="text-muted">Target sectors for development</small>
                                 </div>
                             </div>
                             
-                            <div class="sectors-grid">
-                                <div class="sector-badge bg-success">
-                                    <i class="fas fa-leaf"></i>
+                            <div class="sectors-grid mb-4">
+                                <div class="sector-badge text-success">
+                                    <i class="fas fa-leaf me-2"></i>
                                     <span>Sustainable Design</span>
                                 </div>
-                                <div class="sector-badge bg-warning">
-                                    <i class="fas fa-brain"></i>
+                                <div class="sector-badge text-warning">
+                                    <i class="fas fa-brain me-2"></i>
                                     <span>Smart Buildings</span>
                                 </div>
-                                <div class="sector-badge bg-orange">
-                                    <i class="fas fa-robot"></i>
+                                <div class="sector-badge text-orange">
+                                    <i class="fas fa-robot me-2"></i>
                                     <span>AI & Machine Learning</span>
                                 </div>
-                                <div class="sector-badge bg-purple">
-                                    <i class="fas fa-bolt"></i>
+                                <div class="sector-badge text-purple">
+                                    <i class="fas fa-bolt me-2"></i>
                                     <span>Energy Efficiency</span>
                                 </div>
-                                <div class="sector-badge bg-teal">
-                                    <i class="fas fa-bullseye"></i>
+                                <div class="sector-badge text-teal">
+                                    <i class="fas fa-bullseye me-2"></i>
                                     <span>Net-Zero</span>
                                 </div>
-                                <div class="sector-badge bg-pink">
-                                    <i class="fas fa-wifi"></i>
+                                <div class="sector-badge text-pink">
+                                    <i class="fas fa-wifi me-2"></i>
                                     <span>IoT Integration</span>
                                 </div>
                             </div>
                             
                             <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Experience Focus:</h5>
-                                <div class="highlight-item">
-                                    <div class="highlight-icon bg-info">
+                                <div class="d-flex mb-3">
+                                    <div class="bg-info bg-opacity-10 text-info rounded-circle p-2 me-3 flex-shrink-0">
                                         <i class="fas fa-lightbulb"></i>
                                     </div>
                                     <div>
-                                        <h6 class="highlight-title">Innovation</h6>
+                                        <h6 class="h6 mb-0">Innovation</h6>
                                         <small class="text-muted">Implementing cutting-edge solutions</small>
                                     </div>
                                 </div>
-                                <div class="highlight-item">
-                                    <div class="highlight-icon bg-info">
+                                <div class="d-flex mb-3">
+                                    <div class="bg-info bg-opacity-10 text-info rounded-circle p-2 me-3 flex-shrink-0">
                                         <i class="fas fa-users"></i>
                                     </div>
                                     <div>
-                                        <h6 class="highlight-title">Collaboration</h6>
+                                        <h6 class="h6 mb-0">Collaboration</h6>
                                         <small class="text-muted">Working with multidisciplinary teams</small>
                                     </div>
                                 </div>
-                                <div class="highlight-item">
-                                    <div class="highlight-icon bg-info">
+                                <div class="d-flex">
+                                    <div class="bg-info bg-opacity-10 text-info rounded-circle p-2 me-3 flex-shrink-0">
                                         <i class="fas fa-chart-pie"></i>
                                     </div>
                                     <div>
-                                        <h6 class="highlight-title">Impact</h6>
+                                        <h6 class="h6 mb-0">Impact</h6>
                                         <small class="text-muted">Delivering measurable results</small>
                                     </div>
                                 </div>
@@ -2616,8 +2379,8 @@ latest_posts:
         </div>
     </section>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS (Deferred) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>
 
