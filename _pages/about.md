@@ -1919,8 +1919,8 @@ latest_posts:
         .card-header {
             border-bottom: none !important;
             position: relative;
-            padding-right: 100px !important;
-            min-height: 90px;
+            padding-right: 120px !important;
+            min-height: 100px;
             display: flex;
             align-items: center;
         }
@@ -1991,6 +1991,7 @@ latest_posts:
             padding: 0.5em !important;
             line-height: 1.3;
             min-height: 38px;
+            color: inherit !important;
         }
         
         .benefits-grid {
@@ -2121,9 +2122,30 @@ latest_posts:
         
         /* Absolute Positioning Fixes */
         .position-absolute.top-0.end-0 {
-            right: 15px !important;
-            top: 15px !important;
+            right: 20px !important;
+            top: 20px !important;
             transform: none !important;
+        }
+        
+        /* Color Fixes for Badges */
+        .bg-purple {
+            background-color: #6f42c1 !important;
+        }
+        .bg-teal {
+            background-color: #20c997 !important;
+        }
+        .bg-indigo {
+            background-color: #6610f2 !important;
+        }
+        
+        /* Spacing Adjustments */
+        .certification-features {
+            margin-bottom: 1.5rem !important;
+        }
+        
+        .border-top.pt-3 {
+            padding-top: 0.75rem !important;
+            margin-top: 0.5rem !important;
         }
         
         /* Responsive Adjustments */
