@@ -2233,23 +2233,34 @@ latest_posts:
             margin-bottom: 0.25rem;
         }
         
-        /* CIBSE Badge */
+        /* Enhanced CIBSE Badge with Larger Logo */
         .cibse-badge {
-            padding: 0.75rem 1.25rem;
+            padding: 0.85rem 1.5rem;
             border-radius: 8px;
             font-weight: 600;
             display: inline-flex;
             align-items: center;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             background-color: rgba(54, 185, 204, 0.1);
             border: 1px solid rgba(54, 185, 204, 0.2);
+            transition: var(--transition);
         }
-        
+
+        .cibse-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
         .cibse-logo {
-            width: 30px;
-            height: 30px;
-            margin-right: 0.75rem;
+            width: 42px;
+            height: 42px;
+            margin-right: 1rem;
             object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .cibse-badge:hover .cibse-logo {
+            transform: scale(1.05);
         }
         
         /* Animations */
@@ -2319,6 +2330,17 @@ latest_posts:
                 min-height: 50px;
                 font-size: 0.85rem;
             }
+
+            .cibse-badge {
+                padding: 0.75rem 1.25rem;
+                font-size: 1.1rem;
+            }
+
+            .cibse-logo {
+                width: 36px;
+                height: 36px;
+                margin-right: 0.75rem;
+            }
         }
     </style>
 </head>
@@ -2386,7 +2408,7 @@ latest_posts:
                                 <div class="d-flex">
                                     <span class="cibse-badge">
                                         <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
-                                        CIBSE
+                                        <span class="align-middle">CIBSE</span>
                                     </span>
                                 </div>
                             </div>
