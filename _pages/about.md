@@ -2973,6 +2973,12 @@ latest_posts:
             border: 1px solid rgba(214, 51, 132, 0.2) !important;
         }
         
+        .sector-badge.bg-indigo {
+            background-color: rgba(102, 16, 242, 0.1) !important;
+            color: var(--indigo) !important;
+            border: 1px solid rgba(102, 16, 242, 0.2) !important;
+        }
+        
         .sector-badge:hover {
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -3353,7 +3359,7 @@ latest_posts:
                                     <i class="fas fa-bolt"></i>
                                     <span>Energy Efficiency</span>
                                 </div>
-                                <div class="sector-badge bg-teal">
+                                <div class="sector-badge bg-indigo">
                                     <i class="fas fa-bullseye"></i>
                                     <span>Net-Zero</span>
                                 </div>
