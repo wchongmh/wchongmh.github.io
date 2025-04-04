@@ -1881,6 +1881,7 @@ latest_posts:
             --indigo: #6610f2;
             --orange: #fd7e14;
             --pink: #d63384;
+            --blue: #0d6efd;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
         
@@ -2101,7 +2102,7 @@ latest_posts:
             font-size: 1rem;
         }
         
-        /* Sector Grid - Updated to prevent text cropping */
+        /* Sector Grid */
         .sectors-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(120px, 1fr));
@@ -2128,6 +2129,44 @@ latest_posts:
         .sector-badge i {
             margin-right: 0.5rem;
             flex-shrink: 0;
+            color: inherit;
+        }
+
+        /* Specific sector badge styles */
+        .sector-badge.bg-success {
+            background-color: rgba(28, 200, 138, 0.1) !important;
+            color: var(--secondary) !important;
+            border: 1px solid rgba(28, 200, 138, 0.2) !important;
+        }
+
+        .sector-badge.bg-warning {
+            background-color: rgba(255, 193, 7, 0.1) !important;
+            color: #ffc107 !important;
+            border: 1px solid rgba(255, 193, 7, 0.2) !important;
+        }
+
+        .sector-badge.bg-orange {
+            background-color: rgba(253, 126, 20, 0.1) !important;
+            color: var(--orange) !important;
+            border: 1px solid rgba(253, 126, 20, 0.2) !important;
+        }
+
+        .sector-badge.bg-purple {
+            background-color: rgba(111, 66, 193, 0.1) !important;
+            color: var(--purple) !important;
+            border: 1px solid rgba(111, 66, 193, 0.2) !important;
+        }
+
+        .sector-badge.bg-teal {
+            background-color: rgba(32, 201, 151, 0.1) !important;
+            color: var(--teal) !important;
+            border: 1px solid rgba(32, 201, 151, 0.2) !important;
+        }
+
+        .sector-badge.bg-pink {
+            background-color: rgba(214, 51, 132, 0.1) !important;
+            color: var(--pink) !important;
+            border: 1px solid rgba(214, 51, 132, 0.2) !important;
         }
         
         .sector-badge:hover {
@@ -2194,7 +2233,7 @@ latest_posts:
             margin-bottom: 0.25rem;
         }
         
-        /* CIBSE Badge - Updated with logo and larger text */
+        /* CIBSE Badge */
         .cibse-badge {
             padding: 0.75rem 1.25rem;
             border-radius: 8px;
@@ -2222,23 +2261,6 @@ latest_posts:
         
         .pulse {
             animation: pulse 2s infinite;
-        }
-        
-        /* Color Classes for New Sectors */
-        .bg-orange {
-            background-color: var(--orange) !important;
-        }
-        
-        .bg-pink {
-            background-color: var(--pink) !important;
-        }
-        
-        .text-orange {
-            color: var(--orange) !important;
-        }
-        
-        .text-pink {
-            color: var(--pink) !important;
         }
         
         /* Responsive Adjustments */
@@ -2469,27 +2491,27 @@ latest_posts:
                             </div>
                             
                             <div class="sectors-grid">
-                                <div class="sector-badge bg-success bg-opacity-10 text-success border border-success">
+                                <div class="sector-badge bg-success">
                                     <i class="fas fa-leaf"></i>
                                     <span>Sustainable Design</span>
                                 </div>
-                                <div class="sector-badge bg-warning bg-opacity-10 text-warning border border-warning">
+                                <div class="sector-badge bg-warning">
                                     <i class="fas fa-brain"></i>
                                     <span>Smart Buildings</span>
                                 </div>
-                                <div class="sector-badge bg-orange bg-opacity-10 text-orange border border-orange">
+                                <div class="sector-badge bg-orange">
                                     <i class="fas fa-robot"></i>
                                     <span>AI & Machine Learning</span>
                                 </div>
-                                <div class="sector-badge bg-purple bg-opacity-10 text-purple border border-purple">
+                                <div class="sector-badge bg-purple">
                                     <i class="fas fa-bolt"></i>
                                     <span>Energy Efficiency</span>
                                 </div>
-                                <div class="sector-badge bg-teal bg-opacity-10 text-teal border border-teal">
+                                <div class="sector-badge bg-teal">
                                     <i class="fas fa-bullseye"></i>
                                     <span>Net-Zero</span>
                                 </div>
-                                <div class="sector-badge bg-pink bg-opacity-10 text-pink border border-pink">
+                                <div class="sector-badge bg-pink">
                                     <i class="fas fa-wifi"></i>
                                     <span>IoT Integration</span>
                                 </div>
