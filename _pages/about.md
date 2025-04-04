@@ -2914,4 +2914,110 @@ latest_posts:
       font-size: 1rem;
     }
   }
+
+  /* Connect Section Styles */
+  .connect-section {
+    position: relative;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .highlight-green {
+    background-color: rgba(40, 167, 69, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Connect Buttons */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-content {
+    top: 0;
+  }
+  
+  .btn-hover-content {
+    top: 100%;
+  }
+  
+  .connect-btn:hover .btn-content {
+    top: -100%;
+  }
+  
+  .connect-btn:hover .btn-hover-content {
+    top: 0;
+  }
+  
+  .btn-icon {
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  /* Email Button */
+  .email-btn {
+    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
+    color: white;
+  }
+  
+  .email-btn .btn-hover-content {
+    background: linear-gradient(135deg, #0b5ed7, #2b78e0);
+    color: white;
+  }
+  
+  /* LinkedIn Button */
+  .linkedin-btn {
+    background: linear-gradient(135deg, #0077b5, #00a0dc);
+    color: white;
+  }
+  
+  .linkedin-btn .btn-hover-content {
+    background: linear-gradient(135deg, #006097, #008cc9);
+    color: white;
+  }
+  
+  /* Connect Message */
+  .connect-message {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2.5rem 1.5rem;
+    }
+    
+    .connect-btn {
+      width: 160px;
+      height: 50px;
+    }
+  }
 </style>
