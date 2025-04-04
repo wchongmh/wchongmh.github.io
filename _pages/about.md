@@ -1919,8 +1919,8 @@ latest_posts:
         .card-header {
             border-bottom: none !important;
             position: relative;
-            padding-right: 120px !important;
-            min-height: 100px;
+            padding-right: 140px !important;
+            min-height: 120px;
             display: flex;
             align-items: center;
         }
@@ -1972,7 +1972,7 @@ latest_posts:
         .sectors-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 10px;
+            gap: 12px;
             margin: 1rem 0;
         }
         
@@ -1988,10 +1988,11 @@ latest_posts:
             text-align: center;
             white-space: normal;
             word-wrap: break-word;
-            padding: 0.5em !important;
+            padding: 0.75em !important;
             line-height: 1.3;
             min-height: 38px;
             color: inherit !important;
+            font-size: 0.85rem !important;
         }
         
         .benefits-grid {
@@ -2061,6 +2062,8 @@ latest_posts:
             color: white !important;
             border-color: #224abe !important;
             box-shadow: 0 0 10px rgba(34, 74, 190, 0.3);
+            font-size: 0.95rem !important;
+            padding: 0.5em 1em !important;
         }
         
         /* Gradient Backgrounds */
@@ -2122,8 +2125,8 @@ latest_posts:
         
         /* Absolute Positioning Fixes */
         .position-absolute.top-0.end-0 {
-            right: 20px !important;
-            top: 20px !important;
+            right: 25px !important;
+            top: 25px !important;
             transform: none !important;
         }
         
@@ -2150,6 +2153,11 @@ latest_posts:
         
         /* Responsive Adjustments */
         @media (max-width: 992px) {
+            .card-header {
+                padding-right: 1.5rem !important;
+                padding-bottom: 3.5rem !important;
+            }
+            
             .card-header .d-flex {
                 flex-direction: column;
                 text-align: center;
@@ -2161,11 +2169,12 @@ latest_posts:
             }
             
             .position-absolute.top-0.end-0 {
-                position: relative !important;
+                position: absolute !important;
                 top: auto !important;
-                right: auto !important;
-                margin-top: 0.5rem;
-                justify-content: center !important;
+                bottom: 20px !important;
+                right: 20px !important;
+                left: 20px !important;
+                justify-content: flex-start !important;
                 transform: none !important;
             }
         }
@@ -2173,6 +2182,11 @@ latest_posts:
         @media (max-width: 768px) {
             .sectors-grid {
                 grid-template-columns: 1fr !important;
+            }
+            
+            .sector-item .badge {
+                justify-content: flex-start !important;
+                text-align: left !important;
             }
             
             .benefits-grid {
@@ -2236,6 +2250,7 @@ latest_posts:
                                 <i class="fas fa-user-tie fa-3x opacity-25 me-3"></i>
                                 <div>
                                     <h3 class="h5 mb-1">Professional Certification</h3>
+                                    <p class="small mb-0 opacity-75">Chartered Engineer status</p>
                                 </div>
                             </div>
                             <div class="position-absolute top-0 end-0 mt-3 me-3">
@@ -2283,6 +2298,9 @@ latest_posts:
                                     <span class="badge bg-info bg-opacity-10 text-info border border-info border-opacity-10 py-2 px-3 highlighted-badge">
                                         <i class="fas fa-building me-2"></i>CIBSE
                                     </span>
+                                    <span class="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-10 py-2 px-3">
+                                        <i class="fas fa-cogs me-2"></i>IMechE
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -2297,6 +2315,7 @@ latest_posts:
                                 <i class="fas fa-graduation-cap fa-3x opacity-25 me-3"></i>
                                 <div>
                                     <h3 class="h5 mb-1">Training Program</h3>
+                                    <p class="small mb-0 opacity-75">Structured development pathway</p>
                                 </div>
                             </div>
                             <div class="position-absolute top-0 end-0 mt-3 me-3">
@@ -2374,6 +2393,7 @@ latest_posts:
                                 <i class="fas fa-hard-hat fa-3x opacity-25 me-3"></i>
                                 <div>
                                     <h3 class="h5 mb-1">Hands-On Experience</h3>
+                                    <p class="small mb-0 opacity-75">Practical industry application</p>
                                 </div>
                             </div>
                             <div class="position-absolute top-0 end-0 mt-3 me-3">
