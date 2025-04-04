@@ -1160,156 +1160,8 @@ latest_posts:
   }
 </style>
 
-
-
-<!-- 🏗️ Optimized Industry Experience Section -->
-<div class="industry-experience-section mb-5">
-  <!-- Section Header with Subtle Glow -->
-  <div class="section-header mb-4">
-    <h3 class="display-6 fw-bold mb-0 position-relative ps-4">
-      <i class="fas fa-hard-hat me-3 text-warning" style="filter: drop-shadow(0 2px 4px rgba(255, 193, 7, 0.3));"></i>
-      Industry Experience
-      <span class="position-absolute top-0 start-0 w-3 h-100 bg-warning opacity-10 rounded-pill"></span>
-    </h3>
-  </div>
-
-  <!-- Experience Card with Enhanced Styling -->
-  <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
-    <!-- Changed back to bg-warning -->
-    <div class="card-header bg-warning text-dark py-3">
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
-        <div class="mb-2 mb-md-0">
-          <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
-          <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-dark opacity-75">(Hong Kong)</small></h5>
-        </div>
-        <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm">
-          <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022
-        </span>
-      </div>
-    </div>
-    
-    <!-- Card Body with Cleaner Spacing -->
-    <div class="card-body px-4 py-3">
-      <!-- Project Highlight with Subtle Glow -->
-      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded position-relative" 
-           style="box-shadow: inset 0 0 12px rgba(255, 193, 7, 0.05);">
-        <div class="position-absolute top-0 start-0 h-100 bg-warning opacity-10" style="width: 3px;"></div>
-        <h6 class="text-uppercase text-muted mb-2 fs-7">
-          <i class="fas fa-star me-2 text-warning"></i>Featured Project
-        </h6>
-        <h5 class="mb-1 fw-semibold">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
-        <p class="mb-0 text-muted"><i class="fas fa-building me-2"></i>1,200+ residential units | Hong Kong</p>
-      </div>
-
-      <!-- Key Contributions with Numbered List -->
-      <h5 class="mb-3 text-warning fw-bold"><i class="fas fa-tasks me-2"></i>Key Contributions</h5>
-      <div class="contribution-list ps-2">
-        <div class="mb-3 d-flex align-items-start">
-          <span class="contribution-badge bg-warning text-dark mt-1">1</span>
-          <div class="ms-3">
-            <strong class="d-block mb-1">BIM-Driven Optimization</strong>
-            <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
-          </div>
-        </div>
-        <div class="mb-3 d-flex align-items-start">
-          <span class="contribution-badge bg-warning text-dark mt-1">2</span>
-          <div class="ms-3">
-            <strong class="d-block mb-1">Commissioning Efficiency</strong>
-            <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start">
-          <span class="contribution-badge bg-warning text-dark mt-1">3</span>
-          <div class="ms-3">
-            <strong class="d-block mb-1">Safety Documentation</strong>
-            <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tools Section with Visible Icons (dark text) -->
-      <div class="tools-section mt-4 pt-3 border-top border-light">
-        <div class="d-flex flex-wrap gap-2">
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
-            <i class="fas fa-cube me-2 text-dark"></i> Revit BIM
-          </span>
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
-            <i class="fas fa-drafting-compass me-2 text-dark"></i> AutoCAD
-          </span>
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
-            <i class="fas fa-book me-2 text-dark"></i> BEAM Plus
-          </span>
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-inline-flex align-items-center">
-            <i class="fas fa-tint me-2 text-dark"></i> Plumbing Standards
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card Footer with Insight -->
-    <div class="card-footer bg-light bg-opacity-10 py-3 px-4">
-      <p class="mb-0 text-muted fst-italic">
-        <i class="fas fa-lightbulb text-warning me-2"></i>
-        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
-      </p>
-    </div>
-  </div>
-</div>
-
-<hr class="my-5 border-warning opacity-10" style="height: 2px;">
-
-<!-- Optimized CSS (Warning Theme) -->
-<style>
-  .industry-experience-section {
-    position: relative;
-  }
-  .experience-card {
-    transition: all 0.3s ease;
-    border-radius: 0.75rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  }
-  .experience-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-  }
-  .card-header.bg-warning {
-    background-color: #ffc107 !important;
-  }
-  .contribution-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    font-size: 0.75rem;
-    font-weight: 700;
-  }
-  .highlight-stat {
-    background-color: rgba(255, 193, 7, 0.2);
-    padding: 0.15rem 0.4rem;
-    border-radius: 0.25rem;
-    font-weight: 600;
-    transition: background-color 0.2s;
-  }
-  .highlight-stat:hover {
-    background-color: rgba(255, 193, 7, 0.3);
-  }
-  .project-highlight {
-    transition: all 0.3s ease;
-  }
-  .project-highlight:hover {
-    box-shadow: inset 0 0 15px rgba(255, 193, 7, 0.1);
-  }
-  .tools-section .badge {
-    transition: all 0.25s ease;
-  }
-  .tools-section .badge:hover {
-    background-color: rgba(255,255,255,0.9) !important;
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-</style>
+<!-- ========== Next Section: Industry Experience Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- 🏗️ Optimized Industry Experience Section -->
 <div class="industry-experience-section mb-5">
@@ -1415,6 +1267,55 @@ latest_posts:
 
 <!-- Optimized CSS -->
 <style>
+    .industry-experience-section {
+    position: relative;
+  }
+  .experience-card {
+    transition: all 0.3s ease;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  }
+  .card-header.bg-warning {
+    background-color: #ffc107 !important;
+  }
+  .contribution-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .highlight-stat {
+    background-color: rgba(255, 193, 7, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  .highlight-stat:hover {
+    background-color: rgba(255, 193, 7, 0.3);
+  }
+  .project-highlight {
+    transition: all 0.3s ease;
+  }
+  .project-highlight:hover {
+    box-shadow: inset 0 0 15px rgba(255, 193, 7, 0.1);
+  }
+  .tools-section .badge {
+    transition: all 0.25s ease;
+  }
+  .tools-section .badge:hover {
+    background-color: rgba(255,255,255,0.9) !important;
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
   .industry-experience-section {
     position: relative;
   }
@@ -1816,6 +1717,273 @@ latest_posts:
 
 <!-- ========== Next Section: Sustainability Commitment ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<!--🌱 Sustainability Commitment Section -->
+<div class="sustainability-section mb-5">
+  <!-- Section Header with Animated Emoji -->
+  <div class="section-header mb-4 text-center">
+    <h2 class="mb-0 animate-float">🌱 Sustainability Commitment</h2>
+    <div class="header-divider mx-auto my-3"></div>
+  </div>
+  
+  <!-- Intro Text with Subtle Background -->
+  <div class="intro-text mb-4 p-4 rounded-4 bg-soft-green border-start border-4 border-success">
+    <p class="lead mb-0 text-center">
+      I am deeply passionate about <strong class="highlight-green">sustainability and smart system integration</strong>. My engineering philosophy centers on creating solutions that harmonize ecological responsibility with technological innovation.
+    </p>
+  </div>
+
+  <!-- Sustainability Pillars with Distinct Colors -->
+  <div class="pillars-container mb-5">
+    <div class="row g-4">
+      <!-- Passive Design -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card passive-design h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-leaf"></i>
+            </div>
+          </div>
+          <h3 class="pillar-title text-center mb-3">Passive Design First</h3>
+          <p class="pillar-description text-center mb-4">Natural ventilation & daylighting strategies that reduce energy demand</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Bioclimatic Design</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Thermal Mass</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Solar Shading</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Active Efficiency -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-bolt"></i>
+            </div>
+          </div>
+          <h3 class="pillar-title text-center mb-3">Active Efficiency</h3>
+          <p class="pillar-description text-center mb-4">IoT-driven energy optimization and smart building systems</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Predictive Control</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Real-time Monitoring</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Renewable Integration -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-sun"></i>
+            </div>
+          </div>
+          <h3 class="pillar-title text-center mb-3">Renewable Integration</h3>
+          <p class="pillar-description text-center mb-4">Smart grid solutions and photovoltaic system optimization</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Solar PV</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Energy Storage</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Microgrids</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Neurodiversity Card -->
+  <div class="neurodiversity-card card border-0 mb-4 hover-grow">
+    <div class="card-body p-4 rounded-3">
+      <div class="d-flex align-items-center">
+        <div class="neuro-icon me-3 pulse rounded-circle p-3 bg-primary bg-opacity-10 text-primary">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div>
+          <h4 class="card-title mb-2">Neurodiversity Advantage</h4>
+          <p class="card-text mb-0 text-muted">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Closing Statement -->
+  <div class="closing-statement p-4 p-lg-5 rounded-4 bg-light-gradient position-relative overflow-hidden">
+    <div class="position-absolute top-0 start-0 h-100 w-4 bg-success"></div>
+    <div class="ps-4">
+      <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
+      <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ===== Color Scheme Update ===== */
+  :root {
+    --passive-color: #2ecc71;  // Fresh green
+    --active-color: #3498db;   // Vibrant blue
+    --renewable-color: #f39c12; // Sunny orange
+    --soft-passive: rgba(46, 204, 113, 0.08);
+    --soft-active: rgba(52, 152, 219, 0.08);
+    --soft-renewable: rgba(243, 156, 18, 0.08);
+    --light-gray: #f8f9fa;
+    --dark-gray: #212529;
+  }
+
+  /* Passive Design Card */
+  .pillar-card.passive-design {
+    background-color: var(--soft-passive);
+    border-top: 4px solid var(--passive-color);
+  }
+  .passive-design .pillar-icon {
+    color: var(--passive-color);
+    background-color: rgba(46, 204, 113, 0.1);
+  }
+  .passive-design::after {
+    background: linear-gradient(90deg, var(--passive-color), #6c757d);
+  }
+
+  /* Active Efficiency Card */
+  .pillar-card.active-efficiency {
+    background-color: var(--soft-active);
+    border-top: 4px solid var(--active-color);
+  }
+  .active-efficiency .pillar-icon {
+    color: var(--active-color);
+    background-color: rgba(52, 152, 219, 0.1);
+  }
+  .active-efficiency::after {
+    background: linear-gradient(90deg, var(--active-color), #6c757d);
+  }
+
+  /* Renewable Integration Card */
+  .pillar-card.renewable-integration {
+    background-color: var(--soft-renewable);
+    border-top: 4px solid var(--renewable-color);
+  }
+  .renewable-integration .pillar-icon {
+    color: var(--renewable-color);
+    background-color: rgba(243, 156, 18, 0.1);
+  }
+  .renewable-integration::after {
+    background: linear-gradient(90deg, var(--renewable-color), #6c757d);
+  }
+
+  /* Rest of the CSS remains the same as previous version */
+  .section-header {
+    position: relative;
+  }
+  .header-divider {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--passive-color), rgba(46, 204, 113, 0.3));
+    border-radius: 3px;
+  }
+  .animate-float {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  .bg-soft-green {
+    background-color: var(--soft-passive);
+  }
+  .highlight-green {
+    color: var(--passive-color);
+  }
+  .pillar-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+  }
+  .pillar-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  .hover-scale:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  .hover-scale:hover::after {
+    transform: scaleX(1);
+  }
+  .pillar-icon-wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .pillar-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .pulse {
+    transition: all 0.3s ease;
+  }
+  .pulse:hover {
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  .neurodiversity-card {
+    transition: all 0.3s ease;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-radius: 12px !important;
+  }
+  .hover-grow:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  .neuro-icon {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  .bg-light-gradient {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    border-left: 4px solid var(--passive-color) !important;
+  }
+  .badge {
+    font-weight: 500;
+    padding: 0.5em 0.8em;
+    transition: all 0.2s ease;
+  }
+  .badge:hover {
+    transform: translateY(-2px);
+  }
+  @media (max-width: 768px) {
+    .pillar-card {
+      margin-bottom: 1.5rem;
+    }
+    .intro-text {
+      padding: 1.25rem !important;
+    }
+    .neurodiversity-card .d-flex {
+      flex-direction: column;
+      text-align: center;
+    }
+    .neuro-icon {
+      margin-bottom: 1rem;
+      margin-right: 0 !important;
+    }
+  }
+</style>
 
 <!--🌱 Sustainability Commitment Section -->
 <div class="sustainability-section mb-5">
@@ -2564,244 +2732,6 @@ latest_posts:
                 margin-right: 0.75rem;
             }
         }
-        
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: #495057;
-            background-color: #f8f9fa;
-        }
-        
-        /* Section Styling */
-        .future-goals-section {
-            padding: 3.5rem 0;
-        }
-        
-        .max-w-800 {
-            max-width: 800px;
-        }
-        
-        /* Header Styling */
-        .section-header {
-            margin-bottom: 3rem;
-        }
-        
-        .section-badge {
-            display: inline-block;
-            background-color: rgba(78, 115, 223, 0.1);
-            color: var(--primary);
-            font-weight: 600;
-            padding: 0.5rem 1.25rem;
-            margin-bottom: 1rem;
-            border-radius: 50px;
-        }
-        
-        .section-title {
-            font-weight: 700;
-            margin-bottom: 1rem;
-            position: relative;
-        }
-        
-        .section-title:after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 3px;
-            background: var(--primary);
-            border-radius: 3px;
-        }
-        
-        /* Card Styling (Consolidated) */
-        .card {
-            border: none;
-            border-radius: 0.75rem;
-            overflow: hidden;
-            transition: var(--transition);
-            height: 100%;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            background: white;
-        }
-        
-        .card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
-        }
-        
-        .card-header {
-            padding: 1.75rem;
-            position: relative;
-            overflow: hidden;
-            border-bottom: none;
-        }
-        
-        .card-header-gradient {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 0;
-        }
-        
-        .card-header-content {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .card-badge {
-            position: absolute;
-            top: 1.5rem;
-            right: 1.5rem;
-            font-weight: 600;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            z-index: 2;
-        }
-        
-        /* Card Types */
-        .professional-cert-card .card-header-gradient {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-        }
-        
-        .training-program-card .card-header-gradient {
-            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
-        }
-        
-        .experience-card .card-header-gradient {
-            background: linear-gradient(135deg, var(--info) 0%, var(--info-dark) 100%);
-        }
-        
-        /* Content Elements (Optimized) */
-        .content-icon-box {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1rem;
-            flex-shrink: 0;
-            background-color: rgba(0, 0, 0, 0.05);
-        }
-        
-        /* Timeline (Simplified) */
-        .timeline {
-            position: relative;
-            padding-left: 1.5rem;
-        }
-        
-        .timeline:before {
-            content: '';
-            position: absolute;
-            left: 7px;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: #e9ecef;
-        }
-        
-        .timeline-item {
-            position: relative;
-            margin-bottom: 1.25rem;
-        }
-        
-        .timeline-badge {
-            position: absolute;
-            left: -1.5rem;
-            top: 0.25rem;
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            border: 3px solid white;
-            z-index: 1;
-        }
-        
-        /* Sector Grid (Optimized) */
-        .sectors-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-        }
-        
-        .sector-badge {
-            display: flex;
-            align-items: center;
-            padding: 0.75rem;
-            border-radius: 8px;
-            font-weight: 500;
-            min-height: 60px;
-            transition: var(--transition);
-            background-color: rgba(0, 0, 0, 0.03);
-            border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-        
-        .sector-badge:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-        }
-        
-        /* CIBSE Badge (Optimized) */
-        .cibse-badge {
-            padding: 1rem;
-            border-radius: 10px;
-            display: inline-flex;
-            background-color: rgba(54, 185, 204, 0.1);
-            border: 2px solid rgba(54, 185, 204, 0.2);
-            transition: var(--transition);
-        }
-        
-        .cibse-logo {
-            width: 50px;
-            height: 50px;
-            margin-right: 1rem;
-        }
-        
-        /* Animations (Performance-Friendly) */
-        @keyframes subtlePulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.03); }
-        }
-        
-        .pulse {
-            animation: subtlePulse 3s ease-in-out infinite;
-        }
-        
-        /* Responsive Adjustments */
-        @media (max-width: 992px) {
-            .card-header {
-                padding: 1.5rem;
-            }
-            
-            .card-badge {
-                position: relative;
-                top: auto;
-                right: auto;
-                margin-top: 1rem;
-                display: inline-block;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .sectors-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .future-goals-section {
-                padding: 2.5rem 0;
-            }
-        }
-        
-        @media (max-width: 576px) {
-            .content-icon-box {
-                margin: 0 auto 1rem auto;
-            }
-            
-            .section-header {
-                margin-bottom: 2rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -2810,7 +2740,7 @@ latest_posts:
         <div class="container">
             <!-- Section Header -->
             <div class="section-header text-center">
-                <span class="section-badge">
+                <span class="section-badge rounded-pill">
                     <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
                 </span>
                 <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
@@ -2828,9 +2758,8 @@ latest_posts:
                 <div class="col-lg-4">
                     <div class="card h-100 professional-cert-card">
                         <div class="card-header text-white">
-                            <div class="card-header-gradient"></div>
-                            <div class="card-header-content d-flex align-items-center">
-                                <i class="fas fa-user-tie me-3 fs-3 opacity-25"></i>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-user-tie card-header-icon"></i>
                                 <h3 class="h5 mb-0">Professional Certification</h3>
                             </div>
                             <span class="card-badge badge bg-white text-primary rounded-pill pulse">
@@ -2839,36 +2768,40 @@ latest_posts:
                         </div>
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-4">
-                                <div class="content-icon-box text-primary">
-                                    <i class="fas fa-medal"></i>
+                                <div class="content-icon-box bg-primary bg-opacity-10 text-primary">
+                                    <i class="fas fa-medal fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h4 class="h5 text-primary mb-1">Chartered Engineer (CEng)</h4>
-                                    <small class="text-muted">Engineering Council UK</small>
+                                    <h4 class="content-title text-primary">Chartered Engineer (CEng)</h4>
+                                    <small class="content-subtitle">Engineering Council UK</small>
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
                             
-                            <ul class="list-unstyled mb-4">
-                                <li class="mb-2 d-flex">
-                                    <i class="fas fa-check-circle text-primary me-2 mt-1"></i>
+                            <div class="feature-list">
+                                <div class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
                                     <span>Internationally recognized qualification</span>
-                                </li>
-                                <li class="mb-2 d-flex">
-                                    <i class="fas fa-check-circle text-primary me-2 mt-1"></i>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
                                     <span>Demonstrates highest standards of competence</span>
-                                </li>
-                                <li class="d-flex">
-                                    <i class="fas fa-check-circle text-primary me-2 mt-1"></i>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
                                     <span>Commitment to professional development</span>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                             
-                            <div class="border-top pt-4">
-                                <h5 class="h6 mb-3">Key Organizations:</h5>
-                                <div class="cibse-badge">
-                                    <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
-                                    <span class="h5 mb-0 align-self-center">CIBSE</span>
+                            <div class="border-top pt-4 mt-auto">
+                                <h5 class="h5 mb-3">Key Organizations:</h5>
+                                <div class="d-flex">
+                                    <span class="cibse-badge">
+                                        <div class="cibse-logo-container">
+                                            <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
+                                            <span class="cibse-text">CIBSE</span>
+                                        </div>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -2879,9 +2812,8 @@ latest_posts:
                 <div class="col-lg-4">
                     <div class="card h-100 training-program-card">
                         <div class="card-header text-white">
-                            <div class="card-header-gradient"></div>
-                            <div class="card-header-content d-flex align-items-center">
-                                <i class="fas fa-graduation-cap me-3 fs-3 opacity-25"></i>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-graduation-cap card-header-icon"></i>
                                 <h3 class="h5 mb-0">Training Program</h3>
                             </div>
                             <span class="card-badge badge bg-white text-success rounded-pill">
@@ -2890,61 +2822,58 @@ latest_posts:
                         </div>
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-4">
-                                <div class="content-icon-box text-success">
-                                    <i class="fas fa-user-graduate"></i>
+                                <div class="content-icon-box bg-success bg-opacity-10 text-success">
+                                    <i class="fas fa-user-graduate fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h4 class="h5 text-success mb-1">Engineering Graduate Scheme</h4>
-                                    <small class="text-muted">Accredited Development Program</small>
+                                    <h4 class="content-title text-success">Engineering Graduate Scheme</h4>
+                                    <small class="content-subtitle">Accredited Development Program</small>
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Seeking accredited program participation with clear milestones</p>
                             
-                            <div class="timeline mb-4">
-                                <div class="timeline-item">
-                                    <div class="timeline-badge bg-success pulse"></div>
-                                    <div class="timeline-content">
-                                        <h5 class="h6 mb-1">Year 1</h5>
-                                        <p class="small text-muted mb-2">Core Competencies Development</p>
-                                        <ul class="small ps-3 mb-0">
-                                            <li>Fundamental engineering principles</li>
-                                            <li>Industry standards & regulations</li>
-                                        </ul>
+                            <div class="timeline-container">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-badge bg-success pulse"></div>
+                                        <div class="timeline-content">
+                                            <h5 class="timeline-title">Year 1</h5>
+                                            <p class="small text-muted">Core Competencies Development</p>
+                                            <ul class="small ps-3 mb-0">
+                                                <li>Fundamental engineering principles</li>
+                                                <li>Industry standards & regulations</li>
+                                                <li>Technical skills enhancement</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-badge bg-success pulse"></div>
-                                    <div class="timeline-content">
-                                        <h5 class="h6 mb-1">Year 2</h5>
-                                        <p class="small text-muted mb-2">Specialization Phase</p>
-                                        <ul class="small ps-3 mb-0">
-                                            <li>Advanced systems design</li>
-                                            <li>Innovation in building services</li>
-                                        </ul>
+                                    <div class="timeline-item">
+                                        <div class="timeline-badge bg-success pulse"></div>
+                                        <div class="timeline-content">
+                                            <h5 class="timeline-title">Year 2</h5>
+                                            <p class="small text-muted">Specialization Phase</p>
+                                            <ul class="small ps-3 mb-0">
+                                                <li>Advanced systems design</li>
+                                                <li>Innovation in building services</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             
                             <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Program Benefits:</h5>
-                                <div class="row g-2">
-                                    <div class="col-4">
-                                        <div class="text-center p-2 rounded">
-                                            <i class="fas fa-network-wired text-success mb-1"></i>
-                                            <small class="d-block">Industry Network</small>
-                                        </div>
+                                <div class="benefits-grid">
+                                    <div class="benefit-item">
+                                        <i class="benefit-icon fas fa-network-wired"></i>
+                                        <small>Industry Network</small>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="text-center p-2 rounded">
-                                            <i class="fas fa-certificate text-success mb-1"></i>
-                                            <small class="d-block">Accreditation</small>
-                                        </div>
+                                    <div class="benefit-item">
+                                        <i class="benefit-icon fas fa-certificate"></i>
+                                        <small>Accreditation</small>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="text-center p-2 rounded">
-                                            <i class="fas fa-chart-line text-success mb-1"></i>
-                                            <small class="d-block">Career Growth</small>
-                                        </div>
+                                    <div class="benefit-item">
+                                        <i class="benefit-icon fas fa-chart-line"></i>
+                                        <small>Career Growth</small>
                                     </div>
                                 </div>
                             </div>
@@ -2956,9 +2885,8 @@ latest_posts:
                 <div class="col-lg-4">
                     <div class="card h-100 experience-card">
                         <div class="card-header text-white">
-                            <div class="card-header-gradient"></div>
-                            <div class="card-header-content d-flex align-items-center">
-                                <i class="fas fa-hard-hat me-3 fs-3 opacity-25"></i>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-hard-hat card-header-icon"></i>
                                 <h3 class="h5 mb-0">Hands-On Experience</h3>
                             </div>
                             <span class="card-badge badge bg-white text-info rounded-pill">
@@ -2967,68 +2895,68 @@ latest_posts:
                         </div>
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-4">
-                                <div class="content-icon-box text-info">
-                                    <i class="fas fa-building"></i>
+                                <div class="content-icon-box bg-info bg-opacity-10 text-info">
+                                    <i class="fas fa-building fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h4 class="h5 text-info mb-1">2+ Years Industry Practice</h4>
-                                    <small class="text-muted">Target sectors for development</small>
+                                    <h4 class="content-title text-info">2+ Years Industry Practice</h4>
+                                    <small class="content-subtitle">Target sectors for development</small>
                                 </div>
                             </div>
                             
-                            <div class="sectors-grid mb-4">
-                                <div class="sector-badge text-success">
-                                    <i class="fas fa-leaf me-2"></i>
+                            <div class="sectors-grid">
+                                <div class="sector-badge bg-success">
+                                    <i class="fas fa-leaf"></i>
                                     <span>Sustainable Design</span>
                                 </div>
-                                <div class="sector-badge text-warning">
-                                    <i class="fas fa-brain me-2"></i>
+                                <div class="sector-badge bg-warning">
+                                    <i class="fas fa-brain"></i>
                                     <span>Smart Buildings</span>
                                 </div>
-                                <div class="sector-badge text-orange">
-                                    <i class="fas fa-robot me-2"></i>
+                                <div class="sector-badge bg-orange">
+                                    <i class="fas fa-robot"></i>
                                     <span>AI & Machine Learning</span>
                                 </div>
-                                <div class="sector-badge text-purple">
-                                    <i class="fas fa-bolt me-2"></i>
+                                <div class="sector-badge bg-purple">
+                                    <i class="fas fa-bolt"></i>
                                     <span>Energy Efficiency</span>
                                 </div>
-                                <div class="sector-badge text-teal">
-                                    <i class="fas fa-bullseye me-2"></i>
+                                <div class="sector-badge bg-teal">
+                                    <i class="fas fa-bullseye"></i>
                                     <span>Net-Zero</span>
                                 </div>
-                                <div class="sector-badge text-pink">
-                                    <i class="fas fa-wifi me-2"></i>
+                                <div class="sector-badge bg-pink">
+                                    <i class="fas fa-wifi"></i>
                                     <span>IoT Integration</span>
                                 </div>
                             </div>
                             
                             <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Experience Focus:</h5>
-                                <div class="d-flex mb-3">
-                                    <div class="bg-info bg-opacity-10 text-info rounded-circle p-2 me-3 flex-shrink-0">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon bg-info">
                                         <i class="fas fa-lightbulb"></i>
                                     </div>
                                     <div>
-                                        <h6 class="h6 mb-0">Innovation</h6>
+                                        <h6 class="highlight-title">Innovation</h6>
                                         <small class="text-muted">Implementing cutting-edge solutions</small>
                                     </div>
                                 </div>
-                                <div class="d-flex mb-3">
-                                    <div class="bg-info bg-opacity-10 text-info rounded-circle p-2 me-3 flex-shrink-0">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon bg-info">
                                         <i class="fas fa-users"></i>
                                     </div>
                                     <div>
-                                        <h6 class="h6 mb-0">Collaboration</h6>
+                                        <h6 class="highlight-title">Collaboration</h6>
                                         <small class="text-muted">Working with multidisciplinary teams</small>
                                     </div>
                                 </div>
-                                <div class="d-flex">
-                                    <div class="bg-info bg-opacity-10 text-info rounded-circle p-2 me-3 flex-shrink-0">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon bg-info">
                                         <i class="fas fa-chart-pie"></i>
                                     </div>
                                     <div>
-                                        <h6 class="h6 mb-0">Impact</h6>
+                                        <h6 class="highlight-title">Impact</h6>
                                         <small class="text-muted">Delivering measurable results</small>
                                     </div>
                                 </div>
@@ -3040,13 +2968,19 @@ latest_posts:
         </div>
     </section>
 
-    <!-- Bootstrap JS (Deferred) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
 <!-- ========== Next Section: Global Competence ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<!--🌐 Global Competence -->
+<div class="connect-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0">🌐 Global Competence</h3>
+  </div>
 
 <!--🌐 Global Competence -->
 <div class="row g-4 mt-3">
