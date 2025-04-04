@@ -2385,7 +2385,7 @@ latest_posts:
                                 <h5 class="h6 mb-3">Key Organizations:</h5>
                                 <div class="d-flex">
                                     <span class="cibse-badge">
-                                        <img src="/assets/img/logo/cibse-logo.jpg" alt="CIBSE Logo" class="cibse-logo">
+                                        <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
                                         CIBSE
                                     </span>
                                 </div>
