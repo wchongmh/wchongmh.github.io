@@ -2731,7 +2731,6 @@ latest_posts:
         <div class="container">
             <!-- Section Header -->
             <div class="section-header text-center">
-             <div class="looking-ahead-badge mb-2">
                 <span class="section-badge rounded-pill">
                     <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
                 </span>
