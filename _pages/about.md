@@ -1807,429 +1807,6 @@ latest_posts:
   });
 </script>
 
-<!-- 🔧 Technical Skills Section - Optimized -->
-<div class="technical-skills-section mb-5">
-  <div class="section-header mb-4">
-    <h3 class="section-title">🔧 Technical Skills</h3>
-  </div>
-
-  <div class="skills-container">
-    <div class="skills-grid">
-      <!-- Software & Design Card -->
-      <div class="skill-card" tabindex="0" aria-label="Software and Design Skills">
-        <div class="card-header bg-primary-gradient">
-          <i class="fas fa-laptop-code" aria-hidden="true"></i>
-          <h4>Software & Design</h4>
-        </div>
-        <div class="card-body">
-          <ul class="skills-list">
-            <li class="skill-item">
-              <span class="skill-icon bg-primary">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">AutoCAD</span>
-                <div class="skill-progress" data-level="95%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <!-- Repeat for other skills -->
-            <li class="skill-item">
-              <span class="skill-icon bg-primary">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Revit (BIM)</span>
-                <div class="skill-progress" data-level="90%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-primary">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Dialux</span>
-                <div class="skill-progress" data-level="85%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-primary">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Hevacomp</span>
-                <div class="skill-progress" data-level="80%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-primary">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">IES VE (ModelIT)</span>
-                <div class="skill-progress" data-level="75%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- Building Systems Card -->
-      <div class="skill-card">
-        <div class="card-header bg-info-gradient">
-          <i class="fas fa-building"></i>
-          <h4>Building Systems</h4>
-        </div>
-        <div class="card-body">
-          <ul class="skills-list">
-            <li class="skill-item">
-              <span class="skill-icon bg-info">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">HVAC Design</span>
-                <div class="skill-progress" data-level="90%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <!-- Repeat for other skills -->
-            <li class="skill-item">
-              <span class="skill-icon bg-info">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Fire Safety Systems</span>
-                <div class="skill-progress" data-level="85%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-info">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Pipe & Drainage Design</span>
-                <div class="skill-progress" data-level="88%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-info">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Building Performance Modeling</span>
-                <div class="skill-progress" data-level="82%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-info">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Energy Assessment</span>
-                <div class="skill-progress" data-level="78%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      
-      <!-- Automation Card -->
-      <div class="skill-card">
-        <div class="card-header bg-danger-gradient">
-          <i class="fas fa-robot"></i>
-          <h4>Automation</h4>
-        </div>
-        <div class="card-body">
-          <ul class="skills-list">
-            <li class="skill-item">
-              <span class="skill-icon bg-danger">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Raspberry Pi/Arduino</span>
-                <div class="skill-progress" data-level="80%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <!-- Repeat for other skills -->
-            <li class="skill-item">
-              <span class="skill-icon bg-danger">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Smart Home Tech</span>
-                <div class="skill-progress" data-level="75%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-danger">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">TensorFlow/OpenCV</span>
-                <div class="skill-progress" data-level="70%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-danger">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">IoT Integration</span>
-                <div class="skill-progress" data-level="78%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-icon bg-danger">
-                <i class="fas fa-check"></i>
-              </span>
-              <div class="skill-content">
-                <span class="skill-name">Home Assistant</span>
-                <div class="skill-progress" data-level="72%">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  /* ===== CSS Variables ===== */
-  :root {
-    --primary-gradient: linear-gradient(135deg, #3a7bd5, #00d2ff);
-    --info-gradient: linear-gradient(135deg, #11998e, #38ef7d);
-    --danger-gradient: linear-gradient(135deg, #ff416c, #ff4b2b);
-    --card-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
-    --card-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
-    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-
-  /* ===== Base Styles ===== */
-  .technical-skills-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
-  .section-header {
-    text-align: center;
-    margin-bottom: 2.5rem;
-  }
-
-  .section-title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #2c3e50;
-    position: relative;
-    display: inline-block;
-  }
-
-  .section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background: var(--primary-gradient);
-    border-radius: 3px;
-  }
-
-  /* ===== Skills Grid Layout ===== */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-  }
-
-  /* ===== Skill Cards ===== */
-  .skill-card {
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: var(--card-shadow);
-    transition: var(--transition);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .skill-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--card-shadow-hover);
-  }
-
-  .card-header {
-    padding: 1.5rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  .card-header i {
-    font-size: 1.5rem;
-    transition: transform 0.3s ease;
-  }
-
-  .skill-card:hover .card-header i {
-    transform: scale(1.15);
-  }
-
-  .card-header h4 {
-    margin: 0;
-    font-size: 1.25rem;
-    font-weight: 600;
-  }
-
-  .card-body {
-    padding: 1.5rem;
-    flex-grow: 1;
-  }
-
-  /* ===== Skills List ===== */
-  .skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .skill-item {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .skill-item:last-child {
-    margin-bottom: 0;
-  }
-
-  .skill-icon {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    flex-shrink: 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .skill-item:hover .skill-icon {
-    transform: scale(1.1);
-    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
-  }
-
-  .skill-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .skill-name {
-    font-weight: 500;
-    color: #34495e;
-    display: block;
-    margin-bottom: 0.25rem;
-  }
-
-  /* ===== Progress Bars ===== */
-  .skill-progress {
-    height: 6px;
-    background: rgba(0, 0, 0, 0.08);
-    border-radius: 3px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .progress-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 3px;
-    transition: width 1s ease-out;
-  }
-
-  /* Gradient Backgrounds */
-  .bg-primary-gradient { background: var(--primary-gradient); }
-  .bg-info-gradient { background: var(--info-gradient); }
-  .bg-danger-gradient { background: var(--danger-gradient); }
-
-  .bg-primary { background: #3a7bd5; }
-  .bg-info { background: #11998e; }
-  .bg-danger { background: #ff416c; }
-
-  /* Progress bar colors */
-  .skill-card:nth-child(1) .progress-bar { background: #3a7bd5; }
-  .skill-card:nth-child(2) .progress-bar { background: #11998e; }
-  .skill-card:nth-child(3) .progress-bar { background: #ff416c; }
-
-  /* ===== Responsive Adjustments ===== */
-  @media (max-width: 768px) {
-    .skills-grid {
-      grid-template-columns: 1fr;
-    }
-    
-    .skill-card {
-      border-radius: 10px;
-    }
-    
-    .card-header, .card-body {
-      padding: 1.25rem;
-    }
-  }
-</style>
-
-<script>
-  // Animate progress bars on page load
-  document.addEventListener('DOMContentLoaded', function() {
-    const progressContainers = document.querySelectorAll('.skill-progress');
-    
-    progressContainers.forEach(container => {
-      const level = container.getAttribute('data-level');
-      const bar = container.querySelector('.progress-bar');
-      
-      // Delay animation slightly for staggered effect
-      setTimeout(() => {
-        bar.style.width = level;
-      }, 100);
-    });
-  });
-</script>
-
 <!-- ========== Next Section: Sustainability Commitment ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
@@ -2642,6 +2219,393 @@ latest_posts:
     }
   }
 </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Goals & Professional Journey</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4e73df;
+            --primary-dark: #224abe;
+            --secondary: #1cc88a;
+            --secondary-dark: #13855c;
+            --info: #36b9cc;
+            --info-dark: #258391;
+            --purple: #6f42c1;
+            --teal: #20c997;
+            --indigo: #6610f2;
+            --orange: #fd7e14;
+            --pink: #d63384;
+            --blue: #0d6efd;
+            --gold: #ffc107;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        /* Enhanced Looking Ahead Banner */
+        .looking-ahead-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 3rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .looking-ahead-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .banner-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: 1.5px;
+        }
+        
+        .banner-title i {
+            margin-right: 1.2rem;
+            font-size: 2.8rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .banner-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+        
+        .banner-features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-pill {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            padding: 0.8rem 1.8rem;
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+        
+        .feature-pill:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.25);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .feature-pill i {
+            margin-right: 0.7rem;
+            font-size: 1.2rem;
+        }
+        
+        /* Progress Timeline */
+        .progress-timeline {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin: 2.5rem auto;
+            max-width: 800px;
+        }
+        
+        .progress-line {
+            position: absolute;
+            top: 15px;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: rgba(255,255,255,0.3);
+            z-index: 1;
+        }
+        
+        .progress-fill {
+            position: absolute;
+            top: 15px;
+            left: 0;
+            height: 4px;
+            background: white;
+            z-index: 2;
+            transition: width 1s ease;
+        }
+        
+        .progress-milestone {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            width: 20%;
+        }
+        
+        .milestone-dot {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: white;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.5rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: var(--transition);
+        }
+        
+        .milestone-dot.active {
+            transform: scale(1.2);
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .milestone-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        /* Animated background elements */
+        .banner-bg-element {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            animation: float 15s infinite linear;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Rest of your existing styles... */
+        /* Modified Net-Zero badge color to gold */
+        .sector-badge.bg-gold {
+            background-color: rgba(255, 193, 7, 0.15) !important;
+            color: var(--gold) !important;
+            border: 1px solid rgba(255, 193, 7, 0.3) !important;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .banner-title {
+                font-size: 2rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .progress-timeline {
+                margin: 2rem auto;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .banner-title {
+                font-size: 1.8rem;
+                flex-direction: column;
+            }
+            
+            .banner-title i {
+                margin-right: 0;
+                margin-bottom: 0.8rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1rem;
+            }
+            
+            .banner-features {
+                gap: 1rem;
+            }
+            
+            .feature-pill {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
+            }
+            
+            .progress-milestone {
+                width: 25%;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .looking-ahead-banner {
+                padding: 2rem 0;
+            }
+            
+            .banner-title {
+                font-size: 1.6rem;
+            }
+            
+            .progress-timeline {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+            
+            .progress-milestone {
+                width: 40%;
+            }
+            
+            .progress-line,
+            .progress-fill {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Enhanced Looking Ahead Banner -->
+    <div class="looking-ahead-banner">
+        <!-- Animated background elements -->
+        <div class="banner-bg-element" style="width: 200px; height: 200px; background: white; top: -50px; left: -50px; animation-delay: 0s;"></div>
+        <div class="banner-bg-element" style="width: 150px; height: 150px; background: var(--secondary); bottom: -30px; right: 50px; animation-delay: 2s;"></div>
+        <div class="banner-bg-element" style="width: 100px; height: 100px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
+        
+        <div class="looking-ahead-content">
+            <div class="banner-title">
+                <i class="fas fa-binoculars"></i>
+                <span>LOOKING AHEAD</span>
+            </div>
+            <p class="banner-subtitle">Charting the course for professional excellence and innovation in building services engineering</p>
+            
+            <!-- Progress Timeline -->
+            <div class="progress-timeline">
+                <div class="progress-line"></div>
+                <div class="progress-fill" style="width: 40%;"></div>
+                
+                <div class="progress-milestone active">
+                    <div class="milestone-dot active">1</div>
+                    <div class="milestone-label">Education</div>
+                </div>
+                <div class="progress-milestone active">
+                    <div class="milestone-dot active">2</div>
+                    <div class="milestone-label">Graduate Scheme</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">3</div>
+                    <div class="milestone-label">Chartered Status</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">4</div>
+                    <div class="milestone-label">Specialization</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">5</div>
+                    <div class="milestone-label">Leadership</div>
+                </div>
+            </div>
+            
+            <div class="banner-features">
+                <div class="feature-pill">
+                    <i class="fas fa-rocket"></i>
+                    <span>Career Growth</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Innovation</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-leaf"></i>
+                    <span>Sustainability</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-cogs"></i>
+                    <span>Technology</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-globe"></i>
+                    <span>Global Impact</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Future Goals Section -->
+    <section class="future-goals-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-center">
+                <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
+                <p class="lead text-muted max-w-800 mx-auto">
+                    My passion is driven by the aspiration to become a professional Building Services Engineer, 
+                    eager to tackle complex challenges and contribute to global progress through innovative, 
+                    forward-thinking solutions. I am dedicated to advancing sustainable building practices 
+                    by integrating cutting-edge technologies like AI, IoT, and renewable energy systems.
+                </p>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="row g-4">
+                <!-- ... (rest of your existing cards content) ... -->
+                <!-- Modified Net-Zero badge in the experience card -->
+                <div class="sector-badge bg-gold">
+                    <i class="fas fa-bullseye"></i>
+                    <span>Net-Zero</span>
+                </div>
+                <!-- ... (rest of your existing content) ... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Simple animation for the progress timeline
+        document.addEventListener('DOMContentLoaded', function() {
+            const milestones = document.querySelectorAll('.progress-milestone');
+            
+            milestones.forEach((milestone, index) => {
+                // Add delay for each milestone animation
+                setTimeout(() => {
+                    milestone.style.opacity = '1';
+                }, index * 300);
+                
+                // Click handler for interactive timeline
+                milestone.addEventListener('click', function() {
+                    document.querySelectorAll('.milestone-dot').forEach(dot => {
+                        dot.classList.remove('active');
+                    });
+                    this.querySelector('.milestone-dot').classList.add('active');
+                    
+                    // Update progress fill width
+                    const fill = document.querySelector('.progress-fill');
+                    fill.style.width = `${(index / (milestones.length - 1)) * 100}%`;
+                });
+            });
+        });
+    </script>
+</body>
+</html>
 
 <!-- ========== Next Section: Future Goals Section ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
