@@ -3516,7 +3516,7 @@ latest_posts:
                                     <i class="fas fa-bolt"></i>
                                     <span>Energy Efficiency</span>
                                 </div>
-                                <div class="sector-badge bg-danger">
+                                <div class="sector-badge bg-teal">
                                     <i class="fas fa-bullseye"></i>
                                     <span>Net-Zero</span>
                                 </div>
