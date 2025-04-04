@@ -2220,7 +2220,235 @@ latest_posts:
   }
 </style>
 
-<!DOCTYPE html>
+<!--🌱 Sustainability Commitment Section -->
+<div class="sustainability-section mb-5">
+  <!-- Section Header with Animated Emoji -->
+  <div class="section-header mb-4 text-center">
+    <h2 class="mb-0 animate-float">🌱 Sustainability Commitment</h2>
+    <div class="header-divider mx-auto my-3"></div>
+  </div>
+  
+  <!-- Intro Text with Subtle Background -->
+  <div class="intro-text mb-4 p-4 rounded-4 bg-soft-green border-start border-4 border-success">
+    <p class="lead mb-0 text-center">
+      I am deeply passionate about <strong class="highlight-green">sustainability and smart system integration</strong>. My engineering philosophy centers on creating solutions that harmonize ecological responsibility with technological innovation.
+    </p>
+  </div>
+
+  <!-- Sustainability Pillars with Optimized Colors/Layout -->
+  <div class="pillars-container mb-5">
+    <div class="row g-4">
+      <!-- Passive Design -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card passive-design h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-leaf"></i>
+            </div>
+          </div>
+          <h3 class="pillar-title text-center mb-3">Passive Design First</h3>
+          <p class="pillar-description text-center mb-4">Natural ventilation & daylighting strategies that reduce energy demand</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Bioclimatic Design</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Thermal Mass</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Solar Shading</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Active Efficiency -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card active-efficiency h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-bolt"></i>
+            </div>
+          </div>
+          <h3 class="pillar-title text-center mb-3">Active Efficiency</h3>
+          <p class="pillar-description text-center mb-4">IoT-driven energy optimization and smart building systems</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Predictive Control</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Real-time Monitoring</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Renewable Integration -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pillar-card renewable-integration h-100 p-4 rounded-4 hover-scale">
+          <div class="pillar-icon-wrapper mb-4">
+            <div class="pillar-icon mx-auto pulse">
+              <i class="fas fa-sun"></i>
+            </div>
+          </div>
+          <h3 class="pillar-title text-center mb-3">Renewable Integration</h3>
+          <p class="pillar-description text-center mb-4">Smart grid solutions and photovoltaic system optimization</p>
+          <div class="pillar-features d-flex flex-wrap justify-content-center">
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Solar PV</span>
+            <span class="badge rounded-pill bg-light text-dark me-2 mb-2">Energy Storage</span>
+            <span class="badge rounded-pill bg-light text-dark mb-2">Microgrids</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Neurodiversity Card (unchanged) -->
+  <div class="neurodiversity-card card border-0 mb-4 hover-grow">
+    <div class="card-body p-4 rounded-3">
+      <div class="d-flex align-items-center">
+        <div class="neuro-icon me-3 pulse rounded-circle p-3 bg-primary bg-opacity-10 text-primary">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div>
+          <h4 class="card-title mb-2">Neurodiversity Advantage</h4>
+          <p class="card-text mb-0 text-muted">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Closing Statement (unchanged) -->
+  <div class="closing-statement p-4 p-lg-5 rounded-4 bg-light-gradient position-relative overflow-hidden">
+    <div class="position-absolute top-0 start-0 h-100 w-4 bg-success"></div>
+    <div class="ps-4">
+      <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
+      <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ===== Optimized Color Scheme ===== */
+  :root {
+    /* Core Colors */
+    --passive-color: #27ae60;   /* Earthy green (Passive Design) */
+    --active-color: #2980b9;    /* Deep blue (Active Efficiency) */
+    --renewable-color: #e67e22; /* Warm orange (Renewable Integration) */
+    --soft-passive: rgba(39, 174, 96, 0.08);
+    --soft-active: rgba(41, 128, 185, 0.08);
+    --soft-renewable: rgba(230, 126, 34, 0.08);
+  }
+
+  /* ===== Pillar Cards ===== */
+  .pillar-card {
+    border-top: 4px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Passive Design */
+  .pillar-card.passive-design {
+    background-color: var(--soft-passive);
+    border-top-color: var(--passive-color);
+  }
+  .passive-design .pillar-icon {
+    color: var(--passive-color);
+    background: linear-gradient(45deg, rgba(39, 174, 96, 0.1), rgba(39, 174, 96, 0.2));
+  }
+
+  /* Active Efficiency */
+  .pillar-card.active-efficiency {
+    background-color: var(--soft-active);
+    border-top-color: var(--active-color);
+  }
+  .active-efficiency .pillar-icon {
+    color: var(--active-color);
+    background: linear-gradient(45deg, rgba(41, 128, 185, 0.1), rgba(41, 128, 185, 0.2));
+  }
+
+  /* Renewable Integration */
+  .pillar-card.renewable-integration {
+    background-color: var(--soft-renewable);
+    border-top-color: var(--renewable-color);
+  }
+  .renewable-integration .pillar-icon {
+    color: var(--renewable-color);
+    background: linear-gradient(45deg, rgba(230, 126, 34, 0.1), rgba(230, 126, 34, 0.2));
+  }
+
+  /* Hover Effects */
+  .hover-scale:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  }
+
+  /* Icons */
+  .pillar-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 1.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  /* Badges */
+  .badge {
+    font-weight: 500;
+    padding: 0.5em 1em;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  .badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  /* Rest of your existing CSS remains unchanged */
+  .section-header {
+    position: relative;
+  }
+  .header-divider {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--passive-color), rgba(39, 174, 96, 0.3));
+    border-radius: 3px;
+  }
+  .animate-float {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  .bg-soft-green {
+    background-color: var(--soft-passive);
+  }
+  .highlight-green {
+    color: var(--passive-color);
+  }
+  .pulse:hover {
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  .neurodiversity-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  .hover-grow:hover {
+    transform: scale(1.02);
+  }
+  .bg-light-gradient {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    border-left: 4px solid var(--passive-color) !important;
+  }
+</style>
+
+<!-- ========== Next Section: Future Goals Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
+
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -2549,33 +2777,6 @@ latest_posts:
         </div>
     </div>
 
-    <!-- Future Goals Section -->
-    <section class="future-goals-section">
-        <div class="container">
-            <!-- Section Header -->
-            <div class="section-header text-center">
-                <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
-                <p class="lead text-muted max-w-800 mx-auto">
-                    My passion is driven by the aspiration to become a professional Building Services Engineer, 
-                    eager to tackle complex challenges and contribute to global progress through innovative, 
-                    forward-thinking solutions. I am dedicated to advancing sustainable building practices 
-                    by integrating cutting-edge technologies like AI, IoT, and renewable energy systems.
-                </p>
-            </div>
-
-            <!-- Cards Grid -->
-            <div class="row g-4">
-                <!-- ... (rest of your existing cards content) ... -->
-                <!-- Modified Net-Zero badge in the experience card -->
-                <div class="sector-badge bg-gold">
-                    <i class="fas fa-bullseye"></i>
-                    <span>Net-Zero</span>
-                </div>
-                <!-- ... (rest of your existing content) ... -->
-            </div>
-        </div>
-    </section>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
@@ -2606,9 +2807,6 @@ latest_posts:
     </script>
 </body>
 </html>
-
-<!-- ========== Next Section: Future Goals Section ========== -->
-<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- DOCTYPE html -->
 <html lang="en">
@@ -3135,11 +3333,6 @@ latest_posts:
     </style>
 </head>
 <body>
-    <!-- Looking Ahead Banner -->
-    <div class="looking-ahead-banner">
-        <i class="fas fa-binoculars"></i>LOOKING AHEAD
-    </div>
-
     <!-- Future Goals Section -->
     <section class="future-goals-section">
         <div class="container">
