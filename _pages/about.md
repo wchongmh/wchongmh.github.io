@@ -1879,6 +1879,8 @@ latest_posts:
             --purple: #6f42c1;
             --teal: #20c997;
             --indigo: #6610f2;
+            --orange: #fd7e14;
+            --pink: #d63384;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
         
@@ -2222,6 +2224,23 @@ latest_posts:
             animation: pulse 2s infinite;
         }
         
+        /* Color Classes for New Sectors */
+        .bg-orange {
+            background-color: var(--orange) !important;
+        }
+        
+        .bg-pink {
+            background-color: var(--pink) !important;
+        }
+        
+        .text-orange {
+            color: var(--orange) !important;
+        }
+        
+        .text-pink {
+            color: var(--pink) !important;
+        }
+        
         /* Responsive Adjustments */
         @media (max-width: 992px) {
             .card-header {
@@ -2344,8 +2363,7 @@ latest_posts:
                                 <h5 class="h6 mb-3">Key Organizations:</h5>
                                 <div class="d-flex">
                                     <span class="cibse-badge">
-                                        <!-- Replace with actual CIBSE logo -->
-                                        <img src="https://www.cibse.org/About-Us/CIBSE-Logos/CIBSE-Logo-RGB.png" alt="CIBSE Logo" class="cibse-logo">
+                                        <img src="/assets/img/logo/cibse-logo.jpg" alt="CIBSE Logo" class="cibse-logo">
                                         CIBSE
                                     </span>
                                 </div>
@@ -2459,21 +2477,21 @@ latest_posts:
                                     <i class="fas fa-brain"></i>
                                     <span>Smart Buildings</span>
                                 </div>
-                                <div class="sector-badge bg-danger bg-opacity-10 text-danger border border-danger">
-                                    <i class="fas fa-cube"></i>
-                                    <span>BIM Implementation</span>
+                                <div class="sector-badge bg-orange bg-opacity-10 text-orange border border-orange">
+                                    <i class="fas fa-robot"></i>
+                                    <span>AI & Machine Learning</span>
                                 </div>
                                 <div class="sector-badge bg-purple bg-opacity-10 text-purple border border-purple">
                                     <i class="fas fa-bolt"></i>
                                     <span>Energy Efficiency</span>
                                 </div>
                                 <div class="sector-badge bg-teal bg-opacity-10 text-teal border border-teal">
-                                    <i class="fas fa-recycle"></i>
-                                    <span>Circular Economy</span>
+                                    <i class="fas fa-bullseye"></i>
+                                    <span>Net-Zero</span>
                                 </div>
-                                <div class="sector-badge bg-indigo bg-opacity-10 text-indigo border border-indigo">
-                                    <i class="fas fa-fire-extinguisher"></i>
-                                    <span>Fire Safety</span>
+                                <div class="sector-badge bg-pink bg-opacity-10 text-pink border border-pink">
+                                    <i class="fas fa-wifi"></i>
+                                    <span>IoT Integration</span>
                                 </div>
                             </div>
                             
