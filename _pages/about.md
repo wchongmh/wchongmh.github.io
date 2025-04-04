@@ -1160,6 +1160,8 @@ latest_posts:
   }
 </style>
 
+
+
 <!-- 🏗️ Optimized Industry Experience Section -->
 <div class="industry-experience-section mb-5">
   <!-- Section Header with Subtle Glow -->
@@ -1306,6 +1308,188 @@ latest_posts:
     background-color: rgba(255,255,255,0.9) !important;
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+</style>
+
+<!-- 🏗️ Optimized Industry Experience Section -->
+<div class="industry-experience-section mb-5">
+  <!-- Enhanced Section Header -->
+  <div class="section-header mb-4">
+    <h3 class="display-6 fw-bold mb-0 position-relative ps-4 text-dark">
+      <i class="fas fa-hard-hat me-3 text-warning" style="filter: drop-shadow(0 2px 4px rgba(255, 193, 7, 0.3));"></i>
+      Industry Experience
+      <span class="position-absolute top-0 start-0 w-3 h-100 bg-warning opacity-10 rounded-pill"></span>
+    </h3>
+  </div>
+
+  <!-- Experience Card with Improved Layout -->
+  <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
+    <!-- Card Header with Better Hierarchy -->
+    <div class="card-header bg-warning text-dark py-3 position-relative">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
+        <div class="flex-grow-1">
+          <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
+          <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-dark opacity-75">(Hong Kong)</small></h5>
+        </div>
+        <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
+          <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022
+        </span>
+      </div>
+    </div>
+    
+    <!-- Card Body with Refined Spacing -->
+    <div class="card-body px-4 py-4">
+      <!-- Project Highlight Section -->
+      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded position-relative" 
+           style="box-shadow: inset 0 0 12px rgba(255, 193, 7, 0.05);">
+        <div class="position-absolute top-0 start-0 h-100 bg-warning opacity-10" style="width: 3px;"></div>
+        <h6 class="text-uppercase text-muted mb-2 fs-7 d-flex align-items-center">
+          <i class="fas fa-star me-2 text-warning"></i>Featured Project
+        </h6>
+        <h5 class="mb-2 fw-semibold">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
+        <p class="mb-0 text-muted d-flex align-items-center">
+          <i class="fas fa-building me-2"></i>1,200+ residential units | Hong Kong
+        </p>
+      </div>
+
+      <!-- Key Contributions Section -->
+      <div class="key-contributions mb-4">
+        <h5 class="mb-3 text-warning fw-bold d-flex align-items-center">
+          <i class="fas fa-tasks me-2"></i>Key Contributions
+        </h5>
+        <div class="contribution-list ps-0">
+          <div class="mb-3 d-flex">
+            <span class="contribution-badge bg-warning text-dark">1</span>
+            <div class="ms-3">
+              <strong class="d-block mb-1">BIM-Driven Optimization</strong>
+              <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
+            </div>
+          </div>
+          <div class="mb-3 d-flex">
+            <span class="contribution-badge bg-warning text-dark">2</span>
+            <div class="ms-3">
+              <strong class="d-block mb-1">Commissioning Efficiency</strong>
+              <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <span class="contribution-badge bg-warning text-dark">3</span>
+            <div class="ms-3">
+              <strong class="d-block mb-1">Safety Documentation</strong>
+              <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools Section with Better Alignment -->
+      <div class="tools-section mt-4 pt-3 border-top border-light">
+        <div class="d-flex flex-wrap align-items-center gap-2">
+          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-cube me-2 text-dark"></i> Revit BIM
+          </span>
+          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-drafting-compass me-2 text-dark"></i> AutoCAD
+          </span>
+          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-book me-2 text-dark"></i> BEAM Plus
+          </span>
+          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
+            <i class="fas fa-tint me-2 text-dark"></i> Plumbing Standards
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Footer with Improved Readability -->
+    <div class="card-footer bg-light bg-opacity-10 py-3 px-4">
+      <p class="mb-0 text-muted fst-italic d-flex align-items-center">
+        <i class="fas fa-lightbulb text-warning me-2"></i>
+        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr class="my-5 border-warning opacity-10" style="height: 2px;">
+
+<!-- Optimized CSS -->
+<style>
+  .industry-experience-section {
+    position: relative;
+  }
+  
+  .experience-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  }
+  
+  .card-header.bg-warning {
+    background-color: #ffc107 !important;
+  }
+  
+  .contribution-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+  
+  .highlight-stat {
+    background-color: rgba(255, 193, 7, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  
+  .highlight-stat:hover {
+    background-color: rgba(255, 193, 7, 0.3);
+  }
+  
+  .project-highlight {
+    transition: all 0.3s ease;
+    background-color: rgba(248, 249, 250, 0.5);
+  }
+  
+  .project-highlight:hover {
+    box-shadow: inset 0 0 15px rgba(255, 193, 7, 0.1);
+  }
+  
+  .tools-section .badge {
+    transition: all 0.25s ease;
+  }
+  
+  .tools-section .badge:hover {
+    background-color: rgba(255,255,255,0.9) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Improved responsive behavior */
+  @media (max-width: 768px) {
+    .card-header > div {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+    
+    .card-header .badge {
+      align-self: flex-start;
+      margin-top: 0.5rem;
+    }
   }
 </style>
 
@@ -1880,19 +2064,16 @@ latest_posts:
 <!-- ========== Next Section: Future Goals Section ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
-<-- !DOCTYPE html -->
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Future Goals & Professional Journey</title>
-    <!-- Font Awesome (Optimized with `preconnect` and `preload`) -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
-    <!-- Bootstrap CSS (Optimized with `preload`) -->
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"></noscript>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root {
             --primary: #4e73df;
@@ -1901,7 +2082,487 @@ latest_posts:
             --secondary-dark: #13855c;
             --info: #36b9cc;
             --info-dark: #258391;
+            --purple: #6f42c1;
+            --teal: #20c997;
+            --indigo: #6610f2;
+            --orange: #fd7e14;
+            --pink: #d63384;
+            --blue: #0d6efd;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #495057;
+        }
+        
+        /* Section Styling */
+        .future-goals-section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f9 100%);
+            padding: 4rem 0;
+        }
+        
+        .max-w-800 {
+            max-width: 800px;
+        }
+        
+        /* Header Styling */
+        .section-header {
+            margin-bottom: 3.5rem;
+        }
+        
+        .section-badge {
+            display: inline-block;
+            background-color: rgba(78, 115, 223, 0.1);
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            padding: 0.5rem 1.25rem;
+            margin-bottom: 1rem;
+        }
+        
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--primary);
+            border-radius: 3px;
+        }
+        
+        /* Card Styling */
+        .card {
+            border: none;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            transition: var(--transition);
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            z-index: -1;
+            border-radius: 0.75rem;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-header {
+            padding: 1.75rem;
+            border-bottom: none;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+        
+        .card-header:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            z-index: -1;
+            transform-origin: bottom;
+            transform: skewY(-2deg);
+        }
+        
+        .card-header-icon {
+            font-size: 2.5rem;
+            opacity: 0.2;
+            margin-right: 1rem;
+        }
+        
+        .card-badge {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-body {
+            padding: 2rem;
+        }
+        
+        /* Card Type Specific */
+        .professional-cert-card .card-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        }
+        
+        .training-program-card .card-header {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+        }
+        
+        .experience-card .card-header {
+            background: linear-gradient(135deg, var(--info) 0%, var(--info-dark) 100%);
+        }
+        
+        /* Content Elements */
+        .content-icon-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        .content-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .content-subtitle {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+        
+        /* Feature List */
+        .feature-list {
+            margin: 1.5rem 0;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+        
+        .feature-icon {
+            color: var(--primary);
+            margin-right: 0.75rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+        
+        /* Timeline */
+        .timeline-container {
+            margin: 1.5rem 0;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+        
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e9ecef;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        
+        .timeline-badge {
+            position: absolute;
+            left: -1.95rem;
+            top: 0.25rem;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 3px solid white;
+            z-index: 1;
+        }
+        
+        .timeline-content {
+            padding-left: 0.5rem;
+        }
+        
+        .timeline-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+        }
+        
+        /* Sector Grid */
+        .sectors-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(120px, 1fr));
+            gap: 0.75rem;
+            margin: 1.5rem 0;
+        }
+        
+        .sector-badge {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0.75rem;
+            border-radius: 8px;
+            font-weight: 500;
+            text-align: left;
+            transition: var(--transition);
+            min-height: 60px;
+            white-space: normal;
+            word-break: break-word;
+            font-size: 0.9rem;
+            line-height: 1.3;
+        }
+        
+        .sector-badge i {
+            margin-right: 0.5rem;
+            flex-shrink: 0;
+            color: inherit;
+        }
+
+        /* Specific sector badge styles */
+        .sector-badge.bg-success {
+            background-color: rgba(28, 200, 138, 0.1) !important;
+            color: var(--secondary) !important;
+            border: 1px solid rgba(28, 200, 138, 0.2) !important;
+        }
+
+        .sector-badge.bg-warning {
+            background-color: rgba(255, 193, 7, 0.1) !important;
+            color: #ffc107 !important;
+            border: 1px solid rgba(255, 193, 7, 0.2) !important;
+        }
+
+        .sector-badge.bg-orange {
+            background-color: rgba(253, 126, 20, 0.1) !important;
+            color: var(--orange) !important;
+            border: 1px solid rgba(253, 126, 20, 0.2) !important;
+        }
+
+        .sector-badge.bg-purple {
+            background-color: rgba(111, 66, 193, 0.1) !important;
+            color: var(--purple) !important;
+            border: 1px solid rgba(111, 66, 193, 0.2) !important;
+        }
+
+        .sector-badge.bg-teal {
+            background-color: rgba(32, 201, 151, 0.1) !important;
+            color: var(--teal) !important;
+            border: 1px solid rgba(32, 201, 151, 0.2) !important;
+        }
+
+        .sector-badge.bg-pink {
+            background-color: rgba(214, 51, 132, 0.1) !important;
+            color: var(--pink) !important;
+            border: 1px solid rgba(214, 51, 132, 0.2) !important;
+        }
+        
+        .sector-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Benefits Grid */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 0.75rem;
+            margin: 1.5rem 0;
+        }
+        
+        .benefit-item {
+            background-color: rgba(28, 200, 138, 0.05);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .benefit-item:hover {
+            background-color: rgba(28, 200, 138, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .benefit-icon {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--secondary);
+        }
+        
+        /* Highlight Items */
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 0.75rem;
+            border-radius: 8px;
+            transition: var(--transition);
+            margin-bottom: 0.75rem;
+        }
+        
+        .highlight-item:hover {
+            background-color: rgba(54, 185, 204, 0.05);
+        }
+        
+        .highlight-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            color: white;
+            font-size: 1rem;
+        }
+        
+        .highlight-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Enhanced CIBSE Badge with Larger Logo */
+       .cibse-badge {
+            padding: 1rem 1.75rem;
+            border-radius: 10px;
+            font-weight: 700; /* Bolder text */
+            display: inline-flex;
+            align-items: center;
+            font-size: 1.4rem; /* Much larger text */
+            background-color: rgba(54, 185, 204, 0.15);
+            border: 2px solid rgba(54, 185, 204, 0.3);
+            transition: all 0.3s ease;
+            margin: 0.5rem 0;
+        }
+
+        .cibse-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem; /* Increased spacing */
+        }
+
+        .cibse-logo {
+            width: 60px !important; /* 50% larger than previous */
+            height: 60px !important;
+            margin-right: 1.25rem;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+        }
+
+        .cibse-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        /* Hover effects */
+        .cibse-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            background-color: rgba(54, 185, 204, 0.2);
+        }
+
+        .cibse-badge:hover .cibse-logo {
+            transform: scale(1.08);
+            filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15));
+        }
+        
+        /* Animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .card-header {
+                padding: 1.5rem;
+            }
+            
+            .card-header .d-flex {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .card-header-icon {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+            
+            .card-badge {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-top: 1rem;
+                display: inline-block;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sectors-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section-header {
+                margin-bottom: 2.5rem;
+            }
+            
+            .content-icon-box {
+                margin: 0 auto 1rem auto;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .card-body {
+                padding: 1.5rem;
+            }
+            
+            .sector-badge {
+                min-height: 50px;
+                font-size: 0.85rem;
+            }
+
+            .cibse-badge {
+                padding: 0.75rem 1.25rem;
+                font-size: 1.1rem;
+            }
+
+            .cibse-logo {
+                width: 36px;
+                height: 36px;
+                margin-right: 0.75rem;
+            }
         }
         
         body {
@@ -2516,255 +3177,6 @@ latest_posts:
   
   .bg-warning-light {
     background-color: rgba(240, 173, 78, 0.1);
-  }
-</style>
-
-<!-- ========== Next Section: Global Competence ========== -->
-<hr class="my-5 border-top border-2 border-primary opacity-25">
-
-<!--🌐 Global Competence -->
-<div class="global-competence-container">
-  <!-- Languages Card - More organized with consistent spacing -->
-  <div class="language-card">
-    <div class="card-header">
-      <i class="fas fa-language"></i>
-      <h4>Language Proficiency</h4>
-    </div>
-    
-    <div class="language-grid">
-      <!-- English -->
-      <div class="language-item english">
-        <i class="flag-icon flag-icon-gb"></i>
-        <div class="language-name">English</div>
-        <div class="language-level">Fluent</div>
-      </div>
-      
-      <!-- Mandarin -->
-      <div class="language-item mandarin">
-        <i class="flag-icon flag-icon-cn"></i>
-        <div class="language-name">Mandarin</div>
-        <div class="language-level">Native</div>
-      </div>
-      
-      <!-- Cantonese -->
-      <div class="language-item cantonese">
-        <i class="flag-icon flag-icon-hk"></i>
-        <div class="language-name">Cantonese</div>
-        <div class="language-level">Native</div>
-      </div>
-    </div>
-    
-    <div class="card-footer">
-      <i class="fas fa-comments"></i>
-      <p>Excel in cross-cultural communication and thrive in diverse environments</p>
-    </div>
-  </div>
-
-  <!-- Work Eligibility Card - Better visual flow -->
-  <div class="work-card">
-    <div class="card-header">
-      <i class="fas fa-user-check"></i>
-      <h4>Work Authorization</h4>
-    </div>
-    
-    <div class="authorization-banner">
-      <i class="fas fa-passport"></i>
-      <div>
-        <h5>UK Work Rights <span class="verified-badge">Verified</span></h5>
-        <p>No visa sponsorship required • Full working rights</p>
-      </div>
-    </div>
-    
-    <div class="availability-alert">
-      <i class="fa-solid fa-clock"></i>
-      <p><strong>Immediately available</strong> to contribute skills and expertise</p>
-    </div>
-  </div>
-</div>
-
-<style>
-  /* Base Styles */
-  .global-competence-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  .language-card, .work-card {
-    flex: 1 1 45%;
-    min-width: 300px;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid #e0e0e0;
-    background: white;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
-  
-  .language-card:hover, .work-card:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-  }
-  
-  /* Card Header */
-  .card-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .card-header i {
-    font-size: 1.75rem;
-    margin-right: 1rem;
-  }
-  
-  .language-card .card-header i { color: #4e73df; }
-  .work-card .card-header i { color: #1cc88a; }
-  
-  .card-header h4 {
-    margin: 0;
-    font-size: 1.25rem;
-    background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .language-card h4 { --primary-color: #4e73df; --primary-dark: #224abe; }
-  .work-card h4 { --primary-color: #1cc88a; --primary-dark: #13855c; }
-  
-  /* Language Grid */
-  .language-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.75rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .language-item {
-    padding: 1rem;
-    text-align: center;
-    background: white;
-    border-radius: 0.375rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-  }
-  
-  .language-item:hover {
-    transform: translateY(-3px);
-  }
-  
-  .language-item i {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .language-name {
-    font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
-  
-  .language-level {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 1rem;
-    display: inline-block;
-  }
-  
-  .english i { color: #e74a3b; }
-  .english .language-level { background: rgba(231, 74, 59, 0.1); color: #e74a3b; }
-  
-  .mandarin i { color: #1cc88a; }
-  .mandarin .language-level { background: rgba(28, 200, 138, 0.1); color: #1cc88a; }
-  
-  .cantonese i { color: #f6b343; }
-  .cantonese .language-level { background: rgba(240, 173, 78, 0.1); color: #f6b343; }
-  
-  /* Work Authorization Section */
-  .authorization-banner {
-    display: flex;
-    align-items: flex-start;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    background: rgba(28, 200, 138, 0.1);
-    border-radius: 0.375rem;
-    border: 1px solid rgba(28, 200, 138, 0.2);
-  }
-  
-  .authorization-banner i {
-    font-size: 2rem;
-    color: #1cc88a;
-    margin-right: 1rem;
-  }
-  
-  .authorization-banner h5 {
-    margin: 0 0 0.25rem 0;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  
-  .verified-badge {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    background: #1cc88a;
-    color: white;
-    border-radius: 1rem;
-    display: inline-flex;
-    align-items: center;
-  }
-  
-  .verified-badge i {
-    font-size: 0.75rem;
-    margin-right: 0.25rem;
-  }
-  
-  .authorization-banner p {
-    margin: 0;
-    font-size: 0.875rem;
-    color: #13855c;
-  }
-  
-  /* Availability Alert */
-  .availability-alert {
-    display: flex;
-    align-items: center;
-    padding: 0.75rem 1rem;
-    background: rgba(28, 200, 138, 0.1);
-    border-radius: 0.375rem;
-    border: 1px solid rgba(28, 200, 138, 0.2);
-  }
-  
-  .availability-alert i {
-    margin-right: 0.75rem;
-    color: #1cc88a;
-  }
-  
-  .availability-alert p {
-    margin: 0;
-    font-size: 0.875rem;
-  }
-  
-  /* Card Footer */
-  .card-footer {
-    display: flex;
-    align-items: center;
-    padding-top: 1rem;
-    margin-top: 1rem;
-    border-top: 1px solid #f0f0f0;
-  }
-  
-  .card-footer i {
-    margin-right: 0.75rem;
-    color: #4e73df;
-  }
-  
-  .card-footer p {
-    margin: 0;
-    font-size: 0.875rem;
-    color: #6c757d;
   }
 </style>
 
