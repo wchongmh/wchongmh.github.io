@@ -1869,216 +1869,193 @@ latest_posts:
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Base Styles */
         :root {
             --primary: #4e73df;
+            --primary-dark: #224abe;
             --secondary: #1cc88a;
+            --secondary-dark: #13855c;
             --info: #36b9cc;
+            --info-dark: #258391;
             --purple: #6f42c1;
             --teal: #20c997;
             --indigo: #6610f2;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
         
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #495057;
         }
         
+        /* Section Styling */
         .future-goals-section {
-            background-color: #f8f9fa;
-            border-radius: 0.5rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f9 100%);
+            padding: 4rem 0;
         }
         
         .max-w-800 {
             max-width: 800px;
         }
         
-        /* Card Enhancements */
-        .card {
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none !important;
+        /* Header Styling */
+        .section-header {
+            margin-bottom: 3.5rem;
         }
         
-        .card-body {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .hover-transform:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,0.1) !important;
-        }
-        
-        .shadow-lg {
-            box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.08) !important;
-        }
-        
-        /* Card Header Styles - Fixed */
-        .card-header {
-            border-bottom: none !important;
-            position: relative;
-            padding-right: 120px !important;
-            min-height: 100px;
-            display: flex;
-            align-items: center;
-        }
-        
-        /* Professional Certification Card */
-        .professional-cert-card {
-            border-top: 4px solid var(--primary);
-        }
-        
-        .certification-features .feature-icon {
-            min-width: 20px;
-        }
-        
-        .icon-box {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* Training Program Card */
-        .training-program-card {
-            border-top: 4px solid var(--secondary);
-        }
-        
-        .program-icon {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* Industry Experience Card */
-        .experience-card {
-            border-top: 4px solid var(--info);
-        }
-        
-        .experience-icon {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* Grid Layouts - Fixed */
-        .sectors-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 10px;
-            margin: 1rem 0;
-        }
-        
-        .sector-item {
-            display: flex;
-        }
-        
-        .sector-item .badge {
-            width: 100%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            white-space: normal;
-            word-wrap: break-word;
-            padding: 0.5em !important;
-            line-height: 1.3;
-            min-height: 38px;
-            color: inherit !important;
-        }
-        
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 10px;
+        .section-badge {
+            display: inline-block;
+            background-color: rgba(78, 115, 223, 0.1);
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            padding: 0.5rem 1.25rem;
             margin-bottom: 1rem;
         }
         
-        /* Interactive Elements */
-        .benefit-item {
-            background-color: rgba(28, 200, 138, 0.05);
-            transition: all 0.3s ease;
-            text-align: center;
-            padding: 0.75rem !important;
-            border-radius: 0.25rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 80px;
-        }
-        
-        .benefit-item:hover {
-            background-color: rgba(28, 200, 138, 0.1);
-            transform: translateY(-2px);
-        }
-        
-        .highlight-item {
-            transition: all 0.3s ease;
-            padding: 0.25rem;
-            border-radius: 0.25rem;
-        }
-        
-        .highlight-item:hover {
-            background-color: rgba(54, 185, 204, 0.05);
-        }
-        
-        .highlight-icon {
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* Badge Styles - Fixed */
-        .pulse-badge {
-            animation: pulse 2s infinite;
-        }
-        
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-        
-        /* Highlight Styles */
-        .highlighted-text {
+        .section-title {
             font-weight: 700;
-            color: #224abe !important;
-            text-shadow: 0 0 8px rgba(34, 74, 190, 0.1);
-        }
-        
-        .highlighted-badge {
-            background-color: #224abe !important;
-            color: white !important;
-            border-color: #224abe !important;
-            box-shadow: 0 0 10px rgba(34, 74, 190, 0.3);
-        }
-        
-        /* Gradient Backgrounds */
-        .bg-gradient-primary {
-            background: linear-gradient(135deg, var(--primary) 0%, #224abe 100%);
-        }
-        
-        .bg-gradient-success {
-            background: linear-gradient(135deg, var(--secondary) 0%, #13855c 100%);
-        }
-        
-        .bg-gradient-info {
-            background: linear-gradient(135deg, var(--info) 0%, #258391 100%);
-        }
-        
-        /* Timeline Styles */
-        .timeline-container {
+            margin-bottom: 1rem;
             position: relative;
+            display: inline-block;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--primary);
+            border-radius: 3px;
+        }
+        
+        /* Card Styling */
+        .card {
+            border: none;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            transition: var(--transition);
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            z-index: -1;
+            border-radius: 0.75rem;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-header {
+            padding: 1.75rem;
+            border-bottom: none;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+        
+        .card-header:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            z-index: -1;
+            transform-origin: bottom;
+            transform: skewY(-2deg);
+        }
+        
+        .card-header-icon {
+            font-size: 2.5rem;
+            opacity: 0.2;
+            margin-right: 1rem;
+        }
+        
+        .card-badge {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-body {
+            padding: 2rem;
+        }
+        
+        /* Card Type Specific */
+        .professional-cert-card .card-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        }
+        
+        .training-program-card .card-header {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+        }
+        
+        .experience-card .card-header {
+            background: linear-gradient(135deg, var(--info) 0%, var(--info-dark) 100%);
+        }
+        
+        /* Content Elements */
+        .content-icon-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        .content-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .content-subtitle {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+        
+        /* Feature List */
+        .feature-list {
+            margin: 1.5rem 0;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+        
+        .feature-icon {
+            color: var(--primary);
+            margin-right: 0.75rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+        
+        /* Timeline */
+        .timeline-container {
+            margin: 1.5rem 0;
         }
         
         .timeline {
@@ -2116,108 +2093,179 @@ latest_posts:
             padding-left: 0.5rem;
         }
         
-        .timeline-content ul {
-            margin-bottom: 0;
+        .timeline-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
         }
         
-        /* Absolute Positioning Fixes */
-        .position-absolute.top-0.end-0 {
-            right: 20px !important;
-            top: 20px !important;
-            transform: none !important;
+        /* Sector Grid */
+        .sectors-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            margin: 1.5rem 0;
         }
         
-        /* Color Fixes for Badges */
-        .bg-purple {
-            background-color: #6f42c1 !important;
-        }
-        .bg-teal {
-            background-color: #20c997 !important;
-        }
-        .bg-indigo {
-            background-color: #6610f2 !important;
-        }
-        
-        /* Spacing Adjustments */
-        .certification-features {
-            margin-bottom: 1.5rem !important;
+        .sector-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem;
+            border-radius: 8px;
+            font-weight: 500;
+            text-align: center;
+            transition: var(--transition);
         }
         
-        .border-top.pt-3 {
-            padding-top: 0.75rem !important;
-            margin-top: 0.5rem !important;
+        .sector-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Benefits Grid */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 0.75rem;
+            margin: 1.5rem 0;
+        }
+        
+        .benefit-item {
+            background-color: rgba(28, 200, 138, 0.05);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .benefit-item:hover {
+            background-color: rgba(28, 200, 138, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .benefit-icon {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--secondary);
+        }
+        
+        /* Highlight Items */
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 0.75rem;
+            border-radius: 8px;
+            transition: var(--transition);
+            margin-bottom: 0.75rem;
+        }
+        
+        .highlight-item:hover {
+            background-color: rgba(54, 185, 204, 0.05);
+        }
+        
+        .highlight-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+            color: white;
+            font-size: 1rem;
+        }
+        
+        .highlight-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Badges */
+        .org-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        /* Animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
         }
         
         /* Responsive Adjustments */
         @media (max-width: 992px) {
+            .card-header {
+                padding: 1.5rem;
+            }
+            
             .card-header .d-flex {
                 flex-direction: column;
                 text-align: center;
             }
             
-            .card-header i {
-                margin-bottom: 0.5rem;
-                margin-right: 0 !important;
+            .card-header-icon {
+                margin-right: 0;
+                margin-bottom: 1rem;
             }
             
-            .position-absolute.top-0.end-0 {
-                position: relative !important;
-                top: auto !important;
-                right: auto !important;
-                margin-top: 0.5rem;
-                justify-content: center !important;
-                transform: none !important;
+            .card-badge {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-top: 1rem;
+                display: inline-block;
             }
         }
         
         @media (max-width: 768px) {
             .sectors-grid {
-                grid-template-columns: 1fr !important;
+                grid-template-columns: 1fr;
             }
             
             .benefits-grid {
-                grid-template-columns: repeat(2, 1fr) !important;
-            }
-            
-            .timeline:before {
-                left: 10px;
-            }
-            
-            .timeline-badge {
-                left: -1.8rem;
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         
         @media (max-width: 576px) {
-            .d-flex.align-items-center {
-                flex-direction: column;
-                text-align: center;
+            .section-header {
+                margin-bottom: 2.5rem;
             }
             
-            .icon-box, .program-icon, .experience-icon {
-                margin: 0 auto 0.5rem auto !important;
+            .content-icon-box {
+                margin: 0 auto 1rem auto;
             }
             
             .benefits-grid {
-                grid-template-columns: 1fr !important;
+                grid-template-columns: 1fr;
             }
             
-            .badge {
-                font-size: 0.8rem !important;
+            .card-body {
+                padding: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <!-- 🔍 Looking Ahead -->
-    <section class="future-goals-section py-5 px-3 px-md-5 bg-light">
+    <!-- Future Goals Section -->
+    <section class="future-goals-section">
         <div class="container">
             <!-- Section Header -->
-            <div class="text-center mb-5">
-                <span class="badge bg-primary bg-opacity-10 text-primary fs-6 mb-3 px-4 py-2 rounded-pill">
+            <div class="section-header text-center">
+                <span class="section-badge rounded-pill">
                     <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
                 </span>
-                <h2 class="display-5 fw-bold mb-3">Future Goals & Professional Journey</h2>
+                <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
                 <p class="lead text-muted max-w-800 mx-auto">
                     My passion is driven by the aspiration to become a professional Building Services Engineer, 
                     eager to tackle complex challenges and contribute to global progress through innovative, 
@@ -2228,59 +2276,49 @@ latest_posts:
 
             <!-- Cards Grid -->
             <div class="row g-4">
-                <!-- CEng Goal Card - Enhanced -->
+                <!-- Professional Certification Card -->
                 <div class="col-lg-4">
-                    <div class="card h-100 border-0 shadow-lg hover-transform professional-cert-card">
-                        <div class="card-header bg-gradient-primary text-white py-4 position-relative">
+                    <div class="card h-100 professional-cert-card">
+                        <div class="card-header text-white">
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-user-tie fa-3x opacity-25 me-3"></i>
-                                <div>
-                                    <h3 class="h5 mb-1">Professional Certification</h3>
-                                </div>
+                                <i class="fas fa-user-tie card-header-icon"></i>
+                                <h3 class="h5 mb-0">Professional Certification</h3>
                             </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <span class="badge bg-white text-primary rounded-pill px-3 py-1 pulse-badge">
-                                    <i class="fas fa-star me-1"></i>Goal
-                                </span>
-                            </div>
+                            <span class="card-badge badge bg-white text-primary rounded-pill pulse">
+                                <i class="fas fa-star me-1"></i>Goal
+                            </span>
                         </div>
                         <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle p-3 me-3">
-                                    <i class="fas fa-medal fa-2x"></i>
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="content-icon-box bg-primary bg-opacity-10 text-primary">
+                                    <i class="fas fa-medal fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h4 class="h5 text-primary mb-0 highlighted-text">Chartered Engineer (CEng)</h4>
-                                    <small class="text-muted">Engineering Council UK</small>
+                                    <h4 class="content-title text-primary">Chartered Engineer (CEng)</h4>
+                                    <small class="content-subtitle">Engineering Council UK</small>
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
                             
-                            <div class="certification-features mb-4">
-                                <div class="feature-item d-flex mb-2">
-                                    <div class="feature-icon text-primary me-2">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
+                            <div class="feature-list">
+                                <div class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
                                     <span>Internationally recognized qualification</span>
                                 </div>
-                                <div class="feature-item d-flex mb-2">
-                                    <div class="feature-icon text-primary me-2">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
+                                <div class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
                                     <span>Demonstrates highest standards of competence</span>
                                 </div>
-                                <div class="feature-item d-flex">
-                                    <div class="feature-icon text-primary me-2">
-                                        <i class="fas fa-check-circle"></i>
-                                    </div>
+                                <div class="feature-item">
+                                    <i class="feature-icon fas fa-check-circle"></i>
                                     <span>Commitment to professional development</span>
                                 </div>
                             </div>
                             
                             <div class="border-top pt-3 mt-auto">
                                 <h5 class="h6 mb-3">Key Organizations:</h5>
-                                <div class="d-flex flex-wrap gap-2">
-                                    <span class="badge bg-info bg-opacity-10 text-info border border-info border-opacity-10 py-2 px-3 highlighted-badge">
+                                <div class="d-flex">
+                                    <span class="org-badge bg-info bg-opacity-10 text-info border border-info">
                                         <i class="fas fa-building me-2"></i>CIBSE
                                     </span>
                                 </div>
@@ -2289,42 +2327,38 @@ latest_posts:
                     </div>
                 </div>
 
-                <!-- Graduate Program Card - Enhanced -->
+                <!-- Training Program Card -->
                 <div class="col-lg-4">
-                    <div class="card h-100 border-0 shadow-lg hover-transform training-program-card">
-                        <div class="card-header bg-gradient-success text-white py-4 position-relative">
+                    <div class="card h-100 training-program-card">
+                        <div class="card-header text-white">
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-graduation-cap fa-3x opacity-25 me-3"></i>
-                                <div>
-                                    <h3 class="h5 mb-1">Training Program</h3>
-                                </div>
+                                <i class="fas fa-graduation-cap card-header-icon"></i>
+                                <h3 class="h5 mb-0">Training Program</h3>
                             </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <span class="badge bg-white text-success rounded-pill px-3 py-1">
-                                    <i class="fas fa-road me-1"></i>Pathway
-                                </span>
-                            </div>
+                            <span class="card-badge badge bg-white text-success rounded-pill">
+                                <i class="fas fa-road me-1"></i>Pathway
+                            </span>
                         </div>
                         <div class="card-body">
-                            <div class="program-header d-flex align-items-center mb-4">
-                                <div class="program-icon bg-success bg-opacity-10 text-success rounded p-3 me-3">
-                                    <i class="fas fa-user-graduate fa-2x"></i>
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="content-icon-box bg-success bg-opacity-10 text-success">
+                                    <i class="fas fa-user-graduate fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h4 class="h5 text-success mb-0">Engineering Graduate Scheme</h4>
-                                    <small class="text-muted">Accredited Development Program</small>
+                                    <h4 class="content-title text-success">Engineering Graduate Scheme</h4>
+                                    <small class="content-subtitle">Accredited Development Program</small>
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Seeking accredited program participation with clear milestones</p>
                             
-                            <div class="timeline-container mt-4">
+                            <div class="timeline-container">
                                 <div class="timeline">
                                     <div class="timeline-item">
-                                        <div class="timeline-badge bg-success pulse-badge"></div>
+                                        <div class="timeline-badge bg-success pulse"></div>
                                         <div class="timeline-content">
-                                            <h5 class="h6 mb-1">Year 1</h5>
+                                            <h5 class="timeline-title">Year 1</h5>
                                             <p class="small text-muted">Core Competencies Development</p>
-                                            <ul class="small ps-3">
+                                            <ul class="small ps-3 mb-0">
                                                 <li>Fundamental engineering principles</li>
                                                 <li>Industry standards & regulations</li>
                                                 <li>Technical skills enhancement</li>
@@ -2332,11 +2366,11 @@ latest_posts:
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <div class="timeline-badge bg-success pulse-badge"></div>
+                                        <div class="timeline-badge bg-success pulse"></div>
                                         <div class="timeline-content">
-                                            <h5 class="h6 mb-1">Year 2</h5>
+                                            <h5 class="timeline-title">Year 2</h5>
                                             <p class="small text-muted">Specialization Phase</p>
-                                            <ul class="small ps-3">
+                                            <ul class="small ps-3 mb-0">
                                                 <li>Advanced systems design</li>
                                                 <li>Innovation in building services</li>
                                             </ul>
@@ -2345,19 +2379,19 @@ latest_posts:
                                 </div>
                             </div>
                             
-                            <div class="program-benefits mt-4 pt-3 border-top">
+                            <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Program Benefits:</h5>
                                 <div class="benefits-grid">
                                     <div class="benefit-item">
-                                        <i class="fas fa-network-wired text-success mb-2"></i>
+                                        <i class="benefit-icon fas fa-network-wired"></i>
                                         <small>Industry Network</small>
                                     </div>
                                     <div class="benefit-item">
-                                        <i class="fas fa-certificate text-success mb-2"></i>
+                                        <i class="benefit-icon fas fa-certificate"></i>
                                         <small>Accreditation</small>
                                     </div>
                                     <div class="benefit-item">
-                                        <i class="fas fa-chart-line text-success mb-2"></i>
+                                        <i class="benefit-icon fas fa-chart-line"></i>
                                         <small>Career Growth</small>
                                     </div>
                                 </div>
@@ -2366,92 +2400,76 @@ latest_posts:
                     </div>
                 </div>
 
-                <!-- Industry Experience Card - Enhanced -->
+                <!-- Industry Experience Card -->
                 <div class="col-lg-4">
-                    <div class="card h-100 border-0 shadow-lg hover-transform experience-card">
-                        <div class="card-header bg-gradient-info text-white py-4 position-relative">
+                    <div class="card h-100 experience-card">
+                        <div class="card-header text-white">
                             <div class="d-flex align-items-center">
-                                <i class="fas fa-hard-hat fa-3x opacity-25 me-3"></i>
-                                <div>
-                                    <h3 class="h5 mb-1">Hands-On Experience</h3>
-                                </div>
+                                <i class="fas fa-hard-hat card-header-icon"></i>
+                                <h3 class="h5 mb-0">Hands-On Experience</h3>
                             </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <span class="badge bg-white text-info rounded-pill px-3 py-1">
-                                    <i class="fas fa-briefcase me-1"></i>Practice
-                                </span>
-                            </div>
+                            <span class="card-badge badge bg-white text-info rounded-pill">
+                                <i class="fas fa-briefcase me-1"></i>Practice
+                            </span>
                         </div>
                         <div class="card-body">
-                            <div class="experience-header d-flex align-items-center mb-4">
-                                <div class="experience-icon bg-info bg-opacity-10 text-info rounded p-3 me-3">
-                                    <i class="fas fa-building fa-2x"></i>
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="content-icon-box bg-info bg-opacity-10 text-info">
+                                    <i class="fas fa-building fa-lg"></i>
                                 </div>
                                 <div>
-                                    <h4 class="h5 text-info mb-0">2+ Years Industry Practice</h4>
-                                    <small class="text-muted">Target sectors for development</small>
+                                    <h4 class="content-title text-info">2+ Years Industry Practice</h4>
+                                    <small class="content-subtitle">Target sectors for development</small>
                                 </div>
                             </div>
                             
                             <div class="sectors-grid">
-                                <div class="sector-item">
-                                    <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-10 py-2 px-3">
-                                        <i class="fas fa-leaf me-2"></i>Sustainable Design
-                                    </span>
+                                <div class="sector-badge bg-success bg-opacity-10 text-success border border-success">
+                                    <i class="fas fa-leaf me-2"></i>Sustainable Design
                                 </div>
-                                <div class="sector-item">
-                                    <span class="badge bg-warning bg-opacity-10 text-warning border border-warning border-opacity-10 py-2 px-3">
-                                        <i class="fas fa-brain me-2"></i>Smart Buildings
-                                    </span>
+                                <div class="sector-badge bg-warning bg-opacity-10 text-warning border border-warning">
+                                    <i class="fas fa-brain me-2"></i>Smart Buildings
                                 </div>
-                                <div class="sector-item">
-                                    <span class="badge bg-danger bg-opacity-10 text-danger border border-danger border-opacity-10 py-2 px-3">
-                                        <i class="fas fa-cube me-2"></i>BIM Implementation
-                                    </span>
+                                <div class="sector-badge bg-danger bg-opacity-10 text-danger border border-danger">
+                                    <i class="fas fa-cube me-2"></i>BIM Implementation
                                 </div>
-                                <div class="sector-item">
-                                    <span class="badge bg-purple bg-opacity-10 text-purple border border-purple border-opacity-10 py-2 px-3">
-                                        <i class="fas fa-bolt me-2"></i>Energy Efficiency
-                                    </span>
+                                <div class="sector-badge bg-purple bg-opacity-10 text-purple border border-purple">
+                                    <i class="fas fa-bolt me-2"></i>Energy Efficiency
                                 </div>
-                                <div class="sector-item">
-                                    <span class="badge bg-teal bg-opacity-10 text-teal border border-teal border-opacity-10 py-2 px-3">
-                                        <i class="fas fa-recycle me-2"></i>Circular Economy
-                                    </span>
+                                <div class="sector-badge bg-teal bg-opacity-10 text-teal border border-teal">
+                                    <i class="fas fa-recycle me-2"></i>Circular Economy
                                 </div>
-                                <div class="sector-item">
-                                    <span class="badge bg-indigo bg-opacity-10 text-indigo border border-indigo border-opacity-10 py-2 px-3">
-                                        <i class="fas fa-fire-extinguisher me-2"></i>Fire Safety
-                                    </span>
+                                <div class="sector-badge bg-indigo bg-opacity-10 text-indigo border border-indigo">
+                                    <i class="fas fa-fire-extinguisher me-2"></i>Fire Safety
                                 </div>
                             </div>
                             
-                            <div class="experience-highlights border-top pt-3">
+                            <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Experience Focus:</h5>
-                                <div class="highlight-item d-flex mb-3">
-                                    <div class="highlight-icon bg-info text-white rounded-circle p-2 me-3">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon bg-info">
                                         <i class="fas fa-lightbulb"></i>
                                     </div>
                                     <div>
-                                        <h6 class="mb-1">Innovation</h6>
+                                        <h6 class="highlight-title">Innovation</h6>
                                         <small class="text-muted">Implementing cutting-edge solutions</small>
                                     </div>
                                 </div>
-                                <div class="highlight-item d-flex mb-3">
-                                    <div class="highlight-icon bg-info text-white rounded-circle p-2 me-3">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon bg-info">
                                         <i class="fas fa-users"></i>
                                     </div>
                                     <div>
-                                        <h6 class="mb-1">Collaboration</h6>
+                                        <h6 class="highlight-title">Collaboration</h6>
                                         <small class="text-muted">Working with multidisciplinary teams</small>
                                     </div>
                                 </div>
-                                <div class="highlight-item d-flex">
-                                    <div class="highlight-icon bg-info text-white rounded-circle p-2 me-3">
+                                <div class="highlight-item">
+                                    <div class="highlight-icon bg-info">
                                         <i class="fas fa-chart-pie"></i>
                                     </div>
                                     <div>
-                                        <h6 class="mb-1">Impact</h6>
+                                        <h6 class="highlight-title">Impact</h6>
                                         <small class="text-muted">Delivering measurable results</small>
                                     </div>
                                 </div>
