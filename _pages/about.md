@@ -2099,10 +2099,10 @@ latest_posts:
             font-size: 1rem;
         }
         
-        /* Sector Grid */
+        /* Sector Grid - Updated to prevent text cropping */
         .sectors-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(2, minmax(120px, 1fr));
             gap: 0.75rem;
             margin: 1.5rem 0;
         }
@@ -2110,12 +2110,22 @@ latest_posts:
         .sector-badge {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             padding: 0.75rem;
             border-radius: 8px;
             font-weight: 500;
-            text-align: center;
+            text-align: left;
             transition: var(--transition);
+            min-height: 60px;
+            white-space: normal;
+            word-break: break-word;
+            font-size: 0.9rem;
+            line-height: 1.3;
+        }
+        
+        .sector-badge i {
+            margin-right: 0.5rem;
+            flex-shrink: 0;
         }
         
         .sector-badge:hover {
@@ -2182,13 +2192,23 @@ latest_posts:
             margin-bottom: 0.25rem;
         }
         
-        /* Badges */
-        .org-badge {
-            padding: 0.5rem 1rem;
-            border-radius: 50px;
-            font-weight: 500;
+        /* CIBSE Badge - Updated with logo and larger text */
+        .cibse-badge {
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            font-weight: 600;
             display: inline-flex;
             align-items: center;
+            font-size: 1.1rem;
+            background-color: rgba(54, 185, 204, 0.1);
+            border: 1px solid rgba(54, 185, 204, 0.2);
+        }
+        
+        .cibse-logo {
+            width: 30px;
+            height: 30px;
+            margin-right: 0.75rem;
+            object-fit: contain;
         }
         
         /* Animations */
@@ -2252,6 +2272,11 @@ latest_posts:
             
             .card-body {
                 padding: 1.5rem;
+            }
+            
+            .sector-badge {
+                min-height: 50px;
+                font-size: 0.85rem;
             }
         }
     </style>
@@ -2318,8 +2343,10 @@ latest_posts:
                             <div class="border-top pt-3 mt-auto">
                                 <h5 class="h6 mb-3">Key Organizations:</h5>
                                 <div class="d-flex">
-                                    <span class="org-badge bg-info bg-opacity-10 text-info border border-info">
-                                        <i class="fas fa-building me-2"></i>CIBSE
+                                    <span class="cibse-badge">
+                                        <!-- Replace with actual CIBSE logo -->
+                                        <img src="https://www.cibse.org/About-Us/CIBSE-Logos/CIBSE-Logo-RGB.png" alt="CIBSE Logo" class="cibse-logo">
+                                        CIBSE
                                     </span>
                                 </div>
                             </div>
@@ -2425,22 +2452,28 @@ latest_posts:
                             
                             <div class="sectors-grid">
                                 <div class="sector-badge bg-success bg-opacity-10 text-success border border-success">
-                                    <i class="fas fa-leaf me-2"></i>Sustainable Design
+                                    <i class="fas fa-leaf"></i>
+                                    <span>Sustainable Design</span>
                                 </div>
                                 <div class="sector-badge bg-warning bg-opacity-10 text-warning border border-warning">
-                                    <i class="fas fa-brain me-2"></i>Smart Buildings
+                                    <i class="fas fa-brain"></i>
+                                    <span>Smart Buildings</span>
                                 </div>
                                 <div class="sector-badge bg-danger bg-opacity-10 text-danger border border-danger">
-                                    <i class="fas fa-cube me-2"></i>BIM Implementation
+                                    <i class="fas fa-cube"></i>
+                                    <span>BIM Implementation</span>
                                 </div>
                                 <div class="sector-badge bg-purple bg-opacity-10 text-purple border border-purple">
-                                    <i class="fas fa-bolt me-2"></i>Energy Efficiency
+                                    <i class="fas fa-bolt"></i>
+                                    <span>Energy Efficiency</span>
                                 </div>
                                 <div class="sector-badge bg-teal bg-opacity-10 text-teal border border-teal">
-                                    <i class="fas fa-recycle me-2"></i>Circular Economy
+                                    <i class="fas fa-recycle"></i>
+                                    <span>Circular Economy</span>
                                 </div>
                                 <div class="sector-badge bg-indigo bg-opacity-10 text-indigo border border-indigo">
-                                    <i class="fas fa-fire-extinguisher me-2"></i>Fire Safety
+                                    <i class="fas fa-fire-extinguisher"></i>
+                                    <span>Fire Safety</span>
                                 </div>
                             </div>
                             
@@ -2557,7 +2590,7 @@ latest_posts:
       </div>
       
       <div class="alert alert-success-soft border border-success border-opacity-10 d-flex align-items-center">
-        <i class="fa-clock me-2"></i>
+        <i class="fa-solid fa-clock me-2"></i>
         <div>
           <strong>Immediately available</strong> to contribute skills and expertise
         </div>
@@ -2667,7 +2700,7 @@ latest_posts:
       
       <p class="mb-0 connect-message">
         Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
-        <span class="d-inline-block ms-2">🌍✨</span>
+        <span class="d-inline-block ms-2"></span>
       </p>
     </div>
   </div>
