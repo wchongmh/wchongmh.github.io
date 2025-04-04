@@ -11,8 +11,8 @@ profile:
   image_circular: false # crops the image to make it circular
   image_style: "border: 3px solid #ffc107; box-shadow: 0 4px 12px rgba(0,0,0,0.15)"
   more_info: >
-    <p><i class="fas fa-map-marker-alt text-primary"></i> SCT | UK | HKG</p>
-    <p><i class="fas fa-graduation-cap text-info"></i> Engineering Graduate</p>
+    <p><i class="fas fa-map-marker-alt text-primary me-2"></i> SCT | UK | HKG</p>
+    <p><i class="fas fa-graduation-cap text-info me-2"></i> Engineering Graduate</p>
     <p><i class="fas fa-hard-hat text-warning"></i> Building Services Engineer</p>
     <p><i class="fas fa-award text-danger"></i> 6x Scholarship Recipient</p>
     <p><i class="fas fa-microchip text-success"></i> BIM, AI & IoT in Built</p>
