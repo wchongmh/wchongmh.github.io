@@ -277,7 +277,7 @@ latest_posts:
             </div>
             <h5>Data Analytics</h5>
             <p class="tech-desc">Performance benchmarking and KPI tracking</p>
-            <div class="tech-badge">Power BI | Python</div>
+            <div class="tech-badge text-dark">Power BI | Python</div>
           </div>
           
           <!-- Sustainable Design -->
@@ -465,6 +465,10 @@ latest_posts:
   .bg-warning-gradient .tech-badge {
     background-color: rgba(255,255,255,0.2) !important;
     color: white !important;
+  }
+  .bg-warning-gradient .tech-badge {
+  color: #000 !important;
+  background-color: rgba(255,255,255,0.7) !important;
   }
   
   .bg-success-gradient {
@@ -823,7 +827,8 @@ latest_posts:
   }
 </style>
 
----
+<!-- ========== Next Section: 📰 Media Recognition & Press Features ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- 📰 Media Recognition & Press Features -->
 <div class="press-section mb-5">
