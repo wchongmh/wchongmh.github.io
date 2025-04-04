@@ -2476,6 +2476,24 @@ latest_posts:
             margin-bottom: 3.5rem;
         }
         
+        .looking-ahead-badge {
+            margin-bottom: 1.5rem;
+        }
+        
+        .section-badge {
+            display: inline-block;
+            background-color: rgba(78, 115, 223, 0.1);
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            padding: 0.5rem 1.25rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+
+        .section-title {
+            margin-top: 0.5rem;
+        }
+        
         .section-badge {
             display: inline-block;
             background-color: rgba(78, 115, 223, 0.1);
@@ -2936,6 +2954,7 @@ latest_posts:
         <div class="container">
             <!-- Section Header -->
             <div class="section-header text-center">
+             <div class="looking-ahead-badge mb-2">
                 <span class="section-badge rounded-pill">
                     <i class="fas fa-binoculars me-2"></i>LOOKING AHEAD
                 </span>
