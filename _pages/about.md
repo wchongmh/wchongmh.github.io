@@ -3052,7 +3052,7 @@ latest_posts:
       </div>
       
       <div class="alert alert-success-soft border border-success border-opacity-10 d-flex align-items-center">
-        <i class="fa-solid fa-clock me-2"></i>
+        <i class="fa-solid fa-clock text-success me-3"></i>
         <div>
           <strong>Immediately available</strong> to contribute skills and expertise
         </div>
