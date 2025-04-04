@@ -2424,7 +2424,7 @@ latest_posts:
                                 <div class="d-flex">
                                     <span class="cibse-badge">
                                         <div class="cibse-logo-container">
-                                            <img src="/assets/img/logo/cibse-logo.jpg" alt="CIBSE Logo" class="cibse-logo">
+                                            <img src="/assets/img/logo/cibse-logo.webp" alt="CIBSE Logo" class="cibse-logo">
                                             <span class="cibse-text">CIBSE</span>
                                         </div>
                                     </span>
