@@ -5300,4 +5300,266 @@ latest_posts:
   }
 </style>
 
- 
+ <!--📬 Let's Connect Section -->
+<div class="connect-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
+  </div>
+  
+  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
+    <!-- Background elements (subtle animated) -->
+    <div class="position-absolute top-0 end-0 me-4 mt-n5 opacity-10 globe-spin">
+      <i class="fas fa-globe-americas fa-3x text-primary"></i>
+    </div>
+    <div class="position-absolute bottom-0 start-0 ms-4 mb-n5 opacity-10 leaf-float">
+      <i class="fas fa-leaf fa-3x text-success"></i>
+    </div>
+      
+    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+      <!-- Email Button -->
+      <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
+        <div class="btn-content">
+          <div class="btn-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <span>Email Me</span>
+        </div>
+        <div class="btn-hover-content">
+          <span>wchongmh@gmail.com</span>
+        </div>
+      </a>
+      
+      <!-- LinkedIn Button -->
+      <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
+        <div class="btn-content">
+          <div class="btn-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <span>LinkedIn</span>
+        </div>
+        <div class="btn-hover-content">
+          <span>linkedin.com/in/wchongmh</span>
+        </div>
+      </a>
+    </div>
+    
+    <p class="mb-0 connect-message text-center">
+      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
+    </p>
+  </div>
+</div>
+
+<style>
+  /* ===== Modern Layout Improvements ===== */
+  .connect-section {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .connect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  }
+  
+  .highlight-green {
+    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.3));
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  /* ===== Animated Background Icons ===== */
+  .globe-spin {
+    animation: spin 20s linear infinite;
+  }
+  
+  .leaf-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* ===== Enhanced Buttons ===== */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .connect-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2rem !important;
+    }
+    
+    .connect-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+    
+    .connect-message {
+      font-size: 1rem;
+    }
+    
+    /* Adjust icon positioning for mobile */
+    .globe-spin {
+      top: -20px !important;
+      right: 10px !important;
+      font-size: 2rem !important;
+    }
+    
+    .leaf-float {
+      bottom: -20px !important;
+      left: 10px !important;
+      font-size: 2rem !important;
+    }
+  }
+
+  /* Connect Section Styles */
+  .connect-section {
+    position: relative;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .highlight-green {
+    background-color: rgba(40, 167, 69, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Connect Buttons */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-content {
+    top: 0;
+  }
+  
+  .btn-hover-content {
+    top: 100%;
+  }
+  
+  .connect-btn:hover .btn-content {
+    top: -100%;
+  }
+  
+  .connect-btn:hover .btn-hover-content {
+    top: 0;
+  }
+  
+  .btn-icon {
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  /* Email Button */
+  .email-btn {
+    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
+    color: white;
+  }
+  
+  .email-btn .btn-hover-content {
+    background: linear-gradient(135deg, #0b5ed7, #2b78e0);
+    color: white;
+  }
+  
+  /* LinkedIn Button */
+  .linkedin-btn {
+    background: linear-gradient(135deg, #0077b5, #00a0dc);
+    color: white;
+  }
+  
+  .linkedin-btn .btn-hover-content {
+    background: linear-gradient(135deg, #006097, #008cc9);
+    color: white;
+  }
+  
+  /* Connect Message */
+  .connect-message {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2.5rem 1.5rem;
+    }
+    
+    .connect-btn {
+      width: 160px;
+      height: 50px;
+    }
+  }
+</style>
