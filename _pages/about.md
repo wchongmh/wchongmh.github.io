@@ -4512,6 +4512,393 @@ latest_posts:
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Goals & Professional Journey</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4e73df;
+            --primary-dark: #224abe;
+            --secondary: #1cc88a;
+            --secondary-dark: #13855c;
+            --info: #36b9cc;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Enhanced Looking Ahead Banner */
+        .looking-ahead-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .looking-ahead-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .banner-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+        
+        .banner-title i {
+            font-size: 1.8rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .banner-subtitle {
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+        
+        .banner-features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-top: 1.2rem;
+        }
+        
+        .feature-pill {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            padding: 0.6rem 1rem;
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+        
+        .feature-pill:hover {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.25);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .feature-pill i {
+            margin-right: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Progress Timeline - Fully Responsive */
+        .progress-timeline {
+            display: flex;
+            position: relative;
+            margin: 2rem auto;
+            max-width: 800px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    
+        .progress-line {
+            position: absolute;
+            top: 20px;
+            left: 10%;
+            right: 10%;
+            height: 3px;
+            background: rgba(255,255,255,0.3);
+            z-index: 1;
+        }
+    
+        .progress-fill {
+            position: absolute;
+            top: 20px;
+            left: 10%;
+            height: 3px;
+            background: white;
+            z-index: 2;
+            transition: width 0.5s ease;
+        }
+    
+        .progress-milestone {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            flex: 1 0 60px;
+            margin-bottom: 1rem;
+            opacity: 0;
+        }
+    
+        .milestone-dot {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: white;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.5rem;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+    
+        .milestone-dot.active {
+            transform: scale(1.1);
+            box-shadow: 0 0 0 3px rgba(255,255,255,0.3);
+        }
+    
+        .milestone-label {
+            font-size: 0.8rem;
+            opacity: 0.9;
+            line-height: 1.3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 5px;
+            word-break: break-word;
+            min-height: 2.8em;
+        }
+
+        /* Animated background elements */
+        .banner-bg-element {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            animation: float 15s infinite linear;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 767px) {
+            .progress-timeline {
+                justify-content: center;
+            }
+            
+            .progress-line,
+            .progress-fill {
+                display: none;
+            }
+            
+            .progress-milestone {
+                flex: 0 0 calc(50% - 1rem);
+            }
+            
+            .milestone-label {
+                font-size: 0.75rem;
+            }
+            
+            .feature-pill {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .looking-ahead-banner {
+                padding: 2.5rem 1rem;
+            }
+            
+            .banner-title {
+                font-size: 2.2rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .progress-timeline {
+                flex-wrap: nowrap;
+            }
+            
+            .progress-line,
+            .progress-fill {
+                display: block;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .looking-ahead-banner {
+                padding: 3rem 1rem;
+            }
+            
+            .banner-title {
+                font-size: 2.5rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .feature-pill {
+                padding: 0.7rem 1.2rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Enhanced Looking Ahead Banner -->
+    <div class="looking-ahead-banner">
+        <!-- Animated background elements -->
+        <div class="banner-bg-element" style="width: 120px; height: 120px; background: white; top: -30px; left: -30px; animation-delay: 0s;"></div>
+        <div class="banner-bg-element" style="width: 100px; height: 100px; background: var(--secondary); bottom: -20px; right: 20px; animation-delay: 2s;"></div>
+        <div class="banner-bg-element" style="width: 60px; height: 60px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
+        
+        <div class="looking-ahead-content">
+            <div class="banner-title">
+                <i class="fas fa-binoculars"></i>
+                <span>LOOKING AHEAD</span>
+            </div>
+            <p class="banner-subtitle">Charting the course for professional excellence and innovation in building services engineering</p>
+            
+            <!-- Progress Timeline -->
+            <div class="progress-timeline">
+                <div class="progress-line"></div>
+                <div class="progress-fill" style="width: 40%;"></div>
+                
+                <div class="progress-milestone active">
+                    <div class="milestone-dot active">1</div>
+                    <div class="milestone-label">Education</div>
+                </div>
+                <div class="progress-milestone active">
+                    <div class="milestone-dot active">2</div>
+                    <div class="milestone-label">Graduate Scheme</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">3</div>
+                    <div class="milestone-label">Chartered Status</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">4</div>
+                    <div class="milestone-label">Specialization</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">5</div>
+                    <div class="milestone-label">Leadership</div>
+                </div>
+            </div>
+            
+            <div class="banner-features">
+                <div class="feature-pill">
+                    <i class="fas fa-rocket"></i>
+                    <span>Career Growth</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Innovation</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-leaf"></i>
+                    <span>Sustainability</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-cogs"></i>
+                    <span>Technology</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-globe"></i>
+                    <span>Global Impact</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const milestones = document.querySelectorAll('.progress-milestone');
+            const isMobile = window.innerWidth < 768;
+            
+            // Animate milestones with staggered delay
+            milestones.forEach((milestone, index) => {
+                setTimeout(() => {
+                    milestone.style.opacity = '1';
+                    milestone.style.transition = 'opacity 0.4s ease';
+                }, index * 200);
+                
+                // Click handler for interactive timeline
+                milestone.addEventListener('click', function() {
+                    document.querySelectorAll('.milestone-dot').forEach(dot => {
+                        dot.classList.remove('active');
+                    });
+                    this.querySelector('.milestone-dot').classList.add('active');
+                    
+                    // Update progress fill width if not mobile
+                    if (!isMobile) {
+                        const fill = document.querySelector('.progress-fill');
+                        if (fill) {
+                            fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
+                        }
+                    }
+                });
+            });
+            
+            // Handle window resize
+            function handleResize() {
+                const isNowMobile = window.innerWidth < 768;
+                const line = document.querySelector('.progress-line');
+                const fill = document.querySelector('.progress-fill');
+                
+                if (isNowMobile) {
+                    if (line) line.style.display = 'none';
+                    if (fill) fill.style.display = 'none';
+                } else {
+                    if (line) line.style.display = 'block';
+                    if (fill) fill.style.display = 'block';
+                }
+            }
+            
+            // Initial call
+            handleResize();
+            
+            // Add event listener
+            window.addEventListener('resize', handleResize);
+        });
+    </script>
+</body>
+</html>
+
 <!-- DOCTYPE html --><!--Future Goals & Professional Journey-->
 <html lang="en">
 <head>
