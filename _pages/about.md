@@ -4026,6 +4026,492 @@ latest_posts:
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Future Goals & Professional Journey</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4e73df;
+            --primary-dark: #224abe;
+            --secondary: #1cc88a;
+            --secondary-dark: #13855c;
+            --info: #36b9cc;
+            --info-dark: #258391;
+            --purple: #6f42c1;
+            --teal: #20c997;
+            --indigo: #6610f2;
+            --orange: #fd7e14;
+            --pink: #d63384;
+            --blue: #0d6efd;
+            --gold: #ffc107;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Enhanced Looking Ahead Banner */
+        .looking-ahead-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 1.5rem 0.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .looking-ahead-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 0.5rem;
+        }
+        
+        .banner-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            letter-spacing: 0.3px;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .banner-title i {
+            font-size: 1.5rem;
+            animation: pulse 2s infinite;
+            margin-right: 0.5rem;
+        }
+        
+        .banner-subtitle {
+            font-size: 0.9rem;
+            margin-bottom: 1.2rem;
+            opacity: 0.9;
+            line-height: 1.4;
+            padding: 0 0.5rem;
+        }
+        
+        .banner-features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .feature-pill {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            padding: 0.5rem 0.8rem;
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+            font-weight: 500;
+            font-size: 0.75rem;
+            white-space: nowrap;
+        }
+        
+        .feature-pill:hover {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.25);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .feature-pill i {
+            margin-right: 0.3rem;
+            font-size: 0.8rem;
+        }
+        
+        /* Updated Progress Timeline - Fully Responsive */
+        .progress-timeline {
+            display: flex;
+            position: relative;
+            margin: 1.5rem auto;
+            max-width: 800px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+    
+        .progress-line {
+            position: absolute;
+            top: 18px;
+            left: 10%;
+            right: 10%;
+            height: 3px;
+            background: rgba(255,255,255,0.3);
+            z-index: 1;
+            display: none;
+        }
+    
+        .progress-fill {
+            position: absolute;
+            top: 18px;
+            left: 10%;
+            height: 3px;
+            background: white;
+            z-index: 2;
+            transition: width 0.5s ease;
+            display: none;
+        }
+    
+        .progress-milestone {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            flex: 0 0 calc(50% - 1rem);
+            min-width: 0;
+            margin-bottom: 1rem;
+            opacity: 0;
+        }
+    
+        .milestone-dot {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: white;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.5rem;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+    
+        .milestone-dot.active {
+            transform: scale(1.1);
+            box-shadow: 0 0 0 3px rgba(255,255,255,0.3);
+        }
+    
+        .milestone-label {
+            font-size: 0.75rem;
+            opacity: 0.9;
+            line-height: 1.3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 2px;
+            word-break: break-word;
+            min-height: 2.8em;
+        }
+
+        /* Animated background elements - Lighter for mobile */
+        .banner-bg-element {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.08;
+            animation: float 15s infinite linear;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Responsive adjustments - Mobile first */
+        @media (min-width: 400px) {
+            .progress-milestone {
+                flex: 0 0 calc(33% - 1rem);
+            }
+            
+            .milestone-label {
+                font-size: 0.7rem;
+            }
+        }
+        
+        @media (min-width: 576px) {
+            .looking-ahead-banner {
+                padding: 2rem 1rem;
+            }
+            
+            .banner-title {
+                font-size: 1.8rem;
+                gap: 0.8rem;
+            }
+            
+            .banner-title i {
+                font-size: 1.8rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1rem;
+            }
+            
+            .feature-pill {
+                padding: 0.6rem 1rem;
+                font-size: 0.85rem;
+            }
+            
+            .feature-pill i {
+                font-size: 0.85rem;
+            }
+            
+            .progress-timeline {
+                margin: 2rem auto;
+            }
+            
+            .milestone-dot {
+                width: 36px;
+                height: 36px;
+            }
+            
+            .milestone-label {
+                font-size: 0.8rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .looking-ahead-banner {
+                padding: 2.5rem 1rem;
+            }
+            
+            .banner-title {
+                font-size: 2.2rem;
+                gap: 1rem;
+            }
+            
+            .banner-title i {
+                font-size: 2.2rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.1rem;
+                padding: 0 1rem;
+            }
+            
+            .progress-timeline {
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                gap: 0;
+            }
+            
+            .progress-line,
+            .progress-fill {
+                display: block;
+            }
+            
+            .progress-milestone {
+                flex: 1;
+                margin-bottom: 0;
+            }
+            
+            .banner-features {
+                gap: 0.8rem;
+            }
+            
+            .feature-pill {
+                padding: 0.7rem 1.2rem;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .looking-ahead-banner {
+                padding: 3rem 1rem;
+            }
+            
+            .banner-title {
+                font-size: 2.5rem;
+            }
+            
+            .banner-title i {
+                font-size: 2.5rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.2rem;
+                padding: 0 2rem;
+            }
+            
+            .feature-pill {
+                padding: 0.8rem 1.5rem;
+                font-size: 1rem;
+            }
+            
+            .milestone-dot {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .milestone-label {
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Enhanced Looking Ahead Banner -->
+    <div class="looking-ahead-banner">
+        <!-- Animated background elements -->
+        <div class="banner-bg-element" style="width: 120px; height: 120px; background: white; top: -30px; left: -30px; animation-delay: 0s;"></div>
+        <div class="banner-bg-element" style="width: 100px; height: 100px; background: var(--secondary); bottom: -20px; right: 20px; animation-delay: 2s;"></div>
+        <div class="banner-bg-element" style="width: 60px; height: 60px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
+        
+        <div class="looking-ahead-content">
+            <div class="banner-title">
+                <i class="fas fa-binoculars"></i>
+                <span>LOOKING AHEAD</span>
+            </div>
+            <p class="banner-subtitle">Charting the course for professional excellence and innovation in building services engineering</p>
+            
+            <!-- Progress Timeline -->
+            <div class="progress-timeline">
+                <div class="progress-line"></div>
+                <div class="progress-fill" style="width: 40%;"></div>
+                
+                <div class="progress-milestone active">
+                    <div class="milestone-dot active">1</div>
+                    <div class="milestone-label">Education</div>
+                </div>
+                <div class="progress-milestone active">
+                    <div class="milestone-dot active">2</div>
+                    <div class="milestone-label">Graduate Scheme</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">3</div>
+                    <div class="milestone-label">Chartered Status</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">4</div>
+                    <div class="milestone-label">Specialization</div>
+                </div>
+                <div class="progress-milestone">
+                    <div class="milestone-dot">5</div>
+                    <div class="milestone-label">Leadership</div>
+                </div>
+            </div>
+            
+            <div class="banner-features">
+                <div class="feature-pill">
+                    <i class="fas fa-rocket"></i>
+                    <span>Career Growth</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Innovation</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-leaf"></i>
+                    <span>Sustainability</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-cogs"></i>
+                    <span>Technology</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-globe"></i>
+                    <span>Global Impact</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Enhanced animation for the progress timeline
+        document.addEventListener('DOMContentLoaded', function() {
+            const milestones = document.querySelectorAll('.progress-milestone');
+            const isMobile = window.innerWidth < 768;
+            
+            // Animate milestones with staggered delay
+            milestones.forEach((milestone, index) => {
+                setTimeout(() => {
+                    milestone.style.opacity = '1';
+                    milestone.style.transition = 'opacity 0.4s ease';
+                    
+                    // Add slight bounce effect on mobile
+                    if (isMobile) {
+                        milestone.style.transform = 'translateY(10px)';
+                        setTimeout(() => {
+                            milestone.style.transform = 'translateY(0)';
+                            milestone.style.transition = 'transform 0.3s ease, opacity 0.4s ease';
+                        }, 50);
+                    }
+                }, index * 200);
+                
+                // Click handler for interactive timeline
+                milestone.addEventListener('click', function() {
+                    document.querySelectorAll('.milestone-dot').forEach(dot => {
+                        dot.classList.remove('active');
+                    });
+                    this.querySelector('.milestone-dot').classList.add('active');
+                    
+                    // Update progress fill width if not mobile
+                    if (!isMobile) {
+                        const fill = document.querySelector('.progress-fill');
+                        if (fill) {
+                            fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
+                        }
+                    }
+                });
+            });
+            
+            // Handle touch events for better mobile UX
+            milestones.forEach(milestone => {
+                milestone.addEventListener('touchstart', function() {
+                    this.style.transform = 'scale(0.95)';
+                });
+                
+                milestone.addEventListener('touchend', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+            
+            // Show/hide timeline line based on screen size
+            function handleResize() {
+                const isNowMobile = window.innerWidth < 768;
+                const line = document.querySelector('.progress-line');
+                const fill = document.querySelector('.progress-fill');
+                
+                if (isNowMobile) {
+                    if (line) line.style.display = 'none';
+                    if (fill) fill.style.display = 'none';
+                } else {
+                    if (line) line.style.display = 'block';
+                    if (fill) fill.style.display = 'block';
+                }
+            }
+            
+            // Initial call
+            handleResize();
+            
+            // Add event listener
+            window.addEventListener('resize', handleResize);
+        });
+    </script>
+</body>
+</html>
+
 <!-- DOCTYPE html --><!--Future Goals & Professional Journey-->
 <html lang="en">
 <head>
@@ -5190,270 +5676,6 @@ latest_posts:
     
     .connect-message {
       font-size: 1rem;
-    }
-  }
-
-  /* Connect Section Styles */
-  .connect-section {
-    position: relative;
-  }
-  
-  .connect-card {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-    border: 1px solid rgba(0,0,0,0.05);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  }
-  
-  .highlight-green {
-    background-color: rgba(40, 167, 69, 0.2);
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-weight: 600;
-  }
-  
-  /* Connect Buttons */
-  .connect-btn {
-    display: inline-flex;
-    align-items: center;
-    padding: 0;
-    border-radius: 50px;
-    text-decoration: none;
-    overflow: hidden;
-    position: relative;
-    height: 56px;
-    width: 180px;
-    transition: all 0.4s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  }
-  
-  .btn-content, .btn-hover-content {
-    padding: 0.75rem 1.5rem;
-    width: 100%;
-    position: absolute;
-    transition: all 0.4s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .btn-content {
-    top: 0;
-  }
-  
-  .btn-hover-content {
-    top: 100%;
-  }
-  
-  .connect-btn:hover .btn-content {
-    top: -100%;
-  }
-  
-  .connect-btn:hover .btn-hover-content {
-    top: 0;
-  }
-  
-  .btn-icon {
-    margin-right: 0.75rem;
-    font-size: 1.25rem;
-  }
-  
-  /* Email Button */
-  .email-btn {
-    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
-    color: white;
-  }
-  
-  .email-btn .btn-hover-content {
-    background: linear-gradient(135deg, #0b5ed7, #2b78e0);
-    color: white;
-  }
-  
-  /* LinkedIn Button */
-  .linkedin-btn {
-    background: linear-gradient(135deg, #0077b5, #00a0dc);
-    color: white;
-  }
-  
-  .linkedin-btn .btn-hover-content {
-    background: linear-gradient(135deg, #006097, #008cc9);
-    color: white;
-  }
-  
-  /* Connect Message */
-  .connect-message {
-    font-size: 1.15rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .connect-card {
-      padding: 2.5rem 1.5rem;
-    }
-    
-    .connect-btn {
-      width: 160px;
-      height: 50px;
-    }
-  }
-</style>
-
- <!--📬 Let's Connect Section -->
-<div class="connect-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
-  </div>
-  
-  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
-    <!-- Background elements (subtle animated) -->
-    <div class="position-absolute top-0 end-0 me-4 mt-n5 opacity-10 globe-spin">
-      <i class="fas fa-globe-americas fa-3x text-primary"></i>
-    </div>
-    <div class="position-absolute bottom-0 start-0 ms-4 mb-n5 opacity-10 leaf-float">
-      <i class="fas fa-leaf fa-3x text-success"></i>
-    </div>
-      
-    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-      <!-- Email Button -->
-      <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
-        <div class="btn-content">
-          <div class="btn-icon">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <span>Email Me</span>
-        </div>
-        <div class="btn-hover-content">
-          <span>wchongmh@gmail.com</span>
-        </div>
-      </a>
-      
-      <!-- LinkedIn Button -->
-      <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
-        <div class="btn-content">
-          <div class="btn-icon">
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-          <span>LinkedIn</span>
-        </div>
-        <div class="btn-hover-content">
-          <span>linkedin.com/in/wchongmh</span>
-        </div>
-      </a>
-    </div>
-    
-    <p class="mb-0 connect-message text-center">
-      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
-    </p>
-  </div>
-</div>
-
-<style>
-  /* ===== Modern Layout Improvements ===== */
-  .connect-section {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .connect-card {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-    border: 1px solid rgba(0,0,0,0.05);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    backdrop-filter: blur(4px);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .connect-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-  }
-  
-  .highlight-green {
-    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.3));
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: background 0.3s ease;
-  }
-  
-  /* ===== Animated Background Icons ===== */
-  .globe-spin {
-    animation: spin 20s linear infinite;
-  }
-  
-  .leaf-float {
-    animation: float 6s ease-in-out infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-15px); }
-  }
-  
-  /* ===== Enhanced Buttons ===== */
-  .connect-btn {
-    display: inline-flex;
-    align-items: center;
-    padding: 0;
-    border-radius: 50px;
-    text-decoration: none;
-    overflow: hidden;
-    position: relative;
-    height: 56px;
-    width: 180px;
-    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-    border: 1px solid rgba(255,255,255,0.2);
-  }
-  
-  .btn-content, .btn-hover-content {
-    padding: 0.75rem 1.5rem;
-    width: 100%;
-    position: absolute;
-    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .connect-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-  }
-  
-  /* ===== Responsive ===== */
-  @media (max-width: 768px) {
-    .connect-card {
-      padding: 2rem !important;
-    }
-    
-    .connect-btn {
-      width: 100%;
-      max-width: 200px;
-    }
-    
-    .connect-message {
-      font-size: 1rem;
-    }
-    
-    /* Adjust icon positioning for mobile */
-    .globe-spin {
-      top: -20px !important;
-      right: 10px !important;
-      font-size: 2rem !important;
-    }
-    
-    .leaf-float {
-      bottom: -20px !important;
-      left: 10px !important;
-      font-size: 2rem !important;
     }
   }
 
