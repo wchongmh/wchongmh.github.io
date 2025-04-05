@@ -1445,6 +1445,29 @@ latest_posts:
     .experience-card .card-header {
       background: rgba(255, 193, 7, 0.1) !important;
     }
+    /* Guaranteed visible elements */
+    .theme-icon {
+      color: #ffc107 !important;
+      opacity: 1 !important;
+    }
+
+    .theme-date-text {
+      color: #212529 !important;
+      opacity: 1 !important;
+    }
+
+    .theme-badge {
+      background-color: white !important;
+      color: #212529 !important;
+    }
+    
+    /* Ensures text is never white */
+    .theme-header-text,
+    .theme-header-small,
+    .theme-date-text,
+    .theme-badge {
+      color: #212529 !important;
+    }
   }
 </style>
 
