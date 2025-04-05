@@ -1055,7 +1055,7 @@ latest_posts:
           </div>
         </div>
         <div class="card-footer bg-transparent border-0 pt-0 pb-3 px-4">
-          <a href="#" class="btn btn-sm btn-outline-info">Read Abstract <i class="fas fa-arrow-right ms-1"></i></a>
+          <a href="/projects" class="btn btn-sm btn-outline-info">Read Abstract <i class="fas fa-arrow-right ms-1"></i></a>
         </div>
       </div>
     </div>
@@ -1081,7 +1081,7 @@ latest_posts:
           </div>
         </div>
         <div class="card-footer bg-transparent border-0 pt-0 pb-3 px-4">
-          <a href="#" class="btn btn-sm btn-outline-warning">Read Abstract <i class="fas fa-arrow-right ms-1"></i></a>
+          <a href="/projects" class="btn btn-sm btn-outline-warning">Read Abstract <i class="fas fa-arrow-right ms-1"></i></a>
         </div>
       </div>
     </div>
