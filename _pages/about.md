@@ -1175,17 +1175,15 @@ latest_posts:
 
  <!-- Experience Card with Improved Layout -->
 <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
-  <!-- Card Header with forced theme colors -->
-  <div class="card-header py-3 position-relative" 
-       style="background-color: rgba(255, 193, 7, 0.1) !important;
-              border-bottom: 1px solid rgba(255, 193, 7, 0.25) !important;">
+  <!-- REPLACE the entire card-header div with this: -->
+  <div class="card-header py-3 position-relative forced-theme-header">
     <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
       <div class="flex-grow-1">
-        <h4 class="mb-1 fw-bold" style="color: #212529 !important;">Building Services Engineering Intern</h4>
-        <h5 class="mb-0 fs-5" style="color: #212529 !important;">Wong &amp; Ouyang (Building Services) Ltd. <small style="color: rgba(33, 37, 41, 0.75) !important;">(Hong Kong)</small></h5>
+        <h4 class="mb-1 fw-bold theme-header-text">Building Services Engineering Intern</h4>
+        <h5 class="mb-0 fs-5 theme-header-text">Wong &amp; Ouyang (Building Services) Ltd. <small class="theme-header-small">(Hong Kong)</small></h5>
       </div>
-      <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
-        <i class="fas fa-calendar-alt me-2" style="color: #ffc107 !important;"></i> Jan &ndash; Apr 2022
+      <span class="badge bg-white theme-badge-text fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
+        <i class="fas fa-calendar-alt me-2 theme-icon"></i> Jan &ndash; Apr 2022
       </span>
     </div>
   </div>
@@ -1415,6 +1413,37 @@ latest_posts:
     div[class*="card-header"] {
       background-color: rgba(255, 193, 7, 0.1) !important;
       border-color: rgba(255, 193, 7, 0.25) !important;
+    }
+    /* NUCLEAR OPTION - Guaranteed to work */
+    .forced-theme-header {
+      background: rgba(255, 193, 7, 0.1) !important;
+      border-bottom: 1px solid rgba(255, 193, 7, 0.25) !important;
+      background-image: none !important;
+    }
+
+    .theme-header-text {
+      color: #212529 !important;
+    }
+
+    .theme-header-small {
+      color: rgba(33, 37, 41, 0.75) !important;
+    }
+
+    .theme-badge-text {
+      color: #212529 !important;
+    }
+
+    .theme-icon {
+      color: #ffc107 !important;
+    }
+
+    /* Complete override for any potential blue backgrounds */
+    .experience-card * {
+      background-color: transparent !important;
+    }
+
+    .experience-card .card-header {
+      background: rgba(255, 193, 7, 0.1) !important;
     }
   }
 </style>
