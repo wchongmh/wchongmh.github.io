@@ -2550,25 +2550,67 @@ latest_posts:
         /* Responsive adjustments */
         @media (min-width: 576px) {
             .looking-ahead-banner {
-                padding: 2.5rem 0;
+                padding: 1.5rem 0;
             }
             
             .banner-title {
-                font-size: 2.2rem;
-                flex-direction: row;
+                font-size: 1.5rem;
             }
             
             .banner-title i {
-                flex: 0 0 auto;
-                margin-bottom: 0;
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
             }
             
             .banner-subtitle {
-                font-size: 1.2rem;
+                font-size: 0.9rem;
+                padding: 0 0.5rem;
             }
             
             .feature-pill {
                 padding: 0.7rem 1.5rem;
+                font-size: 0.9rem;
+            }
+             /* Timeline adjustments */
+             .progress-timeline {
+                 flex-wrap: wrap;
+                 justify-content: space-around;
+                 gap: 0.5rem;
+                margin: 1.5rem auto;
+            }
+    
+            .progress-milestone {
+                width: 33%;
+                min-width: 80px;
+                margin-bottom: 1.5rem;
+            }
+    
+            .milestone-label {
+                font-size: 0.75rem;
+                word-break: break-word;
+                white-space: normal;
+                padding: 0 5px;
+                line-height: 1.3;
+            }
+    
+            .progress-line,
+            .progress-fill {
+                display: block;
+                left: 16%;
+                right: 16%;
+            }
+    
+            /* Feature pills adjustments */
+            .banner-features {
+                gap: 0.6rem;
+            }
+    
+            .feature-pill {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+    
+            .feature-pill i {
                 font-size: 0.9rem;
             }
         }
