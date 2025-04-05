@@ -1448,24 +1448,6 @@ latest_posts:
   }
 </style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Find all card headers and force the theme
-  const headers = document.querySelectorAll('.card-header');
-  headers.forEach(header => {
-    header.style.backgroundColor = 'rgba(255, 193, 7, 0.1)';
-    header.style.backgroundImage = 'none';
-    header.style.setProperty('background-color', 'rgba(255, 193, 7, 0.1)', 'important');
-  });
-  
-  // Nuclear option - remove all background colors from parent elements
-  const cards = document.querySelectorAll('.experience-card, .experience-card *');
-  cards.forEach(el => {
-    el.style.backgroundColor = 'transparent';
-  });
-});
-</script>
-
 <!-- ========== Next Section: 🔧 Technical Skills Section ========== -->
 
 <!-- 🔧 Technical Skills Section - Optimized -->
@@ -2921,7 +2903,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </body>
 </html>
 
-<!DOCTYPE html>
+<!-- DOCTYPE html --><!-- ========== Next Section: Looking Ahead Banner ========== -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -3030,7 +3012,7 @@ document.addEventListener('DOMContentLoaded', function() {
             font-size: 0.9rem;
         }
         
-        /* Updated Progress Timeline - Fully Responsive */
+        /* Updated Progress Timeline - Responsive Design */
         .progress-timeline {
             display: flex;
             position: relative;
@@ -3038,15 +3020,14 @@ document.addEventListener('DOMContentLoaded', function() {
             max-width: 800px;
             justify-content: space-between;
             flex-wrap: wrap;
-            gap: 1.5rem;
-            padding: 0 1rem;
+            gap: 1rem;
         }
     
         .progress-line {
             position: absolute;
             top: 20px;
-            left: 10%;
-            right: 10%;
+            left: 50px;
+            right: 50px;
             height: 4px;
             background: rgba(255,255,255,0.3);
             z-index: 1;
@@ -3055,20 +3036,21 @@ document.addEventListener('DOMContentLoaded', function() {
         .progress-fill {
             position: absolute;
             top: 20px;
-            left: 10%;
+            left: 50px;
             height: 4px;
             background: white;
             z-index: 2;
-            transition: all 1s ease;
+            transition: width 1s ease;
         }
     
         .progress-milestone {
             position: relative;
             z-index: 3;
             text-align: center;
-            flex: 1;
+            flex: 1 0 60px; /* Changed from flex:1 to allow better mobile wrapping */
             min-width: 60px;
-            cursor: pointer;
+            max-width: 120px;
+            margin-bottom: 1rem;
         }
     
         .milestone-dot {
@@ -3086,12 +3068,6 @@ document.addEventListener('DOMContentLoaded', function() {
             transition: var(--transition);
         }
     
-        .milestone-dot.active {
-            background: var(--secondary);
-            color: white;
-            transform: scale(1.1);
-        }
-    
         .milestone-label {
             font-size: 0.85rem;
             opacity: 0.9;
@@ -3102,56 +3078,6 @@ document.addEventListener('DOMContentLoaded', function() {
             padding: 0 5px;
             word-break: break-word;
             min-height: 2.5em;
-            transition: var(--transition);
-        }
-        
-        .progress-milestone:hover .milestone-dot {
-            transform: scale(1.1);
-        }
-        
-        .progress-milestone:hover .milestone-label {
-            opacity: 1;
-            font-weight: 500;
-        }
-
-        /* Mobile-specific timeline adjustments */
-        @media (max-width: 767px) {
-            .progress-timeline {
-                flex-direction: column;
-                align-items: center;
-                gap: 2rem;
-                padding: 0;
-            }
-            
-            .progress-line,
-            .progress-fill {
-                display: block;
-                left: 50%;
-                width: 4px;
-                height: calc(100% - 80px);
-                top: 40px;
-                bottom: 40px;
-                transform: translateX(-50%);
-            }
-            
-            .progress-milestone {
-                width: 100%;
-                max-width: 250px;
-                display: flex;
-                align-items: center;
-                gap: 1rem;
-                text-align: left;
-            }
-            
-            .milestone-dot {
-                margin: 0;
-                flex-shrink: 0;
-            }
-            
-            .milestone-label {
-                justify-content: flex-start;
-                padding: 0;
-            }
         }
 
         /* Animated background elements */
@@ -3174,7 +3100,44 @@ document.addEventListener('DOMContentLoaded', function() {
             100% { transform: scale(1); }
         }
         
-        /* Responsive adjustments */
+        /* Responsive adjustments - Mobile first approach */
+        @media (max-width: 767px) {
+            .progress-timeline {
+                justify-content: center;
+                gap: 0.5rem;
+            }
+            
+            .progress-line,
+            .progress-fill {
+                display: none;
+            }
+            
+            .progress-milestone {
+                flex: 0 0 calc(33% - 1rem);
+                margin-bottom: 1.5rem;
+            }
+            
+            .milestone-dot {
+                width: 36px;
+                height: 36px;
+                font-size: 0.9rem;
+            }
+            
+            .milestone-label {
+                font-size: 0.75rem;
+                min-height: 3em;
+            }
+            
+            .feature-pill {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+            
+            .feature-pill i {
+                font-size: 0.8rem;
+            }
+        }
+        
         @media (min-width: 576px) {
             .looking-ahead-banner {
                 padding: 2.5rem 1rem;
@@ -3223,6 +3186,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 gap: 0;
             }
             
+            .progress-line,
+            .progress-fill {
+                display: block;
+            }
+            
+            .progress-milestone {
+                flex: 1;
+                margin-bottom: 0;
+            }
+            
             .feature-pill {
                 padding: 0.8rem 1.5rem;
                 font-size: 1rem;
@@ -3258,7 +3231,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Progress Timeline -->
             <div class="progress-timeline">
                 <div class="progress-line"></div>
-                <div class="progress-fill" style="width: 40%; height: 4px;"></div>
+                <div class="progress-fill" style="width: 40%;"></div>
                 
                 <div class="progress-milestone active">
                     <div class="milestone-dot active">1</div>
@@ -3311,85 +3284,53 @@ document.addEventListener('DOMContentLoaded', function() {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     <script>
-        // Enhanced JavaScript for responsive timeline
+        // Simple animation for the progress timeline
         document.addEventListener('DOMContentLoaded', function() {
             const milestones = document.querySelectorAll('.progress-milestone');
-            const fill = document.querySelector('.progress-fill');
             
-            // Initialize timeline
-            function initTimeline() {
-                // Set initial opacity to 0 for animation
-                milestones.forEach(milestone => {
-                    milestone.style.opacity = '0';
-                });
-                
-                // Animate milestones
-                milestones.forEach((milestone, index) => {
-                    setTimeout(() => {
-                        milestone.style.opacity = '1';
-                        milestone.style.transition = 'opacity 0.5s ease';
-                    }, index * 200);
-                });
-                
-                // Set initial active state
-                setActiveMilestone(1);
-            }
+            // Set initial opacity to 0 for animation
+            milestones.forEach(milestone => {
+                milestone.style.opacity = '0';
+            });
             
-            // Set active milestone
-            function setActiveMilestone(index) {
-                milestones.forEach((milestone, i) => {
-                    const dot = milestone.querySelector('.milestone-dot');
-                    if (i <= index) {
-                        dot.classList.add('active');
-                    } else {
+            milestones.forEach((milestone, index) => {
+                // Add delay for each milestone animation
+                setTimeout(() => {
+                    milestone.style.opacity = '1';
+                    milestone.style.transition = 'opacity 0.5s ease';
+                }, index * 200);
+                
+                // Click handler for interactive timeline
+                milestone.addEventListener('click', function() {
+                    document.querySelectorAll('.milestone-dot').forEach(dot => {
                         dot.classList.remove('active');
+                    });
+                    this.querySelector('.milestone-dot').classList.add('active');
+                    
+                    // Update progress fill width
+                    const fill = document.querySelector('.progress-fill');
+                    if (fill) {
+                        fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
                     }
                 });
-                
-                updateProgressFill(index);
-            }
+            });
             
-            // Update progress fill based on screen size
-            function updateProgressFill(activeIndex) {
-                if (!fill) return;
-                
+            // Handle window resize for better mobile experience
+            function handleResize() {
+                const timeline = document.querySelector('.progress-timeline');
                 if (window.innerWidth < 768) {
-                    // Vertical progress for mobile
-                    fill.style.width = '4px';
-                    fill.style.height = `${(activeIndex / (milestones.length - 1)) * 100}%`;
-                    fill.style.left = '50%';
-                    fill.style.top = '40px';
-                    fill.style.right = 'auto';
-                    fill.style.transform = 'translateX(-50%)';
+                    timeline.style.flexWrap = 'wrap';
+                    timeline.style.justifyContent = 'center';
                 } else {
-                    // Horizontal progress for desktop
-                    fill.style.width = `${(activeIndex / (milestones.length - 1)) * 80}%`;
-                    fill.style.height = '4px';
-                    fill.style.top = '20px';
-                    fill.style.left = '10%';
-                    fill.style.right = 'auto';
-                    fill.style.transform = 'none';
+                    timeline.style.flexWrap = 'nowrap';
+                    timeline.style.justifyContent = 'space-between';
                 }
             }
             
-            // Handle milestone click
-            function handleMilestoneClick(milestone, index) {
-                setActiveMilestone(index);
-            }
+            // Initial call
+            handleResize();
             
-            // Add click handlers
-            milestones.forEach((milestone, index) => {
-                milestone.addEventListener('click', () => handleMilestoneClick(milestone, index));
-            });
-            
-            // Handle window resize
-            function handleResize() {
-                const activeIndex = document.querySelectorAll('.milestone-dot.active').length - 1;
-                updateProgressFill(activeIndex);
-            }
-            
-            // Initialize and set up event listeners
-            initTimeline();
+            // Add event listener
             window.addEventListener('resize', handleResize);
         });
     </script>
