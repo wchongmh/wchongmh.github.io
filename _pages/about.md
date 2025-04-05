@@ -1420,7 +1420,6 @@ latest_posts:
 </style>
 
 <!-- ========== Next Section: 🔧 Technical Skills Section ========== -->
-<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- 🔧 Technical Skills Section - Optimized -->
 <div class="technical-skills-section mb-5">
