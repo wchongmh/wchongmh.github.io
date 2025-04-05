@@ -5417,53 +5417,6 @@ latest_posts:
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!--📬 Let's Connect Section -->
-<div class="connect-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
-  </div>
-  
-  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
-    <!-- Background elements (subtle animated) -->
-    <div class="position-absolute top-0 end-0 me-4 mt-3 opacity-10 globe-spin">
-      <i class="fas fa-globe-americas fa-4x text-primary"></i>
-    </div>
-    <div class="position-absolute bottom-0 start-0 ms-4 mb-3 opacity-10 leaf-float">
-      <i class="fas fa-leaf fa-4x text-success"></i>
-    </div>
-      
-    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
-      <!-- Email Button -->
-      <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
-        <div class="btn-content">
-          <div class="btn-icon">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <span>Email Me</span>
-        </div>
-        <div class="btn-hover-content">
-          <span>wchongmh@gmail.com</span>
-        </div>
-      </a>
-      
-      <!-- LinkedIn Button -->
-      <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
-        <div class="btn-content">
-          <div class="btn-icon">
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-          <span>LinkedIn</span>
-        </div>
-        <div class="btn-hover-content">
-          <span>linkedin.com/in/wchongmh</span>
-        </div>
-      </a>
-    </div>
-    
-    <p class="mb-0 connect-message text-center">
-      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
-    </p>
-  </div>
-</div>
 
 <style>
   /* ===== Modern Layout Improvements ===== */
