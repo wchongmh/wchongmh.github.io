@@ -2968,15 +2968,12 @@ latest_posts:
 </body>
 </html>
 
-<!DOCTYPE html>
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Future Goals & Professional Journey</title>
-    <!-- Preload critical resources -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Bootstrap CSS -->
@@ -2997,28 +2994,23 @@ latest_posts:
             --blue: #0d6efd;
             --gold: #ffc107;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-            --shadow-md: 0 4px 6px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.08);
-            --shadow-lg: 0 10px 25px rgba(0,0,0,0.1), 0 5px 10px rgba(0,0,0,0.05);
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
-            line-height: 1.6;
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.5;
         }
         
         /* Enhanced Looking Ahead Banner */
         .looking-ahead-banner {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
             color: white;
-            padding: 2.5rem 0;
+            padding: 2rem 1rem;
             text-align: center;
             position: relative;
             overflow: hidden;
             margin-bottom: 2rem;
-            box-shadow: var(--shadow-lg);
-            will-change: transform;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
         
         .looking-ahead-content {
@@ -3026,39 +3018,31 @@ latest_posts:
             z-index: 2;
             max-width: 900px;
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 1rem;
         }
         
         .banner-title {
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            font-size: 1.8rem;
             font-weight: 700;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1rem;
             letter-spacing: 0.5px;
             flex-wrap: wrap;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            gap: 0.8rem;
         }
         
         .banner-title i {
-            margin-right: 1rem;
-            font-size: clamp(2rem, 5vw, 2.8rem);
-            animation: pulse 2s infinite ease-in-out;
-            flex: 0 0 auto;
-            margin-bottom: 0.5rem;
-            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+            font-size: 1.8rem;
+            animation: pulse 2s infinite;
         }
         
         .banner-subtitle {
-            font-size: clamp(1rem, 3vw, 1.3rem);
-            margin-bottom: 1.8rem;
-            opacity: 0.92;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
             line-height: 1.5;
-            padding: 0 1rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
         }
         
         .banner-features {
@@ -3066,7 +3050,7 @@ latest_posts:
             justify-content: center;
             flex-wrap: wrap;
             gap: 0.8rem;
-            margin-top: 2rem;
+            margin-top: 1.5rem;
         }
         
         .feature-pill {
@@ -3074,42 +3058,41 @@ latest_posts:
             backdrop-filter: blur(5px);
             border: 1px solid rgba(255,255,255,0.2);
             border-radius: 50px;
-            padding: 0.7rem 1.4rem;
-            display: inline-flex;
+            padding: 0.6rem 1rem;
+            display: flex;
             align-items: center;
             transition: var(--transition);
             font-weight: 500;
-            font-size: clamp(0.85rem, 2vw, 1rem);
-            white-space: nowrap;
-            cursor: pointer;
-            will-change: transform;
+            font-size: 0.85rem;
         }
         
         .feature-pill:hover {
             transform: translateY(-3px);
             background: rgba(255,255,255,0.25);
-            box-shadow: var(--shadow-md);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
         .feature-pill i {
-            margin-right: 0.6rem;
-            font-size: 1em;
+            margin-right: 0.5rem;
+            font-size: 0.9rem;
         }
         
-        /* Updated Progress Timeline - Works on all devices */
+        /* Updated Progress Timeline - Responsive Design */
         .progress-timeline {
             display: flex;
             position: relative;
-            margin: 2.5rem auto;
+            margin: 2rem auto;
             max-width: 800px;
             justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
         }
     
         .progress-line {
             position: absolute;
             top: 20px;
-            left: 15%;
-            right: 15%;
+            left: 50px;
+            right: 50px;
             height: 4px;
             background: rgba(255,255,255,0.3);
             z-index: 1;
@@ -3118,21 +3101,20 @@ latest_posts:
         .progress-fill {
             position: absolute;
             top: 20px;
-            left: 15%;
+            left: 50px;
             height: 4px;
             background: white;
             z-index: 2;
-            transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+            transition: width 1s ease;
         }
     
         .progress-milestone {
             position: relative;
             z-index: 3;
             text-align: center;
-            min-width: 60px;
             flex: 1;
-            opacity: 0;
-            animation: fadeIn 0.5s forwards;
+            min-width: 80px;
+            max-width: 120px;
         }
     
         .milestone-dot {
@@ -3146,28 +3128,20 @@ latest_posts:
             justify-content: center;
             margin: 0 auto 0.5rem;
             font-weight: bold;
-            box-shadow: var(--shadow-sm);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
             transition: var(--transition);
-            cursor: pointer;
-        }
-        
-        .milestone-dot.active {
-            background: var(--secondary);
-            color: white;
-            transform: scale(1.1);
-            box-shadow: 0 0 0 4px rgba(255,255,255,0.3);
         }
     
         .milestone-label {
-            font-size: clamp(0.75rem, 2vw, 0.9rem);
+            font-size: 0.85rem;
             opacity: 0.9;
-            line-height: 1.4;
-            height: 2.8em;
+            line-height: 1.3;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 0 5px;
             word-break: break-word;
+            min-height: 2.5em;
         }
 
         /* Animated background elements */
@@ -3176,10 +3150,8 @@ latest_posts:
             border-radius: 50%;
             opacity: 0.1;
             animation: float 15s infinite linear;
-            will-change: transform;
         }
         
-        /* Animations */
         @keyframes float {
             0% { transform: translateY(0) rotate(0deg); }
             50% { transform: translateY(-15px) rotate(180deg); }
@@ -3192,73 +3164,102 @@ latest_posts:
             100% { transform: scale(1); }
         }
         
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-        
         /* Responsive adjustments */
-        @media (max-width: 992px) {
-            .progress-line,
-            .progress-fill {
-                left: 12%;
-                right: 12%;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .looking-ahead-banner {
-                padding: 2rem 0;
+        @media (max-width: 767px) {
+            .progress-timeline {
+                justify-content: center;
             }
             
-            .progress-timeline {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 1.5rem;
-                margin: 2rem auto;
-            }
-        
-            .progress-milestone {
-                flex: 0 0 calc(33% - 1rem);
-                min-width: 0;
-                animation-delay: calc(var(--index) * 0.1s);
-            }
-        
-            .milestone-dot {
-                width: 36px;
-                height: 36px;
-            }
-        
-            .milestone-label {
-                height: auto;
-                min-height: 2.8em;
-            }
-        
             .progress-line,
             .progress-fill {
                 display: none;
             }
             
+            .milestone-dot {
+                width: 36px;
+                height: 36px;
+            }
+            
+            .milestone-label {
+                font-size: 0.8rem;
+            }
+            
             .feature-pill {
-                padding: 0.6rem 1.2rem;
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+            
+            .feature-pill i {
+                font-size: 0.8rem;
             }
         }
-
-        @media (max-width: 576px) {
-            .looking-ahead-content {
-                padding: 0 1rem;
+        
+        @media (min-width: 576px) {
+            .looking-ahead-banner {
+                padding: 2.5rem 1rem;
             }
             
-            .progress-milestone {
-                flex: 0 0 calc(50% - 1rem);
+            .banner-title {
+                font-size: 2rem;
             }
             
-            .banner-features {
-                gap: 0.6rem;
+            .banner-title i {
+                font-size: 2.2rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.1rem;
             }
             
             .feature-pill {
-                padding: 0.5rem 1rem;
-                font-size: 0.8rem;
+                padding: 0.7rem 1.2rem;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .looking-ahead-banner {
+                padding: 3rem 1rem;
+            }
+            
+            .banner-title {
+                font-size: 2.5rem;
+                gap: 1rem;
+            }
+            
+            .banner-title i {
+                font-size: 2.8rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.2rem;
+                padding: 0 2rem;
+            }
+            
+            .progress-timeline {
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                gap: 0;
+            }
+            
+            .progress-line,
+            .progress-fill {
+                display: block;
+            }
+            
+            .feature-pill {
+                padding: 0.8rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .banner-title {
+                font-size: 2.8rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.3rem;
             }
         }
     </style>
@@ -3283,23 +3284,23 @@ latest_posts:
                 <div class="progress-line"></div>
                 <div class="progress-fill" style="width: 40%;"></div>
                 
-                <div class="progress-milestone active" style="--index: 0; opacity: 1;">
+                <div class="progress-milestone active">
                     <div class="milestone-dot active">1</div>
                     <div class="milestone-label">Education</div>
                 </div>
-                <div class="progress-milestone active" style="--index: 1; opacity: 1;">
+                <div class="progress-milestone active">
                     <div class="milestone-dot active">2</div>
                     <div class="milestone-label">Graduate Scheme</div>
                 </div>
-                <div class="progress-milestone" style="--index: 2;">
+                <div class="progress-milestone">
                     <div class="milestone-dot">3</div>
                     <div class="milestone-label">Chartered Status</div>
                 </div>
-                <div class="progress-milestone" style="--index: 3;">
+                <div class="progress-milestone">
                     <div class="milestone-dot">4</div>
                     <div class="milestone-label">Specialization</div>
                 </div>
-                <div class="progress-milestone" style="--index: 4;">
+                <div class="progress-milestone">
                     <div class="milestone-dot">5</div>
                     <div class="milestone-label">Leadership</div>
                 </div>
@@ -3334,39 +3335,54 @@ latest_posts:
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     <script>
-        // Optimized animation for the progress timeline
+        // Simple animation for the progress timeline
         document.addEventListener('DOMContentLoaded', function() {
             const milestones = document.querySelectorAll('.progress-milestone');
-            const fill = document.querySelector('.progress-fill');
             
-            // Animate milestones with staggered delay
+            // Set initial opacity to 0 for animation
+            milestones.forEach(milestone => {
+                milestone.style.opacity = '0';
+            });
+            
             milestones.forEach((milestone, index) => {
-                // Set CSS custom property for animation delay
-                milestone.style.setProperty('--index', index);
+                // Add delay for each milestone animation
+                setTimeout(() => {
+                    milestone.style.opacity = '1';
+                    milestone.style.transition = 'opacity 0.5s ease';
+                }, index * 200);
                 
                 // Click handler for interactive timeline
                 milestone.addEventListener('click', function() {
-                    // Update active state
                     document.querySelectorAll('.milestone-dot').forEach(dot => {
                         dot.classList.remove('active');
                     });
                     this.querySelector('.milestone-dot').classList.add('active');
                     
-                    // Calculate progress percentage
-                    const activeIndex = Array.from(milestones).indexOf(this);
-                    const progressPercent = (activeIndex / (milestones.length - 1)) * 100;
-                    
-                    // Smoothly animate progress fill
-                    fill.style.width = `${progressPercent}%`;
+                    // Update progress fill width
+                    const fill = document.querySelector('.progress-fill');
+                    if (fill) {
+                        fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
+                    }
                 });
             });
             
-            // Trigger animations
-            setTimeout(() => {
-                document.querySelectorAll('.progress-milestone').forEach(el => {
-                    el.style.animation = `fadeIn 0.5s forwards calc(var(--index) * 0.1s)`;
-                });
-            }, 100);
+            // Handle window resize for better mobile experience
+            function handleResize() {
+                const timeline = document.querySelector('.progress-timeline');
+                if (window.innerWidth < 768) {
+                    timeline.style.flexWrap = 'wrap';
+                    timeline.style.justifyContent = 'center';
+                } else {
+                    timeline.style.flexWrap = 'nowrap';
+                    timeline.style.justifyContent = 'space-between';
+                }
+            }
+            
+            // Initial call
+            handleResize();
+            
+            // Add event listener
+            window.addEventListener('resize', handleResize);
         });
     </script>
 </body>
