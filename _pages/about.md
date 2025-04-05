@@ -2198,18 +2198,20 @@ latest_posts:
 
   <!-- Neurodiversity Card (unchanged) -->
   <div class="neurodiversity-card card border-0 mb-4 hover-grow">
-    <div class="card-body p-4 rounded-3">
-      <div class="d-flex align-items-center">
-        <div class="neuro-icon me-3 pulse rounded-circle p-3 bg-primary bg-opacity-10 text-primary">
-          <i class="fas fa-brain"></i>
-        </div>
-        <div>
-          <h4 class="card-title mb-2">Neurodiversity Advantage</h4>
-          <p class="card-text mb-0 text-muted">Transforming dyslexia & ADHD into innovative problem-solving strengths and creative engineering solutions</p>
-        </div>
+  <div class="card-body p-4 rounded-3">
+    <div class="d-flex align-items-center">
+      <div class="neuro-icon me-3 pulse rounded-circle p-3 bg-primary bg-opacity-10 text-primary">
+        <i class="fas fa-brain"></i>
+      </div>
+      <div>
+        <h4 class="card-title mb-2">Neurodiverse Thinking</h4>
+        <p class="card-text mb-0 text-muted">
+          Harnessing dyslexic and ADHD cognitive patterns for <strong>creative problem-solving</strong> and <strong>innovative engineering approaches</strong>.
+        </p>
       </div>
     </div>
   </div>
+</div>
 
   <!-- Closing Statement (unchanged) -->
   <div class="closing-statement p-4 p-lg-5 rounded-4 bg-light-gradient position-relative overflow-hidden">
