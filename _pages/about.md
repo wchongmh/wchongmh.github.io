@@ -2581,71 +2581,110 @@ latest_posts:
             font-size: 1rem;
         }
         
-        /* Progress Timeline */
+        /* Updated Progress Timeline - Works on all devices */
         .progress-timeline {
             display: flex;
-            justify-content: space-between;
             position: relative;
-            margin: 2rem auto;
+            margin: 2.5rem auto;
             max-width: 800px;
-            flex-wrap: wrap;
-        }
-        
+            justify-content: space-between;
+         }
+    
         .progress-line {
             position: absolute;
-            top: 15px;
-            left: 10%;
-            right: 10%;
+            top: 20px;
+            left: 50px;
+            right: 50px;
             height: 4px;
             background: rgba(255,255,255,0.3);
             z-index: 1;
         }
-        
+    
         .progress-fill {
             position: absolute;
-            top: 15px;
-            left: 10%;
+            top: 20px;
+            left: 50px;
             height: 4px;
             background: white;
             z-index: 2;
             transition: width 1s ease;
-        }
+       }
+    
+       .progress-milestone {
+           position: relative;
+           z-index: 3;
+           text-align: center;
+           min-width: 60px;
+           flex: 1;
+       }
+    
+       .milestone-dot {
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+           background: white;
+           color: var(--primary);
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin: 0 auto 0.5rem;
+           font-weight: bold;
+           box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+           transition: var(--transition);
+       }
+    
+       .milestone-label {
+           font-size: 0.85rem;
+           opacity: 0.9;
+           line-height: 1.3;
+           height: 2.5em;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           padding: 0 5px;
+           word-break: break-word;
+       }
+
+       /* Mobile-specific fixes */
+       @media (max-width: 768px) {
+           .progress-timeline {
+               flex-wrap: wrap;
+               justify-content: center;
+               gap: 1.5rem;
+               margin: 2rem auto;
+           }
         
-        .progress-milestone {
-            position: relative;
-            z-index: 3;
-            text-align: center;
-            width: 20%;
-            min-width: 60px;
-            margin-bottom: 1rem;
-        }
+           .progress-milestone {
+               flex: 0 0 calc(33% - 1rem);
+               min-width: 0;
+           }
         
-        .milestone-dot {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background: white;
-            color: var(--primary);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 0.5rem;
-            font-weight: bold;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-            transition: var(--transition);
-            font-size: 0.9rem;
-        }
+           .milestone-dot {
+               width: 36px;
+               height: 36px;
+           }
         
-        .milestone-dot.active {
-            transform: scale(1.15);
-            background: var(--secondary);
-            color: white;
-        }
+           .milestone-label {
+               font-size: 0.8rem;
+               height: auto;
+               min-height: 2.5em;
+           }
         
-        .milestone-label {
-            font-size: 0.8rem;
-            opacity: 0.9;
-            line-height: 1.2;
+           .progress-line,
+           .progress-fill {
+               display: none;
+           }
+       }
+
+       @media (max-width: 576px) {
+           .progress-milestone {
+               flex: 0 0 calc(50% - 1rem);
+           }
+        
+           .milestone-label {
+               font-size: 0.75rem;
+               padding: 0 2px;
+           }
         }
         
         /* Animated background elements */
@@ -2876,7 +2915,7 @@ latest_posts:
 </body>
 </html>
 
-<!-- DOCTYPE html -->
+<!-- DOCTYPE html --><!--Future Goals & Professional Journey-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
