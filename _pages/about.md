@@ -1781,29 +1781,29 @@ latest_posts:
 <div class="leadership-section mb-5">
   <div class="section-header text-center mb-5">
     <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600; font-size: 2rem;">
-      <i class="fas fa-users-cog me-3 text-primary" style="filter: drop-shadow(0 2px 4px rgba(13, 110, 253, 0.3));"></i>
+      <i class="fas fa-users-cog me-3" style="color: #0d6efd; filter: drop-shadow(0 2px 4px rgba(13, 110, 253, 0.3));"></i>
       Leadership & Advocacy
     </h2>
   </div>
   
-<div class="intro-text mb-5 p-4 rounded-4 border-start border-primary border-5" style="background-color: rgba(248, 249, 250, 0.8);">
-  <p class="mb-0 fs-5">
-    Beyond technical expertise, my <strong class="text-gradient-primary">leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
-  </p>
-</div>
+  <div class="intro-text mb-5 p-4 rounded-4 border-start border-primary border-5" style="background-color: rgba(248, 249, 250, 0.9);">
+    <p class="mb-0 fs-5">
+      Beyond technical expertise, my <strong class="text-gradient-primary">leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
+    </p>
+  </div>
 
   <!-- Leadership Cards -->
   <div class="row g-4">
     <!-- Chairman Card -->
     <div class="col-lg-6">
       <div class="card leadership-card h-100 border-0 shadow-sm hover-shadow-lg transition-all">
-        <div class="card-header bg-primary bg-gradient text-white d-flex justify-content-between align-items-center py-3">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #0d6efd, #0b5ed7); color: white;">
           <h4 class="mb-0 fw-semibold">
             <a href="/assets/pdf/leadership/chairman.pdf" target="_blank" class="text-white text-decoration-none hover-text-white-80">
               <i class="fas fa-chair me-2"></i>Chairman
             </a>
           </h4>
-          <span class="badge bg-white text-primary rounded-pill px-3 py-2">2021-2022</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: white; color: #0d6efd;">2021-2022</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">IVE Morrison Hill Engineering Society</h5>
@@ -1833,13 +1833,13 @@ latest_posts:
     <!-- ASHRAE Card -->
     <div class="col-lg-6">
       <div class="card leadership-card h-100 border-0 shadow-sm hover-shadow-lg transition-all">
-        <div class="card-header bg-info bg-gradient text-white d-flex justify-content-between align-items-center py-3">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #0dcaf0, #0aa2c0); color: white;">
           <h4 class="mb-0 fw-semibold">
             <a href="/assets/pdf/leadership/ashrae.pdf" target="_blank" class="text-white text-decoration-none hover-text-white-80">
               <i class="fas fa-user-tie me-2"></i>External Vice President
             </a>
           </h4>
-          <span class="badge bg-white text-info rounded-pill px-3 py-2">2020-2022</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: white; color: #0aa2c0;">2020-2022</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">ASHRAE IVE Student Branch</h5>
@@ -1862,16 +1862,16 @@ latest_posts:
       </div>
     </div>
 
-    <!-- HKIE Card - Fixed Version -->
+    <!-- HKIE Card -->
     <div class="col-lg-6">
       <div class="card leadership-card h-100 border-0 shadow-sm hover-shadow-lg transition-all">
-        <div class="card-header bg-warning bg-gradient text-white d-flex justify-content-between align-items-center py-3">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #ffc107, #e6a800); color: white;">
           <h4 class="mb-0 fw-semibold">
             <a href="/assets/pdf/leadership/hkie.pdf" target="_blank" class="text-white text-decoration-none hover-text-white-80">
               <i class="fas fa-users me-2"></i>Committee Member
             </a>
           </h4>
-          <span class="badge bg-dark text-warning rounded-pill px-3 py-2">2021-2022</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: #212529; color: #ffc107;">2021-2022</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">HKIE BSE Student Liaison Group</h5>
@@ -1893,13 +1893,13 @@ latest_posts:
     <!-- Finance Card -->
     <div class="col-lg-6">
       <div class="card leadership-card h-100 border-0 shadow-sm hover-shadow-lg transition-all">
-        <div class="card-header bg-success bg-gradient text-white d-flex justify-content-between align-items-center py-3">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center" style="background: linear-gradient(135deg, #198754, #157347); color: white;">
           <h4 class="mb-0 fw-semibold">
             <a href="/assets/pdf/leadership/finance.pdf" target="_blank" class="text-white text-decoration-none hover-text-white-80">
               <i class="fas fa-coins me-2"></i>President of Finance Committee
             </a>
           </h4>
-          <span class="badge bg-white text-success rounded-pill px-3 py-2">2020-2021</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: white; color: #198754;">2020-2021</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">48th Students' Union Council</h5>
@@ -1936,12 +1936,6 @@ latest_posts:
     opacity: 1;
   }
   
-  .text-globe {
-    font-size: 1.5rem;
-    vertical-align: middle;
-    margin-left: 0.5rem;
-  }
-  
   .text-gradient-primary {
     background: linear-gradient(45deg, #0d6efd, #20c997);
     -webkit-background-clip: text;
@@ -1954,16 +1948,13 @@ latest_posts:
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid rgba(0,0,0,0.05);
+    background-color: #ffffff !important;
   }
   
   .leadership-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15) !important;
     border-color: rgba(0,0,0,0.1);
-  }
-  
-  .hover-shadow-lg {
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   }
   
   .transition-all {
@@ -1987,40 +1978,33 @@ latest_posts:
     opacity: 0.8;
   }
   
-  .hover-text-dark-80:hover {
-    opacity: 0.8;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 992px) {
-    .intro-text {
-      padding: 1.5rem !important;
-    }
-    
-    .card-body, .card-footer {
-      padding: 1rem !important;
-    }
-  }
-  
   /* Button Enhancements */
   .btn-outline-primary {
     border-width: 2px;
     transition: all 0.3s ease;
+    color: #0d6efd;
+    border-color: #0d6efd;
   }
   
   .btn-outline-info {
     border-width: 2px;
     transition: all 0.3s ease;
+    color: #0aa2c0;
+    border-color: #0aa2c0;
   }
   
   .btn-outline-warning {
     border-width: 2px;
     transition: all 0.3s ease;
+    color: #e6a800;
+    border-color: #e6a800;
   }
   
   .btn-outline-success {
     border-width: 2px;
     transition: all 0.3s ease;
+    color: #157347;
+    border-color: #157347;
   }
   
   .btn:hover {
@@ -2031,32 +2015,42 @@ latest_posts:
     border-radius: 1rem !important;
   }
 
+  /* Responsive Adjustments */
   @media (max-width: 992px) {
-  .intro-text {
-    background-color: rgba(248, 249, 250, 0.8) !important;
-  }
+    .intro-text {
+      padding: 1.5rem !important;
+      background-color: rgba(248, 249, 250, 0.95) !important;
+    }
+    
+    .card-body, .card-footer {
+      padding: 1rem !important;
+    }
+    
+    .leadership-card {
+      border: 1px solid rgba(0,0,0,0.08) !important;
+    }
 
     /* Add to your existing styles */
-.leadership-card {
-  background-color: #ffffff !important; /* Ensures consistent white background */
-  border: 1px solid rgba(0,0,0,0.05) !important;
-}
+    .leadership-card {
+      background-color: #ffffff !important; /* Ensures consistent white background */
+      border: 1px solid rgba(0,0,0,0.05) !important;
+    }
 
-.leadership-card:hover {
-  background-color: #ffffff !important; /* Maintain white on hover */
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15) !important;
-}
+    .leadership-card:hover {
+      background-color: #ffffff !important; /* Maintain white on hover */
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15) !important;
+    }
 
-/* Mobile-specific background adjustments */
-@media (max-width: 768px) {
-  .intro-text {
-    background-color: rgba(248, 249, 250, 0.95) !important; /* Slightly more opaque on mobile */
-  }
+    /* Mobile-specific background adjustments */
+    @media (max-width: 768px) {
+      .intro-text {
+        background-color: rgba(248, 249, 250, 0.95) !important; /* Slightly more opaque on mobile */
+    }
   
-  .leadership-card {
-    border: 1px solid rgba(0,0,0,0.08) !important; /* Slightly more visible border on mobile */
+    .leadership-card {
+      border: 1px solid rgba(0,0,0,0.08) !important; /* Slightly more visible border on mobile */
+    }
   }
-}
 </style>
 
 <style>
