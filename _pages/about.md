@@ -1160,7 +1160,7 @@ latest_posts:
   }
 </style>
 
-<!-- ========== Next Section: Industry Experience Section ========== -->
+<!-- ========== Next Section: 🏗️ Industry Experience Section ========== -->
 
 <!-- 🏗️ Industry Experience Section -->
 <div class="industry-experience-section mb-5">
@@ -1981,6 +1981,7 @@ latest_posts:
 </style>
 
 <!-- ========== Next Section: 🔧 Technical Skills Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- 🔧 Technical Skills Section -->
 <div class="technical-skills-section mb-5">
