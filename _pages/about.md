@@ -2033,13 +2033,16 @@ latest_posts:
 
 <!-- Leadership & Advocacy Section -->
 <div class="leadership-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h2 class="mb-0"><i class="fas fa-users-cog me-3 text-primary"></i>Leadership & Advocacy <span class="text-globe">🌍</span></h2>
+  <div class="section-header text-center mb-5">
+    <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600; font-size: 2rem;">
+      <i class="fas fa-users-cog me-3 text-primary" style="filter: drop-shadow(0 2px 4px rgba(13, 110, 253, 0.3));"></i>
+      Leadership & Advocacy
+    </h2>
   </div>
   
-  <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded-3 border-start border-4 border-primary">
-    <p class="mb-0 lead">
-      Beyond technical expertise, my <strong>leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
+  <div class="intro-text mb-5 p-4 bg-light bg-opacity-10 rounded-4 border-start border-primary border-5">
+    <p class="mb-0 fs-5">
+      Beyond technical expertise, my <strong class="text-gradient-primary">leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
     </p>
   </div>
 
