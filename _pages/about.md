@@ -1174,20 +1174,20 @@ latest_posts:
     </h3>
   </div>
 
-  <!-- Experience Card with Improved Layout -->
-  <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
-    <!-- Card Header with Better Hierarchy -->
-    <div class="card-header bg-warning text-dark py-3 position-relative">
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
-        <div class="flex-grow-1">
-          <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
-          <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-dark opacity-75">(Hong Kong)</small></h5>
-        </div>
-        <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
-          <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022
-        </span>
+ <!-- Experience Card with Improved Layout -->
+<div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
+  <!-- Card Header with Better Hierarchy - Updated background color -->
+  <div class="card-header bg-warning bg-opacity-10 text-dark py-3 position-relative border-bottom border-warning border-opacity-25">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
+      <div class="flex-grow-1">
+        <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
+        <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-dark opacity-75">(Hong Kong)</small></h5>
       </div>
+      <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
+        <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022
+      </span>
     </div>
+  </div>
     
     <!-- Card Body with Refined Spacing -->
     <div class="card-body px-4 py-4">
@@ -2197,32 +2197,7 @@ latest_posts:
   </div>
 
   <!-- Neurodiversity Card (unchanged) -->
-  <div class="neurodiversity-card card border-0 mb-4 hover-grow">
-  <div class="card-body p-4 rounded-3">
-    <div class="d-flex align-items-center">
-      <div class="neuro-icon me-3 pulse rounded-circle p-3 bg-primary bg-opacity-10 text-primary">
-        <i class="fas fa-brain"></i>
-      </div>
-      <div>
-        <h4 class="card-title mb-2">Neurodiverse Thinking</h4>
-        <p class="card-text mb-0 text-muted">
-          Harnessing dyslexic and ADHD cognitive patterns for <strong>creative problem-solving</strong> and <strong>innovative engineering approaches</strong>.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <!-- Closing Statement (unchanged) -->
-  <div class="closing-statement p-4 p-lg-5 rounded-4 bg-light-gradient position-relative overflow-hidden">
-    <div class="position-absolute top-0 start-0 h-100 w-4 bg-success"></div>
-    <div class="ps-4">
-      <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
-      <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
-    </div>
-  </div>
-</div>
-
+  
 <style>
   /* ===== Optimized Color Scheme ===== */
   :root {
