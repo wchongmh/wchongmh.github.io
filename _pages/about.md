@@ -1176,15 +1176,15 @@ latest_posts:
 
  <!-- Experience Card with Improved Layout -->
 <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
-  <!-- Card Header with Better Hierarchy - Updated background color -->
-  <div class="card-header bg-warning bg-opacity-10 text-dark py-3 position-relative border-bottom border-warning border-opacity-25">
+  <!-- Card Header with corrected background color -->
+  <div class="card-header bg-opacity-10 py-3 position-relative" style="background-color: rgba(255, 193, 7, 0.1); border-bottom: 1px solid rgba(255, 193, 7, 0.25);">
     <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
       <div class="flex-grow-1">
         <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
         <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-dark opacity-75">(Hong Kong)</small></h5>
       </div>
       <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
-        <i class="fas fa-calendar-alt me-2 text-warning"></i> Jan &ndash; Apr 2022
+        <i class="fas fa-calendar-alt me-2" style="color: #ffc107;"></i> Jan &ndash; Apr 2022
       </span>
     </div>
   </div>
@@ -1281,6 +1281,10 @@ latest_posts:
   }
   .card-header.bg-warning {
     background-color: #ffc107 !important;
+  }
+  .card-header {
+  background-color: rgba(255, 193, 7, 0.1) !important;
+  border-bottom: 1px solid rgba(255, 193, 7, 0.25) !important;
   }
   .contribution-badge {
     display: inline-flex;
@@ -2910,6 +2914,410 @@ latest_posts:
                     fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
                 });
             });
+        });
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Goals & Professional Journey</title>
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4e73df;
+            --primary-dark: #224abe;
+            --secondary: #1cc88a;
+            --secondary-dark: #13855c;
+            --info: #36b9cc;
+            --info-dark: #258391;
+            --purple: #6f42c1;
+            --teal: #20c997;
+            --indigo: #6610f2;
+            --orange: #fd7e14;
+            --pink: #d63384;
+            --blue: #0d6efd;
+            --gold: #ffc107;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.1), 0 5px 10px rgba(0,0,0,0.05);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Enhanced Looking Ahead Banner */
+        .looking-ahead-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2.5rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-lg);
+            will-change: transform;
+        }
+        
+        .looking-ahead-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .banner-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+            letter-spacing: 0.5px;
+            flex-wrap: wrap;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .banner-title i {
+            margin-right: 1rem;
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            animation: pulse 2s infinite ease-in-out;
+            flex: 0 0 auto;
+            margin-bottom: 0.5rem;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+        }
+        
+        .banner-subtitle {
+            font-size: clamp(1rem, 3vw, 1.3rem);
+            margin-bottom: 1.8rem;
+            opacity: 0.92;
+            line-height: 1.5;
+            padding: 0 1rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .banner-features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-pill {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            padding: 0.7rem 1.4rem;
+            display: inline-flex;
+            align-items: center;
+            transition: var(--transition);
+            font-weight: 500;
+            font-size: clamp(0.85rem, 2vw, 1rem);
+            white-space: nowrap;
+            cursor: pointer;
+            will-change: transform;
+        }
+        
+        .feature-pill:hover {
+            transform: translateY(-3px);
+            background: rgba(255,255,255,0.25);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .feature-pill i {
+            margin-right: 0.6rem;
+            font-size: 1em;
+        }
+        
+        /* Updated Progress Timeline - Works on all devices */
+        .progress-timeline {
+            display: flex;
+            position: relative;
+            margin: 2.5rem auto;
+            max-width: 800px;
+            justify-content: space-between;
+        }
+    
+        .progress-line {
+            position: absolute;
+            top: 20px;
+            left: 15%;
+            right: 15%;
+            height: 4px;
+            background: rgba(255,255,255,0.3);
+            z-index: 1;
+        }
+    
+        .progress-fill {
+            position: absolute;
+            top: 20px;
+            left: 15%;
+            height: 4px;
+            background: white;
+            z-index: 2;
+            transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+        }
+    
+        .progress-milestone {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            min-width: 60px;
+            flex: 1;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+        }
+    
+        .milestone-dot {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.5rem;
+            font-weight: bold;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        
+        .milestone-dot.active {
+            background: var(--secondary);
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 0 0 4px rgba(255,255,255,0.3);
+        }
+    
+        .milestone-label {
+            font-size: clamp(0.75rem, 2vw, 0.9rem);
+            opacity: 0.9;
+            line-height: 1.4;
+            height: 2.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 5px;
+            word-break: break-word;
+        }
+
+        /* Animated background elements */
+        .banner-bg-element {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            animation: float 15s infinite linear;
+            will-change: transform;
+        }
+        
+        /* Animations */
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .progress-line,
+            .progress-fill {
+                left: 12%;
+                right: 12%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .looking-ahead-banner {
+                padding: 2rem 0;
+            }
+            
+            .progress-timeline {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+                margin: 2rem auto;
+            }
+        
+            .progress-milestone {
+                flex: 0 0 calc(33% - 1rem);
+                min-width: 0;
+                animation-delay: calc(var(--index) * 0.1s);
+            }
+        
+            .milestone-dot {
+                width: 36px;
+                height: 36px;
+            }
+        
+            .milestone-label {
+                height: auto;
+                min-height: 2.8em;
+            }
+        
+            .progress-line,
+            .progress-fill {
+                display: none;
+            }
+            
+            .feature-pill {
+                padding: 0.6rem 1.2rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .looking-ahead-content {
+                padding: 0 1rem;
+            }
+            
+            .progress-milestone {
+                flex: 0 0 calc(50% - 1rem);
+            }
+            
+            .banner-features {
+                gap: 0.6rem;
+            }
+            
+            .feature-pill {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Enhanced Looking Ahead Banner -->
+    <div class="looking-ahead-banner">
+        <!-- Animated background elements -->
+        <div class="banner-bg-element" style="width: 150px; height: 150px; background: white; top: -50px; left: -50px; animation-delay: 0s;"></div>
+        <div class="banner-bg-element" style="width: 120px; height: 120px; background: var(--secondary); bottom: -30px; right: 30px; animation-delay: 2s;"></div>
+        <div class="banner-bg-element" style="width: 80px; height: 80px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
+        
+        <div class="looking-ahead-content">
+            <div class="banner-title">
+                <i class="fas fa-binoculars"></i>
+                <span>LOOKING AHEAD</span>
+            </div>
+            <p class="banner-subtitle">Charting the course for professional excellence and innovation in building services engineering</p>
+            
+            <!-- Progress Timeline -->
+            <div class="progress-timeline">
+                <div class="progress-line"></div>
+                <div class="progress-fill" style="width: 40%;"></div>
+                
+                <div class="progress-milestone active" style="--index: 0; opacity: 1;">
+                    <div class="milestone-dot active">1</div>
+                    <div class="milestone-label">Education</div>
+                </div>
+                <div class="progress-milestone active" style="--index: 1; opacity: 1;">
+                    <div class="milestone-dot active">2</div>
+                    <div class="milestone-label">Graduate Scheme</div>
+                </div>
+                <div class="progress-milestone" style="--index: 2;">
+                    <div class="milestone-dot">3</div>
+                    <div class="milestone-label">Chartered Status</div>
+                </div>
+                <div class="progress-milestone" style="--index: 3;">
+                    <div class="milestone-dot">4</div>
+                    <div class="milestone-label">Specialization</div>
+                </div>
+                <div class="progress-milestone" style="--index: 4;">
+                    <div class="milestone-dot">5</div>
+                    <div class="milestone-label">Leadership</div>
+                </div>
+            </div>
+            
+            <div class="banner-features">
+                <div class="feature-pill">
+                    <i class="fas fa-rocket"></i>
+                    <span>Career Growth</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Innovation</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-leaf"></i>
+                    <span>Sustainability</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-cogs"></i>
+                    <span>Technology</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-globe"></i>
+                    <span>Global Impact</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Optimized animation for the progress timeline
+        document.addEventListener('DOMContentLoaded', function() {
+            const milestones = document.querySelectorAll('.progress-milestone');
+            const fill = document.querySelector('.progress-fill');
+            
+            // Animate milestones with staggered delay
+            milestones.forEach((milestone, index) => {
+                // Set CSS custom property for animation delay
+                milestone.style.setProperty('--index', index);
+                
+                // Click handler for interactive timeline
+                milestone.addEventListener('click', function() {
+                    // Update active state
+                    document.querySelectorAll('.milestone-dot').forEach(dot => {
+                        dot.classList.remove('active');
+                    });
+                    this.querySelector('.milestone-dot').classList.add('active');
+                    
+                    // Calculate progress percentage
+                    const activeIndex = Array.from(milestones).indexOf(this);
+                    const progressPercent = (activeIndex / (milestones.length - 1)) * 100;
+                    
+                    // Smoothly animate progress fill
+                    fill.style.width = `${progressPercent}%`;
+                });
+            });
+            
+            // Trigger animations
+            setTimeout(() => {
+                document.querySelectorAll('.progress-milestone').forEach(el => {
+                    el.style.animation = `fadeIn 0.5s forwards calc(var(--index) * 0.1s)`;
+                });
+            }, 100);
         });
     </script>
 </body>
