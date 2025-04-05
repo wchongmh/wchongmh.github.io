@@ -2384,11 +2384,11 @@ latest_posts:
         .looking-ahead-banner {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
             color: white;
-            padding: 3rem 0;
+            padding: 2rem 0;
             text-align: center;
             position: relative;
             overflow: hidden;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
         
@@ -2397,38 +2397,42 @@ latest_posts:
             z-index: 2;
             max-width: 900px;
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 1rem;
         }
         
         .banner-title {
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            letter-spacing: 1.5px;
+            letter-spacing: 1px;
+            flex-wrap: wrap;
         }
         
         .banner-title i {
-            margin-right: 1.2rem;
-            font-size: 2.8rem;
+            margin-right: 1rem;
+            font-size: 2.2rem;
             animation: pulse 2s infinite;
+            flex: 0 0 100%;
+            margin-bottom: 0.5rem;
         }
         
         .banner-subtitle {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             margin-bottom: 1.5rem;
             opacity: 0.9;
             line-height: 1.5;
+            padding: 0 0.5rem;
         }
         
         .banner-features {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 1.5rem;
-            margin-top: 2rem;
+            gap: 0.8rem;
+            margin-top: 1.5rem;
         }
         
         .feature-pill {
@@ -2436,22 +2440,24 @@ latest_posts:
             backdrop-filter: blur(5px);
             border: 1px solid rgba(255,255,255,0.2);
             border-radius: 50px;
-            padding: 0.8rem 1.8rem;
+            padding: 0.6rem 1.2rem;
             display: flex;
             align-items: center;
             transition: var(--transition);
             font-weight: 500;
+            font-size: 0.85rem;
+            white-space: nowrap;
         }
         
         .feature-pill:hover {
-            transform: translateY(-5px);
+            transform: translateY(-3px);
             background: rgba(255,255,255,0.25);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
         .feature-pill i {
-            margin-right: 0.7rem;
-            font-size: 1.2rem;
+            margin-right: 0.5rem;
+            font-size: 1rem;
         }
         
         /* Progress Timeline */
@@ -2459,15 +2465,16 @@ latest_posts:
             display: flex;
             justify-content: space-between;
             position: relative;
-            margin: 2.5rem auto;
+            margin: 2rem auto;
             max-width: 800px;
+            flex-wrap: wrap;
         }
         
         .progress-line {
             position: absolute;
             top: 15px;
-            left: 0;
-            right: 0;
+            left: 10%;
+            right: 10%;
             height: 4px;
             background: rgba(255,255,255,0.3);
             z-index: 1;
@@ -2476,7 +2483,7 @@ latest_posts:
         .progress-fill {
             position: absolute;
             top: 15px;
-            left: 0;
+            left: 10%;
             height: 4px;
             background: white;
             z-index: 2;
@@ -2488,11 +2495,13 @@ latest_posts:
             z-index: 3;
             text-align: center;
             width: 20%;
+            min-width: 60px;
+            margin-bottom: 1rem;
         }
         
         .milestone-dot {
-            width: 34px;
-            height: 34px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             background: white;
             color: var(--primary);
@@ -2501,19 +2510,21 @@ latest_posts:
             justify-content: center;
             margin: 0 auto 0.5rem;
             font-weight: bold;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
             transition: var(--transition);
+            font-size: 0.9rem;
         }
         
         .milestone-dot.active {
-            transform: scale(1.2);
+            transform: scale(1.15);
             background: var(--secondary);
             color: white;
         }
         
         .milestone-label {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             opacity: 0.9;
+            line-height: 1.2;
         }
         
         /* Animated background elements */
@@ -2526,7 +2537,7 @@ latest_posts:
         
         @keyframes float {
             0% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(180deg); }
+            50% { transform: translateY(-15px) rotate(180deg); }
             100% { transform: translateY(0) rotate(360deg); }
         }
         
@@ -2536,80 +2547,70 @@ latest_posts:
             100% { transform: scale(1); }
         }
         
-        /* Rest of your existing styles... */
-        /* Modified Net-Zero badge color to gold */
-        .sector-badge.bg-gold {
-            background-color: rgba(255, 193, 7, 0.15) !important;
-            color: var(--gold) !important;
-            border: 1px solid rgba(255, 193, 7, 0.3) !important;
-        }
-        
         /* Responsive adjustments */
-        @media (max-width: 992px) {
-            .banner-title {
-                font-size: 2rem;
+        @media (min-width: 576px) {
+            .looking-ahead-banner {
+                padding: 2.5rem 0;
             }
             
-            .banner-subtitle {
-                font-size: 1.1rem;
-            }
-            
-            .progress-timeline {
-                margin: 2rem auto;
-            }
-        }
-        
-        @media (max-width: 768px) {
             .banner-title {
-                font-size: 1.8rem;
-                flex-direction: column;
+                font-size: 2.2rem;
+                flex-direction: row;
             }
             
             .banner-title i {
-                margin-right: 0;
-                margin-bottom: 0.8rem;
+                flex: 0 0 auto;
+                margin-bottom: 0;
             }
             
             .banner-subtitle {
-                font-size: 1rem;
-            }
-            
-            .banner-features {
-                gap: 1rem;
+                font-size: 1.2rem;
             }
             
             .feature-pill {
-                padding: 0.6rem 1.2rem;
+                padding: 0.7rem 1.5rem;
                 font-size: 0.9rem;
-            }
-            
-            .progress-milestone {
-                width: 25%;
             }
         }
         
-        @media (max-width: 576px) {
+        @media (min-width: 768px) {
             .looking-ahead-banner {
-                padding: 2rem 0;
+                padding: 3rem 0;
             }
             
             .banner-title {
-                font-size: 1.6rem;
+                font-size: 2.5rem;
+            }
+            
+            .banner-title i {
+                font-size: 2.8rem;
+                margin-right: 1.2rem;
+            }
+            
+            .banner-subtitle {
+                font-size: 1.3rem;
+            }
+            
+            .banner-features {
+                gap: 1.2rem;
+            }
+            
+            .feature-pill {
+                padding: 0.8rem 1.8rem;
+                font-size: 1rem;
             }
             
             .progress-timeline {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 1.5rem;
+                flex-wrap: nowrap;
             }
             
-            .progress-milestone {
-                width: 40%;
+            .milestone-dot {
+                width: 34px;
+                height: 34px;
             }
             
-            .progress-line,
-            .progress-fill {
-                display: none;
+            .milestone-label {
+                font-size: 0.9rem;
             }
         }
     </style>
@@ -2618,9 +2619,9 @@ latest_posts:
     <!-- Enhanced Looking Ahead Banner -->
     <div class="looking-ahead-banner">
         <!-- Animated background elements -->
-        <div class="banner-bg-element" style="width: 200px; height: 200px; background: white; top: -50px; left: -50px; animation-delay: 0s;"></div>
-        <div class="banner-bg-element" style="width: 150px; height: 150px; background: var(--secondary); bottom: -30px; right: 50px; animation-delay: 2s;"></div>
-        <div class="banner-bg-element" style="width: 100px; height: 100px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
+        <div class="banner-bg-element" style="width: 150px; height: 150px; background: white; top: -50px; left: -50px; animation-delay: 0s;"></div>
+        <div class="banner-bg-element" style="width: 120px; height: 120px; background: var(--secondary); bottom: -30px; right: 30px; animation-delay: 2s;"></div>
+        <div class="banner-bg-element" style="width: 80px; height: 80px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
         
         <div class="looking-ahead-content">
             <div class="banner-title">
@@ -2704,7 +2705,7 @@ latest_posts:
                     
                     // Update progress fill width
                     const fill = document.querySelector('.progress-fill');
-                    fill.style.width = `${(index / (milestones.length - 1)) * 100}%`;
+                    fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
                 });
             });
         });
