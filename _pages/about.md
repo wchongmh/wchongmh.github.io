@@ -1023,7 +1023,7 @@ latest_posts:
 <section class="research-section mb-5">
   <div class="section-header text-center mb-5">
     <div class="research-highlights mt-4 mb-5">
-      <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">
+      <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600; font-size: 2rem;">
         📖 Research Highlights
       </h2>
       <p class="lead text-muted mx-auto" style="max-width: 700px;">
@@ -1162,15 +1162,14 @@ latest_posts:
 
 <!-- ========== Next Section: Industry Experience Section ========== -->
 
-<!-- 🏗️ Optimized Industry Experience Section -->
+<!-- 🏗️ Industry Experience Section -->
 <div class="industry-experience-section mb-5">
   <!-- Enhanced Section Header -->
-  <div class="section-header mb-4">
-    <h3 class="display-6 fw-bold mb-0 position-relative ps-4 text-dark">
+  <div class="section-header text-center mb-5">
+    <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600; font-size: 2rem;">
       <i class="fas fa-hard-hat me-3 text-warning" style="filter: drop-shadow(0 2px 4px rgba(255, 193, 7, 0.3));"></i>
       Industry Experience
-      <span class="position-absolute top-0 start-0 w-3 h-100 bg-warning opacity-10 rounded-pill"></span>
-    </h3>
+    </h2>
   </div>
 
   <!-- Experience Card with Improved Layout -->
@@ -1416,6 +1415,7 @@ latest_posts:
   }
 </style>
 
+<!-- 🏗️ Optimized Industry Experience Section -->
 <!-- Optimized CSS -->
 <style>
     .industry-experience-section {
@@ -1646,108 +1646,6 @@ latest_posts:
   }
 </style>
 
-<!-- 🏗️ Optimized Industry Experience Section -->
-<div class="industry-experience-section mb-5">
-  <!-- Enhanced Section Header -->
-  <div class="section-header mb-4">
-    <h3 class="display-6 fw-bold mb-0 position-relative ps-4 text-dark">
-      <i class="fas fa-hard-hat me-3 text-warning" style="filter: drop-shadow(0 2px 4px rgba(255, 193, 7, 0.3));"></i>
-      Industry Experience
-      <span class="position-absolute top-0 start-0 w-3 h-100 bg-warning opacity-10 rounded-pill"></span>
-    </h3>
-  </div>
-
-  <!-- Experience Card with Improved Layout -->
-  <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
-    <div class="card-header py-3 position-relative forced-theme-header">
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
-        <div class="flex-grow-1">
-          <h4 class="mb-1 fw-bold theme-header-text">Building Services Engineering Intern</h4>
-          <h5 class="mb-0 fs-5 theme-header-text">Wong &amp; Ouyang (Building Services) Ltd. <small class="theme-header-small">(Hong Kong)</small></h5>
-        </div>
-        <span class="badge bg-white theme-badge fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0 d-flex align-items-center">
-          <i class="fas fa-calendar-alt me-2 theme-icon" style="color: #ffc107 !important;"></i>
-          <span class="theme-date-text">Jan &ndash; Apr 2022</span>
-        </span>
-      </div>
-    </div>
-    
-    <!-- Card Body with Refined Spacing -->
-    <div class="card-body px-4 py-4">
-      <!-- Project Highlight Section -->
-      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded position-relative" 
-           style="box-shadow: inset 0 0 12px rgba(255, 193, 7, 0.05);">
-        <div class="position-absolute top-0 start-0 h-100 bg-warning opacity-10" style="width: 3px;"></div>
-        <h6 class="text-uppercase text-muted mb-2 fs-7 d-flex align-items-center">
-          <i class="fas fa-star me-2 text-warning"></i>Featured Project
-        </h6>
-        <h5 class="mb-2 fw-semibold">Public Rental Housing Phase 1, Fanling North Area 15 East</h5>
-        <p class="mb-0 text-muted d-flex align-items-center">
-          <i class="fas fa-building me-2"></i>1,200+ residential units | Hong Kong
-        </p>
-      </div>
-
-      <!-- Key Contributions Section -->
-      <div class="key-contributions mb-4">
-        <h5 class="mb-3 text-warning fw-bold d-flex align-items-center">
-          <i class="fas fa-tasks me-2"></i>Key Contributions
-        </h5>
-        <div class="contribution-list ps-0">
-          <div class="mb-3 d-flex">
-            <span class="contribution-badge bg-warning text-dark">1</span>
-            <div class="ms-3">
-              <strong class="d-block mb-1">BIM-Driven Optimization</strong>
-              <p class="mb-0">Redesigned water supply networks via Revit clash detection, <span class="highlight-stat">reducing material waste by 12%</span> while maintaining full HK Building Code compliance.</p>
-            </div>
-          </div>
-          <div class="mb-3 d-flex">
-            <span class="contribution-badge bg-warning text-dark">2</span>
-            <div class="ms-3">
-              <strong class="d-block mb-1">Commissioning Efficiency</strong>
-              <p class="mb-0">Spearheaded installation of 50+ WHO-compliant low-noise pumps, <span class="highlight-stat">shortening commissioning timelines by 8 days</span> through real-time contractor coordination.</p>
-            </div>
-          </div>
-          <div class="d-flex">
-            <span class="contribution-badge bg-warning text-dark">3</span>
-            <div class="ms-3">
-              <strong class="d-block mb-1">Safety Documentation</strong>
-              <p class="mb-0">Authored 30+ technical submittals for fire safety and drainage systems, achieving <span class="highlight-stat">100% regulatory approval</span> on first submission.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tools Section with Better Alignment -->
-      <div class="tools-section mt-4 pt-3 border-top border-light">
-        <div class="d-flex flex-wrap align-items-center gap-2">
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-cube me-2 text-dark"></i> Revit BIM
-          </span>
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-drafting-compass me-2 text-dark"></i> AutoCAD
-          </span>
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-book me-2 text-dark"></i> BEAM Plus
-          </span>
-          <span class="badge bg-warning bg-opacity-15 text-dark border border-warning border-opacity-25 py-2 px-3 rounded-pill d-flex align-items-center">
-            <i class="fas fa-tint me-2 text-dark"></i> Plumbing Standards
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card Footer with Improved Readability -->
-    <div class="card-footer bg-light bg-opacity-10 py-3 px-4">
-      <p class="mb-0 text-muted fst-italic d-flex align-items-center">
-        <i class="fas fa-lightbulb text-warning me-2"></i>
-        This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
-      </p>
-    </div>
-  </div>
-</div>
-
-<hr class="my-5 border-warning opacity-10" style="height: 2px;">
-
 <!-- Optimized CSS -->
 <style>
   .industry-experience-section {
@@ -1878,10 +1776,12 @@ latest_posts:
 
 <!-- ========== Next Section: 🔧 Technical Skills Section ========== -->
 
-<!-- 🔧 Technical Skills Section - Optimized -->
+<!-- 🔧 Technical Skills Section -->
 <div class="technical-skills-section mb-5">
-  <div class="section-header d-flex align-items-center mb-4">
-    <h3 class="mb-0">🔧 Technical Skills</h3>
+  <div class="section-header text-center mb-5">
+    <h2 class="text-center mb-4" style="color: #2c3e50; font-weight: 600; font-size: 2rem;">
+      🔧 Technical Skills
+    </h2>
   </div>
 
   <div class="skills-container mt-4">
