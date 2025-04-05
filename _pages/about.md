@@ -1176,15 +1176,17 @@ latest_posts:
 
  <!-- Experience Card with Improved Layout -->
 <div class="experience-card card border-0 shadow-sm mb-4 overflow-hidden">
-  <!-- Card Header with corrected background color -->
-  <div class="card-header bg-opacity-10 py-3 position-relative" style="background-color: rgba(255, 193, 7, 0.1); border-bottom: 1px solid rgba(255, 193, 7, 0.25);">
+  <!-- Card Header with forced theme colors -->
+  <div class="card-header py-3 position-relative" 
+       style="background-color: rgba(255, 193, 7, 0.1) !important;
+              border-bottom: 1px solid rgba(255, 193, 7, 0.25) !important;">
     <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
       <div class="flex-grow-1">
-        <h4 class="mb-1 fw-bold">Building Services Engineering Intern</h4>
-        <h5 class="mb-0 fs-5">Wong &amp; Ouyang (Building Services) Ltd. <small class="text-dark opacity-75">(Hong Kong)</small></h5>
+        <h4 class="mb-1 fw-bold" style="color: #212529 !important;">Building Services Engineering Intern</h4>
+        <h5 class="mb-0 fs-5" style="color: #212529 !important;">Wong &amp; Ouyang (Building Services) Ltd. <small style="color: rgba(33, 37, 41, 0.75) !important;">(Hong Kong)</small></h5>
       </div>
       <span class="badge bg-white text-dark fw-bold py-2 px-3 rounded-pill shadow-sm flex-shrink-0">
-        <i class="fas fa-calendar-alt me-2" style="color: #ffc107;"></i> Jan &ndash; Apr 2022
+        <i class="fas fa-calendar-alt me-2" style="color: #ffc107 !important;"></i> Jan &ndash; Apr 2022
       </span>
     </div>
   </div>
@@ -1394,6 +1396,26 @@ latest_posts:
     .card-header .badge {
       align-self: flex-start;
       margin-top: 0.5rem;
+    }
+    /* Force theme colors - add this to your CSS section */
+    .card-header {
+      background-color: rgba(255, 193, 7, 0.1) !important;
+      border-bottom: 1px solid rgba(255, 193, 7, 0.25) !important;
+    }
+
+    .experience-card .card-header h4,
+    .experience-card .card-header h5 {
+      color: #212529 !important;
+    }
+
+    .experience-card .card-header small {
+      color: rgba(33, 37, 41, 0.75) !important;
+    }
+
+    /* Nuclear option - if blue is still appearing */
+    div[class*="card-header"] {
+      background-color: rgba(255, 193, 7, 0.1) !important;
+      border-color: rgba(255, 193, 7, 0.25) !important;
     }
   }
 </style>
