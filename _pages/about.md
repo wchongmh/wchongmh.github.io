@@ -4410,17 +4410,11 @@ latest_posts:
 </div>
 
 <style>
-  /* ===== Base Styles ===== */
+  /* ===== Modern Layout Improvements ===== */
   .connect-section {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  }
-  
-  .section-header h3 {
-    font-weight: 600;
-    color: #212529;
   }
   
   .connect-card {
@@ -4489,6 +4483,70 @@ latest_posts:
     justify-content: center;
   }
   
+  .connect-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2rem !important;
+    }
+    
+    .connect-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+    
+    .connect-message {
+      font-size: 1rem;
+    }
+  }
+
+  /* Connect Section Styles */
+  .connect-section {
+    position: relative;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .highlight-green {
+    background-color: rgba(40, 167, 69, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Connect Buttons */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .btn-content {
     top: 0;
   }
@@ -4508,8 +4566,6 @@ latest_posts:
   .btn-icon {
     margin-right: 0.75rem;
     font-size: 1.25rem;
-    width: 20px;
-    text-align: center;
   }
   
   /* Email Button */
@@ -4540,49 +4596,19 @@ latest_posts:
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: #495057;
-    line-height: 1.6;
   }
   
-  /* ===== Responsive Design ===== */
+  /* Responsive */
   @media (max-width: 768px) {
     .connect-card {
-      padding: 2rem !important;
+      padding: 2.5rem 1.5rem;
     }
     
     .connect-btn {
-      width: 100%;
-      max-width: 200px;
+      width: 160px;
       height: 50px;
-    }
-    
-    .btn-icon {
-      margin-right: 0.5rem;
-      font-size: 1.1rem;
-    }
-    
-    .connect-message {
-      font-size: 1rem;
-      padding: 0 1rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .connect-card {
-      padding: 1.5rem !important;
-    }
-    
-    .connect-btn {
-      max-width: 100%;
-    }
-    
-    .btn-content, .btn-hover-content {
-      padding: 0.75rem 1rem;
-    }
-    
-    .section-header h3 {
-      font-size: 1.25rem;
     }
   }
 </style>
+
  
