@@ -1448,6 +1448,24 @@ latest_posts:
   }
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Find all card headers and force the theme
+  const headers = document.querySelectorAll('.card-header');
+  headers.forEach(header => {
+    header.style.backgroundColor = 'rgba(255, 193, 7, 0.1)';
+    header.style.backgroundImage = 'none';
+    header.style.setProperty('background-color', 'rgba(255, 193, 7, 0.1)', 'important');
+  });
+  
+  // Nuclear option - remove all background colors from parent elements
+  const cards = document.querySelectorAll('.experience-card, .experience-card *');
+  cards.forEach(el => {
+    el.style.backgroundColor = 'transparent';
+  });
+});
+</script>
+
 <!-- ========== Next Section: 🔧 Technical Skills Section ========== -->
 
 <!-- 🔧 Technical Skills Section - Optimized -->
