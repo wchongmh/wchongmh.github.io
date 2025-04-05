@@ -1775,6 +1775,7 @@ latest_posts:
 </style>
 
 <!-- ========== Next Section: 🌍 Leadership & Advocacy Section ========== -->
+<hr class="my-5 border-top border-2 border-primary opacity-25">
 
 <!-- Leadership & Advocacy Section -->
 <div class="leadership-section mb-5">
