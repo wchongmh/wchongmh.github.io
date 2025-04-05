@@ -2854,7 +2854,7 @@ latest_posts:
 <!-- ========== Next Section: Future Goals Section ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
-<!DOCTYPE html>
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -3470,7 +3470,6 @@ latest_posts:
 </html>
 
 <!-- DOCTYPE html --><!-- ========== Next Section: Looking Ahead Banner ========== -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
