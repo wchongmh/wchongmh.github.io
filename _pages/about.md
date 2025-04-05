@@ -2349,6 +2349,152 @@ latest_posts:
   }
 </style>
 
+<style>
+  /* ===== Neurodiversity Card Enhancements ===== */
+  .neurodiversity-card {
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,249,250,0.95) 100%);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.05);
+    border-radius: 16px !important;
+    border: 1px solid rgba(255,255,255,0.18);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .neurodiversity-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(155,89,182,0.08) 0%, rgba(0,0,0,0) 70%);
+    transform: rotate(30deg);
+    transition: all 0.6s ease;
+    opacity: 0;
+  }
+  
+  .neurodiversity-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 28px rgba(31, 38, 135, 0.1);
+  }
+  
+  .neurodiversity-card:hover::before {
+    opacity: 1;
+    animation: neuro-shine 3s ease infinite;
+  }
+  
+  @keyframes neuro-shine {
+    0% { transform: rotate(30deg) translateX(-30%); }
+    100% { transform: rotate(30deg) translateX(30%); }
+  }
+  
+  .neuro-icon {
+    font-size: 1.75rem;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, rgba(155,89,182,0.1) 0%, rgba(52,152,219,0.1) 100%);
+    color: #9b59b6;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  
+  .neurodiversity-card:hover .neuro-icon {
+    transform: rotate(10deg) scale(1.1);
+    background: linear-gradient(135deg, rgba(155,89,182,0.15) 0%, rgba(52,152,219,0.15) 100%);
+  }
+  
+  /* ===== Closing Statement Enhancements ===== */
+  .closing-statement {
+    background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%);
+    border-left: 4px solid var(--passive-color) !important;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    border-radius: 16px !important;
+  }
+  
+  .closing-statement::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(46,204,113,0.03) 0%, rgba(0,0,0,0) 30%);
+    pointer-events: none;
+  }
+  
+  .closing-statement p {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .closing-statement strong {
+    background: linear-gradient(to right, var(--passive-color), var(--active-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .closing-statement:hover strong {
+    text-shadow: 0 2px 8px rgba(46,204,113,0.2);
+  }
+  
+  /* ===== Responsive Adjustments ===== */
+  @media (max-width: 768px) {
+    .neurodiversity-card .d-flex {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .neuro-icon {
+      margin: 0 auto 1rem auto;
+    }
+    
+    .closing-statement {
+      padding: 1.5rem !important;
+    }
+  }
+</style>
+
+<!-- Neurodiversity Card - Enhanced Version -->
+<div class="neurodiversity-card card border-0 mb-4">
+  <div class="card-body p-4 p-lg-5">
+    <div class="d-flex align-items-center">
+      <div class="neuro-icon me-4">
+        <i class="fas fa-brain"></i>
+      </div>
+      <div>
+        <h4 class="card-title mb-3">Neurodiverse Thinking</h4>
+        <p class="card-text mb-0">
+          Harnessing <strong>dyslexic and ADHD cognitive patterns</strong> for <strong>creative problem-solving</strong> and <strong>innovative engineering approaches</strong> that challenge conventional perspectives.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Closing Statement - Enhanced Version -->
+<div class="closing-statement p-4 p-lg-5 mb-4">
+  <div class="row align-items-center">
+    <div class="col-lg-10">
+      <p class="mb-3">Whether assessing <strong>rooftop renewable energy applications</strong>, <strong>optimizing drainage layouts</strong>, or <strong>developing AI-driven HVAC controls</strong>, I strive to <strong>reduce environmental impact</strong> while enhancing <strong>functionality and efficiency</strong>.</p>
+      <p class="mb-0">Today, I aim to <strong>leverage emerging technologies</strong>—from <strong>IoT automation to AI-powered building analytics</strong>—to <strong>redefine industry standards</strong> and <strong>inspire the next generation of engineers</strong>.</p>
+    </div>
+    <div class="col-lg-2 text-center d-none d-lg-block">
+      <div class="p-3 rounded-circle bg-soft-passive d-inline-block">
+        <i class="fas fa-seedling text-success fs-1"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ========== Next Section: Future Goals Section ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
