@@ -4739,7 +4739,7 @@ latest_posts:
                             
                             <div class="sectors-grid">
                                 <div class="sector-badge bg-success">
-                                    <i class="fas fa-leaf"></i>
+                                    <i class="fas fa-tree-city"></i>
                                     <span>Sustainable Design</span>
                                 </div>
                                 <div class="sector-badge bg-warning">
