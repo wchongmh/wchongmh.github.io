@@ -1803,7 +1803,7 @@ latest_posts:
               <i class="fas fa-chair me-2"></i>Chairman
             </a>
           </h4>
-          <span class="badge rounded-pill px-3 py-2" style="background-color: white; color: #0d6efd;">2021-2022</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: #0a58ca; color: white;">2021-2022</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">IVE Morrison Hill Engineering Society</h5>
@@ -1839,7 +1839,7 @@ latest_posts:
               <i class="fas fa-user-tie me-2"></i>External Vice President
             </a>
           </h4>
-          <span class="badge rounded-pill px-3 py-2" style="background-color: white; color: #0aa2c0;">2020-2022</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: #087990; color: white;">2020-2022</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">ASHRAE IVE Student Branch</h5>
@@ -1871,7 +1871,7 @@ latest_posts:
               <i class="fas fa-users me-2"></i>Committee Member
             </a>
           </h4>
-          <span class="badge rounded-pill px-3 py-2" style="background-color: #212529; color: #ffc107;">2021-2022</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: #b68500; color: white;">2021-2022</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">HKIE BSE Student Liaison Group</h5>
@@ -1899,7 +1899,7 @@ latest_posts:
               <i class="fas fa-coins me-2"></i>President of Finance Committee
             </a>
           </h4>
-          <span class="badge rounded-pill px-3 py-2" style="background-color: white; color: #198754;">2020-2021</span>
+          <span class="badge rounded-pill px-3 py-2" style="background-color: #0c5b3a; color: white;">2020-2021</span>
         </div>
         <div class="card-body py-4">
           <h5 class="card-subtitle mb-3 text-muted fw-normal">48th Students' Union Council</h5>
@@ -1924,6 +1924,35 @@ latest_posts:
   </div>
 </div>
 
+<style>
+  /* Enhanced Badge Styling */
+  .badge {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Original styles remain unchanged */
+  .leadership-section { position: relative; }
+  .text-gradient-primary {
+    background: linear-gradient(45deg, #0d6efd, #20c997);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .leadership-card {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  .leadership-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15) !important;
+  }
+</style>
 <style>
   /* Leadership Section Styles */
   .leadership-section {
@@ -2110,7 +2139,11 @@ latest_posts:
   }
   .btn-outline-success {
     border-width: 2px;
-  }
+  }/* Guarantee badge visibility against any background */
+  .badge {
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
 </style>
 
 <!-- ========== Next Section: 🔧 Technical Skills Section ========== -->
