@@ -54,12 +54,3 @@ demo: # Optional live demo link
   padding: 20px;
 }
 </style>
-
-<script>
-// Auto-initialize carousel (requires Bootstrap JS)
-document.addEventListener('DOMContentLoaded', function() {
-  new bootstrap.Carousel(document.getElementById('bmsCarousel'), {
-    interval: 5000 // 5 second auto-advance
-  });
-});
-</script>
