@@ -1,12 +1,12 @@
 ---
-title: "Building Management System (BMS) Dashboard"  
-category: Smart Building Automation  
-description: "Designed and implemented a comprehensive BMS dashboard solution for real-time monitoring, predictive maintenance, and energy optimization across 12 commercial facilities."  
-tech: [Siemens Desigo CC, IoT Sensors, Python Data Processing, D3.js Visualization, SQL Database]  
-image: /assets/img/projects/bms-system-cover.jpg  
-importance: 1  
-github: # Optional  
-demo: # Optional  
+title: "BMS Dashboard Development"  
+category: Building Systems  
+description: "Engineered an interactive BMS dashboard for real-time monitoring and control of building systems, with data visualization and alarm management."  
+tech: [BMS, Siemens Desigo CC, Data Visualization, IoT Sensors]  
+image: /assets/img/projects/bms_system-1.jpg  # Main thumbnail  
+importance: 1  # Adjust for sorting priority (1 = high) 
+github: # Optional link  
+demo: # Optional live demo link  
 ---  
 
 <div class="project-header mb-4 p-4 rounded" style="background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%); border-left: 4px solid #2a7ae2;">
@@ -90,7 +90,7 @@ demo: # Optional
     <!-- Main Dashboard -->
     <div class="col-12">
       <div class="gallery-card p-2 rounded">
-        <img src="/assets/img/projects/bms-system-main.jpg" 
+        <img src="/assets/img/projects/bms_system-2.jpg" 
              alt="BMS Overview Dashboard"
              class="img-fluid rounded-lg shadow-lg"
              loading="lazy"
@@ -103,7 +103,7 @@ demo: # Optional
     <!-- Secondary Panels -->
     <div class="col-md-6">
       <div class="gallery-card p-2 rounded">
-        <img src="/assets/img/projects/bms-system-analytics.jpg" 
+        <img src="/assets/img/projects/bms_system-3.jpg" 
              alt="Energy Analytics Module"
              class="img-fluid rounded-lg shadow-lg"
              loading="lazy">
@@ -113,7 +113,7 @@ demo: # Optional
     
     <div class="col-md-6">
       <div class="gallery-card p-2 rounded">
-        <img src="/assets/img/projects/bms-system-alarms.jpg" 
+        <img src="/assets/img/projects/bms_system-1.jpg" 
              alt="Alarm Management View"
              class="img-fluid rounded-lg shadow-lg"
              loading="lazy">
