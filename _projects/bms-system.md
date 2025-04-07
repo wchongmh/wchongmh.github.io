@@ -1,6 +1,6 @@
 ---
 title: "BMS Dashboard Development"  
-category: Building Systems, Smart Building Solutions 
+display_categories: [Building Systems, Smart Building Solutions]
 description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations."  
 tech: [BMS, Siemens Desigo CC, Data Visualization, IoT]  
 image: /assets/img/projects/bms_system-1.jpg  # Main thumbnail  
@@ -64,6 +64,14 @@ A centralized BMS dashboard that aggregates data from HVAC, lighting, and power 
 - **27% faster** anomaly detection via IoT sensors  
 - **12% reduction** in HVAC energy use  
 - **83% decrease** in manual data collection  
+
+## Measured Impact
+
+| System          | Improvement |
+|-----------------|-------------|
+| Energy Efficiency | 18% reduction |
+| Maintenance Costs | 22% savings |
+| Alarm Response    | 65% faster |
 
 ### **Dashboard Preview**
 <div class="project-gallery mt-4">
