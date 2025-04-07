@@ -188,7 +188,6 @@ demo: # Optional live demo link
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig. 1:</span>
-          <span class="image-desc">BMS Main Dashboard Interface</span>
         </div>
       </div>
     </div>
@@ -202,7 +201,6 @@ demo: # Optional live demo link
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig. 2:</span>
-          <span class="image-desc">Energy Analytics Panel</span>
         </div>
       </div>
       <div class="image-card">
@@ -214,7 +212,6 @@ demo: # Optional live demo link
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig. 3:</span>
-          <span class="image-desc">Alarm Management Console</span>
         </div>
       </div>
     </div>
