@@ -47,7 +47,7 @@ A centralized BMS dashboard that aggregates data from HVAC, lighting, and power 
 - Comparative analysis against baselines
 - Exportable reports for sustainability audits
 
-## Technical Implementation
+### Technical Implementation
 
 **IoT Architecture**  
 - LoRaWAN for sensor connectivity  
@@ -59,13 +59,13 @@ A centralized BMS dashboard that aggregates data from HVAC, lighting, and power 
 - Historian database for time-series data  
 - Role-based API access controls  
 
-## Measured Outcomes
+### Measured Outcomes
 
 - **27% faster** anomaly detection via IoT sensors  
 - **12% reduction** in HVAC energy use  
 - **83% decrease** in manual data collection  
 
-## Measured Impact
+### Measured Impact
 
 | System          | Improvement |
 |-----------------|-------------|
@@ -73,7 +73,7 @@ A centralized BMS dashboard that aggregates data from HVAC, lighting, and power 
 | Maintenance Costs | 22% savings |
 | Alarm Response    | 65% faster |
 
-### **Dashboard Preview**
+## **Dashboard Preview**
 <div class="project-gallery mt-4">
   <div class="row g-3">
     <!-- Full-width image -->
