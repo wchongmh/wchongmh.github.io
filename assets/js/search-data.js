@@ -445,7 +445,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-bms-dashboard-development",
           title: 'BMS Dashboard Development',
-          description: "Engineered an interactive BMS dashboard for real-time monitoring and control of building systems, with data visualization and alarm management.",
+          description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
             },},{
