@@ -5,7 +5,7 @@ permalink: /projects/
 description: A curated collection of my innovative engineering projects.
 nav: true
 nav_order: 3
-display_categories: [Building Systems, Smart Building Solutions, Research]
+display_categories: [Building Systems, Smart Building, Research]
 horizontal: false
 ---
 
@@ -23,7 +23,7 @@ horizontal: false
     <section class="category-section mb-5">
       <a id="{{ category | slugify }}" href=".#{{ category | slugify }}" class="category-anchor">
         <h2 class="category-title">
-          <i class="fas fa-{% if category == 'Building Systems' %}building{% elsif category == 'Smart Building Solutions' %}microchip{% else %}flask{% endif %} me-2"></i>
+          <i class="fas fa-{% if category == 'Building Systems' %}building{% elsif category == 'Smart Building' %}microchip{% else %}flask{% endif %} me-2"></i>
           {{ category }}
         </h2>
       </a>
