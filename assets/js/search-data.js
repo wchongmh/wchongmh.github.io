@@ -443,9 +443,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-building-management-system-bms-dashboard",
-          title: 'Building Management System (BMS) Dashboard',
-          description: "Designed and implemented a comprehensive BMS dashboard solution for real-time monitoring, predictive maintenance, and energy optimization across 12 commercial facilities.",
+            },},{id: "projects-bms-dashboard-development",
+          title: 'BMS Dashboard Development',
+          description: "Engineered an interactive BMS dashboard for real-time monitoring and control of building systems, with data visualization and alarm management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
             },},{
