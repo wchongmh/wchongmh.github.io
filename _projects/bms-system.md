@@ -19,38 +19,44 @@ demo: # Optional live demo link
 - Improved energy efficiency by 15% via trend analysis.
 
 ### **Dashboard Preview**
-<div id="bmsCarousel" class="carousel slide shadow rounded mt-4" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/assets/img/projects/bms_system-1.jpg" class="d-block w-100" alt="Main Dashboard" style="max-height: 500px; object-fit: contain;">
+<div class="project-gallery mt-4">
+  <div class="row g-3">
+    <!-- Full-width image -->
+    <div class="col-12">
+      <img src="/assets/img/projects/bms_system-1.jpg" 
+           alt="BMS Main Dashboard" 
+           class="img-fluid rounded shadow"
+           loading="lazy"
+           style="max-height: 500px; width: auto; object-fit: contain;">
     </div>
-    <div class="carousel-item">
-      <img src="/assets/img/projects/bms_system-2.jpg" class="d-block w-100" alt="Energy Analytics" style="max-height: 500px; object-fit: contain;">
+    <!-- Half-width images -->
+    <div class="col-md-6">
+      <img src="/assets/img/projects/bms_system-2.jpg" 
+           alt="Energy Analytics Panel" 
+           class="img-fluid rounded shadow"
+           loading="lazy"
+           style="max-height: 400px; width: auto; object-fit: contain;">
     </div>
-    <div class="carousel-item">
-      <img src="/assets/img/projects/bms_system-3.jpg" class="d-block w-100" alt="Alarm Console" style="max-height: 500px; object-fit: contain;">
+    <div class="col-md-6">
+      <img src="/assets/img/projects/bms_system-3.jpg" 
+           alt="Alarm Management Console" 
+           class="img-fluid rounded shadow"
+           loading="lazy"
+           style="max-height: 400px; width: auto; object-fit: contain;">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#bmsCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#bmsCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 
 <style>
-/* Custom carousel styling */
-#bmsCarousel {
+.project-gallery img {
   background: #f8f9fa;
-  border: 1px solid #dee2e6;
+  padding: 8px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease;
 }
-.carousel-control-prev-icon, 
-.carousel-control-next-icon {
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 50%;
-  padding: 20px;
+.project-gallery img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 </style>
