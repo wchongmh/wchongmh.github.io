@@ -18,35 +18,48 @@ demo: # Optional live demo link
 - Reduced manual checks by 40% through automated alerts.  
 - Improved energy efficiency by 15% via trend analysis.
 
-### **Dashboard Preview**  
-<div class="row mt-4 g-3">
-  <div class="col-md-4">
-    <img src="/assets/img/projects/bms_system-1.jpg" 
-         alt="BMS Dashboard" 
-         class="img-fluid rounded shadow" 
-         loading="lazy"
-         style="max-height: 200px; object-fit: contain;">
+### **Dashboard Preview**
+<div id="bmsCarousel" class="carousel slide shadow rounded mt-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/img/projects/bms_system-1.jpg" class="d-block w-100" alt="Main Dashboard" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/projects/bms_system-2.jpg" class="d-block w-100" alt="Energy Analytics" style="max-height: 500px; object-fit: contain;">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/projects/bms_system-3.jpg" class="d-block w-100" alt="Alarm Console" style="max-height: 500px; object-fit: contain;">
+    </div>
   </div>
-  <div class="col-md-4">
-    <img src="/assets/img/projects/bms_system-2.jpg" 
-         alt="Energy Analytics" 
-         class="img-fluid rounded shadow" 
-         loading="lazy"
-         style="max-height: 200px; object-fit: contain;">
-  </div>
-  <div class="col-md-4">
-    <img src="/assets/img/projects/bms_system-3.jpg" 
-         alt="Alarm Console" 
-         class="img-fluid rounded shadow" 
-         loading="lazy"
-         style="max-height: 200px; object-fit: contain;">
-  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#bmsCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#bmsCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 <style>
-/* Ensures images don't stretch beyond container */
-.img-fluid {
-  width: 100%;
-  height: auto;
+/* Custom carousel styling */
+#bmsCarousel {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  padding: 20px;
 }
 </style>
+
+<script>
+// Auto-initialize carousel (requires Bootstrap JS)
+document.addEventListener('DOMContentLoaded', function() {
+  new bootstrap.Carousel(document.getElementById('bmsCarousel'), {
+    interval: 5000 // 5 second auto-advance
+  });
+});
+</script>
