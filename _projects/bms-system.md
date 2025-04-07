@@ -2,116 +2,249 @@
 title: "BMS Dashboard Development"  
 category: Smart Building
 description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations."  
-tech: [BMS, Siemens Desigo CC, Data Visualization, IoT Semsors, LoRaWAN]  
-image: /assets/img/projects/bms_system-1.jpg  # Main thumbnail  
-importance: 1  # Adjust for sorting priority (1 = high) 
+tech: [BMS, Siemens Desigo CC, Data Visualization, IoT Sensors, LoRaWAN]  
+image: /assets/img/projects/bms_system-1.jpg
+importance: 1
 github: # Optional link  
 demo: # Optional live demo link  
 ---  
 
-## Project Overview
+<div class="project-intro mb-5 p-4 rounded" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-left: 4px solid #0d6efd;">
+<h2 class="mt-0">Project Overview</h2>
+<p>A centralized BMS dashboard that aggregates data from HVAC, lighting, and power systems across multiple facilities, providing:</p>
 
-A centralized BMS dashboard that aggregates data from HVAC, lighting, and power systems across multiple facilities, providing:
-
-- Real-time equipment monitoring
-- Automated alarm management
-- Hybrid wired/wireless data collection
-- Energy consumption analytics
-- Maintenance workflow integration
-- Cloud-based analytics
+<ul class="feature-grid">
+  <li>Real-time equipment monitoring</li>
+  <li>Automated alarm management</li>
+  <li>Hybrid wired/wireless data collection</li>
+  <li>Energy consumption analytics</li>
+  <li>Maintenance workflow integration</li>
+  <li>Cloud-based analytics</li>
+</ul>
+</div>
 
 ## Key Features
 
-### Live Monitoring
-- Tracked 150+ data points (temperatures, pressures, power draws)
-- Color-coded status indicators for quick assessment
-- Customizable views per facility/zone
+<div class="feature-cards row g-4 mb-5">
+  <div class="col-md-6">
+    <div class="card h-100 shadow-sm">
+      <div class="card-header bg-primary text-white">
+        <h3 class="h5 mb-0">Live Monitoring</h3>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>Tracked 150+ data points (temperatures, pressures, power draws)</li>
+          <li>Color-coded status indicators for quick assessment</li>
+          <li>Customizable views per facility/zone</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-### IoT Integration Layer
-- Deployed 85 wireless sensors (temperature, occupancy, air quality)
-- BACnet/MQTT gateway for protocol translation
-- Edge computing for local data processing
+  <div class="col-md-6">
+    <div class="card h-100 shadow-sm">
+      <div class="card-header bg-primary text-white">
+        <h3 class="h5 mb-0">IoT Integration Layer</h3>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>Deployed 85 wireless sensors (temperature, occupancy, air quality)</li>
+          <li>BACnet/MQTT gateway for protocol translation</li>
+          <li>Edge computing for local data processing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-### Smart Monitoring Features
-- Live equipment health dashboards
-- Automated fault detection algorithms
-- Mobile alerts for critical events
+  <div class="col-md-6">
+    <div class="card h-100 shadow-sm">
+      <div class="card-header bg-primary text-white">
+        <h3 class="h5 mb-0">Smart Monitoring Features</h3>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>Live equipment health dashboards</li>
+          <li>Automated fault detection algorithms</li>
+          <li>Mobile alerts for critical events</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-### Alarm Management
-- Priority-based alert system (Critical/Warning/Notice)
-- Automated notifications via email/SMS
-- Historical alarm trending
+  <div class="col-md-6">
+    <div class="card h-100 shadow-sm">
+      <div class="card-header bg-primary text-white">
+        <h3 class="h5 mb-0">Alarm Management</h3>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>Priority-based alert system (Critical/Warning/Notice)</li>
+          <li>Automated notifications via email/SMS</li>
+          <li>Historical alarm trending</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-### Energy Analytics
-- kWh tracking with cost calculations
-- Comparative analysis against baselines
-- Exportable reports for sustainability audits
+## Technical Implementation
 
-### Technical Implementation
+<div class="tech-grid row g-4 mb-5">
+  <div class="col-md-6">
+    <div class="p-4 rounded shadow-sm h-100" style="background-color: #f8f9fa;">
+      <h3 class="h5">IoT Architecture</h3>
+      <ul>
+        <li>LoRaWAN for sensor connectivity</li>
+        <li>5-minute data aggregation cycles</li>
+        <li>Azure IoT Hub for cloud connectivity</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="p-4 rounded shadow-sm h-100" style="background-color: #f8f9fa;">
+      <h3 class="h5">Legacy Integration</h3>
+      <ul>
+        <li>Modbus TCP to BACnet conversion</li>
+        <li>Historian database for time-series data</li>
+        <li>Role-based API access controls</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-**IoT Architecture**  
-- LoRaWAN for sensor connectivity  
-- 5-minute data aggregation cycles  
-- Azure IoT Hub for cloud connectivity  
+## Measured Outcomes
 
-**Legacy Integration**  
-- Modbus TCP to BACnet conversion  
-- Historian database for time-series data  
-- Role-based API access controls  
+<div class="outcomes-grid row g-4 mb-5">
+  <div class="col-md-4">
+    <div class="text-center p-3 rounded" style="background-color: #e7f1ff;">
+      <h3 class="h4 text-primary">27% faster</h3>
+      <p>anomaly detection via IoT sensors</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="text-center p-3 rounded" style="background-color: #e7f1ff;">
+      <h3 class="h4 text-primary">12% reduction</h3>
+      <p>in HVAC energy use</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="text-center p-3 rounded" style="background-color: #e7f1ff;">
+      <h3 class="h4 text-primary">83% decrease</h3>
+      <p>in manual data collection</p>
+    </div>
+  </div>
+</div>
 
-### Measured Outcomes
+## Measured Impact
 
-- **27% faster** anomaly detection via IoT sensors  
-- **12% reduction** in HVAC energy use  
-- **83% decrease** in manual data collection  
+<div class="table-responsive mb-5">
+  <table class="table table-bordered table-hover">
+    <thead class="table-primary">
+      <tr>
+        <th>System</th>
+        <th>Improvement</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Energy Efficiency</td>
+        <td>18% reduction</td>
+      </tr>
+      <tr>
+        <td>Maintenance Costs</td>
+        <td>22% savings</td>
+      </tr>
+      <tr>
+        <td>Alarm Response</td>
+        <td>65% faster</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-### Measured Impact
+## Dashboard Preview
 
-| System          | Improvement |
-|-----------------|-------------|
-| Energy Efficiency | 18% reduction |
-| Maintenance Costs | 22% savings |
-| Alarm Response    | 65% faster |
-
-## **Dashboard Preview**
 <div class="project-gallery mt-4">
   <div class="row g-3">
-    <!-- Full-width image -->
     <div class="col-12">
       <img src="/assets/img/projects/bms_system-1.jpg" 
            alt="BMS Main Dashboard" 
-           class="img-fluid rounded shadow"
+           class="img-fluid rounded shadow-lg"
            loading="lazy"
-           style="max-height: 500px; width: auto; object-fit: contain;">
+           style="max-height: 500px; width: 100%; object-fit: contain;">
     </div>
-    <!-- Half-width images -->
     <div class="col-md-6">
       <img src="/assets/img/projects/bms_system-2.jpg" 
            alt="Energy Analytics Panel" 
-           class="img-fluid rounded shadow"
+           class="img-fluid rounded shadow-lg"
            loading="lazy"
-           style="max-height: 400px; width: auto; object-fit: contain;">
+           style="max-height: 400px; width: 100%; object-fit: contain;">
     </div>
     <div class="col-md-6">
       <img src="/assets/img/projects/bms_system-3.jpg" 
            alt="Alarm Management Console" 
-           class="img-fluid rounded shadow"
+           class="img-fluid rounded shadow-lg"
            loading="lazy"
-           style="max-height: 400px; width: auto; object-fit: contain;">
+           style="max-height: 400px; width: 100%; object-fit: contain;">
     </div>
   </div>
 </div>
 
 <style>
+.project-intro {
+  border-radius: 8px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.feature-grid li {
+  padding: 8px 12px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.feature-cards .card {
+  transition: transform 0.2s;
+  border: none;
+  border-radius: 8px;
+}
+
+.feature-cards .card:hover {
+  transform: translateY(-5px);
+}
+
 .project-gallery img {
   background: #f8f9fa;
-  padding: 8px;
-  border: 1px solid #eee;
-  margin-bottom: 15px;
-  transition: transform 0.2s ease;
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 0;
+  transition: all 0.3s ease;
+  object-position: center;
 }
+
 .project-gallery img:hover {
-  transform: scale(1.01);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.table {
+  font-size: 0.95rem;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
