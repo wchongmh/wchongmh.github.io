@@ -22,8 +22,7 @@ demo: # Optional live demo link
     </div>
   </div>
 
-  <div class="project-visualization">
-    <div class="visualization-description">
+  <div class="project-description">
     <p>Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.</p>
   </div>
 
@@ -547,3 +546,18 @@ demo: # Optional live demo link
   }
 }
 </style>
+
+/* Add these new styles to your existing CSS */
+
+.project-context {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 0 4px 4px 0;
+}
+
+.project-description, .system-intro, .calculations-intro, .methodology-intro {
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
