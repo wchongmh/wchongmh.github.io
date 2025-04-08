@@ -13,7 +13,17 @@ importance: 1
   <header class="project-header">
     <h1 class="project-title">Public Housing Plumbing Systems</h1>
     <p class="project-subtitle">Queen's Hill Development</p>
-    
+
+    <div class="project-meta">
+      <span class="badge">Building Systems</span>
+      <span class="tech-tags">
+        {% for technology in page.tech %}
+        <span class="tech-tag">{{ technology }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </header>
+
     <div class="project-visualization">
       <div class="visualization-description">
         <p>The Queen's Hill Development will feature a modern architectural design with integrated plumbing systems carefully coordinated with the building facade. The exterior showcases clean lines with strategically placed service ducts and access points.</p>
@@ -39,16 +49,6 @@ importance: 1
     <div class="project-context">
       <p>The Queen's Hill Development represents one of Hong Kong's most ambitious public housing projects, designed to accommodate 3,120 families across eight residential towers. This plumbing system design addresses the unique challenges of high-density vertical living while ensuring sustainable water management and maintenance accessibility.</p>
     </div>
-    
-    <div class="project-meta">
-      <span class="badge">Building Systems</span>
-      <span class="tech-tags">
-        {% for technology in page.tech %}
-        <span class="tech-tag">{{ technology }}</span>
-        {% endfor %}
-      </span>
-    </div>
-  </header>
 
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
@@ -315,73 +315,21 @@ importance: 1
       </svg>
       Pipe Sizing Procedure
     </h3>
-    
+
     <div class="methodology-steps">
+      {% for i in (16..21) %}
       <div class="step-item">
-        <div class="step-number">Step 1</div>
+        <div class="step-number">Step {{i | minus:15}}</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-16.jpg" 
-               alt="Pipe Sizing Step 1" 
+          <img src="/assets/img/projects/plumbing_design-{{i}}.jpg" 
+               alt="Pipe Sizing Step {{i | minus:15}}" 
                class="step-img"
                loading="lazy">
         </div>
-        </div>
       </div>
-      
-      <div class="step-item">
-        <div class="step-number">Step 2</div>
-        <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-17.jpg" 
-               alt="Pipe Sizing Step 2" 
-               class="step-img"
-               loading="lazy">
-        </div>
-        </div>
-      </div>
-      
-      <div class="step-item">
-        <div class="step-number">Step 3</div>
-        <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-18.jpg" 
-               alt="Pipe Sizing Step 3" 
-               class="step-img"
-               loading="lazy">
-        </div>
-        </div>
-      </div>
-      
-      <div class="step-item">
-        <div class="step-number">Step 4</div>
-        <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-19.jpg" 
-               alt="Pipe Sizing Step 4" 
-               class="step-img"
-               loading="lazy">
-        </div>
-        </div>
-      </div>
-      
-      <div class="step-item">
-        <div class="step-number">Step 5</div>
-        <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-20.jpg" 
-               alt="Pipe Sizing Step 5" 
-               class="step-img"
-               loading="lazy">
-        </div>
-        </div>
-      </div>
-      
-      <div class="step-item">
-        <div class="step-number">Step 6</div>
-        <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-21.jpg" 
-               alt="Pipe Sizing Step 6" 
-               class="step-img"
-               loading="lazy">
-        </div>
-        </div>
-      </div>
+      {% endfor %}
+    </div>
+    </section>
     </div>
     
     <div class="methodology-conclusion">
@@ -996,6 +944,7 @@ document.querySelectorAll('.spec-group').forEach(details => {
 </script>
 
 <style>
+  
 /* Base Styles */
 :root {
   --primary-color: #3498db;
@@ -1476,394 +1425,130 @@ document.querySelectorAll('.spec-group').forEach(details => {
 <style>
 /* Add these new styles to your existing CSS */
 
-/* Highlights Section */
-.project-highlights {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.highlight-card {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.highlight-icon {
-  font-size: 1.5rem;
-  margin-right: 12px;
-}
-
-.highlight-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.highlight-value {
-  font-weight: 700;
-  color: var(--primary-color);
-  font-size: 1.2rem;
-}
-
-.highlight-label {
-  font-size: 0.8rem;
-  color: var(--dark-gray);
-}
-
-/* Facilities Overview */
-.facilities-overview {
+.project-context {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 15px 20px;
   margin-bottom: 25px;
+  border-radius: 0 4px 4px 0;
 }
 
-.facilities-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin-top: 15px;
-}
-
-.facility-item {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.facility-icon {
-  font-size: 1.8rem;
-  margin-bottom: 8px;
-}
-
-.facility-name {
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-.facility-detail {
-  font-size: 0.85rem;
-  color: var(--dark-gray);
-}
-
-/* Water Supply System */
-.water-supply-system {
-  background: #f8fbfe;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.system-details {
+.project-description, .system-intro, .calculations-intro, .methodology-intro {
   margin-bottom: 25px;
+  line-height: 1.7;
 }
 
-.system-features {
-  padding-left: 20px;
-}
-
-.system-features li {
-  margin-bottom: 8px;
-}
-
-.system-types-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.system-type-card {
-  background: white;
+.key-specs {
+  background: var(--light-gray);
   border-radius: 8px;
   padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.system-icon {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.system-type-card h5 {
-  margin: 10px 0;
-  color: var(--secondary-color);
-}
-
-/* Technical Specifications */
-.technical-specs {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .specs-title {
   font-size: 1.2rem;
   color: var(--secondary-color);
   margin-bottom: 15px;
+  text-align: center;
 }
 
-.specs-accordion {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.spec-group {
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.spec-group:last-child {
-  border-bottom: none;
-}
-
-.spec-group summary {
-  padding: 15px;
-  background: #f5f9ff;
-  cursor: pointer;
-  font-weight: 500;
-  list-style: none;
-}
-
-.spec-group summary::-webkit-details-marker {
-  display: none;
-}
-
-.spec-group summary:after {
-  content: '+';
-  float: right;
-  font-weight: bold;
-  transition: transform 0.3s;
-}
-
-.spec-group[open] summary:after {
-  content: '-';
-}
-
-.spec-group ul {
-  padding: 0 15px 15px 45px;
-  margin: 0;
-}
-
-.spec-group li {
-  margin-bottom: 8px;
-}
-
-/* Calculation Tabs */
-.calculation-tabs {
-  margin-top: 20px;
-}
-
-.tab-buttons {
-  display: flex;
-  border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 20px;
-}
-
-.tab-button {
-  padding: 10px 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  color: var(--dark-gray);
-  position: relative;
-}
-
-.tab-button.active {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-.tab-button.active:after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--primary-color);
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-.consumption-grid {
+.specs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
 }
 
-.consumption-item {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
+.spec-item {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.consumption-value {
+.spec-value {
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 5px;
 }
 
-.consumption-label {
+.spec-label {
   font-size: 0.9rem;
   color: var(--dark-gray);
 }
 
-/* Recommendations */
-.recommendations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
+.diagram-description, .arrangement-description {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 2px solid var(--medium-gray);
 }
 
-.recommendation-card {
-  background: white;
-  border-radius: 8px;
-  padding: 25px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.rec-icon {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.recommendation-card h3 {
-  color: var(--secondary-color);
-  margin-bottom: 15px;
-}
-
-.recommendation-card ul {
-  padding-left: 20px;
-}
-
-.recommendation-card li {
-  margin-bottom: 8px;
-}
-
-/* Reflection Section */
-.reflection-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.reflection-text {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.skill-development {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+.arrangement-notes {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 6px;
   margin-top: 15px;
-}
-
-.skill-category h4 {
-  color: var(--secondary-color);
-  margin-bottom: 10px;
-}
-
-.skill-category ul {
-  padding-left: 20px;
-}
-
-.skill-category li {
-  margin-bottom: 6px;
   font-size: 0.95rem;
 }
 
-.project-outcome {
-  background: #f0f7ff;
+.calc-detail {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+.calculation-summary {
+  background: #f9f9f9;
+  border-radius: 8px;
   padding: 20px;
+  margin-top: 30px;
+}
+
+.summary-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.safety-factors {
+  padding-left: 20px;
+}
+
+.safety-factors li {
+  margin-bottom: 8px;
+}
+
+.step-description {
+  padding: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.methodology-conclusion {
+  background: #f5fbf5;
   border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
+  padding: 20px;
+  margin-top: 30px;
+  border-left: 4px solid #2ecc71;
 }
 
-.reflection-image {
-  display: flex;
-  flex-direction: column;
+.conclusion-title {
+  font-size: 1.2rem;
+  color: #27ae60;
+  margin-bottom: 15px;
 }
 
-.reflection-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-/* Responsive Adjustments */
-@media (max-width: 992px) {
-  .reflection-content {
-    grid-template-columns: 1fr;
-  }
-  
-  .reflection-image {
-    order: -1;
-    margin-bottom: 30px;
-  }
-}
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .project-highlights {
-    grid-template-columns: 1fr 1fr;
+  .specs-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
   
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .system-types-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 576px) {
-  .project-highlights {
-    grid-template-columns: 1fr;
-  }
-  
-  .system-types-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .tab-buttons {
-    flex-direction: column;
-    border-bottom: none;
-  }
-  
-  .tab-button {
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .tab-button.active:after {
-    display: none;
+  .step-item {
+    margin-bottom: 20px;
   }
 }
 </style>
-
