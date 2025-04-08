@@ -457,7 +457,7 @@ ninja.data = [{
           title: 'Public Housing Plumbing Systems - Queen&amp;#39;s Hill Development',
           description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/queens_hill_plumbing*/";
+              window.location.href = "/projects/queens_hill_plumbing/";
             },},{
         id: 'social-email',
         title: 'email',
