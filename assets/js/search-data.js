@@ -448,8 +448,8 @@ ninja.data = [{
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
-            },},{id: "projects-gcu-rooftop-solar-study",
-          title: 'GCU Rooftop Solar Study',
+            },},{id: "projects-rooftop-solar-potential-glasgow-caledonian-university",
+          title: 'Rooftop Solar Potential - Glasgow Caledonian University',
           description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gcu-solar/";
