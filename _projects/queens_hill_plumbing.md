@@ -13,9 +13,33 @@ importance: 1
   <header class="project-header">
     <h1 class="project-title">Public Housing Plumbing Systems</h1>
     <p class="project-subtitle">Queen's Hill Development</p>
+    
+    <div class="project-visualization">
+      <div class="visualization-description">
+        <p>The Queen's Hill Development will feature a modern architectural design with integrated plumbing systems carefully coordinated with the building facade. The exterior showcases clean lines with strategically placed service ducts and access points.</p>
+      </div>
+      <div class="visualization-images">
+        <div class="visualization-card">
+          <img src="/assets/img/projects/plumbing_design-2.jpg" 
+               alt="Queen's Hill Building Daytime Rendering" 
+               class="visualization-img"
+               loading="lazy">
+          <p class="visualization-caption">Overall architectural rendering</p>
+        </div>
+        <div class="visualization-card">
+          <img src="/assets/img/projects/plumbing_design-3.jpg" 
+               alt="Queen's Hill Building Evening Rendering" 
+               class="visualization-img"
+               loading="lazy">
+          <p class="visualization-caption">Close-up architectural rendering</p>
+        </div>
+      </div>
+    </div>
+    
     <div class="project-context">
       <p>The Queen's Hill Development represents one of Hong Kong's most ambitious public housing projects, designed to accommodate 3,120 families across eight residential towers. This plumbing system design addresses the unique challenges of high-density vertical living while ensuring sustainable water management and maintenance accessibility.</p>
     </div>
+    
     <div class="project-meta">
       <span class="badge">Building Systems</span>
       <span class="tech-tags">
@@ -437,6 +461,63 @@ importance: 1
     </div>
   </section>
 </div>
+
+<style>
+/* Add these new styles to your existing CSS */
+
+/* Project Visualization */
+.project-visualization {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+.visualization-description {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.visualization-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.visualization-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.visualization-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visualization-caption {
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .visualization-images {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-visualization {
+    padding: 15px;
+  }
+}
+</style>
 
 <style>
 /* Add these new styles to your existing CSS */
