@@ -447,11 +447,6 @@ ninja.data = [{
           title: 'BMS Dashboard Development',
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/bms-system*/";
-            },},{id: "projects-bms-dashboard-development",
-          title: 'BMS Dashboard Development',
-          description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
             },},{id: "projects-public-housing-plumbing-systems-queen-39-s-hill-development",
           title: 'Public Housing Plumbing Systems - Queen&amp;#39;s Hill Development',
