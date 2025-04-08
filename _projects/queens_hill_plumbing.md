@@ -13,7 +13,6 @@ importance: 1
   <header class="project-header">
     <h1 class="project-title">Public Housing Plumbing Systems</h1>
     <p class="project-subtitle">Queen's Hill Development</p>
-
     <div class="project-meta">
       <span class="badge">Building Systems</span>
       <span class="tech-tags">
