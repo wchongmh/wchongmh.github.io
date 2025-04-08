@@ -22,7 +22,8 @@ demo: # Optional live demo link
     </div>
   </div>
 
-  <div class="project-description">
+  <div class="project-visualization">
+    <div class="visualization-description">
     <p>Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.</p>
   </div>
 
