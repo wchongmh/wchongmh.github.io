@@ -325,8 +325,6 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          <p>Fixture unit tabulation using WSD standard values for public housing</p>
         </div>
       </div>
       
@@ -338,8 +336,6 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          <p>Demand weight calculation with diversity factors applied</p>
         </div>
       </div>
       
@@ -351,8 +347,6 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          <p>Preliminary pipe sizing based on flow rate tables</p>
         </div>
       </div>
       
@@ -364,8 +358,6 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          <p>Velocity verification (target 1.5-2.5 m/s for copper lines)</p>
         </div>
       </div>
       
@@ -377,8 +369,6 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          <p>Pressure loss calculation using Hazen-Williams equation</p>
         </div>
       </div>
       
@@ -390,8 +380,6 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          <p>Final adjustment to maintain minimum 1.5 bar at highest fixture</p>
         </div>
       </div>
     </div>
@@ -1484,3 +1472,398 @@ document.querySelectorAll('.spec-group').forEach(details => {
   }
 }
 </style>
+
+<style>
+/* Add these new styles to your existing CSS */
+
+/* Highlights Section */
+.project-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.highlight-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-value {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.highlight-label {
+  font-size: 0.8rem;
+  color: var(--dark-gray);
+}
+
+/* Facilities Overview */
+.facilities-overview {
+  margin-bottom: 25px;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.facility-item {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.facility-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.facility-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.facility-detail {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+/* Water Supply System */
+.water-supply-system {
+  background: #f8fbfe;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.system-details {
+  margin-bottom: 25px;
+}
+
+.system-features {
+  padding-left: 20px;
+}
+
+.system-features li {
+  margin-bottom: 8px;
+}
+
+.system-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.system-type-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.system-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.system-type-card h5 {
+  margin: 10px 0;
+  color: var(--secondary-color);
+}
+
+/* Technical Specifications */
+.technical-specs {
+  margin-top: 30px;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.specs-accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spec-group {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-group:last-child {
+  border-bottom: none;
+}
+
+.spec-group summary {
+  padding: 15px;
+  background: #f5f9ff;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.spec-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.spec-group summary:after {
+  content: '+';
+  float: right;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.spec-group[open] summary:after {
+  content: '-';
+}
+
+.spec-group ul {
+  padding: 0 15px 15px 45px;
+  margin: 0;
+}
+
+.spec-group li {
+  margin-bottom: 8px;
+}
+
+/* Calculation Tabs */
+.calculation-tabs {
+  margin-top: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--dark-gray);
+  position: relative;
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tab-button.active:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.consumption-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.consumption-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.consumption-value {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.consumption-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* Recommendations */
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.rec-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.recommendation-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.recommendation-card ul {
+  padding-left: 20px;
+}
+
+.recommendation-card li {
+  margin-bottom: 8px;
+}
+
+/* Reflection Section */
+.reflection-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.reflection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skill-development {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.project-outcome {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.reflection-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.reflection-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .reflection-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .reflection-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-highlights {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .system-types-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-highlights {
+    grid-template-columns: 1fr;
+  }
+  
+  .system-types-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tab-buttons {
+    flex-direction: column;
+    border-bottom: none;
+  }
+  
+  .tab-button {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab-button.active:after {
+    display: none;
+  }
+}
+</style>
+
