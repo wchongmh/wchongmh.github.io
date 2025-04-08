@@ -117,6 +117,56 @@ importance: 1
     </div>
   </section>
 
+  <div class="project-highlights">
+      <div class="highlight-card">
+        <div class="highlight-icon">🏢</div>
+        <div class="highlight-content">
+          <span class="highlight-value">3</span>
+          <span class="highlight-label">Residential Blocks</span>
+        </div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">📏</div>
+        <div class="highlight-content">
+          <span class="highlight-value">40</span>
+          <span class="highlight-label">Maximum Floors</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="facilities-overview">
+      <h3 class="subsection-header">Development Components</h3>
+      <div class="facilities-grid">
+        <div class="facility-item">
+          <span class="facility-icon">🏠</span>
+          <span class="facility-name">Residential Towers</span>
+          <span class="facility-detail">3 blocks (32-40 stories)</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🛒</span>
+          <span class="facility-name">Retail Facilities</span>
+          <span class="facility-detail">Ground floor commercial</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🏫</span>
+          <span class="facility-name">Kindergartens</span>
+          <span class="facility-detail">2 facilities</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🏥</span>
+          <span class="facility-name">Welfare Facilities</span>
+          <span class="facility-detail">Community services</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🚗</span>
+          <span class="facility-name">Parking</span>
+          <span class="facility-detail">Underground & podium</span>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
   <!-- System Design Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
@@ -127,7 +177,87 @@ importance: 1
     <div class="system-intro">
       <p>The plumbing system was designed using a zoned approach to address the 120m height differential across the site. The design incorporates pressure-reducing valves at strategic intervals to maintain optimal pressure throughout the vertical distribution network while preventing pipe erosion and water hammer effects.</p>
     </div>
-    
+
+    <article class="design-subsection water-supply-system">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+        </svg>
+        Water Supply Systems
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>Indirect Plumbing System</h4>
+          <ul class="system-features">
+            <li>Underground transfer tanks pump water to rooftop storage tanks</li>
+            <li>Gravity feed distribution to lower floors</li>
+            <li>Pressure reducing valves (PRVs) for high-pressure zones</li>
+            <li>Dedicated booster pumps for top floors</li>
+          </ul>
+        </div>
+        
+        <div class="system-types-grid">
+          <div class="system-type-card">
+            <div class="system-icon">💧</div>
+            <h5>Fresh Water</h5>
+            <p>Potable water supply for all residential units</p>
+          </div>
+          <div class="system-type-card">
+            <div class="system-icon">🌊</div>
+            <h5>Flush Water</h5>
+            <p>Saltwater system for toilet flushing</p>
+          </div>
+          <div class="system-type-card">
+            <div class="system-icon">🌱</div>
+            <h5>Irrigation</h5>
+            <p>Landscape watering system</p>
+          </div>
+          <div class="system-type-card">
+            <div class="system-icon">🧹</div>
+            <h5>Floor Washing</h5>
+            <p>Dedicated cleaning supply</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="technical-specs">
+        <h4 class="specs-title">Technical Specifications</h4>
+        
+        <div class="specs-accordion">
+          <details class="spec-group">
+            <summary>Piping Systems</summary>
+            <ul>
+              <li>Surface-mounted for maintenance access</li>
+              <li>Materials: Ductile iron (primary), copper, UPVC</li>
+              <li>Strict avoidance of crossovers between fresh/flush water lines</li>
+              <li>Color-coded insulation for easy identification</li>
+            </ul>
+          </details>
+          
+          <details class="spec-group">
+            <summary>Storage Tanks</summary>
+            <ul>
+              <li>Twin tank system for uninterrupted supply during cleaning</li>
+              <li>Total capacities: 104,000L fresh water, 34,000L flush water per block</li>
+              <li>Separate irrigation tanks (1,000L each)</li>
+              <li>Stainless steel construction with overflow protection</li>
+            </ul>
+          </details>
+          
+          <details class="spec-group">
+            <summary>Pumping Systems</summary>
+            <ul>
+              <li>Upfeed pumps: 34-37L/s capacity, 110-144m head</li>
+              <li>Booster pumps: 7.6-8.8L/s capacity, 26m head</li>
+              <li>Variable speed drives for energy efficiency</li>
+              <li>Redundant backup pumps for critical systems</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </article>
+
     <article class="design-subsection">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -201,6 +331,61 @@ importance: 1
       <span class="section-number">03</span>
       Engineering Calculations
     </h2>
+    
+    <!-- Design Calculations Section -->
+    <article class="design-subsection calculations">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M4,19H20V21H4V19M7.73,12.27L9.15,13.68C10.05,12.8 11.31,12.24 12.66,12.24C15.5,12.24 17.75,14.5 17.75,17.34C17.75,18.69 17.19,19.95 16.31,20.85L17.72,22.26C19,21 19.74,19.25 19.74,17.34C19.74,13.36 16.64,10.26 12.66,10.26C10.75,10.26 9,11 7.73,12.27M12.66,4C16.64,4 19.74,7.1 19.74,11.08C19.74,12.93 19,14.68 17.72,15.93L16.31,14.5C17.19,13.62 17.75,12.36 17.75,11.08C17.75,8.25 15.5,6 12.66,6C11.39,6 10.13,6.56 9.24,7.45L7.73,5.94C9,4.68 10.75,4 12.66,4M4,9.08C4,11.93 6.25,14.17 9.09,14.17C10.44,14.17 11.7,13.61 12.6,12.73L11.19,11.32C10.31,12.2 9.05,12.76 7.7,12.76C4.86,12.76 2.61,10.5 2.61,7.67C2.61,6.32 3.17,5.06 4.05,4.16L2.64,2.75C1.39,4 0.61,5.75 0.61,7.67C0.61,11.65 3.72,14.75 7.7,14.75C9.61,14.75 11.36,14 12.63,12.72L11.12,11.21C10.24,12.09 8.98,12.65 7.7,12.65C4.86,12.65 2.61,10.39 2.61,7.57H4V9.08Z" />
+        </svg>
+        Design Calculations
+      </h3>
+      
+      <div class="calculation-tabs">
+        <div class="tab-buttons">
+          <button class="tab-button active" data-tab="water-demand">Water Demand</button>
+          <button class="tab-button" data-tab="pipe-sizing">Pipe Sizing</button>
+          <button class="tab-button" data-tab="pressure-management">Pressure Management</button>
+        </div>
+        
+        <div class="tab-content active" id="water-demand">
+          <h4>Daily Consumption</h4>
+          <div class="consumption-grid">
+            <div class="consumption-item">
+              <span class="consumption-value">2,017,676 liters</span>
+              <span class="consumption-label">Fresh Water</span>
+            </div>
+            <div class="consumption-item">
+              <span class="consumption-value">597,180 liters</span>
+              <span class="consumption-label">Flush Water</span>
+            </div>
+          </div>
+          <p>Calculated using WSD standard consumption rates per capita with peak demand factors applied.</p>
+        </div>
+        
+        <div class="tab-content" id="pipe-sizing">
+          <h4>Pipe Sizing Methodology</h4>
+          <ul>
+            <li>Loading unit method used (BS EN 12845)</li>
+            <li>Example: Block 1 requires 150mm DI fresh water pipe</li>
+            <li>Velocity maintained between 1.5-2.5 m/s</li>
+            <li>Pressure loss limited to 50 Pa/m for main lines</li>
+          </ul>
+        </div>
+        
+        <div class="tab-content" id="pressure-management">
+          <h4>Pressure Zones</h4>
+          <ul>
+            <li>PRV zoning calculations for each block</li>
+            <li>Static head and flow rate analyses</li>
+            <li>Two-stage PRVs for high incoming pressures</li>
+            <li>Minimum 1.5 bar maintained at highest fixtures</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+
     
     <div class="calculations-intro">
       <p>All hydraulic calculations were performed in accordance with BS EN 12845 and Hong Kong Water Supplies Department requirements. The design accommodates peak demand factors of 3.0 for morning surge periods while maintaining adequate pressure during normal operation.</p>
@@ -328,13 +513,103 @@ importance: 1
       </div>
       {% endfor %}
     </div>
-    </section>
     
     <div class="methodology-conclusion">
       <h3 class="conclusion-title">Design Validation</h3>
       <p>The completed design was validated through hydraulic modeling software (Bentley WaterGEMS) to simulate various demand scenarios. The model confirmed adequate pressure at all fixtures during peak morning demand while maintaining pipe velocities below erosional thresholds during low-flow periods.</p>
     </div>
+  </div>
+  <!-- Recommendations Section -->
+  <section class="project-section recommendations-section">
+    <h2 class="section-header">
+      <span class="section-number">03</span>
+      Recommendations for Improvement
+    </h2>
+    
+    <div class="recommendations-grid">
+      <div class="recommendation-card">
+        <div class="rec-icon">📊</div>
+        <h3>Advanced Monitoring</h3>
+        <ul>
+          <li>Implement wave theory-based diagnostic system for underground pipe monitoring</li>
+          <li>Real-time pressure signal analysis for leak detection</li>
+          <li>Smart metering for consumption tracking</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">🛠️</div>
+        <h3>Material Upgrades</h3>
+        <ul>
+          <li>Replace with cross-lined polyethylene (PEX) or lined GI pipes</li>
+          <li>Use compression joints for copper pipes</li>
+          <li>Corrosion-resistant alloys for seawater systems</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">⚡</div>
+        <h3>Non-negative Pressure System</h3>
+        <ul>
+          <li>Direct connection to mains with variable frequency drives</li>
+          <li>Maintains constant pressure while conserving energy</li>
+          <li>Reduces storage tank requirements</li>
+        </ul>
+      </div>
+    </div>
   </section>
+
+  <!-- Project Reflection Section -->
+  <section class="project-section reflection-section">
+    <h2 class="section-header">
+      <span class="section-number">04</span>
+      Project Reflection
+    </h2>
+    
+    <div class="reflection-content">
+      <div class="reflection-text">
+        <p>The internship provided valuable experience in applying theoretical knowledge to real-world engineering challenges in this large-scale public housing development.</p>
+        
+        <div class="skill-development">
+          <h3>Key Skill Development</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Technical Skills</h4>
+              <ul>
+                <li>AutoCAD MEP system design</li>
+                <li>Hydraulic calculations</li>
+                <li>BIM coordination</li>
+                <li>Pump selection and sizing</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Professional Skills</h4>
+              <ul>
+                <li>Time management</li>
+                <li>Multidisciplinary teamwork</li>
+                <li>Regulatory compliance</li>
+                <li>Technical documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-outcome">
+          <h3>Project Outcome</h3>
+          <p>The project successfully integrated academic learning with practical industry requirements, resulting in a comprehensive plumbing design solution that meets all WSD standards while incorporating innovative features for maintainability and efficiency.</p>
+        </div>
+      </div>
+      
+      <div class="reflection-image">
+        <img src="/assets/img/projects/plumbing_design-5.jpg" 
+             alt="Project Team Working" 
+             class="reflection-img"
+             loading="lazy">
+        <p class="image-caption">Fig 3. Design team reviewing plumbing schematics</p>
+      </div>
+    </div>
+  </section>
+</div>
 
   <!-- Supplementary Information Section -->
   <section class="project-section supplementary-section">
@@ -373,6 +648,10 @@ importance: 1
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+</div>
+
       
       <div class="supplementary-card">
         <h3 class="supplementary-title">Design Team</h3>
