@@ -519,10 +519,51 @@ importance: 1
       <p>The completed design was validated through hydraulic modeling software (Bentley WaterGEMS) to simulate various demand scenarios. The model confirmed adequate pressure at all fixtures during peak morning demand while maintaining pipe velocities below erosional thresholds during low-flow periods.</p>
     </div>
   </div>
+  
+  <!-- Supplementary Information Section -->
+  <section class="project-section supplementary-section">
+    <h2 class="section-header">
+      <span class="section-number">05</span>
+      Supplementary Information
+    </h2>
+    
+    <div class="supplementary-grid">
+      <div class="supplementary-card">
+        <h3 class="supplementary-title">Water Consumption Analysis</h3>
+        <div class="supplementary-image">
+          <img src="/assets/img/projects/plumbing_design-15.jpg" 
+               alt="Water Consumption Analysis" 
+               class="supplementary-img"
+               loading="lazy">
+        </div>
+        <div class="supplementary-content">
+          <p><strong>Daily Consumption:</strong></p>
+          <ul>
+            <li>Fresh water: 2,017,676 liters</li>
+            <li>Flush water: 597,180 liters</li>
+          </ul>
+          <p>Calculated using WSD standard consumption rates with peak demand factors.</p>
+        </div>
+      </div>
+      
+      <div class="supplementary-card">
+        <h3 class="supplementary-title">Pressure Management</h3>
+        <div class="supplementary-content">
+          <ul>
+            <li>PRV zoning calculations for each block</li>
+            <li>Static head and flow rate analyses</li>
+            <li>Two-stage PRVs for high incoming pressures</li>
+            <li>Minimum 1.5 bar maintained at highest fixtures</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- Recommendations Section -->
   <section class="project-section recommendations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">06</span>
       Recommendations for Improvement
     </h2>
     
@@ -562,7 +603,7 @@ importance: 1
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">07</span>
       Project Reflection
     </h2>
     
@@ -606,70 +647,6 @@ importance: 1
              class="reflection-img"
              loading="lazy">
         <p class="image-caption">Fig 3. Design team reviewing plumbing schematics</p>
-      </div>
-    </div>
-  </section>
-</div>
-
-  <!-- Supplementary Information Section -->
-  <section class="project-section supplementary-section">
-    <h2 class="section-header">
-      <span class="section-number">05</span>
-      Supplementary Information
-    </h2>
-    
-    <div class="supplementary-grid">
-      <div class="supplementary-card">
-        <h3 class="supplementary-title">Water Consumption Analysis</h3>
-        <div class="supplementary-image">
-          <img src="/assets/img/projects/plumbing_design-15.jpg" 
-               alt="Water Consumption Analysis" 
-               class="supplementary-img"
-               loading="lazy">
-        </div>
-        <div class="supplementary-content">
-          <p><strong>Daily Consumption:</strong></p>
-          <ul>
-            <li>Fresh water: 2,017,676 liters</li>
-            <li>Flush water: 597,180 liters</li>
-          </ul>
-          <p>Calculated using WSD standard consumption rates with peak demand factors.</p>
-        </div>
-      </div>
-      
-      <div class="supplementary-card">
-        <h3 class="supplementary-title">Pressure Management</h3>
-        <div class="supplementary-content">
-          <ul>
-            <li>PRV zoning calculations for each block</li>
-            <li>Static head and flow rate analyses</li>
-            <li>Two-stage PRVs for high incoming pressures</li>
-            <li>Minimum 1.5 bar maintained at highest fixtures</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-      
-      <div class="supplementary-card">
-        <h3 class="supplementary-title">Design Team</h3>
-        <div class="supplementary-image">
-          <img src="/assets/img/projects/plumbing_design-5.jpg" 
-               alt="Design Team Working" 
-               class="supplementary-img"
-               loading="lazy">
-        </div>
-        <div class="supplementary-content">
-          <p>The plumbing design team included:</p>
-          <ul>
-            <li>2 Lead Plumbing Engineers</li>
-            <li>3 CAD Technicians</li>
-            <li>1 BIM Coordinator</li>
-            <li>1 Hydraulics Specialist</li>
-          </ul>
-        </div>
       </div>
     </div>
   </section>
