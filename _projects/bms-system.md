@@ -547,6 +547,7 @@ demo: # Optional live demo link
 }
 </style>
 
+<style>
 /* Add these new styles to your existing CSS */
 
 .project-context {
@@ -561,3 +562,5 @@ demo: # Optional live demo link
   margin-bottom: 25px;
   line-height: 1.7;
 }
+</style>
+
