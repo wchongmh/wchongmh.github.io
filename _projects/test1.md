@@ -273,7 +273,7 @@ importance: 1
       Pipe Sizing Procedure
     </h3>
     
-    <div class="methodology-steps">
+   <div class="methodology-steps">
       {% for i in (16..21) %}
       <div class="step-item">
         <div class="step-number">Step {{i | minus:15}}</div>
@@ -283,25 +283,11 @@ importance: 1
                class="step-img"
                loading="lazy">
         </div>
-        <div class="step-description">
-          {% case i %}
-            {% when 16 %}
-              <p>Fixture unit tabulation using WSD standard values for public housing</p>
-            {% when 17 %}
-              <p>Demand weight calculation with diversity factors applied</p>
-            {% when 18 %}
-              <p>Preliminary pipe sizing based on flow rate tables</p>
-            {% when 19 %}
-              <p>Velocity verification (target 1.5-2.5 m/s for copper lines)</p>
-            {% when 20 %}
-              <p>Pressure loss calculation using Hazen-Williams equation</p>
-            {% when 21 %}
-              <p>Final adjustment to maintain minimum 1.5 bar at highest fixture</p>
-          {% endcase %}
-        </div>
       </div>
       {% endfor %}
     </div>
+  </section>
+</div>
     
     <div class="methodology-conclusion">
       <h3 class="conclusion-title">Design Validation</h3>
