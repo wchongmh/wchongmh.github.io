@@ -286,8 +286,7 @@ importance: 1
       </div>
       {% endfor %}
     </div>
-  </section>
-</div>
+    </section>
     
     <div class="methodology-conclusion">
       <h3 class="conclusion-title">Design Validation</h3>
