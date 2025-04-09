@@ -74,7 +74,14 @@ The study employed a multi-dimensional analytical approach:
 **PV System Parameters:**  
 - Panel tilt angles optimized for latitude (55.86°N).  
 - Azimuth adjustments for each building.  
-- Temperature derating factors.  
+- Temperature derating factors.
+
+**Energy Simulation:**  
+- Utilized HelioScope and PVsyst software  
+- Incorporated Glasgow-specific climate data:  
+  - Average solar irradiance: 2.8 kWh/m²/day  
+  - Annual sunlight hours: ≈1,100  
+  - Temperature and cloud cover patterns 
 
 **Validation Methods:**  
 - Comparison with existing university installations.  
@@ -84,7 +91,7 @@ The study employed a multi-dimensional analytical approach:
 | **University**               | **PV Capacity** | **Key Findings**                          |  
 |-----------------------------|----------------|------------------------------------------|  
 | **UC Davis (USA)**          | 16 MW          | Saves **$1.35M/year**, reduces **14,000 tonnes CO₂/year**. |  
-| **University of Queensland** | 3.275 MW       | Generates **6.3M kWh/year**, used for research. |  
+| **University of Queensland (Australia)** | 3.275 MW       | Generates **6.3M kWh/year**, used for research. |  
 
 ### 2.1 Building-Specific Assessments
 | Building            | Roof Area (m²) | Suitable Area (m²) | Orientation | Shading Impact | Structural Load (kN/m²) |
@@ -99,11 +106,6 @@ The study employed a multi-dimensional analytical approach:
 - Recommended reinforcement for 3 buildings (total cost: £48,000)
 
 ### 2.2 System Design Specifications
-**PV Array Configuration:**
-- Panel Type: REC Alpha Pure-R 420W bifacial
-- System Size: 1.04MW (2,476 panels)
-- Inverters: 12x SolarEdge SE82.8K (3-phase)
-- Mounting: Schletter FLATTOP system (tilt: 25°)
 
 **Performance Simulation (PVsyst):**
 | Parameter          | Annual Value     |
@@ -121,7 +123,8 @@ The study employed a multi-dimensional analytical approach:
   | **Building**         | **Installable Area** | **Annual Output** | **CO₂ Reduction** |  
   |----------------------|----------------------|-------------------|-------------------|  
   | William Harley       | 700 m²               | 112,000 kWh       | 42 tonnes         |  
-  | Saltire Centre       | 600 m²               | 96,000 kWh        | 36 tonnes         |  
+  | Saltire Centre       | 600 m²               | 96,000 kWh        | 36 tonnes         |
+  | Britannia            | 450 m²               | 72,000 kWh        | 27 tonnes         |  
 
 **Challenges:**  
 - Shading (up to 23% energy loss).  
@@ -168,7 +171,15 @@ The study employed a multi-dimensional analytical approach:
 
 
 #### **3.5 Optimal Technology**  
-**Recommended Panel:** REC Alpha Pure-R (21.8% efficiency, £470/panel).  
+**PV Array Configuration:**
+- Panel Type: Jinko Solar Tiger Neo
+- System Size: 1.04MW (2,476 panels)
+- Inverters: 12x SolarEdge SE82.8K (3-phase)
+- Mounting: Schletter FLATTOP system (tilt: 25°)
+- Compared **5 high-efficiency monocrystalline panels** (SunPower, REC, Panasonic, Maxeon, Jinko).
+ 
+- **Recommended Panel**: Jinko Solar Tiger Neo (lowest initial investment cost (£10,032) and the shortest payback period (5.73 years))
+- **Runner-Up**: REC Alpha Pure-R (21.8% efficiency, £470/panel).  
 
 ---
 
