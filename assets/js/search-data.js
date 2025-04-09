@@ -453,6 +453,11 @@ ninja.data = [{
           description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gcu-solar/";
+            },},{id: "projects-rooftop-solar-potential-glasgow-caledonian-university",
+          title: 'Rooftop Solar Potential - Glasgow Caledonian University',
+          description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pv/";
             },},{id: "projects-public-housing-plumbing-systems-queen-39-s-hill-development",
           title: 'Public Housing Plumbing Systems - Queen&amp;#39;s Hill Development',
           description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics.",
