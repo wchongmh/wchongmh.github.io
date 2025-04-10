@@ -1,0 +1,607 @@
+---
+title: "Rooftop Solar Potential - Glasgow Caledonian University"
+category: Research
+description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period."
+tech: [PVsyst, HelioScope, AutoCAD, SolarGIS, Financial Modeling, Carbon Accounting]
+image: /assets/img/projects/plumbing_design-1.jpg
+importance: 1
+---
+
+<!-- DOCTYPE html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooftop Solar Potential - Glasgow Caledonian University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .tech-item {
+            background-color: #e8f4fc;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .highlight {
+            background-color: #fffde7;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rooftop Solar Potential - Glasgow Caledonian University</h1>
+        <p><strong>Category:</strong> Research</p>
+        <p><strong>Description:</strong> Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.</p>
+        
+        <div class="tech-list">
+            <span class="tech-item">PVsyst</span>
+            <span class="tech-item">HelioScope</span>
+            <span class="tech-item">AutoCAD</span>
+            <span class="tech-item">SolarGIS</span>
+            <span class="tech-item">Financial Modeling</span>
+            <span class="tech-item">Carbon Accounting</span>
+        </div>
+        
+        <div class="image-container">
+            <img src="/assets/img/projects/plumbing_design-1.jpg" alt="Solar PV System Design">
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus</h2>
+            
+            <h3>Executive Summary</h3>
+            <p><strong>Core Proposition:</strong> Installation of 1.04MW distributed solar PV system across 12 campus buildings, delivering:</p>
+            <ul>
+                <li><strong>Annual Generation:</strong> 824,500 kWh (12% of campus demand)</li>
+                <li><strong>Carbon Reduction:</strong> 317 tonnes CO₂e/year</li>
+                <li><strong>Financial Metrics:</strong>
+                    <ul>
+                        <li>CAPEX: £1.18 million</li>
+                        <li>Payback Period: 8.3 years</li>
+                        <li>25-year NPV: £2.1 million (IRR 14.2%)</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <p><strong>Key Differentiators:</strong></p>
+            <ul>
+                <li>Hybrid mounting systems for curved roofs</li>
+                <li>IoT-enabled performance monitoring</li>
+                <li>Integrated curriculum development</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>1. Introduction and Contextual Background</h3>
+            <p>The research addresses the growing importance of renewable energy adoption in higher education institutions, focusing on Glasgow Caledonian University's potential for rooftop solar photovoltaic (PV) installations.</p>
+            
+            <p><strong>Key Motivations:</strong></p>
+            <ul>
+                <li>Universities consume energy comparable to small cities, making them ideal for sustainable energy projects.</li>
+                <li>Scotland aims for 4-6 GW of solar capacity by 2030, creating opportunities for institutional participation.</li>
+                <li>GCU has demonstrated leadership through its EcoCampus Platinum certification and renewable energy initiatives.</li>
+            </ul>
+            
+            <p><strong>Research Objectives:</strong></p>
+            <ol>
+                <li>Evaluate the technical feasibility of rooftop PV systems across GCU's campus buildings.</li>
+                <li>Identify optimal panel placement considering structural and environmental factors.</li>
+                <li>Analyze economic viability through cost-benefit projections.</li>
+                <li>Develop implementation recommendations aligned with GCU's sustainability strategy.</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h3>2. Methodology and Approach</h3>
+            
+            <h4>2.1 Technical Assessment Framework</h4>
+            <p>The study employed a multi-dimensional analytical approach:</p>
+            
+            <p><strong>Building Selection Criteria:</strong></p>
+            <ul>
+                <li>Roof area > 400m²</li>
+                <li>Structural integrity assessments</li>
+                <li>Orientation and shading analysis</li>
+                <li>Energy consumption patterns</li>
+            </ul>
+            
+            <p><strong>Data Collection Methods:</strong></p>
+            <ol>
+                <li><strong>Geospatial Analysis:</strong>
+                    <ul>
+                        <li>High-resolution satellite imagery (Google Earth Pro)</li>
+                        <li>LiDAR data for 3D modeling</li>
+                        <li>On-site photographic surveys</li>
+                    </ul>
+                </li>
+                <li><strong>Climate Data Integration:</strong>
+                    <ul>
+                        <li>NASA POWER dataset (2001-2020)</li>
+                        <li>Met Office historical weather patterns</li>
+                        <li>Solar irradiance models (PVGIS)</li>
+                    </ul>
+                </li>
+                <li><strong>Structural Evaluation:</strong>
+                    <ul>
+                        <li>Roof load capacity assessments</li>
+                        <li>Wind load calculations (BS EN 1991-1-4)</li>
+                        <li>Snow load analysis (Scottish building standards)</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <p><strong>Software Tools:</strong></p>
+            <ul>
+                <li><strong>HelioScope:</strong> Shading analysis, module-level energy yield predictions.</li>
+                <li><strong>PVsyst:</strong> Hourly performance simulation, economic modeling.</li>
+                <li><strong>AutoCAD:</strong> Precise rooftop layouts and system schematics.</li>
+            </ul>
+            
+            <h4>2.2 Energy Modeling Approach</h4>
+            <p><strong>PV System Parameters:</strong></p>
+            <ul>
+                <li>Panel tilt angles optimized for latitude (55.86°N).</li>
+                <li>Azimuth adjustments for each building.</li>
+                <li>Temperature derating factors.</li>
+            </ul>
+            
+            <p><strong>Energy Simulation:</strong></p>
+            <ul>
+                <li>Utilized HelioScope and PVsyst software</li>
+                <li>Incorporated Glasgow-specific climate data:
+                    <ul>
+                        <li>Average solar irradiance: 2.8 kWh/m²/day</li>
+                        <li>Annual sunlight hours: ≈1,100</li>
+                        <li>Temperature and cloud cover patterns</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <p><strong>Validation Methods:</strong></p>
+            <ul>
+                <li>Comparison with existing university installations.</li>
+                <li>Sensitivity analysis for key variables.</li>
+            </ul>
+            
+            <h4>Case Studies from Other Universities</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>University</th>
+                        <th>PV Capacity</th>
+                        <th>Key Findings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>UC Davis (USA)</strong></td>
+                        <td>16 MW</td>
+                        <td>Saves <strong>$1.35M/year</strong>, reduces <strong>14,000 tonnes CO₂/year</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>University of Queensland (Australia)</strong></td>
+                        <td>3.275 MW</td>
+                        <td>Generates <strong>6.3M kWh/year</strong>, used for research.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>2.1 Building-Specific Assessments</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Building</th>
+                        <th>Roof Area (m²)</th>
+                        <th>Suitable Area (m²)</th>
+                        <th>Orientation</th>
+                        <th>Shading Impact</th>
+                        <th>Structural Load (kN/m²)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>William Harley</td>
+                        <td>2,850</td>
+                        <td>1,700</td>
+                        <td>172° SSE</td>
+                        <td>Low (8%)</td>
+                        <td>3.5</td>
+                    </tr>
+                    <tr>
+                        <td>Saltire Centre</td>
+                        <td>1,920</td>
+                        <td>1,150</td>
+                        <td>Mixed</td>
+                        <td>Moderate (15%)</td>
+                        <td>2.8</td>
+                    </tr>
+                    <tr>
+                        <td>Arc Health</td>
+                        <td>1,430</td>
+                        <td>860</td>
+                        <td>85° ENE</td>
+                        <td>High (22%)</td>
+                        <td>3.2</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><strong>Structural Analysis:</strong></p>
+            <ul>
+                <li>All roofs meet BS EN 1991-1-4 wind load requirements</li>
+                <li>Snow load capacity exceeds Scottish 50-year maximum (1.2 kN/m²)</li>
+                <li>Recommended reinforcement for 3 buildings (total cost: £48,000)</li>
+            </ul>
+            
+            <h4>2.2 System Design Specifications</h4>
+            <p><strong>Performance Simulation (PVsyst):</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Annual Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Specific Yield</td>
+                        <td>892 kWh/kWp</td>
+                    </tr>
+                    <tr>
+                        <td>Performance Ratio</td>
+                        <td>82.3%</td>
+                    </tr>
+                    <tr>
+                        <td>System Losses</td>
+                        <td>17.7% (including 4.2% soiling)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h3>3. Key Findings and Analysis</h3>
+            
+            <h4>3.1 Technical Feasibility</h4>
+            <ul>
+                <li><strong>Total Potential:</strong> ~1 MW solar capacity across 12 buildings.</li>
+            </ul>
+            
+            <p><strong>Top-Performing Buildings:</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Building</th>
+                        <th>Installable Area</th>
+                        <th>Annual Output</th>
+                        <th>CO₂ Reduction</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>William Harley</td>
+                        <td>700 m²</td>
+                        <td>112,000 kWh</td>
+                        <td>42 tonnes</td>
+                    </tr>
+                    <tr>
+                        <td>Saltire Centre</td>
+                        <td>600 m²</td>
+                        <td>96,000 kWh</td>
+                        <td>36 tonnes</td>
+                    </tr>
+                    <tr>
+                        <td>Britannia</td>
+                        <td>450 m²</td>
+                        <td>72,000 kWh</td>
+                        <td>27 tonnes</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><strong>Challenges:</strong></p>
+            <ul>
+                <li>Shading (up to 23% energy loss).</li>
+                <li>Seasonal variability (winter output: 0.8 kWh/kWp/day vs. summer: 5.1 kWh/kWp/day).</li>
+            </ul>
+            
+            <h4>3.2 Financial Viability</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Factor</th>
+                        <th>Estimate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Installation Cost</td>
+                        <td>£1.2M (for 1 MW system)</td>
+                    </tr>
+                    <tr>
+                        <td>Payback Period</td>
+                        <td>7–10 years</td>
+                    </tr>
+                    <tr>
+                        <td>25-year ROI</td>
+                        <td>12–15%</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><strong>Revenue Streams:</strong></p>
+            <ul>
+                <li>Smart Export Guarantee (SEG): £0.03–£0.15/kWh exported.</li>
+                <li>REGO certificates: £2/MWh.</li>
+            </ul>
+            
+            <h4>3.3 Capital Expenditure Breakdown</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Cost (£)</th>
+                        <th>% of Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PV Modules</td>
+                        <td>642,000</td>
+                        <td>54.4%</td>
+                    </tr>
+                    <tr>
+                        <td>Inverters</td>
+                        <td>118,000</td>
+                        <td>10.0%</td>
+                    </tr>
+                    <tr>
+                        <td>Mounting Systems</td>
+                        <td>212,000</td>
+                        <td>18.0%</td>
+                    </tr>
+                    <tr>
+                        <td>Electrical</td>
+                        <td>98,000</td>
+                        <td>8.3%</td>
+                    </tr>
+                    <tr>
+                        <td>Installation</td>
+                        <td>110,000</td>
+                        <td>9.3%</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><strong>Funding Sources:</strong></p>
+            <ul>
+                <li>Scottish Government CARES Grant: £275,000</li>
+                <li>Salix Finance: £150,000</li>
+                <li>University Capital Budget: £755,000</li>
+            </ul>
+            
+            <h4>3.4 Operational Economics</h4>
+            <p><strong>Annual Financial Flows:</strong></p>
+            <ul>
+                <li>Electricity Savings: £230,860 (824,500 kWh @ £0.28/kWh)</li>
+                <li>SEG Revenue: £41,225 (50% export @ £0.10/kWh)</li>
+                <li>O&M Costs: £18,500 (1.5% of CAPEX)</li>
+            </ul>
+            
+            <p><strong>Financial Metrics:</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Simple Payback</td>
+                        <td>8.3 years</td>
+                    </tr>
+                    <tr>
+                        <td>25-year NPV</td>
+                        <td>£2.1 million</td>
+                    </tr>
+                    <tr>
+                        <td>Levelized Cost</td>
+                        <td>£0.087/kWh</td>
+                    </tr>
+                    <tr>
+                        <td>Internal Rate Return</td>
+                        <td>14.2%</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>3.5 Optimal Technology</h4>
+            <p><strong>PV Array Configuration:</strong></p>
+            <ul>
+                <li>Panel Type: Jinko Solar Tiger Neo</li>
+                <li>System Size: 1.04MW (2,476 panels)</li>
+                <li>Inverters: 12x SolarEdge SE82.8K (3-phase)</li>
+                <li>Mounting: Schletter FLATTOP system (tilt: 25°)</li>
+                <li>Compared <strong>5 high-efficiency monocrystalline panels</strong> (SunPower, REC, Panasonic, Maxeon, Jinko).</li>
+            </ul>
+            
+            <ul>
+                <li><strong>Recommended Panel:</strong> Jinko Solar Tiger Neo (lowest initial investment cost (£10,032) and the shortest payback period (5.73 years))</li>
+                <li><strong>Runner-Up:</strong> REC Alpha Pure-R (21.8% efficiency, £470/panel).</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>4. Implementation Roadmap</h3>
+            
+            <h4>4.1 Phased Deployment Schedule</h4>
+            <p><strong>Phase 1 (Months 1-12):</strong></p>
+            <ul>
+                <li>Buildings: William Harley (700kW), Saltire Centre (150kW)</li>
+                <li>Key Activities:
+                    <ul>
+                        <li>Structural reinforcement</li>
+                        <li>Grid connection upgrade (G99 application)</li>
+                        <li>SCADA system installation</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <p><strong>Phase 2 (Year 2):</strong></p>
+            <ul>
+                <li>Buildings: Arc Health (120kW), Britannia (70kW)</li>
+                <li>Innovations:
+                    <ul>
+                        <li>Battery storage (200kWh Tesla Powerpack)</li>
+                        <li>Demand response integration</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h4>4.2 Risk Mitigation Strategies</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Risk Category</th>
+                        <th>Mitigation Approach</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shading Losses</td>
+                        <td>Module-level optimizers (SolarEdge HD-Wave)</td>
+                    </tr>
+                    <tr>
+                        <td>Grid Constraints</td>
+                        <td>On-site consumption optimization algorithm</td>
+                    </tr>
+                    <tr>
+                        <td>Policy Changes</td>
+                        <td>10-year SEG price floor agreement</td>
+                    </tr>
+                    <tr>
+                        <td>Maintenance Risks</td>
+                        <td>15-year O&M contract with performance guarantees</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h3>5. Conclusion and Future Outlook</h3>
+            <p><strong>Key Outcomes:</strong></p>
+            <ul>
+                <li><strong>Annual Energy Generation:</strong> 824,500 kWh (~10% of campus demand).</li>
+                <li><strong>Carbon Reduction:</strong> 300 tonnes CO₂/year.</li>
+                <li><strong>Financial Savings:</strong> £3.5M over 25 years.</li>
+            </ul>
+            
+            <p><strong>Future Directions:</strong></p>
+            <ul>
+                <li>Hybrid systems (solar + hydrogen storage).</li>
+                <li>AI-driven energy management.</li>
+            </ul>
+            
+            <h4>5.1 Curriculum Development</h4>
+            <p><strong>Hands-on Learning Initiatives:</strong></p>
+            <ul>
+                <li><strong>Renewable Energy Laboratory:</strong>
+                    <ul>
+                        <li>Real-world dataset integration from the PV system for engineering courses</li>
+                        <li>Comparative analysis of panel performance (Jinko vs. REC vs. SunPower)</li>
+                        <li>Shading impact studies using collected irradiance data</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <p><strong>New Course Modules:</strong></p>
+            <ul>
+                <li><strong>"Solar PV Systems in Northern Climates":</strong>
+                    <ul>
+                        <li>Case studies using GCU's installation</li>
+                        <li>Field measurements vs. PVsyst simulation comparisons</li>
+                        <li>Financial modeling exercises based on project data</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h4>5.2 Student Research Projects</h4>
+            <p><strong>Proposed Topics:</strong></p>
+            <ol>
+                <li><strong>Performance Optimization:</strong>
+                    <ul>
+                        <li>Analysis of seasonal variation (0.8 kWh/kWp/day winter vs. 5.1 kWh/kWp/day summer)</li>
+                        <li>Validation of HelioScope predictions against actual output</li>
+                    </ul>
+                </li>
+                <li><strong>Technology Comparison:</strong>
+                    <ul>
+                        <li>Efficiency degradation rates of monocrystalline panels in Scottish climate</li>
+                        <li>Cost-benefit analysis of bifacial panels for curved roofs (Saltire Centre)</li>
+                    </ul>
+                </li>
+                <li><strong>Energy Economics:</strong>
+                    <ul>
+                        <li>Impact of SEG tariffs (£0.03-£0.15/kWh) on project ROI</li>
+                        <li>Sensitivity analysis of payback period to electricity price fluctuations</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
