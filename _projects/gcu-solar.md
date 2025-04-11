@@ -3,7 +3,7 @@ title: "Rooftop Solar Potential - Glasgow Caledonian University"
 category: Research
 description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period."
 tech: [PVsyst, HelioScope, AutoCAD, SolarGIS, Financial Modeling, Carbon Accounting]
-image: /assets/img/projects/fyp/pv_design-000.png
+image: /assets/img/projects/fyp/pv_design-0.png
 importance: 1
 ---
 
@@ -1677,7 +1677,517 @@ importance: 1
             </div>
         </div>
 
-        <!-- Continue with all other building sections following the same pattern -->
+        <!-- Centre for Executive Education -->
+<div class="building-section">
+    <h4>Centre for Executive Education</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-114.png" alt="HelioScope PV Panel Design arrangement for Centre for Executive Education" class="project-image">
+            <div class="image-caption">HelioScope Panel Layout</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-115.png" alt="HelioScope PV Panel Annual Production Data for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Annual Production Forecast</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-116.png" alt="HelioScope PV Panel Annual Production Data for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Monthly Production Breakdown</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-117.png" alt="HelioScope PV Panel Shading Analyze Data for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Shading Analysis Overview</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-118.png" alt="HelioScope PV Panel Shading Analyze Data for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Shading Impact Details</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-119.png" alt="PVsyst simulation interface for Centre for Executive Education" class="project-image">
+            <div class="image-caption">PVsyst Simulation Setup</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-120.png" alt="PVsyst simulation summary for Centre for Executive Education" class="project-image">
+            <div class="image-caption">PVsyst Performance Summary</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-121.png" alt="PVsyst simulation parameters for Centre for Executive Education" class="project-image">
+            <div class="image-caption">System Configuration</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-122.png" alt="PVsyst simulation parameters for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Detailed Parameters</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-123.png" alt="PVsyst simulation main results for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Simulation Results</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-124.png" alt="PVsyst simulation loss diagram for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Energy Loss Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-125.png" alt="PVsyst simulation System Production Data for Centre for Executive Education" class="project-image">
+            <div class="image-caption">Production Data</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-100.png" alt="Centre for Executive Education Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Technical Specifications</div>
+        </div>
+    </div>
+</div>
+
+<!-- Charles Oakley Laboratories -->
+<div class="building-section">
+    <h4>Charles Oakley Laboratories</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-126.png" alt="HelioScope PV Panel Design arrangement for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Panel Array Layout</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-127.png" alt="HelioScope PV Panel Annual Production Data for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Annual Energy Yield</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-128.png" alt="HelioScope PV Panel Annual Production Data for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Seasonal Performance</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-129.png" alt="HelioScope PV Panel Shading Analyze Data for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Shading Simulation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-130.png" alt="HelioScope PV Panel Shading Analyze Data for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Shading Mitigation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-131.png" alt="PVsyst simulation interface for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">PVsyst Model Setup</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-132.png" alt="PVsyst simulation summary for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">System Performance</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-133.png" alt="PVsyst simulation parameters for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Technical Parameters</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-134.png" alt="PVsyst simulation parameters for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Component Specifications</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-135.png" alt="PVsyst simulation main results for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Simulation Output</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-136.png" alt="PVsyst simulation loss diagram for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Energy Loss Breakdown</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-137.png" alt="PVsyst simulation System Production Data for Charles Oakley Laboratories" class="project-image">
+            <div class="image-caption">Production Forecast</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-101.png" alt="Charles Oakley Laboratories Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Design Documentation</div>
+        </div>
+    </div>
+</div>
+
+<!-- George Moore Building -->
+<div class="building-section">
+    <h4>George Moore Building</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-138.png" alt="HelioScope PV Panel Design arrangement for George Moore Building" class="project-image">
+            <div class="image-caption">Roof Layout Design</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-139.png" alt="HelioScope PV Panel Annual Production Data for George Moore Building" class="project-image">
+            <div class="image-caption">Annual Generation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-140.png" alt="HelioScope PV Panel Annual Production Data for George Moore Building" class="project-image">
+            <div class="image-caption">Monthly Performance</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-141.png" alt="HelioScope PV Panel Shading Analyze Data for George Moore Building" class="project-image">
+            <div class="image-caption">Shading Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-142.png" alt="HelioScope PV Panel Shading Analyze Data for George Moore Building" class="project-image">
+            <div class="image-caption">Shading Impact</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-143.png" alt="PVsyst simulation interface for George Moore Building" class="project-image">
+            <div class="image-caption">PVsyst Interface</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-144.png" alt="PVsyst simulation summary for George Moore Building" class="project-image">
+            <div class="image-caption">Performance Summary</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-145.png" alt="PVsyst simulation parameters for George Moore Building" class="project-image">
+            <div class="image-caption">System Parameters</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-146.png" alt="PVsyst simulation parameters for George Moore Building" class="project-image">
+            <div class="image-caption">Detailed Settings</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-147.png" alt="PVsyst simulation main results for George Moore Building" class="project-image">
+            <div class="image-caption">Simulation Results</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-148.png" alt="PVsyst simulation loss diagram for George Moore Building" class="project-image">
+            <div class="image-caption">Loss Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-149.png" alt="PVsyst simulation System Production Data for George Moore Building" class="project-image">
+            <div class="image-caption">Energy Production</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-102.png" alt="George Moore Building Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Technical Drawings</div>
+        </div>
+    </div>
+</div>
+
+<!-- Govan Mbeki Building -->
+<div class="building-section">
+    <h4>Govan Mbeki Building</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-150.png" alt="HelioScope PV Panel Design arrangement for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Panel Array Configuration</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-151.png" alt="HelioScope PV Panel Annual Production Data for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Annual Output</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-152.png" alt="HelioScope PV Panel Annual Production Data for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Performance Metrics</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-153.png" alt="HelioScope PV Panel Shading Analyze Data for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Shading Simulation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-154.png" alt="HelioScope PV Panel Shading Analyze Data for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Shading Solutions</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-155.png" alt="PVsyst simulation interface for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">PVsyst Model</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-156.png" alt="PVsyst simulation summary for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">System Summary</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-157.png" alt="PVsyst simulation parameters for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Technical Setup</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-158.png" alt="PVsyst simulation parameters for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Component Details</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-159.png" alt="PVsyst simulation main results for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Simulation Output</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-160.png" alt="PVsyst simulation loss diagram for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Energy Loss Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-161.png" alt="PVsyst simulation System Production Data for Govan Mbeki Building" class="project-image">
+            <div class="image-caption">Production Data</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-103.png" alt="Govan Mbeki Building Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Design Specifications</div>
+        </div>
+    </div>
+</div>
+
+<!-- Hamish Wood Building -->
+<div class="building-section">
+    <h4>Hamish Wood Building</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-162.png" alt="HelioScope PV Panel Design arrangement for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Panel Layout Design</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-163.png" alt="HelioScope PV Panel Annual Production Data for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Annual Production</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-164.png" alt="HelioScope PV Panel Annual Production Data for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Seasonal Variation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-165.png" alt="HelioScope PV Panel Shading Analyze Data for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Shading Impact</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-166.png" alt="HelioScope PV Panel Shading Analyze Data for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Shading Mitigation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-167.png" alt="PVsyst simulation interface for Hamish Wood Building" class="project-image">
+            <div class="image-caption">PVsyst Interface</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-168.png" alt="PVsyst simulation summary for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Performance Summary</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-169.png" alt="PVsyst simulation parameters for Hamish Wood Building" class="project-image">
+            <div class="image-caption">System Parameters</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-170.png" alt="PVsyst simulation parameters for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Detailed Configuration</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-171.png" alt="PVsyst simulation main results for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Simulation Results</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-172.png" alt="PVsyst simulation loss diagram for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Energy Loss Breakdown</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-173.png" alt="PVsyst simulation System Production Data for Hamish Wood Building" class="project-image">
+            <div class="image-caption">Production Forecast</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-104.png" alt="Hamish Wood Building Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Technical Documentation</div>
+        </div>
+    </div>
+</div>
+
+<!-- Milton Street -->
+<div class="building-section">
+    <h4>Milton Street</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-174.png" alt="HelioScope PV Panel Design arrangement for Milton Street Building" class="project-image">
+            <div class="image-caption">Panel Array Design</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-175.png" alt="HelioScope PV Panel Annual Production Data for Milton Street Building" class="project-image">
+            <div class="image-caption">Annual Energy Yield</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-176.png" alt="HelioScope PV Panel Annual Production Data for Milton Street Building" class="project-image">
+            <div class="image-caption">Monthly Performance</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-177.png" alt="HelioScope PV Panel Shading Analyze Data for Milton Street Building" class="project-image">
+            <div class="image-caption">Shading Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-178.png" alt="HelioScope PV Panel Shading Analyze Data for Milton Street Building" class="project-image">
+            <div class="image-caption">Shading Solutions</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-179.png" alt="PVsyst simulation interface for Milton Street Building" class="project-image">
+            <div class="image-caption">PVsyst Model Setup</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-180.png" alt="PVsyst simulation summary for Milton Street Building" class="project-image">
+            <div class="image-caption">System Performance</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-181.png" alt="PVsyst simulation parameters for Milton Street Building" class="project-image">
+            <div class="image-caption">Technical Parameters</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-182.png" alt="PVsyst simulation parameters for Milton Street Building" class="project-image">
+            <div class="image-caption">Component Details</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-183.png" alt="PVsyst simulation main results for Milton Street Building" class="project-image">
+            <div class="image-caption">Simulation Results</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-184.png" alt="PVsyst simulation loss diagram for Milton Street Building" class="project-image">
+            <div class="image-caption">Energy Loss Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-185.png" alt="PVsyst simulation System Production Data for Milton Street Building" class="project-image">
+            <div class="image-caption">Production Data</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-105.png" alt="Milton Street Building Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Design Specifications</div>
+        </div>
+    </div>
+</div>
+
+<!-- Students' Association -->
+<div class="building-section">
+    <h4>Students' Association</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-186.png" alt="HelioScope PV Panel Design arrangement for Students' Association Building" class="project-image">
+            <div class="image-caption">Panel Layout</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-187.png" alt="HelioScope PV Panel Annual Production Data for Students' Association Building" class="project-image">
+            <div class="image-caption">Annual Generation</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-188.png" alt="HelioScope PV Panel Annual Production Data for Students' Association Building" class="project-image">
+            <div class="image-caption">Seasonal Performance</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-189.png" alt="HelioScope PV Panel Shading Analyze Data for Students' Association Building" class="project-image">
+            <div class="image-caption">Shading Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-190.png" alt="HelioScope PV Panel Shading Analyze Data for Students' Association Building" class="project-image">
+            <div class="image-caption">Shading Impact</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-191.png" alt="PVsyst simulation interface for Students' Association Building" class="project-image">
+            <div class="image-caption">PVsyst Interface</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-192.png" alt="PVsyst simulation summary for Students' Association Building" class="project-image">
+            <div class="image-caption">Performance Summary</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-193.png" alt="PVsyst simulation parameters for Students' Association Building" class="project-image">
+            <div class="image-caption">System Parameters</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-194.png" alt="PVsyst simulation parameters for Students' Association Building" class="project-image">
+            <div class="image-caption">Detailed Configuration</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-195.png" alt="PVsyst simulation main results for Students' Association Building" class="project-image">
+            <div class="image-caption">Simulation Results</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-196.png" alt="PVsyst simulation loss diagram for Students' Association Building" class="project-image">
+            <div class="image-caption">Energy Loss Breakdown</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-197.png" alt="PVsyst simulation System Production Data for Students' Association Building" class="project-image">
+            <div class="image-caption">Production Forecast</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-106.png" alt="Students' Association Building Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Technical Drawings</div>
+        </div>
+    </div>
+</div>
+
+<!-- The Saltire Centre -->
+        <div class="building-section">
+            <h4>The Saltire Centre</h4>
+            <div class="image-grid">
+                <img src="/assets/img/projects/fyp/pv_design-54.png" alt="HelioScope PV Panel Design arrangement for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-55.png" alt="HelioScope PV Panel Annual Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-56.png" alt="HelioScope PV Panel Annual Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-57.png" alt="HelioScope PV Panel Shading Analyze Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-58.png" alt="HelioScope PV Panel Shading Analyze Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-59.png" alt="PVsyst simulation interface for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-60.png" alt="PVsyst simulation summary for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-61.png" alt="PVsyst simulation parameters for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-62.png" alt="PVsyst simulation parameters for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-63.png" alt="PVsyst simulation main results for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-64.png" alt="PVsyst simulation loss diagram for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-65.png" alt="PVsyst simulation System Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-80.png" alt="The Saltire Centre Design Specifications Diagram">
+            </div>
+        </div>
+
+        <!-- William Harley -->
+        <div class="building-section">
+            <h4>William Harley Building</h4>
+            <div class="image-grid">
+                <img src="/assets/img/projects/fyp/pv_design-66.png" alt="HelioScope PV Panel Design arrangement for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-67.png" alt="HelioScope PV Panel Annual Production Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-68.png" alt="HelioScope PV Panel Annual Production Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-69.png" alt="HelioScope PV Panel Shading Analyze Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-70.png" alt="HelioScope PV Panel Shading Analyze Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-71.png" alt="PVsyst simulation interface for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-72.png" alt="PVsyst simulation summary for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-73.png" alt="PVsyst simulation parameters for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-74.png" alt="PVsyst simulation parameters for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-75.png" alt="PVsyst simulation main results for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-76.png" alt="PVsyst simulation loss diagram for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-77.png" alt="PVsyst simulation System Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-81.png" alt="William Harley Building Design Specifications Diagram">
+            </div>
+        </div>
+
+<!-- Annie Lennox -->
+<div class="building-section">
+    <h4>Annie Lennox</h4>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-198.png" alt="HelioScope PV Panel Design arrangement for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Panel Array Design</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-199.png" alt="HelioScope PV Panel Annual Production Data for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Annual Production</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-200.png" alt="HelioScope PV Panel Annual Production Data for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Performance Metrics</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-201.png" alt="HelioScope PV Panel Shading Analyze Data for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Shading Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-202.png" alt="HelioScope PV Panel Shading Analyze Data for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Shading Solutions</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-203.png" alt="PVsyst simulation interface for Annie Lennox Building" class="project-image">
+            <div class="image-caption">PVsyst Model</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-204.png" alt="PVsyst simulation summary for Annie Lennox Building" class="project-image">
+            <div class="image-caption">System Summary</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-205.png" alt="PVsyst simulation parameters for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Technical Setup</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-206.png" alt="PVsyst simulation parameters for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Component Details</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-207.png" alt="PVsyst simulation main results for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Simulation Output</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-208.png" alt="PVsyst simulation loss diagram for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Energy Loss Analysis</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-209.png" alt="PVsyst simulation System Production Data for Annie Lennox Building" class="project-image">
+            <div class="image-caption">Production Data</div>
+        </div>
+        <div class="image-card">
+            <img src="/assets/img/projects/fyp/pv_design-107.png" alt="Annie Lennox Building Design Specifications Diagram" class="project-image">
+            <div class="image-caption">Design Specifications</div>
+        </div>
+    </div>
+</div>
 
     </div>
 
