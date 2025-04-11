@@ -3,7 +3,7 @@ title: "Rooftop Solar Potential - Glasgow Caledonian University"
 category: Research
 description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period."
 tech: [PVsyst, HelioScope, AutoCAD, SolarGIS, Financial Modeling, Carbon Accounting]
-image: /assets/img/projects/plumbing_design-1.jpg
+image: /assets/img/projects/fyp/pv_design-000.png
 importance: 1
 ---
 <!-- DOCTYPE html -->
@@ -293,7 +293,6 @@ importance: 1
             <span class="tech-item">Financial Modeling</span>
             <span class="tech-item">Carbon Accounting</span>
         </div>
-        <img src="/assets/img/projects/fyp/pv_design-0.png" alt="PV System Design at GCU Campus" class="project-image">
         <img src="/assets/img/projects/fyp/pv_design-1.png" alt="Satellite imagery analysis for PV panel installations at Glasgow Caledonian University" class="project-image">
     </header>
 
@@ -716,14 +715,6 @@ importance: 1
                 <img src="/assets/img/projects/fyp/pv_design-4.png" alt="Britannia Building Plan View">
                 <img src="/assets/img/projects/fyp/pv_design-5.png" alt="Britannia Building 3D View">
                 
-                <!-- The Saltire Centre -->
-                <img src="/assets/img/projects/fyp/pv_design-6.png" alt="The Saltire Centre Plan View">
-                <img src="/assets/img/projects/fyp/pv_design-7.png" alt="The Saltire Centre 3D View">
-                
-                <!-- William Harley -->
-                <img src="/assets/img/projects/fyp/pv_design-8.png" alt="William Harley Plan View">
-                <img src="/assets/img/projects/fyp/pv_design-9.png" alt="William Harley 3D View">
-                
                 <!-- Centre for Executive Education -->
                 <img src="/assets/img/projects/fyp/pv_design-84.png" alt="Centre for Executive Education Plan View">
                 <img src="/assets/img/projects/fyp/pv_design-85.png" alt="Centre for Executive Education 3D View">
@@ -752,6 +743,14 @@ importance: 1
                 <img src="/assets/img/projects/fyp/pv_design-96.png" alt="Students' Association Plan View">
                 <img src="/assets/img/projects/fyp/pv_design-97.png" alt="Students' Association 3D View">
                 
+                 <!-- The Saltire Centre -->
+                <img src="/assets/img/projects/fyp/pv_design-6.png" alt="The Saltire Centre Plan View">
+                <img src="/assets/img/projects/fyp/pv_design-7.png" alt="The Saltire Centre 3D View">
+                
+                <!-- William Harley -->
+                <img src="/assets/img/projects/fyp/pv_design-8.png" alt="William Harley Plan View">
+                <img src="/assets/img/projects/fyp/pv_design-9.png" alt="William Harley 3D View">
+
                 <!-- Annie Lennox -->
                 <img src="/assets/img/projects/fyp/pv_design-98.png" alt="Annie Lennox Plan View">
                 <img src="/assets/img/projects/fyp/pv_design-99.png" alt="Annie Lennox 3D View">
@@ -1290,16 +1289,16 @@ importance: 1
         </div>
 
         <div class="image-grid">
-            <img src="/assets/img/projects/fyp/pv_design-15.png" alt="Detailed ROI and Payback Period for REC Group Alpha Pure-R SERIES">
-            <img src="/assets/img/projects/fyp/pv_design-16.png" alt="Detailed ROI and Payback Period for REC Group Alpha Pure-R SERIES">
-            <img src="/assets/img/projects/fyp/pv_design-17.png" alt="Detailed ROI and Payback Period for Jinko Solar Tiger Neo">
-            <img src="/assets/img/projects/fyp/pv_design-18.png" alt="Detailed ROI and Payback Period for Jinko Solar Tiger Neo">
             <img src="/assets/img/projects/fyp/pv_design-108.png" alt="Detailed ROI and Payback Period for SunPower M Series">
             <img src="/assets/img/projects/fyp/pv_design-109.png" alt="Detailed ROI and Payback Period for SunPower M Series">
+            <img src="/assets/img/projects/fyp/pv_design-15.png" alt="Detailed ROI and Payback Period for REC Group Alpha Pure-R SERIES">
+            <img src="/assets/img/projects/fyp/pv_design-16.png" alt="Detailed ROI and Payback Period for REC Group Alpha Pure-R SERIES">
             <img src="/assets/img/projects/fyp/pv_design-110.png" alt="Detailed ROI and Payback Period for Panasonic EverVolt">
             <img src="/assets/img/projects/fyp/pv_design-111.png" alt="Detailed ROI and Payback Period for Panasonic EverVolt">
             <img src="/assets/img/projects/fyp/pv_design-112.png" alt="Detailed ROI and Payback Period for Maxeon 3">
             <img src="/assets/img/projects/fyp/pv_design-113.png" alt="Detailed ROI and Payback Period for Maxeon 3">
+            <img src="/assets/img/projects/fyp/pv_design-17.png" alt="Detailed ROI and Payback Period for Jinko Solar Tiger Neo">
+            <img src="/assets/img/projects/fyp/pv_design-18.png" alt="Detailed ROI and Payback Period for Jinko Solar Tiger Neo">
         </div>
 
         <h4>Solar Panel Financial Comparison</h4>
@@ -1461,46 +1460,6 @@ importance: 1
             </div>
         </div>
 
-        <!-- The Saltire Centre -->
-        <div class="building-section">
-            <h4>The Saltire Centre</h4>
-            <div class="image-grid">
-                <img src="/assets/img/projects/fyp/pv_design-54.png" alt="HelioScope PV Panel Design arrangement for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-55.png" alt="HelioScope PV Panel Annual Production Data for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-56.png" alt="HelioScope PV Panel Annual Production Data for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-57.png" alt="HelioScope PV Panel Shading Analyze Data for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-58.png" alt="HelioScope PV Panel Shading Analyze Data for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-59.png" alt="PVsyst simulation interface for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-60.png" alt="PVsyst simulation summary for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-61.png" alt="PVsyst simulation parameters for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-62.png" alt="PVsyst simulation parameters for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-63.png" alt="PVsyst simulation main results for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-64.png" alt="PVsyst simulation loss diagram for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-65.png" alt="PVsyst simulation System Production Data for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-80.png" alt="The Saltire Centre Design Specifications Diagram">
-            </div>
-        </div>
-
-        <!-- William Harley -->
-        <div class="building-section">
-            <h4>William Harley Building</h4>
-            <div class="image-grid">
-                <img src="/assets/img/projects/fyp/pv_design-66.png" alt="HelioScope PV Panel Design arrangement for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-67.png" alt="HelioScope PV Panel Annual Production Data for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-68.png" alt="HelioScope PV Panel Annual Production Data for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-69.png" alt="HelioScope PV Panel Shading Analyze Data for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-70.png" alt="HelioScope PV Panel Shading Analyze Data for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-71.png" alt="PVsyst simulation interface for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-72.png" alt="PVsyst simulation summary for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-73.png" alt="PVsyst simulation parameters for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-74.png" alt="PVsyst simulation parameters for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-75.png" alt="PVsyst simulation main results for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-76.png" alt="PVsyst simulation loss diagram for William Harley">
-                <img src="/assets/img/projects/fyp/pv_design-77.png" alt="PVsyst simulation System Production Data for The Saltire Centre">
-                <img src="/assets/img/projects/fyp/pv_design-81.png" alt="William Harley Building Design Specifications Diagram">
-            </div>
-        </div>
-
         <!-- Centre for Executive Education -->
         <div class="building-section">
             <h4>Centre for Executive Education</h4>
@@ -1638,6 +1597,46 @@ importance: 1
                 <img src="/assets/img/projects/fyp/pv_design-196.png" alt="PVsyst simulation loss diagram for Students' Association Building">
                 <img src="/assets/img/projects/fyp/pv_design-197.png" alt="PVsyst simulation System Production Data for Students' Association Building">
                 <img src="/assets/img/projects/fyp/pv_design-106.png" alt="Students' Association Building Design Specifications Diagram">
+            </div>
+        </div>
+
+          <!-- The Saltire Centre -->
+        <div class="building-section">
+            <h4>The Saltire Centre</h4>
+            <div class="image-grid">
+                <img src="/assets/img/projects/fyp/pv_design-54.png" alt="HelioScope PV Panel Design arrangement for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-55.png" alt="HelioScope PV Panel Annual Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-56.png" alt="HelioScope PV Panel Annual Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-57.png" alt="HelioScope PV Panel Shading Analyze Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-58.png" alt="HelioScope PV Panel Shading Analyze Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-59.png" alt="PVsyst simulation interface for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-60.png" alt="PVsyst simulation summary for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-61.png" alt="PVsyst simulation parameters for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-62.png" alt="PVsyst simulation parameters for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-63.png" alt="PVsyst simulation main results for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-64.png" alt="PVsyst simulation loss diagram for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-65.png" alt="PVsyst simulation System Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-80.png" alt="The Saltire Centre Design Specifications Diagram">
+            </div>
+        </div>
+
+        <!-- William Harley -->
+        <div class="building-section">
+            <h4>William Harley Building</h4>
+            <div class="image-grid">
+                <img src="/assets/img/projects/fyp/pv_design-66.png" alt="HelioScope PV Panel Design arrangement for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-67.png" alt="HelioScope PV Panel Annual Production Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-68.png" alt="HelioScope PV Panel Annual Production Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-69.png" alt="HelioScope PV Panel Shading Analyze Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-70.png" alt="HelioScope PV Panel Shading Analyze Data for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-71.png" alt="PVsyst simulation interface for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-72.png" alt="PVsyst simulation summary for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-73.png" alt="PVsyst simulation parameters for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-74.png" alt="PVsyst simulation parameters for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-75.png" alt="PVsyst simulation main results for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-76.png" alt="PVsyst simulation loss diagram for William Harley">
+                <img src="/assets/img/projects/fyp/pv_design-77.png" alt="PVsyst simulation System Production Data for The Saltire Centre">
+                <img src="/assets/img/projects/fyp/pv_design-81.png" alt="William Harley Building Design Specifications Diagram">
             </div>
         </div>
 
