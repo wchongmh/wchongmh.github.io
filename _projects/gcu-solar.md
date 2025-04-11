@@ -325,8 +325,6 @@ importance: 1
             <span class="tech-item">SolarGIS</span>
             <span class="tech-item">Financial Modeling</span>
             <span class="tech-item">Carbon Accounting</span>
-        </div>
-        <img src="/assets/img/projects/fyp/pv_design-1.png" alt="Satellite imagery analysis for PV panel installations at Glasgow Caledonian University" class="project-image">
         </header>
         </div>
         
@@ -396,7 +394,7 @@ importance: 1
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">3</span>Methodology and Approach</h2>
         
-        <h3 class="subsection-header">2.1 Technical Assessment Framework</h3>
+        <h3 class="subsection-header">3.1 Technical Assessment Framework</h3>
         <p>The study employed a multi-dimensional analytical approach combining geospatial, climatic, and structural analysis:</p>
         
         <h4>Building Selection Criteria:</h4>
@@ -471,7 +469,7 @@ importance: 1
             </div>
         </div>
 
-        <h3 class="subsection-header">2.2 Energy Modeling Approach</h3>
+        <h3 class="subsection-header">3.2 Energy Modeling Approach</h3>
         <h4>PV System Parameters:</h4>
         <ul>
             <li>Panel tilt angles optimized for latitude (55.86°N) at 30-35°</li>
@@ -612,7 +610,7 @@ importance: 1
             <li>Access and maintenance pathways verified (minimum 600mm width)</li>
         </ul>
 
-        <h3 class="subsection-header">2.2 System Design Specifications</h3>
+        <h3 class="subsection-header">3.3 System Design Specifications</h3>
         <h4>Performance Simulation (PVsyst):</h4>
         <table class="data-table">
             <tr>
@@ -651,7 +649,7 @@ importance: 1
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">4</span>Key Findings and Analysis</h2>
         
-        <h3 class="subsection-header">3.1 Glasgow Caledonian University PV Panel Feasibility Analysis</h3>
+        <h3 class="subsection-header">4.1 Glasgow Caledonian University PV Panel Feasibility Analysis</h3>
         <p><strong>Total Potential:</strong> ~1.04 MW solar capacity across 12 buildings, representing 15% of campus electricity demand.</p>
         
         <h4>Building Rooftop Suitability</h4>
@@ -1043,7 +1041,7 @@ importance: 1
             <li>Maintenance access requirements for steep roof pitches</li>
         </ul>
 
-        <h3 class="subsection-header">3.2 Financial Viability</h3>
+        <h3 class="subsection-header">4.2 Financial Viability</h3>
         <table class="data-table">
             <tr>
                 <th>Factor</th>
@@ -1225,7 +1223,7 @@ importance: 1
             <li>Reduced grid dependence: £0.28/kWh avoided (2023 electricity rates)</li>
         </ul>
 
-        <h3 class="subsection-header">3.3 Capital Expenditure Breakdown</h3>
+        <h3 class="subsection-header">4.3 Capital Expenditure Breakdown</h3>
         <table class="data-table">
             <tr>
                 <th>Component</th>
@@ -1292,7 +1290,7 @@ importance: 1
             <li>Total Funding: £1,285,000 (matches project cost)</li>
         </ul>
 
-        <h3 class="subsection-header">3.4 Operational Economics</h3>
+        <h3 class="subsection-header">4.4 Operational Economics</h3>
         <h4>Annual Financial Flows:</h4>
         <ul>
             <li><strong>Electricity Savings:</strong> £230,860 (824,500 kWh @ £0.28/kWh)</li>
@@ -1351,7 +1349,7 @@ importance: 1
             </div>
         </div>
 
-        <h3 class="subsection-header">3.5 Optimal Technology</h3>
+        <h3 class="subsection-header">4.5 Optimal Technology</h3>
         <p><strong>PV Array Configuration:</strong></p>
         <ul>
             <li>Panel Type: Jinko Solar Tiger Neo 420W (N-type mono, 21.02% efficiency)</li>
@@ -1576,7 +1574,7 @@ importance: 1
         </div>
 
         <!-- Building-specific PV System Analysis -->
-        <h3 class="subsection-header">3.6 Building-Specific PV System Analysis</h3>
+        <h3 class="subsection-header">4.6 Building-Specific PV System Analysis</h3>
         
         <!-- Arc Health and Wellbeing -->
         <div class="building-section">
@@ -2113,65 +2111,6 @@ importance: 1
     </div>
 </div>
 
-<!-- Hamish Wood Building -->
-<div class="building-section">
-    <h4>Hamish Wood Building</h4>
-    <div class="image-grid">
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-162.png" alt="HelioScope PV Panel Design arrangement for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Panel Layout Design</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-163.png" alt="HelioScope PV Panel Annual Production Data for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Annual Production</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-164.png" alt="HelioScope PV Panel Annual Production Data for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Seasonal Variation</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-165.png" alt="HelioScope PV Panel Shading Analyze Data for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Shading Impact</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-166.png" alt="HelioScope PV Panel Shading Analyze Data for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Shading Mitigation</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-167.png" alt="PVsyst simulation interface for Hamish Wood Building" class="project-image">
-            <div class="image-caption">PVsyst Interface</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-168.png" alt="PVsyst simulation summary for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Performance Summary</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-169.png" alt="PVsyst simulation parameters for Hamish Wood Building" class="project-image">
-            <div class="image-caption">System Parameters</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-170.png" alt="PVsyst simulation parameters for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Detailed Configuration</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-171.png" alt="PVsyst simulation main results for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Simulation Results</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-172.png" alt="PVsyst simulation loss diagram for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Energy Loss Breakdown</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-173.png" alt="PVsyst simulation System Production Data for Hamish Wood Building" class="project-image">
-            <div class="image-caption">Production Forecast</div>
-        </div>
-        <div class="image-card">
-            <img src="/assets/img/projects/fyp/pv_design-104.png" alt="Hamish Wood Building Design Specifications Diagram" class="project-image">
-            <div class="image-caption">Technical Documentation</div>
-        </div>
-    </div>
-</div>
-
 <!-- The Saltire Centre -->
 <div class="building-section">
     <h4>The Saltire Centre</h4>
@@ -2355,7 +2294,7 @@ importance: 1
         <h2 class="section-header"><span class="section-number">5</span>Implementation Roadmap</h2>
         
         <div class="success-box">
-            <h4>4.1 Phased Deployment Schedule</h4>
+            <h4>5.1 Phased Deployment Schedule</h4>
             <p><strong>Phase 1 (Months 1-12): Pilot Implementation</strong></p>
             <ul>
                 <li><strong>Buildings:</strong> William Harley (700kW), Saltire Centre (150kW)</li>
@@ -2386,7 +2325,7 @@ importance: 1
             </ul>
         </div>
 
-        <h4>4.2 Risk Mitigation Strategies</h4>
+        <h4>5.2 Risk Mitigation Strategies</h4>
         <table class="data-table">
             <tr>
                 <th>Risk Category</th>
@@ -2426,7 +2365,7 @@ importance: 1
             </tr>
         </table>
 
-        <h4>4.3 Project Timeline</h4>
+        <h4>5.3 Project Timeline</h4>
         <table class="data-table">
             <tr>
                 <th>Milestone</th>
@@ -2527,7 +2466,7 @@ importance: 1
             </ul>
         </div>
 
-        <h3 class="subsection-header">5.1 Curriculum Development</h3>
+        <h3 class="subsection-header">6.1 Curriculum Development</h3>
         <p><strong>Hands-on Learning Initiatives:</strong></p>
         <ul>
             <li><strong>Renewable Energy Laboratory:</strong>
@@ -2558,7 +2497,7 @@ importance: 1
             </li>
         </ul>
 
-        <h3 class="subsection-header">5.2 Student Research Projects</h3>
+        <h3 class="subsection-header">6.2 Student Research Projects</h3>
         <p><strong>Proposed Topics:</strong></p>
         <ol>
             <li><strong>Performance Optimization:</strong>
