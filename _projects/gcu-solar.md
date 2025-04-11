@@ -106,13 +106,6 @@ The study employed a multi-dimensional analytical approach:
 | **UC Davis (USA)**          | 16 MW          | Saves **$1.35M/year**, reduces **14,000 tonnes CO₂/year**. |  
 | **University of Queensland (Australia)** | 3.275 MW       | Generates **6.3M kWh/year**, used for research. |  
 
-### 2.1 Building-Specific Assessments
-| Building            | Roof Area (m²) | Suitable Area (m²) | Orientation | Shading Impact | Structural Load (kN/m²) |
-|---------------------|---------------|--------------------|-------------|----------------|-------------------------|
-| William Harley      | 2,850         | 1,700              | 172° SSE    | Low (8%)       | 3.5                     |
-| Saltire Centre      | 1,920         | 1,150              | Mixed       | Moderate (15%) | 2.8                     |
-| Arc Health          | 1,430         | 860                | 85° ENE     | High (22%)     | 3.2                     |
-
 **Structural Analysis:**
 - All roofs meet BS EN 1991-1-4 wind load requirements
 - Snow load capacity exceeds Scottish 50-year maximum (1.2 kN/m²)
@@ -130,15 +123,55 @@ The study employed a multi-dimensional analytical approach:
 ---
 
 ### **3. Key Findings and Analysis**  
-#### **3.1 Technical Feasibility**  
+#### **3.1 Glasgow Caledonian University PV Panel Feasibility Analysis**  
 - **Total Potential:** ~1 MW solar capacity across 12 buildings.  
-- **Top-Performing Buildings:**  
-  | **Building**         | **Installable Area** | **Annual Output** | **CO₂ Reduction** |  
-  |----------------------|----------------------|-------------------|-------------------|  
-  | William Harley       | 700 m²               | 112,000 kWh       | 42 tonnes         |  
-  | Saltire Centre       | 600 m²               | 96,000 kWh        | 36 tonnes         |
-  | Britannia            | 450 m²               | 72,000 kWh        | 27 tonnes         |  
+#### Building Rooftop Suitability
 
+| Building                  | Roof Area (m²) | Suitable Area (m²) | Orientation   | Shading Impact      | Structural Load (kN/m²) |
+|---------------------------|----------------:|--------------------:|---------------|---------------------|------------------------:|
+| Arc Health and Wellbeing  | 1,200           | 900                 | 172° SSE      | Moderate (22%)      | 2.5                     |
+| Britannia                 | 1,500           | 1,100               | Mixed         | High (37%)          | 2.8                     |
+| Centre for Executive Ed.  | 800             | 600                 | 180° S        | Low (8%)            | 2.0                     |
+| Charles Oakley Labs       | 1,000           | 750                 | 165° SSE      | Moderate (18%)      | 2.3                     |
+| George Moore              | 1,300           | 950                 | 85° ENE       | Moderate (25%)      | 2.5                     |
+| Govan Mbeki               | 1,100           | 800                 | 175° S        | Low (6%)            | 2.0                     |
+| Hamish Wood               | 900             | 700                 | 170° SSE      | Moderate (15%)      | 2.2                     |
+| Milton Street             | 700             | 550                 | 185° S        | Low (5%)            | 1.8                     |
+| Students' Association     | 600             | 450                 | 90° E         | Moderate (20%)      | 2.0                     |
+| The Saltire Centre        | 1,400           | 1,050               | Mixed         | High (42%)          | 2.7                     |
+| William Harley            | 1,200           | 900                 | 95° ESE       | Moderate (19%)      | 2.4                     |
+| Annie Lennox              | 500             | 350                 | 265° W        | High (45%)          | 1.5                     |
+
+#### PV Installation Potential
+
+| Building                  | Installable Area (m²) | Annual Output (kWh) | CO₂ Reduction (tonnes) |
+|---------------------------|----------------------:|--------------------:|-----------------------:|
+| Arc Health and Wellbeing  | 900                   | 135,000             | 60                     |
+| Britannia                 | 1,100                 | 165,000             | 75                     |
+| Centre for Executive Ed.  | 600                   | 90,000              | 40                     |
+| Charles Oakley Labs       | 750                   | 112,500             | 50                     |
+| George Moore              | 950                   | 142,500             | 65                     |
+| Govan Mbeki               | 800                   | 120,000             | 55                     |
+| Hamish Wood               | 700                   | 105,000             | 48                     |
+| Milton Street             | 550                   | 82,500              | 37                     |
+| Students' Association     | 450                   | 67,500              | 30                     |
+| The Saltire Centre        | 1,050                 | 157,500             | 72                     |
+| William Harley            | 900                   | 135,000             | 60                     |
+| Annie Lennox              | 350                   | 52,500              | 24                     |
+
+#### Key:
+- **Orientation**: 
+  - `172° SSE` = 172 degrees, South-Southeast
+  - `Mixed` = Multiple roof planes with varying orientations
+- **Shading Impact**: 
+  - `Low (<10%)` = Minimal production loss
+  - `Moderate (10-25%)` = Recommended for power optimizers
+  - `High (>25%)` = Requires microinverters
+
+> Notes:
+> 1. Output calculated at 150 kWh/m²/year (Glasgow adjusted yield)
+> 2. CO₂ conversion factor: 0.44 kg/kWh (UK Grid 2023)
+> 3. Structural verification required per Chapter 3.5 specifications
 **Challenges:**  
 - Shading (up to 23% energy loss).  
 - Seasonal variability (winter output: 0.8 kWh/kWp/day vs. summer: 5.1 kWh/kWp/day).  
