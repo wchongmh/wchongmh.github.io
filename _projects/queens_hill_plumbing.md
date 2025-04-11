@@ -3,7 +3,7 @@ title: "Public Housing Plumbing Systems - Queen's Hill Development"
 category: Building Systems
 description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics."
 tech: [AutoCAD MEP, Hydraulic Calculations, BS EN 12845, Pump Sizing, BIM Coordination]
-image: /assets/img/projects/plumbing_design-1.jpg
+image: /assets/img/projects/intern/plumbing_design-1.jpg
 importance: 1
 ---
 
@@ -29,14 +29,14 @@ importance: 1
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/plumbing_design-2.jpg" 
+        <img src="/assets/img/projects/intern/plumbing_design-2.jpg" 
              alt="Queen's Hill Building Daytime Rendering" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">Overall architectural rendering</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/plumbing_design-3.jpg" 
+        <img src="/assets/img/projects/intern/plumbing_design-3.jpg" 
              alt="Queen's Hill Building Evening Rendering" 
              class="visualization-img"
              loading="lazy">
@@ -63,7 +63,7 @@ importance: 1
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/plumbing_design-1.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-1.jpg" 
                alt="Queen's Hill Development Overview" 
                class="project-image"
                loading="lazy">
@@ -79,7 +79,7 @@ importance: 1
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/plumbing_design-4.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-4.jpg" 
                alt="Site Location Plan" 
                class="project-image"
                loading="lazy">
@@ -271,7 +271,7 @@ importance: 1
       <div class="diagram-grid">
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/plumbing_design-7.png" 
+            <img src="/assets/img/projects/intern/plumbing_design-7.png" 
                  alt="Fresh Water System Process Flow" 
                  class="diagram-image"
                  loading="lazy">
@@ -284,7 +284,7 @@ importance: 1
         
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/plumbing_design-6.jpg" 
+            <img src="/assets/img/projects/intern/plumbing_design-6.jpg" 
                  alt="Vertical Plumbing Line Diagram" 
                  class="diagram-image"
                  loading="lazy">
@@ -307,7 +307,7 @@ importance: 1
       
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/plumbing_design-8.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-8.jpg" 
                alt="Fresh Water System Arrangement" 
                class="arrangement-img"
                loading="lazy">
@@ -390,7 +390,7 @@ importance: 1
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/plumbing_design-9.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-9.jpg" 
                alt="Booster Pump Calculation" 
                class="calc-image"
                loading="lazy">
@@ -403,7 +403,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/plumbing_design-10.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-10.jpg" 
                alt="Main Pipe Sizing" 
                class="calc-image"
                loading="lazy">
@@ -416,7 +416,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/plumbing_design-11.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-11.jpg" 
                alt="Upfeed Pump Calculation" 
                class="calc-image"
                loading="lazy">
@@ -429,7 +429,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/plumbing_design-12.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-12.jpg" 
                alt="Flush Water Calculation" 
                class="calc-image"
                loading="lazy">
@@ -442,7 +442,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/plumbing_design-13.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-13.jpg" 
                alt="Pipe Sizing Analysis" 
                class="calc-image"
                loading="lazy">
@@ -455,7 +455,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/plumbing_design-14.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-14.jpg" 
                alt="Pressure Analysis" 
                class="calc-image"
                loading="lazy">
@@ -500,7 +500,7 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 1</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-16.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-16.jpg" 
                alt="Pipe Sizing Step 1" 
                class="step-img"
                loading="lazy">
@@ -509,7 +509,7 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 2</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-17.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-17.jpg" 
                alt="Pipe Sizing Step 2" 
                class="step-img"
                loading="lazy">
@@ -518,7 +518,7 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 3</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-18.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-18.jpg" 
                alt="Pipe Sizing Step 3" 
                class="step-img"
                loading="lazy">
@@ -527,7 +527,7 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 4</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-19.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-19.jpg" 
                alt="Pipe Sizing Step 4" 
                class="step-img"
                loading="lazy">
@@ -536,7 +536,7 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 5</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-20.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-20.jpg" 
                alt="Pipe Sizing Step 5" 
                class="step-img"
                loading="lazy">
@@ -545,7 +545,7 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 6</div>
         <div class="step-image">
-          <img src="/assets/img/projects/plumbing_design-21.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-21.jpg" 
                alt="Pipe Sizing Step 6" 
                class="step-img"
                loading="lazy">
@@ -570,7 +570,7 @@ importance: 1
       <div class="supplementary-card">
         <h3 class="supplementary-title">Water Consumption Analysis</h3>
         <div class="supplementary-image">
-          <img src="/assets/img/projects/plumbing_design-15.jpg" 
+          <img src="/assets/img/projects/intern/plumbing_design-15.jpg" 
                alt="Water Consumption Analysis" 
                class="supplementary-img"
                loading="lazy">
@@ -681,7 +681,7 @@ importance: 1
       </div>
       
       <div class="reflection-image">
-        <img src="/assets/img/projects/plumbing_design-5.jpg" 
+        <img src="/assets/img/projects/intern/plumbing_design-5.jpg" 
              alt="Project Team Working" 
              class="reflection-img"
              loading="lazy">
