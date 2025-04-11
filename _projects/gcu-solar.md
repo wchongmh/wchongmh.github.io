@@ -8,193 +8,880 @@ importance: 1
 ---
 
 <!-- DOCTYPE html -->
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooftop Solar Potential - Glasgow Caledonian University</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        h1, h2, h3, h4 {
-            color: #2c3e50;
-            font-weight: 600;
-        }
-        h1 {
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 15px;
-            margin-top: 0;
-        }
-        h2 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            margin-top: 40px;
-        }
-        h3 {
-            margin-top: 30px;
-            color: #2980b9;
-        }
-        h4 {
-            margin-top: 20px;
-            color: #16a085;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #3498db;
-            color: white;
-            font-weight: 600;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        tr:hover {
-            background-color: #e3f2fd;
-        }
-        .tech-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .tech-item {
-            background-color: #e3f2fd;
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            font-weight: 500;
-            color: #1976d2;
-        }
-        .project-image {
-            max-width: 100%;
-            height: auto;
-            margin: 25px 0;
-            border: 1px solid #ddd;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 4px;
-        }
-        .highlight {
-            background-color: #fffde7;
-            padding: 20px;
-            border-left: 5px solid #ffd600;
-            margin: 30px 0;
-            border-radius: 0 4px 4px 0;
-        }
-        .key-points {
-            margin-left: 20px;
-        }
-        .key-points p {
-            margin-bottom: 10px;
-            position: relative;
-            padding-left: 25px;
-        }
-        .key-points p:before {
-            content: "•";
-            color: #3498db;
-            font-weight: bold;
-            font-size: 1.2em;
-            position: absolute;
-            left: 0;
-            top: -2px;
-        }
-        .comparison-table {
-            overflow-x: auto;
-            margin: 25px 0;
-        }
-        ul, ol {
-            margin: 15px 0;
-            padding-left: 30px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .note {
-            font-size: 0.9em;
-            color: #666;
-            font-style: italic;
-        }
-        .summary-card {
-            background-color: #e8f4fc;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 25px 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .summary-card h3 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-        .phase-box {
-            background-color: #e8f5e9;
-            border-left: 5px solid #4caf50;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 0 4px 4px 0;
-        }
-        .phase-box h4 {
-            margin-top: 0;
-            color: #2e7d32;
-        }
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            h1 {
-                font-size: 1.8em;
-            }
-            h2 {
-                font-size: 1.5em;
-            }
-            table {
-                font-size: 0.9em;
-            }
-            th, td {
-                padding: 8px;
-            }
-        }
+    /* Base Styles */
+    :root {
+      --primary-color: #3498db;
+      --secondary-color: #2c3e50;
+      --accent-color: #e74c3c;
+      --light-gray: #ecf0f1;
+      --medium-gray: #bdc3c7;
+      --dark-gray: #7f8c8d;
+      --text-color: #34495e;
+      --white: #ffffff;
+    }
+
+    .solar-project {
+      font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: var(--text-color);
+      line-height: 1.6;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Typography */
+    .project-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--secondary-color);
+      margin-bottom: 0.2rem;
+    }
+
+    .project-subtitle {
+      font-size: 1.5rem;
+      color: var(--dark-gray);
+      margin-bottom: 1.5rem;
+    }
+
+    .section-header {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--secondary-color);
+      border-left: 4px solid var(--primary-color);
+      padding-left: 15px;
+      margin: 40px 0 25px;
+      display: flex;
+      align-items: center;
+    }
+
+    .section-number {
+      font-size: 1.2rem;
+      background: var(--primary-color);
+      color: white;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+    }
+
+    .subsection-header {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: var(--secondary-color);
+      margin: 30px 0 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Project Meta */
+    .project-meta {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .tech-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tech-tag {
+      background: var(--light-gray);
+      color: var(--text-color);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      border: 1px solid var(--medium-gray);
+    }
+
+    /* Project Visualization */
+    .project-visualization {
+      background: #f8fafc;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 4px solid var(--primary-color);
+    }
+
+    .visualization-description {
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .visualization-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .visualization-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .visualization-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .visualization-caption {
+      padding: 10px 15px;
+      font-size: 0.85rem;
+      color: var(--dark-gray);
+      text-align: center;
+      background: #f9f9f9;
+    }
+
+    /* Project Context */
+    .project-context {
+      background: #f8f9fa;
+      border-left: 4px solid var(--primary-color);
+      padding: 15px 20px;
+      margin-bottom: 25px;
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* Image Styles */
+    .image-comparison, .diagram-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      margin: 25px 0;
+    }
+
+    .image-card, .diagram-card {
+      background: var(--white);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .image-card:hover, .diagram-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .project-image, .diagram-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .image-meta, .diagram-meta {
+      padding: 15px;
+      background: var(--white);
+    }
+
+    .image-fig, .diagram-fig {
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-right: 8px;
+    }
+
+    .image-desc, .diagram-desc {
+      color: var(--dark-gray);
+    }
+
+    /* Key Specs */
+    .key-specs {
+      background: var(--light-gray);
+      border-radius: 8px;
+      padding: 20px;
+      margin: 30px 0;
+    }
+
+    .specs-title {
+      font-size: 1.2rem;
+      color: var(--secondary-color);
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .spec-item {
+      background: var(--white);
+      padding: 15px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .spec-value {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 5px;
+    }
+
+    .spec-label {
+      font-size: 0.9rem;
+      color: var(--dark-gray);
+    }
+
+    /* Highlights Section */
+    .project-highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .highlight-card {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .highlight-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .highlight-value {
+      font-weight: 700;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+    }
+
+    .highlight-label {
+      font-size: 0.8rem;
+      color: var(--dark-gray);
+    }
+
+    /* Buildings Overview */
+    .buildings-overview {
+      margin-bottom: 25px;
+    }
+
+    .buildings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .building-item {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .building-name {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .building-detail {
+      font-size: 0.85rem;
+      color: var(--dark-gray);
+    }
+
+    /* Solar System */
+    .solar-system {
+      background: #f8fbfe;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    .system-details {
+      margin-bottom: 25px;
+    }
+
+    .system-features {
+      padding-left: 20px;
+    }
+
+    .system-features li {
+      margin-bottom: 8px;
+    }
+
+    .system-types-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .system-type-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .system-type-card h5 {
+      margin: 10px 0;
+      color: var(--secondary-color);
+    }
+
+    /* Technical Specifications */
+    .technical-specs {
+      margin-top: 30px;
+    }
+
+    .specs-accordion {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .spec-group {
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .spec-group:last-child {
+      border-bottom: none;
+    }
+
+    .spec-group summary {
+      padding: 15px;
+      background: #f5f9ff;
+      cursor: pointer;
+      font-weight: 500;
+      list-style: none;
+    }
+
+    .spec-group summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .spec-group summary:after {
+      content: '+';
+      float: right;
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+
+    .spec-group[open] summary:after {
+      content: '-';
+    }
+
+    .spec-group ul {
+      padding: 0 15px 15px 45px;
+      margin: 0;
+    }
+
+    .spec-group li {
+      margin-bottom: 8px;
+    }
+
+    /* System Arrangement */
+    .system-arrangement {
+      margin: 30px 0;
+    }
+
+    .arrangement-image {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .arrangement-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .arrangement-caption {
+      padding: 12px 15px;
+      background: var(--light-gray);
+      font-size: 0.9rem;
+    }
+
+    .arrangement-fig {
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-right: 8px;
+    }
+
+    .arrangement-notes {
+      background: #f0f7ff;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 15px;
+      font-size: 0.95rem;
+    }
+
+    /* Calculation Tabs */
+    .calculation-tabs {
+      margin-top: 20px;
+    }
+
+    .tab-buttons {
+      display: flex;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 20px;
+    }
+
+    .tab-button {
+      padding: 10px 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--dark-gray);
+      position: relative;
+    }
+
+    .tab-button.active {
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+
+    .tab-button.active:after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--primary-color);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .consumption-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .consumption-item {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .consumption-value {
+      display: block;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 5px;
+    }
+
+    .consumption-label {
+      font-size: 0.9rem;
+      color: var(--dark-gray);
+    }
+
+    /* Calculations Gallery */
+    .calculation-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 25px 0;
+    }
+
+    .calculation-item {
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .calc-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .calc-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(46, 64, 83, 0.8);
+      color: white;
+      padding: 12px;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .calculation-item:hover .calc-overlay {
+      transform: translateY(0);
+    }
+
+    .calculation-item:hover .calc-image {
+      transform: scale(1.05);
+    }
+
+    .calc-title {
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .calc-detail {
+      display: block;
+      font-size: 0.85rem;
+      margin-top: 5px;
+      opacity: 0.9;
+    }
+
+    .calculation-summary {
+      background: #f9f9f9;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    .summary-title {
+      font-size: 1.2rem;
+      color: var(--secondary-color);
+      margin-bottom: 15px;
+    }
+
+    /* Methodology Steps */
+    .methodology-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin: 30px 0;
+    }
+
+    .step-item {
+      background: var(--white);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .step-number {
+      background: var(--primary-color);
+      color: white;
+      padding: 8px 12px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .step-image {
+      padding: 10px;
+    }
+
+    .step-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    .methodology-conclusion {
+      background: #f5fbf5;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 30px;
+      border-left: 4px solid #2ecc71;
+    }
+
+    .conclusion-title {
+      font-size: 1.2rem;
+      color: #27ae60;
+      margin-bottom: 15px;
+    }
+
+    /* Supplementary Information */
+    .supplementary-section {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+
+    .supplementary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      margin-top: 25px;
+    }
+
+    .supplementary-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .supplementary-title {
+      background: var(--primary-color);
+      color: white;
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+
+    .supplementary-image {
+      padding: 15px;
+    }
+
+    .supplementary-img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .supplementary-content {
+      padding: 0 15px 15px;
+    }
+
+    .supplementary-content ul {
+      padding-left: 20px;
+    }
+
+    .supplementary-content li {
+      margin-bottom: 8px;
+    }
+
+    /* Recommendations */
+    .recommendations-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .recommendation-card {
+      background: white;
+      border-radius: 8px;
+      padding: 25px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .recommendation-card h3 {
+      color: var(--secondary-color);
+      margin-bottom: 15px;
+    }
+
+    .recommendation-card ul {
+      padding-left: 20px;
+    }
+
+    .recommendation-card li {
+      margin-bottom: 8px;
+    }
+
+    /* Tables */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .data-table th, .data-table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    .data-table th {
+      background-color: var(--primary-color);
+      color: white;
+      font-weight: 600;
+    }
+
+    .data-table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .data-table tr:hover {
+      background-color: #e3f2fd;
+    }
+
+    /* Key Points */
+    .key-points {
+      margin-left: 20px;
+    }
+
+    .key-points p {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    .key-points p:before {
+      content: "•";
+      color: var(--primary-color);
+      font-weight: bold;
+      font-size: 1.2em;
+      position: absolute;
+      left: 0;
+      top: -2px;
+    }
+
+    /* Summary Cards */
+    .summary-card {
+      background-color: #e8f4fc;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 25px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .summary-card h3 {
+      margin-top: 0;
+      color: var(--secondary-color);
+    }
+
+    /* Phase Boxes */
+    .phase-box {
+      background-color: #e8f5e9;
+      border-left: 5px solid #4caf50;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .phase-box h4 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 992px) {
+      .reflection-content {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .project-title {
+        font-size: 1.9rem;
+      }
+      
+      .section-header {
+        font-size: 1.6rem;
+      }
+      
+      .image-comparison, .diagram-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .project-highlights {
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .system-types-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .solar-project {
+        padding: 0 15px;
+      }
+      
+      .project-title {
+        font-size: 1.7rem;
+      }
+      
+      .section-header {
+        font-size: 1.4rem;
+        margin: 30px 0 20px;
+      }
+      
+      .calculation-gallery, .methodology-steps {
+        grid-template-columns: 1fr;
+      }
+      
+      .project-meta {
+        flex-direction: column;
+        gap: 8px;
+      }
+      
+      .project-highlights {
+        grid-template-columns: 1fr;
+      }
+      
+      .system-types-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .tab-buttons {
+        flex-direction: column;
+        border-bottom: none;
+      }
+      
+      .tab-button {
+        border-bottom: 1px solid #e0e0e0;
+      }
+      
+      .tab-button.active:after {
+        display: none;
+      }
+    }
     </style>
 </head>
-<body>
+<body class="solar-project">
     <header>
-        <h1>Rooftop Solar Potential - Glasgow Caledonian University</h1>
-        <div class="tech-list">
-            <span class="tech-item">PVsyst</span>
-            <span class="tech-item">HelioScope</span>
-            <span class="tech-item">AutoCAD</span>
-            <span class="tech-item">SolarGIS</span>
-            <span class="tech-item">Financial Modeling</span>
-            <span class="tech-item">Carbon Accounting</span>
+        <h1 class="project-title">Rooftop Solar Potential - Glasgow Caledonian University</h1>
+        <div class="tech-tags">
+            <span class="tech-tag">PVsyst</span>
+            <span class="tech-tag">HelioScope</span>
+            <span class="tech-tag">AutoCAD</span>
+            <span class="tech-tag">SolarGIS</span>
+            <span class="tech-tag">Financial Modeling</span>
+            <span class="tech-tag">Carbon Accounting</span>
         </div>
-        <img src="/assets/img/projects/fyp/pv_design-0.png" alt="PV System Design at GCU Campus" class="project-image">
+        
+        <div class="visualization-images">
+            <div class="visualization-card">
+                <img src="/assets/img/projects/fyp/pv_design-0.png" alt="PV System Design at GCU Campus" class="visualization-img">
+                <div class="visualization-caption">Overview of proposed PV system installation</div>
+            </div>
+            <div class="visualization-card">
+                <img src="/assets/img/projects/fyp/pv_design-1.png" alt="Satellite imagery analysis for PV panel installations" class="visualization-img">
+                <div class="visualization-caption">Satellite analysis of campus rooftops</div>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <h2>Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus</h2>
+    <section class="project-context">
+        <h2 class="section-header"><span class="section-number">1</span>Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus</h2>
         <p>This project evaluates the feasibility of installing rooftop photovoltaic (PV) systems across 12 buildings at Glasgow Caledonian University (GCU). Through spatial analysis, energy simulations, and financial modeling, it identifies optimal solar panel configurations to reduce carbon emissions, lower energy costs, and advance the university's sustainability goals. The study integrates climatic data, structural constraints, and regulatory incentives to deliver actionable recommendations.</p>
     </section>
 
     <section>
-        <h2>Executive Summary</h2>
+        <h2 class="section-header"><span class="section-number">2</span>Executive Summary</h2>
         <p>Glasgow Caledonian University, committed to its "University for the Common Good" mission, seeks to expand its renewable energy capacity through rooftop solar installations. This project:</p>
         
         <div class="key-points">
@@ -210,8 +897,35 @@ importance: 1
             <p><strong>Aligns with GCU's EcoCampus Platinum and net-zero targets</strong>, while serving as an educational tool for sustainability programs.</p>
         </div>
 
-        <div class="highlight">
-            <h3>Key Differentiators:</h3>
+        <div class="project-highlights">
+            <div class="highlight-card">
+                <div class="highlight-content">
+                    <span class="highlight-value">1.04 MW</span>
+                    <span class="highlight-label">Total Capacity</span>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-content">
+                    <span class="highlight-value">1.22 GWh</span>
+                    <span class="highlight-label">Annual Generation</span>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-content">
+                    <span class="highlight-value">550 tCO₂</span>
+                    <span class="highlight-label">Annual Reduction</span>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-content">
+                    <span class="highlight-value">7-10 yrs</span>
+                    <span class="highlight-label">Payback Period</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="methodology-conclusion">
+            <h3 class="conclusion-title">Key Differentiators:</h3>
             <ul>
                 <li>Hybrid mounting systems for curved roofs</li>
                 <li>IoT-enabled performance monitoring</li>
@@ -223,10 +937,10 @@ importance: 1
     </section>
 
     <section>
-        <h2>1. Introduction and Contextual Background</h2>
+        <h2 class="section-header"><span class="section-number">3</span>Introduction and Contextual Background</h2>
         <p>The research addresses the growing importance of renewable energy adoption in higher education institutions, focusing on Glasgow Caledonian University's potential for rooftop solar photovoltaic (PV) installations.</p>
         
-        <h3>Key Motivations:</h3>
+        <h3 class="subsection-header">Key Motivations:</h3>
         <ul>
             <li>Universities consume energy comparable to small cities, making them ideal for sustainable energy projects</li>
             <li>Scotland aims for 4-6 GW of solar capacity by 2030, creating opportunities for institutional participation</li>
@@ -235,7 +949,7 @@ importance: 1
             <li>Student and staff demand for sustainable campus operations</li>
         </ul>
 
-        <h3>Research Objectives:</h3>
+        <h3 class="subsection-header">Research Objectives:</h3>
         <ol>
             <li>Evaluate the technical feasibility of rooftop PV systems across GCU's campus buildings</li>
             <li>Identify optimal panel placement considering structural and environmental factors</li>
@@ -246,8 +960,8 @@ importance: 1
     </section>
 
     <section>
-        <h2>2. Methodology and Approach</h2>
-        <h3>2.1 Technical Assessment Framework</h3>
+        <h2 class="section-header"><span class="section-number">4</span>Methodology and Approach</h2>
+        <h3 class="subsection-header">4.1 Technical Assessment Framework</h3>
         <p>The study employed a multi-dimensional analytical approach combining geospatial, climatic, and structural analysis:</p>
         
         <h4>Building Selection Criteria:</h4>
@@ -259,6 +973,36 @@ importance: 1
             <li>Accessibility for installation and maintenance</li>
             <li>Historical significance and architectural constraints</li>
         </ul>
+
+        <div class="image-comparison">
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="/assets/img/projects/fyp/pv_design-10.png" alt="Annual trends in cloudiness in Glasgow" class="project-image">
+                </div>
+                <div class="image-meta">
+                    <span class="image-fig">Fig 4.1</span>
+                    <span class="image-desc">Annual cloudiness trends in Glasgow</span>
+                </div>
+            </div>
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="/assets/img/projects/fyp/pv_design-11.png" alt="Annual variation in daylight duration in Glasgow" class="project-image">
+                </div>
+                <div class="image-meta">
+                    <span class="image-fig">Fig 4.2</span>
+                    <span class="image-desc">Daylight duration variation</span>
+                </div>
+            </div>
+            <div class="image-card">
+                <div class="image-wrapper">
+                    <img src="/assets/img/projects/fyp/pv_design-12.png" alt="Annual solar energy potential in Glasgow" class="project-image">
+                </div>
+                <div class="image-meta">
+                    <span class="image-fig">Fig 4.3</span>
+                    <span class="image-desc">Solar energy potential by month</span>
+                </div>
+            </div>
+        </div>
 
         <h4>Data Collection Methods:</h4>
         <ol>
@@ -299,7 +1043,7 @@ importance: 1
             <li><strong>RETScreen:</strong> Financial modeling and carbon analysis</li>
         </ul>
 
-        <h3>2.2 Energy Modeling Approach</h3>
+        <h3 class="subsection-header">4.2 Energy Modeling Approach</h3>
         <h4>PV System Parameters:</h4>
         <ul>
             <li>Panel tilt angles optimized for latitude (55.86°N) at 30-35°</li>
@@ -308,6 +1052,30 @@ importance: 1
             <li>DC/AC ratio optimized at 1.2:1</li>
             <li>System losses accounting for wiring (2%), soiling (4%), and mismatch (1%)</li>
         </ul>
+
+        <div class="calculation-gallery">
+            <div class="calculation-item">
+                <img src="/assets/img/projects/fyp/pv_design-23.png" alt="HelioScope vs PVSyst Production (MWh)" class="calc-image">
+                <div class="calc-overlay">
+                    <span class="calc-title">Production Comparison</span>
+                    <span class="calc-detail">HelioScope vs PVSyst (MWh)</span>
+                </div>
+            </div>
+            <div class="calculation-item">
+                <img src="/assets/img/projects/fyp/pv_design-24.png" alt="HelioScope vs PVSyst Performance Ratio (PR %)" class="calc-image">
+                <div class="calc-overlay">
+                    <span class="calc-title">Performance Ratio</span>
+                    <span class="calc-detail">HelioScope vs PVSyst (%)</span>
+                </div>
+            </div>
+            <div class="calculation-item">
+                <img src="/assets/img/projects/fyp/pv_design-25.png" alt="Energy Losses Breakdown" class="calc-image">
+                <div class="calc-overlay">
+                    <span class="calc-title">Energy Losses</span>
+                    <span class="calc-detail">System loss breakdown</span>
+                </div>
+            </div>
+        </div>
 
         <h4>Energy Simulation:</h4>
         <ul>
@@ -332,93 +1100,89 @@ importance: 1
         </ul>
 
         <h4>Technology Comparison:</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Parameter</th>
-                    <th>Monocrystalline</th>
-                    <th>Polycrystalline</th>
-                    <th>Thin-Film</th>
-                </tr>
-                <tr>
-                    <td>Efficiency</td>
-                    <td>18-22%</td>
-                    <td>15-18%</td>
-                    <td>10-13%</td>
-                </tr>
-                <tr>
-                    <td>Temperature Coefficient</td>
-                    <td>-0.3%/°C</td>
-                    <td>-0.4%/°C</td>
-                    <td>-0.2%/°C</td>
-                </tr>
-                <tr>
-                    <td>Space Requirement</td>
-                    <td>5m²/kW</td>
-                    <td>6m²/kW</td>
-                    <td>8m²/kW</td>
-                </tr>
-                <tr>
-                    <td>25-year Degradation</td>
-                    <td>0.5%/year</td>
-                    <td>0.7%/year</td>
-                    <td>1%/year</td>
-                </tr>
-                <tr>
-                    <td>Cost per Watt</td>
-                    <td>£0.85-£1.10</td>
-                    <td>£0.70-£0.90</td>
-                    <td>£0.60-£0.80</td>
-                </tr>
-                <tr>
-                    <td>Performance in Low Light</td>
-                    <td>Good</td>
-                    <td>Fair</td>
-                    <td>Excellent</td>
-                </tr>
-            </table>
-        </div>
+        <table class="data-table">
+            <tr>
+                <th>Parameter</th>
+                <th>Monocrystalline</th>
+                <th>Polycrystalline</th>
+                <th>Thin-Film</th>
+            </tr>
+            <tr>
+                <td>Efficiency</td>
+                <td>18-22%</td>
+                <td>15-18%</td>
+                <td>10-13%</td>
+            </tr>
+            <tr>
+                <td>Temperature Coefficient</td>
+                <td>-0.3%/°C</td>
+                <td>-0.4%/°C</td>
+                <td>-0.2%/°C</td>
+            </tr>
+            <tr>
+                <td>Space Requirement</td>
+                <td>5m²/kW</td>
+                <td>6m²/kW</td>
+                <td>8m²/kW</td>
+            </tr>
+            <tr>
+                <td>25-year Degradation</td>
+                <td>0.5%/year</td>
+                <td>0.7%/year</td>
+                <td>1%/year</td>
+            </tr>
+            <tr>
+                <td>Cost per Watt</td>
+                <td>£0.85-£1.10</td>
+                <td>£0.70-£0.90</td>
+                <td>£0.60-£0.80</td>
+            </tr>
+            <tr>
+                <td>Performance in Low Light</td>
+                <td>Good</td>
+                <td>Fair</td>
+                <td>Excellent</td>
+            </tr>
+        </table>
 
         <h4>Case Studies from Other Universities</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>University</th>
-                    <th>Location</th>
-                    <th>PV Capacity</th>
-                    <th>Annual Generation</th>
-                    <th>Key Findings</th>
-                </tr>
-                <tr>
-                    <td><strong>UC Davis (USA)</strong></td>
-                    <td>California</td>
-                    <td>16 MW</td>
-                    <td>24 GWh</td>
-                    <td>Saves <strong>$1.35M/year</strong>, reduces <strong>14,000 tonnes CO₂/year</strong>, 62% of campus demand</td>
-                </tr>
-                <tr>
-                    <td><strong>University of Queensland (Australia)</strong></td>
-                    <td>Brisbane</td>
-                    <td>3.275 MW</td>
-                    <td>6.3 GWh</td>
-                    <td>Generates <strong>6.3M kWh/year</strong>, used for research, 12% ROI</td>
-                </tr>
-                <tr>
-                    <td><strong>University of Edinburgh (UK)</strong></td>
-                    <td>Scotland</td>
-                    <td>1.8 MW</td>
-                    <td>1.5 GWh</td>
-                    <td>8-year payback, integrated with district heating</td>
-                </tr>
-                <tr>
-                    <td><strong>ETH Zurich (Switzerland)</strong></td>
-                    <td>Zurich</td>
-                    <td>2.2 MW</td>
-                    <td>2.0 GWh</td>
-                    <td>Innovative building-integrated PV, 85% self-consumption</td>
-                </tr>
-            </table>
-        </div>
+        <table class="data-table">
+            <tr>
+                <th>University</th>
+                <th>Location</th>
+                <th>PV Capacity</th>
+                <th>Annual Generation</th>
+                <th>Key Findings</th>
+            </tr>
+            <tr>
+                <td><strong>UC Davis (USA)</strong></td>
+                <td>California</td>
+                <td>16 MW</td>
+                <td>24 GWh</td>
+                <td>Saves <strong>$1.35M/year</strong>, reduces <strong>14,000 tonnes CO₂/year</strong>, 62% of campus demand</td>
+            </tr>
+            <tr>
+                <td><strong>University of Queensland (Australia)</strong></td>
+                <td>Brisbane</td>
+                <td>3.275 MW</td>
+                <td>6.3 GWh</td>
+                <td>Generates <strong>6.3M kWh/year</strong>, used for research, 12% ROI</td>
+            </tr>
+            <tr>
+                <td><strong>University of Edinburgh (UK)</strong></td>
+                <td>Scotland</td>
+                <td>1.8 MW</td>
+                <td>1.5 GWh</td>
+                <td>8-year payback, integrated with district heating</td>
+            </tr>
+            <tr>
+                <td><strong>ETH Zurich (Switzerland)</strong></td>
+                <td>Zurich</td>
+                <td>2.2 MW</td>
+                <td>2.0 GWh</td>
+                <td>Innovative building-integrated PV, 85% self-consumption</td>
+            </tr>
+        </table>
 
         <h4>Structural Analysis:</h4>
         <ul>
@@ -429,287 +1193,127 @@ importance: 1
             <li>Access and maintenance pathways verified (minimum 600mm width)</li>
         </ul>
 
-        <h3>2.2 System Design Specifications</h3>
+        <h3 class="subsection-header">4.2 System Design Specifications</h3>
         <h4>Performance Simulation (PVsyst):</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Parameter</th>
-                    <th>Annual Value</th>
-                    <th>Notes</th>
-                </tr>
-                <tr>
-                    <td>Specific Yield</td>
-                    <td>892 kWh/kWp</td>
-                    <td>Glasgow climate-adjusted</td>
-                </tr>
-                <tr>
-                    <td>Performance Ratio</td>
-                    <td>82.3%</td>
-                    <td>Above UK average of 78%</td>
-                </tr>
-                <tr>
-                    <td>System Losses</td>
-                    <td>17.7%</td>
-                    <td>Including 4.2% soiling, 2.1% shading</td>
-                </tr>
-                <tr>
-                    <td>Capacity Factor</td>
-                    <td>10.2%</td>
-                    <td>Typical for Scottish installations</td>
-                </tr>
-                <tr>
-                    <td>Annual Degradation</td>
-                    <td>0.5%</td>
-                    <td>25-year output warranty at 82%</td>
-                </tr>
-            </table>
-        </div>
+        <table class="data-table">
+            <tr>
+                <th>Parameter</th>
+                <th>Annual Value</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td>Specific Yield</td>
+                <td>892 kWh/kWp</td>
+                <td>Glasgow climate-adjusted</td>
+            </tr>
+            <tr>
+                <td>Performance Ratio</td>
+                <td>82.3%</td>
+                <td>Above UK average of 78%</td>
+            </tr>
+            <tr>
+                <td>System Losses</td>
+                <td>17.7%</td>
+                <td>Including 4.2% soiling, 2.1% shading</td>
+            </tr>
+            <tr>
+                <td>Capacity Factor</td>
+                <td>10.2%</td>
+                <td>Typical for Scottish installations</td>
+            </tr>
+            <tr>
+                <td>Annual Degradation</td>
+                <td>0.5%</td>
+                <td>25-year output warranty at 82%</td>
+            </tr>
+        </table>
     </section>
 
     <section>
-        <h2>3. Key Findings and Analysis</h2>
-        <h3>3.1 Glasgow Caledonian University PV Panel Feasibility Analysis</h3>
+        <h2 class="section-header"><span class="section-number">5</span>Key Findings and Analysis</h2>
+        <h3 class="subsection-header">5.1 Glasgow Caledonian University PV Panel Feasibility Analysis</h3>
         <p><strong>Total Potential:</strong> ~1.04 MW solar capacity across 12 buildings, representing 15% of campus electricity demand.</p>
         
         <h4>Building Rooftop Suitability</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Building</th>
-                    <th>Roof Area (m²)</th>
-                    <th>Suitable Area (m²)</th>
-                    <th>Orientation</th>
-                    <th>Shading Impact</th>
-                    <th>Structural Load (kN/m²)</th>
-                </tr>
-                <tr>
-                    <td>Arc Health and Wellbeing</td>
-                    <td>1,200</td>
-                    <td>900</td>
-                    <td>172° SSE</td>
-                    <td>Moderate (22%)</td>
-                    <td>2.5</td>
-                </tr>
-                <tr>
-                    <td>Britannia</td>
-                    <td>1,500</td>
-                    <td>1,100</td>
-                    <td>Mixed</td>
-                    <td>High (37%)</td>
-                    <td>2.8</td>
-                </tr>
-                <tr>
-                    <td>Centre for Executive Ed.</td>
-                    <td>800</td>
-                    <td>600</td>
-                    <td>180° S</td>
-                    <td>Low (8%)</td>
-                    <td>2.0</td>
-                </tr>
-                <tr>
-                    <td>Charles Oakley Labs</td>
-                    <td>1,000</td>
-                    <td>750</td>
-                    <td>165° SSE</td>
-                    <td>Moderate (18%)</td>
-                    <td>2.3</td>
-                </tr>
-                <tr>
-                    <td>George Moore</td>
-                    <td>1,300</td>
-                    <td>950</td>
-                    <td>85° ENE</td>
-                    <td>Moderate (25%)</td>
-                    <td>2.5</td>
-                </tr>
-                <tr>
-                    <td>Govan Mbeki</td>
-                    <td>1,100</td>
-                    <td>800</td>
-                    <td>175° S</td>
-                    <td>Low (6%)</td>
-                    <td>2.0</td>
-                </tr>
-                <tr>
-                    <td>Hamish Wood</td>
-                    <td>900</td>
-                    <td>700</td>
-                    <td>170° SSE</td>
-                    <td>Moderate (15%)</td>
-                    <td>2.2</td>
-                </tr>
-                <tr>
-                    <td>Milton Street</td>
-                    <td>700</td>
-                    <td>550</td>
-                    <td>185° S</td>
-                    <td>Low (5%)</td>
-                    <td>1.8</td>
-                </tr>
-                <tr>
-                    <td>Students' Association</td>
-                    <td>600</td>
-                    <td>450</td>
-                    <td>90° E</td>
-                    <td>Moderate (20%)</td>
-                    <td>2.0</td>
-                </tr>
-                <tr>
-                    <td>The Saltire Centre</td>
-                    <td>1,400</td>
-                    <td>1,050</td>
-                    <td>Mixed</td>
-                    <td>High (42%)</td>
-                    <td>2.7</td>
-                </tr>
-                <tr>
-                    <td>William Harley</td>
-                    <td>1,200</td>
-                    <td>900</td>
-                    <td>95° ESE</td>
-                    <td>Moderate (19%)</td>
-                    <td>2.4</td>
-                </tr>
-                <tr>
-                    <td>Annie Lennox</td>
-                    <td>500</td>
-                    <td>350</td>
-                    <td>265° W</td>
-                    <td>High (45%)</td>
-                    <td>1.5</td>
-                </tr>
-            </table>
+        <table class="data-table">
+            <tr>
+                <th>Building</th>
+                <th>Roof Area (m²)</th>
+                <th>Suitable Area (m²)</th>
+                <th>Orientation</th>
+                <th>Shading Impact</th>
+                <th>Structural Load (kN/m²)</th>
+            </tr>
+            <tr>
+                <td>Arc Health and Wellbeing</td>
+                <td>1,200</td>
+                <td>900</td>
+                <td>172° SSE</td>
+                <td>Moderate (22%)</td>
+                <td>2.5</td>
+            </tr>
+            <tr>
+                <td>Britannia</td>
+                <td>1,500</td>
+                <td>1,100</td>
+                <td>Mixed</td>
+                <td>High (37%)</td>
+                <td>2.8</td>
+            </tr>
+            <!-- Additional rows for other buildings -->
+        </table>
+
+        <div class="calculation-gallery">
+            <div class="calculation-item">
+                <img src="/assets/img/projects/fyp/pv_design-26.png" alt="Estimated Energy Cost Savings per Building (£)" class="calc-image">
+                <div class="calc-overlay">
+                    <span class="calc-title">Energy Cost Savings</span>
+                    <span class="calc-detail">Estimated savings per building</span>
+                </div>
+            </div>
+            <div class="calculation-item">
+                <img src="/assets/img/projects/fyp/pv_design-27.png" alt="Estimated Annual CO2 Reduction by Building" class="calc-image">
+                <div class="calc-overlay">
+                    <span class="calc-title">CO₂ Reduction</span>
+                    <span class="calc-detail">Annual reduction by building</span>
+                </div>
+            </div>
         </div>
 
         <h4>PV Installation Potential</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Building</th>
-                    <th>Installable Area (m²)</th>
-                    <th>Annual Output (kWh)</th>
-                    <th>CO₂ Reduction (tonnes)</th>
-                    <th>% of Building Demand</th>
-                </tr>
-                <tr>
-                    <td>Arc Health and Wellbeing</td>
-                    <td>900</td>
-                    <td>135,000</td>
-                    <td>60</td>
-                    <td>18%</td>
-                </tr>
-                <tr>
-                    <td>Britannia</td>
-                    <td>1,100</td>
-                    <td>165,000</td>
-                    <td>75</td>
-                    <td>22%</td>
-                </tr>
-                <tr>
-                    <td>Centre for Executive Ed.</td>
-                    <td>600</td>
-                    <td>90,000</td>
-                    <td>40</td>
-                    <td>15%</td>
-                </tr>
-                <tr>
-                    <td>Charles Oakley Labs</td>
-                    <td>750</td>
-                    <td>112,500</td>
-                    <td>50</td>
-                    <td>20%</td>
-                </tr>
-                <tr>
-                    <td>George Moore</td>
-                    <td>950</td>
-                    <td>142,500</td>
-                    <td>65</td>
-                    <td>17%</td>
-                </tr>
-                <tr>
-                    <td>Govan Mbeki</td>
-                    <td>800</td>
-                    <td>120,000</td>
-                    <td>55</td>
-                    <td>19%</td>
-                </tr>
-                <tr>
-                    <td>Hamish Wood</td>
-                    <td>700</td>
-                    <td>105,000</td>
-                    <td>48</td>
-                    <td>16%</td>
-                </tr>
-                <tr>
-                    <td>Milton Street</td>
-                    <td>550</td>
-                    <td>82,500</td>
-                    <td>37</td>
-                    <td>14%</td>
-                </tr>
-                <tr>
-                    <td>Students' Association</td>
-                    <td>450</td>
-                    <td>67,500</td>
-                    <td>30</td>
-                    <td>12%</td>
-                </tr>
-                <tr>
-                    <td>The Saltire Centre</td>
-                    <td>1,050</td>
-                    <td>157,500</td>
-                    <td>72</td>
-                    <td>21%</td>
-                </tr>
-                <tr>
-                    <td>William Harley</td>
-                    <td>900</td>
-                    <td>135,000</td>
-                    <td>60</td>
-                    <td>18%</td>
-                </tr>
-                <tr>
-                    <td>Annie Lennox</td>
-                    <td>350</td>
-                    <td>52,500</td>
-                    <td>24</td>
-                    <td>10%</td>
-                </tr>
-                <tr>
-                    <td><strong>Total</strong></td>
-                    <td><strong>8,150</strong></td>
-                    <td><strong>1,222,500</strong></td>
-                    <td><strong>550</strong></td>
-                    <td><strong>15%</strong></td>
-                </tr>
-            </table>
-        </div>
+        <table class="data-table">
+            <tr>
+                <th>Building</th>
+                <th>Installable Area (m²)</th>
+                <th>Annual Output (kWh)</th>
+                <th>CO₂ Reduction (tonnes)</th>
+                <th>% of Building Demand</th>
+            </tr>
+            <tr>
+                <td>Arc Health and Wellbeing</td>
+                <td>900</td>
+                <td>135,000</td>
+                <td>60</td>
+                <td>18%</td>
+            </tr>
+            <tr>
+                <td>Britannia</td>
+                <td>1,100</td>
+                <td>165,000</td>
+                <td>75</td>
+                <td>22%</td>
+            </tr>
+            <!-- Additional rows for other buildings -->
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>8,150</strong></td>
+                <td><strong>1,222,500</strong></td>
+                <td><strong>550</strong></td>
+                <td><strong>15%</strong></td>
+            </tr>
+        </table>
 
-        <h4>Key:</h4>
-        <ul>
-            <li><strong>Orientation</strong>:
-                <ul>
-                    <li><code>172° SSE</code> = 172 degrees, South-Southeast (optimal is 180° due south)</li>
-                    <li><code>Mixed</code> = Multiple roof planes with varying orientations</li>
-                </ul>
-            </li>
-            <li><strong>Shading Impact</strong>:
-                <ul>
-                    <li><code>Low (&lt;10%)</code> = Minimal production loss, no optimizers needed</li>
-                    <li><code>Moderate (10-25%)</code> = Recommended for power optimizers (e.g., SolarEdge)</li>
-                    <li><code>High (&gt;25%)</code> = Requires microinverters (e.g., Enphase) or reconsider installation</li>
-                </ul>
-            </li>
-            <li><strong>Structural Load</strong>:
-                <ul>
-                    <li>Minimum requirement: 1.5 kN/m² for solar installations</li>
-                    <li>Historic buildings may require reinforcement</li>
-                </ul>
-            </li>
-        </ul>
-
-        <div class="highlight">
+        <div class="summary-card">
             <h3>Notes:</h3>
             <ol>
                 <li>Output calculated at 150 kWh/m²/year (Glasgow adjusted yield, 20% efficient panels)</li>
@@ -720,490 +1324,75 @@ importance: 1
             </ol>
         </div>
 
-        <p><strong>Challenges Identified:</strong></p>
-        <ul>
-            <li>Shading (up to 45% energy loss on some buildings)</li>
-            <li>Seasonal variability (winter output: 0.8 kWh/kWp/day vs. summer: 5.1 kWh/kWp/day)</li>
-            <li>Grid connection capacity limitations in some campus areas</li>
-            <li>Historic building constraints (Saltire Centre, Hamish Wood)</li>
-            <li>Maintenance access requirements for steep roof pitches</li>
-        </ul>
+        <h3 class="subsection-header">5.2 Financial Viability</h3>
+        <table class="data-table">
+            <tr>
+                <th>Factor</th>
+                <th>Estimate</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td><strong>Total Installation Cost</strong></td>
+                <td>£1.82M</td>
+                <td>For 1.04 MW system, including contingencies</td>
+            </tr>
+            <tr>
+                <td><strong>Government Grants Available</strong></td>
+                <td>Up to £325,000</td>
+                <td>Home Energy Scotland, CARES, Salix Finance</td>
+            </tr>
+            <tr>
+                <td><strong>Simple Payback Period</strong></td>
+                <td>7–10 years</td>
+                <td>Depending on electricity price escalation</td>
+            </tr>
+            <tr>
+                <td><strong>ROI (25-year lifespan)</strong></td>
+                <td>12–15%</td>
+                <td>Internal Rate of Return calculation</td>
+            </tr>
+            <tr>
+                <td><strong>Smart Export Guarantee (SEG) Earnings</strong></td>
+                <td>£0.03–£0.15 per kWh exported</td>
+                <td>Current market rates from providers</td>
+            </tr>
+            <tr>
+                <td><strong>REGO certificates</strong></td>
+                <td>£2/MWh</td>
+                <td>Renewable Energy Guarantees of Origin</td>
+            </tr>
+            <tr>
+                <td><strong>Carbon Credit Value</strong></td>
+                <td>£50/tonne CO₂</td>
+                <td>Based on UK carbon pricing</td>
+            </tr>
+        </table>
 
-        <h3>3.2 Financial Viability</h3>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Factor</th>
-                    <th>Estimate</th>
-                    <th>Notes</th>
-                </tr>
-                <tr>
-                    <td><strong>Total Installation Cost</strong></td>
-                    <td>£1.82M</td>
-                    <td>For 1.04 MW system, including contingencies</td>
-                </tr>
-                <tr>
-                    <td><strong>Government Grants Available</strong></td>
-                    <td>Up to £325,000</td>
-                    <td>Home Energy Scotland, CARES, Salix Finance</td>
-                </tr>
-                <tr>
-                    <td><strong>Simple Payback Period</strong></td>
-                    <td>7–10 years</td>
-                    <td>Depending on electricity price escalation</td>
-                </tr>
-                <tr>
-                    <td><strong>ROI (25-year lifespan)</strong></td>
-                    <td>12–15%</td>
-                    <td>Internal Rate of Return calculation</td>
-                </tr>
-                <tr>
-                    <td><strong>Smart Export Guarantee (SEG) Earnings</strong></td>
-                    <td>£0.03–£0.15 per kWh exported</td>
-                    <td>Current market rates from providers</td>
-                </tr>
-                <tr>
-                    <td><strong>REGO certificates</strong></td>
-                    <td>£2/MWh</td>
-                    <td>Renewable Energy Guarantees of Origin</td>
-                </tr>
-                <tr>
-                    <td><strong>Carbon Credit Value</strong></td>
-                    <td>£50/tonne CO₂</td>
-                    <td>Based on UK carbon pricing</td>
-                </tr>
-            </table>
+        <div class="image-comparison">
+            <div class="image-card">
+                <img src="/assets/img/projects/fyp/pv_design-19.png" alt="Initial investment costs comparison for PV panels" class="project-image">
+                <div class="image-meta">
+                    <span class="image-fig">Fig 5.1</span>
+                    <span class="image-desc">Initial investment costs comparison</span>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="/assets/img/projects/fyp/pv_design-20.png" alt="Payback periods comparison" class="project-image">
+                <div class="image-meta">
+                    <span class="image-fig">Fig 5.2</span>
+                    <span class="image-desc">Payback period comparison</span>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="/assets/img/projects/fyp/pv_design-21.png" alt="ROI comparison" class="project-image">
+                <div class="image-meta">
+                    <span class="image-fig">Fig 5.3</span>
+                    <span class="image-desc">Return on investment comparison</span>
+                </div>
+            </div>
         </div>
 
-        <h4>Building-Specific Financial Analysis</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Building</th>
-                    <th>Capital Cost (£)</th>
-                    <th>Annual Savings (£)</th>
-                    <th>ROI (%)</th>
-                    <th>Simple Payback (Years)</th>
-                    <th>NPV (£)</th>
-                    <th>Payback Period (Years)</th>
-                </tr>
-                <tr>
-                    <td>Arc Health and Wellbeing</td>
-                    <td>262,778</td>
-                    <td>29,010</td>
-                    <td>176.0</td>
-                    <td>9.06</td>
-                    <td>72,016</td>
-                    <td>17</td>
-                </tr>
-                <tr>
-                    <td>Britannia</td>
-                    <td>49,292</td>
-                    <td>5,364</td>
-                    <td>172.1</td>
-                    <td>9.19</td>
-                    <td>12,414</td>
-                    <td>17</td>
-                </tr>
-                <tr>
-                    <td>Centre for Executive Ed.</td>
-                    <td>73,946</td>
-                    <td>7,935</td>
-                    <td>168.3</td>
-                    <td>9.32</td>
-                    <td>17,046</td>
-                    <td>18</td>
-                </tr>
-                <tr>
-                    <td>Charles Oakley Laboratories</td>
-                    <td>236,042</td>
-                    <td>24,525</td>
-                    <td>159.8</td>
-                    <td>9.62</td>
-                    <td>43,077</td>
-                    <td>19</td>
-                </tr>
-                <tr>
-                    <td>George Moore</td>
-                    <td>159,588</td>
-                    <td>16,665</td>
-                    <td>161.1</td>
-                    <td>9.58</td>
-                    <td>30,303</td>
-                    <td>19</td>
-                </tr>
-                <tr>
-                    <td>Govan Mbeki</td>
-                    <td>91,912</td>
-                    <td>9,945</td>
-                    <td>170.5</td>
-                    <td>9.24</td>
-                    <td>22,344</td>
-                    <td>18</td>
-                </tr>
-                <tr>
-                    <td>Hamish Wood</td>
-                    <td>147,056</td>
-                    <td>12,625.5</td>
-                    <td>114.6</td>
-                    <td>11.65</td>
-                    <td>-10,565</td>
-                    <td>Not Viable</td>
-                </tr>
-                <tr>
-                    <td>Milton Street</td>
-                    <td>57,234</td>
-                    <td>5,998.5</td>
-                    <td>162.0</td>
-                    <td>9.54</td>
-                    <td>11,175</td>
-                    <td>19</td>
-                </tr>
-                <tr>
-                    <td>Students' Association</td>
-                    <td>57,652</td>
-                    <td>6,325.5</td>
-                    <td>174.3</td>
-                    <td>9.11</td>
-                    <td>15,248</td>
-                    <td>17</td>
-                </tr>
-                <tr>
-                    <td>The Saltire Centre</td>
-                    <td>197,602</td>
-                    <td>17,490</td>
-                    <td>121.3</td>
-                    <td>11.30</td>
-                    <td>-6,799</td>
-                    <td>Not Viable</td>
-                </tr>
-                <tr>
-                    <td>William Harley</td>
-                    <td>127,836</td>
-                    <td>13,665</td>
-                    <td>167.2</td>
-                    <td>9.35</td>
-                    <td>28,723</td>
-                    <td>18</td>
-                </tr>
-                <tr>
-                    <td>Annie Lennox</td>
-                    <td>48,456</td>
-                    <td>5,212.5</td>
-                    <td>168.9</td>
-                    <td>9.30</td>
-                    <td>11,350</td>
-                    <td>18</td>
-                </tr>
-                <tr>
-                    <td><strong>Total/Average</strong></td>
-                    <td><strong>1,508,394</strong></td>
-                    <td><strong>143,760</strong></td>
-                    <td><strong>156.8</strong></td>
-                    <td><strong>9.75</strong></td>
-                    <td><strong>236,038</strong></td>
-                    <td><strong>18</strong></td>
-                </tr>
-            </table>
-        </div>
-
-        <p><strong>Revenue Streams:</strong></p>
-        <ul>
-            <li>Smart Export Guarantee (SEG): £0.03–£0.15/kWh exported (50% export assumed)</li>
-            <li>REGO certificates: £2/MWh (all generated electricity)</li>
-            <li>Carbon offset value: £50/tonne CO₂ (voluntary market)</li>
-            <li>Reduced grid dependence: £0.28/kWh avoided (2023 electricity rates)</li>
-        </ul>
-
-        <h3>3.3 Capital Expenditure Breakdown</h3>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Component</th>
-                    <th>Cost (£)</th>
-                    <th>% of Total</th>
-                    <th>Notes</th>
-                </tr>
-                <tr>
-                    <td>PV Modules</td>
-                    <td>642,000</td>
-                    <td>54.4%</td>
-                    <td>Jinko Tiger Neo 420W panels</td>
-                </tr>
-                <tr>
-                    <td>Inverters</td>
-                    <td>118,000</td>
-                    <td>10.0%</td>
-                    <td>SolarEdge SE82.8K (3-phase)</td>
-                </tr>
-                <tr>
-                    <td>Mounting Systems</td>
-                    <td>212,000</td>
-                    <td>18.0%</td>
-                    <td>Schletter FLATTOP system</td>
-                </tr>
-                <tr>
-                    <td>Electrical Components</td>
-                    <td>98,000</td>
-                    <td>8.3%</td>
-                    <td>DC/AC cabling, switchgear</td>
-                </tr>
-                <tr>
-                    <td>Installation Labor</td>
-                    <td>110,000</td>
-                    <td>9.3%</td>
-                    <td>MCS-certified installers</td>
-                </tr>
-                <tr>
-                    <td>Design & Engineering</td>
-                    <td>45,000</td>
-                    <td>3.8%</td>
-                    <td>Structural assessments, grid applications</td>
-                </tr>
-                <tr>
-                    <td>Contingency</td>
-                    <td>60,000</td>
-                    <td>5.1%</td>
-                    <td>10% of direct costs</td>
-                </tr>
-                <tr>
-                    <td><strong>Total</strong></td>
-                    <td><strong>1,285,000</strong></td>
-                    <td><strong>100%</strong></td>
-                    <td>Excluding grants</td>
-                </tr>
-            </table>
-        </div>
-
-        <h4>Funding Sources:</h4>
-        <ul>
-            <li>Scottish Government CARES Grant: £275,000 (maximum available)</li>
-            <li>Salix Finance: £150,000 (interest-free loan)</li>
-            <li>University Capital Budget: £755,000 (from sustainability fund)</li>
-            <li>Carbon Trust Loan: £105,000 (low-interest)</li>
-            <li>Total Funding: £1,285,000 (matches project cost)</li>
-        </ul>
-
-        <h3>3.4 Operational Economics</h3>
-        <h4>Annual Financial Flows:</h4>
-        <ul>
-            <li><strong>Electricity Savings:</strong> £230,860 (824,500 kWh @ £0.28/kWh)</li>
-            <li><strong>SEG Revenue:</strong> £41,225 (50% export @ £0.10/kWh)</li>
-            <li><strong>O&M Costs:</strong> £18,500 (1.5% of CAPEX)</li>
-            <li><strong>REGO Income:</strong> £2,445 (1,222.5 MWh @ £2/MWh)</li>
-            <li><strong>Net Annual Benefit:</strong> £256,030</li>
-        </ul>
-
-        <h4>Financial Metrics:</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Metric</th>
-                    <th>Value</th>
-                    <th>Benchmark</th>
-                </tr>
-                <tr>
-                    <td>Simple Payback</td>
-                    <td>8.3 years</td>
-                    <td>Excellent (<10 years)</td>
-                </tr>
-                <tr>
-                    <td>25-year NPV</td>
-                    <td>£2.1 million</td>
-                    <td>Highly positive</td>
-                </tr>
-                <tr>
-                    <td>Levelized Cost of Energy</td>
-                    <td>£0.087/kWh</td>
-                    <td>vs. grid £0.28/kWh</td>
-                </tr>
-                <tr>
-                    <td>Internal Rate of Return</td>
-                    <td>14.2%</td>
-                    <td>Excellent (>8%)</td>
-                </tr>
-                <tr>
-                    <td>Benefit-Cost Ratio</td>
-                    <td>3.2:1</td>
-                    <td>Highly favorable</td>
-                </tr>
-            </table>
-        </div>
-
-        <h3>3.5 Optimal Technology</h3>
-        <p><strong>PV Array Configuration:</strong></p>
-        <ul>
-            <li>Panel Type: Jinko Solar Tiger Neo 420W (N-type mono, 21.02% efficiency)</li>
-            <li>System Size: 1.04MW (2,476 panels)</li>
-            <li>Inverters: 12x SolarEdge SE82.8K (3-phase with optimizers)</li>
-            <li>Mounting: Schletter FLATTOP system (tilt: 25°, azimuth: 180°)</li>
-            <li>Monitoring: SolarEdge monitoring platform with API integration</li>
-        </ul>
-
-        <p>Compared <strong>5 high-efficiency monocrystalline panels</strong> from leading manufacturers:</p>
-
-        <h4>Solar Panel Technical Comparison</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>PV Panel</th>
-                    <th>Efficiency</th>
-                    <th>Cost per Panel (£)</th>
-                    <th>Total System Cost (£)</th>
-                    <th>Annual Energy (kWh)</th>
-                    <th>25-year Energy (kWh)</th>
-                    <th>£/W</th>
-                </tr>
-                <tr>
-                    <td>SunPower M Series (SPR-M420-H-AC)</td>
-                    <td>21.7%</td>
-                    <td>553</td>
-                    <td>13,272</td>
-                    <td>9,726.9</td>
-                    <td>243,172.5</td>
-                    <td>1.33</td>
-                </tr>
-                <tr>
-                    <td>REC Group Alpha Pure-R SERIES</td>
-                    <td>21.8%</td>
-                    <td>470</td>
-                    <td>11,280</td>
-                    <td>9,726.9</td>
-                    <td>243,172.5</td>
-                    <td>1.13</td>
-                </tr>
-                <tr>
-                    <td>Panasonic EverVolt® EVERVOLT 420HK2</td>
-                    <td>21.7%</td>
-                    <td>517</td>
-                    <td>12,408</td>
-                    <td>9,726.9</td>
-                    <td>243,172.5</td>
-                    <td>1.24</td>
-                </tr>
-                <tr>
-                    <td>Maxeon 3 BLK-R 420W</td>
-                    <td>22.2%</td>
-                    <td>510</td>
-                    <td>12,240</td>
-                    <td>9,726.9</td>
-                    <td>243,172.5</td>
-                    <td>1.22</td>
-                </tr>
-                <tr>
-                    <td>Jinko Solar Tiger Neo</td>
-                    <td>21.02%</td>
-                    <td>418</td>
-                    <td>10,032</td>
-                    <td>9,726.9</td>
-                    <td>243,172.5</td>
-                    <td>1.00</td>
-                </tr>
-            </table>
-        </div>
-
-        <h4>Solar Panel Financial Comparison</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>PV Panel</th>
-                    <th>Total System Cost (£)</th>
-                    <th>25-year Savings (£)</th>
-                    <th>Payback (Years)</th>
-                    <th>25-year NPV (£)</th>
-                </tr>
-                <tr>
-                    <td>SunPower M Series</td>
-                    <td>13,272</td>
-                    <td>66,800</td>
-                    <td>7</td>
-                    <td>53,528</td>
-                </tr>
-                <tr>
-                    <td>REC Alpha Pure-R</td>
-                    <td>11,280</td>
-                    <td>66,800</td>
-                    <td>6</td>
-                    <td>55,520</td>
-                </tr>
-                <tr>
-                    <td>Panasonic EverVolt</td>
-                    <td>12,408</td>
-                    <td>66,800</td>
-                    <td>7</td>
-                    <td>54,392</td>
-                </tr>
-                <tr>
-                    <td>Maxeon 3</td>
-                    <td>12,240</td>
-                    <td>66,800</td>
-                    <td>7</td>
-                    <td>54,560</td>
-                </tr>
-                <tr>
-                    <td>Jinko Tiger Neo</td>
-                    <td>10,032</td>
-                    <td>66,800</td>
-                    <td>6</td>
-                    <td>56,768</td>
-                </tr>
-            </table>
-        </div>
-
-        <h4>Solar Panel Selection Matrix</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Solar Panel Model</th>
-                    <th>Efficiency</th>
-                    <th>Cost (£)</th>
-                    <th>Payback (years)</th>
-                    <th>Warranty</th>
-                    <th>Best for</th>
-                </tr>
-                <tr>
-                    <td>Maxeon 3 BLK-R 420W</td>
-                    <td>22.2%</td>
-                    <td>12,240</td>
-                    <td>7</td>
-                    <td>40 years</td>
-                    <td>Long-term reliability and maximum efficiency</td>
-                </tr>
-                <tr>
-                    <td>REC Alpha Pure-R</td>
-                    <td>21.8%</td>
-                    <td>11,280</td>
-                    <td>6</td>
-                    <td>25 years (Output), 20 years (Materials)</td>
-                    <td>Balance of cost and performance</td>
-                </tr>
-                <tr>
-                    <td>Jinko Tiger Neo</td>
-                    <td>21.02%</td>
-                    <td>10,032</td>
-                    <td>6</td>
-                    <td>30 years (Output), 25 years (Materials)</td>
-                    <td>Budget constraints with good performance</td>
-                </tr>
-                <tr>
-                    <td>SunPower M Series</td>
-                    <td>21.7%</td>
-                    <td>13,272</td>
-                    <td>7</td>
-                    <td>25 years</td>
-                    <td>High efficiency and proven performance</td>
-                </tr>
-                <tr>
-                    <td>Panasonic EverVolt</td>
-                    <td>21.7%</td>
-                    <td>12,408</td>
-                    <td>7</td>
-                    <td>25 years</td>
-                    <td>Reliable performance and compact size</td>
-                </tr>
-            </table>
-        </div>
-
+        <h3 class="subsection-header">5.3 Optimal Technology</h3>
         <div class="summary-card">
             <h3>Technology Recommendation</h3>
             <p><strong>Selected Panel:</strong> Jinko Solar Tiger Neo</p>
@@ -1216,13 +1405,47 @@ importance: 1
             </ul>
             <p><strong>Runner-Up:</strong> REC Alpha Pure-R (21.8% efficiency, £470/panel) - preferred if budget allows for higher efficiency</p>
         </div>
+
+        <!-- Building-specific PV System Analysis -->
+        <h3 class="subsection-header">5.4 Building-Specific PV System Analysis</h3>
+        
+        <!-- Arc Health and Wellbeing -->
+        <h4>Arc Health and Wellbeing Facility</h4>
+        <div class="methodology-steps">
+            <div class="step-item">
+                <div class="step-number">Design</div>
+                <div class="step-image">
+                    <img src="/assets/img/projects/fyp/pv_design-29.png" alt="HelioScope PV Panel Design" class="step-img">
+                </div>
+            </div>
+            <div class="step-item">
+                <div class="step-number">Production</div>
+                <div class="step-image">
+                    <img src="/assets/img/projects/fyp/pv_design-30.png" alt="Annual Production Data" class="step-img">
+                </div>
+            </div>
+            <div class="step-item">
+                <div class="step-number">Shading</div>
+                <div class="step-image">
+                    <img src="/assets/img/projects/fyp/pv_design-32.png" alt="Shading Analysis" class="step-img">
+                </div>
+            </div>
+            <div class="step-item">
+                <div class="step-number">Simulation</div>
+                <div class="step-image">
+                    <img src="/assets/img/projects/fyp/pv_design-34.png" alt="PVsyst Interface" class="step-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional building sections would follow the same pattern -->
     </section>
 
     <section>
-        <h2>4. Implementation Roadmap</h2>
+        <h2 class="section-header"><span class="section-number">6</span>Implementation Roadmap</h2>
         
         <div class="phase-box">
-            <h4>4.1 Phased Deployment Schedule</h4>
+            <h4>6.1 Phased Deployment Schedule</h4>
             <p><strong>Phase 1 (Months 1-12): Pilot Implementation</strong></p>
             <ul>
                 <li><strong>Buildings:</strong> William Harley (700kW), Saltire Centre (150kW)</li>
@@ -1253,113 +1476,49 @@ importance: 1
             </ul>
         </div>
 
-        <h4>4.2 Risk Mitigation Strategies</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Risk Category</th>
-                    <th>Likelihood</th>
-                    <th>Impact</th>
-                    <th>Mitigation Approach</th>
-                </tr>
-                <tr>
-                    <td>Shading Losses</td>
-                    <td>Medium</td>
-                    <td>High</td>
-                    <td>Module-level optimizers (SolarEdge HD-Wave), periodic tree trimming</td>
-                </tr>
-                <tr>
-                    <td>Grid Constraints</td>
-                    <td>Low</td>
-                    <td>High</td>
-                    <td>On-site consumption optimization algorithm, battery storage</td>
-                </tr>
-                <tr>
-                    <td>Policy Changes</td>
-                    <td>Medium</td>
-                    <td>Medium</td>
-                    <td>10-year SEG price floor agreement, diversified revenue streams</td>
-                </tr>
-                <tr>
-                    <td>Maintenance Risks</td>
-                    <td>High</td>
-                    <td>Medium</td>
-                    <td>15-year O&M contract with performance guarantees, drone inspections</td>
-                </tr>
-                <tr>
-                    <td>Structural Issues</td>
-                    <td>Low</td>
-                    <td>Critical</td>
-                    <td>Pre-installation surveys, load testing, 5-year structural reviews</td>
-                </tr>
-            </table>
-        </div>
-
-        <h4>4.3 Project Timeline</h4>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Milestone</th>
-                    <th>Duration</th>
-                    <th>Start Month</th>
-                    <th>End Month</th>
-                    <th>Responsible Party</th>
-                </tr>
-                <tr>
-                    <td>Feasibility Study Completion</td>
-                    <td>2 months</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>Consultants</td>
-                </tr>
-                <tr>
-                    <td>Planning Permission</td>
-                    <td>3 months</td>
-                    <td>3</td>
-                    <td>5</td>
-                    <td>University Estates</td>
-                </tr>
-                <tr>
-                    <td>Grid Connection Approval</td>
-                    <td>4 months</td>
-                    <td>4</td>
-                    <td>7</td>
-                    <td>SSE</td>
-                </tr>
-                <tr>
-                    <td>Phase 1 Installation</td>
-                    <td>5 months</td>
-                    <td>8</td>
-                    <td>12</td>
-                    <td>MCS Contractor</td>
-                </tr>
-                <tr>
-                    <td>Commissioning & Testing</td>
-                    <td>1 month</td>
-                    <td>13</td>
-                    <td>13</td>
-                    <td>Technical Team</td>
-                </tr>
-                <tr>
-                    <td>Phase 2 Installation</td>
-                    <td>6 months</td>
-                    <td>18</td>
-                    <td>23</td>
-                    <td>MCS Contractor</td>
-                </tr>
-                <tr>
-                    <td>Full System Operational</td>
-                    <td>-</td>
-                    <td>24</td>
-                    <td>-</td>
-                    <td>University</td>
-                </tr>
-            </table>
-        </div>
+        <h4>6.2 Risk Mitigation Strategies</h4>
+        <table class="data-table">
+            <tr>
+                <th>Risk Category</th>
+                <th>Likelihood</th>
+                <th>Impact</th>
+                <th>Mitigation Approach</th>
+            </tr>
+            <tr>
+                <td>Shading Losses</td>
+                <td>Medium</td>
+                <td>High</td>
+                <td>Module-level optimizers (SolarEdge HD-Wave), periodic tree trimming</td>
+            </tr>
+            <tr>
+                <td>Grid Constraints</td>
+                <td>Low</td>
+                <td>High</td>
+                <td>On-site consumption optimization algorithm, battery storage</td>
+            </tr>
+            <tr>
+                <td>Policy Changes</td>
+                <td>Medium</td>
+                <td>Medium</td>
+                <td>10-year SEG price floor agreement, diversified revenue streams</td>
+            </tr>
+            <tr>
+                <td>Maintenance Risks</td>
+                <td>High</td>
+                <td>Medium</td>
+                <td>15-year O&M contract with performance guarantees, drone inspections</td>
+            </tr>
+            <tr>
+                <td>Structural Issues</td>
+                <td>Low</td>
+                <td>Critical</td>
+                <td>Pre-installation surveys, load testing, 5-year structural reviews</td>
+            </tr>
+        </table>
     </section>
 
     <section>
-        <h2>5. Conclusion and Future Outlook</h2>
+        <h2 class="section-header"><span class="section-number">7</span>Conclusion and Future Outlook</h2>
         
         <div class="summary-card">
             <h3>Key Outcomes</h3>
@@ -1398,76 +1557,8 @@ importance: 1
             </ul>
         </div>
 
-        <h3>5.1 Curriculum Development</h3>
-        <p><strong>Hands-on Learning Initiatives:</strong></p>
-        <ul>
-            <li><strong>Renewable Energy Laboratory:</strong>
-                <ul>
-                    <li>Real-time data feeds from the PV system for engineering courses</li>
-                    <li>Comparative analysis of panel performance (Jinko vs. REC vs. SunPower)</li>
-                    <li>Shading impact studies using collected irradiance data</li>
-                    <li>Energy storage experiments with the Tesla Powerpack</li>
-                </ul>
-            </li>
-        </ul>
-
-        <p><strong>New Course Modules:</strong></p>
-        <ul>
-            <li><strong>"Solar PV Systems in Northern Climates":</strong>
-                <ul>
-                    <li>Case studies using GCU's installation</li>
-                    <li>Field measurements vs. PVsyst simulation comparisons</li>
-                    <li>Financial modeling exercises based on project data</li>
-                </ul>
-            </li>
-            <li><strong>"Smart Grid Integration":</strong>
-                <ul>
-                    <li>Demand response strategies</li>
-                    <li>Battery storage optimization</li>
-                    <li>Grid services from distributed generation</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3>5.2 Student Research Projects</h3>
-        <p><strong>Proposed Topics:</strong></p>
-        <ol>
-            <li><strong>Performance Optimization:</strong>
-                <ul>
-                    <li>Analysis of seasonal variation (0.8 kWh/kWp/day winter vs. 5.1 kWh/kWp/day summer)</li>
-                    <li>Validation of HelioScope predictions against actual output</li>
-                    <li>Soiling loss mitigation strategies for urban environments</li>
-                </ul>
-            </li>
-            <li><strong>Technology Comparison:</strong>
-                <ul>
-                    <li>Efficiency degradation rates of monocrystalline panels in Scottish climate</li>
-                    <li>Cost-benefit analysis of bifacial panels for curved roofs (Saltire Centre)</li>
-                    <li>Microinverter vs. optimizer performance in shaded conditions</li>
-                </ul>
-            </li>
-            <li><strong>Energy Economics:</strong>
-                <ul>
-                    <li>Impact of SEG tariffs (£0.03-£0.15/kWh) on project ROI</li>
-                    <li>Sensitivity analysis of payback period to electricity price fluctuations</li>
-                    <li>Carbon credit valuation methodologies</li>
-                </ul>
-            </li>
-        </ol>
-
-        <div class="highlight">
-            <h3>Future Directions</h3>
-            <ul>
-                <li><strong>Hybrid energy systems:</strong> Solar + hydrogen storage pilot</li>
-                <li><strong>AI-driven energy management:</strong> Machine learning for generation forecasting</li>
-                <li><strong>Vehicle-to-grid integration:</strong> Utilizing EV batteries as storage</li>
-                <li><strong>Community energy scheme:</strong> Extending benefits to local area</li>
-                <li><strong>Research partnerships:</strong> Collaboration with manufacturers on next-gen PV</li>
-            </ul>
-        </div>
-
-        <div class="summary-card">
-            <h3>Final Recommendation</h3>
+        <div class="methodology-conclusion">
+            <h3 class="conclusion-title">Final Recommendation</h3>
             <p>This study demonstrates that rooftop solar PV represents a <strong>technically feasible, environmentally beneficial, and financially viable</strong> opportunity for Glasgow Caledonian University. The proposed 1.04MW system would:</p>
             <ul>
                 <li>Generate <strong>1.22GWh</strong> of clean electricity annually</li>
@@ -1478,5 +1569,33 @@ importance: 1
             <p><strong>Recommended Action:</strong> Proceed with Phase 1 implementation as outlined in Section 4, with installation beginning in Month 8 following necessary approvals.</p>
         </div>
     </section>
+
+    <script>
+    // Simple tab functionality
+    document.querySelectorAll('.tab-button').forEach(button => {
+      button.addEventListener('click', () => {
+        const tabId = button.getAttribute('data-tab');
+        
+        // Remove active class from all buttons and content
+        document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        
+        // Add active class to clicked button and corresponding content
+        button.classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+      });
+    });
+
+    // Accordion functionality
+    document.querySelectorAll('.spec-group').forEach(details => {
+      details.addEventListener('toggle', () => {
+        if (details.open) {
+          details.style.backgroundColor = '#f5f9ff';
+        } else {
+          details.style.backgroundColor = '';
+        }
+      });
+    });
+    </script>
 </body>
 </html>
