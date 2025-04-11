@@ -6,7 +6,7 @@ tech: [PVsyst, HelioScope, AutoCAD, SolarGIS, Financial Modeling, Carbon Account
 image: /assets/img/projects/plumbing_design-1.jpg
 importance: 1
 ---
-<!DOCTYPE html>
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
