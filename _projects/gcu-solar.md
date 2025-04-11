@@ -147,6 +147,21 @@ The study employed a multi-dimensional analytical approach:
 | **ROI (25-year lifespan)** | 12–15% |
 | **Smart Export Guarantee (SEG) Earnings** | £0.03–£0.15 per kWh exported |
 
+| Building                     | Capital Cost (£) | Annual Savings (£) | ROI (%) | Simple Payback Time (Years) | NPV (£) | Payback Period (Years) |
+|------------------------------|------------------:|-------------------:|--------:|----------------------------:|--------:|-----------------------:|
+| Arc Health and Wellbeing     | 262,778          | 29,010            | 176.0   | 9.06                        | 72,016  | 17                     |
+| Britannia                    | 49,292           | 5,364             | 172.1   | 9.19                        | 12,414  | 17                     |
+| Centre for Executive Ed.     | 73,946           | 7,935             | 168.3   | 9.32                        | 17,046  | 18                     |
+| Charles Oakley Laboratories  | 236,042          | 24,525            | 159.8   | 9.62                        | 43,077  | 19                     |
+| George Moore                 | 159,588          | 16,665            | 161.1   | 9.58                        | 30,303  | 19                     |
+| Govan Mbeki                  | 91,912           | 9,945             | 170.5   | 9.24                        | 22,344  | 18                     |
+| Hamish Wood                  | 147,056          | 12,625.5          | 114.6   | 11.65                       | -10,565 | Not Viable             |
+| Milton Street                | 57,234           | 5,998.5           | 162.0   | 9.54                        | 11,175  | 19                     |
+| Students' Association        | 57,652           | 6,325.5           | 174.3   | 9.11                        | 15,248  | 17                     |
+| The Saltire Centre           | 197,602          | 17,490            | 121.3   | 11.30                       | -6,799  | Not Viable             |
+| William Harley               | 127,836          | 13,665            | 167.2   | 9.35                        | 28,723  | 18                     |
+| Annie Lennox                 | 48,456           | 5,212.5           | 168.9   | 9.30                        | 11,350  | 18                     |
+
 **Revenue Streams:**  
 - Smart Export Guarantee (SEG): £0.03–£0.15/kWh exported.  
 - REGO certificates: £2/MWh.
@@ -187,6 +202,31 @@ The study employed a multi-dimensional analytical approach:
 - Inverters: 12x SolarEdge SE82.8K (3-phase)
 - Mounting: Schletter FLATTOP system (tilt: 25°)
 - Compared **5 high-efficiency monocrystalline panels** (SunPower, REC, Panasonic, Maxeon, Jinko).
+
+# Solar Panel Comparison
+| PV Panel                                | Efficiency | Cost per Panel (£) | Total System Cost (£) | Estimated Annual Energy Production (kWh/year) | Total Energy Production over 25 years (kWh) | Cost per Watt (£/W) |
+|-----------------------------------------|------------|--------------------|-----------------------|-----------------------------------------------|---------------------------------------------|---------------------|
+| SunPower M Series (SPR-M420-H-AC)       | 21.7%      | 553                | 13,272                | 9726.9                                        | 243,172.5                                  | 1.33                |
+| REC Group Alpha Pure-R SERIES           | 21.8%      | 470                | 11,280                | 9726.9                                        | 243,172.5                                  | 1.13                |
+| Panasonic EverVolt® EVERVOLT 420HK2     | 21.7%      | 517                | 12,408                | 9726.9                                        | 243,172.5                                  | 1.24                |
+| Maxeon 3 BLK-R 420W                     | 22.2%      | 510                | 12,240                | 9726.9                                        | 243,172.5                                  | 1.22                |
+| Jinko Solar Tiger Neo                   | 21.02%     | 418                | 10,032                | 9726.9                                        | 243,172.5                                  | 1.00                |
+
+| PV Panel                                | Total System Cost ($) | Total Energy Savings over 25 years ($) | Payback Period (Years) |
+|-----------------------------------------|-----------------------|----------------------------------------|-------------------------|
+| SunPower M Series (SPR-M420-H-AC)       | 13,272                | 66,800                                 | 7                       |
+| REC Group Alpha Pure-R SERIES           | 11,280                | 66,800                                 | 6                       |
+| Panasonic EverVolt® EVERVOLT_420HK2     | 12,408                | 66,800                                 | 7                       |
+| Maxeon 3 BLK-R 420W                     | 12,240                | 66,800                                 | 7                       |
+| Jinko Solar Tiger Neo                   | 10,032                | 66,800                                 | 6                       |
+
+| Solar Panel Model                     | Efficiency | Cost (£) | Payback Period (years) | Warranty                                | Best for                                      |
+|---------------------------------------|------------|----------|-------------------------|-----------------------------------------|-----------------------------------------------|
+| Maxeon 3 BLK-R 420W                   | 22.2%      | 12,240   | 7                       | 40 years                                | Long-term reliability and maximum efficiency  |
+| REC Group Alpha Pure-R SERIES         | 21.8%      | 11,280   | 6                       | 25 years (Output), 20 years (Materials) | Balance of cost and performance               |
+| Jinko Solar Tiger Neo                 | 21.02%     | 10,032   | 6                       | 30 years (Output), 25 years (Materials) | Budget constraints with good performance      |
+| SunPower M Series (SPR-M420-H-AC)     | 21.7%      | 13,272   | 7                       | 25 years                                | High efficiency and proven performance        |
+| Panasonic EverVolt® EVERVOLT_420HK2   | 21.7%      | 12,408   | 7                       | 25 years                                | Reliable performance and compact size         |
  
 - **Recommended Panel**: Jinko Solar Tiger Neo (lowest initial investment cost (£10,032) and the shortest payback period (5.73 years))
 - **Runner-Up**: REC Alpha Pure-R (21.8% efficiency, £470/panel).  
