@@ -441,8 +441,6 @@ importance: 1
             <li><strong>HelioScope:</strong> Shading analysis, module-level energy yield predictions, 3D visualization</li>
             <li><strong>PVsyst:</strong> Hourly performance simulation, economic modeling, sensitivity analysis</li>
             <li><strong>AutoCAD:</strong> Precise rooftop layouts and system schematics, structural drawings</li>
-            <li><strong>QGIS:</strong> Geospatial analysis and mapping</li>
-            <li><strong>PV*SOL:</strong> Alternative energy yield verification</li>
             <li><strong>RETScreen:</strong> Financial modeling and carbon analysis</li>
         </ul>
 
