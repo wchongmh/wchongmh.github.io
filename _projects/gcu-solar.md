@@ -8,15 +8,20 @@ importance: 1
 ---
 
 ### **Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus**  
+This project evaluates the feasibility of installing rooftop photovoltaic (PV) systems across 12 buildings at Glasgow Caledonian University (GCU). Through spatial analysis, energy simulations, and financial modeling, it identifies optimal solar panel configurations to reduce carbon emissions, lower energy costs, and advance the university’s sustainability goals. The study integrates climatic data, structural constraints, and regulatory incentives to deliver actionable recommendations.  
 
-## Executive Summary
-**Core Proposition:** Installation of 1.04MW distributed solar PV system across 12 campus buildings, delivering:
-- **Annual Generation:** 824,500 kWh (12% of campus demand)
-- **Carbon Reduction:** 317 tonnes CO₂e/year
-- **Financial Metrics:**
-  - CAPEX: £1.18 million
-  - Payback Period: 8.3 years
-  - 25-year NPV: £2.1 million (IRR 14.2%)
+
+## Executive Summary  
+Glasgow Caledonian University, committed to its "University for the Common Good" mission, seeks to expand its renewable energy capacity through rooftop solar installations. This project:  
+
+1. **Assesses 12 campus buildings** (e.g., Saltire Centre, Hamish Wood) for PV potential using Google Earth, HelioScope, and PVsyst simulations.  
+2. **Analyzes Glasgow’s climate**, confirming viable solar energy generation (~1,100 sun hours/year) despite cloud cover, with cooler temperatures enhancing panel efficiency.  
+3. **Identifies 8,150 m² of installable rooftop space**, capable of generating **1.22 GWh annually**—offsetting **550 tonnes of CO₂/year** (equivalent to 125 UK homes’ emissions).  
+4. **Recommends monocrystalline panels** for high efficiency (15–22%) and space optimization, with microinverters to mitigate shading impacts.  
+5. **Projects financial viability**:  
+   - **£1.8M initial investment** (offset by £30K–£50K grants and interest-free loans).  
+   - **7–10 year payback period** via energy savings and Smart Export Guarantee (SEG) revenue.  
+6. **Aligns with GCU’s EcoCampus Platinum and net-zero targets**, while serving as an educational tool for sustainability programs.  
 
 **Key Differentiators:**
 - Hybrid mounting systems for curved roofs
@@ -260,10 +265,27 @@ The study employed a multi-dimensional analytical approach:
 ---
 
 ### **5. Conclusion and Future Outlook**  
-**Key Outcomes:**  
-- **Annual Energy Generation:** 824,500 kWh (~10% of campus demand).  
-- **Carbon Reduction:** 300 tonnes CO₂/year.  
-- **Financial Savings:** £3.5M over 25 years.  
+## Key Outcomes  
+
+### 1. Technical Feasibility  
+- **South-facing roofs** prioritized, with **60–80% of roof areas** deemed suitable for PV installation.  
+- **Structural loads** verified (1.5–2.8 kN/m²), requiring minor reinforcements for older buildings.  
+- **Shading challenges** addressed through panel-level power electronics (e.g., SolarEdge optimizers).  
+
+### 2. Energy and Environmental Impact  
+- **Total capacity**: 1.2 MWp across campus.  
+- **Annual generation**: 1.22 GWh (15% of GCU’s electricity demand).  
+- **Carbon reduction**: 550 tonnes CO₂/year (12% of GCU’s Scope 2 emissions).  
+
+### 3. Financial Analysis  
+- **Capital cost**: £1.8M (including panels, inverters, and installation).  
+- **Savings**: £180K/year from reduced grid dependence + £65K/year SEG income.  
+- **ROI**: 8–12% IRR over 25 years, with NPV of £1.2M.  
+
+### 4. Strategic Recommendations  
+- **Phase 1**: Install panels on Saltire Centre, Arc Health, and William Harley (highest ROI).  
+- **Phase 2**: Expand to remaining buildings, integrating battery storage for resilience.  
+- **Leverage Scottish Government incentives**: Renewable Energy Generation Relief and Home Energy Scotland grants.  
 
 **Future Directions:**  
 - Hybrid systems (solar + hydrogen storage).  
