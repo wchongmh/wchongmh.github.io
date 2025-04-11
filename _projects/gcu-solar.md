@@ -314,12 +314,12 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">1</span>Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus</h2>
+        <h2 class="section-header">Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus</h2>
         <p>This project evaluates the feasibility of installing rooftop photovoltaic (PV) systems across 12 buildings at Glasgow Caledonian University (GCU). Through spatial analysis, energy simulations, and financial modeling, it identifies optimal solar panel configurations to reduce carbon emissions, lower energy costs, and advance the university's sustainability goals. The study integrates climatic data, structural constraints, and regulatory incentives to deliver actionable recommendations.</p>
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">2</span>Executive Summary</h2>
+        <h2 class="section-header"><span class="section-number">1</span>Executive Summary</h2>
         <p>Glasgow Caledonian University, committed to its "University for the Common Good" mission, seeks to expand its renewable energy capacity through rooftop solar installations. This project:</p>
         
         <div class="key-points">
@@ -348,7 +348,7 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">3</span>Introduction and Contextual Background</h2>
+        <h2 class="section-header"><span class="section-number">2</span>Introduction and Contextual Background</h2>
         <p>The research addresses the growing importance of renewable energy adoption in higher education institutions, focusing on Glasgow Caledonian University's potential for rooftop solar photovoltaic (PV) installations.</p>
         
         <h3 class="subsection-header">Key Motivations:</h3>
@@ -371,7 +371,7 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">4</span>Methodology and Approach</h2>
+        <h2 class="section-header"><span class="section-number">3</span>Methodology and Approach</h2>
         
         <h3 class="subsection-header">2.1 Technical Assessment Framework</h3>
         <p>The study employed a multi-dimensional analytical approach combining geospatial, climatic, and structural analysis:</p>
@@ -626,7 +626,7 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">5</span>Key Findings and Analysis</h2>
+        <h2 class="section-header"><span class="section-number">4</span>Key Findings and Analysis</h2>
         
         <h3 class="subsection-header">3.1 Glasgow Caledonian University PV Panel Feasibility Analysis</h3>
         <p><strong>Total Potential:</strong> ~1.04 MW solar capacity across 12 buildings, representing 15% of campus electricity demand.</p>
@@ -2192,7 +2192,7 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">6</span>Implementation Roadmap</h2>
+        <h2 class="section-header"><span class="section-number">5</span>Implementation Roadmap</h2>
         
         <div class="success-box">
             <h4>4.1 Phased Deployment Schedule</h4>
@@ -2328,7 +2328,7 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">7</span>Conclusion and Future Outlook</h2>
+        <h2 class="section-header"><span class="section-number">6</span>Conclusion and Future Outlook</h2>
         
         <div class="summary-card">
             <h3>Key Outcomes</h3>
