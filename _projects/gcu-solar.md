@@ -87,6 +87,14 @@ The study employed a multi-dimensional analytical approach:
 - Comparison with existing university installations.  
 - Sensitivity analysis for key variables.  
 
+**Technology Comparison:**
+| Parameter        | Monocrystalline | Polycrystalline | Thin-Film |
+|-----------------|----------------|----------------|----------|
+| Efficiency      | 18-22%         | 15-18%         | 10-13%   |
+| Temperature Coeff. | -0.3%/°C    | -0.4%/°C      | -0.2%/°C |
+| Space Requirement | 5m²/kW       | 6m²/kW        | 8m²/kW   |
+| 25-year Degradation | 0.5%/year  | 0.7%/year     | 1%/year  |
+
 #### **Case Studies from Other Universities**  
 | **University**               | **PV Capacity** | **Key Findings**                          |  
 |-----------------------------|----------------|------------------------------------------|  
@@ -131,11 +139,13 @@ The study employed a multi-dimensional analytical approach:
 - Seasonal variability (winter output: 0.8 kWh/kWp/day vs. summer: 5.1 kWh/kWp/day).  
 
 #### **3.2 Financial Viability**  
-| **Factor**               | **Estimate**          |  
-|--------------------------|-----------------------|  
-| **Installation Cost**     | £1.2M (for 1 MW system) |  
-| **Payback Period**        | 7–10 years            |  
-| **25-year ROI**           | 12–15%                |  
+| **Factor** | **Estimate** |
+|-----------|------------|
+| **Installation Cost** | £1.2M (for 1 MW system) |
+| **Government Grants** | Up to £300,000 (Home Energy Scotland) |
+| **Payback Period** | 7–10 years |
+| **ROI (25-year lifespan)** | 12–15% |
+| **Smart Export Guarantee (SEG) Earnings** | £0.03–£0.15 per kWh exported |
 
 **Revenue Streams:**  
 - Smart Export Guarantee (SEG): £0.03–£0.15/kWh exported.  
