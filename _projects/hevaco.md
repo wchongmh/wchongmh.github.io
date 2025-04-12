@@ -757,11 +757,7 @@ importance: 1
                     <div class="system-specs">
                         <h4>Radiator Specifications</h4>
                         <img src="/assets/img/projects/glasgow-office/hevacomp-18.png" alt="Radiator Data" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-19.png" alt="Radiator Photos" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-20.png" alt="Radiator Details" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-21.png" alt="Radiator Sizing" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-22.png" alt="Boiler Catalogue" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-23.png" alt="EN 442 Certification" class="spec-image">
                         
                         <h4>Key Features</h4>
                         <ul>
@@ -812,7 +808,6 @@ importance: 1
                         <h4>Ventilation Standards</h4>
                         <img src="/assets/img/projects/glasgow-office/hevacomp-31.png" alt="Ventilation Rates" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-33.png" alt="Regulations" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-34.png" alt="System Types" class="spec-image">
                         
                         <h4>Key Parameters</h4>
                         <ul>
@@ -824,18 +819,14 @@ importance: 1
                         </ul>
                         
                         <h4>Supply System Data</h4>
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-37.png" alt="Supply Duct Sizing" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-38.png" alt="Supply Index Values" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-39.png" alt="Damper Losses" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-40.png" alt="Ductwork Quantities" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-41.png" alt="Input Values" class="spec-image">
                         
                         <h4>Extract System Data</h4>
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-43.png" alt="Extract Duct Sizing" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-44.png" alt="Extract Sizing Data" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-45.png" alt="Extract Index Values" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-46.png" alt="Extract Quantities" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-47.png" alt="Extract Input Values" class="spec-image">
                     </div>
                 </div>
             </div>
@@ -953,7 +944,7 @@ importance: 1
                             <li>Optimal boiler size: 75.7 kW</li>
                         </ul>
                         
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-15.png" alt="System Performance" class="conclusion-image">
+                        <img src="/assets/img/projects/glasgow-office/hevacomp-32.png" alt="Ventilation Calculations" class="conclusion-image">
                     </div>
                     
                     <div class="recommendations">
@@ -974,8 +965,6 @@ importance: 1
                             <div class="rec-icon">☀️</div>
                             <p>Consider heat recovery ventilation system upgrades</p>
                         </div>
-                        
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-32.png" alt="Ventilation Calculations" class="conclusion-image">
                     </div>
                 </div>
             </div>
