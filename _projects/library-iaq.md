@@ -1,6 +1,6 @@
 ---
 title: "Indoor Air Quality Study - Library Sub-Area 4"
-category: Environmental Systems
+category: Building Systems
 description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies."
 tech: [IAQ Monitoring, HVAC Design, BS EN 13779, Energy Recovery, CFD Analysis]
 image: /assets/img/projects/iaq/library-iaq-1.png
@@ -14,7 +14,7 @@ importance: 2
     <h1 class="project-title">Indoor Air Quality Optimization</h1>
     <p class="project-subtitle">Library Study Areas Assessment</p>
     <div class="project-meta">
-      <span class="badge">Environmental Systems</span>
+      <span class="badge">Building Systems</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
