@@ -126,9 +126,7 @@ importance: 1
 
     <article class="design-subsection">
       <h3 class="subsection-header">
-        <svg class="subsection-icon" viewBox="0 0 24 24">
-          <path d="M3,3H21V21H3V3M7.73,18.04L14.04,12L7.73,5.96V18.04M18.24,17.55V6.46L10.5,12L18.24,17.55Z" />
-        </svg>
+        <span class="subsection-icon">📊</span>
         Thermal Performance
       </h3>
       
@@ -237,9 +235,7 @@ importance: 1
 
     <article class="design-subsection">
       <h3 class="subsection-header">
-        <svg class="subsection-icon" viewBox="0 0 24 24">
-          <path d="M19,17H21V15H19M19,21H21V19H19M13,3H11V5H13M19,5H21V3H19M17,5H15V3H17M17,21H15V19H17M19,13H21V11H19M19,9H21V7H19M17,9H15V7H17M13,21H11V19H13M3,13H5V11H3M3,17H5V15H3M3,9H5V7H3M3,5H5V3H3M7,21H9V19H7M3,21H5V19H3M7,5H9V3H7M11,21H13V19H11M11,7H13V5H11V7Z" />
-        </svg>
+        <span class="subsection-icon">🔥</span>
         Heating System
       </h3>
       
@@ -287,9 +283,7 @@ importance: 1
 
     <article class="design-subsection">
       <h3 class="subsection-header">
-        <svg class="subsection-icon" viewBox="0 0 24 24">
-          <path d="M15,13H16.5V15.82L18.94,17.23L18.19,18.53L15,16.69V13M19,8H5V19H9.67C9.24,18.09 9,17.07 9,16A7,7 0 0,1 16,9C17.07,9 18.09,9.24 19,9.67V8M5,21C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H6V1H8V3H16V1H18V3H19A2,2 0 0,1 21,5V11.1C22.24,12.36 23,14.09 23,16A7,7 0 0,1 16,23C14.09,23 12.36,22.24 11.1,21H5M16,11.15A4.85,4.85 0 0,0 11.15,16C11.15,18.68 13.32,20.85 16,20.85A4.85,4.85 0 0,0 20.85,16C20.85,13.32 18.68,11.15 16,11.15Z" />
-        </svg>
+        <span class="subsection-icon">💨</span>
         Ventilation System
       </h3>
       
@@ -633,6 +627,20 @@ importance: 1
   align-items: center;
   justify-content: center;
   margin-right: 15px;
+}
+
+.subsection-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subsection-icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
 }
 
 /* Image Comparison */
