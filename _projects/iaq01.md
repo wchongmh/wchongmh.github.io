@@ -1,6 +1,6 @@
 ---
 title: "Indoor Air Quality Study - Library Sub-Area 4"
-category: Environmental Engineering
+category: Building Systems
 description: "Comprehensive IAQ analysis of library study areas with HVAC redesign recommendations"
 tech: [IAQ Monitoring, HVAC Design, CO2 Analysis, Mould Assessment, Energy Efficiency]
 image: /assets/img/projects/iaq/library-iaq-1.jpg
