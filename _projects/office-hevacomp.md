@@ -126,7 +126,6 @@ importance: 1
 
     <article class="design-subsection">
       <h3 class="subsection-header">
-        <span class="subsection-icon">📊</span>
         Thermal Performance
       </h3>
       
@@ -235,7 +234,6 @@ importance: 1
 
     <article class="design-subsection">
       <h3 class="subsection-header">
-        <span class="subsection-icon">🔥</span>
         Heating System
       </h3>
       
@@ -283,7 +281,6 @@ importance: 1
 
     <article class="design-subsection">
       <h3 class="subsection-header">
-        <span class="subsection-icon">💨</span>
         Ventilation System
       </h3>
       
