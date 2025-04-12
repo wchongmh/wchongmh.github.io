@@ -14,7 +14,7 @@ importance: 2
     <h1 class="project-title">Indoor Air Quality Study</h1>
     <p class="project-subtitle">University Library Sub-Area 4</p>
     <div class="project-meta">
-      <span class="badge">Environmental Engineering</span>
+      <span class="badge">Building Systems</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
