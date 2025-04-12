@@ -486,7 +486,14 @@ importance: 1
             .project-subtitle {
                 font-size: 1.25rem;
             }
-            
+
+            .project-meta {
+              display: flex;
+              gap: 15px;
+              margin-bottom: 30px;
+              flex-wrap: wrap;
+            }
+
             .section-header {
                 font-size: 1.5rem;
                 padding-left: 3rem;
@@ -537,6 +544,20 @@ importance: 1
                 <span class="tech-tag">Building Regulations</span>
             </div>
         </header>
+
+        <!-- Project Header -->
+  <header class="project-header">
+    <h1 class="project-title">Two-Story Building Energy Analysis</h1>
+    <p class="project-subtitle">Glasgow Office Building</p>
+    <div class="project-meta">
+      <span class="badge">Building Systems</span>
+      <span class="tech-tags">
+        {% for technology in page.tech %}
+        <span class="tech-tag">{{ technology }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </header>
 
         <!-- Visualization Section -->
         <section class="visualization-section">
