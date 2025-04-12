@@ -457,11 +457,6 @@ ninja.data = [{
           title: 'Two-Story Building Energy Analysis - Glasgow Office',
           description: "Comprehensive energy analysis of a Glasgow office building using Hevacomp, including heating, ventilation, and boiler systems design.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/hea/";
-            },},{id: "projects-two-story-building-energy-analysis-glasgow-office",
-          title: 'Two-Story Building Energy Analysis - Glasgow Office',
-          description: "Comprehensive energy analysis of a Glasgow office building using Hevacomp, including heating, ventilation, and boiler systems design.",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/heva/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
