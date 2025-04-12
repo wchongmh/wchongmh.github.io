@@ -332,7 +332,6 @@ importance: 1
             <img src="/assets/img/projects/fyp/pv_design-1.png" alt="Satellite imagery analysis for PV panel installations at Glasgow Caledonian University" class="project-image">
             <div class="image-caption">Satellite imagery analysis for PV panel installations</div>
         </div>
-    </div>
 
     <div class="content-card">
         <h2 class="section-header">Study on the Development Potential and Energy Incentives of Rooftop Renewable Energy Applications in Glasgow Caledonian University Campus</h2>
