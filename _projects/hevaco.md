@@ -842,11 +842,9 @@ importance: 1
                         
                         <h4>Supply System Data</h4>
                         <img src="/assets/img/projects/glasgow-office/hevacomp-38.png" alt="Supply Index Values" class="spec-image">
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-39.png" alt="Damper Losses" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-40.png" alt="Ductwork Quantities" class="spec-image">
                         
                         <h4>Extract System Data</h4>
-                        <img src="/assets/img/projects/glasgow-office/hevacomp-44.png" alt="Extract Sizing Data" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-45.png" alt="Extract Index Values" class="spec-image">
                         <img src="/assets/img/projects/glasgow-office/hevacomp-46.png" alt="Extract Quantities" class="spec-image">
                     </div>
