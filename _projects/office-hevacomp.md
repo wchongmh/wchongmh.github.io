@@ -7,15 +7,6 @@ image: /assets/img/projects/glasgow-office/hevacomp-0.png
 importance: 1
 ---
 
----
-title: "Two-Story Building Energy Analysis - Glasgow Office"
-category: Building Systems
-description: "Comprehensive energy analysis of a Glasgow office building using Hevacomp, including heating, ventilation, and boiler systems design."
-tech: [Hevacomp, BS EN 12845, HVAC Design, Thermal Analysis, Building Regulations]
-image: /assets/img/projects/glasgow-office/hevacomp-4.png
-importance: 1
----
-
 <div class="energy-analysis-project">
 
   <!-- Project Header -->
