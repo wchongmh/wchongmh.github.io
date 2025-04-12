@@ -7,7 +7,7 @@ image: /assets/img/projects/glasgow-office/hevacomp-0.png
 importance: 1
 ---
 
-<!DOCTYPE html>
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -544,20 +544,6 @@ importance: 1
                 <span class="tech-tag">Building Regulations</span>
             </div>
         </header>
-
-        <!-- Project Header -->
-  <header class="project-header">
-    <h1 class="project-title">Two-Story Building Energy Analysis</h1>
-    <p class="project-subtitle">Glasgow Office Building</p>
-    <div class="project-meta">
-      <span class="badge">Building Systems</span>
-      <span class="tech-tags">
-        {% for technology in page.tech %}
-        <span class="tech-tag">{{ technology }}</span>
-        {% endfor %}
-      </span>
-    </div>
-  </header>
 
         <!-- Visualization Section -->
         <section class="visualization-section">
