@@ -317,16 +317,16 @@ importance: 1
 </head>
 <body>
         <header class="header-container">
-        <h1>Rooftop Solar Potential - Glasgow Caledonian University</h1>
-        <div class="tech-list">
-            <span class="tech-item">PVsyst</span>
-            <span class="tech-item">HelioScope</span>
-            <span class="tech-item">AutoCAD</span>
-            <span class="tech-item">SolarGIS</span>
-            <span class="tech-item">Financial Modeling</span>
-            <span class="tech-item">Carbon Accounting</span>
+            <h1>Rooftop Solar Potential - Glasgow Caledonian University</h1>
+            <div class="tech-list">
+                <span class="tech-item">PVsyst</span>
+                <span class="tech-item">HelioScope</span>
+                <span class="tech-item">AutoCAD</span>
+                <span class="tech-item">SolarGIS</span>
+                <span class="tech-item">Financial Modeling</span>
+                <span class="tech-item">Carbon Accounting</span>
+            </div>
         </header>
-        </div>
         
         <div class="image-card">
             <img src="/assets/img/projects/fyp/pv_design-1.png" alt="Satellite imagery analysis for PV panel installations at Glasgow Caledonian University" class="project-image">
