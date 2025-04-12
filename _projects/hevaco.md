@@ -660,12 +660,13 @@ importance: 1
                         <img src="/assets/img/projects/glasgow-office/hevacomp-5.png" alt="Airtightness Standards" class="performance-image">
                     </div>
                 </div>
-                
-                <div class="image-card">
+
+                <div class="image-card" style="max-width: 500px; margin: 0 auto;">
                     <img src="/assets/img/projects/glasgow-office/hevacomp-12.png" 
                          alt="Heat Loss Distribution" 
                          class="project-image"
-                         loading="lazy">
+                         loading="lazy"
+                         style="width: 100%; height: auto;">
                     <div class="image-meta">
                         <span class="image-fig">Fig 3.</span>
                         <span class="image-desc">Heat loss distribution showing 38% infiltration and 28% glazing losses</span>
