@@ -369,7 +369,7 @@ importance: 1
     </div>
 
     <div class="content-card">
-        <h2 class="section-header"><span class="section-number">2</span>Introduction and Contextual Background</h2>
+        <h2 class="section-header"><span class="section-number">2</span>Introduction and Background</h2>
         <p>The research addresses the growing importance of renewable energy adoption in higher education institutions, focusing on Glasgow Caledonian University's potential for rooftop solar photovoltaic (PV) installations.</p>
         
         <h3 class="subsection-header">Key Motivations:</h3>
