@@ -1124,6 +1124,19 @@ importance: 2
           </div>
         </div>
       </div>
+
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/library-iaq/iehvac-38.png" 
+               alt="Air duct sizing details" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Air duct sizing details</span>
+            <span class="calc-detail">Final duct sizing implementation plan</span>
+          </div>
+        </div>
+      </div>
       
       <div class="calculation-item">
         <div class="calc-image-container">
