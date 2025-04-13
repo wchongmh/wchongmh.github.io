@@ -1,6 +1,6 @@
 ---
 title: "Noise Control Assessment - Laboratory 204"
-category: Environmental Engineering
+category: Building Systems
 description: "Comprehensive noise analysis for HK laboratory, including NC compliance, ear protection zones, and mitigation strategies."
 tech: [Sound Level Meter, NC Charts, LEP.d Calculations, Silencer Design, OSHA Standards]
 image: /assets/img/projects/noise-assessment/lab204-environment.jpg
