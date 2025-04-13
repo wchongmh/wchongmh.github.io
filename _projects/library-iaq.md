@@ -310,11 +310,13 @@ importance: 2
             <div class="system-icon">🦠</div>
             <h5>Mould Growth</h5>
             <p>7 affected areas (all &lt;0.3m²) due to condensation at diffusers</p>
+            <img src="/assets/img/projects/library-iaq/iehvac-4.png" alt="Window frame mould" class="issue-image">
           </div>
           <div class="system-type-card">
             <div class="system-icon">🔄</div>
             <h5>System Response</h5>
             <p>No PAU in existing system, FCUs only handle recirculated air</p>
+            <img src="/assets/img/projects/library-iaq/iehvac-7.png" alt="Exhaust fan issue" class="issue-image">
           </div>
         </div>
       </div>
