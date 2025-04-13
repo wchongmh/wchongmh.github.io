@@ -476,7 +476,6 @@ importance: 2
         </div>
       </div>
     </article>
-  </section>
 
     <!-- Add this in the System Analysis section after the existing content -->
 <section class="project-section">
