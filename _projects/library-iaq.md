@@ -109,25 +109,22 @@ importance: 2
           <span class="spec-value">30%</span>
           <span class="spec-label">Occupants dissatisfied with temperature</span>
         </div>
-
-        <div class="key-specs">
-    <h3 class="specs-title">Key Findings Summary</h3>
-    <div class="specs-grid">
-      <div class="spec-item">
-        <span class="spec-value">1,469ppm</span>
-        <span class="spec-label">Peak CO₂ (Room A)</span>
-      </div>
-      <div class="spec-item">
-        <span class="spec-value">7/8</span>
-        <span class="spec-label">Parameters Met Good Class</span>
-      </div>
-      <div class="spec-item">
-        <span class="spec-value">583 l/s</span>
-        <span class="spec-label">Required FA Increase (Room A)</span>
-      </div>
-      <div class="spec-item">
-        <span class="spec-value">1.49 yrs</span>
-        <span class="spec-label">Energy Payback Period</span>
+        <div class="spec-item">
+          <span class="spec-value">1,469ppm</span>
+          <span class="spec-label">Peak CO₂ (Room A)</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">7/8</span>
+          <span class="spec-label">Parameters Met Good Class</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">583 l/s</span>
+          <span class="spec-label">Required FA Increase (Room A)</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">1.49 yrs</span>
+          <span class="spec-label">Energy Payback Period</span>
+        </div>
       </div>
     </div>
 
@@ -621,56 +618,6 @@ importance: 2
     </div>
   </section>
 </div>
-
-<style>
-/* Custom IAQ Project Styles */
-.iaq-project {
-  color: #2c3e50;
-}
-
-.data-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 15px 0;
-}
-
-.data-table th, .data-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.data-table th {
-  background-color: #f2f2f2;
-}
-
-.data-table tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-/* Additional responsive adjustments */
-@media (max-width: 768px) {
-  .facilities-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .system-types-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
-<script>
-// Tab functionality for data sections
-document.querySelectorAll('.spec-group summary').forEach(summary => {
-  summary.addEventListener('click', () => {
-    const details = summary.parentElement;
-    document.querySelectorAll('.spec-group').forEach(d => {
-      if (d !== details) d.removeAttribute('open');
-    });
-  });
-});
-</script>
 
 <style>
 /* Base Styles */
@@ -1514,6 +1461,31 @@ document.querySelectorAll('.spec-group summary').forEach(summary => {
   text-align: center;
 }
 
+/* Custom IAQ Project Styles */
+.iaq-project {
+  color: #2c3e50;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
   .reflection-content {
@@ -1550,6 +1522,10 @@ document.querySelectorAll('.spec-group summary').forEach(summary => {
   .system-types-grid {
     grid-template-columns: 1fr 1fr;
   }
+  
+  .facilities-grid, .specs-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1579,7 +1555,7 @@ document.querySelectorAll('.spec-group summary').forEach(summary => {
     grid-template-columns: 1fr;
   }
   
-  .system-types-grid {
+  .system-types-grid, .facilities-grid, .specs-grid {
     grid-template-columns: 1fr;
   }
   
