@@ -1290,7 +1290,7 @@ importance: 2
              alt="Team presenting findings" 
              class="reflection-img"
              loading="lazy">
-        <p class="image-caption">Fig 6. Presenting Energy savings calculation for mass flow rate and capacity</p>
+        <p class="image-caption">Fig 7. Presenting Energy savings calculation for mass flow rate and capacity</p>
       </div>
     </div>
   </section>
