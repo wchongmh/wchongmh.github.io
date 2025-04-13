@@ -205,19 +205,16 @@ importance: 2
             <div class="nc-reading">
               <span class="nc-location">1st Inlet</span>
               <span class="nc-value">58 NC</span>
-              <div class="nc-bar" style="width: 116%"></div>
               <img src="/assets/img/projects/noise_assessment/lab204-environment-17.png" alt="1st Inlet NC Chart" loading="lazy">
             </div>
             <div class="nc-reading">
               <span class="nc-location">Under Motor</span>
               <span class="nc-value">62 NC</span>
-              <div class="nc-bar" style="width: 124%"></div>
               <img src="/assets/img/projects/noise_assessment/lab204-environment-16.png" alt="Motor NC Chart" loading="lazy">
             </div>
             <div class="nc-reading">
               <span class="nc-location">Room Center</span>
               <span class="nc-value">55 NC</span>
-              <div class="nc-bar" style="width: 110%"></div>
               <img src="/assets/img/projects/noise_assessment/lab204-environment-18.png" alt="Room Center NC Chart" loading="lazy">
             </div>
           </div>
