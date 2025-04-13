@@ -23,24 +23,24 @@ importance: 2
     </div>
   </header>
 
-  <div class="project-visualization">
+   <div class="project-visualization">
     <div class="visualization-description">
       <p>The study assessed two library study rooms (Room A & B) (185.3m² total) with 40+ computer workstations, analyzing 8 key IAQ parameters and thermal comfort conditions such as identifying CO₂ and formaldehyde exceedances during peak occupancy. The assessment followed Hong Kong's IAQ Certification Scheme standards. The redesign proposes a heat recovery ventilation system integrated with existing FCUs.</p>
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/iaq/library-area-a.jpg" 
-             alt="Library Room A with computer workstations" 
+        <img src="/assets/img/projects/library-iaq/iehvac-1.png" 
+             alt="Detail of possible source location" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Room A showing diffuser locations and measurement points</p>
+        <p class="visualization-caption">Possible pollution sources in study area</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/iaq/mould-growth.jpg" 
-             alt="Mould observed on window frame" 
+        <img src="/assets/img/projects/library-iaq/iehvac-6.png" 
+             alt="Mould observed on diffuser blades" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Mould growth at window frame (0.0025m²)</p>
+        <p class="visualization-caption">Mould growth on diffuser blades (0.14m²)</p>
       </div>
     </div>
   </div>
