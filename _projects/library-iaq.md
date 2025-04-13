@@ -1228,15 +1228,6 @@ importance: 2
         </ul>
       </div>
     </div>
-
-    <div class="system-design">
-      <h3 class="subsection-header">Proposed HVAC System Layout</h3>
-      <img src="/assets/img/projects/iaq/hvac-redesign.jpg" 
-           alt="HVAC Redesign Schematic" 
-           class="design-image"
-           loading="lazy">
-      <p class="design-caption">Fig 2. Proposed system with heat recovery and increased fresh air capacity</p>
-    </div>
   </section>
 
   <!-- Project Reflection Section -->
