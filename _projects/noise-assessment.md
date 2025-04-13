@@ -114,12 +114,161 @@ importance: 2
     </div>
   </section>
 
+   <!-- Methodology Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">2</span>
+      Methodology
+    </h2>
+    
+    <div class="methodology-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h4>Instrumentation</h4>
+          <p>RION NL-32 Sound Level Meter (S/N: 00271994) measuring:</p>
+          <ul>
+            <li>SPL (dB/dBA)</li>
+            <li>Frequency spectrum (31.5Hz-8kHz)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h4>Sampling Protocol</h4>
+          <ul>
+            <li><strong>Background Noise:</strong> 1-min samples at 170cm height (under motor, 1st inlet, room center)</li>
+            <li><strong>Workplace Noise:</strong> 1m² grid mapping for Machines A-C</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h4>Analysis Framework</h4>
+          <div class="analysis-methods">
+            <div class="method">
+              <span class="method-icon">📊</span>
+              <span>NC Chart Evaluation</span>
+            </div>
+            <div class="method">
+              <span class="method-icon">🧮</span>
+              <span>LEP.D = 10log(1/8)Σ(T×10<sup>L/10</sup>)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Methodology Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">2</span>
+      Methodology
+    </h2>
+    
+    <div class="methodology-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h4>Instrumentation</h4>
+          <p>RION NL-32 Sound Level Meter (S/N: 00271994) measuring:</p>
+          <ul>
+            <li>SPL (dB/dBA)</li>
+            <li>Frequency spectrum (31.5Hz-8kHz)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h4>Sampling Protocol</h4>
+          <ul>
+            <li><strong>Background Noise:</strong> 1-min samples at 170cm height (under motor, 1st inlet, room center)</li>
+            <li><strong>Workplace Noise:</strong> 1m² grid mapping for Machines A-C</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h4>Analysis Framework</h4>
+          <div class="analysis-methods">
+            <div class="method">
+              <span class="method-icon">📊</span>
+              <span>NC Chart Evaluation</span>
+            </div>
+            <div class="method">
+              <span class="method-icon">🧮</span>
+              <span>LEP.D = 10log(1/8)Σ(T×10<sup>L/10</sup>)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Background Noise Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">3</span>
       Background Noise Analysis
     </h2>
+
+    <div class="results-tabs">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-tab="background">Background Noise</button>
+        <button class="tab-button" data-tab="workplace">Workplace Noise</button>
+      </div>
+      
+      <div class="tab-content active" id="background">
+        <div class="nc-compliance">
+          <h4>NC Compliance Failure</h4>
+          <div class="nc-readings">
+            <div class="nc-reading">
+              <span class="nc-location">1st Inlet</span>
+              <span class="nc-value">58 NC</span>
+              <div class="nc-bar" style="width: 116%"></div>
+            </div>
+            <div class="nc-reading">
+              <span class="nc-location">Under Motor</span>
+              <span class="nc-value">62 NC</span>
+              <div class="nc-bar" style="width: 124%"></div>
+            </div>
+          </div>
+          <p>Dominant low-frequency noise (250Hz) due to duct turbulence and reflective surfaces.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="workplace">
+        <div class="machine-results">
+          <div class="machine-card">
+            <h5>Machine A</h5>
+            <span class="machine-peak">92.2 dB(A)</span>
+            <span class="machine-zone">1m² Protection Zone</span>
+          </div>
+          <div class="machine-card danger">
+            <h5>Machine B</h5>
+            <span class="machine-peak">92.1 dB(A)</span>
+            <span class="machine-zone">6m² Protection Zone</span>
+          </div>
+          <div class="machine-card danger">
+            <h5>Machine C</h5>
+            <span class="machine-peak">92.8 dB(A)</span>
+            <span class="machine-zone">4m² Protection Zone</span>
+          </div>
+        </div>
+        <div class="lep-calculation">
+          <h4>LEP.D Calculation</h4>
+          <code>10log(1/8)(3×10<sup>9.22</sup> + 2×10<sup>9.21</sup> + 4×10<sup>9.28</sup>) = 92.97 dB(A)</code>
+          <p>Exceeds second action level (90 dB(A)) requiring mandatory hearing protection.</p>
+        </div>
+      </div>
+    </div>
 
     <h3 class="subsection-header">HVAC System Noise Sources</h3>
     <ul>
@@ -166,7 +315,7 @@ importance: 2
   <!-- Workplace Noise Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">4</span>
       Workplace Noise Assessment
     </h2>
 
@@ -206,7 +355,7 @@ importance: 2
   <!-- Recommendations Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Mitigation Strategies
     </h2>
 
@@ -260,8 +409,70 @@ importance: 2
     </article>
   </section>
 
-  <!-- Conclusion -->
-  <div class="project-conclusion">
+  <!-- Recommendations Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">5</span>
+      Recommendations
+    </h2>
+    
+    <div class="recommendations-grid">
+      <div class="recommendation-card">
+        <div class="rec-icon">🔇</div>
+        <h3>HVAC Noise Control</h3>
+        <ul>
+          <li>Install <strong>7LFS Rectangular Silencers</strong> post-fan</li>
+          <li>Construct plenum chamber (3:1 cross-section ratio)</li>
+          <li>Apply perforated panel absorbers (250Hz targeting)</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">👂</div>
+        <h3>Hearing Protection</h3>
+        <ul>
+          <li>Mandatory ear protectors in marked zones</li>
+          <li>Labour Department-approved models (SNR ≥ 25dB)</li>
+          <li>Priority for Machines B & C zones</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">📋</div>
+        <h3>Administrative Controls</h3>
+        <ul>
+          <li>Limit exposure time per action levels</li>
+          <li>Annual audiometric testing</li>
+          <li>Noise awareness training</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="mitigation-visual">
+      <img src="/assets/img/projects/noise-assessment/silencer-placement.jpg" alt="Silencer Installation Diagram">
+      <p>Fig 1. Proposed silencer placement at fan discharge elbow</p>
+    </div>
+  </section>
+
+  <!-- Conclusion Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">6</span>
+      Conclusion
+    </h2>
+    <div class="conclusion-content">
+      <p>The assessment confirms non-compliance with HK noise regulations, requiring:</p>
+      <ol>
+        <li>Immediate demarcation of <strong>11m² ear protection zones</strong> for Machines A-C</li>
+        <li>HVAC modifications to achieve ≤50 NC background levels</li>
+        <li>Ongoing noise monitoring per Cap. 59 requirements</li>
+      </ol>
+      <div class="compliance-status">
+        <span class="status-label">Current Status:</span>
+        <span class="status-value non-compliant">Non-Compliant</span>
+      </div>
+    </div>
+    <div class="project-conclusion">
     <h3>Implementation Plan</h3>
     <ol>
       <li>Install silencers at HVAC inlets (Priority 1)</li>
@@ -270,6 +481,7 @@ importance: 2
       <li>Schedule biannual noise monitoring</li>
     </ol>
   </div>
+  </section>
 </div>
 
 <style>
