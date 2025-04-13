@@ -765,6 +765,259 @@ importance: 2
     </div>
   </article>
 </section>
+
+<!-- Add this in the Redesign Proposal section -->
+<section class="project-section">
+  <h2 class="section-header">
+    <span class="section-number">04.2</span>
+    Mechanical System Specifications
+  </h2>
+
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+      </svg>
+      Primary Air Unit (PAU) Specifications
+    </h3>
+
+    <div class="technical-specs">
+      <div class="specs-grid">
+        <div class="spec-item">
+          <span class="spec-value">3000 m³/h</span>
+          <span class="spec-label">Selected Flow Rate</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">0.83 m³/s</span>
+          <span class="spec-label">Volumetric Flow</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">833.33 l/s</span>
+          <span class="spec-label">Flow Rate</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">13.28 kW</span>
+          <span class="spec-label">Cooling Capacity</span>
+        </div>
+      </div>
+
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Value</th>
+              <th>Unit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Total Volume Flow (Vot)</td>
+              <td>0.2482</td>
+              <td>m³/s</td>
+            </tr>
+            <tr>
+              <td>Mass Flow Rate (mot)</td>
+              <td>0.2764</td>
+              <td>kg/s</td>
+            </tr>
+            <tr>
+              <td>Total Cooling Load (QPAUT)</td>
+              <td>13.28</td>
+              <td>kW</td>
+            </tr>
+            <tr>
+              <td>Refrigeration Capacity</td>
+              <td>3.78</td>
+              <td>TR</td>
+            </tr>
+            <tr>
+              <td>Volume Flow Rate</td>
+              <td>248.20</td>
+              <td>l/s</td>
+            </tr>
+            <tr>
+              <td>Volume Flow Rate</td>
+              <td>893.53</td>
+              <td>m³/h</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </article>
+
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M12,2L4,5V6.09C4,11.31 7.38,16.14 12,16.93C16.62,16.14 20,11.31 20,6.09V5L12,2M12,19C7.17,19 3,14.83 3,10V7L12,11L21,7V10C21,14.83 16.83,19 12,19Z" />
+      </svg>
+      Diffuser & Air Distribution Analysis
+    </h3>
+
+    <div class="side-by-side-tables">
+      <div class="data-table-container">
+        <h4 class="table-title">Room Dimensions</h4>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Room A</th>
+              <th>Room B</th>
+              <th>Unit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Floor Height</td>
+              <td>3.4</td>
+              <td>3.4</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Ceiling Height</td>
+              <td>2.4</td>
+              <td>2.4</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Zone Size per Diffuser</td>
+              <td>7.2</td>
+              <td>7.2</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Characteristic Length (L)</td>
+              <td>3.6</td>
+              <td>3.6</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Area Length</td>
+              <td>9.815</td>
+              <td>9.83</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Area Width</td>
+              <td>9.136</td>
+              <td>9.815</td>
+              <td>m</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="data-table-container">
+        <h4 class="table-title">Diffuser Configuration</h4>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Room A</th>
+              <th>Room B</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Diffusers (Long Side)</td>
+              <td>1</td>
+              <td>1</td>
+              <td>Installed</td>
+            </tr>
+            <tr>
+              <td>Diffusers (Width Side)</td>
+              <td>1</td>
+              <td>1</td>
+              <td>Installed</td>
+            </tr>
+            <tr>
+              <td>Zone Length (Long)</td>
+              <td>9.815</td>
+              <td>9.830</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Zone Length (Width)</td>
+              <td>9.136</td>
+              <td>9.815</td>
+              <td>m</td>
+            </tr>
+            <tr>
+              <td>Dmax/Dmin Ratio</td>
+              <td>1.07</td>
+              <td>1.00</td>
+              <td class="acceptable">Acceptable</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="data-table-container mt-4">
+      <h4 class="table-title">FCU Air Distribution</h4>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Room A</th>
+            <th>Room B</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FCU Volume Flow Rate</td>
+            <td>1100</td>
+            <td>1100</td>
+            <td>m³/h</td>
+          </tr>
+          <tr>
+            <td>Volume Flow Rate</td>
+            <td>0.306</td>
+            <td>0.306</td>
+            <td>m³/s</td>
+          </tr>
+          <tr>
+            <td>Flow per Outlet</td>
+            <td>0.31</td>
+            <td>0.31</td>
+            <td>m³/s</td>
+          </tr>
+          <tr>
+            <td>Flow per Outlet</td>
+            <td>305.56</td>
+            <td>305.56</td>
+            <td>l/s</td>
+          </tr>
+          <tr>
+            <td>T0.25 (Long Side)</td>
+            <td>3.93</td>
+            <td>3.93</td>
+            <td>m</td>
+          </tr>
+          <tr>
+            <td>T0.25 (Width Side)</td>
+            <td>3.65</td>
+            <td>3.93</td>
+            <td>m</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="design-notes">
+      <h4>Design Verification</h4>
+      <ul>
+        <li>All Dmax/Dmin ratios are within acceptable limits (&lt;1.5)</li>
+        <li>Air distribution patterns meet ASHRAE standards</li>
+        <li>FCU flow rates properly balanced for both rooms</li>
+        <li>Throw distances (T0.25) appropriate for room dimensions</li>
+      </ul>
+    </div>
+  </article>
+</section>
     
     <article class="design-subsection">
       <h3 class="subsection-header">
@@ -2102,6 +2355,43 @@ importance: 2
       grid-template-columns: 1fr;
     }
   }
+</style>
+
+<style>
+/* Additional CSS for this section */
+.technical-specs {
+  margin-top: 20px;
+}
+
+.design-notes {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.design-notes ul {
+  padding-left: 20px;
+}
+
+.design-notes li {
+  margin-bottom: 8px;
+}
+
+.acceptable {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .side-by-side-tables {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 <script>
