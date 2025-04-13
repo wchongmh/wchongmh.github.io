@@ -3,7 +3,7 @@ title: "Noise Assessment & Control - Laboratory 204"
 category: Building Systems
 description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning."
 tech: [Sound Level Meter RION NL-32, NC Chart Analysis, BS EN 61672, Silencer Design, PPE Selection]
-image: /assets/img/projects/noise_assessment/lab204-environment.jpg
+image: /assets/img/projects/noise_assessment/lab204-environment.jng
 importance: 2
 ---
 
