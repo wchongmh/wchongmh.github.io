@@ -1274,11 +1274,19 @@ importance: 2
       </div>
       
       <div class="reflection-image">
-        <img src="/assets/img/projects/iaq/team-presentation.jpg" 
+        <img src="/assets/img/projects/library-iaq/iehvac-34.png" 
              alt="Team presenting findings" 
              class="reflection-img"
              loading="lazy">
-        <p class="image-caption">Fig 6. Presenting recommendations to facility management</p>
+        <p class="image-caption">Fig 6. Presenting Payback period analysis in 1.49 year return on investment</p>
+      </div>
+
+       <div class="reflection-image">
+        <img src="/assets/img/projects/library-iaq/iehvac-32.png" 
+             alt="Team presenting findings" 
+             class="reflection-img"
+             loading="lazy">
+        <p class="image-caption">Fig 6. Presenting Energy savings calculation for mass flow rate and capacity</p>
       </div>
     </div>
   </section>
