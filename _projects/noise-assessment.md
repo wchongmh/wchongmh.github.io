@@ -25,6 +25,10 @@ importance: 2
 
   <!-- Project Context -->
   <div class="project-context">
+    <div class="environment-photos">
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-22.png" alt="Laboratory 204 Environment" loading="lazy">
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-23.png" alt="Laboratory 204 Ceiling" loading="lazy">
+    </div>
     <p>This assessment evaluates background noise from HVAC systems and workplace noise from machinery in Laboratory 204, identifying areas exceeding Hong Kong's <strong>Factories and Industrial Undertakings (Noise at Work) Regulation</strong> thresholds. The project proposes silencer installations, plenum chamber modifications, and ear protection zones to mitigate health risks.</p>
   </div>
 
@@ -35,12 +39,21 @@ importance: 2
       Introduction & Objectives
     </h2>
     <div class="section-content">
-      <p>Laboratory 204 exhibits excessive noise levels from both HVAC systems (background) and industrial equipment (workplace). This assessment evaluates:</p>
-      <ul>
-        <li>Compliance with HK <strong>Cap. 59 Noise at Work Regulation</strong></li>
-        <li>Identification of ear protection zones per action levels</li>
-        <li>Mitigation strategies for low-frequency HVAC noise</li>
-      </ul>
+      <div class="intro-grid">
+        <div class="intro-text">
+          <p>Laboratory 204 exhibits excessive noise levels from both HVAC systems (background) and industrial equipment (workplace). This assessment evaluates:</p>
+          <ul>
+            <li>Compliance with HK <strong>Cap. 59 Noise at Work Regulation</strong></li>
+            <li>Identification of ear protection zones per action levels</li>
+            <li>Mitigation strategies for low-frequency HVAC noise</li>
+          </ul>
+        </div>
+        <div class="intro-visuals">
+          <img src="/assets/img/projects/noise_assessment/lab204-environment-1.png" alt="Check Figure Table" loading="lazy">
+          <img src="/assets/img/projects/noise_assessment/lab204-environment-2.png" alt="Action Level Guidance" loading="lazy">
+        </div>
+      </div>
+      
       <div class="regulation-highlight">
         <h4>Key Regulatory Thresholds</h4>
         <div class="regulation-grid">
@@ -99,19 +112,6 @@ importance: 2
           </div>
         </div>
       </div>
-
-      <div class="image-comparison">
-        <div class="image-card">
-          <img src="/assets/img/projects/noise_assessment/nc-chart-motor.jpg" 
-               alt="NC Chart - Motor Location" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 1.</span>
-            <span class="image-desc">Octave-band analysis showing 76.4 dB(A) at motor location (exceeds 50NC standard)</span>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -121,6 +121,11 @@ importance: 2
       <span class="section-number">3</span>
       Methodology
     </h2>
+
+    <div class="methodology-visual">
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-3.png" alt="RION NL-32 Sound Level Meter" loading="lazy">
+      <p>Fig 1. The Sound Level Meter NL-32 by RION was used in this project to measure sound pressure level (dB/dBA) and sound frequency (Hz)</p>
+    </div>
     
     <div class="methodology-steps">
       <div class="step">
@@ -172,6 +177,21 @@ importance: 2
       Background Noise Analysis
     </h2>
 
+    <div class="location-overview">
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-29.png" alt="Measurement Locations" loading="lazy">
+      <p>Fig 1. This is a floor plan showing the layout of three machines (A, B, C), each surrounded by zones labeled with noise levels in dBA. Areas with high noise are marked as "Ear Protection Zones". The room includes ventilation inlets, equipment areas, a trench, water pumps, and a sprinkler spray testing tank. The plan emphasizes safety and noise exposure, with detailed measurements and sampling points throughout.</p>
+    </div>
+
+    <div class="location-overview">
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-27.png" alt="Measurement Locations" loading="lazy">
+      <p>Fig 2. Measurement locations: ventilation fan motor, ventilation inlet, and center of the room</p>
+    </div>
+
+    <div class="location-overview">
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-28.png" alt="Measurement Locations" loading="lazy">
+      <p>Fig 3. Locations of Machines A, B, and C in Laboratory 204</p>
+    </div>
+
     <div class="results-tabs">
       <div class="tab-buttons">
         <button class="tab-button active" data-tab="background">Background Noise</button>
@@ -186,14 +206,42 @@ importance: 2
               <span class="nc-location">1st Inlet</span>
               <span class="nc-value">58 NC</span>
               <div class="nc-bar" style="width: 116%"></div>
+              <img src="/assets/img/projects/noise_assessment/lab204-environment-17.png" alt="1st Inlet NC Chart" loading="lazy">
             </div>
             <div class="nc-reading">
               <span class="nc-location">Under Motor</span>
               <span class="nc-value">62 NC</span>
               <div class="nc-bar" style="width: 124%"></div>
+              <img src="/assets/img/projects/noise_assessment/lab204-environment-16.png" alt="Motor NC Chart" loading="lazy">
+            </div>
+            <div class="nc-reading">
+              <span class="nc-location">Room Center</span>
+              <span class="nc-value">55 NC</span>
+              <div class="nc-bar" style="width: 110%"></div>
+              <img src="/assets/img/projects/noise_assessment/lab204-environment-18.png" alt="Room Center NC Chart" loading="lazy">
             </div>
           </div>
           <p>Dominant low-frequency noise (250Hz) due to duct turbulence and reflective surfaces.</p>
+        </div>
+
+        <div class="noise-location-analysis">
+          <div class="location-analysis">
+            <h5>1st Inlet</h5>
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-4.png" alt="1st Inlet Photo" loading="lazy">
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-5.png" alt="1st Inlet Data" loading="lazy">
+          </div>
+          
+          <div class="location-analysis">
+            <h5>Room Center</h5>
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-6.png" alt="Room Center Photo" loading="lazy">
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-7.png" alt="Room Center Data" loading="lazy">
+          </div>
+          
+          <div class="location-analysis">
+            <h5>Under Motor</h5>
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-8.png" alt="Motor Location Photo" loading="lazy">
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-9.png" alt="Motor Location Data" loading="lazy">
+          </div>
         </div>
       </div>
       
@@ -203,16 +251,22 @@ importance: 2
             <h5>Machine A</h5>
             <span class="machine-peak">92.2 dB(A)</span>
             <span class="machine-zone">1m² Protection Zone</span>
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-10.png" alt="Machine A Photo" loading="lazy">
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-11.png" alt="Machine A Data" loading="lazy">
           </div>
           <div class="machine-card danger">
             <h5>Machine B</h5>
             <span class="machine-peak">92.1 dB(A)</span>
             <span class="machine-zone">6m² Protection Zone</span>
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-12.png" alt="Machine B Photo" loading="lazy">
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-13.png" alt="Machine B Data" loading="lazy">
           </div>
           <div class="machine-card danger">
             <h5>Machine C</h5>
             <span class="machine-peak">92.8 dB(A)</span>
             <span class="machine-zone">4m² Protection Zone</span>
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-14.png" alt="Machine C Photo" loading="lazy">
+            <img src="/assets/img/projects/noise_assessment/lab204-environment-15.png" alt="Machine C Data" loading="lazy">
           </div>
         </div>
         <div class="lep-calculation">
@@ -274,7 +328,7 @@ importance: 2
 
     <div class="zone-diagrams">
       <div class="diagram-card">
-        <img src="/assets/img/projects/noise_assessment/machine-a-zones.jpg" 
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-19.png" 
              alt="Machine A Protection Zones" 
              class="diagram-image"
              loading="lazy">
@@ -284,13 +338,23 @@ importance: 2
         </div>
       </div>
       <div class="diagram-card">
-        <img src="/assets/img/projects/noise_assessment/machine-b-zones.jpg" 
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-20.png" 
              alt="Machine B Protection Zones" 
              class="diagram-image"
              loading="lazy">
         <div class="diagram-meta">
           <span class="diagram-label">Machine B</span>
           <span class="diagram-fig">Zones 1-4 (90-92.1 dB(A)) require 6m² protection</span>
+        </div>
+      </div>
+      <div class="diagram-card">
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-21.png" 
+             alt="Machine C Protection Zones" 
+             class="diagram-image"
+             loading="lazy">
+        <div class="diagram-meta">
+          <span class="diagram-label">Machine C</span>
+          <span class="diagram-fig">Zones 1-3 (90-92.8 dB(A)) require 4m² protection</span>
         </div>
       </div>
     </div>
@@ -339,6 +403,7 @@ importance: 2
       <div class="ppe-selection">
         <div class="ppe-card">
           <h4>3M™ Peltor™ X5A Ear Muffs</h4>
+          <img src="/assets/img/projects/noise_assessment/lab204-environment-24.png" alt="Ear Protector Catalog" loading="lazy">
           <table>
             <tr>
               <th>Frequency</th>
@@ -504,8 +569,8 @@ importance: 2
     </div>
     
     <div class="mitigation-visual">
-      <img src="/assets/img/projects/noise_assessment/silencer-placement.jpg" alt="Silencer Installation Diagram">
-      <p>Fig 1. Proposed silencer placement at fan discharge elbow</p>
+      <img src="/assets/img/projects/noise_assessment/lab204-environment-26.png" alt="Silencer Installation Diagram">
+      <p>Fig 5. Proposed silencer specifications and placement at fan discharge elbow</p>
     </div>
   </section>
 
