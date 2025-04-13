@@ -1988,6 +1988,227 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 </style>
 
+<style>
+/* Consolidated CSS with all necessary styles */
+.noise-project {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: #34495e;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.project-header {
+  margin-bottom: 2rem;
+}
+
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.2rem;
+}
+
+.project-subtitle {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  border-left: 4px solid #3498db;
+  padding-left: 15px;
+  margin: 40px 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+.section-number {
+  font-size: 1.2rem;
+  background: #3498db;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+/* Image and visualization styles */
+.environment-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.environment-photos img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.intro-visuals img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+.methodology-visual img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 8px;
+}
+
+.location-overview img,
+.machine-locations img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.noise-location-analysis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.location-analysis img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Table styles */
+.noise-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.noise-data-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.noise-data-table td {
+  padding: 10px 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.noise-data-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.noise-data-table tr:hover {
+  background-color: #f0f7ff;
+}
+
+/* PPE specific styles */
+.ppe-tables {
+  margin-top: 30px;
+}
+
+.ppe-table-container {
+  margin-bottom: 40px;
+}
+
+.ppe-table-container h5 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #3498db;
+}
+
+.ppe-summary {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  border-left: 4px solid #3498db;
+}
+
+.ppe-summary h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.ppe-summary ul {
+  padding-left: 20px;
+}
+
+.ppe-summary li {
+  margin-bottom: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .intro-grid,
+  .environment-photos {
+    grid-template-columns: 1fr;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .noise-data-table {
+    min-width: 600px;
+  }
+  
+  .section-header {
+    font-size: 1.5rem;
+  }
+}
+
+/* Existing component styles (key findings, methodology steps, etc.) */
+/* ... [include all other existing styles from previous implementation] ... */
+</style>
+
+<script>
+// Tab functionality
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const tabId = button.getAttribute('data-tab');
+      const tabContainer = button.closest('.results-tabs');
+      
+      // Remove active class from all buttons and content
+      tabContainer.querySelectorAll('.tab-button').forEach(btn => 
+        btn.classList.remove('active'));
+      tabContainer.querySelectorAll('.tab-content').forEach(content => 
+        content.classList.remove('active'));
+      
+      // Add active class to clicked button and corresponding content
+      button.classList.add('active');
+      tabContainer.querySelector(`#${tabId}`).classList.add('active');
+    });
+  });
+});
+</script>
+
 <script>
 // Tab functionality
 document.querySelectorAll('.tab-button').forEach(button => {
