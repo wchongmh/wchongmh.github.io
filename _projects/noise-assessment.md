@@ -28,12 +28,60 @@ importance: 2
     <p>This assessment evaluates background noise from HVAC systems and workplace noise from machinery in Laboratory 204, identifying areas exceeding Hong Kong's <strong>Factories and Industrial Undertakings (Noise at Work) Regulation</strong> thresholds. The project proposes silencer installations, plenum chamber modifications, and ear protection zones to mitigate health risks.</p>
   </div>
 
+  <!-- Introduction Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">1</span>
+      Introduction & Objectives
+    </h2>
+    <div class="section-content">
+      <p>Laboratory 204 exhibits excessive noise levels from both HVAC systems (background) and industrial equipment (workplace). This assessment evaluates:</p>
+      <ul>
+        <li>Compliance with HK <strong>Cap. 59 Noise at Work Regulation</strong></li>
+        <li>Identification of ear protection zones per action levels</li>
+        <li>Mitigation strategies for low-frequency HVAC noise</li>
+      </ul>
+      <div class="regulation-highlight">
+        <h4>Key Regulatory Thresholds</h4>
+        <div class="regulation-grid">
+          <div class="regulation-item">
+            <span class="regulation-value">85 dB(A)</span>
+            <span class="regulation-label">First Action Level</span>
+          </div>
+          <div class="regulation-item danger">
+            <span class="regulation-value">90 dB(A)</span>
+            <span class="regulation-label">Second Action Level</span>
+          </div>
+          <div class="regulation-item">
+            <span class="regulation-value">50 NC</span>
+            <span class="regulation-label">Background Noise Limit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Key Findings Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">2</span>
       Key Findings
     </h2>
+
+    <!-- Key Findings Summary -->
+  <div class="key-findings">
+    <div class="finding-card critical">
+      <span class="finding-icon">⚠️</span>
+      <span class="finding-text">92.97dBA LEP.D (Exceeds 90dBA action level)</span>
+    </div>
+    <div class="finding-card">
+      <span class="finding-icon">🔊</span>
+      <span class="finding-text">3 Machines Requiring Ear Protection Zones</span>
+    </div>
+    <div class="finding-card">
+      <span class="finding-icon">🏗️</span>
+      <span class="finding-text">Background Noise >50NC (Non-compliant)</span>
+    </div>
 
     <div class="key-specs">
       <h3 class="specs-title">Noise Level Violations</h3>
@@ -1238,6 +1286,266 @@ importance: 2
   }
 }
 </style>
+
+<style>
+/* Base Styles */
+.noise-assessment-project {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #2c3e50;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Key Findings */
+.key-findings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.finding-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  border-left: 4px solid #3498db;
+}
+
+.finding-card.critical {
+  border-left-color: #e74c3c;
+}
+
+.finding-icon {
+  font-size: 1.8rem;
+  margin-right: 15px;
+}
+
+.finding-text {
+  font-weight: 500;
+}
+
+/* Regulation Highlights */
+.regulation-highlight {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.regulation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.regulation-item {
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+  background: #ecf0f1;
+}
+
+.regulation-item.danger {
+  background: #ffebee;
+  border: 1px solid #ef9a9a;
+}
+
+.regulation-value {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.regulation-label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+/* Methodology Steps */
+.methodology-steps {
+  display: grid;
+  gap: 20px;
+}
+
+.step {
+  display: flex;
+  gap: 15px;
+}
+
+.step-number {
+  background: #3498db;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.analysis-methods {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.method {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Results Tabs */
+.results-tabs {
+  margin-top: 20px;
+}
+
+.nc-compliance {
+  background: #fff8e1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.nc-readings {
+  margin: 15px 0;
+}
+
+.nc-reading {
+  margin-bottom: 10px;
+}
+
+.nc-location {
+  display: inline-block;
+  width: 100px;
+}
+
+.nc-value {
+  display: inline-block;
+  width: 60px;
+  font-weight: 600;
+}
+
+.nc-bar {
+  height: 10px;
+  background: #3498db;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.machine-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.machine-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-top: 4px solid #3498db;
+}
+
+.machine-card.danger {
+  border-top-color: #e74c3c;
+}
+
+.machine-peak {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.machine-zone {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.lep-calculation {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 6px;
+  font-family: monospace;
+  overflow-x: auto;
+}
+
+/* Recommendations */
+.mitigation-visual {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mitigation-visual img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Conclusion */
+.compliance-status {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.status-value {
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.non-compliant {
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .step {
+    flex-direction: column;
+  }
+  
+  .methodology-steps {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<script>
+// Tab functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    const tabContainer = button.closest('.results-tabs');
+    
+    // Remove active class from all buttons and content
+    tabContainer.querySelectorAll('.tab-button').forEach(btn => 
+      btn.classList.remove('active'));
+    tabContainer.querySelectorAll('.tab-content').forEach(content => 
+      content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    tabContainer.querySelector(`#${tabId}`).classList.add('active');
+  });
+});
+</script>
 
 <script>
 // Simple tab functionality
