@@ -179,17 +179,17 @@ importance: 2
 
     <div class="location-overview">
       <img src="/assets/img/projects/noise_assessment/lab204-environment-29.png" alt="Measurement Locations" loading="lazy">
-      <p>Fig 1. This is a floor plan showing the layout of three machines (A, B, C), each surrounded by zones labeled with noise levels in dBA. Areas with high noise are marked as "Ear Protection Zones". The room includes ventilation inlets, equipment areas, a trench, water pumps, and a sprinkler spray testing tank. The plan emphasizes safety and noise exposure, with detailed measurements and sampling points throughout.</p>
+      <p>Fig 2. This is a floor plan showing the layout of three machines (A, B, C), each surrounded by zones labeled with noise levels in dBA. Areas with high noise are marked as "Ear Protection Zones". The room includes ventilation inlets, equipment areas, a trench, water pumps, and a sprinkler spray testing tank. The plan emphasizes safety and noise exposure, with detailed measurements and sampling points throughout.</p>
     </div>
 
     <div class="location-overview">
       <img src="/assets/img/projects/noise_assessment/lab204-environment-27.png" alt="Measurement Locations" loading="lazy">
-      <p>Fig 2. Measurement locations: ventilation fan motor, ventilation inlet, and center of the room</p>
+      <p>Fig 3. Measurement locations: ventilation fan motor, ventilation inlet, and center of the room</p>
     </div>
 
     <div class="location-overview">
       <img src="/assets/img/projects/noise_assessment/lab204-environment-28.png" alt="Measurement Locations" loading="lazy">
-      <p>Fig 3. Locations of Machines A, B, and C in Laboratory 204</p>
+      <p>Fig 4. Locations of Machines A, B, and C in Laboratory 204</p>
     </div>
 
     <div class="results-tabs">
