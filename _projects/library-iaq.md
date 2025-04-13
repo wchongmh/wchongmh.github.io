@@ -56,11 +56,11 @@ importance: 2
       <p>This IAQ assessment followed Hong Kong's Certification Scheme for Offices and Public Places (2019), measuring 8 parameters across two study rooms over 8-hour periods. Key findings showed CO₂ peaks of 1,469ppm (Room A) and 1,551ppm (Room B) at full occupancy, exceeding Good Class thresholds, along with formaldehyde levels above Excellent Class criteria.</p>
     </div>
     
-    <div class="image-comparison">
+       <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/iaq/measurement-setup.jpg" 
-               alt="IAQ measurement equipment in use" 
+          <img src="/assets/img/projects/library-iaq/iehvac-8.png" 
+               alt="Aerocet 831 Handheld Particle Counter" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -69,14 +69,14 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">TSI IAQ-CALC meter measuring CO₂ and CO concentrations</span>
+          <span class="image-desc">Aerocet 831 measuring RSP PM10 concentrations</span>
         </div>
       </div>
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/iaq/diffuser-mould.jpg" 
-               alt="Mould growth on air diffuser" 
+          <img src="/assets/img/projects/library-iaq/iehvac-10.png" 
+               alt="TSI IAQ-CALC Meter" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -85,7 +85,7 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Mould observed on 5 diffuser blades in Room A (largest area 0.14m²)</span>
+          <span class="image-desc">TSI IAQ-CALC measuring CO and CO₂ levels</span>
         </div>
       </div>
     </div>
