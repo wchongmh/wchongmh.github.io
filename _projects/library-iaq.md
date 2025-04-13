@@ -158,10 +158,69 @@ importance: 2
     </div>
   </section>
 
+  <!-- Methodology Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">02</span>
+      Methodology
+    </h2>
+
+    <div class="methodology-steps">
+      <div class="step-item">
+        <div class="step-number">Step 1</div>
+        <div class="step-content">
+          <h4>Objective Assessment</h4>
+          <ul>
+            <li>8-hour intermittent monitoring at 2 sampling points</li>
+            <li>Parameters: Temp, RH, CO, CO₂, TVOC, HCHO, RSP, Mould</li>
+            <li>Equipment: Aerocet 831, Formaldemeter™, ppbRAE 3000+</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="step-item">
+        <div class="step-number">Step 2</div>
+        <div class="step-content">
+          <h4>Subjective Assessment</h4>
+          <ul>
+            <li>Occupant questionnaires on thermal comfort</li>
+            <li>30+ responses collected per room</li>
+            <li>Parameters: Temperature, humidity, air movement perception</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="step-item">
+        <div class="step-number">Step 3</div>
+        <div class="step-content">
+          <h4>System Analysis</h4>
+          <ul>
+            <li>HVAC performance evaluation</li>
+            <li>Full-load CO₂ projection calculations</li>
+            <li>Energy efficiency assessment</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-comparison">
+      <div class="image-card">
+        <img src="/assets/img/projects/iaq/measurement-setup.jpg" 
+             alt="IAQ Measurement Setup" 
+             class="project-image"
+             loading="lazy">
+        <div class="image-meta">
+          <span class="image-fig">Fig 1.</span>
+          <span class="image-desc">Field measurement using TSI IAQ-CALC meter</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- System Analysis Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">03</span>
       System Analysis
     </h2>
     
@@ -272,7 +331,7 @@ importance: 2
   <!-- Redesign Proposal Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">04</span>
       Redesign Proposal
     </h2>
     
@@ -363,7 +422,7 @@ importance: 2
   <!-- Recommendations Section -->
   <section class="project-section recommendations-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">05</span>
       Implementation Strategy
     </h2>
     
@@ -403,7 +462,7 @@ importance: 2
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">06</span>
       Key Takeaways
     </h2>
     
