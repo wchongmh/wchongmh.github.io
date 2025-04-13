@@ -25,7 +25,7 @@ importance: 2
 
   <div class="project-visualization">
     <div class="visualization-description">
-      <p>The study assessed two library study rooms (185.3m² total) with 40+ computer workstations, identifying CO₂ and formaldehyde exceedances during peak occupancy. The redesign proposes a heat recovery ventilation system integrated with existing FCUs.</p>
+      <p>The study assessed two library study rooms (Room A & B) (185.3m² total) with 40+ computer workstations, analyzing 8 key IAQ parameters and thermal comfort conditions such as identifying CO₂ and formaldehyde exceedances during peak occupancy. The assessment followed Hong Kong's IAQ Certification Scheme standards. The redesign proposes a heat recovery ventilation system integrated with existing FCUs.</p>
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
@@ -109,6 +109,25 @@ importance: 2
           <span class="spec-value">30%</span>
           <span class="spec-label">Occupants dissatisfied with temperature</span>
         </div>
+
+        <div class="key-specs">
+    <h3 class="specs-title">Key Findings Summary</h3>
+    <div class="specs-grid">
+      <div class="spec-item">
+        <span class="spec-value">1,469ppm</span>
+        <span class="spec-label">Peak CO₂ (Room A)</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-value">7/8</span>
+        <span class="spec-label">Parameters Met Good Class</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-value">583 l/s</span>
+        <span class="spec-label">Required FA Increase (Room A)</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-value">1.49 yrs</span>
+        <span class="spec-label">Energy Payback Period</span>
       </div>
     </div>
 
