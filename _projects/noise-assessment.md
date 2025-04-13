@@ -198,28 +198,36 @@ importance: 2
         <button class="tab-button" data-tab="workplace">Workplace Noise</button>
       </div>
       
-      <div class="tab-content active" id="background">
-        <div class="nc-compliance">
-          <h4>NC Compliance Failure</h4>
-          <div class="nc-readings">
-            <div class="nc-reading">
-              <span class="nc-location">1st Inlet</span>
-              <span class="nc-value">58 NC</span>
-              <img src="/assets/img/projects/noise_assessment/lab204-environment-17.png" alt="1st Inlet NC Chart" loading="lazy">
-            </div>
-            <div class="nc-reading">
-              <span class="nc-location">Under Motor</span>
-              <span class="nc-value">62 NC</span>
-              <img src="/assets/img/projects/noise_assessment/lab204-environment-16.png" alt="Motor NC Chart" loading="lazy">
-            </div>
-            <div class="nc-reading">
-              <span class="nc-location">Room Center</span>
-              <span class="nc-value">55 NC</span>
-              <img src="/assets/img/projects/noise_assessment/lab204-environment-18.png" alt="Room Center NC Chart" loading="lazy">
-            </div>
-          </div>
-          <p>Dominant low-frequency noise (250Hz) due to duct turbulence and reflective surfaces.</p>
+      <!-- Replace the existing "NC Compliance Failure" section with this: -->
+<div class="nc-compliance">
+  <h4>NC Compliance Failure</h4>
+  <div class="nc-readings">
+    <div class="nc-reading-grid">
+      <div class="nc-reading">
+        <div class="nc-reading-header">
+          <span class="nc-location">1st Inlet</span>
+          <span class="nc-value">58 NC</span>
         </div>
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-17.png" alt="1st Inlet NC Chart" loading="lazy">
+      </div>
+      <div class="nc-reading">
+        <div class="nc-reading-header">
+          <span class="nc-location">Under Motor</span>
+          <span class="nc-value">62 NC</span>
+        </div>
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-16.png" alt="Motor NC Chart" loading="lazy">
+      </div>
+      <div class="nc-reading">
+        <div class="nc-reading-header">
+          <span class="nc-location">Room Center</span>
+          <span class="nc-value">55 NC</span>
+        </div>
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-18.png" alt="Room Center NC Chart" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <p class="nc-summary">Dominant low-frequency noise (250Hz) due to duct turbulence and reflective surfaces.</p>
+</div>
 
         <div class="noise-location-analysis">
           <div class="location-analysis">
@@ -2244,6 +2252,62 @@ document.addEventListener('DOMContentLoaded', function() {
     font-size: 1.5rem;
   }
 }
+
+<style>
+/* Add this CSS to fix the layout */
+.nc-reading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.nc-reading {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.nc-reading-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.nc-location {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.nc-value {
+  background: #e74c3c;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.nc-reading img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.nc-summary {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .nc-reading-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
 /* Existing component styles (key findings, methodology steps, etc.) */
 /* ... [include all other existing styles from previous implementation] ... */
