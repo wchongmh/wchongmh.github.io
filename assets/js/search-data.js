@@ -460,11 +460,6 @@ ninja.data = [{
               window.location.href = "/projects/iaq/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
-          description: "Comprehensive IAQ analysis of library study areas with HVAC redesign recommendations",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/iaq01/";
-            },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
-          title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/library-iaq/";
