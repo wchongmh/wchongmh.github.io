@@ -290,6 +290,75 @@ importance: 2
       </div>
     </article>
 
+     <div class="results-tabs">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-tab="objective">Objective Data</button>
+        <button class="tab-button" data-tab="subjective">Subjective Feedback</button>
+        <button class="tab-button" data-tab="mould">Mould Assessment</button>
+      </div>
+      
+      <div class="tab-content active" id="objective">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Room A</th>
+              <th>Room B</th>
+              <th>Good Class</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CO₂ (ppm)</td>
+              <td>732</td>
+              <td>756</td>
+              <td>&lt;1000</td>
+            </tr>
+            <tr>
+              <td>HCHO (ppb)</td>
+              <td>95.4*</td>
+              <td>137.5*</td>
+              <td>&lt;81</td>
+            </tr>
+            <tr>
+              <td>TVOC (ppb)</td>
+              <td>165</td>
+              <td>183</td>
+              <td>&lt;261</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>*Exceeded good class thresholds</p>
+      </div>
+      
+      <div class="tab-content" id="subjective">
+        <div class="survey-results">
+          <div class="survey-item">
+            <h5>Thermal Comfort Satisfaction</h5>
+            <div class="survey-bar" style="width: 70%;">70%</div>
+          </div>
+          <div class="survey-item">
+            <h5>Reported Mould Awareness</h5>
+            <div class="survey-bar" style="width: 15%;">15%</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="mould">
+        <div class="mould-findings">
+          <div class="mould-item">
+            <span class="mould-location">Room A Diffusers</span>
+            <span class="mould-area">0.35m² total</span>
+          </div>
+          <div class="mould-item">
+            <span class="mould-location">Room B Window Frame</span>
+            <span class="mould-area">0.0025m²</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
     <article class="design-subsection">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -459,10 +528,59 @@ importance: 2
     </div>
   </section>
 
+  <!-- Recommendations Section -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">06</span>
+      Recommendations
+    </h2>
+
+    <div class="recommendations-grid">
+      <div class="recommendation-card">
+        <div class="rec-icon">💨</div>
+        <h3>HVAC System Redesign</h3>
+        <ul>
+          <li>Increase fresh air intake to 583 l/s (Room A) and 713 l/s (Room B)</li>
+          <li>Install enthalpy wheel heat recovery system</li>
+          <li>New PAU with G4 filtration</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">🛠️</div>
+        <h3>Immediate Actions</h3>
+        <ul>
+          <li>Mould remediation on affected diffusers</li>
+          <li>Window frame repairs to prevent moisture ingress</li>
+          <li>Regular HVAC maintenance schedule</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">🌳</div>
+        <h3>Operational Improvements</h3>
+        <ul>
+          <li>Seasonal HVAC operation strategy</li>
+          <li>Occupancy-based ventilation control</li>
+          <li>Installation of CO₂ monitoring system</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="system-design">
+      <h3 class="subsection-header">Proposed HVAC System Layout</h3>
+      <img src="/assets/img/projects/iaq/hvac-redesign.jpg" 
+           alt="HVAC Redesign Schematic" 
+           class="design-image"
+           loading="lazy">
+      <p class="design-caption">Fig 2. Proposed system with heat recovery and increased fresh air capacity</p>
+    </div>
+  </section>
+
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">06</span>
+      <span class="section-number">07</span>
       Key Takeaways
     </h2>
     
