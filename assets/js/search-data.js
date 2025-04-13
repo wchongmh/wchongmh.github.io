@@ -458,6 +458,11 @@ ninja.data = [{
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/library-iaq/";
+            },},{id: "projects-noise-assessment-amp-control-laboratory-204",
+          title: 'Noise Assessment &amp;amp; Control - Laboratory 204',
+          description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/noise-assessment/";
             },},{id: "projects-two-story-building-energy-analysis-glasgow-office",
           title: 'Two-Story Building Energy Analysis - Glasgow Office',
           description: "Comprehensive energy analysis of a Glasgow office building using Hevacomp, including heating, ventilation, and boiler systems design.",
