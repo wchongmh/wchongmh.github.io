@@ -427,34 +427,56 @@ importance: 2
         Data Visualization
       </h3>
       
-      <div class="diagram-grid">
-        <div class="diagram-card">
-          <div class="diagram-wrapper">
-            <img src="/assets/img/projects/iaq/co2-trend.jpg" 
-                 alt="CO2 concentration vs occupancy" 
-                 class="diagram-image"
-                 loading="lazy">
-          </div>
-          <div class="diagram-meta">
-            <span class="diagram-label">CO₂ Correlation</span>
-            <span class="diagram-fig">Fig 3. CO₂ levels lag occupancy changes by 30-45 minutes</span>
+      <div class="graph-tabs">
+        <div class="tab-buttons">
+          <button class="tab-button active" data-tab="room-a-graphs">Room A</button>
+          <button class="tab-button" data-tab="room-b-graphs">Room B</button>
+        </div>
+        
+        <div class="tab-content active" id="room-a-graphs">
+          <div class="graph-grid">
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-14.png" alt="CO₂ concentration - Room A">
+              <p>CO₂ Concentration Over Time</p>
+            </div>
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-16.png" alt="HCHO concentration - Room A">
+              <p>Formaldehyde Concentration</p>
+            </div>
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-18.png" alt="Temperature - Room A">
+              <p>Temperature Variation</p>
+            </div>
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-20.png" alt="Air Velocity - Room A">
+              <p>Air Velocity Changes</p>
+            </div>
           </div>
         </div>
         
-        <div class="diagram-card">
-          <div class="diagram-wrapper">
-            <img src="/assets/img/projects/iaq/hcho-trend.jpg" 
-                 alt="Formaldehyde concentration trend" 
-                 class="diagram-image"
-                 loading="lazy">
-          </div>
-          <div class="diagram-meta">
-            <span class="diagram-label">HCHO Levels</span>
-            <span class="diagram-fig">Fig 4. Formaldehyde consistently exceeds Excellent Class limits</span>
+        <div class="tab-content" id="room-b-graphs">
+          <div class="graph-grid">
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-22.png" alt="CO₂ concentration - Room B">
+              <p>CO₂ Concentration Over Time</p>
+            </div>
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-24.png" alt="HCHO concentration - Room B">
+              <p>Formaldehyde Concentration</p>
+            </div>
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-26.png" alt="Temperature - Room B">
+              <p>Temperature Variation</p>
+            </div>
+            <div class="graph-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-28.png" alt="Air Velocity - Room B">
+              <p>Air Velocity Changes</p>
+            </div>
           </div>
         </div>
       </div>
     </article>
+  </section>
 
     <!-- Add this in the System Analysis section after the existing content -->
 <section class="project-section">
