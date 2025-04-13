@@ -584,7 +584,7 @@ importance: 2
     <!-- Add this in the Redesign Proposal section -->
 <section class="project-section calculations-section">
   <h2 class="section-header">
-    <span class="section-number">04.1</span>
+    <span class="section-number">4.1</span>
     CO₂ Concentration Calculations
   </h2>
 
