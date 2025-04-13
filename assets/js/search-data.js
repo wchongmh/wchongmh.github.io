@@ -458,6 +458,11 @@ ninja.data = [{
           description: "Comprehensive noise analysis for HK laboratory, including NC compliance, ear protection zones, and mitigation strategies.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lab/";
+            },},{id: "projects-noise-assessment-amp-control-laboratory-204",
+          title: 'Noise Assessment &amp;amp; Control - Laboratory 204',
+          description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lab01/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
