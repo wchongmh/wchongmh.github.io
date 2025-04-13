@@ -2394,6 +2394,114 @@ importance: 2
 }
 </style>
 
+<style>
+/* Previous CSS remains the same, add these new styles */
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.equipment-card {
+  text-align: center;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.equipment-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.issue-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.graph-tabs {
+  margin-top: 30px;
+}
+
+.graph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.graph-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.graph-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.reference-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.reference-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .reference-images {
+    grid-template-columns: 1fr;
+  }
+  
+  .graph-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<script>
+// Tab functionality for data sections
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and content
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Accordion functionality
+document.querySelectorAll('.spec-group').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      details.style.backgroundColor = '#f5f9ff';
+    } else {
+      details.style.backgroundColor = '';
+    }
+  });
+});
+</script>
+
 <script>
 // Simple tab functionality
 document.querySelectorAll('.tab-button').forEach(button => {
