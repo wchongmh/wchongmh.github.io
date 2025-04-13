@@ -155,6 +155,43 @@ importance: 2
     </div>
   </section>
 
+  <!-- Add this in the Project Overview section -->
+<section class="project-section">
+  <h2 class="section-header">
+    <span class="section-number">01.1</span>
+    IAQ Standards Reference
+  </h2>
+
+  <div class="data-table-container">
+    <h3 class="table-title">Hong Kong IAQ Objectives for Offices & Public Places</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th rowspan="2">Parameter</th>
+            <th rowspan="2">Unit</th>
+            <th colspan="2">Target Level</th>
+          </tr>
+          <tr>
+            <th>Excellent Class</th>
+            <th>Good Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Carbon Dioxide (CO₂)</td>
+            <td>ppmv</td>
+            <td>800</td>
+            <td>1000</td>
+          </tr>
+          <!-- Additional rows for standards data -->
+        </tbody>
+      </table>
+    </div>
+    <p class="table-caption">Table 3. Hong Kong IAQ Certification Scheme standards</p>
+  </div>
+</section>
+
   <!-- Methodology Section -->
   <section class="project-section">
     <h2 class="section-header">
@@ -392,7 +429,200 @@ importance: 2
         </div>
       </div>
     </article>
-  </section>
+
+    <!-- Add this in the System Analysis section after the existing content -->
+<section class="project-section">
+  <h2 class="section-header">
+    <span class="section-number">03.1</span>
+    Detailed Measurement Data
+  </h2>
+
+  <!-- Room A Detailed Data Table -->
+  <div class="data-table-container">
+    <h3 class="table-title">Room A Measurement Results</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Time Period</th>
+            <th>Time</th>
+            <th>Freq</th>
+            <th>Velocity (m/s)</th>
+            <th>Temp (°C)</th>
+            <th>RH%</th>
+            <th>CO (ppm)</th>
+            <th>CO₂ (ppm)</th>
+            <th>TVOC (ppb)</th>
+            <th>PM₁₀ (µg/m³)</th>
+            <th>HCHO (ppb)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="6">8:30-10:30</td>
+            <td>9:15</td>
+            <td>1</td>
+            <td>0.14</td>
+            <td>23.2</td>
+            <td>56.4</td>
+            <td>0.5</td>
+            <td>456</td>
+            <td>140</td>
+            <td>6.2</td>
+            <td>160</td>
+          </tr>
+          <!-- Additional rows for Room A data -->
+        </tbody>
+      </table>
+    </div>
+    <p class="table-caption">Table 1. Room A detailed measurement results</p>
+  </div>
+
+  <!-- Room B Detailed Data Table -->
+  <div class="data-table-container">
+    <h3 class="table-title">Room B Measurement Results</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Time Period</th>
+            <th>Time</th>
+            <th>Freq</th>
+            <th>Velocity (m/s)</th>
+            <th>Temp (°C)</th>
+            <th>RH%</th>
+            <th>CO (ppm)</th>
+            <th>CO₂ (ppm)</th>
+            <th>TVOC (ppb)</th>
+            <th>PM₁₀ (µg/m³)</th>
+            <th>HCHO (ppb)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="6">8:30-10:30</td>
+            <td>10:00</td>
+            <td>1</td>
+            <td>0.11</td>
+            <td>21.6</td>
+            <td>49.7</td>
+            <td>0.4</td>
+            <td>484</td>
+            <td>134</td>
+            <td>6</td>
+            <td>120</td>
+          </tr>
+          <!-- Additional rows for Room B data -->
+        </tbody>
+      </table>
+    </div>
+    <p class="table-caption">Table 2. Room B detailed measurement results</p>
+  </div>
+</section>
+
+<!-- Add this in the Recommendations section -->
+<section class="project-section">
+  <h2 class="section-header">
+    <span class="section-number">06.1</span>
+    Subjective Assessment Results
+  </h2>
+
+  <div class="side-by-side-tables">
+    <!-- Room A Subjective Assessment -->
+    <div class="data-table-container">
+      <h3 class="table-title">Room A Subjective Feedback</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Most Common Response</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>How do you feel this area temperature?</td>
+            <td>Moderate</td>
+          </tr>
+          <!-- Additional rows for Room A subjective data -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Room B Subjective Assessment -->
+    <div class="data-table-container">
+      <h3 class="table-title">Room B Subjective Feedback</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Question</th>
+            <th>Most Common Response</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>How do you feel this area temperature?</td>
+            <td>Moderate</td>
+          </tr>
+          <!-- Additional rows for Room B subjective data -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Add this in the System Analysis section -->
+<section class="project-section">
+  <h2 class="section-header">
+    <span class="section-number">03.2</span>
+    Mould Observation Summary
+  </h2>
+
+  <div class="side-by-side-tables">
+    <!-- Room A Mould Data -->
+    <div class="data-table-container">
+      <h3 class="table-title">Room A Mould Growth</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Count</th>
+            <th>Area (m²)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Diffuser 1</td>
+            <td>1</td>
+            <td>0.01</td>
+          </tr>
+          <!-- Additional rows for Room A mould data -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Room B Mould Data -->
+    <div class="data-table-container">
+      <h3 class="table-title">Room B Mould Growth</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Count</th>
+            <th>Area (m²)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Diffuser 1</td>
+            <td>1</td>
+            <td>0.042</td>
+          </tr>
+          <!-- Additional rows for Room B mould data -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
 
   <!-- Redesign Proposal Section -->
   <section class="project-section calculations-section">
@@ -1572,6 +1802,84 @@ importance: 2
     display: none;
   }
 }
+</style>
+
+<!-- Add this CSS to your style section -->
+<style>
+  .data-table-container {
+    margin: 30px 0;
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+
+  .table-title {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+
+  .table-scroll {
+    overflow-x: auto;
+    margin-bottom: 15px;
+  }
+
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+  }
+
+  .data-table th, .data-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+
+  .data-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+  }
+
+  .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .data-table tr:hover {
+    background-color: #f0f7ff;
+  }
+
+  .table-caption {
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .side-by-side-tables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  /* Highlight exceedances */
+  .exceedance {
+    background-color: #ffebee;
+    color: #c62828;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .side-by-side-tables {
+      grid-template-columns: 1fr;
+    }
+    
+    .data-table {
+      min-width: 100%;
+    }
+  }
 </style>
 
 <script>
