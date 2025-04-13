@@ -769,7 +769,7 @@ importance: 2
 <!-- Add this in the Redesign Proposal section -->
 <section class="project-section">
   <h2 class="section-header">
-    <span class="section-number">04.2</span>
+    <span class="section-number">4.2</span>
     Mechanical System Specifications
   </h2>
 
