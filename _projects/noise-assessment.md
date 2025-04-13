@@ -280,7 +280,6 @@ importance: 2
           <p>Exceeds second action level (90 dB(A)) requiring mandatory hearing protection.</p>
         </div>
       </div>
-    </div>
 
     <h3 class="subsection-header">HVAC System Noise Sources</h3>
     <ul>
@@ -2307,10 +2306,6 @@ document.addEventListener('DOMContentLoaded', function() {
     grid-template-columns: 1fr;
   }
 }
-</style>
-
-/* Existing component styles (key findings, methodology steps, etc.) */
-/* ... [include all other existing styles from previous implementation] ... */
 </style>
 
 <script>
