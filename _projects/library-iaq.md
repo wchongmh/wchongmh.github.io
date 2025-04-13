@@ -48,7 +48,7 @@ importance: 2
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
@@ -158,7 +158,7 @@ importance: 2
   <!-- Add this in the Project Overview section -->
 <section class="project-section">
   <h2 class="section-header">
-    <span class="section-number">01.1</span>
+    <span class="section-number">1.1</span>
     IAQ Standards Reference
   </h2>
 
@@ -195,7 +195,7 @@ importance: 2
   <!-- Methodology Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Methodology
     </h2>
 
@@ -254,7 +254,7 @@ importance: 2
   <!-- System Analysis Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       System Analysis
     </h2>
     
@@ -433,7 +433,7 @@ importance: 2
     <!-- Add this in the System Analysis section after the existing content -->
 <section class="project-section">
   <h2 class="section-header">
-    <span class="section-number">03.1</span>
+    <span class="section-number">3.1</span>
     Detailed Measurement Data
   </h2>
 
@@ -520,60 +520,10 @@ importance: 2
   </div>
 </section>
 
-<!-- Add this in the Recommendations section -->
-<section class="project-section">
-  <h2 class="section-header">
-    <span class="section-number">06.1</span>
-    Subjective Assessment Results
-  </h2>
-
-  <div class="side-by-side-tables">
-    <!-- Room A Subjective Assessment -->
-    <div class="data-table-container">
-      <h3 class="table-title">Room A Subjective Feedback</h3>
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Question</th>
-            <th>Most Common Response</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>How do you feel this area temperature?</td>
-            <td>Moderate</td>
-          </tr>
-          <!-- Additional rows for Room A subjective data -->
-        </tbody>
-      </table>
-    </div>
-
-    <!-- Room B Subjective Assessment -->
-    <div class="data-table-container">
-      <h3 class="table-title">Room B Subjective Feedback</h3>
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Question</th>
-            <th>Most Common Response</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>How do you feel this area temperature?</td>
-            <td>Moderate</td>
-          </tr>
-          <!-- Additional rows for Room B subjective data -->
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
 <!-- Add this in the System Analysis section -->
 <section class="project-section">
   <h2 class="section-header">
-    <span class="section-number">03.2</span>
+    <span class="section-number">3.2</span>
     Mould Observation Summary
   </h2>
 
@@ -627,7 +577,7 @@ importance: 2
   <!-- Redesign Proposal Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Redesign Proposal
     </h2>
     
@@ -718,7 +668,7 @@ importance: 2
   <!-- Recommendations Section -->
   <section class="project-section recommendations-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">5</span>
       Implementation Strategy
     </h2>
     
@@ -807,7 +757,7 @@ importance: 2
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">07</span>
+      <span class="section-number">7</span>
       Key Takeaways
     </h2>
     
