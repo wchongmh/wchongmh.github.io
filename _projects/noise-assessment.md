@@ -162,54 +162,6 @@ importance: 2
         </div>
       </div>
     </div>
-  </section> <!-- Methodology Section -->
-  <section class="project-section">
-    <h2 class="section-header">
-      <span class="section-number">2</span>
-      Methodology
-    </h2>
-    
-    <div class="methodology-steps">
-      <div class="step">
-        <div class="step-number">1</div>
-        <div class="step-content">
-          <h4>Instrumentation</h4>
-          <p>RION NL-32 Sound Level Meter (S/N: 00271994) measuring:</p>
-          <ul>
-            <li>SPL (dB/dBA)</li>
-            <li>Frequency spectrum (31.5Hz-8kHz)</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="step">
-        <div class="step-number">2</div>
-        <div class="step-content">
-          <h4>Sampling Protocol</h4>
-          <ul>
-            <li><strong>Background Noise:</strong> 1-min samples at 170cm height (under motor, 1st inlet, room center)</li>
-            <li><strong>Workplace Noise:</strong> 1m² grid mapping for Machines A-C</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="step">
-        <div class="step-number">3</div>
-        <div class="step-content">
-          <h4>Analysis Framework</h4>
-          <div class="analysis-methods">
-            <div class="method">
-              <span class="method-icon">📊</span>
-              <span>NC Chart Evaluation</span>
-            </div>
-            <div class="method">
-              <span class="method-icon">🧮</span>
-              <span>LEP.D = 10log(1/8)Σ(T×10<sup>L/10</sup>)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- Background Noise Section -->
