@@ -59,7 +59,6 @@ importance: 2
         </div>
       </div>
     </div>
-  </section>
 
   <!-- Key Findings Section -->
   <section class="project-section">
