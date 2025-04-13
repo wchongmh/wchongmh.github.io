@@ -453,9 +453,9 @@ ninja.data = [{
           description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gcu-solar/";
-            },},{id: "projects-noise-control-assessment-laboratory-204",
-          title: 'Noise Control Assessment - Laboratory 204',
-          description: "Comprehensive noise analysis for HK laboratory, including NC compliance, ear protection zones, and mitigation strategies.",
+            },},{id: "projects-noise-assessment-amp-control-laboratory-204",
+          title: 'Noise Assessment &amp;amp; Control - Laboratory 204',
+          description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lab/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
