@@ -1077,8 +1077,8 @@ importance: 2
       
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/iaq/system-redesign.jpg" 
-               alt="Proposed PAU+FCU system layout" 
+          <img src="/assets/img/projects/library-iaq/iehvac-42.png" 
+               alt="Proposed PAU+FCU system" 
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
