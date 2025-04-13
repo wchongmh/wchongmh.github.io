@@ -1102,9 +1102,9 @@ importance: 2
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/iaq/enthalpy-wheel.jpg" 
-               alt="Enthalpy wheel diagram" 
-               class="calc-image"
+          <img src="/assets/img/projects/library-iaq/iehvac-29.png" 
+               alt="Psychrometric chart for energy savings" 
+               class="arrangement-img"
                loading="lazy">
           <div class="calc-overlay">
             <span class="calc-title">Heat Recovery</span>
@@ -1115,7 +1115,7 @@ importance: 2
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/iaq/duct-sizing.jpg" 
+          <img src="/assets/img/projects/library-iaq/iehvac-30.png" 
                alt="Duct sizing chart" 
                class="calc-image"
                loading="lazy">
@@ -1128,8 +1128,8 @@ importance: 2
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/iaq/psychrometric-chart.jpg" 
-               alt="Psychrometric analysis" 
+          <img src="/assets/img/projects/library-iaq/iehvac-36.png" 
+               alt="FCU Catalog" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
