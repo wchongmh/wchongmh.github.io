@@ -209,6 +209,20 @@ importance: 2
             <li>Parameters: Temp, RH, CO, CO₂, TVOC, HCHO, RSP, Mould</li>
             <li>Equipment: Aerocet 831, Formaldemeter™, ppbRAE 3000+</li>
           </ul>
+          <div class="equipment-grid">
+            <div class="equipment-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-9.png" alt="Formaldemeter htV-M">
+              <p>Formaldemeter™ htV-M for HCHO</p>
+            </div>
+            <div class="equipment-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-12.png" alt="ppbRAE 3000+">
+              <p>ppbRAE 3000+ for TVOC</p>
+            </div>
+            <div class="equipment-card">
+              <img src="/assets/img/projects/library-iaq/iehvac-11.png" alt="VelociCalc 9555">
+              <p>VelociCalc 9555 for air velocity</p>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -239,13 +253,23 @@ importance: 2
 
     <div class="image-comparison">
       <div class="image-card">
-        <img src="/assets/img/projects/iaq/measurement-setup.jpg" 
-             alt="IAQ Measurement Setup" 
+        <img src="/assets/img/projects/library-iaq/iehvac-2.png" 
+             alt="Room B Printer and Air Purifier" 
              class="project-image"
              loading="lazy">
         <div class="image-meta">
-          <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">Field measurement using TSI IAQ-CALC meter</span>
+          <span class="image-fig">Fig 3.</span>
+          <span class="image-desc">Room B equipment as potential pollution sources</span>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="/assets/img/projects/library-iaq/iehvac-3.png" 
+             alt="Room A Printers and Air Purifier" 
+             class="project-image"
+             loading="lazy">
+        <div class="image-meta">
+          <span class="image-fig">Fig 4.</span>
+          <span class="image-desc">Room A equipment impacting air quality</span>
         </div>
       </div>
     </div>
