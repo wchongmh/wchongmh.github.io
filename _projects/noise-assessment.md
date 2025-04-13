@@ -360,6 +360,108 @@ importance: 2
         </div>
       </div>
     </article>
+
+    <!-- In the Recommendations Section - Replace the existing PPE section with this: -->
+<article class="design-subsection">
+  <h3 class="subsection-header">Personal Protective Equipment</h3>
+  
+  <div class="ppe-tables">
+    <h4>Ear Protector Effectiveness Calculations</h4>
+    <p>The following tables demonstrate the noise reduction achieved by 3M™ Peltor™ X5A Ear Muffs across different frequency bands in each protection zone:</p>
+    
+    <div class="ppe-table-container">
+      <h5>Machine A Protection Zones</h5>
+      <div class="table-responsive">
+        <table class="noise-data-table">
+          <thead>
+            <tr>
+              <th>Frequency</th>
+              <th>Protection Value (dB)</th>
+              <th>Zone 1 (dB)</th>
+              <th>Protected Level (dB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>63Hz</td><td>19.8</td><td>76.9</td><td>57.1</td></tr>
+            <tr><td>125Hz</td><td>19.9</td><td>76.9</td><td>57.0</td></tr>
+            <tr><td>250Hz</td><td>26.4</td><td>73.8</td><td>47.4</td></tr>
+            <tr><td>500Hz</td><td>37.0</td><td>73.7</td><td>36.7</td></tr>
+            <tr><td>1000Hz</td><td>40.9</td><td>75.5</td><td>34.6</td></tr>
+            <tr><td>2000Hz</td><td>35.5</td><td>81.5</td><td>46.0</td></tr>
+            <tr><td>4000Hz</td><td>40.2</td><td>87.0</td><td>46.8</td></tr>
+            <tr><td>8000Hz</td><td>37.3</td><td>89.1</td><td>51.8</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="ppe-table-container">
+      <h5>Machine B Protection Zones</h5>
+      <div class="table-responsive">
+        <table class="noise-data-table">
+          <thead>
+            <tr>
+              <th>Frequency</th>
+              <th>Protection Value (dB)</th>
+              <th>Zone 1 (dB)</th>
+              <th>Zone 3 (dB)</th>
+              <th>Zone 4 (dB)</th>
+              <th>Protected Level (dB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>63Hz</td><td>19.8</td><td>85.4</td><td>84.9</td><td>83.3</td><td>65.6</td></tr>
+            <tr><td>125Hz</td><td>19.9</td><td>86.0</td><td>87.8</td><td>83.9</td><td>66.1</td></tr>
+            <tr><td>250Hz</td><td>26.4</td><td>91.1</td><td>93.7</td><td>89.1</td><td>64.7</td></tr>
+            <tr><td>500Hz</td><td>37.0</td><td>87.0</td><td>89.9</td><td>86.2</td><td>50.0</td></tr>
+            <tr><td>1000Hz</td><td>40.9</td><td>84.2</td><td>85.6</td><td>85.1</td><td>43.3</td></tr>
+            <tr><td>2000Hz</td><td>35.5</td><td>80.3</td><td>83.2</td><td>81.3</td><td>44.8</td></tr>
+            <tr><td>4000Hz</td><td>40.2</td><td>80.1</td><td>81.4</td><td>80.5</td><td>39.9</td></tr>
+            <tr><td>8000Hz</td><td>37.3</td><td>75.8</td><td>76.0</td><td>74.5</td><td>38.5</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="ppe-table-container">
+      <h5>Machine C Protection Zones</h5>
+      <div class="table-responsive">
+        <table class="noise-data-table">
+          <thead>
+            <tr>
+              <th>Frequency</th>
+              <th>Protection Value (dB)</th>
+              <th>Zone 1 (dB)</th>
+              <th>Zone 2 (dB)</th>
+              <th>Zone 8 (dB)</th>
+              <th>Protected Level (dB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>63Hz</td><td>19.8</td><td>89.8</td><td>91.3</td><td>93.1</td><td>70.0</td></tr>
+            <tr><td>125Hz</td><td>19.9</td><td>89.9</td><td>94.4</td><td>99.3</td><td>70.0</td></tr>
+            <tr><td>250Hz</td><td>26.4</td><td>91.4</td><td>90.5</td><td>90.1</td><td>65.0</td></tr>
+            <tr><td>500Hz</td><td>37.0</td><td>87.9</td><td>87.1</td><td>84.6</td><td>50.9</td></tr>
+            <tr><td>1000Hz</td><td>40.9</td><td>85.2</td><td>84.1</td><td>83.7</td><td>44.3</td></tr>
+            <tr><td>2000Hz</td><td>35.5</td><td>84.0</td><td>81.0</td><td>82.5</td><td>48.5</td></tr>
+            <tr><td>4000Hz</td><td>40.2</td><td>85.9</td><td>82.3</td><td>83.6</td><td>45.7</td></tr>
+            <tr><td>8000Hz</td><td>37.3</td><td>83.2</td><td>80.8</td><td>82.3</td><td>45.9</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="ppe-summary">
+      <h4>Effectiveness Summary</h4>
+      <ul>
+        <li><strong>X5A Ear Muffs provide 19.8-40.9dB attenuation</strong> across frequency bands</li>
+        <li>Most effective at <strong>1kHz (40.9dB attenuation)</strong></li>
+        <li>Reduces all zones to <strong>≤70dB</strong> (below first action level)</li>
+        <li>SNR (Single Number Rating) of <strong>37dB</strong> confirms suitability for 90+ dB(A) environments</li>
+      </ul>
+    </div>
+  </div>
+  </article>
   </section>
 
   <!-- Recommendations Section -->
@@ -1808,6 +1910,80 @@ document.addEventListener('DOMContentLoaded', function() {
   
   .methodology-steps {
     grid-template-columns: 1fr;
+  }
+
+  /* Add to your existing CSS */
+.ppe-tables {
+  margin-top: 30px;
+}
+
+.ppe-table-container {
+  margin-bottom: 40px;
+}
+
+.ppe-table-container h5 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #3498db;
+}
+
+.noise-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.noise-data-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.noise-data-table td {
+  padding: 10px 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.noise-data-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.noise-data-table tr:hover {
+  background-color: #f0f7ff;
+}
+
+.ppe-summary {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  border-left: 4px solid #3498db;
+}
+
+.ppe-summary h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.ppe-summary ul {
+  padding-left: 20px;
+}
+
+.ppe-summary li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .noise-data-table {
+    min-width: 600px;
   }
 }
 </style>
