@@ -580,6 +580,191 @@ importance: 2
       <span class="section-number">4</span>
       Redesign Proposal
     </h2>
+
+    <!-- Add this in the Redesign Proposal section -->
+<section class="project-section calculations-section">
+  <h2 class="section-header">
+    <span class="section-number">04.1</span>
+    CO₂ Concentration Calculations
+  </h2>
+
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+      </svg>
+      Full Load CO₂ Analysis
+    </h3>
+
+    <div class="calculation-method">
+      <h4>Calculation Methodology</h4>
+      <p>The CO₂ concentration at full load is calculated using the steady-state equation:</p>
+      <div class="formula">
+        C<sub>∞</sub> = (Q<sub>v</sub>C<sub>v</sub> + G) / Q<sub>v</sub>
+      </div>
+      <p>Where:</p>
+      <ul class="variable-list">
+        <li>C<sub>∞</sub> = Indoor CO₂ concentration (m³/m³)</li>
+        <li>Q<sub>v</sub> = Fresh air supply rate (m³/h)</li>
+        <li>C<sub>v</sub> = Outdoor CO₂ concentration (0.000409 m³/m³)</li>
+        <li>G = CO₂ generation rate (m³/h)</li>
+      </ul>
+    </div>
+
+    <div class="side-by-side-calculations">
+      <!-- Room A Calculation -->
+      <div class="calculation-card">
+        <h5>Room A Analysis</h5>
+        <div class="calculation-steps">
+          <p><strong>Steady State Period:</strong> 15:30-16:00</p>
+          <p><strong>Average CO₂ (C<sub>∞</sub>):</strong> 738 ppm</p>
+          <p><strong>Average Occupancy:</strong> 9 people</p>
+          <p><strong>CO₂ Generation (G):</strong> 9 × 0.08 = 0.72 m³/h</p>
+          <p><strong>Calculated Q<sub>v</sub>:</strong> 2,188.45 m³/h</p>
+          <p><strong>Full Load (29 people):</strong></p>
+          <ul>
+            <li>Projected CO₂: 1,469 ppm</li>
+            <li>Required FA for 950 ppm: 4,288 m³/h (1,191 l/s)</li>
+            <li>FA per person: 41.07 l/s/p</li>
+            <li>Improvement needed: 583 l/s</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Room B Calculation -->
+      <div class="calculation-card">
+        <h5>Room B Analysis</h5>
+        <div class="calculation-steps">
+          <p><strong>Steady State Period:</strong> 10:35-11:05</p>
+          <p><strong>Average CO₂ (C<sub>∞</sub>):</strong> 582 ppm</p>
+          <p><strong>Average Occupancy:</strong> 5 people</p>
+          <p><strong>CO₂ Generation (G):</strong> 5 × 0.08 = 0.4 m³/h</p>
+          <p><strong>Calculated Q<sub>v</sub>:</strong> 2,312.14 m³/h</p>
+          <p><strong>Full Load (33 people):</strong></p>
+          <ul>
+            <li>Projected CO₂: 1,551 ppm</li>
+            <li>Required FA for 950 ppm: 4,879.85 m³/h (1,355.51 l/s)</li>
+            <li>FA per person: 41.08 l/s/p</li>
+            <li>Improvement needed: 713 l/s</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,19H5V5H19V19M11,7H13V11H17V13H13V17H11V13H7V11H11V7Z" />
+      </svg>
+      HVAC System Redesign Calculations
+    </h3>
+
+    <div class="system-design">
+      <h4>Cooling Load Analysis</h4>
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Space</th>
+              <th>Area (m²)</th>
+              <th>Cooling Load (TR)</th>
+              <th>Cooling Load (kW)</th>
+              <th>People Density</th>
+              <th>Occupancy</th>
+              <th>FA Requirement</th>
+              <th>Total FA (l/s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Room A</td>
+              <td>89.67</td>
+              <td>3.86</td>
+              <td>13.57</td>
+              <td>6.00</td>
+              <td>15</td>
+              <td>8.00</td>
+              <td>119.56</td>
+            </tr>
+            <tr>
+              <td>Room B</td>
+              <td>96.48</td>
+              <td>4.15</td>
+              <td>14.60</td>
+              <td>6.00</td>
+              <td>16</td>
+              <td>8.00</td>
+              <td>128.64</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4 class="mt-4">Energy Recovery Analysis</h4>
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Unit</th>
+              <th>Room A</th>
+              <th>Room B</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PAU Cooling Load</td>
+              <td>kW</td>
+              <td>6.40</td>
+              <td>6.89</td>
+            </tr>
+            <tr>
+              <td>FCU Cooling Load</td>
+              <td>kW</td>
+              <td>7.17</td>
+              <td>7.72</td>
+            </tr>
+            <tr>
+              <td>Sensible Heat Ratio</td>
+              <td>-</td>
+              <td>0.70</td>
+              <td>0.70</td>
+            </tr>
+            <tr>
+              <td>FCU Flow Rate</td>
+              <td>L/s per FCU</td>
+              <td>305.56</td>
+              <td>305.56</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="energy-summary">
+        <h4>Payback Period Calculation</h4>
+        <div class="specs-grid">
+          <div class="spec-item">
+            <span class="spec-value">30%</span>
+            <span class="spec-label">Energy Reduction</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-value">1.49 yrs</span>
+            <span class="spec-label">Payback Period</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-value">2.8</span>
+            <span class="spec-label">Chiller COP</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-value">$60,000</span>
+            <span class="spec-label">Investment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
     
     <article class="design-subsection">
       <h3 class="subsection-header">
@@ -1828,6 +2013,93 @@ importance: 2
     
     .data-table {
       min-width: 100%;
+    }
+  }
+</style>
+
+<!-- Add this CSS to your style section -->
+<style>
+  .calculation-method {
+    background: #f5f9ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+  }
+
+  .formula {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .variable-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .variable-list li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 25px;
+  }
+
+  .variable-list li:before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+
+  .side-by-side-calculations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 25px 0;
+  }
+
+  .calculation-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  }
+
+  .calculation-card h5 {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .calculation-steps {
+    font-size: 0.95rem;
+  }
+
+  .calculation-steps p {
+    margin-bottom: 8px;
+  }
+
+  .calculation-steps strong {
+    color: var(--secondary-color);
+  }
+
+  .energy-summary {
+    margin-top: 30px;
+  }
+
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .side-by-side-calculations {
+      grid-template-columns: 1fr;
     }
   }
 </style>
