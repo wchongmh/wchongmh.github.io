@@ -313,58 +313,6 @@ importance: 2
 }
 </style>
 
-<!-- Project Reflection Section -->
-  <section class="project-section reflection-section">
-    <h2 class="section-header">
-      <span class="section-number">07</span>
-      Project Reflection
-    </h2>
-    
-    <div class="reflection-content">
-      <div class="reflection-text">
-        <p>The internship provided valuable experience in applying theoretical knowledge to real-world engineering challenges in this large-scale public housing development.</p>
-        
-        <div class="skill-development">
-          <h3>Key Skill Development</h3>
-          <div class="skills-grid">
-            <div class="skill-category">
-              <h4>Technical Skills</h4>
-              <ul>
-                <li>AutoCAD MEP system design</li>
-                <li>Hydraulic calculations</li>
-                <li>BIM coordination</li>
-                <li>Pump selection and sizing</li>
-              </ul>
-            </div>
-            <div class="skill-category">
-              <h4>Professional Skills</h4>
-              <ul>
-                <li>Time management</li>
-                <li>Multidisciplinary teamwork</li>
-                <li>Regulatory compliance</li>
-                <li>Technical documentation</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
-        <div class="project-outcome">
-          <h3>Project Outcome</h3>
-          <p>The project successfully integrated academic learning with practical industry requirements, resulting in a comprehensive plumbing design solution that meets all WSD standards while incorporating innovative features for maintainability and efficiency.</p>
-        </div>
-      </div>
-      
-      <div class="reflection-image">
-        <img src="/assets/img/projects/intern/plumbing_design-5.jpg" 
-             alt="Project Team Working" 
-             class="reflection-img"
-             loading="lazy">
-        <p class="image-caption">Fig 3. Design team reviewing plumbing schematics</p>
-      </div>
-    </div>
-  </section>
-</div>
-
 <style>
 /* Base Styles */
 :root {
