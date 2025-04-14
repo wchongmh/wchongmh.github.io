@@ -3,7 +3,7 @@ title: "High-Rise Electrical Systems - Cheuk Nang Centre"
 category: Building Systems
 description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics."
 tech: [AutoCAD, ADMD Method, BS EN 12845, CLP COP, BIM Coordination]
-image: /assets/img/projects/electrical/cheuk_nang-1.jpg
+image: /assets/img/projects/electrical/cheuk_nang-1.png
 importance: 2
 ---
 
