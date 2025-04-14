@@ -450,11 +450,6 @@ ninja.data = [{
               window.location.href = "/projects/bms-system/";
             },},{id: "projects-high-rise-electrical-systems-cheuk-nang-centre",
           title: 'High-Rise Electrical Systems - Cheuk Nang Centre',
-          description: "Comprehensive electrical design for 30-storey commercial building in TST, including load calculations and system schematics.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/elect02/";
-            },},{id: "projects-high-rise-electrical-systems-cheuk-nang-centre",
-          title: 'High-Rise Electrical Systems - Cheuk Nang Centre',
           description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/electrical/";
