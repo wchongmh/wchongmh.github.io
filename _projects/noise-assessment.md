@@ -322,7 +322,7 @@ importance: 2
         </tbody>
       </table>
     </div>
-  </section>
+    </section>
 
   <!-- Workplace Noise Section -->
   <section class="project-section">
