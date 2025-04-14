@@ -150,7 +150,7 @@ importance: 2
   <!-- System Design Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       System Design
     </h2>
     
@@ -174,7 +174,28 @@ importance: 2
             <li>Essential supply backed by 968kVA generator</li>
             <li>Separate distribution boards for tenant/public areas</li>
             <li>Busbar risers up to 1650A capacity</li>
+            <li>Essential and non-essential busbar risers (320A to 1650A)</li>
+            <li>VVVF drive for fireman's lift with 1.58% voltage drop</li>
+            <li>Diversity factors applied (0.8 for offices)</li>
           </ul>
+        </div>
+
+        <div class="system-types-grid">
+          <div class="system-type-card">
+            <div class="system-icon">⚡</div>
+            <h5>Tenant Supply</h5>
+            <p>630A/700A TP&N busbar risers</p>
+          </div>
+          <div class="system-type-card">
+            <div class="system-icon">🔌</div>
+            <h5>Final Circuits</h5>
+            <p>5×A1 ring + 2×A2 radial per floor</p>
+          </div>
+          <div class="system-type-card">
+            <div class="system-icon">❄️</div>
+            <h5>Chiller Plant</h5>
+            <p>1250A TP&N MCCB protection</p>
+          </div>
         </div>
         
         <div class="system-types-grid">
@@ -198,6 +219,31 @@ importance: 2
             <h5>Floor Distribution</h5>
             <p>Zoned risers with MCCB protection</p>
           </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,2L4,5V11.09C4,16.14 7.41,20.85 12,22C16.59,20.85 20,16.14 20,11.09V5L12,2Z" />
+        </svg>
+        Emergency Systems
+      </h3>
+      
+      <div class="system-arrangement">
+        <div class="arrangement-image">
+          <img src="/assets/img/projects/electrical/cheuk-nang-6.jpg" 
+               alt="Generator Room Layout" 
+               class="arrangement-img"
+               loading="lazy">
+          <div class="arrangement-caption">
+            <span class="arrangement-fig">Fig 3.</span>
+            <span class="arrangement-desc">Emergency generator room with 6-hour fuel supply</span>
+          </div>
+        </div>
+        <div class="arrangement-notes">
+          <p><strong>Design Notes:</strong> 967.93kVA diesel generator sized for essential loads including fireman's lift (66.18kVA), sprinkler pumps (205.59kVA), and fixed fire pumps (329.41kVA). Automatic transfer switches ensure <1s transition during power failure with 10% safety margin.</p>
         </div>
       </div>
     </article>
@@ -293,12 +339,79 @@ importance: 2
   <!-- Engineering Calculations Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       Engineering Calculations
     </h2>
     
     <div class="calculations-intro">
       <p>All electrical calculations were performed in accordance with CLP COP 215 and BS EN 12845. The design accommodates peak demand factors while maintaining adequate capacity margins.</p>
+    </div>
+
+    <div class="calculation-tabs">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-tab="load-estimation">Load Estimation</button>
+        <button class="tab-button" data-tab="ventilation">Ventilation</button>
+        <button class="tab-button" data-tab="lighting">Lighting</button>
+      </div>
+      
+      <div class="tab-content active" id="load-estimation">
+        <h4>ADMD Method Calculation</h4>
+        <div class="calculation-grid">
+          <div class="calc-item">
+            <span class="calc-label">Office Area (27 floors)</span>
+            <span class="calc-value">27 × 537.03m² × 0.16kVA/m² = 2,320.77kVA</span>
+          </div>
+          <div class="calc-item">
+            <span class="calc-label">Lift Load (3 units)</span>
+            <span class="calc-value">3 × 40kVA = 120kVA</span>
+          </div>
+          <div class="calc-item">
+            <span class="calc-label">Cooling Load</span>
+            <span class="calc-value">584.77 TR × 1.45kW/TR ÷ 0.85pf = 997.56kVA</span>
+          </div>
+          <div class="calc-item highlight">
+            <span class="calc-label">Total Demand</span>
+            <span class="calc-value">3,465.97kVA → Three 1500kVA transformers</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="ventilation">
+        <h4>Ventilation System Sizing</h4>
+        <div class="specs-accordion">
+          <details class="spec-group">
+            <summary>Transformer Room</summary>
+            <ul>
+              <li>Volume: 104.71m² × 5.9m = 617.79m³</li>
+              <li>30 ACH → 5,148.25L/s required</li>
+              <li>Solution: 4×EB504T (1,250L/s) + 1×MCE300 (185L/s)</li>
+              <li>Total power: 972W</li>
+            </ul>
+          </details>
+          <details class="spec-group">
+            <summary>AHU Room (Typical Floor)</summary>
+            <ul>
+              <li>Volume: 12.64m² × 4.15m = 52.46m³</li>
+              <li>6 ACH → 87.43L/s required</li>
+              <li>Solution: 1×MCE200 (92L/s @ 31W)</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="lighting">
+        <h4>Lighting Design Example</h4>
+        <div class="lighting-example">
+          <p><strong>Conference Room 1 (35.64m²):</strong></p>
+          <ul>
+            <li>CIBSE requirement: 500 lux</li>
+            <li>Luminaire: Caton CTN66404KZ (4,030 lm)</li>
+            <li>Utilization factor: 0.7616</li>
+            <li>Calculation: N = (500×35.64)/(4030×0.8×0.7616) = 7.35 → 8 units</li>
+            <li>Layout: 4×2 grid with 2m × 1.13m spacing</li>
+          </ul>
+        </div>
+      </div>
     </div>
     
     <article class="design-subsection calculations">
@@ -398,7 +511,7 @@ importance: 2
   <!-- Design Methodology Section -->
   <section class="project-section methodology-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Design Methodology
     </h2>
     
@@ -434,11 +547,51 @@ importance: 2
       </div>
     </div>
   </section>
+
+  <!-- System Components -->
+  <section class="project-section components-section">
+    <h2 class="section-header">
+      <span class="section-number">5</span>
+      System Components
+    </h2>
+    
+    <div class="components-gallery">
+      <div class="component-card">
+        <img src="/assets/img/projects/electrical/clipsal-fan.jpg" alt="Clipsal Ventilation Fan">
+        <h3>Ventilation Systems</h3>
+        <ul>
+          <li>EB504T for transformer room (1,250L/s)</li>
+          <li>MCE300 for toilet exhaust (185L/s)</li>
+          <li>OW3709 for small spaces (75L/s)</li>
+        </ul>
+      </div>
+      
+      <div class="component-card">
+        <img src="/assets/img/projects/electrical/caton-lighting.jpg" alt="Caton Luminaire">
+        <h3>Lighting Fixtures</h3>
+        <ul>
+          <li>Caton CTN66404KZ (4,030 lm)</li>
+          <li>LPD compliant with BEC 2015</li>
+          <li>SHR verification for uniform distribution</li>
+        </ul>
+      </div>
+      
+      <div class="component-card">
+        <img src="/assets/img/projects/electrical/mccb-panel.jpg" alt="MCCB Panel">
+        <h3>Protection Devices</h3>
+        <ul>
+          <li>630A/700A TP&N MCCB for risers</li>
+          <li>320A essential supply busbar</li>
+          <li>1,650A non-essential busbar</li>
+        </ul>
+      </div>
+    </div>
+  </section>
   
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">6</span>
       Project Reflection
     </h2>
     
