@@ -2,7 +2,7 @@
 title: "High-Rise Electrical Systems - Cheuk Nang Centre"
 category: Building Systems
 description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics."
-tech: [AutoCAD, ADMD Method, BS EN 12845, CLP COP, BIM Coordination]
+tech: [AutoCAD, ADMD Method, ETAP, BS 7671, BS EN 12845, CLP COP, BIM Coordination]
 image: /assets/img/projects/electrical/cheuk_nang-1.png
 importance: 2
 ---
@@ -52,12 +52,12 @@ importance: 2
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
     <div class="project-description">
-      <p>The electrical infrastructure was designed to serve 27 office floors with total usable floor area of 14,500m². The system incorporates three 1500kVA transformers, essential/non-essential supply separation, and energy-efficient lighting solutions compliant with BEC codes.</p>
+      <p>The electrical design serves a 30-storey commercial building, including 27 office floors with a total usable floor area of approximately 14,619.34 m², and features three 1500kVA transformers, a 967.93kVA emergency generator, essential/non-essential supply separation, intelligent power distribution, and energy-efficient lighting solutions, all compliant with CLP COP 2015 and BEC energy efficiency requirements.</p>
     </div>
     
     <div class="image-comparison">
@@ -98,7 +98,7 @@ importance: 2
       <h3 class="specs-title">Key System Specifications</h3>
       <div class="specs-grid">
         <div class="spec-item">
-          <span class="spec-value">3,465 kVA</span>
+          <span class="spec-value">3,466 kVA</span>
           <span class="spec-label">Total Building Load</span>
         </div>
         <div class="spec-item">
@@ -106,8 +106,12 @@ importance: 2
           <span class="spec-label">Transformers</span>
         </div>
         <div class="spec-item">
-          <span class="spec-value">968 kVA</span>
+          <span class="spec-value">967.93 kVA</span>
           <span class="spec-label">Generator Capacity</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">584.77 TR</span>
+          <span class="spec-label">Cooling Load</span>
         </div>
         <div class="spec-item">
           <span class="spec-value">27</span>
