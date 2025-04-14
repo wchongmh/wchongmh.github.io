@@ -2160,6 +2160,62 @@ importance: 2
   .electrical-table td {
     padding: 8px 10px;
   }
+  /* Add this to the existing CSS */
+.system-tables {
+  margin-top: 30px;
+}
+
+.system-tables h4 {
+  color: var(--secondary-color);
+  margin: 25px 0 15px;
+  font-size: 1.2rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.electrical-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.electrical-table th,
+.electrical-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.electrical-table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+}
+
+.electrical-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.electrical-table tr:hover {
+  background-color: #f0f7ff;
+}
+
+@media (max-width: 768px) {
+  .electrical-table {
+    font-size: 0.85rem;
+  }
+  
+  .electrical-table th,
+  .electrical-table td {
+    padding: 8px 10px;
+  }
 }
 </style>
 
