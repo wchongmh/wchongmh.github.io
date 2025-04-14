@@ -1291,30 +1291,6 @@ importance: 2
           <li>1,650A non-essential busbar</li>
         </ul>
       </div>
-    </div>
-  </section>
-  
-  <!-- Project Reflection Section -->
-  <section class="project-section reflection-section">
-    <h2 class="section-header">
-      <span class="section-number">6</span>
-      Project Reflection
-    </h2>
-    
-    <div class="reflection-content">
-      <div class="reflection-text">
-        <p>This project demonstrated the application of theoretical electrical engineering principles to a complex high-rise building, requiring coordination between multiple building systems and strict adherence to Hong Kong regulations.</p>
-        
-        <div class="key-challenges">
-          <h3>Key Challenges</h3>
-          <ul>
-            <li>Balancing load density with energy efficiency requirements</li>
-            <li>Coordinating essential/non-essential supply separation</li>
-            <li>Integrating ventilation requirements with electrical capacity</li>
-            <li>Maintaining voltage stability across 30 floors</li>
-          </ul>
-        </div>
-      </div>
       
       <div class="reflection-image">
         <img src="/assets/img/projects/electrical/cheuk_nang-40.png" 
@@ -1373,6 +1349,30 @@ importance: 2
         <div class="image-meta">
           <span class="image-fig">Fig 47.</span>
           <span class="image-desc">R/F Electrical Socket plan drawing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Project Reflection Section -->
+  <section class="project-section reflection-section">
+    <h2 class="section-header">
+      <span class="section-number">6</span>
+      Project Reflection
+    </h2>
+    
+    <div class="reflection-content">
+      <div class="reflection-text">
+        <p>This project demonstrated the application of theoretical electrical engineering principles to a complex high-rise building, requiring coordination between multiple building systems and strict adherence to Hong Kong regulations.</p>
+        
+        <div class="key-challenges">
+          <h3>Key Challenges</h3>
+          <ul>
+            <li>Balancing load density with energy efficiency requirements</li>
+            <li>Coordinating essential/non-essential supply separation</li>
+            <li>Integrating ventilation requirements with electrical capacity</li>
+            <li>Maintaining voltage stability across 30 floors</li>
+          </ul>
         </div>
       </div>
     </div>
