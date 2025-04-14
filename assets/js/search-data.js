@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive energy analysis of a Glasgow office building using Hevacomp, including heating, ventilation, and boiler systems design.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/office-hevacomp/";
+            },},{id: "projects-high-rise-plumbing-amp-fire-protection-systems-axa-centre",
+          title: 'High-Rise Plumbing &amp;amp; Fire Protection Systems - AXA Centre',
+          description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/plumbing_fire/";
             },},{id: "projects-public-housing-plumbing-systems-queen-39-s-hill-development",
           title: 'Public Housing Plumbing Systems - Queen&amp;#39;s Hill Development',
           description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics.",
