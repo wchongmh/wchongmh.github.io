@@ -453,6 +453,11 @@ ninja.data = [{
           description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/electrical/";
+            },},{id: "projects-high-rise-electrical-systems-cheuk-nang-centre",
+          title: 'High-Rise Electrical Systems - Cheuk Nang Centre',
+          description: "Comprehensive electrical design for 30-storey commercial building in TST, including load calculations and system schematics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/elet/";
             },},{id: "projects-rooftop-solar-potential-glasgow-caledonian-university",
           title: 'Rooftop Solar Potential - Glasgow Caledonian University',
           description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.",
