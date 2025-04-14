@@ -2068,8 +2068,102 @@ importance: 2
   .tab-button.active:after {
     display: none;
   }
+  /* Add this to the existing CSS */
+.system-tables {
+  margin-top: 30px;
+}
+
+.system-tables h4 {
+  color: var(--secondary-color);
+  margin: 25px 0 15px;
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background: white;
+}
+
+.electrical-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  min-width: 800px;
+}
+
+.electrical-table th,
+.electrical-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.electrical-table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+}
+
+.table-subheader {
+  background-color: var(--secondary-color) !important;
+  text-align: center !important;
+  font-weight: 600 !important;
+}
+
+.electrical-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.electrical-table tr:hover {
+  background-color: #f0f7ff;
+}
+
+/* Highlight cells with values */
+.electrical-table td:not(:empty) {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 992px) {
+  .system-tables h4 {
+    font-size: 1.1rem;
+  }
+  
+  .electrical-table {
+    font-size: 0.85rem;
+    min-width: 900px;
+  }
+  
+  .electrical-table th,
+  .electrical-table td {
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .system-tables h4 {
+    font-size: 1rem;
+  }
+  
+  .electrical-table {
+    font-size: 0.8rem;
+  }
+  
+  .electrical-table th,
+  .electrical-table td {
+    padding: 8px 10px;
+  }
 }
 </style>
+
+
 
 <script>
 // Simple tab functionality
