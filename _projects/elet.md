@@ -1,6 +1,6 @@
 ---
 title: "High-Rise Electrical Systems - Cheuk Nang Centre"
-category: Electrical Engineering
+category: Building Systems
 description: "Comprehensive electrical design for 30-storey commercial building in TST, including load calculations and system schematics."
 tech: [AutoCAD, Dialux, ETAP, CLP COP, BS 7671, ADMD Calculations]
 image: /assets/img/projects/electrical/cheuk-nang-1.jpg
