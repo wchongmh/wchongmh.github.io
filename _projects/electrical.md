@@ -334,6 +334,205 @@ importance: 2
         </div>
       </div>
     </article>
+
+    <!-- Add this within the System Design section, after the Power Distribution subsection -->
+<article class="design-subsection">
+  <h3 class="subsection-header">
+    <svg class="subsection-icon" viewBox="0 0 24 24">
+      <path d="M3,3H21V5H3V3M3,7H21V9H3V7M3,11H21V13H3V11M3,15H21V17H3V15M3,19H21V21H3V19Z" />
+    </svg>
+    Electrical Load Schedule
+  </h3>
+  
+  <div class="system-tables">
+    <h4>Ground Floor Public Area (Landlord Supply)</h4>
+    <div class="table-container">
+      <table class="electrical-table">
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Light Model LT-01</th>
+            <th>Light Model LT-02</th>
+            <th>Light Model LT-03</th>
+            <th>Light Model LT-04</th>
+            <th>Socket Outlet (noz)</th>
+            <th>Exhaust Fan</th>
+            <th>AHU</th>
+            <th>FCU</th>
+            <th>Window Type AC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows from first image -->
+          <tr>
+            <td>TRANSFORMER ROOM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>5</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- Additional rows from first image... -->
+        </tbody>
+      </table>
+    </div>
+
+    <h4>Roof Level Electrical Loads</h4>
+    <div class="table-container">
+      <table class="electrical-table">
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Light Model (LT0)</th>
+            <th>Light Model (LT0)</th>
+            <th>Light Model (LT0)</th>
+            <th>Light Model (LT0)</th>
+            <th>Light Model (LT0)</th>
+            <th>Socket Outlet (neo)</th>
+            <th>Exhaust Fan (neo)</th>
+            <th>AHU</th>
+            <th>FCU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows from second image -->
+          <tr>
+            <td>A/C FUMF ROOM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>9</td>
+            <td></td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- Additional rows from second image... -->
+        </tbody>
+      </table>
+    </div>
+
+    <h4>28th Floor (Tenant Supply)</h4>
+    <div class="table-container">
+      <table class="electrical-table">
+        <thead>
+          <tr>
+            <th colspan="10" class="table-subheader">Transit Supply</th>
+          </tr>
+          <tr>
+            <th>Location</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Socket Outlet (600)</th>
+            <th>Exhaust (inflood)</th>
+            <th>AHL</th>
+            <th>FCU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows from third image (first table) -->
+          <tr>
+            <td>Admin office (left)</td>
+            <td>16</td>
+            <td>17.00</td>
+            <td>17.00</td>
+            <td>17.00</td>
+            <td>17.00</td>
+            <td>18</td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+          </tr>
+          <!-- Additional rows from third image (first table)... -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-container">
+      <table class="electrical-table">
+        <thead>
+          <tr>
+            <th colspan="12" class="table-subheader">Landlord Supply</th>
+          </tr>
+          <tr>
+            <th>Location</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Light Model 1</th>
+            <th>Socket Outlet (600)</th>
+            <th>Exhaust (inflood)</th>
+            <th>AHL</th>
+            <th>FCU</th>
+            <th>Water Heater</th>
+            <th>Blind Dryer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows from third image (second table) -->
+          <tr>
+            <td>M LAV</td>
+            <td>17.01</td>
+            <td>17.02</td>
+            <td>17.03</td>
+            <td>17.04</td>
+            <td>17.05</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- Additional rows from third image (second table)... -->
+        </tbody>
+      </table>
+    </div>
+
+    <h4>1st Floor Electrical Loads</h4>
+    <div class="table-container">
+      <table class="electrical-table">
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Light Model LT-01</th>
+            <th>Light Model LT-02</th>
+            <th>Light Model LT-03</th>
+            <th>Light Model LT-04</th>
+            <th>Socket Outlet (nos)</th>
+            <th>Exhaust Fan (nos)</th>
+            <th>AHU</th>
+            <th>FCU</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows from fourth image -->
+          <tr>
+            <td>F.S. & SPRINKLER PUMP ROOM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>10</td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- Additional rows from fourth image... -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</article>  
   </section>
 
   <!-- Engineering Calculations Section -->
