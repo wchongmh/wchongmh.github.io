@@ -1291,13 +1291,23 @@ importance: 2
           <li>1,650A non-essential busbar</li>
         </ul>
       </div>
-      
-      <div class="reflection-image">
-        <img src="/assets/img/projects/electrical/cheuk_nang-40.png" 
-             alt="G/F Electrical Socket plan" 
-             class="reflection-img"
-             loading="lazy">
-        <p class="image-caption">Fig 44. G/F Typical Electrical Socket plan drawing (Car Park)</p>
+     </div>
+
+     <div class="image-comparison">
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/electrical/cheuk_nang-40.png" 
+               alt="Roof Socket plan" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 44.</span>
+          <span class="image-desc">G/F Typical Electrical Socket plan drawing (Car Park)</span>
+        </div>
       </div>
     </div>
 
