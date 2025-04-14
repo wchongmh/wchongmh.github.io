@@ -707,6 +707,460 @@ importance: 2
     </div>
   </section>
 
+  <!-- Add this within the Engineering Calculations section -->
+<section class="project-section calculations-section">
+  <h2 class="section-header">
+    <span class="section-number">3</span>
+    Engineering Calculations
+  </h2>
+  
+  <div class="calculations-intro">
+    <p>All electrical calculations were performed in accordance with CLP COP 215 and BS EN 12845. The design accommodates peak demand factors while maintaining adequate capacity margins.</p>
+  </div>
+
+  <!-- Load Estimation -->
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M9,13H15V11H9M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+      </svg>
+      Load Estimation
+    </h3>
+    
+    <div class="calculation-content">
+      <h4>ADMD Method Calculation</h4>
+      <div class="calculation-grid">
+        <div class="calc-item">
+          <span class="calc-label">Office Area (27 floors)</span>
+          <span class="calc-value">27 × 537.03m² × 0.16kVA/m² = 2,320.77kVA</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Lift Load (3 units)</span>
+          <span class="calc-value">3 × 40kVA = 120kVA</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Car Park</span>
+          <span class="calc-value">947.54m² × 0.03kVA/m² = 28.43kVA</span>
+        </div>
+        <div class="calc-item highlight">
+          <span class="calc-label">Total kVA (excl. cooling)</span>
+          <span class="calc-value">2,468.42kVA</span>
+        </div>
+      </div>
+      
+      <h4>Cooling Load Calculation</h4>
+      <div class="calculation-grid">
+        <div class="calc-item">
+          <span class="calc-label">Total UFA</span>
+          <span class="calc-value">14,619.34m²</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Cooling Load</span>
+          <span class="calc-value">584.77 TR × 1.45kW/TR ÷ 0.85pf = 997.56kVA</span>
+        </div>
+        <div class="calc-item highlight">
+          <span class="calc-label">Total Building Demand</span>
+          <span class="calc-value">3,465.97kVA → Three 1500kVA transformers</span>
+        </div>
+      </div>
+      
+      <h4>Building Area Breakdown</h4>
+      <div class="table-container">
+        <table class="electrical-table">
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>UFA (m²)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Supervisor room 1</td><td>11.62</td></tr>
+            <tr><td>Supervisor room 2</td><td>11.62</td></tr>
+            <tr><td>Supervisor room 3</td><td>11.91</td></tr>
+            <tr><td>Manager room 1</td><td>14.19</td></tr>
+            <tr><td>Manager room 2</td><td>9.82</td></tr>
+            <tr><td>Manager room 3</td><td>9.82</td></tr>
+            <tr><td>Conference room 1</td><td>35.64</td></tr>
+            <tr><td>Conference room 2</td><td>22.48</td></tr>
+            <tr><td>Rest room</td><td>23.81</td></tr>
+            <tr><td>Printing room</td><td>19.51</td></tr>
+            <tr><td>Server store room</td><td>11.72</td></tr>
+            <tr><td>Reception & Administration office</td><td>354.89</td></tr>
+            <tr><td>Total per floor</td><td>537.03</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </article>
+
+  <!-- Ventilation Calculations -->
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+      </svg>
+      Ventilation System Calculations
+    </h3>
+    
+    <div class="calculation-content">
+      <div class="specs-accordion">
+        <details class="spec-group">
+          <summary>Transformer Room (G/F)</summary>
+          <ul>
+            <li>Volume: 104.71m² × 5.9m = 617.79m³</li>
+            <li>30 ACH → 5,148.25L/s required</li>
+            <li>Solution: 4×EB504T (1,250L/s) + 1×MCE300 (185L/s)</li>
+            <li>Total flow: 5,185L/s</li>
+            <li>Total power: 972W</li>
+          </ul>
+        </details>
+        
+        <details class="spec-group">
+          <summary>Emergency Generator Room (1/F)</summary>
+          <ul>
+            <li>Volume: 157.83m³</li>
+            <li>10 ACH → 438.42L/s required</li>
+            <li>Solution: 2×EB254M (250L/s @ 85W)</li>
+            <li>Total flow: 500L/s</li>
+            <li>Total power: 170W</li>
+          </ul>
+        </details>
+        
+        <details class="spec-group">
+          <summary>Office Toilets (Typical Floor)</summary>
+          <ul>
+            <li>Volume: 80.84m³</li>
+            <li>8 ACH → 179.64L/s required</li>
+            <li>Solution: 1×MCE300 (185L/s @ 52W)</li>
+          </ul>
+        </details>
+        
+        <details class="spec-group">
+          <summary>AHU Room (Typical Floor)</summary>
+          <ul>
+            <li>Volume: 52.46m³</li>
+            <li>6 ACH → 87.43L/s required</li>
+            <li>Solution: 1×MCE200 (92L/s @ 31W)</li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </article>
+
+  <!-- Lighting Calculations -->
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M12,3L2,12H5V20H19V12H22L12,3M12,7.7C14.1,7.7 15.8,9.4 15.8,11.5C15.8,14.5 12,18 12,18C12,18 8.2,14.5 8.2,11.5C8.2,9.4 9.9,7.7 12,7.7M12,10A1.5,1.5 0 0,0 10.5,11.5A1.5,1.5 0 0,0 12,13A1.5,1.5 0 0,0 13.5,11.5A1.5,1.5 0 0,0 12,10Z" />
+      </svg>
+      Lighting Calculations
+    </h3>
+    
+    <div class="calculation-content">
+      <h4>Conference Room 1 Example</h4>
+      <div class="calculation-grid">
+        <div class="calc-item">
+          <span class="calc-label">Room Dimensions</span>
+          <span class="calc-value">8m × 4.52m × 2.55m</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Luminaire</span>
+          <span class="calc-value">Caton CTN66404KZ (4,030 lm)</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Room Index (RI)</span>
+          <span class="calc-value">1.13</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Utilization Factor (UF)</span>
+          <span class="calc-value">0.7616</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Required Lux Level</span>
+          <span class="calc-value">500 lux</span>
+        </div>
+        <div class="calc-item highlight">
+          <span class="calc-label">Number of Luminaires</span>
+          <span class="calc-value">8 units (4×2 grid)</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Spacing</span>
+          <span class="calc-value">2m × 1.13m</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Generator Sizing -->
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M12,2L4,5V11.09C4,16.14 7.41,20.85 12,22C16.59,20.85 20,16.14 20,11.09V5L12,2Z" />
+      </svg>
+      Emergency Generator Sizing
+    </h3>
+    
+    <div class="calculation-content">
+      <div class="calculation-grid">
+        <div class="calc-item">
+          <span class="calc-label">Fireman Lift</span>
+          <span class="calc-value">66.18kVA</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Sprinkler Pumps</span>
+          <span class="calc-value">205.59kVA</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Fixed Fire Pumps</span>
+          <span class="calc-value">329.41kVA</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Essential DBs</span>
+          <span class="calc-value">170kW</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Diversity Factor (75%)</span>
+          <span class="calc-value">821.47kVA</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Power Factor (0.65)</span>
+          <span class="calc-value">533.95kW</span>
+        </div>
+        <div class="calc-item highlight">
+          <span class="calc-label">Total Essential Load</span>
+          <span class="calc-value">703.95kW</span>
+        </div>
+        <div class="calc-item highlight">
+          <span class="calc-label">Generator Size (10% margin)</span>
+          <span class="calc-value">967.93kVA</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Cable Sizing -->
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M8,7V17H16V7H8M11.5,12L10.33,11.25L12,9V14L10.33,12.75L11.5,12M12,2C14.75,2 17.1,3 19.05,4.95C21,6.9 22,9.25 22,12C22,14.75 21,17.1 19.05,19.05C17.1,21 14.75,22 12,22C9.25,22 6.9,21 4.95,19.05C3,17.1 2,14.75 2,12C2,9.25 3,6.9 4.95,4.95C6.9,3 9.25,2 12,2M12,4C10.05,4 8.3,4.7 6.75,6.15C5.2,7.6 4.4,9.45 4.25,11.5H8.25V12H4.25C4.4,14.05 5.2,15.85 6.75,17.25C8.3,18.65 10.05,19.35 12,19.35C13.95,19.35 15.7,18.65 17.25,17.25C18.8,15.85 19.6,14.05 19.75,12H15.75V11.5H19.75C19.6,9.45 18.8,7.6 17.25,6.15C15.7,4.7 13.95,4 12,4Z" />
+      </svg>
+      Cable Sizing & Distribution
+    </h3>
+    
+    <div class="calculation-content">
+      <h4>Fireman Lift Feeder Example</h4>
+      <div class="calculation-grid">
+        <div class="calc-item">
+          <span class="calc-label">Cable Length</span>
+          <span class="calc-value">58m</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Design Current (Ib)</span>
+          <span class="calc-value">67.03A</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Protective Device (In)</span>
+          <span class="calc-value">80A</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Selected Cable</span>
+          <span class="calc-value">25mm² (110A CCC)</span>
+        </div>
+        <div class="calc-item">
+          <span class="calc-label">Voltage Drop</span>
+          <span class="calc-value">599.12V (1.58%)</span>
+        </div>
+      </div>
+      
+      <h4>Busbar Riser Sizing</h4>
+      <div class="table-container">
+        <table class="electrical-table">
+          <thead>
+            <tr>
+              <th>Supply Type</th>
+              <th>Floors</th>
+              <th>Current (A)</th>
+              <th>Busbar Size</th>
+              <th>Protection</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tenant Supply</td>
+              <td>2/F-14/F</td>
+              <td>627.45</td>
+              <td>630A TP&N</td>
+              <td>630A MCCB</td>
+            </tr>
+            <tr>
+              <td>Tenant Supply</td>
+              <td>15/F-28/F</td>
+              <td>674.80</td>
+              <td>700A TP&N</td>
+              <td>700A MCCB</td>
+            </tr>
+            <tr>
+              <td>Non-essential</td>
+              <td>All floors</td>
+              <td>1,486.40</td>
+              <td>1,650A TP&N</td>
+              <td>1,650A MCCB</td>
+            </tr>
+            <tr>
+              <td>Essential</td>
+              <td>All floors</td>
+              <td>282.59</td>
+              <td>320A TP&N</td>
+              <td>320A MCCB</td>
+            </tr>
+            <tr>
+              <td>Chiller Plant</td>
+              <td>N/A</td>
+              <td>1,118.49</td>
+              <td>1,250A TP&N</td>
+              <td>1,250A MCCB</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </article>
+
+  <!-- Detailed Load Calculations -->
+  <article class="design-subsection">
+    <h3 class="subsection-header">
+      <svg class="subsection-icon" viewBox="0 0 24 24">
+        <path d="M4,19H20V21H4V19M7.73,12.27L9.15,13.68C10.05,12.8 11.31,12.24 12.66,12.24C15.5,12.24 17.75,14.5 17.75,17.34C17.75,18.69 17.19,19.95 16.31,20.85L17.72,22.26C19,21 19.74,19.25 19.74,17.34C19.74,13.36 16.64,10.26 12.66,10.26C10.75,10.26 9,11 7.73,12.27M12.66,4C16.64,4 19.74,7.1 19.74,11.08C19.74,12.93 19,14.68 17.72,15.93L16.31,14.5C17.19,13.62 17.75,12.36 17.75,11.08C17.75,8.25 15.5,6 12.66,6C11.39,6 10.13,6.56 9.24,7.45L7.73,5.94C9,4.68 10.75,4 12.66,4M4,9.08C4,11.93 6.25,14.17 9.09,14.17C10.44,14.17 11.7,13.61 12.6,12.73L11.19,11.32C10.31,12.2 9.05,12.76 7.7,12.76C4.86,12.76 2.61,10.5 2.61,7.67C2.61,6.32 3.17,5.06 4.05,4.16L2.64,2.75C1.39,4 0.61,5.75 0.61,7.67C0.61,11.65 3.72,14.75 7.7,14.75C9.61,14.75 11.36,14 12.63,12.72L11.12,11.21C10.24,12.09 8.98,12.65 7.7,12.65C4.86,12.65 2.61,10.39 2.61,7.57H4V9.08Z" />
+      </svg>
+      Detailed Load Calculations
+    </h3>
+    
+    <div class="calculation-content">
+      <h4>Building Load Summary</h4>
+      <div class="table-container">
+        <table class="electrical-table">
+          <thead>
+            <tr>
+              <th>Description</th>
+              <th>Quantity</th>
+              <th>Diversity Factor</th>
+              <th>Apparent Power (kVA)</th>
+              <th>Total kVA</th>
+              <th>Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Office Floors (2/F-28/F)</td>
+              <td>25</td>
+              <td>1</td>
+              <td>39.07</td>
+              <td>39.07</td>
+              <td>Tenant loads</td>
+            </tr>
+            <tr>
+              <td>Office Floors (2/F-28/F)</td>
+              <td>25</td>
+              <td>0.8</td>
+              <td>39.07</td>
+              <td>78.14</td>
+              <td>Tenant loads</td>
+            </tr>
+            <tr>
+              <td>Motor Load</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>1,170.59</td>
+              <td>Public area</td>
+            </tr>
+            <tr>
+              <td>Ground Floor DB (Non-essential)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>26.95</td>
+              <td>Public area</td>
+            </tr>
+            <tr>
+              <td>Ground Floor DB (Essential)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>12.68</td>
+              <td>Public area</td>
+            </tr>
+            <tr class="highlight">
+              <td>Total Building Load</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>3,476.31</td>
+              <td>Three 1500kVA transformers required</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h4>Floor-by-Frame Load Calculations</h4>
+      <div class="calculation-tabs">
+        <div class="tab-buttons">
+          <button class="tab-button active" data-tab="typical-floor">Typical Office Floor</button>
+          <button class="tab-button" data-tab="ground-floor">Ground Floor</button>
+          <button class="tab-button" data-tab="first-floor">First Floor</button>
+        </div>
+        
+        <div class="tab-content active" id="typical-floor">
+          <div class="table-container">
+            <table class="electrical-table">
+              <thead>
+                <tr>
+                  <th>DB Type</th>
+                  <th>Appliance</th>
+                  <th>Qty</th>
+                  <th>Load (W)</th>
+                  <th>Current (A)</th>
+                  <th>Voltage (V)</th>
+                  <th>Diversity</th>
+                  <th>Demand (A)</th>
+                  <th>Power (kVA)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Tenant Supply</td>
+                  <td>Light (Caton CTN66404KZ)</td>
+                  <td>89</td>
+                  <td>40</td>
+                  <td>16.18</td>
+                  <td>220</td>
+                  <td>0.9</td>
+                  <td>14.56</td>
+                  <td>3.20</td>
+                </tr>
+                <!-- Additional rows... -->
+                <tr class="highlight">
+                  <td colspan="7">Total per phase</td>
+                  <td>177.58</td>
+                  <td>39.07</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="ground-floor">
+          <!-- Ground floor table content... -->
+        </div>
+        
+        <div class="tab-content" id="first-floor">
+          <!-- First floor table content... -->
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+
   <!-- Design Methodology Section -->
   <section class="project-section methodology-section">
     <h2 class="section-header">
@@ -2215,6 +2669,95 @@ importance: 2
   .electrical-table th,
   .electrical-table td {
     padding: 8px 10px;
+  }
+  /* Add to existing CSS */
+.calculation-content {
+  margin-top: 20px;
+}
+
+.calculation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.calc-item {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.calc-item.highlight {
+  background: #f0f7ff;
+  border-left: 3px solid var(--primary-color);
+}
+
+.calc-label {
+  font-weight: 500;
+  color: var(--secondary-color);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.calc-value {
+  font-weight: 600;
+}
+
+.specs-accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spec-group {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-group:last-child {
+  border-bottom: none;
+}
+
+.spec-group summary {
+  padding: 15px;
+  background: #f5f9ff;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.spec-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.spec-group summary:after {
+  content: '+';
+  float: right;
+  font-weight: bold;
+}
+
+.spec-group[open] summary:after {
+  content: '-';
+}
+
+.spec-group ul {
+  padding: 0 15px 15px 45px;
+  margin: 0;
+}
+
+.spec-group li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .calculation-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .spec-group summary {
+    padding: 12px;
   }
 }
 </style>
