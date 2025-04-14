@@ -199,6 +199,7 @@ importance: 2
       </div>
       
       <!-- Replace the existing "NC Compliance Failure" section with this: -->
+<div class="tab-content active" id="background">
 <div class="nc-compliance">
   <h4>NC Compliance Failure</h4>
   <div class="nc-readings">
