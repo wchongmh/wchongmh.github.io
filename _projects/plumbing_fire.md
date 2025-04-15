@@ -12,7 +12,7 @@ importance: 1
   <!-- Project Header -->
   <header class="project-header">
     <h1 class="project-title">Commercial High-Rise Plumbing & Fire Services</h1>
-    <p class="project-subtitle">28-Storey Commercial Building</p>
+    <p class="project-subtitle">AXA Center, 151 Gloucester Road</p>
     <div class="project-meta">
       <span class="badge">Building Systems</span>
       <span class="tech-tags">
@@ -25,28 +25,28 @@ importance: 1
 
   <div class="project-visualization">
     <div class="visualization-description">
-      <p>This project features integrated plumbing and fire protection systems for a 28-story commercial building. The design addresses stringent building codes while optimizing for maintenance accessibility and system redundancy.</p>
+      <p>The AXA Center project features integrated plumbing and fire protection systems for a 30-story commercial office tower in Wan Chai. The design addresses Hong Kong's stringent building codes while optimizing for maintenance accessibility and system redundancy.</p>
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/commercial-building/building_exterior.jpg" 
-             alt="Building Rendering" 
+        <img src="/assets/img/projects/axa-center/plumbing_fire-1.png" 
+             alt="AXA Center Building Rendering" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Building exterior showing service riser locations</p>
+        <p class="visualization-caption">30-storey commercial office building at AXA Center</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/commercial-building/core_plan.jpg" 
-             alt="Typical Floor Core Plan" 
+        <img src="/assets/img/projects/axa-center/plumbing_fire-2.png" 
+             alt="Building Location Map" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Typical floor core with service risers</p>
+        <p class="visualization-caption">Map location of AXA Center, 151 Gloucester Road</p>
       </div>
     </div>
   </div>
   
   <div class="project-context">
-    <p>This 28-story commercial building with 123.85m height presents unique challenges for vertical water distribution and fire protection. The design implements zoned systems with pressure management to maintain performance across all levels while complying with BS EN 12845 and local building regulations.</p>
+    <p>This 30-story commercial office tower with 717.6m² typical floor plates presents unique challenges for vertical water distribution and fire protection. The design implements zoned systems with pressure management to maintain performance across all levels while complying with Hong Kong's Fire Services Ordinance and Water Supplies Department requirements.</p>
   </div>
   
   <!-- Project Overview Section -->
@@ -57,14 +57,14 @@ importance: 1
     </h2>
     
     <div class="project-description">
-      <p>The plumbing infrastructure serves 28 floors with executive washrooms, male, female, and disabled toilet facilities. The fire protection system is designed to OH3 hazard classification with three sprinkler zones to accommodate the building height.</p>
+      <p>The plumbing infrastructure serves 30 floors of office space with male, female, and disabled toilet facilities on each level. The fire protection system is designed to OH3 hazard classification with three sprinkler zones to accommodate the 123.85m building height.</p>
     </div>
 
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/commercial-building/system_schematic.jpg" 
-               alt="Integrated Systems Schematic" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-36.png" 
+               alt="Typical Floor Core Plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -73,14 +73,14 @@ importance: 1
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">Integrated plumbing and fire protection schematic</span>
+          <span class="image-desc">Typical floor core with service risers</span>
         </div>
       </div>
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/commercial-building/riser_diagram.jpg" 
-               alt="Vertical Riser Diagram" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-67.png" 
+               alt="Fire Hydrant System Schematic" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -89,7 +89,7 @@ importance: 1
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Vertical riser diagram showing zoned systems</span>
+          <span class="image-desc">Fire hydrant/hose reel system schematic</span>
         </div>
       </div>
     </div>
@@ -98,7 +98,7 @@ importance: 1
       <h3 class="specs-title">Key System Specifications</h3>
       <div class="specs-grid">
         <div class="spec-item">
-          <span class="spec-value">28</span>
+          <span class="spec-value">30</span>
           <span class="spec-label">Floors</span>
         </div>
         <div class="spec-item">
@@ -121,23 +121,18 @@ importance: 1
       <div class="facilities-grid">
         <div class="facility-item">
           <span class="facility-icon">🚹</span>
-          <span class="facility-name">Male Washroom</span>
-          <span class="facility-detail">WC, urinals, basins</span>
+          <span class="facility-name">Male Toilet</span>
+          <span class="facility-detail">4 urinals, 3 WCs, 3 basins</span>
         </div>
         <div class="facility-item">
           <span class="facility-icon">🚺</span>
-          <span class="facility-name">Female Washroom</span>
-          <span class="facility-detail">WC, basins</span>
+          <span class="facility-name">Female Toilet</span>
+          <span class="facility-detail">3 WCs, 3 basins</span>
         </div>
         <div class="facility-item">
           <span class="facility-icon">♿</span>
-          <span class="facility-name">Disabled Washroom</span>
-          <span class="facility-detail">WC, basin</span>
-        </div>
-        <div class="facility-item">
-          <span class="facility-icon">🚿</span>
-          <span class="facility-name">Shower</span>
-          <span class="facility-detail">Executive washroom</span>
+          <span class="facility-name">Disabled Toilet</span>
+          <span class="facility-detail">1 WC, 1 basin</span>
         </div>
       </div>
     </div>
@@ -161,16 +156,15 @@ importance: 1
             <li>Indirect supply system</li>
             <li>Roof tank: 8,940L</li>
             <li>Sump tank: 4,470L</li>
-            <li>Velocity: 0.8-1.5m/s</li>
+            <li>Velocity: 1.5m/s</li>
             <li>Pressure: 1-4.5 bar</li>
-            <li>Copper pipes (BS EN 1057)</li>
           </ul>
         </div>
         <div class="system-type-card">
           <div class="system-icon">🌊</div>
           <h4>Flush Water</h4>
           <ul>
-            <li>Seawater system (plastic pipes)</li>
+            <li>Seawater system</li>
             <li>Roof tank: 11,370L</li>
             <li>Sump tank: 5,685L</li>
             <li>Velocity: ≤2.5m/s</li>
@@ -184,22 +178,31 @@ importance: 1
         <div class="specs-accordion">
           <details class="spec-group">
             <summary>Pipe Sizing</summary>
-            <ul>
-              <li>Left side: 90mm (flush), 54mm (fresh)</li>
-              <li>Mid: 63mm (flush), 54mm (fresh)</li>
-              <li>Right side: 40mm (flush), 42mm (fresh)</li>
-              <li>PRVs installed at 3/F, 12/F, 20/F</li>
-            </ul>
+            <div class="spec-images">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-44.png" alt="Fresh water pipe details" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-41.png" alt="Flush water pipe details" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-45.png" alt="Cold water pipe sizing" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-42.png" alt="Flush water pipe sizing" loading="lazy">
+            </div>
           </details>
           
           <details class="spec-group">
-            <summary>Drainage System</summary>
-            <ul>
-              <li>Left side: 125mm soil pipe, 75mm vent</li>
-              <li>Mid: 125mm soil pipe, 75mm vent</li>
-              <li>Right side: 100mm soil pipe, 50mm vent</li>
-              <li>U-traps for all sanitary fixtures</li>
-            </ul>
+            <summary>System Schematics</summary>
+            <div class="spec-images">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-39.png" alt="Water supply system" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-46.png" alt="Fresh water distribution" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-43.png" alt="Flush water distribution" loading="lazy">
+            </div>
+          </details>
+
+          <details class="spec-group">
+            <summary>Equipment Schedules</summary>
+            <div class="spec-images">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-8.png" alt="Basin schedule" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-9.png" alt="Urinal schedule" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-10.png" alt="Toilet bowl schedule" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-11.png" alt="U-PVC catalogue" loading="lazy">
+            </div>
           </details>
         </div>
       </div>
@@ -214,52 +217,48 @@ importance: 1
       </h3>
       
       <div class="system-details">
-        <p>Designed with 700mm² pipe capacity per 10m² roof area:</p>
+        <p>Designed to Hong Kong Observatory rainfall rates with 700mm² pipe capacity per 10m² roof area. The system includes:</p>
         <ul>
           <li>Upper roof (576m²): 2 × 200mm pipes</li>
           <li>Flat roof (497m²): 2 × 150mm pipes</li>
-          <li>Outlet sizes: 300mm (upper), 225mm (flat)</li>
-          <li>Draining to manholes</li>
+          <li>Draining to manholes with petrol interceptors</li>
         </ul>
+        
+        <div class="system-images">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-54.png" alt="Stormwater schematic" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-55.png" alt="Stormwater calculations" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-56.png" alt="Upper roof drainage" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-57.png" alt="Flat roof drainage" loading="lazy">
+        </div>
       </div>
     </article>
       
-      <div class="image-comparison">
-        <div class="image-card">
-          <img src="/assets/img/projects/commercial-building/fresh_water_schematic.jpg" 
-               alt="Fresh Water Schematic" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 3.</span>
-            <span class="image-desc">Fresh water supply schematic with PRV locations</span>
-          </div>
-        </div>
-        <div class="image-card">
-          <img src="/assets/img/projects/commercial-building/flush_water_schematic.jpg" 
-               alt="Flush Water Schematic" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 4.</span>
-            <span class="image-desc">Flush water system with seawater supply</span>
-          </div>
-        </div>
-      </div>
-    
     <article class="design-subsection drainage">
       <h3 class="subsection-header">Drainage Systems</h3>
       
       <div class="system-details">
-        <div class="pipe-sizing">
-          <h4>Pipe Sizing</h4>
-          <ul>
-            <li>WC: 100mm diameter, 75mm seal, 6m max length</li>
-            <li>Urinal: 40mm diameter, 75mm seal, 4m max length</li>
-            <li>Basin: 32mm diameter, 75mm seal, 1.7m max length</li>
-            <li>Petrol interceptor for car park drainage</li>
-          </ul>
+        <div class="drainage-images">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-47.png" alt="Soil water system" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-48.png" alt="U-trap details" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-49.png" alt="Stack capacities" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-50.png" alt="Discharge units" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-51.png" alt="Soil water calculations" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-52.png" alt="Pipe design guide" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-53.png" alt="Ditch and interceptor" loading="lazy">
         </div>
+      </div>
+    </article>
+
+    <article class="design-subsection calculations">
+      <h3 class="subsection-header">Water Tank Calculations</h3>
+      <div class="calculation-images">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-58.png" alt="Fresh water tank size" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-59.png" alt="Flush water tank size" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-60.png" alt="Tank materials" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-12.png" alt="Loading unit reference" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-13.png" alt="Discharge unit reference" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-14.png" alt="Storage requirement" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-15.png" alt="Pipe materials" loading="lazy">
       </div>
     </article>
   </section>
@@ -281,25 +280,35 @@ importance: 1
       
       <div class="system-features">
         <ul>
-          <li>2 hydrant outlets per floor</li>
-          <li>100mm diameter rising mains</li>
+          <li>OH3 hazard classification</li>
+          <li>2 x 100mm rising mains (1 per staircase)</li>
           <li>27m³ supply tank at roof level</li>
-          <li>Intermediate booster pump at 13/F</li>
+          <li>Intermediate booster pumps at 13/F</li>
           <li>Pressure maintained at 350-850kPa</li>
-          <li>Hose reels (30m length) on each floor</li>
         </ul>
       </div>
       
-      <div class="diagram-grid">
-        <div class="diagram-card">
-          <img src="/assets/img/projects/commercial-building/hydrant_schematic.jpg" 
-               alt="Hydrant System Schematic" 
-               class="diagram-image"
-               loading="lazy">
-          <div class="diagram-meta">
-            <span class="diagram-label">Hydrant System</span>
-            <span class="diagram-desc">Fig 5. Pressure zones with IBP location</span>
-          </div>
+      <div class="system-images">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-18.png" alt="IBP design details" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-61.png" alt="Supply tank specs" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-66.png" alt="Pressure details" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-62.png" alt="G/F hose reel plan" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-63.png" alt="1/F hose reel plan" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-64.png" alt="2-28/F hose reel plan" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-65.png" alt="Roof hose reel plan" loading="lazy">
+      </div>
+
+      <div class="reference-images">
+        <h4>Design References</h4>
+        <div class="reference-grid">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-20.png" alt="Hazard classes" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-21.png" alt="Fire service inlet" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-22.png" alt="Supply tank COP" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-23.png" alt="Rising main COP" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-24.png" alt="IBP COP part 1" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-25.png" alt="IBP COP part 2" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-27.png" alt="Fire hydrant COP" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-28.png" alt="Hose reel COP" loading="lazy">
         </div>
       </div>
     </article>
@@ -315,7 +324,7 @@ importance: 1
       <div class="system-specs">
         <div class="spec-item">
           <span class="spec-value">3</span>
-          <span class="spec-label">Zones (≤45m height)</span>
+          <span class="spec-label">Zones (45m max height)</span>
         </div>
         <div class="spec-item">
           <span class="spec-value">68°C</span>
@@ -327,49 +336,38 @@ importance: 1
         </div>
       </div>
       
-      <div class="design-notes">
-        <h4>Design Notes:</h4>
-        <ul>
-          <li>OH3 hazard classification (wet pipe system)</li>
-          <li>Maximum 4m spacing between heads (12m² coverage)</li>
-          <li>1.5m maximum distance to walls</li>
-          <li>3 independent zones (upper, middle, lower)</li>
-          <li>Pump sets: duty + standby + jockey for each zone</li>
-        </ul>
+      <div class="system-images">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-70.png" alt="Sprinkler system schematic" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-68.png" alt="Sprinkler tank capacity" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-69.png" alt="Pump requirements" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-19.png" alt="Hydraulic calculation" loading="lazy">
+        <img src="/assets/img/projects/axa-center/plumbing_fire-33.png" alt="Pipe sizing calculation" loading="lazy">
       </div>
-      
-      <div class="system-details">
-        <div class="zone-details">
-          <h4>Zone Configuration</h4>
-          <ul>
-            <li>Lower zone: G/F to 13/F (45m)</li>
-            <li>Middle zone: 14/F to 20/F (41.5m)</li>
-            <li>Upper zone: 21/F to roof (41.5m)</li>
-          </ul>
+
+      <div class="sprinkler-plans">
+        <h4>Sprinkler Layout Plans</h4>
+        <div class="plan-grid">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-73.png" alt="G/F sprinkler plan" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-74.png" alt="G/F coverage" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-75.png" alt="1/F sprinkler plan" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-76.png" alt="1/F coverage" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-77.png" alt="Typical floor plan" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-78.png" alt="Typical coverage" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-79.png" alt="Roof plan" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-80.png" alt="Roof coverage" loading="lazy">
         </div>
-        
-        <div class="pump-details">
-          <h4>Pump Specifications</h4>
-          <table class="spec-table">
-            <tr>
-              <th>Parameter</th>
-              <th>Nominal</th>
-              <th>High Flow</th>
-              <th>Low Flow</th>
-            </tr>
-            <tr>
-              <td>Pressure (bar)</td>
-              <td>2.5</td>
-              <td>5.9</td>
-              <td>6.2</td>
-            </tr>
-            <tr>
-              <td>Flow (l/min)</td>
-              <td>3,100</td>
-              <td>1,350</td>
-              <td>1,100</td>
-            </tr>
-          </table>
+      </div>
+
+      <div class="reference-images">
+        <h4>Design References</h4>
+        <div class="reference-grid">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-29.png" alt="Zone requirements" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-30.png" alt="Tank requirements" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-31.png" alt="Sprinkler spacing" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-32.png" alt="Pipe sizing" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-34.png" alt="Sprinkler selection" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-35.png" alt="Extinguisher selection" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-26.png" alt="Pump characteristics" loading="lazy">
         </div>
       </div>
     </article>
@@ -390,63 +388,31 @@ importance: 1
       </div>
       
       <div class="tab-content active" id="loading-units">
-        <h4>Sanitary Loading Units</h4>
-        <table class="calc-table">
-          <tr>
-            <th>System</th>
-            <th>Left Side</th>
-            <th>Mid</th>
-            <th>Right Side</th>
-          </tr>
-          <tr>
-            <td>Fresh Water</td>
-            <td>299 LU (136 fixtures)</td>
-            <td>216 LU (108 fixtures)</td>
-            <td>54 LU (27 fixtures)</td>
-          </tr>
-          <tr>
-            <td>Flush Water</td>
-            <td>218 LU (217 fixtures)</td>
-            <td>270 LU (135 fixtures)</td>
-            <td>54 LU (27 fixtures)</td>
-          </tr>
-        </table>
+        <div class="calculation-images">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-3.png" alt="Loading unit calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-4.png" alt="Fresh water calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-5.png" alt="Flush water calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-6.png" alt="Discharge unit calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-7.png" alt="Volume requirement" loading="lazy">
+        </div>
       </div>
       
       <div class="tab-content" id="pressure-calcs">
-        <h4>Pressure Zone Calculations</h4>
-        <ul>
-          <li>Static pressure increase: 0.35 bar per floor</li>
-          <li>PRVs installed to maintain ≤4.5 bar</li>
-          <li>Worst-case fixture pressure: 6.49 bar at G/F</li>
-          <li>IBP maintains 3.5 bar at roof level</li>
-        </ul>
+        <div class="calculation-images">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-40.png" alt="Loading unit standard" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-43.png" alt="Flush water pressure" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-46.png" alt="Fresh water pressure" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-66.png" alt="Fire system pressure" loading="lazy">
+        </div>
       </div>
       
       <div class="tab-content" id="hydraulic-calcs">
-        <h4>Sprinkler Pipe Sizing</h4>
-        <table class="calc-table">
-          <tr>
-            <th>Pipe Section</th>
-            <th>Calculated Size</th>
-            <th>Adopted Size</th>
-          </tr>
-          <tr>
-            <td>Range Pipes</td>
-            <td>25-50mm</td>
-            <td>32-50mm</td>
-          </tr>
-          <tr>
-            <td>Distribution Pipes</td>
-            <td>32-65mm</td>
-            <td>40-65mm</td>
-          </tr>
-          <tr>
-            <td>Mains</td>
-            <td>80-100mm</td>
-            <td>100mm</td>
-          </tr>
-        </table>
+        <div class="calculation-images">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-19.png" alt="Hydraulic calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-33.png" alt="Pipe sizing calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-51.png" alt="Soil water calculation" loading="lazy">
+          <img src="/assets/img/projects/axa-center/plumbing_fire-55.png" alt="Stormwater calculation" loading="lazy">
+        </div>
       </div>
     </div>
   </section>
@@ -463,47 +429,33 @@ importance: 1
         <div class="step-number">1</div>
         <div class="step-content">
           <h4>Code Compliance</h4>
-          <p>All systems designed to BS EN 12845, Building Regulation Chapter 123, and Fire Services Ordinance Chapter 95 and 502</p>
+          <p>All systems designed to BS EN 12845, Hong Kong Water Supplies Department standards, and Fire Services Department Code of Practice</p>
+          <div class="method-images">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-16.png" alt="Regulations part 1" loading="lazy">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-17.png" alt="Regulations part 2" loading="lazy">
+          </div>
         </div>
       </div>
       <div class="step-item">
         <div class="step-number">2</div>
         <div class="step-content">
           <h4>Hydraulic Modeling</h4>
-          <p>IOP method for plumbing systems, hydraulic calculations for fire protection with safety margins</p>
+          <p>IOP method for plumbing systems, hydraulic calculations for fire protection with 20% safety margins</p>
+          <div class="method-images">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-3.png" alt="Loading units" loading="lazy">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-19.png" alt="Hydraulic calc" loading="lazy">
+          </div>
         </div>
       </div>
       <div class="step-item">
         <div class="step-number">3</div>
         <div class="step-content">
-          <h4>System Optimization</h4>
-          <p>Pressure reduction valves at strategic locations (3/F, 12/F, 20/F) to maintain optimal pressure ranges</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="calculation-gallery">
-      <div class="calculation-item">
-        <div class="calc-image-container">
-          <img src="/assets/img/projects/commercial-building/loading_calc.jpg" 
-               alt="Loading Unit Calculation" 
-               class="calc-image"
-               loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Loading Units</span>
-            <span class="calc-detail">Fixture unit calculations for pipe sizing</span>
-          </div>
-        </div>
-      </div>
-      <div class="calculation-item">
-        <div class="calc-image-container">
-          <img src="/assets/img/projects/commercial-building/hydraulic_calc.jpg" 
-               alt="Hydraulic Calculation" 
-               class="calc-image"
-               loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Hydraulic Analysis</span>
-            <span class="calc-detail">Pressure loss calculations for critical paths</span>
+          <h4>BIM Coordination</h4>
+          <p>3D clash detection for all MEP systems prior to construction documentation</p>
+          <div class="method-images">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-36.png" alt="Core plan" loading="lazy">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-37.png" alt="System layout" loading="lazy">
+            <img src="/assets/img/projects/axa-center/plumbing_fire-38.png" alt="GF layout" loading="lazy">
           </div>
         </div>
       </div>
@@ -524,21 +476,21 @@ importance: 1
         <div class="key-lessons">
           <h3>Key Lessons</h3>
           <ul>
-            <li>Practical application of BS EN 12845 and local building codes</li>
-            <li>Importance of pressure management in high-rise buildings</li>
-            <li>Benefits of zoned systems for fire protection</li>
-            <li>Considerations for seawater flush systems</li>
+            <li>Practical application of BS EN 12845 and Hong Kong fire codes</li>
+            <li>Importance of pressure reduction valves in high-rise buildings</li>
+            <li>Benefits of zoned sprinkler systems for tall structures</li>
+            <li>Value of standardized layouts for future maintenance</li>
             <li>Need for redundant pumping systems in critical applications</li>
           </ul>
         </div>
       </div>
       
       <div class="reflection-image">
-        <img src="/assets/img/projects/commercial-building/coordination_meeting.jpg" 
-             alt="Design Coordination Meeting" 
+        <img src="/assets/img/projects/axa-center/plumbing_fire-1.png" 
+             alt="AXA Center Building" 
              class="reflection-img"
              loading="lazy">
-        <p class="image-caption">Fig 6. System design coordination</p>
+        <p class="image-caption">Fig 3. Completed AXA Center building</p>
       </div>
     </div>
   </section>
@@ -2201,6 +2153,689 @@ importance: 1
   }
 }
 </style>
+
+<style>
+/* Base Styles */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --light-gray: #ecf0f1;
+  --medium-gray: #bdc3c7;
+  --dark-gray: #7f8c8d;
+  --text-color: #34495e;
+  --white: #ffffff;
+}
+
+.office-project {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.2rem;
+}
+
+.project-subtitle {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 15px;
+  margin: 40px 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+.section-number {
+  font-size: 1.2rem;
+  background: var(--secondary-color);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.subsection-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subsection-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--secondary-color);
+  margin-right: 10px;
+}
+
+/* Project Meta */
+.project-meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tech-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-tag {
+  background: var(--light-gray);
+  color: var(--text-color);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid var(--medium-gray);
+}
+
+/* Project Visualization */
+.project-visualization {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--secondary-color);
+}
+
+.visualization-description {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.visualization-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.visualization-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.visualization-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visualization-caption {
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Project Context */
+.project-context {
+  background: #f8f9fa;
+  border-left: 4px solid var(--secondary-color);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Image Styles */
+.image-comparison, .diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.image-card, .diagram-card {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card:hover, .diagram-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image, .diagram-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover .image-overlay {
+  opacity: 1;
+}
+
+.zoom-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.image-meta, .diagram-meta {
+  padding: 15px;
+  background: var(--white);
+}
+
+.image-fig, .diagram-fig {
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-right: 8px;
+}
+
+.image-desc, .diagram-desc {
+  color: var(--dark-gray);
+}
+
+/* System Images */
+.system-images, .spec-images, .calculation-images, .reference-images, .drainage-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.system-images img, .spec-images img, .calculation-images img, 
+.reference-images img, .drainage-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.system-images img:hover, .spec-images img:hover, 
+.calculation-images img:hover, .reference-images img:hover,
+.drainage-images img:hover {
+  transform: scale(1.02);
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.reference-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 15px;
+}
+
+.method-images {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.method-images img {
+  max-width: 300px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Key Specs */
+.key-specs {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.spec-item {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.spec-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+}
+
+.spec-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* Facilities Overview */
+.facilities-overview {
+  margin-bottom: 25px;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.facility-item {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.facility-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.facility-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.facility-detail {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+/* Water Supply System */
+.water-supply-system {
+  background: #f8fbfe;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.system-details {
+  margin-bottom: 25px;
+}
+
+.system-features {
+  padding-left: 20px;
+}
+
+.system-features li {
+  margin-bottom: 8px;
+}
+
+.system-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.system-type-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.system-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.system-type-card h5 {
+  margin: 10px 0;
+  color: var(--secondary-color);
+}
+
+/* Technical Specifications */
+.technical-specs {
+  margin-top: 30px;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.specs-accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spec-group {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-group:last-child {
+  border-bottom: none;
+}
+
+.spec-group summary {
+  padding: 15px;
+  background: #f5f9ff;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.spec-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.spec-group summary:after {
+  content: '+';
+  float: right;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.spec-group[open] summary:after {
+  content: '-';
+}
+
+.spec-group ul {
+  padding: 0 15px 15px 45px;
+  margin: 0;
+}
+
+.spec-group li {
+  margin-bottom: 8px;
+}
+
+/* Calculation Tabs */
+.calculation-tabs {
+  margin-top: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--dark-gray);
+  position: relative;
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tab-button.active:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Methodology Steps */
+.methodology-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.step-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.step-number {
+  background: var(--secondary-color);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+/* Reflection Section */
+.reflection-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.reflection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.key-lessons {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.key-lessons h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.key-lessons ul {
+  padding-left: 20px;
+}
+
+.reflection-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.reflection-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .reflection-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .reflection-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 1.9rem;
+  }
+  
+  .section-header {
+    font-size: 1.6rem;
+  }
+  
+  .image-comparison, .diagram-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .plan-grid, .reference-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .method-images {
+    flex-direction: column;
+  }
+  
+  .method-images img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .office-project {
+    padding: 0 15px;
+  }
+  
+  .project-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-header {
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .methodology-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .tab-buttons {
+    flex-direction: column;
+    border-bottom: none;
+  }
+  
+  .tab-button {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab-button.active:after {
+    display: none;
+  }
+}
+</style>
+
+<script>
+// Simple tab functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and content
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Accordion functionality
+document.querySelectorAll('.spec-group').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      details.style.backgroundColor = '#f5f9ff';
+    } else {
+      details.style.backgroundColor = '';
+    }
+  });
+});
+</script>
 
 <script>
 // Simple tab functionality
