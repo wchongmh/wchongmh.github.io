@@ -11,10 +11,10 @@ importance: 1
 
   <!-- Project Header -->
   <header class="project-header">
-    <h1 class="project-title">High-Rise Plumbing & Fire Protection Systems</h1>
-    <p class="project-subtitle">AXA Centre, 151 Gloucester Road</p>
+    <h1 class="project-title">Commercial High-Rise Plumbing & Fire Services</h1>
+    <p class="project-subtitle">AXA Center, 151 Gloucester Road</p>
     <div class="project-meta">
-      <span class="badge">Commercial High-Rise</span>
+      <span class="badge">Building Systems</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
@@ -25,28 +25,73 @@ importance: 1
 
   <div class="project-visualization">
     <div class="visualization-description">
-      <p>The AXA Centre development features a 30-storey commercial office tower with integrated plumbing and fire protection systems designed to Hong Kong's stringent building codes. The systems accommodate 717.6m² floor plates with 4.15m floor-to-floor height.</p>
+      <p>The AXA Center project features integrated plumbing and fire protection systems for a 30-story commercial office tower in Wan Chai. The design addresses Hong Kong's stringent building codes while optimizing for maintenance accessibility and system redundancy.</p>
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/axa_centre/building_elevation.jpg" 
-             alt="AXA Centre Building Elevation" 
+        <img src="/assets/img/projects/axa-center/building_exterior.jpg" 
+             alt="AXA Center Building Rendering" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Building elevation showing service riser locations</p>
+        <p class="visualization-caption">Building exterior showing service riser locations</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/axa-center/core_plan.jpg" 
+             alt="Typical Floor Core Plan" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Typical floor core with service risers</p>
       </div>
     </div>
+  </div>
+  
+  <div class="project-context">
+    <p>This 30-story commercial office tower with 717.6m² typical floor plates presents unique challenges for vertical water distribution and fire protection. The design implements zoned systems with pressure management to maintain performance across all levels while complying with Hong Kong's Fire Services Ordinance and Water Supplies Department requirements.</p>
   </div>
   
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
     <div class="project-description">
       <p>The plumbing infrastructure serves 30 floors of office space with male, female, and disabled toilet facilities on each level. The fire protection system is designed to OH3 hazard classification with three sprinkler zones to accommodate the 123.85m building height.</p>
+    </div>
+
+    <div class="image-comparison">
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/axa-center/system_schematic.jpg" 
+               alt="Integrated Systems Schematic" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 1.</span>
+          <span class="image-desc">Integrated plumbing and fire protection schematic</span>
+        </div>
+      </div>
+      
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/axa-center/riser_diagram.jpg" 
+               alt="Vertical Riser Diagram" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 2.</span>
+          <span class="image-desc">Vertical riser diagram showing zoned systems</span>
+        </div>
+      </div>
     </div>
     
     <div class="key-specs">
@@ -96,7 +141,7 @@ importance: 1
   <!-- Plumbing Systems Section -->
   <section class="project-section plumbing-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Plumbing Systems
     </h2>
     
@@ -127,6 +172,50 @@ importance: 1
           </ul>
         </div>
       </div>
+
+      <div class="technical-specs">
+        <h4 class="specs-title">Technical Specifications</h4>
+        <div class="specs-accordion">
+          <details class="spec-group">
+            <summary>Pipe Sizing</summary>
+            <ul>
+              <li>Male toilet: 35mm (fresh), 54mm (flush)</li>
+              <li>Female toilet: 35mm (fresh), 42mm (flush)</li>
+              <li>Disabled toilet: 28mm (fresh), 35mm (flush)</li>
+              <li>Material: PVC-U throughout</li>
+            </ul>
+          </details>
+          
+          <details class="spec-group">
+            <summary>Drainage System</summary>
+            <ul>
+              <li>Male toilet: 150mm soil pipe</li>
+              <li>Female toilet: 125mm soil pipe</li>
+              <li>Disabled toilet: 100mm soil pipe</li>
+              <li>Separate waste pipes for basins</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </article>
+
+    <article class="design-subsection stormwater">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M6,14H8V11H10V14H12V11H14V14H16V11H18V14H20V11H22V20H4V11H6V14M20,16H18V19H16V16H14V19H12V16H10V19H8V16H6V19H4V16H2V22H22V16H20Z" />
+        </svg>
+        Stormwater System
+      </h3>
+      
+      <div class="system-details">
+        <p>Designed to Hong Kong Observatory rainfall rates with 700mm² pipe capacity per 10m² roof area. The 1,037m² roof requires ten 100mm diameter PVC-U pipes draining to a single manhole with direct ocean outfall.</p>
+        
+        <div class="calculation-result">
+          <span class="calc-value">10 × 100mm pipes</span>
+          <span class="calc-label">Required capacity</span>
+        </div>
+      </div>
+    </article>
       
       <div class="image-comparison">
         <div class="image-card">
@@ -150,7 +239,6 @@ importance: 1
           </div>
         </div>
       </div>
-    </article>
     
     <article class="design-subsection drainage">
       <h3 class="subsection-header">Drainage Systems</h3>
@@ -181,17 +269,24 @@ importance: 1
   <!-- Fire Protection Section -->
   <section class="project-section fire-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       Fire Protection Systems
     </h2>
     
     <article class="design-subsection hydrant-system">
-      <h3 class="subsection-header">Hydrant & Hose Reel System</h3>
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M11,18H13V16H11V18M12,2A6,6 0 0,0 6,8C6,10.22 7.21,12.16 9,13.2V15A1,1 0 0,0 10,16H14A1,1 0 0,0 15,15V13.2C16.79,12.16 18,10.22 18,8A6,6 0 0,0 12,2M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M10,10H12V8H10V10Z" />
+        </svg>
+        Hydrant & Hose Reel System
+      </h3>
       
       <div class="system-features">
         <ul>
+          <li>OH3 hazard classification</li>
           <li>2 x 100mm rising mains (1 per staircase)</li>
           <li>27m³ supply tank at roof level</li>
+          <li>100mm rising mains</li>
           <li>Intermediate booster pumps at 13/F</li>
           <li>Pressure maintained at 350-850kPa</li>
           <li>Parity valves at 6/F, 13/F, 20/F</li>
@@ -213,7 +308,37 @@ importance: 1
     </article>
     
     <article class="design-subsection sprinkler-system">
-      <h3 class="subsection-header">Sprinkler System</h3>
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,8A4,4 0 0,0 8,12A4,4 0 0,0 12,16A4,4 0 0,0 16,12A4,4 0 0,0 12,8M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" />
+        </svg>
+        Sprinkler System
+      </h3>
+
+      <div class="system-specs">
+        <div class="spec-item">
+          <span class="spec-value">3</span>
+          <span class="spec-label">Zones (45m max height)</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">68°C</span>
+          <span class="spec-label">Red bulb sprinklers</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">185m³</span>
+          <span class="spec-label">Tank capacity</span>
+        </div>
+      </div>
+      
+      <div class="design-notes">
+        <h4>Design Notes:</h4>
+        <ul>
+          <li>Maximum 4m spacing between heads (12m² coverage)</li>
+          <li>1.5m maximum distance to walls</li>
+          <li>Duty+standby+jockey pump sets per zone</li>
+          <li>Nominal pump requirements: 2.5bar @ 3,100 l/min</li>
+        </ul>
+      </div>
       
       <div class="system-details">
         <div class="zone-details">
@@ -268,7 +393,7 @@ importance: 1
   <!-- Engineering Calculations Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Engineering Calculations
     </h2>
     
@@ -350,7 +475,7 @@ importance: 1
   <!-- Design Methodology Section -->
   <section class="project-section methodology-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">5</span>
       Design Methodology
     </h2>
     
@@ -374,6 +499,33 @@ importance: 1
         <div class="step-content">
           <h4>BIM Coordination</h4>
           <p>3D clash detection for all MEP systems prior to construction documentation</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="calculation-gallery">
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/axa-center/loading_calc.jpg" 
+               alt="Loading Unit Calculation" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Loading Units</span>
+            <span class="calc-detail">Fixture unit calculations for pipe sizing</span>
+          </div>
+        </div>
+      </div>
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/axa-center/hydraulic_calc.jpg" 
+               alt="Hydraulic Calculation" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Hydraulic Analysis</span>
+            <span class="calc-detail">Pressure loss calculations for critical paths</span>
+          </div>
         </div>
       </div>
     </div>
