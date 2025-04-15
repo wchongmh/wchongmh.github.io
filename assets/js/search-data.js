@@ -478,8 +478,8 @@ ninja.data = [{
           description: "Comprehensive plumbing and fire protection design for 30-story commercial office building in Wan Chai",
           section: "Projects",handler: () => {
               window.location.href = "/projects/plumbing_fire/";
-            },},{id: "projects-high-rise-plumbing-amp-fire-protection-systems-axa-centre",
-          title: 'High-Rise Plumbing &amp;amp; Fire Protection Systems - AXA Centre',
+            },},{id: "projects-high-rise-plumbing-amp-fire-protection-systems-axa-center",
+          title: 'High-Rise Plumbing &amp;amp; Fire Protection Systems - AXA Center',
           description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai",
           section: "Projects",handler: () => {
               window.location.href = "/projects/plumbing_overview/";
