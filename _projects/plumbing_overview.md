@@ -2,7 +2,7 @@
 title: "High-Rise Plumbing & Fire Protection Systems - AXA Centre"
 category: Building Systems
 description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai"
-tech: [AutoCAD MEP, Hydraulic Calculations, BS EN 12845, IOP Method, BIM Coordination]
+tech: [AutoCAD MEP, Hydraulic Calculations, BS EN 12845, Fire Safety Ordinance, IOP Method, BIM Coordination]
 image: /assets/img/projects/axa_centre/plumbing_overview.jpg
 importance: 1
 ---
