@@ -481,21 +481,21 @@ importance: 1
     
     <div class="methodology-steps">
       <div class="step-item">
-        <div class="step-number">Step 1</div>
+        <div class="step-number">1</div>
         <div class="step-content">
           <h4>Code Compliance</h4>
           <p>All systems designed to BS EN 12845, Hong Kong Water Supplies Department standards, and Fire Services Department Code of Practice</p>
         </div>
       </div>
       <div class="step-item">
-        <div class="step-number">Step 2</div>
+        <div class="step-number">2</div>
         <div class="step-content">
           <h4>Hydraulic Modeling</h4>
           <p>IOP method for plumbing systems, hydraulic calculations for fire protection with 20% safety margins</p>
         </div>
       </div>
       <div class="step-item">
-        <div class="step-number">Step 3</div>
+        <div class="step-number">3</div>
         <div class="step-content">
           <h4>BIM Coordination</h4>
           <p>3D clash detection for all MEP systems prior to construction documentation</p>
@@ -540,14 +540,15 @@ importance: 1
     
     <div class="reflection-content">
       <div class="reflection-text">
-        <p>The AXA Centre project presented unique challenges in vertical distribution and pressure management for both plumbing and fire protection systems. Key lessons learned:</p>
+        <p>This project successfully integrated academic knowledge with practical design requirements for high-rise commercial buildings. The comprehensive systems design addressed all regulatory requirements while optimizing for maintainability and future flexibility. The AXA Centre project presented unique challenges in vertical distribution and pressure management for both plumbing and fire protection systems. Key lessons learned:</p>
         
         <div class="key-lessons">
           <h3>Key Lessons</h3>
           <ul>
+            <li>Practical application of BS EN 12845 and Hong Kong fire codes</li>
             <li>Importance of parity valves in high-rise pressure zones</li>
             <li>Benefits of standardized sprinkler layouts for future flexibility</li>
-            <li>Value of early BIM coordination for service ducts</li>
+            <li>Value of early BIM coordination for service ducts and complex service integrations</li>
             <li>Need for redundant pumping systems in critical applications</li>
           </ul>
         </div>
