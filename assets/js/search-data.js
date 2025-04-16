@@ -485,7 +485,7 @@ ninja.data = [{
               window.location.href = "/projects/queens-hill-plumbing/";
             },},{id: "projects-ultrasonic-flow-rate-measurements-gcu-plant-room",
           title: 'Ultrasonic Flow Rate Measurements - GCU Plant Room',
-          description: "Field study of non-invasive flow measurement techniques using ultrasonic technology at Glasgow Caledonian University facilities.",
+          description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ultrasonic-flow/";
             },},{id: "projects-ultrasonic-flow-rate-measurement-gcu-plant-room",
