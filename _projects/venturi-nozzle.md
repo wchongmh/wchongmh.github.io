@@ -52,7 +52,7 @@ importance: 2
   <!-- Experiment Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Experiment Overview
     </h2>
     
@@ -120,7 +120,7 @@ importance: 2
   <!-- Equipment Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Experimental Apparatus
     </h2>
     
@@ -190,41 +190,48 @@ importance: 2
   <!-- Methodology Section -->
   <section class="project-section methodology-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       Experimental Methodology
     </h2>
     
     <div class="methodology-intro">
-      <p>The experiment followed a rigorous four-phase methodology to ensure measurement accuracy and reliability across multiple flow rate conditions.</p>
+      <p>The experimental procedure followed a rigorous three-phase approach: equipment calibration, controlled flow rate measurements, and statistical data analysis. The HM 150.13 module's manometer measured pressure differentials across the Venturi nozzle at varying flow rates.</p>
     </div>
-    
+
     <div class="methodology-steps">
       <div class="step-item">
-        <div class="step-number">Phase 1</div>
+        <div class="step-number">Step 1</div>
         <div class="step-content">
-          <h4>System Setup</h4>
-          <p>Calibrated HM 150.13 module with clean, straight pipeline installation</p>
+          <h4>Equipment Setup</h4>
+          <p>Calibrated HM 150.13 module with Venturi nozzle (A₁=338mm², A₂=84mm²) connected to water supply system</p>
         </div>
       </div>
       <div class="step-item">
-        <div class="step-number">Phase 2</div>
+        <div class="step-number">Step 2</div>
         <div class="step-content">
-          <h4>Flow Adjustment</h4>
-          <p>Precise valve control to establish four distinct flow rates</p>
+          <h4>Flow Regulation</h4>
+          <p>Adjusted control valve to establish four distinct flow rates while ensuring laminar flow conditions</p>
         </div>
       </div>
       <div class="step-item">
-        <div class="step-number">Phase 3</div>
+        <div class="step-number">Step 3</div>
         <div class="step-content">
           <h4>Data Collection</h4>
-          <p>Manometer readings at points P1, P2, and P3 for each flow rate</p>
+          <p>Recorded pressure differentials (p₁-p₂) using U-tube manometer at each flow condition</p>
         </div>
       </div>
       <div class="step-item">
-        <div class="step-number">Phase 4</div>
+        <div class="step-number">Step 4</div>
+        <div class="step-content">
+          <h4>Velocity Calculation</h4>
+          <p>Applied Bernoulli's equation to determine flow velocities at nozzle inlet and throat</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 5</div>
         <div class="step-content">
           <h4>Analysis</h4>
-          <p>Bernoulli equation calculations with statistical validation</p>
+          <p>Calculated theoretical vs actual flow rates and determined Venturi discharge coefficients</p>
         </div>
       </div>
     </div>
@@ -233,7 +240,7 @@ importance: 2
   <!-- Results Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Results & Analysis
     </h2>
     
@@ -277,17 +284,72 @@ importance: 2
               </tr>
             </tbody>
           </table>
+
+          <div class="results-grid">
+      <div class="results-card">
+        <h3>Flow Velocity Measurements</h3>
+        <div class="results-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Trial</th>
+                <th>u₁ (m/s)</th>
+                <th>u₂ (m/s)</th>
+                <th>u₃ (m/s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>0.866</td>
+                <td>3.485</td>
+                <td>1.319</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>0.767</td>
+                <td>3.086</td>
+                <td>1.168</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>0.701</td>
+                <td>2.821</td>
+                <td>1.067</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>0.788</td>
+                <td>3.171</td>
+                <td>1.120</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       
-      <div class="results-card">
+      <div class="key-findings">
         <h3>Key Findings</h3>
-        <ul class="findings-list">
+        <ul>
           <li>Linear relationship between pressure drop and flow rate confirmed</li>
-          <li>Discharge coefficients (C<sub>D</sub>) ranged 1.159-1.422</li>
+          <li>Strong linear correlation between pressure differential and flow velocity (R² = 0.98)</li>
+          <li>Discharge coefficients (C<sub>D</sub>) ranged 1.159-1.422 across trials</li>
           <li>Maximum velocity achieved: 3.485 m/s at throat</li>
+          <li>Maximum flow rate recorded: 0.00042 m³/s (Trial 1)</li>
           <li>Measurement 1 showed highest pressure differential (9319.5-3629.7 Pa)</li>
+          <li>Measurement 3 showed lowest velocity values (u₁=0.701 m/s)</li>
         </ul>
+      </div>
+    </div>
+
+    <div class="results-card">
+        <h3>Flow Rate Comparison</h3>
+        <div class="results-image">
+          <img src="/assets/img/projects/lab/flow_rate_graph.png" 
+               alt="Theoretical vs Actual Flow Rates" 
+               loading="lazy">
+          <p class="image-caption">Fig 3. Comparison of theoretical (Qt) and actual (Qa) flow rates across four trials</p>
+        </div>
       </div>
     </div>
     
@@ -312,14 +374,14 @@ importance: 2
   <!-- Conclusion Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">5</span>
       Conclusions
     </h2>
     
     <div class="conclusion-content">
       <div class="conclusion-text">
         <h3>Experimental Validation</h3>
-        <p>The experiment successfully validated Bernoulli's principle for flow measurement, with discharge coefficients consistently exceeding 1.0. The Venturi nozzle proved effective for precise flow rate determination in engineering applications.</p>
+        <p>The experiment validated Venturi nozzle effectiveness for flow measurement, with discharge coefficients consistently exceeding 1.0 due to compressibility effects. The HM 150.13 module demonstrated reliable performance in capturing pressure differentials and calculating flow parameters.</p>
         
         <h3>Engineering Applications</h3>
         <ul>
