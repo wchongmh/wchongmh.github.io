@@ -483,11 +483,16 @@ ninja.data = [{
           description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/queens-hill-plumbing/";
+            },},{id: "projects-ultrasonic-flow-rate-measurements-gcu-plant-room",
+          title: 'Ultrasonic Flow Rate Measurements - GCU Plant Room',
+          description: "Field study of non-invasive flow measurement techniques using ultrasonic technology at Glasgow Caledonian University facilities.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ultrasonic-flow/";
             },},{id: "projects-venturi-nozzle-flow-measurement-analysis",
           title: 'Venturi Nozzle Flow Measurement Analysis',
           description: "Experimental analysis of flow rate measurement using Venturi nozzle principles at Glasgow Caledonian University",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/venturi-lab*/";
+              window.location.href = "/projects/venturi-nozzle/";
             },},{
         id: 'social-email',
         title: 'email',
