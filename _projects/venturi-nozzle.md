@@ -1,5 +1,5 @@
 ---
-title: "Venturi Nozzle Flow Measurement Laboratory"
+title: "Venturi Nozzle Flow Measurement Analysis"
 category: Research
 description: "Experimental analysis of water flow rate using Venturi nozzle principles at Glasgow Caledonian University"
 tech: [Bernoulli's Equation, Hydraulic Calculations, HM 150.13 Module, Data Analysis]
@@ -57,7 +57,7 @@ importance: 2
     </h2>
     
     <div class="project-description">
-      <p>The investigation utilized a Venturi nozzle with 338mm² inlet area reducing to 84mm² at the throat. Pressure measurements were taken at three critical points using the HM 150.13 module's manometer system, with water flow rates controlled between 0.00031-0.00042 m³/s.</p>
+      <p>The investigation employed a Venturi nozzle with an inlet area of 338 mm², narrowing to 84 mm² at the throat, to measure water flow rates at 20 °C. Pressure readings were recorded at three key locations using the manometer system of the HM 150.13 module. Water flow rates were regulated within the range of 0.00031 to 0.00042 m³/s.</p>
     </div>
     
     <div class="image-comparison">
@@ -1423,12 +1423,59 @@ importance: 2
   .system-types-grid {
     grid-template-columns: 1fr 1fr;
   }
-}
+
+  /* Methodology Steps */
+.methodology-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+ }
+
+.step-item {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+ }
+
+.step-number {
+  background: var(--primary-color);
+  color: white;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+ }
+
+.step-image {
+  padding: 10px;
+ }
+
+.step-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+ }
+
+.methodology-conclusion {
+  background: #f5fbf5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  border-left: 4px solid #2ecc71;
+ }
+
+.conclusion-title {
+  font-size: 1.2rem;
+  color: #27ae60;
+  margin-bottom: 15px;
+ }
 
 @media (max-width: 576px) {
   .plumbing-project {
     padding: 0 15px;
-  }
+ }
   
   .project-title {
     font-size: 1.7rem;
