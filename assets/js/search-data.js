@@ -490,7 +490,7 @@ ninja.data = [{
               window.location.href = "/projects/ultrasonic-flow/";
             },},{id: "projects-ultrasonic-flow-rate-measurements-glasgow-caledonian-university",
           title: 'Ultrasonic Flow Rate Measurements - Glasgow Caledonian University',
-          description: "Site visit report analyzing ultrasonic flow measurements in university HVAC systems using Precision Flow 190PD and Kamstrup Multical 602.",
+          description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ultrasonic01/";
             },},{id: "projects-ultrasonic-flow-rate-measurement-gcu-plant-room",
