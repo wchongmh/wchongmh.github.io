@@ -2,7 +2,7 @@
 title: "Ultrasonic Flow Rate Measurements - Glasgow Caledonian University"
 category: Research
 description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology."
-tech: [Ultrasonic Flow Meters, Heat Transfer Analysis, Data Logging, Hydronic Systems, HVAC Monitoring, Kamstrup Multical 602]
+tech: [Ultrasonic Flow Meters, Heat Transfer Analysis, Data Logging, Hydronic Systems, HVAC Monitoring]
 image: /assets/img/projects/lab/ultrasonic_flow_1.jpg
 importance: 2
 ---
