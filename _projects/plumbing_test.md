@@ -205,10 +205,10 @@ importance: 2
           <details class="spec-group">
             <summary>Equipment Schedules</summary>
             <div class="spec-images">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-11.png" alt="U-PVC catalogue" loading="lazy">
               <img src="/assets/img/projects/axa-center/plumbing_fire-8.png" alt="Basin schedule" loading="lazy">
               <img src="/assets/img/projects/axa-center/plumbing_fire-9.png" alt="Urinal schedule" loading="lazy">
               <img src="/assets/img/projects/axa-center/plumbing_fire-10.png" alt="Toilet bowl schedule" loading="lazy">
-              <img src="/assets/img/projects/axa-center/plumbing_fire-11.png" alt="U-PVC catalogue" loading="lazy">
             </div>
           </details>
         </div>
