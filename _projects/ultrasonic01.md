@@ -571,14 +571,60 @@ importance: 2
       <div class="conclusion-text">
         <h3>System Performance</h3>
         <p>TThe ultrasonic measurement system demonstrated superior performance for HVAC monitoring with minimal disruption to the existing infrastructure. Its non-invasive design eliminated pressure drops while delivering accurate, real-time data essential for energy analysis. The system also exhibited excellent stability, with a variation of only ±2.5%, and showed a clear correlation between key flow parameters. This non-intrusive approach proved especially beneficial in the university's HVAC environment, enhancing monitoring capabilities without compromising system integrity.</p>
-        
+        </div>
+
+         <div class="conclusions-text">
+        <h3>Key Findings</h3>
+        <ul>
+          <li>Ultrasonic measurement provided stable, repeatable results (±2.5% variation) without system intrusion</li>
+          <li>Initial negative ΔT values suggest need for sensor warm-up period in future studies</li>
+          <li>Strong correlation (R²=0.89) between ΔT and heat transfer validates measurement approach</li>
+          <li>Non-invasive nature eliminates risk of fouling common in mechanical meters</li>
+        </ul>
+
+        <div class="recommendations-grid">
+      <div class="recommendation-card">
+        <div class="rec-icon">🔄</div>
+        <h3>Calibration Protocol</h3>
+        <p>Quarterly verification against master meter with documented zero-flow checks</p>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">📊</div>
+        <h3>Data Integration</h3>
+        <p>Connect meters to BMS for continuous performance monitoring and fault detection</p>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">🛠️</div>
+        <h3>Maintenance Schedule</h3>
+        <p>Annual transducer inspection and coupling gel replacement</p>
+      </div>
+     </div>
+
+      <div class="implementation-notes">
         <h3>Implementation Recommendations</h3>
-        <ol>
-          <li>Quarterly calibration of ultrasonic transducers</li>
-          <li>Installation of permanent data logging system</li>
-          <li>Comparative validation with turbine meter annually</li>
-          <li>Temperature sensor shielding for improved ΔT accuracy</li>
-        </ol>
+        <div class="recommendations-grid">
+          <div class="recommendation">
+            <div class="rec-icon">🔧</div>
+            <p>Implement quarterly transducer inspection and coupling gel replacement</p>
+          </div>
+          <div class="recommendation">
+            <div class="rec-icon">📈</div>
+            <p>Extend data logging period to capture full system operating cycles</p>
+          </div>
+          <div class="recommendation">
+            <div class="rec-icon">🌡️</div>
+            <p>Add redundant temperature sensors for measurement validation</p>
+          </div>
+        </div>
+        
+        <ul>
+          <li>Pipe material and wall thickness affect ultrasonic signal transmission</li>
+          <li>Minimum straight pipe runs required upstream/downstream (10D/5D)</li>
+          <li>Temperature compensation essential for accurate mass flow calculations</li>
+          <li>Wireless data transmission reduces installation complexity</li>
+        </ul>
       </div>
       
       <div class="conclusion-image">
@@ -589,24 +635,6 @@ importance: 2
       </div>
     </div>
   </section>
-
-  <!-- References -->
-  <section class="report-section">
-    <h2 class="section-header">
-      <span class="section-number">06</span>
-      References
-    </h2>
-    
-    <div class="references-list">
-      <ol>
-        <li>Precision Flow 190PD Technical Manual, 2022</li>
-        <li>Kamstrup Multical 602 Installation Guide</li>
-        <li>ASHRAE Handbook - HVAC Systems and Equipment</li>
-        <li>ISO 12242:2012 Measurement of fluid flow</li>
-      </ol>
-    </div>
-  </section>
-</div>
 
 <style>
 /* Base Styles */
