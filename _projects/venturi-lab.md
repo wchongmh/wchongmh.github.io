@@ -1,6 +1,6 @@
 ---
 title: "Venturi Nozzle Flow Measurement Analysis"
-category: Laboratory Experiments
+category: Research
 description: "Comprehensive analysis of flow rate measurement using Venturi nozzle at Glasgow Caledonian University"
 tech: [Bernoulli's Equation, Hydraulic Calculations, HM 150.13 Module, Fluid Dynamics]
 image: /assets/img/projects/lab/venturi_experiment.jpg
