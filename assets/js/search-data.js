@@ -488,8 +488,8 @@ ninja.data = [{
           description: "Field study of non-invasive flow measurement techniques using ultrasonic technology at Glasgow Caledonian University facilities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ultrasonic-flow/";
-            },},{id: "projects-ultrasonic-flow-rate-measurement-glasgow-caledonian-university",
-          title: 'Ultrasonic Flow Rate Measurement - Glasgow Caledonian University',
+            },},{id: "projects-ultrasonic-flow-rate-measurement-gcu-plant-room",
+          title: 'Ultrasonic Flow Rate Measurement - GCU Plant Room',
           description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ultrasonic-lab/";
