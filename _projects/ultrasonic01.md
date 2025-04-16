@@ -1,6 +1,6 @@
 ---
 title: "Ultrasonic Flow Rate Measurements - Glasgow Caledonian University"
-category: Laboratory Reports
+category: Research
 description: "Site visit report analyzing ultrasonic flow measurements in university HVAC systems using Precision Flow 190PD and Kamstrup Multical 602."
 tech: [Ultrasonic Flowmetry, Heat Transfer Analysis, HVAC Monitoring, Data Visualization]
 image: /assets/img/projects/lab/ultrasonic_flow_1.jpg
