@@ -482,11 +482,6 @@ ninja.data = [{
           title: 'High-Rise Plumbing &amp;amp; Fire Protection Systems - AXA Center',
           description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/plumbing_overview/";
-            },},{id: "projects-high-rise-plumbing-amp-fire-protection-systems-axa-center",
-          title: 'High-Rise Plumbing &amp;amp; Fire Protection Systems - AXA Center',
-          description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/plumbing_test/";
             },},{id: "projects-public-housing-plumbing-systems-queen-39-s-hill-development",
           title: 'Public Housing Plumbing Systems - Queen&amp;#39;s Hill Development',
