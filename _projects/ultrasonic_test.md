@@ -7,7 +7,7 @@ image: /assets/img/projects/lab/ultrasonic_flow-1.jpg
 importance: 2
 ---
 
-<!DOCTYPE html>
+<!-- DOCTYPE html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -165,6 +165,10 @@ importance: 2
         }
 
         /* Equipment Section */
+        .equipment-section {
+          position: relative;
+        }
+
         .equipment-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -177,6 +181,7 @@ importance: 2
           border-radius: 8px;
           padding: 20px;
           box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+          margin-bottom: 30px;
         }
 
         .equipment-image img {
@@ -208,6 +213,7 @@ importance: 2
           border-radius: 8px;
           padding: 20px;
           margin: 30px 0;
+          clear: both;
         }
 
         .pipe-specs h3 {
@@ -275,6 +281,7 @@ importance: 2
           border-radius: 8px;
           padding: 20px;
           margin: 30px 0;
+          clear: both;
         }
 
         .formula-box {
