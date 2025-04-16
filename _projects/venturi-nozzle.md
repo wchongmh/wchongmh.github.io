@@ -89,7 +89,7 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Sample hydraulic calculation worksheet (🟦 - Lowest value ; 🟨 - Largest value)</span>
+          <span class="image-desc">The hydraulic calculation worksheet highlights the lowest value with 🟦 and the highest value with 🟨</span>
         </div>
       </div>
     </div>
