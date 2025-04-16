@@ -1,9 +1,9 @@
 ---
 title: "Venturi Nozzle Flow Measurement Analysis"
 category: Research
-description: "Experimental analysis of water flow rate using Venturi nozzle principles at Glasgow Caledonian University"
+description: "Experimental analysis of flow rate measurement using Venturi nozzle principles at Glasgow Caledonian University"
 tech: [Bernoulli's Equation, Hydraulic Calculations, HM 150.13 Module, Data Analysis]
-image: /assets/img/projects/lab/venturi_experiment-1.jpg
+image: /assets/img/projects/nozzle-lab/venturi_nozzle-6.png
 importance: 2
 ---
 
@@ -29,14 +29,14 @@ importance: 2
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/lab/venturi_setup-1.jpg" 
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-4.png" 
              alt="Venturi Nozzle Laboratory Setup" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">HM 150.13 experimental setup</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/lab/venturi_diagram-1.jpg" 
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-3.png" 
              alt="Venturi Nozzle Schematic" 
              class="visualization-img"
              loading="lazy">
@@ -63,7 +63,7 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/lab/venturi_technical-1.jpg" 
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-5.png" 
                alt="Venturi Nozzle Technical Specifications" 
                class="project-image"
                loading="lazy">
@@ -79,7 +79,7 @@ importance: 2
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/lab/venturi_calculation-1.jpg" 
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-21.png" 
                alt="Sample Calculation Sheet" 
                class="project-image"
                loading="lazy">
@@ -185,6 +185,37 @@ importance: 2
         </div>
       </div>
     </article>
+
+    <div class="visualization-images">
+      <div class="visualization-card">
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-2.png" 
+             alt="Venturi Nozzle Close-up" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Venturi nozzle cross-section</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-9.png" 
+             alt="Venturi Nozzle Installation" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Venturi nozzle installation</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-7.png" 
+             alt="Manometer Measurement" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Pressure measurement with manometer</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-8.png" 
+             alt="Pipeline Connection" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Connected pipeline with measuring tube</p>
+      </div>
+    </div>
   </section>
 
   <!-- Methodology Section -->
@@ -204,6 +235,7 @@ importance: 2
         <div class="step-content">
           <h4>Equipment Setup</h4>
           <p>Calibrated HM 150.13 module with Venturi nozzle (A₁=338mm², A₂=84mm²) connected to water supply system</p>
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-10.png" alt="Nozzle measurement part 1" class="step-image">
         </div>
       </div>
       <div class="step-item">
@@ -211,6 +243,7 @@ importance: 2
         <div class="step-content">
           <h4>Flow Regulation</h4>
           <p>Adjusted control valve to establish four distinct flow rates while ensuring laminar flow conditions</p>
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-11.png" alt="Nozzle measurement part 2" class="step-image">
         </div>
       </div>
       <div class="step-item">
@@ -218,6 +251,7 @@ importance: 2
         <div class="step-content">
           <h4>Data Collection</h4>
           <p>Recorded pressure differentials (p₁-p₂) using U-tube manometer at each flow condition</p>
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-12.png" alt="Water density diagram" class="step-image">
         </div>
       </div>
       <div class="step-item">
@@ -225,6 +259,7 @@ importance: 2
         <div class="step-content">
           <h4>Velocity Calculation</h4>
           <p>Applied Bernoulli's equation to determine flow velocities at nozzle inlet and throat</p>
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-13.png" alt="Measurement points diagram" class="step-image">
         </div>
       </div>
       <div class="step-item">
@@ -232,6 +267,41 @@ importance: 2
         <div class="step-content">
           <h4>Analysis</h4>
           <p>Calculated theoretical vs actual flow rates and determined Venturi discharge coefficients</p>
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-14.png" alt="Area calculation diagram" class="step-image">
+        </div>
+      </div>
+    </div>
+
+    <div class="project-description">
+      <h3>Calculation Methodology</h3>
+      <div class="image-comparison">
+        <div class="image-card">
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-15.png" 
+               alt="Bernoulli Equation Application" 
+               class="project-image"
+               loading="lazy">
+          <p class="image-caption">Bernoulli's equation application</p>
+        </div>
+        <div class="image-card">
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-16.png" 
+               alt="Velocity Calculation" 
+               class="project-image"
+               loading="lazy">
+          <p class="image-caption">Velocity calculation methodology</p>
+        </div>
+        <div class="image-card">
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-17.png" 
+               alt="Pressure Calculation" 
+               class="project-image"
+               loading="lazy">
+          <p class="image-caption">Pressure calculation methodology</p>
+        </div>
+        <div class="image-card">
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-18.png" 
+               alt="Pressure Head Calculation" 
+               class="project-image"
+               loading="lazy">
+          <p class="image-caption">Pressure head calculation</p>
         </div>
       </div>
     </div>
@@ -284,8 +354,9 @@ importance: 2
               </tr>
             </tbody>
           </table>
-
-          <div class="results-grid">
+        </div>
+      </div>
+      
       <div class="results-card">
         <h3>Flow Velocity Measurements</h3>
         <div class="results-table">
@@ -327,46 +398,55 @@ importance: 2
           </table>
         </div>
       </div>
-      
-      <div class="key-findings">
-        <h3>Key Findings</h3>
-        <ul>
-          <li>Linear relationship between pressure drop and flow rate confirmed</li>
-          <li>Strong linear correlation between pressure differential and flow velocity (R² = 0.98)</li>
-          <li>Discharge coefficients (C<sub>D</sub>) ranged 1.159-1.422 across trials</li>
-          <li>Maximum velocity achieved: 3.485 m/s at throat</li>
-          <li>Maximum flow rate recorded: 0.00042 m³/s (Trial 1)</li>
-          <li>Measurement 1 showed highest pressure differential (9319.5-3629.7 Pa)</li>
-          <li>Measurement 3 showed lowest velocity values (u₁=0.701 m/s)</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="results-card">
-        <h3>Flow Rate Comparison</h3>
-        <div class="results-image">
-          <img src="/assets/img/projects/lab/flow_rate_graph.png" 
-               alt="Theoretical vs Actual Flow Rates" 
-               loading="lazy">
-          <p class="image-caption">Fig 3. Comparison of theoretical (Qt) and actual (Qa) flow rates across four trials</p>
-        </div>
-      </div>
     </div>
     
+    <div class="key-findings">
+      <h3>Key Findings</h3>
+      <ul>
+        <li>Linear relationship between pressure drop and flow rate confirmed</li>
+        <li>Strong linear correlation between pressure differential and flow velocity (R² = 0.98)</li>
+        <li>Discharge coefficients (C<sub>D</sub>) ranged 1.159-1.422 across trials</li>
+        <li>Maximum velocity achieved: 3.485 m/s at throat</li>
+        <li>Maximum flow rate recorded: 0.00042 m³/s (Trial 1)</li>
+        <li>Measurement 1 showed highest pressure differential (9319.5-3629.7 Pa)</li>
+        <li>Measurement 3 showed lowest velocity values (u₁=0.701 m/s)</li>
+      </ul>
+    </div>
+
     <div class="results-graphs">
       <div class="graph-card">
-        <img src="/assets/img/projects/lab/flow_rate_graph.jpg" 
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-22.png" 
              alt="Theoretical vs Actual Flow Rate" 
              class="graph-image"
              loading="lazy">
         <p class="graph-caption">Fig 3. Theoretical vs actual flow rate correlation</p>
       </div>
       <div class="graph-card">
-        <img src="/assets/img/projects/lab/discharge_coeff_graph.jpg" 
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-23.png" 
              alt="Discharge Coefficient Trends" 
              class="graph-image"
              loading="lazy">
         <p class="graph-caption">Fig 4. Discharge coefficient variation across trials</p>
+      </div>
+    </div>
+
+    <div class="project-description">
+      <h3>Detailed Calculations</h3>
+      <div class="image-comparison">
+        <div class="image-card">
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-19.png" 
+               alt="Theoretical Flow Rate Calculation" 
+               class="project-image"
+               loading="lazy">
+          <p class="image-caption">Theoretical flow rate calculation</p>
+        </div>
+        <div class="image-card">
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-20.png" 
+               alt="Discharge Coefficient Calculation" 
+               class="project-image"
+               loading="lazy">
+          <p class="image-caption">Discharge coefficient calculation</p>
+        </div>
       </div>
     </div>
   </section>
@@ -412,140 +492,6 @@ importance: 2
 </div>
 
 <style>
-/* Inherit all CSS from reference template */
-/* Additional custom styles for lab report */
-
-.methodology-steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.step-item {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.step-number {
-  font-weight: 700;
-  color: var(--primary-color);
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.step-content h4 {
-  margin: 10px 0 5px;
-  color: var(--secondary-color);
-}
-
-.results-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin: 25px 0;
-}
-
-.results-card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.results-table table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.results-table th, .results-table td {
-  padding: 10px;
-  text-align: center;
-  border-bottom: 1px solid #eee;
-}
-
-.results-table th {
-  background: #f5f9ff;
-}
-
-.findings-list li {
-  margin-bottom: 10px;
-  padding-left: 20px;
-  position: relative;
-}
-
-.findings-list li:before {
-  content: "•";
-  color: var(--primary-color);
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-}
-
-.results-graphs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.graph-card {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.graph-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.graph-caption {
-  padding: 10px 15px;
-  font-size: 0.9rem;
-  color: var(--dark-gray);
-  text-align: center;
-}
-
-.conclusion-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 30px;
-}
-
-.recommendations {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.recommendation-card {
-  background: #f9f9f9;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.rec-icon {
-  font-size: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .results-grid, 
-  .results-graphs,
-  .conclusion-content {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
-<style>
 /* Base Styles */
 :root {
   --primary-color: #3498db;
@@ -558,7 +504,7 @@ importance: 2
   --white: #ffffff;
 }
 
-.plumbing-project {
+.venturi-project {
   font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   color: var(--text-color);
   line-height: 1.6;
@@ -614,7 +560,7 @@ importance: 2
   align-items: center;
 }
 
-.subsection-icon, .methodology-icon {
+.subsection-icon {
   width: 24px;
   height: 24px;
   fill: var(--primary-color);
@@ -705,14 +651,14 @@ importance: 2
 }
 
 /* Image Styles */
-.image-comparison, .diagram-grid {
+.image-comparison {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   margin: 25px 0;
 }
 
-.image-card, .diagram-card {
+.image-card {
   background: var(--white);
   border-radius: 8px;
   overflow: hidden;
@@ -720,17 +666,17 @@ importance: 2
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.image-card:hover, .diagram-card:hover {
+.image-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
-.image-wrapper, .diagram-wrapper {
+.image-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.project-image, .diagram-image {
+.project-image {
   width: 100%;
   height: auto;
   display: block;
@@ -760,26 +706,19 @@ importance: 2
   color: white;
 }
 
-.image-meta, .diagram-meta {
+.image-meta {
   padding: 15px;
   background: var(--white);
 }
 
-.image-fig, .diagram-fig {
+.image-fig {
   font-weight: 600;
   color: var(--primary-color);
   margin-right: 8px;
 }
 
-.image-desc, .diagram-desc {
+.image-desc {
   color: var(--dark-gray);
-}
-
-.diagram-label {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: var(--secondary-color);
 }
 
 /* Key Specs */
@@ -824,102 +763,7 @@ importance: 2
   color: var(--dark-gray);
 }
 
-/* Highlights Section */
-.project-highlights {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.highlight-card {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.highlight-icon {
-  font-size: 1.5rem;
-  margin-right: 12px;
-}
-
-.highlight-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.highlight-value {
-  font-weight: 700;
-  color: var(--primary-color);
-  font-size: 1.2rem;
-}
-
-.highlight-label {
-  font-size: 0.8rem;
-  color: var(--dark-gray);
-}
-
-/* Facilities Overview */
-.facilities-overview {
-  margin-bottom: 25px;
-}
-
-.facilities-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin-top: 15px;
-}
-
-.facility-item {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.facility-icon {
-  font-size: 1.8rem;
-  margin-bottom: 8px;
-}
-
-.facility-name {
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-.facility-detail {
-  font-size: 0.85rem;
-  color: var(--dark-gray);
-}
-
-/* Water Supply System */
-.water-supply-system {
-  background: #f8fbfe;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.system-details {
-  margin-bottom: 25px;
-}
-
-.system-features {
-  padding-left: 20px;
-}
-
-.system-features li {
-  margin-bottom: 8px;
-}
-
+/* System Types Grid */
 .system-types-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -948,12 +792,6 @@ importance: 2
 /* Technical Specifications */
 .technical-specs {
   margin-top: 30px;
-}
-
-.specs-title {
-  font-size: 1.2rem;
-  color: var(--secondary-color);
-  margin-bottom: 15px;
 }
 
 .specs-accordion {
@@ -1002,194 +840,6 @@ importance: 2
   margin-bottom: 8px;
 }
 
-/* System Arrangement */
-.system-arrangement {
-  margin: 30px 0;
-}
-
-.arrangement-image {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.arrangement-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.arrangement-caption {
-  padding: 12px 15px;
-  background: var(--light-gray);
-  font-size: 0.9rem;
-}
-
-.arrangement-fig {
-  font-weight: 600;
-  color: var(--primary-color);
-  margin-right: 8px;
-}
-
-.arrangement-notes {
-  background: #f0f7ff;
-  padding: 15px;
-  border-radius: 6px;
-  margin-top: 15px;
-  font-size: 0.95rem;
-}
-
-/* Calculation Tabs */
-.calculation-tabs {
-  margin-top: 20px;
-}
-
-.tab-buttons {
-  display: flex;
-  border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 20px;
-}
-
-.tab-button {
-  padding: 10px 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  color: var(--dark-gray);
-  position: relative;
-}
-
-.tab-button.active {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-.tab-button.active:after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--primary-color);
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-.consumption-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
-}
-
-.consumption-item {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.consumption-value {
-  display: block;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 5px;
-}
-
-.consumption-label {
-  font-size: 0.9rem;
-  color: var(--dark-gray);
-}
-
-/* Calculations Gallery */
-.calculation-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin: 25px 0;
-}
-
-.calculation-item {
-  border-radius: 8px;
-  overflow: hidden;
-  position: relative;
-}
-
-.calc-image-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.calc-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-.calc-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(46, 64, 83, 0.8);
-  color: white;
-  padding: 12px;
-  transform: translateY(100%);
-  transition: transform 0.3s ease;
-}
-
-.calculation-item:hover .calc-overlay {
-  transform: translateY(0);
-}
-
-.calculation-item:hover .calc-image {
-  transform: scale(1.05);
-}
-
-.calc-title {
-  font-weight: 500;
-  font-size: 0.95rem;
-}
-
-.calc-detail {
-  display: block;
-  font-size: 0.85rem;
-  margin-top: 5px;
-  opacity: 0.9;
-}
-
-.calculation-summary {
-  background: #f9f9f9;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-.summary-title {
-  font-size: 1.2rem;
-  color: var(--secondary-color);
-  margin-bottom: 15px;
-}
-
-.safety-factors {
-  padding-left: 20px;
-}
-
-.safety-factors li {
-  margin-bottom: 8px;
-}
-
 /* Methodology Steps */
 .methodology-steps {
   display: grid;
@@ -1201,281 +851,175 @@ importance: 2
 .step-item {
   background: var(--white);
   border-radius: 8px;
-  overflow: hidden;
+  padding: 20px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
 .step-number {
-  background: var(--primary-color);
-  color: white;
-  padding: 8px 12px;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.step-content h4 {
+  margin: 10px 0 5px;
+  color: var(--secondary-color);
 }
 
 .step-image {
-  padding: 10px;
-}
-
-.step-img {
   width: 100%;
   height: auto;
-  display: block;
+  margin-top: 10px;
   border-radius: 4px;
 }
 
-.methodology-conclusion {
-  background: #f5fbf5;
+/* Results Section */
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.results-card {
+  background: white;
   border-radius: 8px;
   padding: 20px;
-  margin-top: 30px;
-  border-left: 4px solid #2ecc71;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
-.conclusion-title {
-  font-size: 1.2rem;
-  color: #27ae60;
-  margin-bottom: 15px;
+.results-table table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Supplementary Information */
-.supplementary-section {
-  background: #f9f9f9;
-  padding: 30px;
+.results-table th, .results-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.results-table th {
+  background: #f5f9ff;
+}
+
+.key-findings {
+  background: #f8fafc;
   border-radius: 8px;
-  margin-top: 40px;
+  padding: 20px;
+  margin: 25px 0;
 }
 
-.supplementary-grid {
+.key-findings h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+.key-findings ul {
+  padding-left: 20px;
+}
+
+.key-findings li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.key-findings li:before {
+  content: "•";
+  color: var(--primary-color);
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
+
+.results-graphs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-  margin-top: 25px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.supplementary-card {
+.graph-card {
   background: white;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
-.supplementary-title {
-  background: var(--primary-color);
-  color: white;
-  padding: 15px;
-  font-size: 1.2rem;
-}
-
-.supplementary-image {
-  padding: 15px;
-}
-
-.supplementary-img {
+.graph-image {
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  display: block;
 }
 
-.supplementary-content {
-  padding: 0 15px 15px;
-}
-
-.supplementary-content ul {
-  padding-left: 20px;
-}
-
-.supplementary-content li {
-  margin-bottom: 8px;
-}
-
-/* Recommendations */
-.recommendations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-}
-
-.recommendation-card {
-  background: white;
-  border-radius: 8px;
-  padding: 25px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.rec-icon {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.recommendation-card h3 {
-  color: var(--secondary-color);
-  margin-bottom: 15px;
-}
-
-.recommendation-card ul {
-  padding-left: 20px;
-}
-
-.recommendation-card li {
-  margin-bottom: 8px;
-}
-
-/* Reflection Section */
-.reflection-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.reflection-text {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.skill-development {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 15px;
-}
-
-.skill-category h4 {
-  color: var(--secondary-color);
-  margin-bottom: 10px;
-}
-
-.skill-category ul {
-  padding-left: 20px;
-}
-
-.skill-category li {
-  margin-bottom: 6px;
-  font-size: 0.95rem;
-}
-
-.project-outcome {
-  background: #f0f7ff;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
-}
-
-.reflection-image {
-  display: flex;
-  flex-direction: column;
-}
-
-.reflection-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.image-caption {
-  margin-top: 10px;
+.graph-caption {
+  padding: 10px 15px;
   font-size: 0.9rem;
   color: var(--dark-gray);
   text-align: center;
 }
 
+/* Conclusion Section */
+.conclusion-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.conclusion-text h3 {
+  color: var(--secondary-color);
+  margin-top: 0;
+}
+
+.conclusion-text ul {
+  padding-left: 20px;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recommendation-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rec-icon {
+  font-size: 1.5rem;
+}
+
 /* Responsive Design */
-@media (max-width: 992px) {
-  .reflection-content {
+@media (max-width: 768px) {
+  .results-grid,
+  .results-graphs,
+  .conclusion-content {
     grid-template-columns: 1fr;
   }
   
-  .reflection-image {
-    order: -1;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .project-title {
-    font-size: 1.9rem;
+  .image-comparison {
+    grid-template-columns: 1fr;
   }
   
   .section-header {
     font-size: 1.6rem;
   }
   
-  .image-comparison, .diagram-grid {
-    grid-template-columns: 1fr;
+  .project-title {
+    font-size: 1.9rem;
   }
-  
-  .project-highlights {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .system-types-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  /* Methodology Steps */
-.methodology-steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  margin: 30px 0;
- }
-
-.step-item {
-  background: var(--white);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
- }
-
-.step-number {
-  background: var(--primary-color);
-  color: white;
-  padding: 8px 12px;
-  font-weight: 600;
-  font-size: 0.9rem;
- }
-
-.step-image {
-  padding: 10px;
- }
-
-.step-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
- }
-
-.methodology-conclusion {
-  background: #f5fbf5;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 30px;
-  border-left: 4px solid #2ecc71;
- }
-
-.conclusion-title {
-  font-size: 1.2rem;
-  color: #27ae60;
-  margin-bottom: 15px;
- }
+}
 
 @media (max-width: 576px) {
-  .plumbing-project {
+  .venturi-project {
     padding: 0 15px;
- }
+  }
   
   .project-title {
     font-size: 1.7rem;
@@ -1483,72 +1027,22 @@ importance: 2
   
   .section-header {
     font-size: 1.4rem;
-    margin: 30px 0 20px;
-  }
-  
-  .calculation-gallery, .methodology-steps {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-meta {
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .project-highlights {
-    grid-template-columns: 1fr;
   }
   
   .system-types-grid {
     grid-template-columns: 1fr;
   }
   
-  .tab-buttons {
-    flex-direction: column;
-    border-bottom: none;
-  }
-  
-  .tab-button {
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .tab-button.active:after {
-    display: none;
+  .methodology-steps {
+    grid-template-columns: 1fr;
   }
 }
 </style>
 
 <script>
 // Simple tab functionality
-document.querySelectorAll('.tab-button').forEach(button => {
-  button.addEventListener('click', () => {
-    const tabId = button.getAttribute('data-tab');
-    
-    // Remove active class from all buttons and content
-    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-    
-    // Add active class to clicked button and corresponding content
-    button.classList.add('active');
-    document.getElementById(tabId).classList.add('active');
-  });
-});
-
-// Accordion functionality
-document.querySelectorAll('.spec-group').forEach(details => {
-  details.addEventListener('toggle', () => {
-    if (details.open) {
-      details.style.backgroundColor = '#f5f9ff';
-    } else {
-      details.style.backgroundColor = '';
-    }
-  });
-});
-</script>
-
-<script>
-// Tab functionality for any future interactive elements
 document.addEventListener('DOMContentLoaded', function() {
+  // Accordion functionality
   const accordions = document.querySelectorAll('.spec-group');
   
   accordions.forEach(acc => {
