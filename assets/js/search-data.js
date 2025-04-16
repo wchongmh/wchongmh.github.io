@@ -485,7 +485,7 @@ ninja.data = [{
               window.location.href = "/projects/queens-hill-plumbing/";
             },},{id: "projects-venturi-nozzle-flow-measurement-analysis",
           title: 'Venturi Nozzle Flow Measurement Analysis',
-          description: "Comprehensive analysis of flow rate measurement using Venturi nozzle at Glasgow Caledonian University",
+          description: "Experimental analysis of flow rate measurement using Venturi nozzle principles at Glasgow Caledonian University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/venturi-lab/";
             },},{id: "projects-venturi-nozzle-flow-measurement-analysis",
