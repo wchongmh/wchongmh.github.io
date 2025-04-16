@@ -201,6 +201,16 @@ importance: 2
               <li>U-traps for all sanitary fixtures</li>
             </ul>
           </details>
+
+          <details class="spec-group">
+            <summary>Equipment Schedules</summary>
+            <div class="spec-images">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-8.png" alt="Basin schedule" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-9.png" alt="Urinal schedule" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-10.png" alt="Toilet bowl schedule" loading="lazy">
+              <img src="/assets/img/projects/axa-center/plumbing_fire-11.png" alt="U-PVC catalogue" loading="lazy">
+            </div>
+          </details>
         </div>
       </div>
       
@@ -298,58 +308,12 @@ importance: 2
       
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-8.png" 
-               alt="Basin Equipment Schedule" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 11.</span>
-            <span class="image-desc">Equipment and Materials Schedules for plumbing & drainage (Basin)</span>
-          </div>
-        </div>
-        <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-9.png" 
-               alt="Urinal Equipment Schedule" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 12.</span>
-            <span class="image-desc">Equipment and Materials Schedules for plumbing & drainage (Urinal)</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="image-comparison">
-        <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-10.png" 
-               alt="Toilet Bowl Equipment Schedule" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 13.</span>
-            <span class="image-desc">Equipment and Materials Schedules for plumbing & drainage (Toilet bowl)</span>
-          </div>
-        </div>
-        <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-11.png" 
-               alt="U-PVC Catalogue" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-meta">
-            <span class="image-fig">Fig 14.</span>
-            <span class="image-desc">Catalogue of U-PVC</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="image-comparison">
-        <div class="image-card">
           <img src="/assets/img/projects/axa-center/plumbing_fire-58.png" 
                alt="Fresh Water Tank Calculation" 
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 15.</span>
+            <span class="image-fig">Fig 11.</span>
             <span class="image-desc">Calculation Of Fresh Water Tank Size table</span>
           </div>
         </div>
@@ -359,7 +323,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 16.</span>
+            <span class="image-fig">Fig 12.</span>
             <span class="image-desc">Calculation Of Flush Water Tank Size table</span>
           </div>
         </div>
@@ -372,7 +336,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 17.</span>
+            <span class="image-fig">Fig 13.</span>
             <span class="image-desc">Chosen Materials for water storage tank</span>
           </div>
         </div>
@@ -382,7 +346,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 18.</span>
+            <span class="image-fig">Fig 14.</span>
             <span class="image-desc">Flush water supply system loading units standard</span>
           </div>
         </div>
@@ -414,7 +378,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 19.</span>
+            <span class="image-fig">Fig 15.</span>
             <span class="image-desc">Storm water schematic diagram</span>
           </div>
         </div>
@@ -424,7 +388,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 20.</span>
+            <span class="image-fig">Fig 16.</span>
             <span class="image-desc">Storm water details table</span>
           </div>
         </div>
@@ -437,7 +401,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 21.</span>
+            <span class="image-fig">Fig 17.</span>
             <span class="image-desc">Storm water (UPPER ROOF)</span>
           </div>
         </div>
@@ -447,7 +411,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 22.</span>
+            <span class="image-fig">Fig 18.</span>
             <span class="image-desc">Storm water (FLAT ROOF)</span>
           </div>
         </div>
@@ -476,7 +440,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 23.</span>
+            <span class="image-fig">Fig 19.</span>
             <span class="image-desc">Soil water system</span>
           </div>
         </div>
@@ -486,7 +450,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 24.</span>
+            <span class="image-fig">Fig 20.</span>
             <span class="image-desc">U trap & Ventilation pipe</span>
           </div>
         </div>
@@ -499,7 +463,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 25.</span>
+            <span class="image-fig">Fig 21.</span>
             <span class="image-desc">Calculation of soil water - Maximum capacities of stacks standard</span>
           </div>
         </div>
@@ -509,7 +473,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 26.</span>
+            <span class="image-fig">Fig 22.</span>
             <span class="image-desc">Calculation of soil water - discharge units standard</span>
           </div>
         </div>
@@ -522,7 +486,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 27.</span>
+            <span class="image-fig">Fig 23.</span>
             <span class="image-desc">Calculation of soil water details table</span>
           </div>
         </div>
@@ -532,7 +496,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 28.</span>
+            <span class="image-fig">Fig 24.</span>
             <span class="image-desc">Plumbing engineering services design guide: Urinal pipe (around 4m) & Water closet pipe (around 8m)</span>
           </div>
         </div>
@@ -545,7 +509,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 29.</span>
+            <span class="image-fig">Fig 25.</span>
             <span class="image-desc">Using ditch & petrol interceptor</span>
           </div>
         </div>
@@ -570,8 +534,9 @@ importance: 2
       
       <div class="system-features">
         <ul>
+          <li>OH3 hazard classification</li>
           <li>2 hydrant outlets per floor</li>
-          <li>100mm diameter rising mains</li>
+          <li>2 x 100mm diameter rising mains (1 per staircase)</li>
           <li>27m³ supply tank at roof level</li>
           <li>Intermediate booster pump at 13/F</li>
           <li>Pressure maintained at 350-850kPa</li>
@@ -586,7 +551,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 30.</span>
+            <span class="image-fig">Fig 26.</span>
             <span class="image-desc">Schematic Diagram for FH/HR System</span>
           </div>
         </div>
@@ -596,7 +561,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 31.</span>
+            <span class="image-fig">Fig 27.</span>
             <span class="image-desc">IBP & Water pressure design details for Fire hydrant & Hose Reel system</span>
           </div>
         </div>
@@ -609,7 +574,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 32.</span>
+            <span class="image-fig">Fig 28.</span>
             <span class="image-desc">G/F Hose Reel System Plan (Pipe Coverage)</span>
           </div>
         </div>
@@ -619,7 +584,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 33.</span>
+            <span class="image-fig">Fig 29.</span>
             <span class="image-desc">1/F Hose Reel System Plan (Pipe Coverage)</span>
           </div>
         </div>
@@ -632,7 +597,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 34.</span>
+            <span class="image-fig">Fig 30.</span>
             <span class="image-desc">2/F-28/F Hose Reel System Plan (Pipe Coverage)</span>
           </div>
         </div>
@@ -642,7 +607,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 35.</span>
+            <span class="image-fig">Fig 31.</span>
             <span class="image-desc">R/F, UR/F Hose Reel System Plan (Pipe Coverage)</span>
           </div>
         </div>
@@ -655,7 +620,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 36.</span>
+            <span class="image-fig">Fig 32.</span>
             <span class="image-desc">Output water pressure (bar) details table</span>
           </div>
         </div>
@@ -665,7 +630,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 37.</span>
+            <span class="image-fig">Fig 33.</span>
             <span class="image-desc">Hydraulic calculation (Pipe size from Design point to installation valve)</span>
           </div>
         </div>
@@ -678,7 +643,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 38.</span>
+            <span class="image-fig">Fig 34.</span>
             <span class="image-desc">Design reference of Fire service - Rising Main (COP 5.14f)</span>
           </div>
         </div>
@@ -688,7 +653,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 39.</span>
+            <span class="image-fig">Fig 35.</span>
             <span class="image-desc">Design reference of Fire service - Intermediate Booster Pump (IBP) (COP 5.14e) (Part 1)</span>
           </div>
         </div>
@@ -701,7 +666,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 40.</span>
+            <span class="image-fig">Fig 36.</span>
             <span class="image-desc">Design reference of Fire service - Intermediate Booster Pump (IBP) (COP 5.14e) (Part 2)</span>
           </div>
         </div>
@@ -711,7 +676,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 41.</span>
+            <span class="image-fig">Fig 37.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Fire hydrant (COP 5.14a)</span>
           </div>
         </div>
@@ -724,7 +689,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 42.</span>
+            <span class="image-fig">Fig 38.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Hose Reel (COP 5.14b)</span>
           </div>
         </div>
@@ -734,7 +699,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 43.</span>
+            <span class="image-fig">Fig 39.</span>
             <span class="image-desc">Design reference of Fire service - Fire service inlet (COP 5.14g)</span>
           </div>
         </div>
@@ -747,7 +712,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 44.</span>
+            <span class="image-fig">Fig 40.</span>
             <span class="image-desc">Design reference of Fire service - Supply Tank (COP 5.26)</span>
           </div>
         </div>
@@ -757,7 +722,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 45.</span>
+            <span class="image-fig">Fig 41.</span>
             <span class="image-desc">Supply Tank COP 5.26 specification (FLOOR AREA 758 SQ. METER 27 meter cube supply tank needed)</span>
           </div>
         </div>
@@ -840,7 +805,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 46.</span>
+            <span class="image-fig">Fig 42.</span>
             <span class="image-desc">Schematic Diagram for fire sprinkler system</span>
           </div>
         </div>
@@ -850,7 +815,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 47.</span>
+            <span class="image-fig">Fig 43.</span>
             <span class="image-desc">Design reference of Fire service - Determine of Hazard classes</span>
           </div>
         </div>
@@ -863,7 +828,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 48.</span>
+            <span class="image-fig">Fig 44.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Sprinkler Zone Requirement (BSEN12845 8.2.1.2)</span>
           </div>
         </div>
@@ -873,7 +838,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 49.</span>
+            <span class="image-fig">Fig 45.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Sprinkler Tank (BSEN12845 Table9)</span>
           </div>
         </div>
@@ -886,7 +851,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 50.</span>
+            <span class="image-fig">Fig 46.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Spacing of sprinkler heads (BSEN12845 table 19 & 12.4)</span>
           </div>
         </div>
@@ -896,7 +861,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 51.</span>
+            <span class="image-fig">Fig 47.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Size of Range Pipe & Distribution Pipe (BS EN12845 Table 30 & 31)</span>
           </div>
         </div>
@@ -909,7 +874,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 52.</span>
+            <span class="image-fig">Fig 48.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Hydraulic calculation (Pipe from Design point to installation valve)</span>
           </div>
         </div>
@@ -919,7 +884,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 53.</span>
+            <span class="image-fig">Fig 49.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Sprinkler head selection (BSEN12845 14.4)</span>
           </div>
         </div>
@@ -932,7 +897,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 54.</span>
+            <span class="image-fig">Fig 50.</span>
             <span class="image-desc">Sprinkler Tank capacity BSEN12845 table 9</span>
           </div>
         </div>
@@ -942,7 +907,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 55.</span>
+            <span class="image-fig">Fig 51.</span>
             <span class="image-desc">Requirement for Pressure and flow of pump set standard</span>
           </div>
         </div>
@@ -955,7 +920,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 56.</span>
+            <span class="image-fig">Fig 52.</span>
             <span class="image-desc">Spacing of sprinkler heads BSEN12845 table 19 & 12.4</span>
           </div>
         </div>
@@ -965,7 +930,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 57.</span>
+            <span class="image-fig">Fig 53.</span>
             <span class="image-desc">Size of Range Pipe & Distribution Pipe BS EN12845 Table 30 & 31</span>
           </div>
         </div>
@@ -978,7 +943,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 58.</span>
+            <span class="image-fig">Fig 54.</span>
             <span class="image-desc">G/F Plan for fire sprinkler system</span>
           </div>
         </div>
@@ -988,7 +953,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 59.</span>
+            <span class="image-fig">Fig 55.</span>
             <span class="image-desc">G/F Plan for fire sprinkler system(water spray coverage of sprinklers)</span>
           </div>
         </div>
@@ -1001,7 +966,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 60.</span>
+            <span class="image-fig">Fig 56.</span>
             <span class="image-desc">1/F Plan for fire sprinkler system</span>
           </div>
         </div>
@@ -1011,7 +976,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 61.</span>
+            <span class="image-fig">Fig 57.</span>
             <span class="image-desc">1/F Plan for fire sprinkler system(water spray coverage of sprinklers)</span>
           </div>
         </div>
@@ -1024,7 +989,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 62.</span>
+            <span class="image-fig">Fig 58.</span>
             <span class="image-desc">Typical 2/F-28/F Plan for fire sprinkler system</span>
           </div>
         </div>
@@ -1034,7 +999,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 63.</span>
+            <span class="image-fig">Fig 59.</span>
             <span class="image-desc">Typical 2/F-28/F Plan for fire sprinkler system (water spray coverage of sprinklers)</span>
           </div>
         </div>
@@ -1047,7 +1012,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 64.</span>
+            <span class="image-fig">Fig 60.</span>
             <span class="image-desc">R/F,UR/F Plan for fire sprinkler system</span>
           </div>
         </div>
@@ -1057,7 +1022,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 65.</span>
+            <span class="image-fig">Fig 61.</span>
             <span class="image-desc">R/F,UR/F Plan for fire sprinkler system(water spray coverage of sprinklers)</span>
           </div>
         </div>
@@ -1082,7 +1047,7 @@ importance: 2
                class="project-image"
                loading="lazy">
           <div class="image-meta">
-            <span class="image-fig">Fig 66.</span>
+            <span class="image-fig">Fig 62.</span>
             <span class="image-desc">Minimum pump characteristics for LH and OH (pre-calculated systems) - Fire extinguisher selection</span>
           </div>
         </div>
@@ -1134,7 +1099,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 67.</span>
+              <span class="image-fig">Fig 63.</span>
               <span class="image-desc">Pipe services calculation Loading unit (fresh + flushing water) calculation table</span>
             </div>
           </div>
@@ -1144,7 +1109,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 68.</span>
+              <span class="image-fig">Fig 64.</span>
               <span class="image-desc">Table of each floor fresh water calculation</span>
             </div>
           </div>
@@ -1157,7 +1122,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 69.</span>
+              <span class="image-fig">Fig 65.</span>
               <span class="image-desc">Table of each floor flushing water calculation</span>
             </div>
           </div>
@@ -1167,7 +1132,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 70.</span>
+              <span class="image-fig">Fig 66.</span>
               <span class="image-desc">Table of each floor discharge unit calculation</span>
             </div>
           </div>
@@ -1180,7 +1145,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 71.</span>
+              <span class="image-fig">Fig 67.</span>
               <span class="image-desc">Table of each floor volume requirement calculation</span>
             </div>
           </div>
@@ -1190,7 +1155,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 72.</span>
+              <span class="image-fig">Fig 68.</span>
               <span class="image-desc">Reference for plumbing system - Loading unit check figure</span>
             </div>
           </div>
@@ -1203,7 +1168,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 73.</span>
+              <span class="image-fig">Fig 69.</span>
               <span class="image-desc">Reference for plumbing system - Discharge unit check figure</span>
             </div>
           </div>
@@ -1213,7 +1178,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 74.</span>
+              <span class="image-fig">Fig 70.</span>
               <span class="image-desc">Reference for plumbing system - Cold water storage requirement</span>
             </div>
           </div>
@@ -1236,7 +1201,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 75.</span>
+              <span class="image-fig">Fig 71.</span>
               <span class="image-desc">Reference for plumbing system - Different material for pipe</span>
             </div>
           </div>
@@ -1246,7 +1211,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 76.</span>
+              <span class="image-fig">Fig 72.</span>
               <span class="image-desc">Reference for plumbing system - Laws is used in the report (Part 1)</span>
             </div>
           </div>
@@ -1259,7 +1224,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 77.</span>
+              <span class="image-fig">Fig 73.</span>
               <span class="image-desc">Reference for plumbing system - Laws is used in the report (Part 2)</span>
             </div>
           </div>
@@ -1298,7 +1263,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 78.</span>
+              <span class="image-fig">Fig 74.</span>
               <span class="image-desc">Design reference of Fire service - Minimum pump characteristics for OH3 (pre-calculated systems)</span>
             </div>
           </div>
@@ -1308,7 +1273,7 @@ importance: 2
                  class="project-image"
                  loading="lazy">
             <div class="image-meta">
-              <span class="image-fig">Fig 79.</span>
+              <span class="image-fig">Fig 75.</span>
               <span class="image-desc">Hydraulic calculation (Design point to installation valve)</span>
             </div>
           </div>
