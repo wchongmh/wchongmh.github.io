@@ -29,7 +29,7 @@ importance: 2
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/axa-center/plumbing_fire-1.png" 
+        <img src="/assets/img/projects/axa-center/plumbing_fire-0.png" 
              alt="AXA Center Building Rendering" 
              class="visualization-img"
              loading="lazy">
