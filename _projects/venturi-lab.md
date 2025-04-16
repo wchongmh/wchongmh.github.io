@@ -11,8 +11,8 @@ importance: 2
 
   <!-- Project Header -->
   <header class="project-header">
-    <h1 class="project-title">Venturi Nozzle Laboratory Measurements</h1>
-    <p class="project-subtitle">Glasgow Caledonian University</p>
+    <h1 class="project-title">Venturi Nozzle Flow Measurement</h1>
+    <p class="project-subtitle">Laboratory Experiment - Glasgow Caledonian University</p>
     <div class="project-meta">
       <span class="badge">Fluid Dynamics</span>
       <span class="tech-tags">
@@ -23,27 +23,48 @@ importance: 2
     </div>
   </header>
 
-  <!-- Project Context -->
+  <div class="project-visualization">
+    <div class="visualization-description">
+      <p>The laboratory experiment investigated flow rate measurement using Bernoulli's principle with a Venturi nozzle. The HM 150.13 module provided precise pressure differential measurements across the constricted flow path.</p>
+    </div>
+    <div class="visualization-images">
+      <div class="visualization-card">
+        <img src="/assets/img/projects/lab/venturi_setup-1.jpg" 
+             alt="Venturi Nozzle Laboratory Setup" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">HM 150.13 experimental setup</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/lab/venturi_diagram-1.jpg" 
+             alt="Venturi Nozzle Schematic" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Venturi nozzle pressure curve</p>
+      </div>
+    </div>
+  </div>
+  
   <div class="project-context">
-    <p>This laboratory experiment conducted on 6th April 2023 evaluated the accuracy of Venturi nozzle flow measurements using the HM 150.13 module. The study focused on determining flow rates through pressure differential analysis while validating Bernoulli's principle in constrained fluid flow conditions.</p>
+    <p>This experiment conducted on 6th April 2023 evaluated the accuracy of Venturi nozzle flow measurement for Building Services Engineering applications. The study included four measurement trials with comprehensive hydraulic calculations to determine discharge coefficients and validate Bernoulli's equation.</p>
   </div>
 
-  <!-- Project Overview Section -->
+  <!-- Experiment Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
-      Experimental Overview
+      <span class="section-number">1</span>
+      Experiment Overview
     </h2>
     
     <div class="project-description">
-      <p>The investigation utilized a Venturi nozzle with 338mm² inlet and 84mm² throat areas to measure water flow rates at 20°C. Four measurements were taken with varying flow conditions, analyzing pressure differentials, velocities, and discharge coefficients to evaluate measurement accuracy.</p>
+      <p>The investigation employed a Venturi nozzle with an inlet area of 338 mm², narrowing to 84 mm² at the throat, to measure water flow rates at 20 °C. Pressure readings were recorded at three key locations using the manometer system of the HM 150.13 module. Water flow rates were regulated within the range of 0.00031 to 0.00042 m³/s.</p>
     </div>
     
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/lab/venturi_setup.jpg" 
-               alt="Venturi Nozzle Laboratory Setup" 
+          <img src="/assets/img/projects/lab/venturi_technical-1.jpg" 
+               alt="Venturi Nozzle Technical Specifications" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -52,14 +73,14 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">HM 150.13 module with Venturi nozzle experimental setup</span>
+          <span class="image-desc">HM 150.13 module technical specifications</span>
         </div>
       </div>
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/lab/venturi_diagram.png" 
-               alt="Venturi Nozzle Pressure Curve" 
+          <img src="/assets/img/projects/lab/venturi_calculation-1.jpg" 
+               alt="Sample Calculation Sheet" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -68,39 +89,109 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Pressure curve in a Venturi nozzle (Bernoulli's principle)</span>
+          <span class="image-desc">Sample hydraulic calculation worksheet</span>
         </div>
       </div>
     </div>
     
     <div class="key-specs">
-      <h3 class="specs-title">Experimental Parameters</h3>
+      <h3 class="specs-title">Key Experimental Parameters</h3>
       <div class="specs-grid">
         <div class="spec-item">
-          <span class="spec-value">4</span>
-          <span class="spec-label">Measurement Trials</span>
-        </div>
-        <div class="spec-item">
           <span class="spec-value">338→84mm²</span>
-          <span class="spec-label">Nozzle Area Transition</span>
+          <span class="spec-label">Area Reduction</span>
         </div>
         <div class="spec-item">
-          <span class="spec-value">20°C</span>
-          <span class="spec-label">Water Temperature</span>
+          <span class="spec-value">4°</span>
+          <span class="spec-label">Outlet Angle</span>
         </div>
         <div class="spec-item">
           <span class="spec-value">998.2 kg/m³</span>
           <span class="spec-label">Water Density</span>
         </div>
+        <div class="spec-item">
+          <span class="spec-value">4</span>
+          <span class="spec-label">Measurement Trials</span>
+        </div>
       </div>
     </div>
+  </section>
+
+  <!-- Equipment Section -->
+  <section class="project-section system-design">
+    <h2 class="section-header">
+      <span class="section-number">2</span>
+      Experimental Apparatus
+    </h2>
+    
+    <div class="system-intro">
+      <p>The HM 150.13 base module provided a complete laboratory station for flow measurement, incorporating a Venturi nozzle, manometer system, and flow control valves. The system measured pressure differentials up to 390mmWC with ±1% accuracy.</p>
+    </div>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+        </svg>
+        Key Components
+      </h3>
+      
+      <div class="system-types-grid">
+        <div class="system-type-card">
+          <div class="system-icon">📏</div>
+          <h5>Venturi Nozzle</h5>
+          <p>10.5° inlet / 4° outlet angles</p>
+        </div>
+        <div class="system-type-card">
+          <div class="system-icon">💧</div>
+          <h5>Manometer</h5>
+          <p>6× 0-390mmWC range</p>
+        </div>
+        <div class="system-type-card">
+          <div class="system-icon">🔄</div>
+          <h5>Flow Meter</h5>
+          <p>1700L/h capacity</p>
+        </div>
+        <div class="system-type-card">
+          <div class="system-icon">🎚️</div>
+          <h5>Control Valve</h5>
+          <p>Precision flow adjustment</p>
+        </div>
+      </div>
+      
+      <div class="technical-specs">
+        <h4 class="specs-title">Technical Specifications</h4>
+        
+        <div class="specs-accordion">
+          <details class="spec-group">
+            <summary>Venturi Nozzle</summary>
+            <ul>
+              <li>Inlet area: 338mm² (0.000338m²)</li>
+              <li>Throat area: 84mm² (0.000084m²)</li>
+              <li>Inlet angle: 10.5°</li>
+              <li>Outlet angle: 4°</li>
+            </ul>
+          </details>
+          
+          <details class="spec-group">
+            <summary>HM 150.13 Module</summary>
+            <ul>
+              <li>Dimensions: 1100×87×900mm</li>
+              <li>Weight: 30kg</li>
+              <li>Pressure range: 6× 0-390mmWC</li>
+              <li>Flow meter: Ø14mm orifice plate</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </article>
   </section>
 
   <!-- Methodology Section -->
   <section class="project-section methodology-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
-      Methodology
+      <span class="section-number">3</span>
+      Experimental Methodology
     </h2>
     
     <div class="methodology-intro">
@@ -147,13 +238,55 @@ importance: 2
   </section>
 
   <!-- Results Section -->
-  <section class="project-section results-section">
+  <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">4</span>
       Results & Analysis
     </h2>
     
     <div class="results-grid">
+      <div class="results-card">
+        <h3>Flow Rate Measurements</h3>
+        <div class="results-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Trial</th>
+                <th>Qa (m³/s)</th>
+                <th>Qt (m³/s)</th>
+                <th>C<sub>D</sub></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>0.00042</td>
+                <td>0.000293</td>
+                <td>1.422</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>0.00035</td>
+                <td>0.000259</td>
+                <td>1.351</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>0.00033</td>
+                <td>0.000237</td>
+                <td>1.406</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>0.00031</td>
+                <td>0.000266</td>
+                <td>1.159</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
       <div class="results-card">
         <h3>Flow Velocity Measurements</h3>
         <div class="results-table">
@@ -195,172 +328,78 @@ importance: 2
           </table>
         </div>
       </div>
-      
-      <div class="results-card">
-        <h3>Flow Rate Comparison</h3>
-        <div class="results-image">
-          <img src="/assets/img/projects/lab/flow_rate_graph.png" 
-               alt="Theoretical vs Actual Flow Rates" 
-               loading="lazy">
-          <p class="image-caption">Fig 3. Comparison of theoretical (Qt) and actual (Qa) flow rates across four trials</p>
-        </div>
-      </div>
     </div>
     
     <div class="key-findings">
       <h3>Key Findings</h3>
       <ul>
-        <li>Discharge coefficients (C<sub>D</sub>) ranged from 1.159 to 1.422 across trials</li>
-        <li>Maximum flow rate recorded: 0.00042 m³/s (Trial 1)</li>
+        <li>Linear relationship between pressure drop and flow rate confirmed</li>
         <li>Strong linear correlation between pressure differential and flow velocity (R² = 0.98)</li>
+        <li>Discharge coefficients (C<sub>D</sub>) ranged 1.159-1.422 across trials</li>
+        <li>Maximum velocity achieved: 3.485 m/s at throat</li>
+        <li>Maximum flow rate recorded: 0.00042 m³/s (Trial 1)</li>
+        <li>Measurement 1 showed highest pressure differential (9319.5-3629.7 Pa)</li>
         <li>Measurement 3 showed lowest velocity values (u₁=0.701 m/s)</li>
       </ul>
+    </div>
+
+    <div class="results-graphs">
+      <div class="graph-card">
+        <img src="/assets/img/projects/lab/flow_rate_graph.jpg" 
+             alt="Theoretical vs Actual Flow Rate" 
+             class="graph-image"
+             loading="lazy">
+        <p class="graph-caption">Fig 3. Theoretical vs actual flow rate correlation</p>
+      </div>
+      <div class="graph-card">
+        <img src="/assets/img/projects/lab/discharge_coeff_graph.jpg" 
+             alt="Discharge Coefficient Trends" 
+             class="graph-image"
+             loading="lazy">
+        <p class="graph-caption">Fig 4. Discharge coefficient variation across trials</p>
+      </div>
     </div>
   </section>
 
   <!-- Conclusion Section -->
-  <section class="project-section conclusion-section">
+  <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
-      Conclusion
+      <span class="section-number">5</span>
+      Conclusions
     </h2>
     
     <div class="conclusion-content">
       <div class="conclusion-text">
+        <h3>Experimental Validation</h3>
         <p>The experiment validated Venturi nozzle effectiveness for flow measurement, with discharge coefficients consistently exceeding 1.0 due to compressibility effects. The HM 150.13 module demonstrated reliable performance in capturing pressure differentials and calculating flow parameters.</p>
         
-        <div class="recommendations">
-          <h3>Recommendations</h3>
-          <ul>
-            <li>Implement advanced calibration protocols for manometer zero-point adjustment</li>
-            <li>Conduct trials with varying fluid temperatures to assess density effects</li>
-            <li>Utilize laser Doppler velocimetry for validation of velocity measurements</li>
-            <li>Increase trial repetitions for enhanced statistical significance</li>
-          </ul>
-        </div>
+        <h3>Engineering Applications</h3>
+        <ul>
+          <li>Pipeline flow monitoring systems</li>
+          <li>HVAC fluid distribution networks</li>
+          <li>Industrial process control</li>
+          <li>Building services water management</li>
+        </ul>
       </div>
       
-      <div class="conclusion-image">
-        <img src="/assets/img/projects/lab/venturi_applications.jpg" 
-             alt="Industrial Venturi Applications" 
-             loading="lazy">
-        <p class="image-caption">Fig 4. Industrial applications of Venturi measurement principles</p>
+      <div class="recommendations">
+        <h3>Improvement Recommendations</h3>
+        <div class="recommendation-card">
+          <div class="rec-icon">🔧</div>
+          <p>Implement advanced calibration protocols for manometer zeroing</p>
+        </div>
+        <div class="recommendation-card">
+          <div class="rec-icon">📊</div>
+          <p>Incorporate digital pressure sensors for improved accuracy</p>
+        </div>
+        <div class="recommendation-card">
+          <div class="rec-icon">🔄</div>
+          <p>Conduct additional trials at intermediate flow rates</p>
+        </div>
       </div>
     </div>
   </section>
 </div>
-
-<style>
-/* Venturi-specific styling */
-.venturi-project {
-  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  color: #34495e;
-  line-height: 1.6;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.methodology-steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.step-item {
-  background: #f8fafc;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  border-left: 4px solid #3498db;
-}
-
-.step-number {
-  font-weight: 700;
-  color: #3498db;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-}
-
-.step-content h4 {
-  margin: 0 0 8px 0;
-  color: #2c3e50;
-}
-
-.results-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin: 25px 0;
-}
-
-.results-card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.results-table table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.results-table th, .results-table td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #e0e0e0;
-}
-
-.results-table th {
-  background: #f5f9ff;
-  font-weight: 600;
-}
-
-.key-findings {
-  background: #f0f7ff;
-  padding: 20px;
-  border-radius: 8px;
-  margin-top: 30px;
-}
-
-.key-findings ul {
-  padding-left: 20px;
-}
-
-.key-findings li {
-  margin-bottom: 8px;
-}
-
-.conclusion-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.recommendations {
-  margin-top: 25px;
-}
-
-.recommendations ul {
-  padding-left: 20px;
-}
-
-.recommendations li {
-  margin-bottom: 8px;
-}
-
-@media (max-width: 768px) {
-  .results-grid, .conclusion-content {
-    grid-template-columns: 1fr;
-  }
-  
-  .methodology-steps {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
 
 <style>
 /* Base Styles */
@@ -375,7 +414,7 @@ importance: 2
   --white: #ffffff;
 }
 
-.plumbing-project {
+.venturi-project {
   font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   color: var(--text-color);
   line-height: 1.6;
@@ -431,7 +470,7 @@ importance: 2
   align-items: center;
 }
 
-.subsection-icon, .methodology-icon {
+.subsection-icon {
   width: 24px;
   height: 24px;
   fill: var(--primary-color);
@@ -522,14 +561,14 @@ importance: 2
 }
 
 /* Image Styles */
-.image-comparison, .diagram-grid {
+.image-comparison {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   margin: 25px 0;
 }
 
-.image-card, .diagram-card {
+.image-card {
   background: var(--white);
   border-radius: 8px;
   overflow: hidden;
@@ -537,17 +576,17 @@ importance: 2
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.image-card:hover, .diagram-card:hover {
+.image-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
-.image-wrapper, .diagram-wrapper {
+.image-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.project-image, .diagram-image {
+.project-image {
   width: 100%;
   height: auto;
   display: block;
@@ -577,26 +616,19 @@ importance: 2
   color: white;
 }
 
-.image-meta, .diagram-meta {
+.image-meta {
   padding: 15px;
   background: var(--white);
 }
 
-.image-fig, .diagram-fig {
+.image-fig {
   font-weight: 600;
   color: var(--primary-color);
   margin-right: 8px;
 }
 
-.image-desc, .diagram-desc {
+.image-desc {
   color: var(--dark-gray);
-}
-
-.diagram-label {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: var(--secondary-color);
 }
 
 /* Key Specs */
@@ -641,102 +673,7 @@ importance: 2
   color: var(--dark-gray);
 }
 
-/* Highlights Section */
-.project-highlights {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
-}
-
-.highlight-card {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.highlight-icon {
-  font-size: 1.5rem;
-  margin-right: 12px;
-}
-
-.highlight-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.highlight-value {
-  font-weight: 700;
-  color: var(--primary-color);
-  font-size: 1.2rem;
-}
-
-.highlight-label {
-  font-size: 0.8rem;
-  color: var(--dark-gray);
-}
-
-/* Facilities Overview */
-.facilities-overview {
-  margin-bottom: 25px;
-}
-
-.facilities-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin-top: 15px;
-}
-
-.facility-item {
-  background: white;
-  border-radius: 8px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.facility-icon {
-  font-size: 1.8rem;
-  margin-bottom: 8px;
-}
-
-.facility-name {
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-.facility-detail {
-  font-size: 0.85rem;
-  color: var(--dark-gray);
-}
-
-/* Water Supply System */
-.water-supply-system {
-  background: #f8fbfe;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.system-details {
-  margin-bottom: 25px;
-}
-
-.system-features {
-  padding-left: 20px;
-}
-
-.system-features li {
-  margin-bottom: 8px;
-}
-
+/* System Types Grid */
 .system-types-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -765,12 +702,6 @@ importance: 2
 /* Technical Specifications */
 .technical-specs {
   margin-top: 30px;
-}
-
-.specs-title {
-  font-size: 1.2rem;
-  color: var(--secondary-color);
-  margin-bottom: 15px;
 }
 
 .specs-accordion {
@@ -819,194 +750,6 @@ importance: 2
   margin-bottom: 8px;
 }
 
-/* System Arrangement */
-.system-arrangement {
-  margin: 30px 0;
-}
-
-.arrangement-image {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.arrangement-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.arrangement-caption {
-  padding: 12px 15px;
-  background: var(--light-gray);
-  font-size: 0.9rem;
-}
-
-.arrangement-fig {
-  font-weight: 600;
-  color: var(--primary-color);
-  margin-right: 8px;
-}
-
-.arrangement-notes {
-  background: #f0f7ff;
-  padding: 15px;
-  border-radius: 6px;
-  margin-top: 15px;
-  font-size: 0.95rem;
-}
-
-/* Calculation Tabs */
-.calculation-tabs {
-  margin-top: 20px;
-}
-
-.tab-buttons {
-  display: flex;
-  border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 20px;
-}
-
-.tab-button {
-  padding: 10px 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  color: var(--dark-gray);
-  position: relative;
-}
-
-.tab-button.active {
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-.tab-button.active:after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--primary-color);
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-.consumption-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
-}
-
-.consumption-item {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.consumption-value {
-  display: block;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 5px;
-}
-
-.consumption-label {
-  font-size: 0.9rem;
-  color: var(--dark-gray);
-}
-
-/* Calculations Gallery */
-.calculation-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin: 25px 0;
-}
-
-.calculation-item {
-  border-radius: 8px;
-  overflow: hidden;
-  position: relative;
-}
-
-.calc-image-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.calc-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-.calc-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(46, 64, 83, 0.8);
-  color: white;
-  padding: 12px;
-  transform: translateY(100%);
-  transition: transform 0.3s ease;
-}
-
-.calculation-item:hover .calc-overlay {
-  transform: translateY(0);
-}
-
-.calculation-item:hover .calc-image {
-  transform: scale(1.05);
-}
-
-.calc-title {
-  font-weight: 500;
-  font-size: 0.95rem;
-}
-
-.calc-detail {
-  display: block;
-  font-size: 0.85rem;
-  margin-top: 5px;
-  opacity: 0.9;
-}
-
-.calculation-summary {
-  background: #f9f9f9;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-.summary-title {
-  font-size: 1.2rem;
-  color: var(--secondary-color);
-  margin-bottom: 15px;
-}
-
-.safety-factors {
-  padding-left: 20px;
-}
-
-.safety-factors li {
-  margin-bottom: 8px;
-}
-
 /* Methodology Steps */
 .methodology-steps {
   display: grid;
@@ -1018,232 +761,166 @@ importance: 2
 .step-item {
   background: var(--white);
   border-radius: 8px;
-  overflow: hidden;
+  padding: 20px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
 .step-number {
-  background: var(--primary-color);
-  color: white;
-  padding: 8px 12px;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
-.step-image {
-  padding: 10px;
+.step-content h4 {
+  margin: 10px 0 5px;
+  color: var(--secondary-color);
 }
 
-.step-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
+/* Results Section */
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 25px 0;
 }
 
-.methodology-conclusion {
-  background: #f5fbf5;
+.results-card {
+  background: white;
   border-radius: 8px;
   padding: 20px;
-  margin-top: 30px;
-  border-left: 4px solid #2ecc71;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
-.conclusion-title {
-  font-size: 1.2rem;
-  color: #27ae60;
-  margin-bottom: 15px;
+.results-table table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Supplementary Information */
-.supplementary-section {
-  background: #f9f9f9;
-  padding: 30px;
+.results-table th, .results-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.results-table th {
+  background: #f5f9ff;
+}
+
+.key-findings {
+  background: #f8fafc;
   border-radius: 8px;
-  margin-top: 40px;
+  padding: 20px;
+  margin: 25px 0;
 }
 
-.supplementary-grid {
+.key-findings h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+.key-findings ul {
+  padding-left: 20px;
+}
+
+.key-findings li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.key-findings li:before {
+  content: "•";
+  color: var(--primary-color);
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
+
+.results-graphs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-  margin-top: 25px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.supplementary-card {
+.graph-card {
   background: white;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
-.supplementary-title {
-  background: var(--primary-color);
-  color: white;
-  padding: 15px;
-  font-size: 1.2rem;
-}
-
-.supplementary-image {
-  padding: 15px;
-}
-
-.supplementary-img {
+.graph-image {
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  display: block;
 }
 
-.supplementary-content {
-  padding: 0 15px 15px;
-}
-
-.supplementary-content ul {
-  padding-left: 20px;
-}
-
-.supplementary-content li {
-  margin-bottom: 8px;
-}
-
-/* Recommendations */
-.recommendations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-}
-
-.recommendation-card {
-  background: white;
-  border-radius: 8px;
-  padding: 25px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.rec-icon {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.recommendation-card h3 {
-  color: var(--secondary-color);
-  margin-bottom: 15px;
-}
-
-.recommendation-card ul {
-  padding-left: 20px;
-}
-
-.recommendation-card li {
-  margin-bottom: 8px;
-}
-
-/* Reflection Section */
-.reflection-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.reflection-text {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.skill-development {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 15px;
-}
-
-.skill-category h4 {
-  color: var(--secondary-color);
-  margin-bottom: 10px;
-}
-
-.skill-category ul {
-  padding-left: 20px;
-}
-
-.skill-category li {
-  margin-bottom: 6px;
-  font-size: 0.95rem;
-}
-
-.project-outcome {
-  background: #f0f7ff;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
-}
-
-.reflection-image {
-  display: flex;
-  flex-direction: column;
-}
-
-.reflection-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.image-caption {
-  margin-top: 10px;
+.graph-caption {
+  padding: 10px 15px;
   font-size: 0.9rem;
   color: var(--dark-gray);
   text-align: center;
 }
 
+/* Conclusion Section */
+.conclusion-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.conclusion-text h3 {
+  color: var(--secondary-color);
+  margin-top: 0;
+}
+
+.conclusion-text ul {
+  padding-left: 20px;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recommendation-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rec-icon {
+  font-size: 1.5rem;
+}
+
 /* Responsive Design */
-@media (max-width: 992px) {
-  .reflection-content {
+@media (max-width: 768px) {
+  .results-grid,
+  .results-graphs,
+  .conclusion-content {
     grid-template-columns: 1fr;
   }
   
-  .reflection-image {
-    order: -1;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .project-title {
-    font-size: 1.9rem;
+  .image-comparison {
+    grid-template-columns: 1fr;
   }
   
   .section-header {
     font-size: 1.6rem;
   }
   
-  .image-comparison, .diagram-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-highlights {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .system-types-grid {
-    grid-template-columns: 1fr 1fr;
+  .project-title {
+    font-size: 1.9rem;
   }
 }
 
 @media (max-width: 576px) {
-  .plumbing-project {
+  .venturi-project {
     padding: 0 15px;
   }
   
@@ -1253,98 +930,31 @@ importance: 2
   
   .section-header {
     font-size: 1.4rem;
-    margin: 30px 0 20px;
-  }
-  
-  .calculation-gallery, .methodology-steps {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-meta {
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .project-highlights {
-    grid-template-columns: 1fr;
   }
   
   .system-types-grid {
     grid-template-columns: 1fr;
   }
   
-  .tab-buttons {
-    flex-direction: column;
-    border-bottom: none;
-  }
-  
-  .tab-button {
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .tab-button.active:after {
-    display: none;
+  .methodology-steps {
+    grid-template-columns: 1fr;
   }
 }
 </style>
 
 <script>
 // Simple tab functionality
-document.querySelectorAll('.tab-button').forEach(button => {
-  button.addEventListener('click', () => {
-    const tabId = button.getAttribute('data-tab');
-    
-    // Remove active class from all buttons and content
-    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-    
-    // Add active class to clicked button and corresponding content
-    button.classList.add('active');
-    document.getElementById(tabId).classList.add('active');
-  });
-});
-
-// Accordion functionality
-document.querySelectorAll('.spec-group').forEach(details => {
-  details.addEventListener('toggle', () => {
-    if (details.open) {
-      details.style.backgroundColor = '#f5f9ff';
-    } else {
-      details.style.backgroundColor = '';
-    }
-  });
-});
-</script>
-
-<script>
-// Simple image zoom functionality
-document.querySelectorAll('.image-wrapper').forEach(wrapper => {
-  wrapper.addEventListener('click', () => {
-    const imgSrc = wrapper.querySelector('img').src;
-    const overlay = document.createElement('div');
-    overlay.style.position = 'fixed';
-    overlay.style.top = '0';
-    overlay.style.left = '0';
-    overlay.style.right = '0';
-    overlay.style.bottom = '0';
-    overlay.style.backgroundColor = 'rgba(0,0,0,0.9)';
-    overlay.style.display = 'flex';
-    overlay.style.alignItems = 'center';
-    overlay.style.justifyContent = 'center';
-    overlay.style.zIndex = '1000';
-    overlay.style.cursor = 'zoom-out';
-    
-    const zoomedImg = document.createElement('img');
-    zoomedImg.src = imgSrc;
-    zoomedImg.style.maxHeight = '90vh';
-    zoomedImg.style.maxWidth = '90vw';
-    zoomedImg.style.objectFit = 'contain';
-    
-    overlay.appendChild(zoomedImg);
-    document.body.appendChild(overlay);
-    
-    overlay.addEventListener('click', () => {
-      document.body.removeChild(overlay);
+document.addEventListener('DOMContentLoaded', function() {
+  // Accordion functionality
+  const accordions = document.querySelectorAll('.spec-group');
+  
+  accordions.forEach(acc => {
+    acc.addEventListener('toggle', function() {
+      if (this.open) {
+        this.style.backgroundColor = '#f5f9ff';
+      } else {
+        this.style.backgroundColor = '';
+      }
     });
   });
 });
