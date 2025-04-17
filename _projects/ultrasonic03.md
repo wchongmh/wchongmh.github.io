@@ -2,7 +2,7 @@
 title: "Ultrasonic Flow Rate Measurements - GCU Plant Room"
 category: Research
 description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology."
-tech: [Ultrasonic Flow Meters, Heat Transfer Analysis, Data Logging, Hydronic Systems, HVAC Monitoring]
+tech: [Ultrasonic Flowmetry, Heat Transfer Analysis, Data Logging, Hydronic Systems, HVAC Monitoring]
 image: /assets/img/projects/gcu-plant-room/ultrasonic_flow-1.png
 importance: 2
 ---
@@ -14,7 +14,7 @@ importance: 2
     <h1 class="report-title">Ultrasonic Flow Rate Measurement</h1>
     <p class="report-subtitle">Glasgow Caledonian University Plant Room</p>
     <div class="report-meta">
-      <span class="badge">Ultrasonic Flowmetry</span>
+      <span class="badge">Ultrasonic Flow Meters</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
