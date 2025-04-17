@@ -2,8 +2,8 @@
 title: "Pressure Loss Analysis in Piping Systems"
 category: Research
 description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University"
-tech: [Pressure Measurement, Fluid Dynamics, HM 150.11 Module, Hydraulic Calculations, Data Analysis]
-image: /assets/img/projects/lab/pressure-drop-1.jpg
+tech: [Pressure Measurement, Fluid Dynamics, HM 150.11 Module, Pipe Systems, Hydraulic Analysis, Laboratory Testing]
+image: /assets/img/projects/lab/pressure_drop-1.jpg
 importance: 2
 ---
 
@@ -12,9 +12,9 @@ importance: 2
   <!-- Project Header -->
   <header class="project-header">
     <h1 class="project-title">Pressure Loss Analysis in Piping Systems02</h1>
-    <p class="project-subtitle">Casework and Engineering Laboratory - 22/23 B</p>
+    <p class="project-subtitle">Glasgow Caledonian University Laboratory</p>
     <div class="project-meta">
-      <span class="badge">Laboratory Reports</span>
+      <span class="badge">Fluid Mechanics</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
@@ -46,18 +46,18 @@ importance: 2
   </div>
   
   <div class="project-context">
-    <p>This laboratory investigation conducted on 30th March 2023 examined pressure losses in a closed-loop piping system containing elbows, reducers, tees, and straight pipe sections. The study provides critical data for optimizing fluid systems in building services engineering applications.</p>
+    <p>This comprehensive study investigates pressure losses within a closed-loop piping system, focusing on key components such as elbows, reducers, tees, and straight pipe sections. Conducted on March 30, 2023, the research delivers essential data to support the efficient design and operation of fluid systems, particularly in building services engineering applications.</p>
   </div>
 
   <!-- Introduction Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
-      Introduction
+      <span class="section-number">1</span>
+      Experimental Setup
     </h2>
     
     <div class="project-description">
-      <p>The experiment analyzed pressure losses in a 1-inch diameter steel piping system using the HM 150.11 module. Pressure gauges measured drops across components while a magnetic flow meter recorded flow rates from 0.2 to 2 m/s. This data helps engineers design more efficient fluid systems by quantifying component-specific resistance.</p>
+      <p>The HM 150.11 module features a 10-meter closed-loop system with 1-inch diameter steel pipes, centrifugal pump, magnetic flow meter, and various piping components. Pressure gauges were strategically placed before and after each component to measure localized pressure drops.</p>
     </div>
     
     <div class="image-comparison">
@@ -107,16 +107,37 @@ importance: 2
         </div>
         <div class="spec-item">
           <span class="spec-value">0.2-2 m/s</span>
-          <span class="spec-label">Flow Range</span>
+          <span class="spec-label">Flow Velocity Range</span>
         </div>
         <div class="spec-item">
           <span class="spec-value">20°C</span>
           <span class="spec-label">Water Temp</span>
         </div>
       </div>
+
+      <div class="key-specs">
+      <h3 class="specs-title">Experimental Parameters</h3>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <span class="spec-value">998.3 kg/m³</span>
+          <span class="spec-label">Water Density</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">0.1 bar"</span>
+          <span class="spec-label">Pressure Range</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">0.25-0.367 L/s</span>
+          <span class="spec-label">Flow Rate Range</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">5</span>
+          <span class="spec-label">Test Cases</span>
+        </div>
+      </div>
     </div>
   </section>
-
+  
   <!-- Laboratory Setup Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
