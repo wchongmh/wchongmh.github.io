@@ -1,5 +1,5 @@
 ---
-title: "Pressure Loss Analysis in Piping Systems"
+title: "Pressure Loss Analysis in Piping Systems03"
 category: Research
 description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University."
 tech: [HM 150.11 Module, Hydraulic Calculations, Pressure Drop Coefficients, Fluid Dynamics, Data Analysis]
