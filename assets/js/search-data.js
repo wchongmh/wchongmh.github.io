@@ -507,12 +507,12 @@ ninja.data = [{
           title: 'Ultrasonic Flow Rate Measurements - GCU Plant Room',
           description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ultrasonic02/";
+              window.location.href = "/projects/ultrasonic-flow/";
             },},{id: "projects-ultrasonic-flow-rate-measurements-gcu-plant-room",
           title: 'Ultrasonic Flow Rate Measurements - GCU Plant Room',
           description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ultrasonic03/";
+              window.location.href = "/projects/ultrasonic02/";
             },},{id: "projects-venturi-nozzle-flow-measurement-analysis",
           title: 'Venturi Nozzle Flow Measurement Analysis',
           description: "Experimental analysis of flow rate measurement using Venturi nozzle principles at Glasgow Caledonian University",
