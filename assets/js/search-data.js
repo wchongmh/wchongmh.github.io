@@ -478,8 +478,8 @@ ninja.data = [{
           description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai",
           section: "Projects",handler: () => {
               window.location.href = "/projects/plumbing-fire/";
-            },},{id: "projects-pressure-loss-analysis-in-piping-systems",
-          title: 'Pressure Loss Analysis in Piping Systems',
+            },},{id: "projects-pressure-loss-analysis-in-piping-systems01",
+          title: 'Pressure Loss Analysis in Piping Systems01',
           description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pressure-drop/";
