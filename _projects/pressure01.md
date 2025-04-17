@@ -11,7 +11,7 @@ importance: 2
 
   <!-- Project Header -->
   <header class="project-header">
-    <h1 class="project-title">Pressure Loss Analysis in Piping Systems02</h1>
+    <h1 class="project-title">Pressure Loss Analysis in Piping Systems</h1>
     <p class="project-subtitle">Glasgow Caledonian University Laboratory Analysis</p>
     <div class="project-meta">
       <span class="badge">Fluid Mechanics</span>
@@ -114,8 +114,9 @@ importance: 2
           <span class="spec-label">Water Temp</span>
         </div>
       </div>
+    </div>
 
-      <div class="key-specs">
+    <div class="key-specs">
       <h3 class="specs-title">Experimental Parameters</h3>
       <div class="specs-grid">
         <div class="spec-item">
@@ -263,36 +264,37 @@ importance: 2
       </h3>
       
       <div class="methodology-intro">
-      <p>The experimental procedure followed a rigorous three-phase approach to ensure accurate measurement of pressure drops across various piping components under controlled flow conditions.</p>
-    </div>
+        <p>The experimental procedure followed a rigorous three-phase approach to ensure accurate measurement of pressure drops across various piping components under controlled flow conditions.</p>
+      </div>
     
-    <div class="methodology-steps">
-      <div class="step-item">
-        <div class="step-number">Step 1</div>
-        <div class="step-content">
-          <h4>System Preparation</h4>
-          <p>Assembled piping system with all components and calibrated measurement instruments. Filled system with water at 20°C (ρ=998.2 kg/m³).</p>
+      <div class="methodology-steps">
+        <div class="step-item">
+          <div class="step-number">Step 1</div>
+          <div class="step-content">
+            <h4>System Preparation</h4>
+            <p>Assembled piping system with all components and calibrated measurement instruments. Filled system with water at 20°C (ρ=998.2 kg/m³).</p>
+          </div>
         </div>
-      </div>
-      <div class="step-item">
-        <div class="step-number">Step 2</div>
-        <div class="step-content">
-          <h4>Flow Rate Adjustment</h4>
-          <p>Gradually increased flow rate from 0.2 to 2 m/s using variable frequency drive, maintaining steady-state conditions at each increment.</p>
+        <div class="step-item">
+          <div class="step-number">Step 2</div>
+          <div class="step-content">
+            <h4>Flow Rate Adjustment</h4>
+            <p>Gradually increased flow rate from 0.2 to 2 m/s using variable frequency drive, maintaining steady-state conditions at each increment.</p>
+          </div>
         </div>
-      </div>
-      <div class="step-item">
-        <div class="step-number">Step 3</div>
-        <div class="step-content">
-          <h4>Data Collection</h4>
-          <p>Recorded pressure differentials across each component and corresponding flow rates using magnetic flow meter and pressure gauges.</p>
+        <div class="step-item">
+          <div class="step-number">Step 3</div>
+          <div class="step-content">
+            <h4>Data Collection</h4>
+            <p>Recorded pressure differentials across each component and corresponding flow rates using magnetic flow meter and pressure gauges.</p>
+          </div>
         </div>
-      </div>
-      <div class="step-item">
-        <div class="step-number">Step 4</div>
-        <div class="step-content">
-          <h4>Data Analysis</h4>
-          <p>Calculated local pressure drops using: Δp<sub>M</sub> = (ρv²)/2 and determined resistance coefficients for each component.</p>
+        <div class="step-item">
+          <div class="step-number">Step 4</div>
+          <div class="step-content">
+            <h4>Data Analysis</h4>
+            <p>Calculated local pressure drops using: Δp<sub>M</sub> = (ρv²)/2 and determined resistance coefficients for each component.</p>
+          </div>
         </div>
       </div>
     </article>
@@ -338,6 +340,7 @@ importance: 2
           </ul>
         </div>
       </div>
+    </div>
     
     <article class="design-subsection calculations">
       <h3 class="subsection-header">
@@ -436,7 +439,7 @@ importance: 2
       </div>
     </div>
     
-   <div class="equation-box">
+    <div class="equation-box">
       <h3>Local Pressure Drop Calculation</h3>
       <div class="equation">
         Δp<sub>M</sub> = ζ × ½ρV<sup>2</sup>
@@ -491,42 +494,42 @@ importance: 2
     </h2>
 
     <div class="conclusion-content">
-      <div class="conclusion-text">
-        <p>The experiment successfully quantified pressure losses in various piping components, providing valuable data for fluid system design. The HM 150.11 module proved effective for precise measurements, though several improvements could enhance future studies:</p>
+      <p>The experiment successfully quantified pressure losses in various piping components, providing valuable data for fluid system design. The HM 150.11 module proved effective for precise measurements, though several improvements could enhance future studies:</p>
     
-    <div class="recommendations-grid">
-      <div class="recommendation-card">
-        <div class="rec-icon">📊</div>
-        <h3>Experimental Summary</h3>
-        <ul>
-          <li>Control valves account for 45-60% of total system pressure drop</li>
-          <li>Elbows contribute significantly to energy losses in piping networks</li>
-          <li>Straight pipe sections show minimal pressure loss</li>
-          <li>Experimental data validates theoretical predictions</li>
-        </ul>
-      </div>
-      
-      <div class="recommendation-card">
-        <div class="rec-icon">🛠️</div>
-        <h3>Design Implications</h3>
-        <ul>
-          <li>Minimize unnecessary fittings in high-flow systems</li>
-          <li>Consider gradual diameter changes instead of sudden transitions</li>
-          <li>Proper valve selection critical for energy efficiency</li>
-          <li>Accurate ζ values enable better pump sizing</li>
-        </ul>
-      </div>
-      
-      <div class="recommendation-card">
-        <div class="rec-icon">💻</div>
-        <h3>Future Enhancements</h3>
-        <ul>
-          <li>Incorporate ultrasonic flow measurement</li>
-          <li>Test with variable fluid viscosities</li>
-          <li>Integrate with CFD software for simulation-experiment correlation</li>
-          <li>Incorporate machine learning for real-time flow prediction</li>
-          <li>Expand component library (e.g., different valve types)</li>
-        </ul>
+      <div class="recommendations-grid">
+        <div class="recommendation-card">
+          <div class="rec-icon">📊</div>
+          <h3>Experimental Summary</h3>
+          <ul>
+            <li>Control valves account for 45-60% of total system pressure drop</li>
+            <li>Elbows contribute significantly to energy losses in piping networks</li>
+            <li>Straight pipe sections show minimal pressure loss</li>
+            <li>Experimental data validates theoretical predictions</li>
+          </ul>
+        </div>
+        
+        <div class="recommendation-card">
+          <div class="rec-icon">🛠️</div>
+          <h3>Design Implications</h3>
+          <ul>
+            <li>Minimize unnecessary fittings in high-flow systems</li>
+            <li>Consider gradual diameter changes instead of sudden transitions</li>
+            <li>Proper valve selection critical for energy efficiency</li>
+            <li>Accurate ζ values enable better pump sizing</li>
+          </ul>
+        </div>
+        
+        <div class="recommendation-card">
+          <div class="rec-icon">💻</div>
+          <h3>Future Enhancements</h3>
+          <ul>
+            <li>Incorporate ultrasonic flow measurement</li>
+            <li>Test with variable fluid viscosities</li>
+            <li>Integrate with CFD software for simulation-experiment correlation</li>
+            <li>Incorporate machine learning for real-time flow prediction</li>
+            <li>Expand component library (e.g., different valve types)</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -534,7 +537,7 @@ importance: 2
   <!-- References Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">6</span>
       References
     </h2>
     
@@ -561,7 +564,7 @@ importance: 2
   --white: #ffffff;
 }
 
-.plumbing-project {
+.pressure-drop-report {
   font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   color: var(--text-color);
   line-height: 1.6;
@@ -1236,180 +1239,16 @@ importance: 2
   font-size: 0.9rem;
 }
 
-.step-image {
-  padding: 10px;
-}
-
-.step-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-}
-
-.methodology-conclusion {
-  background: #f5fbf5;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 30px;
-  border-left: 4px solid #2ecc71;
-}
-
-.conclusion-title {
-  font-size: 1.2rem;
-  color: #27ae60;
-  margin-bottom: 15px;
-}
-
-/* Supplementary Information */
-.supplementary-section {
-  background: #f9f9f9;
-  padding: 30px;
-  border-radius: 8px;
-  margin-top: 40px;
-}
-
-.supplementary-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-  margin-top: 25px;
-}
-
-.supplementary-card {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.supplementary-title {
-  background: var(--primary-color);
-  color: white;
-  padding: 15px;
-  font-size: 1.2rem;
-}
-
-.supplementary-image {
+.step-content {
   padding: 15px;
 }
 
-.supplementary-img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-.supplementary-content {
-  padding: 0 15px 15px;
-}
-
-.supplementary-content ul {
-  padding-left: 20px;
-}
-
-.supplementary-content li {
-  margin-bottom: 8px;
-}
-
-/* Recommendations */
-.recommendations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-}
-
-.recommendation-card {
-  background: white;
-  border-radius: 8px;
-  padding: 25px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.rec-icon {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.recommendation-card h3 {
+.step-content h4 {
+  margin-top: 0;
   color: var(--secondary-color);
-  margin-bottom: 15px;
 }
 
-.recommendation-card ul {
-  padding-left: 20px;
-}
-
-.recommendation-card li {
-  margin-bottom: 8px;
-}
-
-/* Reflection Section */
-.reflection-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.reflection-text {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.skill-development {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 15px;
-}
-
-.skill-category h4 {
-  color: var(--secondary-color);
-  margin-bottom: 10px;
-}
-
-.skill-category ul {
-  padding-left: 20px;
-}
-
-.skill-category li {
-  margin-bottom: 6px;
-  font-size: 0.95rem;
-}
-
-.project-outcome {
-  background: #f0f7ff;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
-}
-
-.reflection-image {
-  display: flex;
-  flex-direction: column;
-}
-
-.reflection-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.image-caption {
-  margin-top: 10px;
-  font-size: 0.9rem;
-  color: var(--dark-gray);
-  text-align: center;
-}
-
+/* Results Section */
 .results-highlight {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1437,6 +1276,40 @@ importance: 2
   color: #7f8c8d;
 }
 
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.results-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.results-image {
+  padding: 15px;
+}
+
+.results-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.results-content {
+  padding: 0 20px 20px;
+}
+
+.results-content ul {
+  padding-left: 20px;
+}
+
+/* Insights Grid */
 .insights-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1451,10 +1324,52 @@ importance: 2
 }
 
 .insight-card h3 {
-  color: #2c3e50;
+  color: var(--secondary-color);
   margin-bottom: 15px;
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 8px;
+}
+
+/* Recommendations */
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.rec-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.recommendation-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.recommendation-card ul {
+  padding-left: 20px;
+}
+
+.recommendation-card li {
+  margin-bottom: 8px;
+}
+
+/* References */
+.references-list {
+  padding-left: 20px;
+}
+
+.references-list li {
+  margin-bottom: 10px;
 }
 
 /* Responsive Design */
@@ -1496,7 +1411,7 @@ importance: 2
 }
 
 @media (max-width: 576px) {
-  .plumbing-project {
+  .pressure-drop-report {
     padding: 0 15px;
   }
   
