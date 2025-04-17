@@ -978,4 +978,342 @@ importance: 2
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
-  margin
+  margin: 20px 0;
+}
+
+.highlight-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-value {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.highlight-label {
+  font-size: 0.8rem;
+  color: var(--dark-gray);
+}
+
+.results-graphs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.graph-container {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.graph-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.graph-analysis {
+  padding: 10px 15px;
+  background: #f9f9f9;
+  font-size: 0.85rem;
+}
+
+.data-table {
+  margin: 30px 0;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.data-table th {
+  background: var(--primary-color);
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.data-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.key-findings {
+  background: #f0f7ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.key-findings h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+/* Analysis Section */
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.analysis-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.analysis-card h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+/* Technology Comparison */
+.technology-comparison {
+  margin: 40px 0;
+}
+
+.comparison-table {
+  overflow-x: auto;
+}
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.comparison-table th {
+  background: var(--primary-color);
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.comparison-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.technology-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tech-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.tech-card.highlight {
+  border: 2px solid var(--secondary-color);
+  transform: scale(1.05);
+}
+
+.tech-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Conclusions Section */
+.conclusion-content {
+  background: #f5fbf5;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  border-left: 4px solid #2ecc71;
+}
+
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.rec-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.implementation-notes {
+  background: #f0f7ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.implementation-notes ul {
+  padding-left: 20px;
+}
+
+.implementation-notes li {
+  margin-bottom: 10px;
+}
+
+.conclusion-image {
+  margin-top: 30px;
+}
+
+.conclusion-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* References Section */
+.references-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.reference-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.reference-card h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+.reference-card ul {
+  padding-left: 20px;
+}
+
+.reference-card li {
+  margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .report-title {
+    font-size: 1.9rem;
+  }
+  
+  .report-subtitle {
+    font-size: 1.3rem;
+  }
+  
+  .section-header {
+    font-size: 1.6rem;
+  }
+  
+  .visualization-images, .equipment-grid, .results-graphs, 
+  .analysis-grid, .recommendations-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .methodology-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .flow-measurement-report {
+    padding: 15px;
+  }
+  
+  .report-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-header {
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .specs-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add animation to methodology steps
+  const steps = document.querySelectorAll('.step-item');
+  steps.forEach((step, index) => {
+    step.style.opacity = '0';
+    step.style.transform = 'translateY(20px)';
+    step.style.transition = `all 0.5s ease ${index * 0.1}s`;
+    
+    setTimeout(() => {
+      step.style.opacity = '1';
+      step.style.transform = 'translateY(0)';
+    }, 500);
+  });
+  
+  // Add hover effects to equipment cards
+  const equipmentCards = document.querySelectorAll('.equipment-card, .tech-card');
+  equipmentCards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+      card.style.transform = 'translateY(-5px)';
+      card.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+      card.style.boxShadow = '0 3px 10px rgba(0,0,0,0.08)';
+    });
+  });
+
+  // Highlight current section in view
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+      }
+    });
+  }, {threshold: 0.1});
+
+  document.querySelectorAll('.report-section').forEach(section => {
+    observer.observe(section);
+  });
+});
+</script>
