@@ -1,5 +1,5 @@
 ---
-title: "Pressure Loss Analysis in Piping Systems01"
+title: "Pressure Loss Analysis in Piping Systems"
 category: Research
 description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University"
 tech: [Pressure Measurement, Fluid Dynamics, HM 150.11 Module, Hydraulic Calculations, Data Analysis]
@@ -11,7 +11,7 @@ importance: 2
 
   <!-- Project Header -->
   <header class="project-header">
-    <h1 class="project-title">Pressure Loss Analysis in Piping Systems</h1>
+    <h1 class="project-title">Pressure Loss Analysis in Piping Systems01</h1>
     <p class="project-subtitle">Glasgow Caledonian University Laboratory</p>
     <div class="project-meta">
       <span class="badge">Laboratory Research</span>
