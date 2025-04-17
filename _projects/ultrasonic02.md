@@ -588,6 +588,34 @@ importance: 2
     </div>
   </section>
 
+  <!-- References Section -->
+  <section class="project-section references-section">
+    <h2 class="section-header">
+      <span class="section-number">8</span>
+      References & Equipment
+    </h2>
+    
+    <div class="references-grid">
+      <div class="reference-card">
+        <h3>Measurement Devices</h3>
+        <ul>
+          <li>Precision Flow 190PD Ultrasonic Flow Meter</li>
+          <li>Kamstrup Multical 602 Heat Meter</li>
+          <li>PT100 Temperature Sensors (Class A)</li>
+        </ul>
+      </div>
+      
+      <div class="reference-card">
+        <h3>Technical Standards</h3>
+        <ul>
+          <li>ISO 12242:2012 - Ultrasonic flow meter testing</li>
+          <li>EN 1434 - Heat meter requirements</li>
+          <li>BS 1042 - Flow measurement in closed conduits</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
 <style>
 /* Base Styles */
 :root {
@@ -1158,6 +1186,34 @@ importance: 2
   font-size: 0.9rem;
   color: var(--dark-gray);
   text-align: center;
+}
+
+/* References Section */
+.references-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.reference-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.reference-card h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+}
+
+.reference-card ul {
+  padding-left: 20px;
+}
+
+.reference-card li {
+  margin-bottom: 8px;
 }
 
 /* Responsive Design */
