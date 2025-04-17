@@ -502,7 +502,7 @@ importance: 2
         <p>Measures ΔP across restriction using Bernoulli's principle</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/hevacomp-13.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-13.png" 
              alt="Positive Displacement Flowmeter" 
              loading="lazy">
         <h3>Positive Displacement</h3>
