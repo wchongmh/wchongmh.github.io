@@ -683,6 +683,50 @@ importance: 2
   border: 1px solid var(--medium-gray);
 }
 
+.calculation-method {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.calculation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.calculation-card {
+  background: var(--white);
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-left: 3px solid var(--accent-color);
+}
+
+.calc-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.calc-formula {
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+.calc-params {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+.calc-params span {
+  display: block;
+  margin-bottom: 3px;
+}
+
 /* Project Visualization */
 .project-visualization {
   background: #f8fafc;
