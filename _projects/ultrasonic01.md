@@ -115,8 +115,7 @@ importance: 2
             <li><strong>Sensors:</strong> Paired PT100 RTDs</li>
             <li><strong>Accuracy:</strong> ±0.1°C (Class 2 per EN 1434)</li>
             <li><strong>Communication:</strong> M-Bus, Modbus (wireless)</li>
-            <li><strong>Applications:</strong> District heating/cooling</li>
-            <li><strong>Calculations:</strong> Heat energy, power, flow</li>
+            <li><strong>Applications:</strong> District heating/cooling energy, power, flow</li>
           </ul>
         </div>
       </div>
@@ -808,47 +807,41 @@ importance: 2
 }
 
 /* Equipment Section */
-.equipment-section {
-  position: relative;
-}
-
 .equipment-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;
-  margin: 25px 0;
 }
 
 .equipment-card {
-  background: white;
+  background: var(--white);
   border-radius: 8px;
-  padding: 20px;
+  overflow: hidden;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-  margin-bottom: 30px;
+}
+
+.equipment-image {
+  padding: 15px;
+  background: var(--light-gray);
+  text-align: center;
 }
 
 .equipment-image img {
-  width: 100%;
-  border-radius: 6px;
-  margin-bottom: 15px;
+  max-height: 200px;
+  width: auto;
+  border-radius: 4px;
 }
 
 .equipment-specs {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 15px;
+}
+
+.equipment-specs ul {
+  padding-left: 20px;
 }
 
 .equipment-specs li {
   margin-bottom: 8px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #eee;
-}
-
-.equipment-specs li:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
 }
 
 .pipe-specs {
