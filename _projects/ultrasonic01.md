@@ -120,7 +120,7 @@ importance: 2
           </ul>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="pipe-specs">
       <h3>Test Pipe Specifications</h3>
@@ -143,8 +143,8 @@ importance: 2
         </div>
       </div>
     </div>
-  </section>
-
+  </div>
+  
   <!-- Methodology Section -->
   <section class="report-section">
     <h2 class="section-header">
