@@ -1,0 +1,1315 @@
+---
+title: "Pressure Loss Analysis in Piping Systems"
+category: Laboratory Research
+description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University"
+tech: [Pressure Measurement, Fluid Dynamics, HM 150.11 Module, Hydraulic Calculations, Data Analysis]
+image: /assets/img/projects/lab/pressure-drop-1.jpg
+importance: 2
+---
+
+<div class="pressure-drop-project">
+
+  <!-- Project Header -->
+  <header class="project-header">
+    <h1 class="project-title">Pressure Loss Analysis in Piping Systems</h1>
+    <p class="project-subtitle">Glasgow Caledonian University Laboratory</p>
+    <div class="project-meta">
+      <span class="badge">Laboratory Research</span>
+      <span class="tech-tags">
+        {% for technology in page.tech %}
+        <span class="tech-tag">{{ technology }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </header>
+
+  <div class="project-visualization">
+    <div class="visualization-description">
+      <p>The experimental setup at Glasgow Caledonian University's Building Services Engineering lab features the HM 150.11 Losses in a Pipe System module, designed to measure pressure drops across various piping components under controlled flow conditions.</p>
+    </div>
+    <div class="visualization-images">
+      <div class="visualization-card">
+        <img src="/assets/img/projects/lab/pressure-drop-2.jpg" 
+             alt="HM 150.11 Module Overview" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">HM 150.11 experimental setup</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/lab/pressure-drop-3.jpg" 
+             alt="Pressure Measurement Points" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Pressure gauge installation points</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-context">
+    <p>This comprehensive study examines pressure losses in a closed-loop piping system, analyzing components including elbows, reducers, tees, and straight pipe sections. Conducted on March 30, 2023, the research provides critical data for optimizing fluid system design and operation.</p>
+  </div>
+
+  <!-- Experimental Setup Section -->
+  <section class="project-section overview-section">
+    <h2 class="section-header">
+      <span class="section-number">01</span>
+      Experimental Setup
+    </h2>
+    
+    <div class="project-description">
+      <p>The HM 150.11 module features a 10-meter closed-loop system with 1-inch diameter steel pipes, centrifugal pump, magnetic flow meter, and various piping components. Pressure gauges were strategically placed before and after each component to measure localized pressure drops.</p>
+    </div>
+    
+    <div class="image-comparison">
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/lab/pressure-drop-4.jpg" 
+               alt="Pipe System Schematic" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 1.</span>
+          <span class="image-desc">Schematic of HM 150.11 piping system layout</span>
+        </div>
+      </div>
+      
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/lab/pressure-drop-5.jpg" 
+               alt="Component Details" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 2.</span>
+          <span class="image-desc">Detailed view of measurement points and components</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="key-specs">
+      <h3 class="specs-title">System Specifications</h3>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <span class="spec-value">10 m</span>
+          <span class="spec-label">Total Pipe Length</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">1"</span>
+          <span class="spec-label">Pipe Diameter</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">0.1 bar</span>
+          <span class="spec-label">Pressure Range</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">0.2-2 m/s</span>
+          <span class="spec-label">Flow Velocity</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="facilities-overview">
+      <h3 class="subsection-header">System Components</h3>
+      <div class="facilities-grid">
+        <div class="facility-item">
+          <span class="facility-icon">🔄</span>
+          <span class="facility-name">Closed Loop</span>
+          <span class="facility-detail">Steel piping system</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">⚡</span>
+          <span class="facility-name">Centrifugal Pump</span>
+          <span class="facility-detail">Variable frequency drive</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">📊</span>
+          <span class="facility-name">Magnetic Flow Meter</span>
+          <span class="facility-detail">Precision measurement</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🔄</span>
+          <span class="facility-name">Control Valve</span>
+          <span class="facility-detail">Flow regulation</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">📈</span>
+          <span class="facility-name">Pressure Gauges</span>
+          <span class="facility-detail">10 measurement points</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Methodology Section -->
+  <section class="project-section methodology-section">
+    <h2 class="section-header">
+      <span class="section-number">02</span>
+      Methodology
+    </h2>
+    
+    <div class="methodology-intro">
+      <p>The experimental procedure followed a rigorous three-phase approach to ensure accurate measurement of pressure drops across various piping components under controlled flow conditions.</p>
+    </div>
+    
+    <div class="methodology-steps">
+      <div class="step-item">
+        <div class="step-number">Step 1</div>
+        <div class="step-content">
+          <h4>System Preparation</h4>
+          <p>Assembled piping system with all components and calibrated measurement instruments. Filled system with water at 20°C (ρ=998.2 kg/m³).</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 2</div>
+        <div class="step-content">
+          <h4>Flow Rate Adjustment</h4>
+          <p>Gradually increased flow rate from 0.2 to 2 m/s using variable frequency drive, maintaining steady-state conditions at each increment.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 3</div>
+        <div class="step-content">
+          <h4>Data Collection</h4>
+          <p>Recorded pressure differentials across each component and corresponding flow rates using magnetic flow meter and pressure gauges.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 4</div>
+        <div class="step-content">
+          <h4>Data Analysis</h4>
+          <p>Calculated local pressure drops using: Δp<sub>M</sub> = (ρv²)/2 and determined resistance coefficients for each component.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="technical-specs">
+      <h4 class="specs-title">Measurement Parameters</h4>
+      <div class="specs-accordion">
+        <details class="spec-group">
+          <summary>Pressure Measurement</summary>
+          <ul>
+            <li>Range: 0-0.1 bar (0-1000 mmWC)</li>
+            <li>Accuracy: ±1% of full scale</li>
+            <li>10 measurement points</li>
+          </ul>
+        </details>
+        
+        <details class="spec-group">
+          <summary>Flow Measurement</summary>
+          <ul>
+            <li>Magnetic flow meter</li>
+            <li>Range: 0.2-2 m/s</li>
+            <li>Accuracy: ±0.5% of reading</li>
+          </ul>
+        </details>
+        
+        <details class="spec-group">
+          <summary>Environmental Conditions</summary>
+          <ul>
+            <li>Fluid: Water at 20°C</li>
+            <li>Density: 998.2 kg/m³</li>
+            <li>Dynamic viscosity: 1.002 mPa·s</li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="project-section results-section">
+    <h2 class="section-header">
+      <span class="section-number">03</span>
+      Results & Analysis
+    </h2>
+    
+    <div class="results-intro">
+      <p>The experimental data revealed significant variations in pressure drops across different piping components, with the control valve demonstrating the highest resistance to flow.</p>
+    </div>
+    
+    <div class="results-grid">
+      <div class="results-card">
+        <h3>Pressure Drop Comparison</h3>
+        <div class="results-image">
+          <img src="/assets/img/projects/lab/pressure-drop-6.jpg" 
+               alt="Pressure Drop Comparison" 
+               class="results-img"
+               loading="lazy">
+        </div>
+        <div class="results-content">
+          <ul>
+            <li><strong>Control Valve:</strong> Highest pressure drop (45% of total)</li>
+            <li><strong>90° Elbows:</strong> Moderate pressure drop (25% of total)</li>
+            <li><strong>Reducers:</strong> Significant pressure drop (20% of total)</li>
+            <li><strong>Straight Pipes:</strong> Negligible pressure drop (10% of total)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="results-card">
+        <h3>Key Findings</h3>
+        <div class="findings-grid">
+          <div class="finding-item">
+            <span class="finding-value">Linear</span>
+            <span class="finding-label">Flow vs Valve Position</span>
+          </div>
+          <div class="finding-item">
+            <span class="finding-value">Quadratic</span>
+            <span class="finding-label">Pressure vs Velocity</span>
+          </div>
+          <div class="finding-item">
+            <span class="finding-value">0.32-0.45</span>
+            <span class="finding-label">Resistance Coefficients (ζ)</span>
+          </div>
+        </div>
+        <div class="results-content">
+          <p>The relationship between flow rate and pressure drop followed expected hydraulic principles, with pressure drop increasing with the square of velocity.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="data-table">
+      <h3>Experimental Data Summary</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Δp (Pa)</th>
+            <th>ζ Coefficient</th>
+            <th>Flow Rate (m/s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Control Valve</td>
+            <td>850</td>
+            <td>0.45</td>
+            <td>1.5</td>
+          </tr>
+          <tr>
+            <td>90° Elbow</td>
+            <td>470</td>
+            <td>0.32</td>
+            <td>1.5</td>
+          </tr>
+          <tr>
+            <td>Reducer</td>
+            <td>380</td>
+            <td>0.38</td>
+            <td>1.5</td>
+          </tr>
+          <tr>
+            <td>Straight Pipe</td>
+            <td>190</td>
+            <td>0.05</td>
+            <td>1.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Conclusion Section -->
+  <section class="project-section conclusion-section">
+    <h2 class="section-header">
+      <span class="section-number">04</span>
+      Conclusion & Recommendations
+    </h2>
+    
+    <div class="conclusion-content">
+      <div class="conclusion-text">
+        <p>The experiment successfully quantified pressure losses across various piping components, validating the HM 150.11 module's effectiveness in fluid system analysis. The data provides valuable insights for system optimization and energy efficiency improvements.</p>
+        
+        <div class="recommendations">
+          <h3>Recommendations for Improvement</h3>
+          <div class="rec-grid">
+            <div class="rec-card">
+              <div class="rec-icon">🔄</div>
+              <h4>Component Variety</h4>
+              <p>Expand range of fittings to simulate more complex systems</p>
+            </div>
+            <div class="rec-card">
+              <div class="rec-icon">📊</div>
+              <h4>Advanced Measurement</h4>
+              <p>Incorporate ultrasonic flow meters for higher accuracy</p>
+            </div>
+            <div class="rec-card">
+              <div class="rec-icon">💻</div>
+              <h4>CFD Integration</h4>
+              <p>Combine with computational fluid dynamics simulations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="conclusion-image">
+        <img src="/assets/img/projects/lab/pressure-drop-7.jpg" 
+             alt="Experimental Setup Overview" 
+             class="conclusion-img"
+             loading="lazy">
+        <p class="image-caption">Fig 3. Complete HM 150.11 experimental station</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+/* Base Styles */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-gray: #ecf0f1;
+  --medium-gray: #bdc3c7;
+  --dark-gray: #7f8c8d;
+  --text-color: #34495e;
+  --white: #ffffff;
+}
+
+.plumbing-project {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.2rem;
+}
+
+.project-subtitle {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  border-left: 4px solid var(--primary-color);
+  padding-left: 15px;
+  margin: 40px 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+.section-number {
+  font-size: 1.2rem;
+  background: var(--primary-color);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.subsection-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subsection-icon, .methodology-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--primary-color);
+  margin-right: 10px;
+}
+
+/* Project Meta */
+.project-meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tech-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-tag {
+  background: var(--light-gray);
+  color: var(--text-color);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid var(--medium-gray);
+}
+
+/* Project Visualization */
+.project-visualization {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+.visualization-description {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.visualization-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.visualization-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.visualization-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visualization-caption {
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Project Context */
+.project-context {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Image Styles */
+.image-comparison, .diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.image-card, .diagram-card {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card:hover, .diagram-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.image-wrapper, .diagram-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image, .diagram-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover .image-overlay {
+  opacity: 1;
+}
+
+.zoom-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.image-meta, .diagram-meta {
+  padding: 15px;
+  background: var(--white);
+}
+
+.image-fig, .diagram-fig {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.image-desc, .diagram-desc {
+  color: var(--dark-gray);
+}
+
+.diagram-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+/* Key Specs */
+.key-specs {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.spec-item {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.spec-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.spec-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* Highlights Section */
+.project-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.highlight-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-value {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.highlight-label {
+  font-size: 0.8rem;
+  color: var(--dark-gray);
+}
+
+/* Facilities Overview */
+.facilities-overview {
+  margin-bottom: 25px;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.facility-item {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.facility-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.facility-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.facility-detail {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+/* Water Supply System */
+.water-supply-system {
+  background: #f8fbfe;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.system-details {
+  margin-bottom: 25px;
+}
+
+.system-features {
+  padding-left: 20px;
+}
+
+.system-features li {
+  margin-bottom: 8px;
+}
+
+.system-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.system-type-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.system-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.system-type-card h5 {
+  margin: 10px 0;
+  color: var(--secondary-color);
+}
+
+/* Technical Specifications */
+.technical-specs {
+  margin-top: 30px;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.specs-accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spec-group {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-group:last-child {
+  border-bottom: none;
+}
+
+.spec-group summary {
+  padding: 15px;
+  background: #f5f9ff;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.spec-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.spec-group summary:after {
+  content: '+';
+  float: right;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.spec-group[open] summary:after {
+  content: '-';
+}
+
+.spec-group ul {
+  padding: 0 15px 15px 45px;
+  margin: 0;
+}
+
+.spec-group li {
+  margin-bottom: 8px;
+}
+
+/* System Arrangement */
+.system-arrangement {
+  margin: 30px 0;
+}
+
+.arrangement-image {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.arrangement-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.arrangement-caption {
+  padding: 12px 15px;
+  background: var(--light-gray);
+  font-size: 0.9rem;
+}
+
+.arrangement-fig {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.arrangement-notes {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+/* Calculation Tabs */
+.calculation-tabs {
+  margin-top: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--dark-gray);
+  position: relative;
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tab-button.active:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.consumption-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.consumption-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.consumption-value {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.consumption-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* Calculations Gallery */
+.calculation-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.calculation-item {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.calc-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.calc-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.calc-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 64, 83, 0.8);
+  color: white;
+  padding: 12px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.calculation-item:hover .calc-overlay {
+  transform: translateY(0);
+}
+
+.calculation-item:hover .calc-image {
+  transform: scale(1.05);
+}
+
+.calc-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.calc-detail {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+.calculation-summary {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.summary-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.safety-factors {
+  padding-left: 20px;
+}
+
+.safety-factors li {
+  margin-bottom: 8px;
+}
+
+/* Methodology Steps */
+.methodology-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.step-item {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.step-number {
+  background: var(--primary-color);
+  color: white;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.step-image {
+  padding: 10px;
+}
+
+.step-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.methodology-conclusion {
+  background: #f5fbf5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  border-left: 4px solid #2ecc71;
+}
+
+.conclusion-title {
+  font-size: 1.2rem;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+/* Supplementary Information */
+.supplementary-section {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.supplementary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.supplementary-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.supplementary-title {
+  background: var(--primary-color);
+  color: white;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.supplementary-image {
+  padding: 15px;
+}
+
+.supplementary-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.supplementary-content {
+  padding: 0 15px 15px;
+}
+
+.supplementary-content ul {
+  padding-left: 20px;
+}
+
+.supplementary-content li {
+  margin-bottom: 8px;
+}
+
+/* Recommendations */
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.rec-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.recommendation-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.recommendation-card ul {
+  padding-left: 20px;
+}
+
+.recommendation-card li {
+  margin-bottom: 8px;
+}
+
+/* Reflection Section */
+.reflection-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.reflection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skill-development {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.project-outcome {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.reflection-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.reflection-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .reflection-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .reflection-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 1.9rem;
+  }
+  
+  .section-header {
+    font-size: 1.6rem;
+  }
+  
+  .image-comparison, .diagram-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-highlights {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .system-types-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .plumbing-project {
+    padding: 0 15px;
+  }
+  
+  .project-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-header {
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .calculation-gallery, .methodology-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .project-highlights {
+    grid-template-columns: 1fr;
+  }
+  
+  .system-types-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tab-buttons {
+    flex-direction: column;
+    border-bottom: none;
+  }
+  
+  .tab-button {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab-button.active:after {
+    display: none;
+  }
+}
+</style>
+
+<script>
+// Simple tab functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and content
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Accordion functionality
+document.querySelectorAll('.spec-group').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      details.style.backgroundColor = '#f5f9ff';
+    } else {
+      details.style.backgroundColor = '';
+    }
+  });
+});
+</script>
