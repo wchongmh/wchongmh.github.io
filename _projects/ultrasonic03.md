@@ -479,7 +479,7 @@ importance: 2
         <p>Measures ΔP across restriction using Bernoulli's principle</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-14.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-13.png" 
              alt="Positive Displacement Flowmeter" 
              class="tech-img"
              loading="lazy">
@@ -487,7 +487,7 @@ importance: 2
         <p>Measures exact volume of fluid passing through</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-15.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-14.png" 
              alt="Turbine Flow Meter" 
              class="tech-img"
              loading="lazy">
@@ -495,7 +495,7 @@ importance: 2
         <p>Mechanical rotation proportional to flow velocity</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/flowtech-electromagnetic.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-15.png" 
              alt="Electromagnetic Flowmeter" 
              class="tech-img"
              loading="lazy">
