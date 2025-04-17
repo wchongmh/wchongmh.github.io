@@ -488,13 +488,13 @@ ninja.data = [{
           description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pressure01/";
-            },},{id: "projects-pressure-loss-analysis-in-piping-systems",
-          title: 'Pressure Loss Analysis in Piping Systems',
+            },},{id: "projects-pressure-loss-analysis-in-piping-systems03",
+          title: 'Pressure Loss Analysis in Piping Systems03',
           description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pressure02/";
-            },},{id: "projects-pressure-losses-in-piping-systems-laboratory-analysis",
-          title: 'Pressure Losses in Piping Systems - Laboratory Analysis',
+            },},{id: "projects-pressure-losses-in-piping-systems-laboratory-analysis04",
+          title: 'Pressure Losses in Piping Systems - Laboratory Analysis04',
           description: "Experimental measurement and analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pressure03/";
