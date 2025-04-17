@@ -12,7 +12,7 @@ importance: 2
   <!-- Project Header -->
   <header class="project-header">
     <h1 class="project-title">Pressure Loss Analysis in Piping Systems02</h1>
-    <p class="project-subtitle">Glasgow Caledonian University Laboratory</p>
+    <p class="project-subtitle">Glasgow Caledonian University Laboratory Analysis</p>
     <div class="project-meta">
       <span class="badge">Fluid Mechanics</span>
       <span class="tech-tags">
@@ -301,13 +301,43 @@ importance: 2
   <!-- Results Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
-      Experimental Results
+      <span class="section-number">3</span>
+      Results & Analysis
     </h2>
+
+    <div class="results-highlight">
+      <div class="result-card">
+        <span class="result-value">3.317-4.031</span>
+        <span class="result-label">90° Elbow ζ Coefficient</span>
+      </div>
+      <div class="result-card">
+        <span class="result-value">8531.79 Pa</span>
+        <span class="result-label">Max Total Pressure Drop</span>
+      </div>
+    </div>
     
     <div class="calculations-intro">
       <p>The study revealed significant variations in pressure drops across different components, with control valves showing the highest resistance and straight pipes the lowest. The data enables calculation of resistance coefficients for system optimization.</p>
     </div>
+
+    <div class="results-grid">
+      <div class="results-card">
+        <h3>Pressure Drop Comparison</h3>
+        <div class="results-image">
+          <img src="/assets/img/projects/lab/pressure-drop-6.jpg" 
+               alt="Pressure Drop Comparison" 
+               class="results-img"
+               loading="lazy">
+        </div>
+        <div class="results-content">
+          <ul>
+            <li><strong>Control Valve:</strong> Highest pressure drop (45% of total)</li>
+            <li><strong>90° Elbows:</strong> Moderate pressure drop (25% of total)</li>
+            <li><strong>Reducers:</strong> Significant pressure drop (20% of total)</li>
+            <li><strong>Straight Pipes:</strong> Negligible pressure drop (10% of total)</li>
+          </ul>
+        </div>
+      </div>
     
     <article class="design-subsection calculations">
       <h3 class="subsection-header">
@@ -406,18 +436,49 @@ importance: 2
       </div>
     </div>
     
-    <div class="calculation-summary">
-      <h3 class="summary-title">Critical Calculations</h3>
-      <div class="formula-card">
-        <h4>Local Pressure Drop Equation</h4>
-        <div class="formula">
-          $$\Delta p_M = \frac{\rho v^2}{2}$$
-        </div>
+   <div class="equation-box">
+      <h3>Local Pressure Drop Calculation</h3>
+      <div class="equation">
+        Δp<sub>M</sub> = ζ × ½ρV<sup>2</sup>
+      </div>
+      <div class="variables">
         <p>Where:<br>
-        Δp<sub>M</sub> = local pressure drop (Pa)<br>
-        ζ = resistance coefficient<br>
-        ρ = fluid density (998.2 kg/m³ at 20°C)<br>
-        v = flow velocity (m/s)</p>
+        Δp<sub>M</sub> = Local pressure drop (Pa)<br>
+        ζ = Loss coefficient<br>
+        ρ = Fluid density (kg/m³)<br>
+        V = Flow velocity (m/s)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Engineering Insights -->
+  <section class="project-section">
+    <h2 class="section-header">
+      <span class="section-number">4</span>
+      Engineering Insights
+    </h2>
+
+    <div class="insights-grid">
+      <div class="insight-card">
+        <h3>Key Findings</h3>
+        <ul>
+          <li>Control valve showed highest pressure drop (up to 2402.63 Pa at 0.367 L/s)</li>
+          <li>90° elbows showed highest ζ coefficients (avg 3.5)</li>
+          <li>90° elbows demonstrated consistent ζ values between 3.3-4.0</li>
+          <li>Elbows and reducers contribute significantly to energy consumption</li>
+          <li>Pressure drops increased quadratically with flow velocity</li>
+          <li>Linear pressure drop-flow relationship confirmed</li>
+          <li>Control valve contributed to 35% of total system pressure loss</li>
+          <li>Control valves account for >60% of system pressure loss</li>
+        </ul>
+      </div>
+      <div class="insight-card">
+        <h3>Design Implications</h3>
+        <ul>
+          <li>Minimize 90° elbows in high-flow systems</li>
+          <li>Use gradual bends (ζ = 2.8-3.1) instead of sharp elbows</li>
+          <li>Size pumps for worst-case pressure drop scenarios</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -425,14 +486,18 @@ importance: 2
   <!-- Conclusions Section -->
   <section class="project-section recommendations-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">5</span>
       Conclusions & Recommendations
     </h2>
+
+    <div class="conclusion-content">
+      <div class="conclusion-text">
+        <p>The experiment successfully quantified pressure losses in various piping components, providing valuable data for fluid system design. The HM 150.11 module proved effective for precise measurements, though several improvements could enhance future studies:</p>
     
     <div class="recommendations-grid">
       <div class="recommendation-card">
         <div class="rec-icon">📊</div>
-        <h3>Key Findings</h3>
+        <h3>Experimental Summary</h3>
         <ul>
           <li>Control valves account for 45-60% of total system pressure drop</li>
           <li>Elbows contribute significantly to energy losses in piping networks</li>
@@ -453,12 +518,13 @@ importance: 2
       </div>
       
       <div class="recommendation-card">
-        <div class="rec-icon">🔮</div>
+        <div class="rec-icon">💻</div>
         <h3>Future Enhancements</h3>
         <ul>
           <li>Incorporate ultrasonic flow measurement</li>
           <li>Test with variable fluid viscosities</li>
-          <li>Integrate CFD simulation validation</li>
+          <li>Integrate with CFD software for simulation-experiment correlation</li>
+          <li>Incorporate machine learning for real-time flow prediction</li>
           <li>Expand component library (e.g., different valve types)</li>
         </ul>
       </div>
@@ -834,6 +900,26 @@ importance: 2
 
 .facility-detail {
   font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+.equation-box {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 25px 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+.equation {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 15px 0;
+  font-family: 'Times New Roman', serif;
+}
+
+.variables {
+  font-size: 0.95rem;
   color: var(--dark-gray);
 }
 
@@ -1322,6 +1408,53 @@ importance: 2
   font-size: 0.9rem;
   color: var(--dark-gray);
   text-align: center;
+}
+
+.results-highlight {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.result-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.result-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #e74c3c;
+  display: block;
+}
+
+.result-label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.insight-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.insight-card h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
 }
 
 /* Responsive Design */
