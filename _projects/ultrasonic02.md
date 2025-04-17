@@ -498,7 +498,7 @@ importance: 2
     
     <div class="technology-cards">
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/flowtech-differential-pressure.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-12.png" 
              alt="Differential Pressure Meter" 
              class="tech-img"
              loading="lazy">
@@ -506,7 +506,7 @@ importance: 2
         <p>Measures ΔP across restriction using Bernoulli's principle</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/flowtech-positive-displacement.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-14.png" 
              alt="Positive Displacement Flowmeter" 
              class="tech-img"
              loading="lazy">
@@ -514,7 +514,7 @@ importance: 2
         <p>Measures exact volume of fluid passing through</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/flowtech-turbine.png" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-15.png" 
              alt="Turbine Flow Meter" 
              class="tech-img"
              loading="lazy">
