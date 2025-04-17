@@ -123,7 +123,7 @@ importance: 2
           <span class="spec-label">Water Density</span>
         </div>
         <div class="spec-item">
-          <span class="spec-value">0.1 bar"</span>
+          <span class="spec-value">0.1 bar</span>
           <span class="spec-label">Pressure Range</span>
         </div>
         <div class="spec-item">
@@ -136,12 +136,43 @@ importance: 2
         </div>
       </div>
     </div>
+
+    <div class="facilities-overview">
+      <h3 class="subsection-header">System Components</h3>
+      <div class="facilities-grid">
+        <div class="facility-item">
+          <span class="facility-icon">🔄</span>
+          <span class="facility-name">Closed Loop</span>
+          <span class="facility-detail">Steel piping system</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">⚡</span>
+          <span class="facility-name">Centrifugal Pump</span>
+          <span class="facility-detail">Variable frequency drive</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">📊</span>
+          <span class="facility-name">Magnetic Flow Meter</span>
+          <span class="facility-detail">Precision measurement</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🔄</span>
+          <span class="facility-name">Control Valve</span>
+          <span class="facility-detail">Flow regulation</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">📈</span>
+          <span class="facility-name">Pressure Gauges</span>
+          <span class="facility-detail">10 measurement points</span>
+        </div>
+      </div>
+    </div>
   </section>
   
   <!-- Laboratory Setup Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Laboratory Setup
     </h2>
     
@@ -194,11 +225,29 @@ importance: 2
           </details>
           
           <details class="spec-group">
-            <summary>Measurement Ranges</summary>
+            <summary>Pressure Measurement</summary>
             <ul>
-              <li>Pressure: 0-0.1 bar</li>
-              <li>Flow rate: 0.2-2 m/s</li>
-              <li>Water temperature: 20°C</li>
+              <li>Range: 0-0.1 bar (0-1000 mmWC)</li>
+              <li>Accuracy: ±1% of full scale</li>
+              <li>10 measurement points</li>
+            </ul>
+          </details>
+        
+          <details class="spec-group">
+            <summary>Flow Measurement</summary>
+            <ul>
+              <li>Magnetic flow meter</li>
+              <li>Range: 0.2-2 m/s</li>
+              <li>Accuracy: ±0.5% of reading</li>
+            </ul>
+          </details>
+        
+          <details class="spec-group">
+            <summary>Environmental Conditions</summary>
+            <ul>
+              <li>Fluid: Water at 20°C</li>
+              <li>Density: 998.2 kg/m³</li>
+              <li>Dynamic viscosity: 1.002 mPa·s</li>
             </ul>
           </details>
         </div>
@@ -213,46 +262,37 @@ importance: 2
         Experimental Methodology
       </h3>
       
-      <div class="methodology-steps">
-        <div class="step-item">
-          <div class="step-number">Step 1</div>
-          <div class="step-image">
-            <img src="/assets/img/projects/lab/method-1.jpg" 
-                 alt="System Preparation" 
-                 class="step-img"
-                 loading="lazy">
-          </div>
-          <div class="step-description">System assembly and instrument calibration</div>
+      <div class="methodology-intro">
+      <p>The experimental procedure followed a rigorous three-phase approach to ensure accurate measurement of pressure drops across various piping components under controlled flow conditions.</p>
+    </div>
+    
+    <div class="methodology-steps">
+      <div class="step-item">
+        <div class="step-number">Step 1</div>
+        <div class="step-content">
+          <h4>System Preparation</h4>
+          <p>Assembled piping system with all components and calibrated measurement instruments. Filled system with water at 20°C (ρ=998.2 kg/m³).</p>
         </div>
-        <div class="step-item">
-          <div class="step-number">Step 2</div>
-          <div class="step-image">
-            <img src="/assets/img/projects/lab/method-2.jpg" 
-                 alt="Flow Rate Adjustment" 
-                 class="step-img"
-                 loading="lazy">
-          </div>
-          <div class="step-description">Gradual flow rate increase using VFD</div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 2</div>
+        <div class="step-content">
+          <h4>Flow Rate Adjustment</h4>
+          <p>Gradually increased flow rate from 0.2 to 2 m/s using variable frequency drive, maintaining steady-state conditions at each increment.</p>
         </div>
-        <div class="step-item">
-          <div class="step-number">Step 3</div>
-          <div class="step-image">
-            <img src="/assets/img/projects/lab/method-3.jpg" 
-                 alt="Data Collection" 
-                 class="step-img"
-                 loading="lazy">
-          </div>
-          <div class="step-description">Pressure drop measurements at components</div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 3</div>
+        <div class="step-content">
+          <h4>Data Collection</h4>
+          <p>Recorded pressure differentials across each component and corresponding flow rates using magnetic flow meter and pressure gauges.</p>
         </div>
-        <div class="step-item">
-          <div class="step-number">Step 4</div>
-          <div class="step-image">
-            <img src="/assets/img/projects/lab/method-4.jpg" 
-                 alt="Data Analysis" 
-                 class="step-img"
-                 loading="lazy">
-          </div>
-          <div class="step-description">Pressure-flow curve generation</div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 4</div>
+        <div class="step-content">
+          <h4>Data Analysis</h4>
+          <p>Calculated local pressure drops using: Δp<sub>M</sub> = (ρv²)/2 and determined resistance coefficients for each component.</p>
         </div>
       </div>
     </article>
