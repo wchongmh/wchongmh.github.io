@@ -53,7 +53,7 @@ importance: 2
   <section class="project-section overview-section">
     <h2 class="section-header">
       <span class="section-number">1</span>
-      Experimental Setup
+      Introduction
     </h2>
     
     <div class="project-description">
