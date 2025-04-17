@@ -3,7 +3,7 @@ title: "Ultrasonic Flow Rate Measurements - GCU Plant Room"
 category: Research
 description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology."
 tech: [Ultrasonic Flow Meters, Heat Transfer Analysis, Data Logging, Hydronic Systems, HVAC Monitoring]
-image: /assets/img/projects/lab/ultrasonic_flow_1.jpg
+image: /assets/img/projects/gcu-plant-room/ultrasonic_flow-1.png
 importance: 2
 ---
 
@@ -29,14 +29,14 @@ importance: 2
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/lab/ultrasonic_flow_2.jpg" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-2.png" 
              alt="Precision Flow 190PD Installation" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Ultrasonic transducer installation on 80mm pipe</p>
+        <p class="visualization-caption">Precision Flow 190PD ultrasonic transducer installation</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/lab/heat_meter_1.jpg" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-4.png" 
              alt="Kamstrup Multical 602" 
              class="visualization-img"
              loading="lazy">
@@ -76,7 +76,10 @@ importance: 2
       <p>Accurate fluid flow monitoring is critical for HVAC system optimization in industrial applications. This field study examines the implementation of non-invasive ultrasonic measurement technology at Glasgow Caledonian University's plant room, evaluating its effectiveness for continuous flow monitoring without system disruption.</p>
       
       <div class="system-diagram">
-        <img src="/assets/img/projects/lab/measurement_setup.jpg" alt="Ultrasonic Measurement Setup" loading="lazy">
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-6.png" 
+             alt="Ultrasonic Measurement Setup" 
+             class="diagram-img"
+             loading="lazy">
         <p class="diagram-caption">Fig 1. Measurement setup showing transducer placement on 80mm diameter pipe</p>
       </div>
     </div>
@@ -93,7 +96,7 @@ importance: 2
       <div class="equipment-card">
         <h3>Precision Flow 190PD</h3>
         <div class="equipment-image">
-          <img src="/assets/img/projects/lab/ultrasonic_meter.jpg" alt="Precision Flow 190PD" loading="lazy">
+          <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-3.png" alt="Precision Flow 190PD" loading="lazy">
         </div>
         <div class="equipment-specs">
           <ul>
@@ -108,7 +111,7 @@ importance: 2
       <div class="equipment-card">
         <h3>Kamstrup Multical 602</h3>
         <div class="equipment-image">
-          <img src="/assets/img/projects/lab/heat_meter.jpg" alt="Kamstrup Multical 602" loading="lazy">
+          <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-5.png" alt="Kamstrup Multical 602" loading="lazy">
         </div>
         <div class="equipment-specs">
           <ul>
@@ -294,7 +297,7 @@ importance: 2
       <div class="graph-container">
         <h3>Volume Flow Rate Over Time</h3>
         <div class="graph">
-          <img src="/assets/img/projects/lab/flow_rate_graph.png" alt="Volume Flow Rate Graph" loading="lazy">
+          <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-9.png" alt="Volume Flow Rate Graph" loading="lazy">
         </div>
         <div class="graph-analysis">
           <p>Flow stability maintained within ±2.5% of mean (0.00392 m³/s) despite minor system fluctuations</p>
@@ -304,7 +307,7 @@ importance: 2
       <div class="graph-container">
         <h3>Temperature Difference (ΔT)</h3>
         <div class="graph">
-          <img src="/assets/img/projects/lab/deltaT_graph.png" alt="Temperature Difference Graph" loading="lazy">
+          <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-10.png" alt="Temperature Difference Graph" loading="lazy">
         </div>
         <div class="graph-analysis">
           <p>Initial negative ΔT indicates measurement anomaly, stabilizing to expected 0.5-1.0°C range after 5 minutes</p>
@@ -314,7 +317,7 @@ importance: 2
       <div class="graph-container">
         <h3>Heat Transfer Rate</h3>
         <div class="graph">
-          <img src="/assets/img/projects/lab/heat_transfer_graph.png" alt="Heat Transfer Graph" loading="lazy">
+          <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-11.png" alt="Heat Transfer Graph" loading="lazy">
         </div>
         <div class="graph-analysis">
           <p>Peak heat transfer of 22.08W at 23 minutes correlates with maximum ΔT of 1.35°C</p>
@@ -495,18 +498,36 @@ importance: 2
     
     <div class="technology-cards">
       <div class="tech-card">
-        <img src="/assets/img/projects/lab/differential_meter.jpg" 
+        <img src="/assets/img/projects/gcu-plant-room/flowtech-differential-pressure.png" 
              alt="Differential Pressure Meter" 
+             class="tech-img"
              loading="lazy">
         <h3>Differential Pressure</h3>
         <p>Measures ΔP across restriction using Bernoulli's principle</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/lab/turbine_meter.jpg" 
+        <img src="/assets/img/projects/gcu-plant-room/flowtech-positive-displacement.png" 
+             alt="Positive Displacement Flowmeter" 
+             class="tech-img"
+             loading="lazy">
+        <h3>Positive Displacement</h3>
+        <p>Measures exact volume of fluid passing through</p>
+      </div>
+      <div class="tech-card">
+        <img src="/assets/img/projects/gcu-plant-room/flowtech-turbine.png" 
              alt="Turbine Flow Meter" 
+             class="tech-img"
              loading="lazy">
         <h3>Turbine</h3>
         <p>Mechanical rotation proportional to flow velocity</p>
+      </div>
+      <div class="tech-card">
+        <img src="/assets/img/projects/gcu-plant-room/flowtech-electromagnetic.png" 
+             alt="Electromagnetic Flowmeter" 
+             class="tech-img"
+             loading="lazy">
+        <h3>Electromagnetic</h3>
+        <p>Measures voltage induced by conductive fluid flow</p>
       </div>
     </div>
   </section>
@@ -580,8 +601,9 @@ importance: 2
       </div>
       
       <div class="conclusion-image">
-        <img src="/assets/img/projects/lab/system_diagram.jpg" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-7.png" 
              alt="Measurement System Diagram" 
+             class="conclusion-img"
              loading="lazy">
         <p class="image-caption">Proposed permanent monitoring installation</p>
       </div>
@@ -785,6 +807,8 @@ importance: 2
 .visualization-img {
   width: 100%;
   height: auto;
+  max-height: 300px;
+  object-fit: contain;
   display: block;
 }
 
@@ -913,6 +937,30 @@ importance: 2
   color: var(--dark-gray);
 }
 
+/* System Diagram */
+.system-diagram {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.diagram-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.diagram-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
 /* Methodology Section */
 .methodology-steps {
   display: grid;
@@ -1014,7 +1062,10 @@ importance: 2
 .graph-container img {
   width: 100%;
   height: auto;
+  max-height: 300px;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 .graph-analysis {
@@ -1128,6 +1179,16 @@ importance: 2
   margin-bottom: 15px;
 }
 
+.tech-img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 /* Conclusions Section */
 .conclusion-content {
   background: #f5fbf5;
@@ -1173,10 +1234,16 @@ importance: 2
 
 .conclusion-image {
   margin-top: 30px;
+  text-align: center;
 }
 
-.conclusion-image img {
-  width: 100%;
+.conclusion-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
