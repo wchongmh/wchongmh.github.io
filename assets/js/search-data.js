@@ -443,6 +443,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-bim-modeling-for-primary-school-energy-in-buildings-coursework",
+          title: 'BIM Modeling for Primary School - Energy in Buildings Coursework',
+          description: "Autodesk Revit BIM modeling and documentation for a primary school building as part of GCU&#39;s Energy in Buildings module.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bim_coursework/";
             },},{id: "projects-bms-dashboard-development",
           title: 'BMS Dashboard Development',
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
