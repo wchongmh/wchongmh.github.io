@@ -515,68 +515,62 @@ importance: 2
     <div class="results-grid">
       <div class="results-card">
         <h3>Experimental Data Results</h3>
-        <div class="results-image">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-15.png" 
-               alt="First Experiment Results" 
-               class="results-img"
-               loading="lazy">
-        </div>
-        <div class="results-content">
-          <p>First experiment results showing pressure drop measurements with highlighted values</p>
-        </div>
+
+        <div class="data-highlight-note">
+        <p><strong>Data Note:</strong> In all experiment result tables, the lowest values are highlighted with <span class="lowest-value">🟦 blue</span> and the highest values with <span class="highest-value">🟨 yellow</span> for easy identification.</p>
       </div>
     </div>
 
-    <div class="calculation-gallery">
-      <div class="calculation-item">
-        <div class="calc-image-container">
+    <!-- Enlarged Experiment Results Tables -->
+    <div class="expanded-results">
+      <h3 class="subsection-header">Detailed Experiment Results</h3>
+      <p>Below are the complete results from all experimental runs showing pressure drop measurements across different components:</p>
+
+    <div class="large-result-grid">
+      <div class="large-result-card">
+        <h4>Run 1 Results</h4>
+        <img src="/assets/img/projects/pressure-lab/pressure_drop-15.png" 
+              alt="Second Experiment Results" 
+              class="large-result-img"
+              loading="lazy">
+        <p class="result-caption">First experiment results with highlighted minimum and maximum values</p>
+      </div>
+      
+      <div class="large-result-grid">
+        <div class="large-result-card">
+          <h4>Run 2 Results</h4>
           <img src="/assets/img/projects/pressure-lab/pressure_drop-16.png" 
                alt="Second Experiment Results" 
-               class="calc-image"
+               class="large-result-img"
                loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Run 2</span>
-            <span class="calc-detail">Second experiment results</span>
-          </div>
+          <p class="result-caption">Second experiment results showing pressure measurements with highlighted extremes</p>
         </div>
-      </div>
-      
-      <div class="calculation-item">
-        <div class="calc-image-container">
+        
+        <div class="large-result-card">
+          <h4>Run 3 Results</h4>
           <img src="/assets/img/projects/pressure-lab/pressure_drop-17.png" 
                alt="Third Experiment Results" 
-               class="calc-image"
+               class="large-result-img"
                loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Run 3</span>
-            <span class="calc-detail">Third experiment results</span>
-          </div>
+          <p class="result-caption">Third experiment results with highlighted data points</p>
         </div>
-      </div>
-      
-      <div class="calculation-item">
-        <div class="calc-image-container">
+        
+        <div class="large-result-card">
+          <h4>Run 4 Results</h4>
           <img src="/assets/img/projects/pressure-lab/pressure_drop-18.png" 
                alt="Fourth Experiment Results" 
-               class="calc-image"
+               class="large-result-img"
                loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Run 4</span>
-            <span class="calc-detail">Fourth experiment results</span>
-          </div>
+          <p class="result-caption">Fourth experiment results with highlighted data points</p>
         </div>
-      </div>
-
-      <div class="calculation-item">
-        <div class="calc-image-container">
+        
+        <div class="large-result-card">
+          <h4>Run 5 Results</h4>
           <img src="/assets/img/projects/pressure-lab/pressure_drop-19.png" 
                alt="Fifth Experiment Results" 
-               class="calc-image"
+               class="large-result-img"
                loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Run 5</span>
-            <span class="calc-detail">Fifth experiment results</span>
-          </div>
+          <p class="result-caption">Fifth experiment results showing pressure measurements with highlighted extremes</p>
         </div>
       </div>
     </div>
@@ -1577,6 +1571,70 @@ importance: 2
   
   .tab-button.active:after {
     display: none;
+  }
+}
+
+/* Data Highlight Styles */
+.data-highlight-note {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 12px 15px;
+  margin: 15px 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.95rem;
+}
+
+.lowest-value {
+  color: #3498db;
+  font-weight: 600;
+}
+
+.highest-value {
+  color: #f39c12;
+  font-weight: 600;
+}
+
+/* Expanded Results Styles */
+.expanded-results {
+  margin: 40px 0;
+}
+
+.large-result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.large-result-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.large-result-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px 0;
+  border: 1px solid #eee;
+}
+
+.result-caption {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .large-result-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .large-result-card {
+    padding: 15px;
   }
 }
 </style>
