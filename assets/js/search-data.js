@@ -447,7 +447,7 @@ ninja.data = [{
           title: 'BIM Modeling for Primary School Design',
           description: "Autodesk Revit-based BIM modeling exercise for a primary school building, including model development and documentation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/bim01/";
+              window.location.href = "/projects/bim_coursework/";
             },},{id: "projects-bms-dashboard-development",
           title: 'BMS Dashboard Development',
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
