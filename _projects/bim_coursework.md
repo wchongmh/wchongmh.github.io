@@ -52,7 +52,7 @@ importance: 2
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
@@ -120,7 +120,7 @@ importance: 2
   <!-- BIM Modeling Section -->
   <section class="project-section modeling-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       BIM Modeling Task
     </h2>
     
@@ -212,7 +212,7 @@ importance: 2
   <!-- BIM Documentation Section -->
   <section class="project-section documentation-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       BIM Documentation
     </h2>
     
@@ -287,7 +287,7 @@ importance: 2
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Project Reflection
     </h2>
     
