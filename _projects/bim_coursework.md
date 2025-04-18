@@ -1,0 +1,768 @@
+---
+title: "BIM Modeling for Primary School - Energy in Buildings Coursework"
+category: Smart Building
+description: "Autodesk Revit BIM modeling and documentation for a primary school building as part of GCU's Energy in Buildings module."
+tech: [Autodesk Revit, BIM Interoperability, COBie, Navisworks, Clash Detection]
+image: /assets/img/projects/energy-in-buildings/bim_coursework-1.jpg
+importance: 2
+---
+
+<div class="bim-project">
+
+  <!-- Project Header -->
+  <header class="project-header">
+    <h1 class="project-title">BIM Modeling for Primary School</h1>
+    <p class="project-subtitle">Energy in Buildings Coursework</p>
+    <div class="project-meta">
+      <span class="badge">Academic Projects</span>
+      <span class="tech-tags">
+        {% for technology in page.tech %}
+        <span class="tech-tag">{{ technology }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </header>
+
+  <div class="project-visualization">
+    <div class="visualization-description">
+      <p>This coursework from Glasgow Caledonian University involved comprehensive BIM modeling of a primary school building using Autodesk Revit, followed by documentation using BIM interoperability tools and clash detection analysis.</p>
+    </div>
+    <div class="visualization-images">
+      <div class="visualization-card">
+        <img src="/assets/img/projects/energy-in-buildings/bim_coursework-1.jpg" 
+             alt="Completed School BIM Model" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Completed Revit model of primary school</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/energy-in-buildings/bim_coursework-3.jpg" 
+             alt="Design Working Process" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Design development process</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-context">
+    <p>This project was completed as part of the M3K227059 Energy in Buildings module at Glasgow Caledonian University. The assignment consisted of two main tasks: BIM modeling of a primary school building and documentation of the BIM information using interoperability tools.</p>
+  </div>
+
+  <!-- Project Overview Section -->
+  <section class="project-section overview-section">
+    <h2 class="section-header">
+      <span class="section-number">01</span>
+      Project Overview
+    </h2>
+    
+    <div class="project-description">
+      <p>The assignment required students to contribute to the design of a new primary school building by altering an existing conceptual model in Autodesk Revit. The completed model included architectural elements, structural components, and MEP systems, with comprehensive documentation generated through BIM interoperability tools.</p>
+    </div>
+    
+    <div class="image-comparison">
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/energy-in-buildings/bim_coursework-2.jpg" 
+               alt="School Building Drawing" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 1.</span>
+          <span class="image-desc">Volume 2: South-West wing architectural drawing</span>
+        </div>
+      </div>
+      
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/energy-in-buildings/bim_coursework-4.jpg" 
+               alt="Curtain Wall Mullions Drawing" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 2.</span>
+          <span class="image-desc">Curtain wall mullions detailing</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="key-specs">
+      <h3 class="specs-title">Project Specifications</h3>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <span class="spec-value">2</span>
+          <span class="spec-label">Main Tasks</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">8+</span>
+          <span class="spec-label">View Types</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">3</span>
+          <span class="spec-label">BIM Tools</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">1</span>
+          <span class="spec-label">Clash Report</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIM Modeling Section -->
+  <section class="project-section modeling-section">
+    <h2 class="section-header">
+      <span class="section-number">02</span>
+      BIM Modeling Task
+    </h2>
+    
+    <div class="system-intro">
+      <p>The BIM modeling task required students to develop a comprehensive school building model in Autodesk Revit by working through supplied task instructions and drawings. The model included all major architectural and structural components.</p>
+    </div>
+
+    <article class="design-subsection modeling-components">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,3L2,12H5V20H19V12H22L12,3M12,7.7L16,11.2V18H14V12H10V18H8V11.2L12,7.7Z" />
+        </svg>
+        Modeling Components
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>Key Model Elements</h4>
+          <ul class="system-features">
+            <li>Grids and levels for structural coordination</li>
+            <li>External and internal walls with proper materials</li>
+            <li>Curtain walls with detailed mullions</li>
+            <li>Floor assemblies and parapet walls</li>
+            <li>Flat roof construction</li>
+            <li>Tagged rooms, doors, and windows</li>
+          </ul>
+        </div>
+        
+        <div class="image-card">
+          <div class="image-wrapper">
+            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-5.jpg" 
+                 alt="North Elevation Details" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div class="image-meta">
+            <span class="image-fig">Fig 3.</span>
+            <span class="image-desc">North elevation details showing wall assemblies</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+        </svg>
+        View Creation
+      </h3>
+      
+      <div class="diagram-description">
+        <p>The modeling task required creation of multiple view types to fully document the building design, including floor plans, ceiling plans, elevations, sections, and 3D views.</p>
+      </div>
+      
+      <div class="diagram-grid">
+        <div class="diagram-card">
+          <div class="diagram-wrapper">
+            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-6.jpg" 
+                 alt="Base Level Annotated Details" 
+                 class="diagram-image"
+                 loading="lazy">
+          </div>
+          <div class="diagram-meta">
+            <span class="diagram-label">Plan View</span>
+            <span class="diagram-fig">Fig 4. Base level annotated floor plan</span>
+          </div>
+        </div>
+        
+        <div class="diagram-card">
+          <div class="diagram-wrapper">
+            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-7.jpg" 
+                 alt="Software Application Procedure" 
+                 class="diagram-image"
+                 loading="lazy">
+          </div>
+          <div class="diagram-meta">
+            <span class="diagram-label">Workflow</span>
+            <span class="diagram-fig">Fig 5. Revit software application procedure</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- BIM Documentation Section -->
+  <section class="project-section documentation-section">
+    <h2 class="section-header">
+      <span class="section-number">03</span>
+      BIM Documentation
+    </h2>
+    
+    <div class="calculations-intro">
+      <p>The documentation task involved extracting and presenting information from the BIM model using various interoperability tools, including Revit schedules, COBie data exchange, and Navisworks clash detection.</p>
+    </div>
+    
+    <article class="design-subsection documentation-tasks">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+        </svg>
+        Documentation Tasks
+      </h3>
+      
+      <div class="documentation-grid">
+        <div class="documentation-item">
+          <h4>Drawing Sheets</h4>
+          <ul>
+            <li>Creation of PDF drawing sheets</li>
+            <li>Included all necessary views</li>
+            <li>Properly annotated and dimensioned</li>
+          </ul>
+        </div>
+        
+        <div class="documentation-item">
+          <h4>Revit Schedules</h4>
+          <ul>
+            <li>Door and window schedules</li>
+            <li>Room finish schedules</li>
+            <li>Equipment schedules</li>
+          </ul>
+        </div>
+        
+        <div class="documentation-item">
+          <h4>COBie Data</h4>
+          <ul>
+            <li>Construction Operation Building info exchange</li>
+            <li>Extracted component information</li>
+            <li>Formatted for facility management</li>
+          </ul>
+        </div>
+        
+        <div class="documentation-item">
+          <h4>Clash Detection</h4>
+          <ul>
+            <li>MEP vs Structural comparison</li>
+            <li>Navisworks Manage 2022</li>
+            <li>Comprehensive clash report</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="image-card full-width">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/energy-in-buildings/bim_coursework-8.jpg" 
+               alt="3D Design Procedure" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 6.</span>
+          <span class="image-desc">3D design workflow procedure in Revit</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Project Reflection Section -->
+  <section class="project-section reflection-section">
+    <h2 class="section-header">
+      <span class="section-number">04</span>
+      Project Reflection
+    </h2>
+    
+    <div class="reflection-content">
+      <div class="reflection-text">
+        <p>This coursework provided valuable hands-on experience with industry-standard BIM software and workflows, from initial modeling through to comprehensive documentation and coordination.</p>
+        
+        <div class="skill-development">
+          <h3>Key Skill Development</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Technical Skills</h4>
+              <ul>
+                <li>Autodesk Revit modeling</li>
+                <li>BIM interoperability tools</li>
+                <li>Clash detection analysis</li>
+                <li>Construction documentation</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Professional Skills</h4>
+              <ul>
+                <li>BIM workflow understanding</li>
+                <li>Technical problem solving</li>
+                <li>Attention to detail</li>
+                <li>Industry-standard practices</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+/* Base Styles */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-gray: #ecf0f1;
+  --medium-gray: #bdc3c7;
+  --dark-gray: #7f8c8d;
+  --text-color: #34495e;
+  --white: #ffffff;
+}
+
+.bim-project {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.2rem;
+}
+
+.project-subtitle {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  border-left: 4px solid var(--primary-color);
+  padding-left: 15px;
+  margin: 40px 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+.section-number {
+  font-size: 1.2rem;
+  background: var(--primary-color);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.subsection-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subsection-icon, .methodology-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--primary-color);
+  margin-right: 10px;
+}
+
+/* Project Meta */
+.project-meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tech-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-tag {
+  background: var(--light-gray);
+  color: var(--text-color);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid var(--medium-gray);
+}
+
+/* Project Visualization */
+.project-visualization {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+.visualization-description {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.visualization-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.visualization-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.visualization-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visualization-caption {
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Project Context */
+.project-context {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Image Styles */
+.image-comparison, .diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.image-card, .diagram-card {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card:hover, .diagram-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.image-wrapper, .diagram-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image, .diagram-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover .image-overlay {
+  opacity: 1;
+}
+
+.zoom-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.image-meta, .diagram-meta {
+  padding: 15px;
+  background: var(--white);
+}
+
+.image-fig, .diagram-fig {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.image-desc, .diagram-desc {
+  color: var(--dark-gray);
+}
+
+.diagram-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+/* Key Specs */
+.key-specs {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.spec-item {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.spec-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.spec-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* System Details */
+.system-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.system-features {
+  padding-left: 20px;
+}
+
+.system-features li {
+  margin-bottom: 8px;
+}
+
+/* Documentation Grid */
+.documentation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.documentation-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.documentation-item h4 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.documentation-item ul {
+  padding-left: 20px;
+}
+
+.documentation-item li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Reflection Section */
+.reflection-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.reflection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skill-development {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .system-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 1.9rem;
+  }
+  
+  .section-header {
+    font-size: 1.6rem;
+  }
+  
+  .image-comparison, .diagram-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .bim-project {
+    padding: 0 15px;
+  }
+  
+  .project-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-header {
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .documentation-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<script>
+// Simple tab functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and content
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Image zoom simulation
+document.querySelectorAll('.image-wrapper').forEach(wrapper => {
+  wrapper.addEventListener('click', () => {
+    const img = wrapper.querySelector('img');
+    if (img.style.transform === 'scale(1.5)') {
+      img.style.transform = 'scale(1)';
+      wrapper.style.zIndex = '1';
+    } else {
+      img.style.transform = 'scale(1.5)';
+      wrapper.style.zIndex = '10';
+    }
+  });
+});
+</script>
