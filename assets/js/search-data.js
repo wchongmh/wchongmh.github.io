@@ -443,6 +443,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-bim-modeling-for-primary-school-design",
+          title: 'BIM Modeling for Primary School Design',
+          description: "Autodesk Revit-based BIM modeling exercise for a primary school building, including model development and documentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bim01/";
             },},{id: "projects-bim-modeling-for-primary-school-energy-in-buildings-coursework",
           title: 'BIM Modeling for Primary School - Energy in Buildings Coursework',
           description: "Autodesk Revit BIM modeling and documentation for a primary school building as part of GCU&#39;s Energy in Buildings module.",
