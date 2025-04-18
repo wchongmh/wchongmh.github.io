@@ -482,7 +482,7 @@ ninja.data = [{
           title: 'Pressure Loss Analysis in Piping Systems',
           description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/pressure01/";
+              window.location.href = "/projects/pressure-drop/";
             },},{id: "projects-public-housing-plumbing-systems-queen-39-s-hill-development",
           title: 'Public Housing Plumbing Systems - Queen&amp;#39;s Hill Development',
           description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics.",
