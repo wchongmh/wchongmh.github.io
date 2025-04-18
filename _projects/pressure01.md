@@ -3,7 +3,7 @@ title: "Pressure Loss Analysis in Piping Systems"
 category: Research
 description: "Experimental analysis of pressure losses in pipes and fittings using HM 150.11 module at Glasgow Caledonian University"
 tech: [Fluid Dynamics, Pressure Measurement, HM 150.11 Module, Fluid Mechanics, Pipe Systems, Hydraulic Analysis]
-image: /assets/img/projects/lab/pressure_drop-1.jpg
+image: /assets/img/projects/pressure-lab/pressure_drop-1.png
 importance: 2
 ---
 
@@ -29,18 +29,18 @@ importance: 2
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/lab/pressure-drop-2.jpg" 
-             alt="HM 150.11 Module Overview" 
+        <img src="/assets/img/projects/pressure-lab/pressure_drop-2.png" 
+             alt="Pressure Losses Concept in Pipes and Fittings" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">HM 150.11 base module experimental setup</p>
+        <p class="visualization-caption">Concept of pressure losses in pipes and fittings</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/lab/pressure-drop-3.jpg" 
-             alt="Pipe System Components" 
+        <img src="/assets/img/projects/pressure-lab/pressure_drop-3.png" 
+             alt="Pipe System Distribution" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">Various piping components tested</p>
+        <p class="visualization-caption">Pipe system distribution for HM 150.11</p>
       </div>
     </div>
   </div>
@@ -63,8 +63,8 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/lab/pressure-drop-4.jpg" 
-               alt="Experimental Setup Diagram" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-4.png" 
+               alt="HM 150.11 Laboratory Station" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -73,14 +73,14 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">Schematic of HM 150.11 closed-loop system</span>
+          <span class="image-desc">HM 150.11 laboratory station setup</span>
         </div>
       </div>
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/lab/pressure-drop-5.jpg" 
-               alt="Pressure Measurement Points" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-5.png" 
+               alt="Equipment Installation Diagram" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -89,7 +89,7 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Pressure gauge installation points</span>
+          <span class="image-desc">Equipment installation in HM 150.11 module</span>
         </div>
       </div>
     </div>
@@ -297,6 +297,40 @@ importance: 2
           </div>
         </div>
       </div>
+
+      <div class="image-comparison">
+        <div class="image-card">
+          <div class="image-wrapper">
+            <img src="/assets/img/projects/pressure-lab/pressure_drop-7.png" 
+                 alt="Complete Laboratory Station" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div class="image-meta">
+            <span class="image-fig">Fig 3.</span>
+            <span class="image-desc">Complete laboratory station setup</span>
+          </div>
+        </div>
+        
+        <div class="image-card">
+          <div class="image-wrapper">
+            <img src="/assets/img/projects/pressure-lab/pressure_drop-6.png" 
+                 alt="Technical Data" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div class="image-meta">
+            <span class="image-fig">Fig 4.</span>
+            <span class="image-desc">HM 150.11 module technical data</span>
+          </div>
+        </div>
+      </div>
     </article>
   </section>
 
@@ -324,10 +358,10 @@ importance: 2
 
     <div class="results-grid">
       <div class="results-card">
-        <h3>Pressure Drop Comparison</h3>
+        <h3>Pressure Drop Analysis</h3>
         <div class="results-image">
-          <img src="/assets/img/projects/lab/pressure-drop-6.jpg" 
-               alt="Pressure Drop Comparison" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-8.png" 
+               alt="Pressure Drop Analysis" 
                class="results-img"
                loading="lazy">
         </div>
@@ -401,40 +435,142 @@ importance: 2
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/lab/result-1.jpg" 
-               alt="Pressure Drop Curves" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-9.png" 
+               alt="90° Elbow Pressure Drop" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
-            <span class="calc-title">Pressure Curves</span>
-            <span class="calc-detail">Component-specific Δp vs flow rate</span>
+            <span class="calc-title">90° Elbow Δp</span>
+            <span class="calc-detail">Pressure drop vs flow rate</span>
           </div>
         </div>
       </div>
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/lab/result-2.jpg" 
-               alt="Resistance Coefficients" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-10.png" 
+               alt="90° Elbow ζ Coefficient" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
-            <span class="calc-title">ζ Values</span>
-            <span class="calc-detail">Calculated resistance coefficients</span>
+            <span class="calc-title">90° Elbow ζ</span>
+            <span class="calc-detail">Resistance coefficient</span>
           </div>
         </div>
       </div>
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/lab/result-3.jpg" 
-               alt="System Head Curve" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-11.png" 
+               alt="Bend Pressure Drop" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
-            <span class="calc-title">System Curve</span>
-            <span class="calc-detail">Total head vs flow rate</span>
+            <span class="calc-title">Bend Δp</span>
+            <span class="calc-detail">Pressure drop vs flow rate</span>
           </div>
+        </div>
+      </div>
+
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-12.png" 
+               alt="Bend ζ Coefficient" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Bend ζ</span>
+            <span class="calc-detail">Resistance coefficient</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-13.png" 
+               alt="Bend Pressure Drop" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Bend Δp</span>
+            <span class="calc-detail">Pressure drop vs flow rate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-14.png" 
+               alt="Bend ζ Coefficient" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Bend ζ</span>
+            <span class="calc-detail">Resistance coefficient</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="results-grid">
+      <div class="results-card">
+        <h3>Experimental Data Results</h3>
+
+        <div class="data-highlight-note">
+          <p><strong>Data Note:</strong> In all experiment result tables, the lowest values are highlighted with <span class="lowest-value">🟦 blue</span> and the highest values with <span class="highest-value">🟨 yellow</span> for easy identification.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enlarged Experiment Results Tables -->
+    <div class="expanded-results">
+      <h3 class="subsection-header">Detailed Experiment Results</h3>
+      <p>Below are the complete results from all experimental runs showing pressure drop measurements across different components:</p>
+
+      <div class="large-result-grid">
+        <div class="large-result-card">
+          <h4>Run 1 Results</h4>
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-15.png" 
+                alt="First Experiment Results" 
+                class="large-result-img"
+                loading="lazy">
+          <p class="result-caption">First experiment results with highlighted minimum and maximum values</p>
+        </div>
+        
+        <div class="large-result-card">
+          <h4>Run 2 Results</h4>
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-16.png" 
+               alt="Second Experiment Results" 
+               class="large-result-img"
+               loading="lazy">
+          <p class="result-caption">Second experiment results showing pressure measurements with highlighted extremes</p>
+        </div>
+        
+        <div class="large-result-card">
+          <h4>Run 3 Results</h4>
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-17.png" 
+               alt="Third Experiment Results" 
+               class="large-result-img"
+               loading="lazy">
+          <p class="result-caption">Third experiment results with highlighted data points</p>
+        </div>
+        
+        <div class="large-result-card">
+          <h4>Run 4 Results</h4>
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-18.png" 
+               alt="Fourth Experiment Results" 
+               class="large-result-img"
+               loading="lazy">
+          <p class="result-caption">Fourth experiment results with highlighted data points</p>
+        </div>
+        
+        <div class="large-result-card">
+          <h4>Run 5 Results</h4>
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-19.png" 
+               alt="Fifth Experiment Results" 
+               class="large-result-img"
+               loading="lazy">
+          <p class="result-caption">Fifth experiment results showing pressure measurements with highlighted extremes</p>
         </div>
       </div>
     </div>
@@ -1435,6 +1571,70 @@ importance: 2
   
   .tab-button.active:after {
     display: none;
+  }
+}
+
+/* Data Highlight Styles */
+.data-highlight-note {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 12px 15px;
+  margin: 15px 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.95rem;
+}
+
+.lowest-value {
+  color: #3498db;
+  font-weight: 600;
+}
+
+.highest-value {
+  color: #f39c12;
+  font-weight: 600;
+}
+
+/* Expanded Results Styles */
+.expanded-results {
+  margin: 40px 0;
+}
+
+.large-result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.large-result-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.large-result-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px 0;
+  border: 1px solid #eee;
+}
+
+.result-caption {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .large-result-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .large-result-card {
+    padding: 15px;
   }
 }
 </style>
