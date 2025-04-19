@@ -462,7 +462,7 @@ ninja.data = [{
           title: 'DIALux Lighting Design - Commercial Building Project',
           description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/dialux/";
+              window.location.href = "/projects/dialux_lighting/";
             },},{id: "projects-high-rise-electrical-systems-cheuk-nang-centre",
           title: 'High-Rise Electrical Systems - Cheuk Nang Centre',
           description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics.",
