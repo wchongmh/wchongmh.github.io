@@ -1110,9 +1110,12 @@ importance: 1
           <p>The designed systems meet all regulatory requirements including Building Regulations Part F and the Boiler Efficiency Directive. With the recommended improvements, the building could achieve 15-20% greater energy efficiency while maintaining excellent indoor environmental quality.</p>
         </div>
       </div>
+
+      <p>These changes would significantly reduce heating losses, resulting in energy savings and cost effectiveness while maintaining indoor air quality.</p>
     </div>
-  </section>
-</div>
+  </div>
+</section>
+
 
 <style>
 /* Base Styles */
