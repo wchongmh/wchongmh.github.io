@@ -2,7 +2,7 @@
 title: "DIALux Lighting Design - Commercial Building Project"
 category: Smart Building
 description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software."
-tech: [DIALux, CIBSE Standards, SLL Standards, Lighting Calculations, Energy Efficiency, BIM Coordination]
+tech: [DIALux, CIBSE Standards, SLL Handbook, Lighting Calculations, Energy Efficiency, BIM Coordination]
 image: /assets/img/projects/lighting-design/dialux_lighting-1.png
 importance: 1
 ---
