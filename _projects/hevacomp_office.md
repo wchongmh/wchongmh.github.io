@@ -1112,8 +1112,6 @@ importance: 1
       </div>
 
       <p>These changes would significantly reduce heating losses, resulting in energy savings and cost effectiveness while maintaining indoor air quality.</p>
-    </div>
-  </div>
 </section>
 
 
