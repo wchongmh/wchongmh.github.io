@@ -52,7 +52,7 @@ importance: 1
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
@@ -168,7 +168,7 @@ importance: 1
   <!-- Design Standards Section -->
   <section class="project-section standards-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Design Standards & Regulations
     </h2>
     
@@ -314,7 +314,7 @@ importance: 1
   <!-- Case Studies Section -->
   <section class="project-section casestudy-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       Lighting System Case Studies
     </h2>
     
@@ -389,7 +389,7 @@ importance: 1
   <!-- Lighting Performance Section -->
   <section class="project-section performance-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Lighting Performance Analysis
     </h2>
     
@@ -1114,7 +1114,7 @@ importance: 1
   <!-- Energy Efficiency Section -->
   <section class="project-section efficiency-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">5</span>
       Energy Efficiency & Controls
     </h2>
     
@@ -1182,7 +1182,7 @@ importance: 1
   <!-- Project Process Section -->
   <section class="project-section process-section">
     <h2 class="section-header">
-      <span class="section-number">06</span>
+      <span class="section-number">6</span>
       Design Process
     </h2>
     
@@ -1256,7 +1256,7 @@ importance: 1
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">07</span>
+      <span class="section-number">7</span>
       Project Reflection
     </h2>
     
