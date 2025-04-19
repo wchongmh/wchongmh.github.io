@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hevacomp01/";
+            },},{id: "projects-glasgow-office-hvac-design-hevacomp-analysis",
+          title: 'Glasgow Office HVAC Design - Hevacomp Analysis',
+          description: "Comprehensive HVAC design for 2-story Glasgow office using Hevacomp software, including thermal analysis, system sizing, and energy efficiency recommendations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hevacomp02/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
