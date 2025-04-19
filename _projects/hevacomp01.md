@@ -52,7 +52,7 @@ importance: 1
   <!-- Introduction Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Introduction
     </h2>
     
@@ -98,7 +98,7 @@ importance: 1
   <!-- Building Geometry Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Building Geometry & Model Information
     </h2>
     
@@ -230,7 +230,7 @@ importance: 1
   <!-- Building Fabric Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       Building Fabric Analysis
     </h2>
     
@@ -322,7 +322,7 @@ importance: 1
   <!-- Heat Loss Analysis Section -->
   <section class="project-section methodology-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Heat Loss Analysis
     </h2>
     
@@ -466,7 +466,7 @@ importance: 1
   <!-- Radiator System Section -->
   <section class="project-section supplementary-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">5</span>
       Radiator System Design
     </h2>
     
@@ -568,7 +568,7 @@ importance: 1
   <!-- Heating System Design Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">06</span>
+      <span class="section-number">6</span>
       Heating System Design
     </h2>
     
@@ -706,7 +706,7 @@ importance: 1
   <!-- Ventilation System Design Section -->
   <section class="project-section recommendations-section">
     <h2 class="section-header">
-      <span class="section-number">07</span>
+      <span class="section-number">7</span>
       Ventilation System Design
     </h2>
     
@@ -1002,7 +1002,7 @@ importance: 1
   <!-- Boiler Sizing Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">08</span>
+      <span class="section-number">8</span>
       Boiler Sizing
     </h2>
     
@@ -1041,7 +1041,7 @@ importance: 1
   <!-- Conclusion Section -->
   <section class="project-section">
     <h2 class="section-header">
-      <span class="section-number">09</span>
+      <span class="section-number">9</span>
       Conclusion
     </h2>
     
