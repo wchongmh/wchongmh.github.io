@@ -1097,8 +1097,7 @@ importance: 1
               <h4>Systems</h4>
               <ul>
                 <li>Install thermostatic radiator valves (TRVs)</li>
-                <li>Expand supply/extract duct sizes as recommended</li>[hevacomp_office.md](https://github.com/user-attachments/files/19822704/hevacomp_office.md)
-
+                <li>Expand supply/extract duct sizes as recommended</li>
                 <li>Implement smart controls for ventilation</li>
               </ul>
             </div>
