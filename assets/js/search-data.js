@@ -483,11 +483,6 @@ ninja.data = [{
           description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/noise-assessment/";
-            },},{id: "projects-two-story-building-energy-analysis-glasgow-office",
-          title: 'Two-Story Building Energy Analysis - Glasgow Office',
-          description: "Comprehensive energy analysis of a Glasgow office building using Hevacomp, including heating, ventilation, and boiler systems design.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/office-hevacomp/";
             },},{id: "projects-high-rise-plumbing-amp-fire-protection-systems-axa-center",
           title: 'High-Rise Plumbing &amp;amp; Fire Protection Systems - AXA Center',
           description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai",
