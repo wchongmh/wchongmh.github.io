@@ -1097,7 +1097,8 @@ importance: 1
               <h4>Systems</h4>
               <ul>
                 <li>Install thermostatic radiator valves (TRVs)</li>
-                <li>Expand supply/extract duct sizes as recommended</li>
+                <li>Expand supply/extract duct sizes as recommended</li>[hevacomp_office.md](https://github.com/user-attachments/files/19822704/hevacomp_office.md)
+
                 <li>Implement smart controls for ventilation</li>
               </ul>
             </div>
@@ -1109,10 +1110,9 @@ importance: 1
           <p>The designed systems meet all regulatory requirements including Building Regulations Part F and the Boiler Efficiency Directive. With the recommended improvements, the building could achieve 15-20% greater energy efficiency while maintaining excellent indoor environmental quality.</p>
         </div>
       </div>
-      
-      <p>These changes would significantly reduce heating losses, resulting in energy savings and cost effectiveness while maintaining indoor air quality.</p>
     </div>
   </section>
+</div>
 
 <style>
 /* Base Styles */
