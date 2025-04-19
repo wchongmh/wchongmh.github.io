@@ -1,0 +1,1407 @@
+---
+title: "Glasgow Office HVAC Design - Hevacomp Analysis"
+category: Building Systems
+description: "Comprehensive HVAC design for 2-story Glasgow office using Hevacomp software, including thermal analysis, system sizing, and energy efficiency recommendations."
+tech: [Hevacomp, Thermal Analysis, BS EN 12845, HVAC Design, Building Regulations]
+image: /assets/img/projects/glasgow-office/hevacomp-1.png
+importance: 1
+---
+
+<div class="hvac-project">
+
+  <!-- Project Header -->
+  <header class="project-header">
+    <h1 class="project-title">Glasgow Office HVAC Design</h1>
+    <p class="project-subtitle">Hevacomp Energy Analysis Report</p>
+    <div class="project-meta">
+      <span class="badge">Building Systems</span>
+      <span class="tech-tags">
+        {% for technology in page.tech %}
+        <span class="tech-tag">{{ technology }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </header>
+
+  <div class="project-visualization">
+    <div class="visualization-description">
+      <p>The Glasgow office development features a modern two-story design with integrated HVAC systems carefully analyzed using Hevacomp software. The project includes detailed thermal analysis, heating system design, and ventilation requirements for optimal energy performance.</p>
+    </div>
+    <div class="visualization-images">
+      <div class="visualization-card">
+        <img src="/assets/img/projects/glasgow-office/hevacomp-2.png" 
+             alt="Ground Floor Plan" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">Ground floor layout</p>
+      </div>
+      <div class="visualization-card">
+        <img src="/assets/img/projects/glasgow-office/hevacomp-3.png" 
+             alt="First Floor Plan" 
+             class="visualization-img"
+             loading="lazy">
+        <p class="visualization-caption">First floor layout</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-context">
+    <p>This Hevacomp analysis examines a two-story office building in Glasgow, Scotland, with 11 rooms per floor totaling 22 spaces. The building features double-glazed windows, mechanical ventilation systems, and LTHW heating with CARADON STELRAD Elite K2 radiators. The design complies with UK Building Regulations and Scottish Technical Standards.</p>
+  </div>
+
+  <!-- Introduction Section -->
+  <section class="project-section overview-section">
+    <h2 class="section-header">
+      <span class="section-number">01</span>
+      Introduction
+    </h2>
+    
+    <div class="project-description">
+      <p>The analysis focuses on energy performance evaluation using Hevacomp software, crucial for building energy analysis and HVAC design. The building's systems include radiators connected to a boiler, mechanical ventilation with heat recovery, and optimized ductwork. We entered detailed building parameters into Hevacomp including room dimensions, window characteristics, and system specifications to perform comprehensive energy analysis.</p>
+    </div>
+    
+    <div class="image-comparison">
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-4.png" 
+               alt="3D Building View" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 1.</span>
+          <span class="image-desc">3D view showing both floors and building orientation</span>
+        </div>
+      </div>
+      
+      <div class="image-card">
+        <div class="image-wrapper">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-1.png" 
+               alt="Hevacomp Interface" 
+               class="project-image"
+               loading="lazy">
+          <div class="image-overlay">
+            <span class="zoom-icon">🔍</span>
+          </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 2.</span>
+          <span class="image-desc">Hevacomp software interface used for analysis</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="key-specs">
+      <h3 class="specs-title">Key Building Specifications</h3>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <span class="spec-value">2</span>
+          <span class="spec-label">Floors</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">22</span>
+          <span class="spec-label">Rooms</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">15m</span>
+          <span class="spec-label">Height</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">4m</span>
+          <span class="spec-label">Floor-to-Ceiling</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Building Fabric Section -->
+  <section class="project-section system-design">
+    <h2 class="section-header">
+      <span class="section-number">02</span>
+      Building Fabric Analysis
+    </h2>
+    
+    <div class="system-intro">
+      <p>The building fabric plays a crucial role in energy performance. Our analysis followed Scottish regulations for walls, windows, and airtightness. Key considerations included U-values, thermal bridging, and air leakage rates to optimize insulation and minimize heat loss.</p>
+    </div>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+        </svg>
+        Window Performance
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>Double Glazed Windows</h4>
+          <ul class="system-features">
+            <li>Type 6 double glazing throughout building</li>
+            <li>U-value of 1.718 W/m²K (meets standard)</li>
+            <li>Height: 1.5m with 1m sill height</li>
+            <li>50% glazing on north/south facades</li>
+          </ul>
+        </div>
+        
+        <div class="image-comparison">
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-6.png" 
+                 alt="Window Specifications" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 3.</span>
+              <span class="image-desc">Double glazed type 6 specifications</span>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-8.png" 
+                 alt="Window U-values" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 4.</span>
+              <span class="image-desc">Standard U-values for windows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M4,6H20V16H4M20,18A2,2 0 0,0 22,16V6C22,4.89 21.1,4 20,4H4C2.89,4 2,4.89 2,6V16A2,2 0 0,0 4,18H0V20H24V18H20Z" />
+        </svg>
+        Wall Construction
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>Insulated Wall System</h4>
+          <ul class="system-features">
+            <li>"New Wall" type construction</li>
+            <li>U-value of 0.27 W/m²K (slightly above 0.23 standard)</li>
+            <li>45mm insulation thickness</li>
+            <li>Thermal bridging minimized</li>
+          </ul>
+        </div>
+        
+        <div class="image-comparison">
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-9.png" 
+                 alt="Wall Specifications" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 5.</span>
+              <span class="image-desc">Wall construction details</span>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-11.png" 
+                 alt="Wall U-values" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 6.</span>
+              <span class="image-desc">Standard U-values for walls</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,19H5V5H19V19M11,7H13V11H17V13H13V17H11V13H7V11H11V7Z" />
+        </svg>
+        Airtightness
+      </h3>
+      
+      <div class="system-arrangement">
+        <div class="arrangement-image">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-5.png" 
+               alt="Airtightness Standards" 
+               class="arrangement-img"
+               loading="lazy">
+          <div class="arrangement-caption">
+            <span class="arrangement-fig">Fig 7.</span>
+            <span class="arrangement-desc">Air change rates for unheated spaces</span>
+          </div>
+        </div>
+        <div class="arrangement-notes">
+          <p><strong>Design Notes:</strong> The building achieves 0.3 air changes per hour (ACH) for optimal energy efficiency. Airtightness measures ensure less than 5 m³/h/m² at 50 Pa pressure. This reduces heating losses while maintaining indoor air quality through controlled ventilation.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Heat Loss Analysis Section -->
+  <section class="project-section calculations-section">
+    <h2 class="section-header">
+      <span class="section-number">03</span>
+      Heat Loss Analysis
+    </h2>
+    
+    <div class="calculations-intro">
+      <p>Heat loss calculations were performed for all 22 rooms using Hevacomp, accounting for fabric losses, ventilation, and infiltration. The total building heat loss was calculated at 35,144W, with detailed breakdowns for each room and component.</p>
+    </div>
+    
+    <div class="calculation-gallery">
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-12.png" 
+               alt="Heat Loss Distribution" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Heat Loss Breakdown</span>
+            <span class="calc-detail">Infiltration: 38% | Glazing: 28%</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-13.png" 
+               alt="Room Heat Loss Summary" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Room-by-Room</span>
+            <span class="calc-detail">Detailed heat loss calculations</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-16.png" 
+               alt="Room 0-1 Heat Loss" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Room 0-1</span>
+            <span class="calc-detail">Ground floor: 2,017W loss</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-17.png" 
+               alt="Room 1-4 Heat Loss" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Room 1-4</span>
+            <span class="calc-detail">First floor: 6,448W loss</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="calculation-summary">
+      <h3 class="summary-title">Key Findings</h3>
+      <ul class="safety-factors">
+        <li>Total building heat loss: 35,144W</li>
+        <li>Primary heat loss through infiltration (38%)</li>
+        <li>Secondary heat loss through glazing (28%)</li>
+        <li>Room 1-4 shows highest losses due to occupancy requirements</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Heating System Design Section -->
+  <section class="project-section methodology-section">
+    <h2 class="section-header">
+      <span class="section-number">04</span>
+      Heating System Design
+    </h2>
+    
+    <div class="methodology-intro">
+      <p>The LTHW (Low Temperature Hot Water) heating system was designed to meet the calculated heat demands while optimizing for energy efficiency. The system features CARADON STELRAD Elite K2 radiators and a condensing boiler with 90% efficiency.</p>
+    </div>
+
+    <div class="methodology-steps">
+      <div class="step-item">
+        <div class="step-number">Step 1</div>
+        <div class="step-image">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-24.png" 
+               alt="Radiator Layout" 
+               class="step-img"
+               loading="lazy">
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 2</div>
+        <div class="step-image">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-25.png" 
+               alt="LTHW System" 
+               class="step-img"
+               loading="lazy">
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">Step 3</div>
+        <div class="step-image">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-26.png" 
+               alt="Boiler Arrangement" 
+               class="step-img"
+               loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+        </svg>
+        Radiator Selection
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>CARADON STELRAD Elite K2</h4>
+          <ul class="system-features">
+            <li>BS EN 442 compliant radiators</li>
+            <li>Maximum 3kW capacity per unit</li>
+            <li>94% energy efficiency rating</li>
+            <li>8 bar maximum operating pressure</li>
+          </ul>
+        </div>
+        
+        <div class="image-comparison">
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-18.png" 
+                 alt="Radiator Specifications" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 8.</span>
+              <span class="image-desc">Technical specifications</span>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-19.png" 
+                 alt="Radiator Photos" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 9.</span>
+              <span class="image-desc">Product images</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="technical-specs">
+      <h4 class="specs-title">Boiler System Specifications</h4>
+      
+      <div class="specs-accordion">
+        <details class="spec-group">
+          <summary>Pipework System</summary>
+          <div class="image-comparison">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-27.png" 
+                 alt="Pipework Data" 
+                 class="project-image"
+                 loading="lazy">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-29.png" 
+                 alt="Pipe Quantities" 
+                 class="project-image"
+                 loading="lazy">
+          </div>
+        </details>
+        
+        <details class="spec-group">
+          <summary>Pump Specifications</summary>
+          <img src="/assets/img/projects/glasgow-office/hevacomp-28.png" 
+               alt="Pump Data" 
+               class="project-image"
+               loading="lazy">
+        </details>
+        
+        <details class="spec-group">
+          <summary>System Parameters</summary>
+          <img src="/assets/img/projects/glasgow-office/hevacomp-30.png" 
+               alt="System Inputs" 
+               class="project-image"
+               loading="lazy">
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ventilation System Section -->
+  <section class="project-section supplementary-section">
+    <h2 class="section-header">
+      <span class="section-number">05</span>
+      Ventilation System Design
+    </h2>
+    
+    <div class="supplementary-grid">
+      <div class="supplementary-card">
+        <h3 class="supplementary-title">System Overview</h3>
+        <div class="supplementary-image">
+          <img src="/assets/img/projects/glasgow-office/hevacomp-35.png" 
+               alt="Ventilation Plan" 
+               class="supplementary-img"
+               loading="lazy">
+        </div>
+        <div class="supplementary-content">
+          <p><strong>Key Specifications:</strong></p>
+          <ul>
+            <li>Total airflow: 792 L/s</li>
+            <li>Occupancy: 66 persons</li>
+            <li>22 diffusers (supply & extract)</li>
+            <li>12 L/s/person ventilation rate</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="supplementary-card">
+        <h3 class="supplementary-title">Regulatory Compliance</h3>
+        <div class="supplementary-content">
+          <div class="image-comparison">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-31.png" 
+                 alt="Ventilation Rates" 
+                 class="project-image"
+                 loading="lazy">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-33.png" 
+                 alt="Mechanical Ventilation" 
+                 class="project-image"
+                 loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M4,6H20V16H4M20,18A2,2 0 0,0 22,16V6C22,4.89 21.1,4 20,4H4C2.89,4 2,4.89 2,6V16A2,2 0 0,0 4,18H0V20H24V18H20Z" />
+        </svg>
+        Supply System
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>Fresh Air Distribution</h4>
+          <ul class="system-features">
+            <li>Optimized duct sizing for even air distribution</li>
+            <li>Pressure losses minimized through careful design</li>
+            <li>Damper controls for zone balancing</li>
+          </ul>
+        </div>
+        
+        <div class="image-comparison">
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-36.png" 
+                 alt="Supply Ductwork" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 10.</span>
+              <span class="image-desc">Isometric view of supply system</span>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-37.png" 
+                 alt="Duct Sizing" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 11.</span>
+              <span class="image-desc">Supply duct sizing data</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,19H5V5H19V19M11,7H13V11H17V13H13V17H11V13H7V11H11V7Z" />
+        </svg>
+        Extract System
+      </h3>
+      
+      <div class="system-details">
+        <div class="system-type">
+          <h4>Stale Air Removal</h4>
+          <ul class="system-features">
+            <li>Strategic placement of extract points</li>
+            <li>Balanced airflow with supply system</li>
+            <li>Heat recovery efficiency of 75%</li>
+          </ul>
+        </div>
+        
+        <div class="image-comparison">
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-42.png" 
+                 alt="Extract Ductwork" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 12.</span>
+              <span class="image-desc">Isometric view of extract system</span>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="/assets/img/projects/glasgow-office/hevacomp-43.png" 
+                 alt="Duct Sizing" 
+                 class="project-image"
+                 loading="lazy">
+            <div class="image-meta">
+              <span class="image-fig">Fig 13.</span>
+              <span class="image-desc">Extract duct sizing data</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Boiler Sizing Section -->
+  <section class="project-section recommendations-section">
+    <h2 class="section-header">
+      <span class="section-number">06</span>
+      Boiler Sizing
+    </h2>
+    
+    <div class="recommendations-grid">
+      <div class="recommendation-card">
+        <div class="rec-icon">🔥</div>
+        <h3>Heat Demand Calculation</h3>
+        <ul>
+          <li>LTHW demand: 40,228W</li>
+          <li>Preheat demand: 27,918W</li>
+          <li>Total demand: 68,146W</li>
+          <li>90% efficient boiler required</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">⚖️</div>
+        <h3>Final Boiler Size</h3>
+        <ul>
+          <li>Calculated size: 75,718W</li>
+          <li>Complies with Boiler Efficiency Directive</li>
+          <li>92% minimum efficiency standard</li>
+          <li>Properly sized for peak demand</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusion Section -->
+  <section class="project-section reflection-section">
+    <h2 class="section-header">
+      <span class="section-number">07</span>
+      Conclusion & Recommendations
+    </h2>
+    
+    <div class="reflection-content">
+      <div class="reflection-text">
+        <p>The Hevacomp analysis identified several opportunities to improve the building's energy efficiency while maintaining comfortable indoor conditions. Key findings include significant heat loss through infiltration (38%) and glazing (28%), with total building heat losses of 35,144W.</p>
+        
+        <div class="skill-development">
+          <h3>Recommended Improvements</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Building Fabric</h4>
+              <ul>
+                <li>Improve wall insulation to achieve U-value of 0.23 W/m²K</li>
+                <li>Enhance window seals to reduce infiltration</li>
+                <li>Consider triple glazing for critical areas</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Systems</h4>
+              <ul>
+                <li>Install thermostatic radiator valves (TRVs)</li>
+                <li>Expand supply/extract duct sizes as recommended</li>
+                <li>Implement smart controls for ventilation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-outcome">
+          <h3>Final Assessment</h3>
+          <p>The designed systems meet all regulatory requirements including Building Regulations Part F and the Boiler Efficiency Directive. With the recommended improvements, the building could achieve 15-20% greater energy efficiency while maintaining excellent indoor environmental quality.</p>
+        </div>
+      </div>
+      
+      <div class="reflection-image">
+        <img src="/assets/img/projects/glasgow-office/hevacomp-26.png" 
+             alt="Boiler Arrangement" 
+             class="reflection-img"
+             loading="lazy">
+        <p class="image-caption">Fig 14. Optimized boiler arrangement (Flow 75°C, Return 65°C)</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+/* Base Styles */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --light-gray: #ecf0f1;
+  --medium-gray: #bdc3c7;
+  --dark-gray: #7f8c8d;
+  --text-color: #34495e;
+  --white: #ffffff;
+}
+
+.hvac-project {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+.project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.2rem;
+}
+
+.project-subtitle {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  border-left: 4px solid var(--primary-color);
+  padding-left: 15px;
+  margin: 40px 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+.section-number {
+  font-size: 1.2rem;
+  background: var(--primary-color);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.subsection-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subsection-icon, .methodology-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--primary-color);
+  margin-right: 10px;
+}
+
+/* Project Meta */
+.project-meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tech-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-tag {
+  background: var(--light-gray);
+  color: var(--text-color);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  border: 1px solid var(--medium-gray);
+}
+
+/* Project Visualization */
+.project-visualization {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+.visualization-description {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.visualization-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.visualization-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.visualization-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.visualization-caption {
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Project Context */
+.project-context {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Image Styles */
+.image-comparison, .diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.image-card, .diagram-card {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card:hover, .diagram-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.image-wrapper, .diagram-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image, .diagram-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover .image-overlay {
+  opacity: 1;
+}
+
+.zoom-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.image-meta, .diagram-meta {
+  padding: 15px;
+  background: var(--white);
+}
+
+.image-fig, .diagram-fig {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.image-desc, .diagram-desc {
+  color: var(--dark-gray);
+}
+
+.diagram-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+/* Key Specs */
+.key-specs {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.spec-item {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.spec-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.spec-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* System Design */
+.system-intro {
+  margin-bottom: 25px;
+}
+
+.system-details {
+  margin-bottom: 30px;
+}
+
+.system-features {
+  padding-left: 20px;
+}
+
+.system-features li {
+  margin-bottom: 8px;
+}
+
+/* Technical Specifications */
+.technical-specs {
+  margin-top: 30px;
+}
+
+.specs-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.specs-accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spec-group {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-group:last-child {
+  border-bottom: none;
+}
+
+.spec-group summary {
+  padding: 15px;
+  background: #f5f9ff;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.spec-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.spec-group summary:after {
+  content: '+';
+  float: right;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.spec-group[open] summary:after {
+  content: '-';
+}
+
+.spec-group ul {
+  padding: 0 15px 15px 45px;
+  margin: 0;
+}
+
+.spec-group li {
+  margin-bottom: 8px;
+}
+
+/* System Arrangement */
+.system-arrangement {
+  margin: 30px 0;
+}
+
+.arrangement-image {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.arrangement-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.arrangement-caption {
+  padding: 12px 15px;
+  background: var(--light-gray);
+  font-size: 0.9rem;
+}
+
+.arrangement-fig {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 8px;
+}
+
+.arrangement-notes {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+/* Calculations Section */
+.calculations-intro {
+  margin-bottom: 25px;
+}
+
+.calculation-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.calculation-item {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.calc-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.calc-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.calc-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 64, 83, 0.8);
+  color: white;
+  padding: 12px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.calculation-item:hover .calc-overlay {
+  transform: translateY(0);
+}
+
+.calculation-item:hover .calc-image {
+  transform: scale(1.05);
+}
+
+.calc-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.calc-detail {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+.calculation-summary {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.summary-title {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.safety-factors {
+  padding-left: 20px;
+}
+
+.safety-factors li {
+  margin-bottom: 8px;
+}
+
+/* Methodology Steps */
+.methodology-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.step-item {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.step-number {
+  background: var(--primary-color);
+  color: white;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.step-image {
+  padding: 10px;
+}
+
+.step-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.methodology-conclusion {
+  background: #f5fbf5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  border-left: 4px solid #2ecc71;
+}
+
+.conclusion-title {
+  font-size: 1.2rem;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+/* Supplementary Information */
+.supplementary-section {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.supplementary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.supplementary-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.supplementary-title {
+  background: var(--primary-color);
+  color: white;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.supplementary-image {
+  padding: 15px;
+}
+
+.supplementary-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.supplementary-content {
+  padding: 0 15px 15px;
+}
+
+.supplementary-content ul {
+  padding-left: 20px;
+}
+
+.supplementary-content li {
+  margin-bottom: 8px;
+}
+
+/* Recommendations */
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.rec-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.recommendation-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.recommendation-card ul {
+  padding-left: 20px;
+}
+
+.recommendation-card li {
+  margin-bottom: 8px;
+}
+
+/* Reflection Section */
+.reflection-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.reflection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skill-development {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.project-outcome {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.reflection-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.reflection-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .reflection-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .reflection-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 1.9rem;
+  }
+  
+  .section-header {
+    font-size: 1.6rem;
+  }
+  
+  .image-comparison, .diagram-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .hvac-project {
+    padding: 0 15px;
+  }
+  
+  .project-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-header {
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .calculation-gallery, .methodology-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+</style>
+
+<script>
+// Simple tab functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and content
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Accordion functionality
+document.querySelectorAll('.spec-group').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      details.style.backgroundColor = '#f5f9ff';
+    } else {
+      details.style.backgroundColor = '';
+    }
+  });
+});
+</script>
