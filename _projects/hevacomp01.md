@@ -2,8 +2,8 @@
 title: "Glasgow Office Building - Hevacomp Design Report"
 category: Smart Building
 description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems."
-tech: [Hevacomp, HVAC Design, BS EN 12845, U-value Calculations, BIM Coordination]
-image: /assets/img/projects/glasgow-office/hevacomp-1.png
+tech: [Hevacomp, HVAC Design, Thermal Analysis, BS EN 12845, U-value Calculations, Building Regulations]
+image: /assets/img/projects/glasgow-office/hevacomp-0.png
 importance: 1
 ---
 
@@ -12,7 +12,7 @@ importance: 1
   <!-- Project Header -->
   <header class="project-header">
     <h1 class="project-title">Glasgow Office Building</h1>
-    <p class="project-subtitle">Hevacomp Design Report</p>
+    <p class="project-subtitle">Hevacomp Design & Energy Analysis Report</p>
     <div class="project-meta">
       <span class="badge">Building Services Engineering</span>
       <span class="tech-tags">
