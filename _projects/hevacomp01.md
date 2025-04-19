@@ -1010,6 +1010,30 @@ importance: 1
       <p>The boiler needs to be sized to accommodate the building's peak heating requirements. The calculation considers heat loss coefficient, building materials, and window types. An undersized boiler won't produce enough heat, while an oversized one could result in inefficiencies.</p>
     </div>
 
+    <div class="recommendations-grid">
+      <div class="recommendation-card">
+        <div class="rec-icon">🔥</div>
+        <h3>Heat Demand Calculation</h3>
+        <ul>
+          <li>LTHW demand: 40,228W</li>
+          <li>Preheat demand: 27,918W</li>
+          <li>Total demand: 68,146W</li>
+          <li>90% efficient boiler required</li>
+        </ul>
+      </div>
+      
+      <div class="recommendation-card">
+        <div class="rec-icon">⚖️</div>
+        <h3>Final Boiler Size</h3>
+        <ul>
+          <li>Calculated size: 75,718W</li>
+          <li>Complies with Boiler Efficiency Directive</li>
+          <li>92% minimum efficiency standard</li>
+          <li>Properly sized for peak demand</li>
+        </ul>
+      </div>
+    </div>
+
     <div class="key-specs">
       <h3 class="specs-title">Boiler Sizing Calculations</h3>
       <div class="specs-grid">
@@ -1046,7 +1070,7 @@ importance: 1
     </h2>
     
     <div class="project-description">
-      <p>The two-story building's energy efficiency could be improved, according to the Hevacomp analysis. While the boiler and radiator sizing were suitable, the supply and extract ducts needed adjustment. The building's heating losses were higher than expected, leading to increased energy consumption.</p>
+      <p>The Hevacomp analysis of the two-story building identified several opportunities to enhance energy efficiency while maintaining indoor comfort. Although the boiler and radiator sizing were appropriate, adjustments to the supply and extract ducts were recommended. The analysis revealed higher-than-expected heating losses, totaling 35,144W, primarily due to infiltration (38%) and glazing (28%), contributing to increased energy consumption.</p>
       
       <p>Recommendations for improvement include:</p>
       <ul>
@@ -1057,30 +1081,36 @@ importance: 1
         <li>Upgrading to more energy-efficient windows and doors</li>
         <li>Implementing a heat recovery ventilation system</li>
       </ul>
+
+      <div class="skill-development">
+          <h3>Recommended Improvements</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Building Fabric</h4>
+              <ul>
+                <li>Improve wall insulation to achieve U-value of 0.23 W/m²K</li>
+                <li>Enhance window seals to reduce infiltration</li>
+                <li>Consider triple glazing for critical areas</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Systems</h4>
+              <ul>
+                <li>Install thermostatic radiator valves (TRVs)</li>
+                <li>Expand supply/extract duct sizes as recommended</li>
+                <li>Implement smart controls for ventilation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-outcome">
+          <h3>Final Assessment</h3>
+          <p>The designed systems meet all regulatory requirements including Building Regulations Part F and the Boiler Efficiency Directive. With the recommended improvements, the building could achieve 15-20% greater energy efficiency while maintaining excellent indoor environmental quality.</p>
+        </div>
+      </div>
       
       <p>These changes would significantly reduce heating losses, resulting in energy savings and cost effectiveness while maintaining indoor air quality.</p>
-    </div>
-  </section>
-
-  <!-- References Section -->
-  <section class="project-section">
-    <h2 class="section-header">
-      <span class="section-number">10</span>
-      References
-    </h2>
-    
-    <div class="references-list">
-      <ol>
-        <li>The Government's Standard Assessment Procedure for Energy Rating of Dwellings (2012 edition)</li>
-        <li>Building standards technical handbook 2022: non-domestic (1 June 2022)</li>
-        <li>The CARADON STELRAD Elite K2 Boiler Product website</li>
-        <li>The product catalogue of CARADON STELRAD Elite K2 Boiler</li>
-        <li>ASHRAE Standard 62.1 - Guideline for Ventilation for Acceptable Indoor Air Quality</li>
-        <li>About the Boiler Efficiency Directive (92/42/EEC)</li>
-        <li>Ventilation: Approved Document F Building regulation in England for the ventilation requirements</li>
-        <li>The Energy Performance of Buildings (Scotland) Regulations 2008</li>
-        <li>National Calculation Methodology (NCM) Modelling Guide for Non-Domestic Buildings in Scotland 2015</li>
-      </ol>
     </div>
   </section>
 </div>
@@ -1242,6 +1272,33 @@ importance: 1
   padding: 15px 20px;
   margin-bottom: 25px;
   border-radius: 0 4px 4px 0;
+}
+
+.skill-development {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
 }
 
 /* Image Styles */
