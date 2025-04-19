@@ -468,16 +468,16 @@ ninja.data = [{
           description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gcu-solar/";
-            },},{id: "projects-glasgow-office-building-hevacomp-design-report",
-          title: 'Glasgow Office Building - Hevacomp Design Report',
-          description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/hevacomp01/";
             },},{id: "projects-glasgow-office-hvac-design-hevacomp-analysis",
           title: 'Glasgow Office HVAC Design - Hevacomp Analysis',
           description: "Comprehensive HVAC design for 2-story Glasgow office using Hevacomp software, including thermal analysis, system sizing, and energy efficiency recommendations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hevacomp02/";
+            },},{id: "projects-glasgow-office-building-hevacomp-design-report",
+          title: 'Glasgow Office Building - Hevacomp Design Report',
+          description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hevacomp_office/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
