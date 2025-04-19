@@ -455,11 +455,6 @@ ninja.data = [{
               window.location.href = "/projects/bms-system/";
             },},{id: "projects-dialux-lighting-design-commercial-building-project",
           title: 'DIALux Lighting Design - Commercial Building Project',
-          description: "Comprehensive lighting design for a mixed-use commercial building using DIALux software, meeting CIBSE SLL standards.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/dialux-light/";
-            },},{id: "projects-dialux-lighting-design-commercial-building-project",
-          title: 'DIALux Lighting Design - Commercial Building Project',
           description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dialux_lighting/";
