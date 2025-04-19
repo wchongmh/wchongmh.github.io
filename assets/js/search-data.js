@@ -453,6 +453,11 @@ ninja.data = [{
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
+            },},{id: "projects-dialux-lighting-design-commercial-building-project",
+          title: 'DIALux Lighting Design - Commercial Building Project',
+          description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dialux/";
             },},{id: "projects-high-rise-electrical-systems-cheuk-nang-centre",
           title: 'High-Rise Electrical Systems - Cheuk Nang Centre',
           description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics.",
