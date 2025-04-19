@@ -1536,6 +1536,13 @@ importance: 1
   margin-bottom: 10px;
 }
 
+.project-outcome {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+  
 /* Responsive Design */
 @media (max-width: 992px) {
   .reflection-content {
