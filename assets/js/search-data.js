@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hevacomp_office/";
+            },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
+          title: 'Daylighting Design Analysis - Glasgow Residential Project',
+          description: "Comprehensive daylighting analysis for a 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies01/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
