@@ -488,6 +488,11 @@ ninja.data = [{
           description: "Comprehensive daylight factor analysis for 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies03/";
+            },},{id: "projects-residential-daylighting-design-glasgow-semi-detached-house",
+          title: 'Residential Daylighting Design - Glasgow Semi-Detached House',
+          description: "Comprehensive daylight analysis for 2-storey Glasgow residence using manual calculations and Dialux simulations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies_ve/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
