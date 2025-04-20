@@ -1,7 +1,7 @@
 ---
 title: "Residential Daylighting Design Analysis - Glasgow Kirkintilloch Residence Semi-Detached House"
 category: Smart Building
-description: "Comprehensive daylight analysis for 2-storey Glasgow residence using manual calculations and Dialux simulations"
+description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation."
 tech: [Dialux, Daylight Factor Calculations, BS EN 17037, SLL Code Compliance, Daylight Autonomy, Energy Efficiency Analysis]
 image: /assets/img/projects/daylight-design/dialux_daylight-0.png
 importance: 1
