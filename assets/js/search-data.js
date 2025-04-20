@@ -493,6 +493,11 @@ ninja.data = [{
           description: "Comprehensive daylight factor analysis for 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies03/";
+            },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
+          title: 'Daylighting Design Analysis - Glasgow Residential Project',
+          description: "Comprehensive daylight factor analysis for 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies033/";
             },},{id: "projects-daylight-design-analysis-kirkintilloch-residential-project",
           title: 'Daylight Design Analysis - Kirkintilloch Residential Project',
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
