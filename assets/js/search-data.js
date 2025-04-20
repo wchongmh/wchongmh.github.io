@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hevacomp_office/";
+            },},{id: "projects-daylight-design-analysis-kirkintilloch-residence",
+          title: 'Daylight Design Analysis - Kirkintilloch Residence',
+          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies-ve01/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylighting analysis for a 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations.",
