@@ -519,6 +519,36 @@ importance: 1
       <span class="section-number">08</span>
       Conclusion
     </h2>
+
+    <div class="conclusion-content">
+      <div class="conclusion-text">
+        <p>The daylight and lighting design analysis for this Glasgow residential property demonstrates that most rooms meet or exceed recommended daylight factor standards. The project highlights:</p>
+        
+        <div class="findings-grid">
+          <div class="finding-category">
+            <h4>Key Strengths</h4>
+            <ul>
+              <li>Bedroom 1 achieves excellent daylight performance (16.28% DF manual, 3.79% DF Dialux)</li>
+              <li>Kitchen and dining areas benefit from south-facing orientation</li>
+              <li>Automatic controls can save 225 kWh annually</li>
+            </ul>
+          </div>
+          <div class="finding-category">
+            <h4>Areas for Improvement</h4>
+            <ul>
+              <li>Cloakroom and some threshold areas require supplemental lighting</li>
+              <li>Safety concerns identified in low-DF transition areas</li>
+              <li>Opportunities for enhanced daylight redirection</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="project-outcome">
+          <h3>Final Outcome</h3>
+          <p>The comprehensive analysis combining manual calculations with Dialux simulations provides a robust foundation for optimizing both natural and artificial lighting in the property. The recommendations address safety concerns while maximizing energy efficiency and occupant comfort.</p>
+        </div>
+      </div>
+    </div>
     
     <div class="conclusion-content">
       <div class="conclusion-text">
