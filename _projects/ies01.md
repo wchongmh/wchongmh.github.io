@@ -3,7 +3,7 @@ title: "Daylighting Design Analysis - Glasgow Residential Project"
 category: Smart Building
 description: "Comprehensive daylighting analysis for a 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations."
 tech: [Dialux, Daylight Factor Calculations, BS EN 17037, Daylight Autonomy, BIM]
-image: /assets/img/projects/daylight-design/dialux_daylight-1.png
+image: /assets/img/projects/daylight-design/dialux_daylight-0.png
 importance: 1
 ---
 
