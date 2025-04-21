@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dialux044/";
+            },},{id: "projects-daylight-design-analysis-kirkintilloch-residential-project",
+          title: 'Daylight Design Analysis - Kirkintilloch Residential Project',
+          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dialux0441/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
@@ -513,6 +518,11 @@ ninja.data = [{
           description: "Comprehensive energy compliance assessment for Glasgow office building using IES VE software to meet Section 6 requirements.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies03/";
+            },},{id: "projects-energy-compliance-analysis-scottish-technical-standards-section-6",
+          title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
+          description: "Comprehensive energy compliance assessment for Glasgow office building using IES VE software to meet Section 6 requirements.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies04/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
