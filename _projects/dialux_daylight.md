@@ -48,10 +48,6 @@ importance: 1
   <div class="project-context">
     <p>The project evaluates daylight performance across 11 zones in a residential property at Market Road, Kirkintilloch, Glasgow (G66 3JL). Using both manual calculations and Dialux simulations, we assessed compliance with BS EN 17037 standards and identified opportunities for improving natural lighting distribution while considering energy efficiency.</p>
   </div>
-  
-  <div class="project-context">
-    <p>This project represents a comprehensive daylight and lighting analysis for a residential property in Glasgow, addressing the unique challenges of daylight optimization in Scottish climate conditions. The design process involved both manual calculations and advanced Dialux simulations to ensure compliance with lighting standards while maximizing energy efficiency.</p>
-  </div>
 
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
@@ -172,28 +168,51 @@ importance: 1
   <!-- Building Background Section -->
   <section class="project-section building-background">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Building Background
     </h2>
     
-    <div class="system-intro">
-      <p>The property is a newly constructed three-bedroom end-of-terrace house featuring spacious open-concept living areas, garden access through French doors, and ample storage throughout. The design was analyzed for daylight performance with consideration to Glasgow's specific climate conditions.</p>
-    </div>
-
-    <div class="floor-plan-grid">
-      <div class="floor-plan-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-28.png" 
-             alt="Ground Floor Plan" 
-             class="floor-plan-img"
-             loading="lazy">
-        <div class="floor-plan-caption">Ground Floor Plan</div>
+    <div class="building-details">
+      <h3 class="subsection-header">Property Characteristics</h3>
+      
+      <div class="detail-grid">
+        <div class="detail-item">
+          <span class="detail-icon">🏠</span>
+          <span class="detail-label">Address:</span>
+          <span class="detail-value">Market Road, Kirkintilloch, Glasgow, G66 3JL</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon">📏</span>
+          <span class="detail-label">Type:</span>
+          <span class="detail-value">Semi-detached house</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon">🛏️</span>
+          <span class="detail-label">Bedrooms:</span>
+          <span class="detail-value">3</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon">🌍</span>
+          <span class="detail-label">Orientation:</span>
+          <span class="detail-value">Primary facade faces North</span>
+        </div>
       </div>
-      <div class="floor-plan-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-29.png" 
-             alt="First Floor Plan" 
-             class="floor-plan-img"
-             loading="lazy">
-        <div class="floor-plan-caption">First Floor Plan</div>
+      
+      <div class="location-images">
+        <div class="location-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-3.png" 
+               alt="Property Location Map" 
+               class="location-img"
+               loading="lazy">
+          <p class="location-caption">Location map of the property</p>
+        </div>
+        <div class="location-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-4.png" 
+               alt="Street View" 
+               class="location-img"
+               loading="lazy">
+          <p class="location-caption">Street view of the property</p>
+        </div>
       </div>
     </div>
 
@@ -920,6 +939,36 @@ importance: 1
 
 .spec-label {
   font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+/* Building Details */
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.detail-icon {
+  font-size: 1.5rem;
+}
+
+.detail-label {
+  font-weight: 600;
+}
+
+.detail-value {
   color: var(--dark-gray);
 }
 
