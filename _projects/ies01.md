@@ -109,7 +109,8 @@ importance: 1
           <span class="spec-value">5</span>
           <span class="spec-label">HVAC Systems Optimized</span>
         </div>
-        <div class="spec-value">240 m²</span>
+        <div class="spec-item">
+          <span class="spec-value">240 m²</span>
           <span class="spec-label">Solar PV Installed</span>
         </div>
       </div>
