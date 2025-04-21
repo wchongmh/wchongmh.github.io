@@ -1030,4 +1030,373 @@ importance: 1
 .window-analysis img {
   width: 100%;
   border-radius: 8px;
-  box
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.window-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.window-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.window-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.window-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Obstruction Analysis */
+.obstruction-details {
+  margin-bottom: 30px;
+}
+
+.obstruction-details img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.obstruction-details p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 8px;
+  color: var(--dark-gray);
+}
+
+.obstruction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.obstruction-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.obstruction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.obstruction-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.obstruction-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .obstruction-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .obstruction-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Manual Calculations */
+.dirt-factor {
+  margin-bottom: 30px;
+}
+
+.dirt-factor img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.calculation-room {
+  margin-bottom: 30px;
+}
+
+.calculation-room h4 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.calculation-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.step {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.step img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.step p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Dialux Analysis */
+.comparison-table {
+  margin-bottom: 30px;
+}
+
+.comparison-table img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.result-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.result-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.result-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.point-analysis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.analysis-example {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.analysis-example img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.analysis-example p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Energy Efficiency */
+.efficiency-table {
+  margin-bottom: 30px;
+}
+
+.efficiency-table img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.control-comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.control-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.control-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.control-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.improvement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.improvement-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.improvement-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.improvement-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Safety Considerations */
+.hazard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.hazard-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.hazard-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.hazard-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.safety-recommendations {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.safety-recommendations h3 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.safety-recommendations ul {
+  padding-left: 20px;
+}
+
+.safety-recommendations li {
+  margin-bottom: 8px;
+}
+
+/* Conclusion Section */
+.conclusion-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.findings, .final-recommendations {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.findings h3, .final-recommendations h3 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.findings ul, .final-recommendations ol {
+  padding-left: 20px;
+}
+
+.findings li, .final-recommendations li {
+  margin-bottom: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .property-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .conclusion-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .standards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .floor-plans, .room-tables {
+    grid-template-columns: 1fr;
+  }
+  
+  .location-maps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-title {
+    font-size: 1.8rem;
+  }
+  
+  .project-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .section-header {
+    font-size: 1.5rem;
+  }
+}
+</style>
