@@ -56,7 +56,7 @@ importance: 1
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
@@ -110,8 +110,8 @@ importance: 1
           <span class="spec-label">Rooms</span>
         </div>
         <div class="spec-item">
-          <span class="spec-value">8</span>
-          <span class="spec-label">Windowed Rooms</span>
+          <span class="spec-value">2.8m</span>
+          <span class="spec-label">Ceiling Height</span>
         </div>
         <div class="spec-item">
           <span class="spec-value">225 kWh/a</span>
