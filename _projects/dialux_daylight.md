@@ -81,7 +81,7 @@ importance: 1
         </div>
       </div>
     </div>
-  
+  </div>
 
   <div class="project-highlights">
     <div class="highlight-card">
@@ -200,6 +200,13 @@ importance: 1
       <h3 class="subsection-header">Room Distribution</h3>
       <img src="/assets/img/projects/daylight-design/dialux_daylight-30.png" 
            alt="Room Distribution Table" 
+           class="room-distribution-img"
+           loading="lazy">
+    </div>
+    <div class="room-distribution">
+      <h3 class="subsection-header">Room details specification</h3>
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-33.png" 
+           alt="Room details" 
            class="room-distribution-img"
            loading="lazy">
     </div>
