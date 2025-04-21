@@ -236,21 +236,6 @@ importance: 1
            alt="Room Distribution Table" 
            class="room-distribution-img"
            loading="lazy">
-    </div>
-
-    <div class="external-obstructions">
-      <h3 class="subsection-header">External Obstructions</h3>
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-46.png" 
-           alt="External Obstruction Details" 
-           class="obstructions-img"
-           loading="lazy">
-      <div class="obstruction-images">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-47.png" 
-             alt="North Building Distance" 
-             loading="lazy">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-52.png" 
-             alt="East Building Distance" 
-             loading="lazy">
       </div>
     </div>
   </section>
