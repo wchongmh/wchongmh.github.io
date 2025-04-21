@@ -244,8 +244,8 @@ importance: 1
   <!-- Design Standards Section -->
   <section class="project-section design-standards">
     <h2 class="section-header">
-      <span class="section-number">03</span>
-      Design Standards
+      <span class="section-number">3</span>
+      Design Standards & Requirements
     </h2>
     
     <div class="standards-intro">
@@ -306,6 +306,32 @@ importance: 1
              alt="UK Residential Daylight Recommendations" 
              loading="lazy">
         <p>UK residential daylight recommendations</p>
+      </div>
+    </div>
+
+    <div class="lighting-requirements">
+      <h3 class="subsection-header">Key Lighting Requirements</h3>
+      <div class="requirements-grid">
+        <div class="requirement-item">
+          <span class="req-icon">🛋️</span>
+          <span class="req-area">Lounges</span>
+          <span class="req-value">≥200 lux</span>
+        </div>
+        <div class="requirement-item">
+          <span class="req-icon">🛏️</span>
+          <span class="req-area">Bedrooms</span>
+          <span class="req-value">≥100 lux</span>
+        </div>
+        <div class="requirement-item">
+          <span class="req-icon">🍳</span>
+          <span class="req-area">Kitchens</span>
+          <span class="req-value">≥500 lux</span>
+        </div>
+        <div class="requirement-item">
+          <span class="req-icon">🚿</span>
+          <span class="req-area">Bathrooms</span>
+          <span class="req-value">≥200 lux</span>
+        </div>
       </div>
     </div>
   </section>
@@ -1101,6 +1127,40 @@ importance: 1
 .standard-card p {
   font-size: 0.9rem;
   color: var(--dark-gray);
+}
+
+/* Requirements Grid */
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.requirement-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--white);
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.req-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.req-area {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.req-value {
+  color: var(--primary-color);
+  font-size: 0.9rem;
 }
 
 /* Calculation Steps */
