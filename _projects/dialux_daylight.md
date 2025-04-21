@@ -247,10 +247,6 @@ importance: 1
       <span class="section-number">3</span>
       Design Standards & Requirements
     </h2>
-    
-    <div class="standards-intro">
-      <p>The design complies with multiple UK lighting standards and guidelines including BS EN 17037 for daylight in buildings and BS EN 12464-1 for lighting of indoor work places. The following diagrams illustrate key requirements considered in the design process.</p>
-    </div>
 
     <div class="lighting-requirements">
       <h3 class="subsection-header">Key Lighting Requirements</h3>
@@ -276,6 +272,10 @@ importance: 1
           <span class="req-value">≥200 lux</span>
         </div>
       </div>
+    </div>
+    
+    <div class="standards-intro">
+      <p>The design complies with multiple UK lighting standards and guidelines including BS EN 17037 for daylight in buildings and BS EN 12464-1 for lighting of indoor work places. The following diagrams illustrate key requirements considered in the design process.</p>
     </div>
     
     <div class="standards-grid">
