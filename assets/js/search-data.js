@@ -453,6 +453,11 @@ ninja.data = [{
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
+            },},{id: "projects-residential-daylighting-design-analysis-glasgow-kirkintilloch-residence-semi-detached-house",
+          title: 'Residential Daylighting Design Analysis - Glasgow Kirkintilloch Residence Semi-Detached House',
+          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dialux/";
             },},{id: "projects-dialux-lighting-design-commercial-building-project",
           title: 'DIALux Lighting Design - Commercial Building Project',
           description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software.",
@@ -498,11 +503,6 @@ ninja.data = [{
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies044/";
-            },},{id: "projects-residential-daylighting-design-analysis-glasgow-kirkintilloch-residence-semi-detached-house",
-          title: 'Residential Daylighting Design Analysis - Glasgow Kirkintilloch Residence Semi-Detached House',
-          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ies_ve/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
