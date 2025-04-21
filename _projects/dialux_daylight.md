@@ -236,7 +236,6 @@ importance: 1
            alt="Room Distribution Table" 
            class="room-distribution-img"
            loading="lazy">
-      </div>
     </div>
   </section>
 
