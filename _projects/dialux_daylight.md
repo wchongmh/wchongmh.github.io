@@ -426,10 +426,118 @@ importance: 1
     </div>
   </section>
 
+  <!-- Room Analysis -->
+  <section class="project-section room-analysis">
+    <h2 class="section-header">
+      <span class="section-number">5</span>
+      Room Analysis
+    </h2>
+    
+    <div class="floor-plans">
+      <div class="plan-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-28.png" 
+             alt="Ground Floor Plan" 
+             loading="lazy">
+        <p>Ground floor with dimensions</p>
+      </div>
+      <div class="plan-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-29.png" 
+             alt="First Floor Plan" 
+             loading="lazy">
+        <p>First floor with dimensions</p>
+      </div>
+    </div>
+    
+    <h3 class="subsection-header">Window Analysis</h3>
+    
+    <div class="window-analysis">
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-34.png" 
+           alt="Window Details" 
+           loading="lazy">
+      <p>Installed window specifications</p>
+    </div>
+    
+    <h3 class="subsection-header">Ground Floor Window Distribution</h3>
+    
+    <div class="window-grid">
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-35.png" 
+             alt="Lounge Windows" 
+             loading="lazy">
+        <p>Lounge window design</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-36.png" 
+             alt="Toilet Window" 
+             loading="lazy">
+        <p>Toilet window design</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-37.png" 
+             alt="Kitchen Windows" 
+             loading="lazy">
+        <p>Kitchen/Dining windows</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-38.png" 
+             alt="Cloakroom" 
+             loading="lazy">
+        <p>Cloakroom (no window)</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-39.png" 
+             alt="Vestibule" 
+             loading="lazy">
+        <p>Vestibule (no window)</p>
+      </div>
+    </div>
+    
+    <h3 class="subsection-header">First Floor Window Distribution</h3>
+    
+    <div class="window-grid">
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-40.png" 
+             alt="Bedroom 1 Windows" 
+             loading="lazy">
+        <p>Bedroom 1 windows</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-41.png" 
+             alt="Bathroom Window" 
+             loading="lazy">
+        <p>Bathroom window</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-42.png" 
+             alt="Bedroom 2 Window" 
+             loading="lazy">
+        <p>Bedroom 2 window</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-43.png" 
+             alt="Bedroom 3 Window" 
+             loading="lazy">
+        <p>Bedroom 3 window</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-44.png" 
+             alt="En-Suite Window" 
+             loading="lazy">
+        <p>En-suite toilet window</p>
+      </div>
+      <div class="window-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-45.png" 
+             alt="En-Suite" 
+             loading="lazy">
+        <p>En-suite (no window)</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Luminaire Selection Section -->
   <section class="project-section luminaire-selection">
     <h2 class="section-header">
-      <span class="section-number">5</span>
+      <span class="section-number">7</span>
       Luminaire Selection
     </h2>
     
@@ -1414,6 +1522,155 @@ importance: 1
   font-size: 0.85rem;
   text-align: center;
   margin-top: 8px;
+}
+
+/* Room Analysis */
+.floor-plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.plan-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.plan-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.plan-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.room-tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.table-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.table-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.table-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.window-analysis {
+  margin-bottom: 30px;
+}
+
+.window-analysis img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.window-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.window-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.window-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.window-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Obstruction Analysis */
+.obstruction-details {
+  margin-bottom: 30px;
+}
+
+.obstruction-details img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.obstruction-details p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 8px;
+  color: var(--dark-gray);
+}
+
+.obstruction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.obstruction-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.obstruction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.obstruction-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.obstruction-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .obstruction-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .obstruction-grid {
+    grid-template-columns: 1fr;
+  }
 }
   
 /* Calculation Steps */
