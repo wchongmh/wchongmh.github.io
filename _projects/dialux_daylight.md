@@ -346,12 +346,33 @@ importance: 1
         <p>UK residential room recommendations</p>
       </div>
     </div>
+
+    <div class="materials-specs">
+      <h3 class="subsection-header">Material Specifications</h3>
+      <div class="materials-content">
+        <div class="materials-text">
+          <p>Reflectance values were carefully selected according to SLL Code for Lighting 2022:</p>
+          <ul>
+            <li>Ceiling reflectance: 0.8 (70-90% range)</li>
+            <li>Wall reflectance: 0.65 (50-80% range)</li>
+            <li>Floor reflectance: 0.4 (20-60% range)</li>
+            <li>Window glazing reflectance: 0.1</li>
+          </ul>
+          <p>Dirt correction factor of 0.9 was applied for urban setting.</p>
+        </div>
+        <div class="materials-image">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png" 
+               alt="Correction Factors Table"
+               loading="lazy">
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Luminaire Selection Section -->
   <section class="project-section luminaire-selection">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">4</span>
       Luminaire Selection
     </h2>
     
@@ -1197,6 +1218,35 @@ importance: 1
   color: var(--dark-gray);
 }
 
+.materials-specs {
+  margin-top: 40px;
+}
+
+.materials-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.materials-text {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.materials-image {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.materials-image img {
+  width: 100%;
+  height: auto;
+}
+  
 /* Requirements Grid */
 .requirements-grid {
   display: grid;
