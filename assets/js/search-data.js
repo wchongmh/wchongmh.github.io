@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive daylight factor analysis for 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dialux033/";
+            },},{id: "projects-daylight-design-analysis-kirkintilloch-residential-project",
+          title: 'Daylight Design Analysis - Kirkintilloch Residential Project',
+          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dialux044/";
             },},{id: "projects-dialux-lighting-design-commercial-building-project",
           title: 'DIALux Lighting Design - Commercial Building Project',
           description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software.",
@@ -498,11 +503,6 @@ ninja.data = [{
           description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards using IES VE software.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies01/";
-            },},{id: "projects-daylight-design-analysis-kirkintilloch-residential-project",
-          title: 'Daylight Design Analysis - Kirkintilloch Residential Project',
-          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ies044/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
