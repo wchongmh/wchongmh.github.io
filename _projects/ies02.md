@@ -221,6 +221,11 @@ importance: 1
         <p class="analysis-comparison">vs 5 m³/h.m² target</p>
       </div>
     </div>
+
+    <div class="modification-image">
+        <img src="/assets/img/projects/ies-section6/ies_coursework-14.png" alt="Initial Analysis Results">
+      </div>
+    </div>
     
     <div class="system-analysis">
       <h3 class="subsection-header">Initial System Performance</h3>
@@ -229,11 +234,6 @@ importance: 1
         <img src="/assets/img/projects/ies-section6/ies_coursework-16.png" alt="U-value Comparison">
         <img src="/assets/img/projects/ies-section6/ies_coursework-17.png" alt="Building Components">
         <img src="/assets/img/projects/ies-section6/ies_coursework-18.png" alt="Element Values">
-      </div>
-    </div>
-    <div class="modification-image">
-          <img src="/assets/img/projects/ies-section6/ies_coursework-14.png" alt="Initial Analysis Results">
-        </div>
       </div>
     </div>
   </section>
