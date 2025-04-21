@@ -171,6 +171,20 @@ importance: 1
       <span class="section-number">2</span>
       Building Background
     </h2>
+
+    <div class="background-content">
+      <div class="background-text">
+        <h3>Property Features</h3>
+        <ul>
+          <li>Semi-detached house in Glasgow (G66 3JL)</li>
+          <li>Newly constructed three-bedroom end-of-terrace</li>
+          <li>Spacious open-concept living and dining area</li>
+          <li>Garden access through French doors</li>
+          <li>Distinct kitchen with built-in appliances</li>
+          <li>Ample storage space throughout</li>
+        </ul>
+      </div>
+    </div>
     
     <div class="building-details">
       <h3 class="subsection-header">Property Characteristics</h3>
@@ -1049,6 +1063,56 @@ importance: 1
   color: var(--dark-gray);
 }
 
+/* Background Section */
+.background-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.background-text h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.background-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.background-image-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.background-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.background-caption {
+  padding: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--dark-gray);
+}
+
+.room-distribution {
+  margin-top: 30px;
+}
+
+.room-table-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+  
 /* Facilities Overview */
 .facilities-overview {
   margin-bottom: 25px;
