@@ -368,10 +368,95 @@ importance: 1
     </div>
   </section>
 
+  <!-- 3D Model Visualization -->
+  <section class="project-section visualization-section">
+    <h2 class="section-header">
+      <span class="section-number">4</span>
+      3D Model Visualization
+    </h2>
+    
+    <div class="full-view">
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-17.png" 
+           alt="3D House Overview" 
+           loading="lazy">
+      <p>Complete 3D model overview</p>
+    </div>
+    
+    <h3 class="subsection-header">Ground Floor Views</h3>
+    
+    <div class="floor-views">
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-18.png" 
+             alt="Ground Floor Plan" 
+             loading="lazy">
+        <p>Floor plan with room labels</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-19.png" 
+             alt="Front View" 
+             loading="lazy">
+        <p>Front elevation</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-20.png" 
+             alt="Left Side View" 
+             loading="lazy">
+        <p>Left side elevation</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-21.png" 
+             alt="Back View" 
+             loading="lazy">
+        <p>Rear elevation</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-22.png" 
+             alt="Right Side View" 
+             loading="lazy">
+        <p>Right side elevation</p>
+      </div>
+    </div>
+    
+    <h3 class="subsection-header">First Floor Views</h3>
+    
+    <div class="floor-views">
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-23.png" 
+             alt="First Floor Plan" 
+             loading="lazy">
+        <p>Floor plan with room labels</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-24.png" 
+             alt="Front View" 
+             loading="lazy">
+        <p>Front elevation</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-25.png" 
+             alt="Left Side View" 
+             loading="lazy">
+        <p>Left side elevation</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-26.png" 
+             alt="Back View" 
+             loading="lazy">
+        <p>Rear elevation</p>
+      </div>
+      <div class="view-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-27.png" 
+             alt="Right Side View" 
+             loading="lazy">
+        <p>Right side elevation</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Luminaire Selection Section -->
   <section class="project-section luminaire-selection">
     <h2 class="section-header">
-      <span class="section-number">4</span>
+      <span class="section-number">5</span>
       Luminaire Selection
     </h2>
     
