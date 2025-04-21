@@ -508,6 +508,11 @@ ninja.data = [{
           description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies02/";
+            },},{id: "projects-energy-compliance-analysis-scottish-technical-standards-section-6",
+          title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
+          description: "Comprehensive energy compliance assessment for Glasgow office building using IES VE software to meet Section 6 requirements.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies03/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
