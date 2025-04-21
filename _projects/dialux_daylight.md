@@ -60,40 +60,6 @@ importance: 1
       <p>The daylight analysis covers eight primary spaces across two floors, evaluating both quantitative metrics (Daylight Factor, illuminance levels) and qualitative aspects (light distribution, glare potential). The methodology combines traditional manual calculations with advanced computer simulations to validate results.</p>
     </div>
     
-    <div class="image-comparison">
-      <div class="image-card">
-        <div class="image-wrapper">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-28.png" 
-               alt="Ground Floor Plan" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-overlay">
-            <span class="zoom-icon">🔍</span>
-          </div>
-        </div>
-        <div class="image-meta">
-          <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">Ground floor plan with dimensions</span>
-        </div>
-      </div>
-      
-      <div class="image-card">
-        <div class="image-wrapper">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-29.png" 
-               alt="First Floor Plan" 
-               class="project-image"
-               loading="lazy">
-          <div class="image-overlay">
-            <span class="zoom-icon">🔍</span>
-          </div>
-        </div>
-        <div class="image-meta">
-          <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">First floor plan with dimensions</span>
-        </div>
-      </div>
-    </div>
-    
     <div class="key-specs">
       <h3 class="specs-title">Key Project Specifications</h3>
       <div class="specs-grid">
@@ -115,7 +81,7 @@ importance: 1
         </div>
       </div>
     </div>
-  </section>
+  
 
   <div class="project-highlights">
     <div class="highlight-card">
@@ -132,38 +98,38 @@ importance: 1
         <span class="highlight-label">Windows</span>
       </div>
     </div>
-  </div>
 
-  <div class="facilities-overview">
-    <h3 class="subsection-header">Property Features</h3>
-    <div class="facilities-grid">
-      <div class="facility-item">
-        <span class="facility-icon">🛋️</span>
-        <span class="facility-name">Lounge</span>
-        <span class="facility-detail">North-facing with window</span>
-      </div>
-      <div class="facility-item">
-        <span class="facility-icon">🍽️</span>
-        <span class="facility-name">Kitchen & Dining</span>
-        <span class="facility-detail">South-facing open area</span>
-      </div>
-      <div class="facility-item">
-        <span class="facility-icon">🛏️</span>
-        <span class="facility-name">3 Bedrooms</span>
-        <span class="facility-detail">Various orientations</span>
-      </div>
-      <div class="facility-item">
-        <span class="facility-icon">🚿</span>
-        <span class="facility-name">2 Bathrooms</span>
-        <span class="facility-detail">Including en-suite</span>
-      </div>
-      <div class="facility-item">
-        <span class="facility-icon">🚪</span>
-        <span class="facility-name">Utility Areas</span>
-        <span class="facility-detail">Hallway, cloakroom</span>
+    <div class="facilities-overview">
+      <h3 class="subsection-header">Property Features</h3>
+      <div class="facilities-grid">
+        <div class="facility-item">
+          <span class="facility-icon">🛋️</span>
+          <span class="facility-name">Lounge</span>
+          <span class="facility-detail">North-facing with window</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🍽️</span>
+          <span class="facility-name">Kitchen & Dining</span>
+          <span class="facility-detail">South-facing open area</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🛏️</span>
+          <span class="facility-name">3 Bedrooms</span>
+          <span class="facility-detail">Various orientations</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🚿</span>
+          <span class="facility-name">2 Bathrooms</span>
+          <span class="facility-detail">Including en-suite</span>
+        </div>
+        <div class="facility-item">
+          <span class="facility-icon">🚪</span>
+          <span class="facility-name">Utility Areas</span>
+          <span class="facility-detail">Hallway, cloakroom</span>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
  
   <!-- Building Background Section -->
   <section class="project-section building-background">
