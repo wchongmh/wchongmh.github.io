@@ -12,9 +12,9 @@ importance: 1
   <!-- Project Header -->
   <header class="project-header">
     <h1 class="project-title">Daylight and Lighting Design</h1>
-    <p class="project-subtitle">Glasgow Residential Project</p>
+    <p class="project-subtitle">Glasgow Kirkintilloch Residential Project</p>
     <div class="project-meta">
-      <span class="badge">Building Services</span>
+      <span class="badge">Lighting Design</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
@@ -23,9 +23,9 @@ importance: 1
     </div>
   </header>
 
-  <div class="project-visualization">
+ <div class="project-visualization">
     <div class="visualization-description">
-      <p>This project features a detailed daylight analysis and lighting design for a 2-storey semi-detached residential house located in Glasgow. The design incorporates both manual calculations and Dialux simulations to optimize natural lighting and artificial lighting systems.</p>
+      <p>This project analyzes daylight performance in a newly constructed three-bedroom semi-detached house in Glasgow, comparing manual Daylight Factor calculations with Dialux simulations to optimize natural lighting while meeting UK building standards.</p>
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
@@ -36,13 +36,17 @@ importance: 1
         <p class="visualization-caption">House Overview</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-17.png" 
-             alt="3D House Rendering" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-18.png" 
+             alt="3D Floor Plan" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">3D Overview</p>
+        <p class="visualization-caption">3D Floor Plan</p>
       </div>
     </div>
+  </div>
+  
+  <div class="project-context">
+    <p>The project evaluates daylight performance across 11 zones in a residential property at Market Road, Kirkintilloch, Glasgow (G66 3JL). Using both manual calculations and Dialux simulations, we assessed compliance with BS EN 17037 standards and identified opportunities for improving natural lighting distribution while considering energy efficiency.</p>
   </div>
   
   <div class="project-context">
