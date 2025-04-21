@@ -107,7 +107,7 @@ importance: 1
         </div>
         <div class="spec-item">
           <span class="spec-value">11</span>
-          <span class="spec-label">Rooms</span>
+          <span class="spec-label">Zones Analyzed</span>
         </div>
         <div class="spec-item">
           <span class="spec-value">2.8m</span>
