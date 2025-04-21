@@ -473,6 +473,11 @@ ninja.data = [{
           description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hevacomp_office/";
+            },},{id: "projects-building-energy-compliance-scottish-technical-standards-section-6",
+          title: 'Building Energy Compliance - Scottish Technical Standards Section 6',
+          description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards using IES VE software.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies01/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylighting analysis for a 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations.",
