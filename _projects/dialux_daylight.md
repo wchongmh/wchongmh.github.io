@@ -251,6 +251,32 @@ importance: 1
     <div class="standards-intro">
       <p>The design complies with multiple UK lighting standards and guidelines including BS EN 17037 for daylight in buildings and BS EN 12464-1 for lighting of indoor work places. The following diagrams illustrate key requirements considered in the design process.</p>
     </div>
+
+    <div class="lighting-requirements">
+      <h3 class="subsection-header">Key Lighting Requirements</h3>
+      <div class="requirements-grid">
+        <div class="requirement-item">
+          <span class="req-icon">🛋️</span>
+          <span class="req-area">Lounges</span>
+          <span class="req-value">≥200 lux</span>
+        </div>
+        <div class="requirement-item">
+          <span class="req-icon">🛏️</span>
+          <span class="req-area">Bedrooms</span>
+          <span class="req-value">≥100 lux</span>
+        </div>
+        <div class="requirement-item">
+          <span class="req-icon">🍳</span>
+          <span class="req-area">Kitchens</span>
+          <span class="req-value">≥500 lux</span>
+        </div>
+        <div class="requirement-item">
+          <span class="req-icon">🚿</span>
+          <span class="req-area">Bathrooms</span>
+          <span class="req-value">≥200 lux</span>
+        </div>
+      </div>
+    </div>
     
     <div class="standards-grid">
       <div class="standard-card">
@@ -319,32 +345,6 @@ importance: 1
              alt="UK Residential Rooms" 
              loading="lazy">
         <p>UK residential room recommendations</p>
-      </div>
-    </div>
-
-    <div class="lighting-requirements">
-      <h3 class="subsection-header">Key Lighting Requirements</h3>
-      <div class="requirements-grid">
-        <div class="requirement-item">
-          <span class="req-icon">🛋️</span>
-          <span class="req-area">Lounges</span>
-          <span class="req-value">≥200 lux</span>
-        </div>
-        <div class="requirement-item">
-          <span class="req-icon">🛏️</span>
-          <span class="req-area">Bedrooms</span>
-          <span class="req-value">≥100 lux</span>
-        </div>
-        <div class="requirement-item">
-          <span class="req-icon">🍳</span>
-          <span class="req-area">Kitchens</span>
-          <span class="req-value">≥500 lux</span>
-        </div>
-        <div class="requirement-item">
-          <span class="req-icon">🚿</span>
-          <span class="req-area">Bathrooms</span>
-          <span class="req-value">≥200 lux</span>
-        </div>
       </div>
     </div>
   </section>
