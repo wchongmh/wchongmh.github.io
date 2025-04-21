@@ -492,11 +492,6 @@ ninja.data = [{
           title: 'Daylight Design Analysis - Kirkintilloch Residential Project',
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ies04/";
-            },},{id: "projects-daylight-design-analysis-kirkintilloch-residential-project",
-          title: 'Daylight Design Analysis - Kirkintilloch Residential Project',
-          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux and manual calculations",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/ies044/";
             },},{id: "projects-residential-daylighting-design-analysis-glasgow-kirkintilloch-residence-semi-detached-house",
           title: 'Residential Daylighting Design Analysis - Glasgow Kirkintilloch Residence Semi-Detached House',
