@@ -61,14 +61,14 @@ importance: 1
     </h2>
     
     <div class="project-description">
-      <p>The lighting infrastructure was designed for a two-story semi-detached house with a total floor area of approximately 180m². The system incorporates daylight factor analysis, illuminance level verification, and artificial lighting integration to meet UK building standards while optimizing for occupant comfort and energy conservation.</p>
+      <p>The daylight analysis covers eight primary spaces across two floors, evaluating both quantitative metrics (Daylight Factor, illuminance levels) and qualitative aspects (light distribution, glare potential). The methodology combines traditional manual calculations with advanced computer simulations to validate results.</p>
     </div>
     
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-2.png" 
-               alt="Property Address" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-28.png" 
+               alt="Ground Floor Plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -77,14 +77,14 @@ importance: 1
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">Property location: Market Road, Kirkintilloch, Glasgow</span>
+          <span class="image-desc">Ground floor plan with dimensions</span>
         </div>
       </div>
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-3.png" 
-               alt="Location Map" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-29.png" 
+               alt="First Floor Plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -93,7 +93,7 @@ importance: 1
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Location of the property extracted from Google Map</span>
+          <span class="image-desc">First floor plan with dimensions</span>
         </div>
       </div>
     </div>
@@ -810,14 +810,14 @@ importance: 1
 }
 
 /* Image Styles */
-.image-comparison {
+.image-comparison, .location-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   margin: 25px 0;
 }
 
-.image-card {
+.image-card, .location-card {
   background: var(--white);
   border-radius: 8px;
   overflow: hidden;
@@ -825,7 +825,7 @@ importance: 1
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.image-card:hover {
+.image-card:hover, .location-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
@@ -835,7 +835,7 @@ importance: 1
   overflow: hidden;
 }
 
-.project-image {
+.project-image, .location-img {
   width: 100%;
   height: auto;
   display: block;
@@ -865,9 +865,10 @@ importance: 1
   color: white;
 }
 
-.image-meta {
+.image-meta, .location-caption {
   padding: 15px;
   background: var(--white);
+  font-size: 0.9rem;
 }
 
 .image-fig {
