@@ -254,58 +254,71 @@ importance: 1
     
     <div class="standards-grid">
       <div class="standard-card">
+        <h3>Lamp Performance Characteristics</h3>
         <img src="/assets/img/projects/daylight-design/dialux_daylight-5.png" 
              alt="Lamp Performance Characteristics" 
              loading="lazy">
-        <p>Lamp performance characteristics</p>
+        <p>Energy efficient lighting guide for installers</p>
       </div>
+      
       <div class="standard-card">
+        <h3>Lamp Types Comparison</h3>
         <img src="/assets/img/projects/daylight-design/dialux_daylight-6.png" 
-             alt="Lamp Types and Performance" 
+             alt="Lamp Types Comparison" 
              loading="lazy">
-        <p>Lamp types and performance</p>
+        <p>Energy efficient lighting guide for installers</p>
       </div>
-      <div class="standard-card">
+    </div>
+    
+    <h3 class="subsection-header">SLL Code for Lighting 2022 Recommendations</h3>
+    
+    <div class="recommendations-grid">
+      <div class="recommendation-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-7.png" 
-             alt="Corridor Lighting Requirements" 
+             alt="Corridors/Hallways and Stairs" 
              loading="lazy">
-        <p>Corridor lighting requirements</p>
+        <p>Corridors/Hallways and Stairs</p>
       </div>
-      <div class="standard-card">
+      <div class="recommendation-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-8.png" 
-             alt="Bathroom Lighting Requirements" 
+             alt="Bathrooms and Bedrooms" 
              loading="lazy">
-        <p>Bathroom lighting requirements</p>
+        <p>Bathrooms and Bedrooms</p>
       </div>
-      <div class="standard-card">
+      <div class="recommendation-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-9.png" 
-             alt="Lounge Lighting Requirements" 
+             alt="Lounges" 
              loading="lazy">
-        <p>Lounge lighting requirements</p>
+        <p>Lounges</p>
       </div>
-      <div class="standard-card">
+      <div class="recommendation-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-10.png" 
-             alt="Kitchen Lighting Requirements" 
+             alt="Kitchen" 
              loading="lazy">
-        <p>Kitchen lighting requirements</p>
+        <p>Kitchen</p>
       </div>
-      <div class="standard-card">
+    </div>
+    
+    <h3 class="subsection-header">Daylight Recommendations</h3>
+    
+    <div class="daylight-recommendations">
+      <div class="daylight-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-11.png" 
-             alt="Sunlight Exposure Recommendations" 
+             alt="Sunlight Exposure" 
              loading="lazy">
         <p>Sunlight exposure recommendations</p>
       </div>
-      <div class="standard-card">
+      <div class="daylight-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-12.png" 
-             alt="Daylight Quantity Recommendations" 
+             alt="Daylight Quantity" 
              loading="lazy">
         <p>Daylight quantity recommendations</p>
       </div>
-      <div class="standard-card">
+      <div class="daylight-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-13.png" 
-             alt="UK Residential Daylight Recommendations" 
+             alt="UK Residential Rooms" 
              loading="lazy">
-        <p>UK residential daylight recommendations</p>
+        <p>UK residential room recommendations</p>
       </div>
     </div>
 
@@ -1118,6 +1131,12 @@ importance: 1
   text-align: center;
 }
 
+.standard-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+  
 .standard-card img {
   width: 100%;
   height: auto;
@@ -1137,6 +1156,48 @@ importance: 1
   margin-top: 20px;
 }
 
+.recommendation-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.recommendation-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.recommendation-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.daylight-recommendations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.daylight-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.daylight-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.daylight-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+  
 .requirement-item {
   display: flex;
   flex-direction: column;
@@ -1163,6 +1224,42 @@ importance: 1
   font-size: 0.9rem;
 }
 
+/* Visualization Section */
+.full-view {
+  margin-bottom: 30px;
+}
+
+.full-view img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.floor-views {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.view-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.view-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.view-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+  
 /* Calculation Steps */
 .calculation-steps {
   display: grid;
