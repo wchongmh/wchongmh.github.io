@@ -654,13 +654,6 @@ importance: 1
              loading="lazy">
       </div>
     </div>
-    
-    <div class="dirt-correction">
-      <h3 class="subsection-header">Correction Factors for Dirt on Glass</h3>
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png" 
-           alt="Dirt Correction Factors" 
-           loading="lazy">
-    </div>
   </section>
 
   <!-- Manual Calculations Section -->
