@@ -1122,10 +1122,43 @@ importance: 1
     </div>
   </section>
 
+   <!-- Safety Considerations -->
+  <section class="project-section safety-section">
+    <h2 class="section-header">
+      <span class="section-number">12</span>
+      Safety Considerations
+    </h2>
+    
+    <div class="hazard-grid">
+      <div class="hazard-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-185.png" 
+             alt="Trip Hazard" 
+             loading="lazy">
+        <p>Potential trip hazard areas</p>
+      </div>
+      <div class="hazard-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-179.png" 
+             alt="Protruding Step" 
+             loading="lazy">
+        <p>Protruding step hazard</p>
+      </div>
+    </div>
+    
+    <div class="safety-recommendations">
+      <h3>Safety Recommendations</h3>
+      <ul>
+        <li>Increase illumination in transition areas with potential trip hazards</li>
+        <li>Install motion-activated lighting in low daylight factor areas</li>
+        <li>Use anti-slip materials in bathroom areas with marginal daylight factors</li>
+        <li>Provide supplemental task lighting in workspaces</li>
+      </ul>
+    </div>
+  </section>
+
   <!-- Recommendations Section -->
   <section class="project-section recommendations">
     <h2 class="section-header">
-      <span class="section-number">12</span>
+      <span class="section-number">13</span>
       Recommendations
     </h2>
     
@@ -1178,7 +1211,7 @@ importance: 1
   <!-- Conclusion Section -->
   <section class="project-section conclusion">
     <h2 class="section-header">
-      <span class="section-number">13</span>
+      <span class="section-number">14</span>
       Conclusion
     </h2>
     
@@ -2304,6 +2337,53 @@ importance: 1
   width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+/* Safety Considerations */
+.hazard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.hazard-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.hazard-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.hazard-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.safety-recommendations {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.safety-recommendations h3 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.safety-recommendations ul {
+  padding-left: 20px;
+}
+
+.safety-recommendations li {
+  margin-bottom: 8px;
 }
 
 /* Recommendations Section */
