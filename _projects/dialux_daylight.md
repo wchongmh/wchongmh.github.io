@@ -693,7 +693,7 @@ importance: 1
       </div>
     </div>
 
-    <div class="calculation-steps">
+    <div class="df-calculation-steps">
       <h3 class="subsection-header">Daylight Factor Calculation Steps</h3>
       <ol>
         <li>Identify zones with window openings</li>
@@ -1950,6 +1950,10 @@ importance: 1
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
+.df-calculation-steps {
+  margin-top: 40px;
+}
+  
 .calculation-steps ol {
   padding-left: 25px;
 }
