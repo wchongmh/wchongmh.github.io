@@ -976,21 +976,6 @@ importance: 1
              alt="Illuminance Levels Table" 
              class="result-img"
              loading="lazy">
-        
-        <div class="illuminance-grid">
-          <div class="illuminance-card">
-            <img src="/assets/img/projects/daylight-design/dialux_daylight-92.png" 
-                 alt="Lounge Illuminance" 
-                 class="illuminance-img"
-                 loading="lazy">
-            <p>Ground Floor Lounge: 101 lux</p>
-          </div>
-          <div class="illuminance-card">
-            <img src="/assets/img/projects/daylight-design/dialux_daylight-85.png" 
-                 alt="Bedroom 1 Illuminance" 
-                 class="illuminance-img"
-                 loading="lazy">
-            <p>First Floor Bedroom 1: 158 lux</p>
           </div>
         </div>
       </div>
@@ -1022,29 +1007,6 @@ importance: 1
         </div>
       </div>
     </div>
-    
-    <div class="energy-analysis">
-      <h3 class="subsection-header">Energy Implications</h3>
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-158.png" 
-           alt="Energy Efficiency Table" 
-           class="energy-img"
-           loading="lazy">
-      
-      <div class="energy-findings">
-        <p>Automatic daylight-dependent controls could reduce lighting energy consumption by <strong>225.02 kWh/a</strong> (27.3%) compared to manual control.</p>
-        <div class="energy-comparison">
-          <div class="energy-value">
-            <span class="energy-number">824.24</span>
-            <span class="energy-label">Manual Control (kWh/a)</span>
-          </div>
-          <div class="energy-arrow">→</div>
-          <div class="energy-value">
-            <span class="energy-number">599.22</span>
-            <span class="energy-label">Automatic Control (kWh/a)</span>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- Energy Analysis Section -->
@@ -1053,6 +1015,28 @@ importance: 1
       <span class="section-number">11</span>
       Energy Analysis
     </h2>
+
+    <div class="energy-intro">
+      <p>The analysis demonstrates significant energy savings potential through daylight-linked lighting controls:</p>
+    </div>
+    
+    <div class="energy-highlights">
+      <div class="energy-card">
+        <div class="energy-icon">💡</div>
+        <div class="energy-content">
+          <span class="energy-value">225.02 kWh/a</span>
+          <span class="energy-label">Potential Savings</span>
+        </div>
+      </div>
+      
+      <div class="energy-card">
+        <div class="energy-icon">📉</div>
+        <div class="energy-content">
+          <span class="energy-value">27.3%</span>
+          <span class="energy-label">Reduction in Lighting Energy</span>
+        </div>
+      </div>
+    </div>
     
     <div class="energy-intro">
       <p>The lighting energy consumption was analyzed comparing manual control with automatic/daylight-dependent control systems. The results demonstrate significant energy savings potential through intelligent lighting control strategies.</p>
@@ -1081,6 +1065,22 @@ importance: 1
         </div>
       </div>
     </div>
+
+    <div class="energy-findings">
+        <p>Automatic daylight-dependent controls could reduce lighting energy consumption by <strong>225.02 kWh/a</strong> (27.3%) compared to manual control.</p>
+        <div class="energy-comparison">
+          <div class="energy-value">
+            <span class="energy-number">824.24</span>
+            <span class="energy-label">Manual Control (kWh/a)</span>
+          </div>
+          <div class="energy-arrow">→</div>
+          <div class="energy-value">
+            <span class="energy-number">599.22</span>
+            <span class="energy-label">Automatic Control (kWh/a)</span>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <div class="energy-savings">
       <h3 class="subsection-header">Total Energy Savings</h3>
@@ -1095,7 +1095,7 @@ importance: 1
   <!-- Recommendations Section -->
   <section class="project-section recommendations">
     <h2 class="section-header">
-      <span class="section-number">10</span>
+      <span class="section-number">12</span>
       Recommendations
     </h2>
     
@@ -1148,7 +1148,7 @@ importance: 1
   <!-- Conclusion Section -->
   <section class="project-section conclusion">
     <h2 class="section-header">
-      <span class="section-number">11</span>
+      <span class="section-number">13</span>
       Conclusion
     </h2>
     
@@ -2199,6 +2199,39 @@ importance: 1
   margin-bottom: 8px;
 }
 
+/* Energy Highlights */
+.energy-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.energy-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.energy-icon {
+  font-size: 1.8rem;
+}
+
+.energy-value {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--primary-color);
+}
+
+.energy-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+  
 /* Conclusion Section */
 .conclusion-content {
   display: grid;
