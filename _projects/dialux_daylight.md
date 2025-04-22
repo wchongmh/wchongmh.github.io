@@ -1152,7 +1152,7 @@ importance: 1
       </div>
       
       <div class="recommendation-card">
-        <div class="rec-icon">💡</div>
+        <div class="rec-icon">🪟</div>
         <h3>Daylight Enhancement</h3>
         <img src="/assets/img/projects/daylight-design/dialux_daylight-180.png" 
              alt="Light Shelf Example" 
@@ -1166,14 +1166,14 @@ importance: 1
       
       <div class="recommendation-card">
         <div class="rec-icon">⚡</div>
-        <h3>Energy Efficiency</h3>
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-181.png" 
+        <h3>Lighting System Upgrades</h3>
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-182.png" 
              alt="Lighting Controls" 
              loading="lazy">
         <ul>
-          <li>Install photocell and presence sensors</li>
-          <li>Use T8 lamps with soft-start ballasts</li>
-          <li>Implement key fob control systems</li>
+          <li>Implement automated lighting controls system-wide</li>
+          <li>Upgrade to energy-efficient luminaires</li>
+          <li>Install task lighting in workspaces</li>
         </ul>
       </div>
     </div>
@@ -1224,11 +1224,20 @@ importance: 1
           <p>The comprehensive analysis combining manual calculations with Dialux simulations provides a robust foundation for optimizing both natural and artificial lighting in the property. The recommendations address safety concerns while maximizing energy efficiency and occupant comfort.</p>
         </div>
       </div>
-      
-      <div class="conclusion-image">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-17.png" 
-             alt="Final 3D Rendering" 
-             loading="lazy">
+    </div>
+    
+    <div class="conclusion-content">
+      <div class="conclusion-text">
+        <h3>Key Takeaways</h3>
+        <ul>
+          <li>Most rooms met minimum 2% DF requirement, but illuminance levels often fell short of recommendations</li>
+          <li>Significant variation between manual and Dialux results highlights value of simulation tools</li>
+          <li>Automatic lighting controls offer substantial energy savings (225 kWh annually)</li>
+          <li>Targeted improvements could enhance both daylight performance and safety</li>
+        </ul>
+        
+        <h3>Project Reflections</h3>
+        <p>This comprehensive analysis demonstrated the value of combining manual calculations with simulation tools for robust daylight evaluation. While the property generally meets basic requirements, opportunities exist to optimize both daylight utilization and electric lighting efficiency through strategic design interventions.</p>
       </div>
     </div>
   </section>
@@ -2376,7 +2385,15 @@ importance: 1
 .key-findings li {
   margin-bottom: 10px;
 }
-  
+
+.project-outcome {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  border-left: 4px solid var(--primary-color);
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .conclusion-content,
