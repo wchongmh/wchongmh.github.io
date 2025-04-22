@@ -1214,22 +1214,22 @@ importance: 1
            loading="lazy">
     </div>
     
-    <div class="energy-comparison">
-      <h3 class="subsection-header">Control Strategy Comparison</h3>
-      <div class="comparison-grid">
-        <div class="comparison-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-159.png" 
-               alt="Manual Control Example" 
-               loading="lazy">
-          <p>Manual Control</p>
-        </div>
-        <div class="comparison-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-160.png" 
-               alt="Automatic Control Example" 
-               loading="lazy">
-          <p>Automatic/Daylight Dependent</p>
-        </div>
+   <h3 class="subsection-header">Control Strategy Comparisons</h3>
+    
+    <div class="control-comparison">
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-159.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Lounge manual control</p>
       </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-160.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Lounge automatic control</p>
+      </div>
+      <!-- Additional comparisons would follow same pattern -->
     </div>
 
     <div class="energy-findings">
@@ -2505,6 +2505,31 @@ importance: 1
   width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+.control-comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.control-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.control-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.control-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 8px;
 }
 
 /* Safety Considerations */
