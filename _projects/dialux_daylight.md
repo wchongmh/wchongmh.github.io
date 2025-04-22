@@ -769,6 +769,42 @@ importance: 1
         </div>
       </div>
     </div>
+
+    <div class="calculation-room">
+      <h4>Kitchen (South)(With No External Obstruction)</h4>
+      <div class="calculation-steps">
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-65.png" 
+               alt="Cloak Surface Area" 
+               loading="lazy">
+          <p>Surface area calculation</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-66.png" 
+               alt="Cloak Reflectance" 
+               loading="lazy">
+          <p>Reflectance & daylight factor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="calculation-room">
+      <h4>Dinning Area (South)(With No External Obstruction)</h4>
+      <div class="calculation-steps">
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-67.png" 
+               alt="Cloak Surface Area" 
+               loading="lazy">
+          <p>Surface area calculation</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-68.png" 
+               alt="Cloak Reflectance" 
+               loading="lazy">
+          <p>Reflectance & daylight factor</p>
+        </div>
+      </div>
+    </div>
     
     <!-- Additional ground floor rooms would follow same pattern -->
     
@@ -791,6 +827,90 @@ importance: 1
         </div>
         <div class="step">
           <img src="/assets/img/projects/daylight-design/dialux_daylight-71.png" 
+               alt="Bedroom 1 Reflectance" 
+               loading="lazy">
+          <p>Reflectance & daylight factor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="calculation-room">
+      <h4>En-Suite (North)</h4>
+      <div class="calculation-steps">
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-72.png" 
+               alt="Bedroom 1 Diagram" 
+               loading="lazy">
+          <p>Room diagram</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-73.png" 
+               alt="Bedroom 1 Surface Area" 
+               loading="lazy">
+          <p>Surface area calculation</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-74.png" 
+               alt="Bedroom 1 Reflectance" 
+               loading="lazy">
+          <p>Reflectance & daylight factor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="calculation-room">
+      <h4>Bedroom 2 (South)(With No External Obstruction)</h4>
+      <div class="calculation-steps">
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-75.png" 
+               alt="Cloak Surface Area" 
+               loading="lazy">
+          <p>Surface area calculation</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-76.png" 
+               alt="Cloak Reflectance" 
+               loading="lazy">
+          <p>Reflectance & daylight factor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="calculation-room">
+      <h4>Bedroom 3 (South)(With No External Obstruction)</h4>
+      <div class="calculation-steps">
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-77.png" 
+               alt="Cloak Surface Area" 
+               loading="lazy">
+          <p>Surface area calculation</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-78.png" 
+               alt="Cloak Reflectance" 
+               loading="lazy">
+          <p>Reflectance & daylight factor</p>
+        </div>
+      </div>
+    </div>
+
+     <div class="calculation-room">
+      <h4>Bathroom (East)</h4>
+      <div class="calculation-steps">
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-79.png" 
+               alt="Bedroom 1 Diagram" 
+               loading="lazy">
+          <p>Room diagram</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-80.png" 
+               alt="Bedroom 1 Surface Area" 
+               loading="lazy">
+          <p>Surface area calculation</p>
+        </div>
+        <div class="step">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-81.png" 
                alt="Bedroom 1 Reflectance" 
                loading="lazy">
           <p>Reflectance & daylight factor</p>
