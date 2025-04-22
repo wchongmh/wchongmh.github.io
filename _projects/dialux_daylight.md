@@ -692,10 +692,6 @@ importance: 1
         </div>
       </div>
     </div>
-    
-    <div class="calculations-intro">
-      <p>Daylight Factor calculations were performed manually for each room with window openings, considering room dimensions, window properties, surface reflectances, and external obstructions. The following examples demonstrate the calculation methodology.</p>
-    </div>
 
     <div class="calculation-steps">
       <h3 class="subsection-header">Daylight Factor Calculation Steps</h3>
@@ -718,6 +714,10 @@ importance: 1
         A = Total room surface area<br>
         R = Average reflectance</p>
       </div>
+    </div>
+    
+    <div class="calculations-intro">
+      <p>Daylight Factor calculations were performed manually for each room with window openings, considering room dimensions, window properties, surface reflectances, and external obstructions. The following examples demonstrate the calculation methodology.</p>
     </div>
     
     <h3 class="subsection-header">Ground Floor Calculations</h3>
