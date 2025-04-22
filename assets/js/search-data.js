@@ -472,11 +472,6 @@ ninja.data = [{
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/dialux_daylight/";
-            },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
-          title: 'Daylighting Design Analysis - Glasgow Residential Project',
-          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/dialux_daylight01/";
             },},{id: "projects-dialux-lighting-design-commercial-building-project",
           title: 'DIALux Lighting Design - Commercial Building Project',
