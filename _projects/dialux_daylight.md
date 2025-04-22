@@ -1155,6 +1155,16 @@ importance: 1
     <div class="conclusion-content">
       <div class="conclusion-text">
         <p>The daylight and lighting design analysis for this Glasgow residential property demonstrates that most rooms meet or exceed recommended daylight factor standards. The project highlights:</p>
+
+        <div class="key-findings">
+          <h3>Key Findings</h3>
+          <ul>
+            <li>North-facing rooms benefit from consistent diffuse light but require careful design to achieve adequate illumination</li>
+            <li>Automatic lighting controls could reduce energy consumption by over 25%</li>
+            <li>Several safety-critical areas were identified needing supplemental lighting</li>
+            <li>Bedroom 1 performed best while cloakroom performed worst in daylight metrics</li>
+          </ul>
+        </div>
         
         <div class="findings-grid">
           <div class="finding-category">
@@ -2278,6 +2288,26 @@ importance: 1
   border-top: 1px solid var(--light-gray);
 }
 
+.key-findings {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.key-findings h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.key-findings ul {
+  padding-left: 20px;
+}
+
+.key-findings li {
+  margin-bottom: 10px;
+}
+  
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .conclusion-content,
