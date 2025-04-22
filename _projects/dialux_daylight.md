@@ -1090,6 +1090,40 @@ importance: 1
         <p>By implementing automatic/daylight-dependent lighting controls</p>
       </div>
     </div>
+    
+    <div class="energy-notes">
+        <p><strong>Key Findings:</strong></p>
+        <ul>
+          <li>Total annual savings: 225.02 kWh (27% reduction)</li>
+          <li>Kitchen/dining showed largest difference (45.05 kWh)</li>
+          <li>Bedroom 2 showed smallest difference (11.8 kWh)</li>
+          <li>Automatic controls most effective in frequently used spaces</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="control-strategies">
+      <h3 class="subsection-header">Recommended Control Strategies</h3>
+      <div class="strategies-content">
+        <div class="strategies-text">
+          <p>Based on SLL Lighting Guide 9 recommendations:</p>
+          <ul>
+            <li>Combined photocell and presence sensors in living areas</li>
+            <li>Daylight linking for kitchens and workspaces</li>
+            <li>Motion sensors for hallways and bathrooms</li>
+            <li>Soft-start ballasts for fluorescent lighting</li>
+          </ul>
+        </div>
+        <div class="strategies-images">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-181.png" 
+               alt="Photocell Sensor"
+               loading="lazy">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-183.png" 
+               alt="T8 Lamps"
+               loading="lazy">
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Recommendations Section -->
@@ -2162,6 +2196,41 @@ importance: 1
   font-size: 1.2rem;
   color: var(--secondary-color);
   margin-bottom: 15px;
+}
+
+.energy-notes {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.control-strategies {
+  margin-top: 40px;
+}
+
+.strategies-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.strategies-text {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.strategies-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.strategies-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 /* Recommendations Section */
