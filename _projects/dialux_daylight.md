@@ -662,7 +662,37 @@ importance: 1
       <span class="section-number">7</span>
       Manual Calculations
     </h2>
-    
+
+    <div class="calculation-parameters">
+      <h3 class="subsection-header">Calculation Parameters</h3>
+      <div class="parameter-grid">
+        <div class="parameter-card">
+          <h5>Surface Reflectances</h5>
+          <ul>
+            <li>Ceiling: 0.8</li>
+            <li>Walls: 0.65</li>
+            <li>Floor: 0.4</li>
+            <li>Window Glazing: 0.1</li>
+          </ul>
+        </div>
+        <div class="parameter-card">
+          <h5>Correction Factors</h5>
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png" 
+               alt="Dirt Correction Factors" 
+               class="param-img"
+               loading="lazy">
+        </div>
+        <div class="parameter-card">
+          <h5>Climate Data</h5>
+          <ul>
+            <li>Location: Glasgow, UK</li>
+            <li>Sky Condition: CIE Overcast</li>
+            <li>Latitude: 55.86°N</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="calculations-intro">
       <p>Daylight Factor calculations were performed manually for each room with window openings, considering room dimensions, window properties, surface reflectances, and external obstructions. The following examples demonstrate the calculation methodology.</p>
     </div>
@@ -1639,6 +1669,41 @@ importance: 1
   .obstruction-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Calculation Parameters */
+.parameter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.parameter-card {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.parameter-card h5 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.parameter-card ul {
+  padding-left: 20px;
+}
+
+.parameter-card li {
+  margin-bottom: 8px;
+}
+
+.param-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 10px;
 }
   
 /* Calculation Steps */
