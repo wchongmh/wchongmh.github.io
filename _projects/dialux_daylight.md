@@ -659,7 +659,7 @@ importance: 1
   <!-- Manual Calculations Section -->
   <section class="project-section manual-calculations">
     <h2 class="section-header">
-      <span class="section-number">7</span>
+      <span class="section-number">8</span>
       Manual Calculations
     </h2>
 
@@ -804,7 +804,7 @@ importance: 1
   <!-- Dialux Simulation Section -->
   <section class="project-section dialux-simulations">
     <h2 class="section-header">
-      <span class="section-number">8</span>
+      <span class="section-number">9</span>
       Dialux Simulations
     </h2>
     
@@ -933,10 +933,124 @@ importance: 1
     </article>
   </section>
 
+  <!-- Results Section -->
+  <section class="project-section results-section">
+    <h2 class="section-header">
+      <span class="section-number">10</span>
+      Results
+    </h2>
+    
+    <div class="results-intro">
+      <p>The analysis revealed varying daylight performance across different spaces, with most rooms meeting minimum requirements but some areas needing improvement.</p>
+    </div>
+    
+    <div class="results-tabs">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-tab="daylight-factors">Daylight Factors</button>
+        <button class="tab-button" data-tab="illuminance">Illuminance Levels</button>
+        <button class="tab-button" data-tab="point-analysis">Point Analysis</button>
+      </div>
+      
+      <div class="tab-content active" id="daylight-factors">
+        <h3>Daylight Factor Comparison</h3>
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-82.png" 
+             alt="Daylight Factor Comparison Table" 
+             class="result-img"
+             loading="lazy">
+        
+        <div class="result-highlights">
+          <div class="highlight-card good">
+            <span class="highlight-icon">👍</span>
+            <span class="highlight-text">Best Performance: Bedroom 1 (16.28% manual, 3.79% Dialux)</span>
+          </div>
+          <div class="highlight-card bad">
+            <span class="highlight-icon">👎</span>
+            <span class="highlight-text">Worst Performance: Cloak (0.76% manual, 0.72% Dialux)</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="illuminance">
+        <h3>Illuminance Levels</h3>
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-91.png" 
+             alt="Illuminance Levels Table" 
+             class="result-img"
+             loading="lazy">
+        
+        <div class="illuminance-grid">
+          <div class="illuminance-card">
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-92.png" 
+                 alt="Lounge Illuminance" 
+                 class="illuminance-img"
+                 loading="lazy">
+            <p>Ground Floor Lounge: 101 lux</p>
+          </div>
+          <div class="illuminance-card">
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-85.png" 
+                 alt="Bedroom 1 Illuminance" 
+                 class="illuminance-img"
+                 loading="lazy">
+            <p>First Floor Bedroom 1: 158 lux</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="point-analysis">
+        <h3>Critical Point Analysis</h3>
+        <div class="point-grid">
+          <div class="point-card">
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-101.png" 
+                 alt="Lounge Table DF" 
+                 class="point-img"
+                 loading="lazy">
+            <p>Lounge Table: 0.82% DF (Below 2% target)</p>
+          </div>
+          <div class="point-card">
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-105.png" 
+                 alt="Cloak Cleaning Area DF" 
+                 class="point-img"
+                 loading="lazy">
+            <p>Cloak Cleaning Area: 3.96% DF (Meets target)</p>
+          </div>
+          <div class="point-card">
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-106.png" 
+                 alt="Cloak Door Threshold DF" 
+                 class="point-img"
+                 loading="lazy">
+            <p>Cloak Door Threshold: 0.36% DF (Safety concern)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="energy-analysis">
+      <h3 class="subsection-header">Energy Implications</h3>
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-158.png" 
+           alt="Energy Efficiency Table" 
+           class="energy-img"
+           loading="lazy">
+      
+      <div class="energy-findings">
+        <p>Automatic daylight-dependent controls could reduce lighting energy consumption by <strong>225.02 kWh/a</strong> (27.3%) compared to manual control.</p>
+        <div class="energy-comparison">
+          <div class="energy-value">
+            <span class="energy-number">824.24</span>
+            <span class="energy-label">Manual Control (kWh/a)</span>
+          </div>
+          <div class="energy-arrow">→</div>
+          <div class="energy-value">
+            <span class="energy-number">599.22</span>
+            <span class="energy-label">Automatic Control (kWh/a)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Energy Analysis Section -->
   <section class="project-section energy-analysis">
     <h2 class="section-header">
-      <span class="section-number">9</span>
+      <span class="section-number">11</span>
       Energy Analysis
     </h2>
     
@@ -1892,6 +2006,90 @@ importance: 1
   border-radius: 6px;
 }
 
+/* Results Tabs */
+.results-tabs {
+  margin-top: 30px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--dark-gray);
+  position: relative;
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tab-button.active:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.result-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.result-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.highlight-card {
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.highlight-card.good {
+  background: rgba(46, 204, 113, 0.1);
+  border-left: 4px solid var(--good-color);
+}
+
+.highlight-card.bad {
+  background: rgba(231, 76, 60, 0.1);
+  border-left: 4px solid var(--bad-color);
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+}
+
+.highlight-text {
+  font-size: 0.95rem;
+}
+  
 /* Energy Analysis */
 .energy-intro {
   margin-bottom: 20px;
