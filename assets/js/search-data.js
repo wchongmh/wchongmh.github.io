@@ -453,11 +453,6 @@ ninja.data = [{
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
-            },},{id: "projects-residential-daylighting-design-analysis-glasgow-kirkintilloch-residence-semi-detached-house",
-          title: 'Residential Daylighting Design Analysis - Glasgow Kirkintilloch Residence Semi-Detached House',
-          description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/dialux/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylighting analysis for a 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations.",
