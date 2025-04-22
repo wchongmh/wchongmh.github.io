@@ -2234,6 +2234,46 @@ importance: 1
   margin-top: 20px;
 }
 
+.energy-findings {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.energy-findings strong {
+  color: var(--primary-color);
+}
+
+.energy-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.energy-value {
+  text-align: center;
+}
+
+.energy-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: block;
+}
+
+.energy-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.energy-arrow {
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+}
+
 .control-strategies {
   margin-top: 40px;
 }
