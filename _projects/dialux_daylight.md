@@ -1150,18 +1150,18 @@ importance: 1
         <h3>Critical Point Analysis</h3>
         <div class="point-grid">
           <div class="point-card">
-            <img src="/assets/img/projects/daylight-design/dialux_daylight-101.png" 
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-144.png" 
                  alt="Lounge Table DF" 
                  class="point-img"
                  loading="lazy">
-            <p>Lounge Table: 0.82% DF (Below 2% target)</p>
+            <p>Bathroom Door Threshold: 0.90% DF (Safety concern)</p>
           </div>
           <div class="point-card">
-            <img src="/assets/img/projects/daylight-design/dialux_daylight-105.png" 
+            <img src="/assets/img/projects/daylight-design/dialux_daylight-156.png" 
                  alt="Cloak Cleaning Area DF" 
                  class="point-img"
                  loading="lazy">
-            <p>Cloak Cleaning Area: 3.96% DF (Meets target)</p>
+            <p>En-Suite Door Threshold: 6.93% DF (Safety concern)</p>
           </div>
           <div class="point-card">
             <img src="/assets/img/projects/daylight-design/dialux_daylight-106.png" 
