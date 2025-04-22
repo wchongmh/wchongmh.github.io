@@ -693,6 +693,29 @@ importance: 1
       </div>
     </div>
 
+    <div class="calculation-steps">
+      <h3 class="subsection-header">Daylight Factor Calculation Steps</h3>
+      <ol>
+        <li>Identify zones with window openings</li>
+        <li>Measure room and window dimensions</li>
+        <li>Determine visible sky angle considering obstructions</li>
+        <li>Calculate window-to-floor area ratio</li>
+        <li>Compute average reflectance of room surfaces</li>
+        <li>Apply Daylight Factor formula</li>
+      </ol>
+      
+      <div class="formula-box">
+        <p>Daylight Factor Formula:</p>
+        <p class="formula">DF<sub>ave</sub> = (Ag × θ × T) / [A × (1 - R<sup>2</sup>)]</p>
+        <p>Where:<br>
+        Ag = Window area<br>
+        θ = Visible sky angle<br>
+        T = Transmittance factor<br>
+        A = Total room surface area<br>
+        R = Average reflectance</p>
+      </div>
+    </div>
+
     <div class="calculations-intro">
       <p>Daylight Factor calculations were performed manually for each room with window openings, considering room dimensions, window properties, surface reflectances, and external obstructions. The following examples demonstrate the calculation methodology.</p>
     </div>
@@ -1729,6 +1752,29 @@ importance: 1
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.calculation-steps ol {
+  padding-left: 25px;
+}
+
+.calculation-steps li {
+  margin-bottom: 10px;
+}
+
+.formula-box {
+  background: #f0f7ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.formula {
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin: 15px 0;
+  color: var(--secondary-color);
 }
 
 /* Simulation Grids */
