@@ -2383,13 +2383,13 @@ importance: 1
 /* Conclusion Section */
 .conclusion-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 40px;
-  margin: 30px 0;
+  margin-bottom: 40px;
 }
 
 .conclusion-text {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .conclusion-image img {
