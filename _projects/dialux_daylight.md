@@ -959,6 +959,29 @@ importance: 1
                loading="lazy">
           <p>Bedroom 1</p>
         </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-87.png" 
+               alt="Bedroom 1 Daylight Factors" 
+               loading="lazy">
+          <p>En-Suite</p>
+        </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-88.png" 
+               alt="Bedroom 1 Daylight Factors" 
+               loading="lazy">
+          <p>Bedroom 2</p>
+        </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-89.png" 
+               alt="Bedroom 1 Daylight Factors" 
+               loading="lazy">
+          <p>Bedroom 3</p>
+          <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-90.png" 
+               alt="Bedroom 1 Daylight Factors" 
+               loading="lazy">
+          <p>Bathroom</p>
+        </div>
       </div>
     </article>
     
@@ -981,13 +1004,37 @@ importance: 1
           <img src="/assets/img/projects/daylight-design/dialux_daylight-94.png" 
                alt="Kitchen Illuminance" 
                loading="lazy">
-          <p>Kitchen Illuminance</p>
+          <p>Kitchen & Dinning Area Illuminance</p>
         </div>
         <div class="simulation-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-85.png" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-95.png" 
                alt="Bedroom 1 Illuminance" 
                loading="lazy">
           <p>Bedroom 1 Illuminance</p>
+        </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-96.png" 
+               alt="En-Suite Illuminance" 
+               loading="lazy">
+          <p>Bedroom 1 Illuminance</p>
+        </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-97.png" 
+               alt="Bedroom 1 Illuminance" 
+               loading="lazy">
+          <p>Bedroom 2 Illuminance</p>
+        </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-98.png" 
+               alt="Bedroom 1 Illuminance" 
+               loading="lazy">
+          <p>Bedroom 3 Illuminance</p>
+        </div>
+        <div class="simulation-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-99.png" 
+               alt="Bedroom 1 Illuminance" 
+               loading="lazy">
+          <p>Bathroom Illuminance</p>
         </div>
       </div>
     </article>
