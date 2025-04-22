@@ -1044,10 +1044,10 @@ importance: 1
       <h3 class="subsection-header">Critical Point Analysis</h3>
       <div class="point-analysis-grid">
         <div class="point-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-101.png" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-103.png" 
                alt="Lounge Table Far from Window" 
                loading="lazy">
-          <p>Lounge Table (Far) - 0.82% DF</p>
+          <p>Lounge Table - 1.18% DF</p>
         </div>
         <div class="point-card">
           <img src="/assets/img/projects/daylight-design/dialux_daylight-109.png" 
@@ -1056,16 +1056,46 @@ importance: 1
           <p>Kitchen Washbasin - 13% DF</p>
         </div>
         <div class="point-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-115.png" 
-               alt="Bathroom Toilet" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-112.png" 
+               alt="Kitchen Washbasin" 
                loading="lazy">
-          <p>Bathroom Toilet - 5.06% DF</p>
+          <p>Bedroom 1 Light Reading Wall-mounted Table - 3.90% DF</p>
         </div>
         <div class="point-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-106.png" 
-               alt="Cloak Door Threshold" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-116.png" 
+               alt="Kitchen Washbasin" 
                loading="lazy">
-          <p>Cloak Threshold - 0.36% DF</p>
+          <p>Bathroom Bathtub - 3.03% DF</p>
+        </div>
+        <div class="point-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-118.png" 
+               alt="Kitchen Washbasin" 
+               loading="lazy">
+          <p>Bedroom 2 Computer Working Desk - 10% DF</p>
+        </div>
+        <div class="point-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-122.png" 
+               alt="Kitchen Washbasin" 
+               loading="lazy">
+          <p>Bedroom 3 Study Desk - 4.53% DF</p>
+        </div>
+        <div class="point-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-125.png" 
+               alt="Kitchen Washbasin" 
+               loading="lazy">
+          <p>En-Suite Shower Tray - 1.98% DF</p>
+        </div>
+        <div class="point-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-127.png" 
+               alt="Kitchen Washbasin" 
+               loading="lazy">
+          <p>Lounge Large Sofa - 3.91% DF</p>
+        </div>
+        <div class="point-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-138.png" 
+               alt="Kitchen Washbasin" 
+               loading="lazy">
+          <p>Dinning Area Dining Table - 3.55% DF</p>
         </div>
       </div>
     </article>
@@ -1078,6 +1108,18 @@ importance: 1
                alt="Lounge Sofa" 
                loading="lazy">
           <p>Lounge Sofa - 3.91% DF</p>
+        </div>
+        <div class="surface-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-130.png" 
+               alt="Dining Table" 
+               loading="lazy">
+          <p>Small Sofa - 0.58% DF</p>
+        </div>
+        <div class="surface-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-137.png" 
+               alt="Dining Table" 
+               loading="lazy">
+          <p>Oven Operation - 1.44% DF</p>
         </div>
         <div class="surface-card">
           <img src="/assets/img/projects/daylight-design/dialux_daylight-139.png" 
@@ -1096,6 +1138,24 @@ importance: 1
                alt="Bathroom Threshold" 
                loading="lazy">
           <p>Bathroom Threshold - 0.90% DF</p>
+        </div>
+        <div class="surface-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-148.png" 
+               alt="Dining Table" 
+               loading="lazy">
+          <p>Bedside Cabinet - 3.54% DF</p>
+        </div>
+        <div class="surface-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-150.png" 
+               alt="Dining Table" 
+               loading="lazy">
+          <p>Bedroom 2 Wardrobe - 2.15% DF</p>
+        </div>
+        <div class="surface-card">
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-152.png" 
+               alt="Dining Table" 
+               loading="lazy">
+          <p>Bedroom 3 Bed - 3.61% DF</p>
         </div>
       </div>
     </article>
@@ -1221,109 +1281,13 @@ importance: 1
         <img src="/assets/img/projects/daylight-design/dialux_daylight-159.png" 
              alt="Manual Control Lounge" 
              loading="lazy">
-        <p>Lounge manual control</p>
+        <p>Manual control</p>
       </div>
       <div class="control-card">
         <img src="/assets/img/projects/daylight-design/dialux_daylight-160.png" 
              alt="Automatic Control Lounge" 
              loading="lazy">
-        <p>Lounge automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-161.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Cloak manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-162.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Cloak automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-163.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Kitchen & Dinning Area manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-164.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Kitchen & Dinning Area automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-165.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Hallway & Stairs manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-166.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Vestibule manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-167.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Bedroom 1 manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-168.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Bedroom 1 automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-169.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>En-Suite manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-170.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>En-Suite automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-171.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Bedroom 2 manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-172.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Bedroom 2 automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-173.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Bedroom 3 manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-174.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Bedroom 3 automatic control(Daylight Dependent)</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-176.png" 
-             alt="Manual Control Lounge" 
-             loading="lazy">
-        <p>Bathroom manual control</p>
-      </div>
-      <div class="control-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-177.png" 
-             alt="Automatic Control Lounge" 
-             loading="lazy">
-        <p>Bathroom automatic control(Daylight Dependent)</p>
+        <p>Automatic control (Daylight Dependent)</p>
       </div>
       <!-- Additional comparisons would follow same pattern -->
     </div>
