@@ -2330,4 +2330,49 @@ importance: 1
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* Animation Effects */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.project-section {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Tab Functionality */
+.tab-content {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Utility Classes */
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.text-center { text-align: center; }
 </style>
+
+<script>
+// Tab functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const tabButtons = document.querySelectorAll('.tab-button');
+  
+  tabButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const tabId = this.getAttribute('data-tab');
+      
+      // Remove active class from all buttons and content
+      document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+      });
+      
+      // Add active class to clicked button and corresponding content
+      this.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    });
+  });
+});
+</script>
