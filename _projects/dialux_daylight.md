@@ -534,10 +534,107 @@ importance: 1
     </div>
   </section>
 
+  <!-- External Obstruction Analysis -->
+  <section class="project-section obstruction-analysis">
+    <h2 class="section-header">
+      <span class="section-number">6</span>
+      External Obstruction Analysis
+    </h2>
+
+    <div class="background-content">
+      <div class="background-text">
+        <h3>Location Context</h3>
+        <p>The property faces north with neighboring buildings affecting daylight availability. External obstructions were carefully measured and incorporated into calculations:</p>
+        <ul>
+          <li>North-facing: 7.5m building 19.9m away</li>
+          <li>East-facing: 7.924m building 1.8m away</li>
+          <li>South-facing: No obstructions</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="obstruction-details">
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-46.png" 
+           alt="Obstruction Details" 
+           loading="lazy">
+      <p>External obstruction specifications</p>
+    </div>
+    
+    <h3 class="subsection-header">North Direction Obstruction</h3>
+    
+    <div class="obstruction-grid">
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-47.png" 
+             alt="North Building Distance" 
+             loading="lazy">
+        <p>Distance measurement from Google Earth</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-48.png" 
+             alt="3D North Obstruction" 
+             loading="lazy">
+        <p>3D view of north obstruction</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-49.png" 
+             alt="Plan View North Obstruction" 
+             loading="lazy">
+        <p>Plan view of north obstruction</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-50.png" 
+             alt="North Building Dimensions" 
+             loading="lazy">
+        <p>North building dimensions</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-51.png" 
+             alt="North Geometry Settings" 
+             loading="lazy">
+        <p>North geometry settings in Dialux</p>
+      </div>
+    </div>
+    
+    <h3 class="subsection-header">East Direction Obstruction</h3>
+    
+    <div class="obstruction-grid">
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-52.png" 
+             alt="East Building Distance" 
+             loading="lazy">
+        <p>Distance measurement from Google Earth</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-53.png" 
+             alt="Plan View East Obstruction" 
+             loading="lazy">
+        <p>Plan view of east obstruction</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-54.png" 
+             alt="3D East Obstruction" 
+             loading="lazy">
+        <p>3D view of east obstruction</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-55.png" 
+             alt="East Building Dimensions" 
+             loading="lazy">
+        <p>East building dimensions</p>
+      </div>
+      <div class="obstruction-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-56.png" 
+             alt="East Geometry Settings" 
+             loading="lazy">
+        <p>East geometry settings in Dialux</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Luminaire Selection Section -->
   <section class="project-section luminaire-selection">
     <h2 class="section-header">
-      <span class="section-number">6</span>
+      <span class="section-number">7</span>
       Luminaire Selection
     </h2>
     
@@ -1488,6 +1585,69 @@ importance: 1
   margin-top: 8px;
 }
 
+/* Obstruction Analysis */
+.obstruction-details {
+  margin-bottom: 30px;
+}
+
+.obstruction-details img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.obstruction-details p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 8px;
+  color: var(--dark-gray);
+}
+
+.obstruction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.obstruction-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.obstruction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.obstruction-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.obstruction-card p {
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .obstruction-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .obstruction-grid {
+    grid-template-columns: 1fr;
+  }
+}
+  
 /* Calculation Steps */
 .calculation-steps {
   display: grid;
