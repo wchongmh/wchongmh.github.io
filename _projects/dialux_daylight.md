@@ -1227,7 +1227,103 @@ importance: 1
         <img src="/assets/img/projects/daylight-design/dialux_daylight-160.png" 
              alt="Automatic Control Lounge" 
              loading="lazy">
-        <p>Lounge automatic control</p>
+        <p>Lounge automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-161.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Cloak manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-162.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Cloak automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-163.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Kitchen & Dinning Area manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-164.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Kitchen & Dinning Area automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-165.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Hallway & Stairs manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-166.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Vestibule manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-167.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Bedroom 1 manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-168.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Bedroom 1 automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-169.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>En-Suite manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-170.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>En-Suite automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-171.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Bedroom 2 manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-172.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Bedroom 2 automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-173.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Bedroom 3 manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-174.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Bedroom 3 automatic control(Daylight Dependent)</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-176.png" 
+             alt="Manual Control Lounge" 
+             loading="lazy">
+        <p>Bathroom manual control</p>
+      </div>
+      <div class="control-card">
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-177.png" 
+             alt="Automatic Control Lounge" 
+             loading="lazy">
+        <p>Bathroom automatic control(Daylight Dependent)</p>
       </div>
       <!-- Additional comparisons would follow same pattern -->
     </div>
