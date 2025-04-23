@@ -367,9 +367,39 @@ importance: 1
         </div>
       </div>
     </article>
-    
-    <article class="modification-subsection">
-      <h3 class="subsection-header">HVAC System Optimization</h3>
+
+    <div class="fabric-stats">
+      <div class="stat-item">
+        <span class="stat-value">22.8</span>
+        <span class="stat-label">kgCO₂/m² Reduction</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">0.27 → 0.21</span>
+        <span class="stat-label">Wall U-value</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">1.79 → 0.44</span>
+        <span class="stat-label">Partition U-value</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value">10 → 5</span>
+        <span class="stat-label">Air Permeability</span>
+      </div>
+    </div>
+  </section>
+
+
+    <article class="hvac-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M3,8H5V16H3V8M7,8H9V16H7V8M11,8H13V16H11V8M15,19H21V5H15V19M17,7H19V17H17V7Z" />
+        </svg>
+        HVAC System Optimization
+      </h3>
+
+      <div class="hvac-intro">
+      <p>The HVAC system redesign focused on zone-specific solutions incorporating biomass energy sources and heat recovery, achieving a 17.7 kgCO₂/m² reduction in BER.</p>
+    </div>
       
       <div class="system-tabs">
         <div class="tab-buttons">
@@ -578,8 +608,45 @@ importance: 1
   <section class="project-section results-section">
     <h2 class="section-header">
       <span class="section-number">06</span>
-      Final Results & Compliance
+      Final Results & Project Outcomes
     </h2>
+
+    <div class="outcomes-intro">
+      <p>The comprehensive energy efficiency improvements transformed the building from significant non-compliance to full adherence with Section 6 standards while enhancing occupant comfort and operational efficiency.</p>
+    </div>
+    
+    <div class="outcomes-grid">
+      <div class="outcome-card">
+        <div class="outcome-icon">📉</div>
+        <h3>Energy Performance</h3>
+        <ul>
+          <li>Energy consumption reduced from 232.48 to 83.78 kWh/m²</li>
+          <li>CO₂ emissions decreased from 98.5 to 12.2 kgCO₂/m²</li>
+          <li>11.91 kWh/m² renewable energy generation</li>
+        </ul>
+      </div>
+      
+      <div class="outcome-card">
+        <div class="outcome-icon">🏆</div>
+        <h3>Compliance Achievements</h3>
+        <ul>
+          <li>Met all Section 6.1 requirements</li>
+          <li>Achieved SBEM-compliance</li>
+          <li>Satisfied Scottish Technical Standards (2015-2023)</li>
+        </ul>
+      </div>
+      
+      <div class="outcome-card">
+        <div class="outcome-icon">🔄</div>
+        <h3>System Improvements</h3>
+        <ul>
+          <li>Optimized building fabric U-values</li>
+          <li>High-efficiency HVAC with heat recovery</li>
+          <li>Energy-efficient lighting controls</li>
+          <li>Integrated renewable energy</li>
+        </ul>
+      </div>
+    </div>
     
     <div class="results-content">
       <div class="results-text">
@@ -1168,6 +1235,63 @@ importance: 1
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
+/* Fabric Section */
+.fabric-comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.comparison-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.comparison-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.comparison-content {
+  padding: 15px;
+}
+
+.comparison-content h4 {
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.fabric-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.stat-item {
+  background: var(--light-gray);
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
 /* System Tabs */
 .system-tabs {
   margin-top: 20px;
@@ -1382,6 +1506,51 @@ importance: 1
 .final-compliance p {
   font-weight: 500;
   color: var(--accent-color);
+}
+
+/* Outcomes Section */
+.outcomes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.outcome-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.outcome-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.outcome-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.outcomes-comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.comparison-item {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.comparison-item p {
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
 }
 
 /* Conclusion Section */
