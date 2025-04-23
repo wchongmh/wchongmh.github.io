@@ -52,7 +52,7 @@ importance: 1
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
@@ -114,13 +114,51 @@ importance: 1
           <span class="spec-label">Solar PV Installed</span>
         </div>
       </div>
+
+      <div class="key-specs">
+      <h3 class="specs-title">Key Performance Improvements</h3>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <span class="spec-value">86.3%</span>
+          <span class="spec-label">CO₂ Reduction</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">148.7</span>
+          <span class="spec-label">kWh/m² Saved</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">11.91</span>
+          <span class="spec-label">kWh/m² Renewables</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-value">22.8</span>
+          <span class="spec-label">kgCO₂/m² Fabric</span>
+        </div>
+      </div>
     </div>
   </section>
+
+  <div class="project-highlights">
+    <div class="highlight-card">
+      <div class="highlight-icon">🏢</div>
+      <div class="highlight-content">
+        <span class="highlight-value">1,182</span>
+        <span class="highlight-label">Square Meters</span>
+      </div>
+    </div>
+    <div class="highlight-card">
+      <div class="highlight-icon">📊</div>
+      <div class="highlight-content">
+        <span class="highlight-value">40+</span>
+        <span class="highlight-label">Zones Analyzed</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Building Geometry Section -->
   <section class="project-section geometry-section">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       Building Geometry
     </h2>
     
