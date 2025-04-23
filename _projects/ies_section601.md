@@ -582,8 +582,7 @@ importance: 1
                loading="lazy">
         </div>
       </div>
-    </div>
-  </article>
+   </article>
 
   <!-- Renewables Section -->
   <section class="project-section renewables-section">
