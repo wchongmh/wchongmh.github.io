@@ -1,8 +1,8 @@
 ---
-title: "Building Energy Compliance - Scottish Technical Standards Section 6"
+title: "Building Energy Compliance Analysis - Scottish Technical Standards Section 6"
 category: Smart Building
 description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards using IES VE software."
-tech: [IES VE, Energy Simulation, Building Compliance, HVAC Optimization, Renewable Integration]
+tech: [IES VE, Energy Modeling, SBEM Building Compliance, HVAC Optimization, Renewable Integration, Building Fabric Analysis]
 image: /assets/img/projects/ies-section6/ies_coursework-0.png
 importance: 1
 ---
@@ -11,10 +11,10 @@ importance: 1
 
   <!-- Project Header -->
   <header class="project-header">
-    <h1 class="project-title">Building Energy Compliance</h1>
+    <h1 class="project-title">Building Energy Compliance Analysis</h1>
     <p class="project-subtitle">Scottish Technical Standards Section 6</p>
     <div class="project-meta">
-      <span class="badge">Energy Analysis</span>
+      <span class="badge">Building Performance Analysis</span>
       <span class="tech-tags">
         {% for technology in page.tech %}
         <span class="tech-tag">{{ technology }}</span>
