@@ -455,11 +455,6 @@ ninja.data = [{
               window.location.href = "/projects/bms-system/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
-          description: "Comprehensive daylighting analysis for a 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/dialux011/";
-            },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
-          title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylight factor analysis for 2-storey semi-detached house in Glasgow using manual calculations and Dialux simulations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dialux033/";
