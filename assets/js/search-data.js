@@ -482,11 +482,6 @@ ninja.data = [{
           title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
           description: "Comprehensive energy compliance assessment for Glasgow office building using IES VE software to meet Section 6 requirements.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ies04/";
-            },},{id: "projects-energy-compliance-analysis-scottish-technical-standards-section-6",
-          title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
-          description: "Comprehensive energy compliance assessment for Glasgow office building using IES VE software to meet Section 6 requirements.",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/ies05/";
             },},{id: "projects-building-energy-compliance-analysis-scottish-technical-standards-section-6",
           title: 'Building Energy Compliance Analysis - Scottish Technical Standards Section 6',
