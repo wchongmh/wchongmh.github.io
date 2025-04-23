@@ -715,6 +715,29 @@ importance: 1
              loading="lazy">
         <p>The building now fully complies with Section 6 requirements with BER equal to the limit of 12.2 kgCO₂/m²</p>
       </div>
+
+       <div class="key-results">
+      <h3 class="subsection-header">Key Performance Improvements</h3>
+      <div class="results-grid">
+        <div class="result-item">
+          <span class="result-value">86.3 kgCO₂/m²</span>
+          <span class="result-label">CO₂ Emissions Reduction (98.5 → 12.2)</span>
+        </div>
+        <div class="result-item">
+          <span class="result-value">148.7 kWh/m²</span>
+          <span class="result-label">Energy Consumption Reduction (232.48 → 83.78)</span>
+        </div>
+        <div class="result-item">
+          <span class="result-value">11.91 kWh/m²</span>
+          <span class="result-label">Renewable Energy Generation</span>
+        </div>
+        <div class="result-item">
+          <span class="result-value">100%</span>
+          <span class="result-label">Section 6 Compliance Achieved</span>
+        </div>
+      </div>
+    </div>
+      
     </div>
   </section>
 
@@ -1678,6 +1701,38 @@ importance: 1
   border-radius: 8px;
   margin: 40px 0;
   border-left: 4px solid var(--primary-color);
+}
+
+.key-results {
+  margin-top: 40px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.result-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.result-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.result-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
 }
   
 /* Conclusion Section */
