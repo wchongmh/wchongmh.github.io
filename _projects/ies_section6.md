@@ -689,18 +689,24 @@ importance: 1
       </div>
       
       <div class="results-comparison">
-        <div class="comparison-item">
-          <h4>Initial Performance</h4>
-          <img src="/assets/img/projects/ies-section6/ies_coursework-39.png" 
-               alt="Old Energy Data" 
-               loading="lazy">
-        </div>
-        <div class="comparison-item">
-          <h4>Final Performance</h4>
-          <img src="/assets/img/projects/ies-section6/ies_coursework-40.png" 
-               alt="New Energy Data" 
-               loading="lazy">
-        </div>
+      <div class="old-data">
+        <h3>Initial Performance</h3>
+        <img src="/assets/img/projects/ies-section6/ies_coursework-39.png" alt="Old Data">
+        <ul>
+          <li>Energy consumption: 232.48 kWh/m²</li>
+          <li>CO₂ emissions: 98.5 kgCO₂/m²</li>
+          <li>U-value avg: 0.83 W/m²K</li>
+        </ul>
+      </div>
+      
+      <div class="new-data">
+        <h3>Final Performance</h3>
+        <img src="/assets/img/projects/ies-section6/ies_coursework-40.png" alt="New Data">
+        <ul>
+          <li>Energy consumption: 83.78 kWh/m² (64% reduction)</li>
+          <li>CO₂ emissions: 12.2 kgCO₂/m² (87.6% reduction)</li>
+          <li>U-value avg: 0.27 W/m²K</li>
+        </ul>
       </div>
       
       <div class="final-compliance">
@@ -739,6 +745,10 @@ importance: 1
           <span class="achievement-label">Renewable Generation (kWh/m²)</span>
         </div>
       </div>
+    </div>
+
+    <div class="conclusion">
+      <p>The comprehensive energy optimization strategy successfully brought the building into full compliance with Section 6 of the Scottish Technical Standards. Key achievements include an 87.6% reduction in CO₂ emissions, 64% reduction in energy consumption, and improved occupant comfort through optimized HVAC and lighting systems. The project demonstrates the effectiveness of integrated building performance analysis in achieving stringent energy standards.</p>
     </div>
     
     <div class="conclusion-content">
@@ -1634,6 +1644,42 @@ importance: 1
   color: var(--dark-gray);
 }
 
+/* Results Section */
+.results-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.old-data, .new-data {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.old-data h3, .new-data h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.old-data img, .new-data img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.conclusion {
+  background: #f0f7ff;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 40px 0;
+  border-left: 4px solid var(--primary-color);
+}
+  
 /* Conclusion Section */
 .conclusion-content {
   display: grid;
