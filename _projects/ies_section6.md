@@ -295,9 +295,39 @@ importance: 1
   <!-- Modifications Section -->
   <section class="project-section modifications-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
-      Energy Efficiency Modifications
+      <span class="section-number">4</span>
+      Initial Analysis
     </h2>
+
+    <div class="analysis-intro">
+      <p>The initial energy simulation revealed significant non-compliance with Section 6 requirements, primarily due to inefficient building fabric and HVAC systems.</p>
+    </div>
+    
+    <div class="analysis-grid">
+      <div class="analysis-card critical">
+        <h3>Energy Consumption</h3>
+        <p class="analysis-value">232.48 kWh/m²</p>
+        <p class="analysis-comparison">vs 53.56 kWh/m² target</p>
+      </div>
+      
+      <div class="analysis-card critical">
+        <h3>CO₂ Emissions</h3>
+        <p class="analysis-value">98.5 kgCO₂/m²</p>
+        <p class="analysis-comparison">vs 50 kgCO₂/m² limit</p>
+      </div>
+      
+      <div class="analysis-card">
+        <h3>Average U-value</h3>
+        <p class="analysis-value">0.83 W/m²K</p>
+        <p class="analysis-comparison">vs 0.27 W/m²K target</p>
+      </div>
+      
+      <div class="analysis-card">
+        <h3>Air Permeability</h3>
+        <p class="analysis-value">10 m³/h.m²</p>
+        <p class="analysis-comparison">vs 5 m³/h.m² target</p>
+      </div>
+    </div>
     
     <article class="modification-subsection">
       <h3 class="subsection-header">Building Fabric Improvements</h3>
@@ -1087,6 +1117,55 @@ importance: 1
   font-size: 0.85rem;
   text-align: center;
   color: var(--dark-gray);
+}
+
+/* Analysis Section */
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.analysis-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.analysis-card.critical {
+  border-top: 4px solid var(--accent-color);
+}
+
+.analysis-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin: 10px 0;
+}
+
+.analysis-comparison {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.system-analysis {
+  margin-top: 30px;
+}
+
+.system-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.system-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
 /* System Tabs */
