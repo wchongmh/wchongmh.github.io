@@ -478,11 +478,6 @@ ninja.data = [{
           description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hevacomp_office/";
-            },},{id: "projects-building-energy-compliance-scottish-technical-standards-section-6",
-          title: 'Building Energy Compliance - Scottish Technical Standards Section 6',
-          description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards using IES VE software.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ies01/";
             },},{id: "projects-energy-compliance-analysis-scottish-technical-standards-section-6",
           title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
           description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards",
@@ -508,6 +503,11 @@ ninja.data = [{
           description: "Comprehensive energy compliance assessment for Glasgow office building using IES VE software to meet Section 6 requirements.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ies05/";
+            },},{id: "projects-building-energy-compliance-scottish-technical-standards-section-6",
+          title: 'Building Energy Compliance - Scottish Technical Standards Section 6',
+          description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards using IES VE software.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ies_section6/";
             },},{id: "projects-indoor-air-quality-study-library-sub-area-4",
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
