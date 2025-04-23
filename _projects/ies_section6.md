@@ -635,7 +635,7 @@ importance: 1
   <!-- Results Section -->
   <section class="project-section results-section">
     <h2 class="section-header">
-      <span class="section-number">06</span>
+      <span class="section-number">6</span>
       Final Results & Project Outcomes
     </h2>
 
@@ -715,9 +715,31 @@ importance: 1
   <!-- Conclusion Section -->
   <section class="project-section conclusion-section">
     <h2 class="section-header">
-      <span class="section-number">07</span>
+      <span class="section-number">7</span>
       Conclusion
     </h2>
+
+    <div class="results-summary">
+      <h3>Project Achievements</h3>
+      <div class="achievements-grid">
+        <div class="achievement-item">
+          <span class="achievement-value">86.3</span>
+          <span class="achievement-label">CO₂ Reduction (kgCO₂/m²)</span>
+        </div>
+        <div class="achievement-item">
+          <span class="achievement-value">64%</span>
+          <span class="achievement-label">Energy Use Reduction</span>
+        </div>
+        <div class="achievement-item">
+          <span class="achievement-value">100%</span>
+          <span class="achievement-label">Section 6 Compliance</span>
+        </div>
+        <div class="achievement-item">
+          <span class="achievement-value">11.91</span>
+          <span class="achievement-label">Renewable Generation (kWh/m²)</span>
+        </div>
+      </div>
+    </div>
     
     <div class="conclusion-content">
       <div class="conclusion-text">
@@ -1579,6 +1601,37 @@ importance: 1
   padding: 10px;
   text-align: center;
   font-weight: 500;
+}
+
+.results-summary {
+  margin-top: 40px;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.achievement-item {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.achievement-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.achievement-label {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
 }
 
 /* Conclusion Section */
