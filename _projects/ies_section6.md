@@ -749,92 +749,89 @@ importance: 1
     Key Achievements & Conclusion
   </h2>
 
-  <!-- Summary Cards -->
-  <div class="summary-cards">
-    <div class="summary-card impact">
-      <div class="summary-icon">🌱</div>
-      <h3>Environmental Impact</h3>
-      <div class="summary-stats">
-        <div class="stat">
-          <span class="value">87.6%</span>
-          <span class="label">CO₂ Reduction</span>
-        </div>
-        <div class="stat">
-          <span class="value">11.91</span>
-          <span class="label">Renewable Energy (kWh/m²)</span>
-        </div>
-      </div>
+  <!-- Key Metrics Summary -->
+  <div class="metrics-summary">
+    <div class="metric-card">
+      <div class="metric-icon">📉</div>
+      <div class="metric-value">87.6%</div>
+      <div class="metric-label">CO₂ Emissions Reduction</div>
+      <div class="metric-comparison">(from 98.5 to 12.2 kgCO₂/m²)</div>
     </div>
     
-    <div class="summary-card performance">
-      <div class="summary-icon">⚡</div>
-      <h3>Energy Performance</h3>
-      <div class="summary-stats">
-        <div class="stat">
-          <span class="value">64%</span>
-          <span class="label">Energy Savings</span>
-        </div>
-        <div class="value">83.78</div>
-        <span class="label">Final Energy Use (kWh/m²)</span>
-      </div>
+    <div class="metric-card">
+      <div class="metric-icon">💡</div>
+      <div class="metric-value">64%</div>
+      <div class="metric-label">Energy Consumption Reduction</div>
+      <div class="metric-comparison">(from 232.48 to 83.78 kWh/m²)</div>
     </div>
     
-    <div class="summary-card compliance">
-      <div class="summary-icon">✅</div>
-      <h3>Standards Compliance</h3>
-      <p>Fully meets Section 6 requirements of Scottish Technical Standards with:</p>
-      <ul>
-        <li>BER of 12.2 kgCO₂/m²</li>
-        <li>All U-values exceeded targets</li>
-        <li>SBEM-compliant design</li>
-      </ul>
+    <div class="metric-card">
+      <div class="metric-icon">✅</div>
+      <div class="metric-value">100%</div>
+      <div class="metric-label">Section 6 Compliance Achieved</div>
+      <div class="metric-comparison">All requirements met or exceeded</div>
     </div>
   </div>
 
-  <!-- Final Conclusion -->
-  <div class="final-conclusion">
-    <h3 class="conclusion-title">Project Outcome</h3>
-    <div class="conclusion-content">
-      <div class="conclusion-text">
-        <p>This project successfully transformed a non-compliant office building into a model of energy efficiency through:</p>
-        <ul class="key-points">
-          <li><strong>Comprehensive retrofitting</strong> of building fabric with improved insulation and airtightness</li>
-          <li><strong>Strategic HVAC optimization</strong> incorporating biomass energy and heat recovery</li>
-          <li><strong>Intelligent lighting upgrades</strong> with advanced controls</li>
-          <li><strong>Effective renewable integration</strong> through solar PV installation</li>
+  <!-- Detailed Conclusion -->
+  <div class="detailed-conclusion">
+    <h3>Project Success Summary</h3>
+    <div class="success-points">
+      <div class="success-point">
+        <h4>Building Fabric Improvements</h4>
+        <ul>
+          <li>22.8 kgCO₂/m² reduction through insulation upgrades</li>
+          <li>U-values improved by 67-75% across all components</li>
+          <li>Air permeability reduced by 50% (10 to 5 m³/h.m²)</li>
         </ul>
-        <p>The building now provides superior occupant comfort while achieving an <strong>87.6% reduction in carbon emissions</strong> and <strong>64% reduction in energy consumption</strong>, serving as a benchmark for sustainable office design in Glasgow.</p>
       </div>
       
-      <div class="conclusion-visual">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-38.png" 
-             alt="Final Compliance Certification" 
-             loading="lazy">
-        <p class="visual-caption">Final compliance certification showing all Section 6 requirements met</p>
+      <div class="success-point">
+        <h4>Systems Optimization</h4>
+        <ul>
+          <li>17.7 kgCO₂/m² reduction from HVAC upgrades</li>
+          <li>12.5 kgCO₂/m² reduction from lighting improvements</li>
+          <li>Zone-specific solutions for maximum efficiency</li>
+        </ul>
+      </div>
+      
+      <div class="success-point">
+        <h4>Renewable Integration</h4>
+        <ul>
+          <li>240 m² solar PV installation</li>
+          <li>11.91 kWh/m² renewable energy generation</li>
+          <li>6.2 kgCO₂/m² final compliance margin</li>
+        </ul>
       </div>
     </div>
   </div>
 
-  <!-- Methodology Reflection -->
-  <div class="methodology">
-    <h3 class="methodology-title">Lessons Learned</h3>
-    <div class="methodology-grid">
-      <div class="methodology-card">
-        <h4>Software Effectiveness</h4>
-        <p>IES VE proved invaluable for simulating different compliance strategies and quantifying their impacts through:</p>
-        <ul>
-          <li>Accurate energy modeling</li>
-          <li>Scenario comparison</li>
-          <li>Performance visualization</li>
-        </ul>
-      </div>
-      <div class="methodology-card">
-        <h4>Implementation Insights</h4>
-        <p>Key takeaways for future projects:</p>
+  <!-- Final Statement -->
+  <div class="final-statement">
+    <p>This project successfully transformed a non-compliant Glasgow office building into a model of energy efficiency, achieving all Section 6 requirements of the Scottish Technical Standards. Through comprehensive building fabric improvements, strategic systems optimization, and effective renewable energy integration, the design now delivers superior environmental performance while maintaining excellent occupant comfort.</p>
+    
+    <p>The 87.6% reduction in CO₂ emissions and 64% reduction in energy consumption demonstrate the effectiveness of integrated energy analysis and targeted modifications in achieving stringent sustainability targets. This case study serves as a valuable reference for similar retrofit projects in cold climate zones.</p>
+  </div>
+
+  <!-- Lessons Learned -->
+  <div class="lessons-learned">
+    <h3>Key Lessons Learned</h3>
+    <div class="lesson-cards">
+      <div class="lesson-card">
+        <h4>Design Process Insights</h4>
         <ul>
           <li>Building fabric improvements offer the highest ROI</li>
-          <li>Zone-specific HVAC solutions maximize efficiency</li>
-          <li>Renewables provide the final compliance margin</li>
+          <li>Early energy modeling prevents costly redesigns</li>
+          <li>Zone-specific solutions outperform one-size-fits-all approaches</li>
+        </ul>
+      </div>
+      
+      <div class="lesson-card">
+        <h4>Technical Implementation</h4>
+        <ul>
+          <li>IES VE software proved invaluable for compliance analysis</li>
+          <li>Biomass integration provided significant carbon savings</li>
+          <li>Lighting controls delivered unexpected energy benefits</li>
         </ul>
       </div>
     </div>
@@ -1799,194 +1796,175 @@ importance: 1
   margin-top: 3rem;
 }
 
-/* Summary Cards */
-.summary-cards {
+/* Metrics Summary */
+.metrics-summary {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
-.summary-card {
+.metric-card {
   background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  border-top: 4px solid;
+  border-radius: 10px;
+  padding: 1.8rem 1.2rem;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  border-top: 4px solid #3498db;
 }
 
-.summary-card.impact {
-  border-color: #27ae60;
-}
-.summary-card.performance {
-  border-color: #3498db;
-}
-.summary-card.compliance {
-  border-color: #9b59b6;
+.metric-icon {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
 }
 
-.summary-icon {
+.metric-value {
   font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
-.summary-card h3 {
-  color: #2c3e50;
-  margin-bottom: 1.2rem;
-  font-size: 1.3rem;
-}
-
-.summary-stats {
-  display: grid;
-  gap: 1rem;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-}
-.stat .value {
-  font-size: 1.8rem;
   font-weight: 700;
+  color: #2c3e50;
   line-height: 1;
 }
-.stat .label {
+
+.metric-label {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin: 0.8rem 0 0.3rem;
+}
+
+.metric-comparison {
   font-size: 0.9rem;
   color: #7f8c8d;
-  margin-top: 0.3rem;
 }
 
-.summary-card.compliance ul {
-  padding-left: 1.2rem;
-  margin-top: 1rem;
-}
-.summary-card.compliance li {
-  margin-bottom: 0.6rem;
-  font-size: 0.95rem;
-}
-
-/* Final Conclusion */
-.final-conclusion {
-  background: #f8fafc;
-  border-radius: 12px;
-  padding: 2rem;
+/* Detailed Conclusion */
+.detailed-conclusion {
   margin: 2.5rem 0;
+}
+
+.detailed-conclusion h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.success-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 1.8rem;
+}
+
+.success-point {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 1.5rem;
   border-left: 4px solid #3498db;
 }
 
-.conclusion-title {
-  color: #2c3e50;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.conclusion-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: center;
-}
-
-@media (max-width: 768px) {
-  .conclusion-content {
-    grid-template-columns: 1fr;
-  }
-}
-
-.conclusion-text {
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-.key-points {
-  padding-left: 1.2rem;
-  margin: 1.5rem 0;
-}
-.key-points li {
-  margin-bottom: 0.8rem;
-  position: relative;
-  padding-left: 1.5rem;
-}
-.key-points li:before {
-  content: "•";
-  color: #3498db;
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-}
-
-.conclusion-visual {
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-  text-align: center;
-}
-.conclusion-visual img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-.visual-caption {
-  font-size: 0.9rem;
-  color: #7f8c8d;
-  margin-top: 0.8rem;
-}
-
-/* Methodology */
-.methodology {
-  margin-top: 3rem;
-}
-.methodology-title {
-  color: #2c3e50;
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-.methodology-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-.methodology-card {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-.methodology-card h4 {
+.success-point h4 {
   color: #2c3e50;
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
-.methodology-card ul {
+
+.success-point ul {
   padding-left: 1.2rem;
-  margin-top: 1rem;
 }
-.methodology-card li {
-  margin-bottom: 0.6rem;
+
+.success-point li {
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Final Statement */
+.final-statement {
+  background: #f0f7ff;
+  padding: 1.8rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  line-height: 1.7;
+}
+
+.final-statement p {
+  margin-bottom: 1.2rem;
+}
+
+.final-statement p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lessons Learned */
+.lessons-learned {
+  margin-top: 3rem;
+}
+
+.lessons-learned h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.lesson-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 1.5rem;
+}
+
+.lesson-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.lesson-card h4 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.5rem;
+}
+
+.lesson-card ul {
+  padding-left: 1.2rem;
+}
+
+.lesson-card li {
+  margin-bottom: 0.7rem;
   font-size: 0.95rem;
 }
 
 /* Responsive Adjustments */
-@media (max-width: 600px) {
-  .summary-cards {
+@media (max-width: 768px) {
+  .metrics-summary {
     grid-template-columns: 1fr;
   }
   
-  .summary-card {
-    padding: 1.2rem;
-  }
-  
-  .final-conclusion {
+  .metric-card {
     padding: 1.5rem;
   }
   
-  .conclusion-title, .methodology-title {
-    font-size: 1.3rem;
+  .detailed-conclusion, .final-statement {
+    margin: 1.5rem 0;
   }
+  
+  .success-points, .lesson-cards {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .metric-value {
+    font-size: 1.8rem;
+  }
+  
+  .metric-label {
+    font-size: 1rem;
+  }
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
