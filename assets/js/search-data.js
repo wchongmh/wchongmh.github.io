@@ -482,11 +482,6 @@ ninja.data = [{
           title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
           description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ies02/";
-            },},{id: "projects-energy-compliance-analysis-scottish-technical-standards-section-6",
-          title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
-          description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/ies022/";
             },},{id: "projects-energy-compliance-analysis-scottish-technical-standards-section-6",
           title: 'Energy Compliance Analysis - Scottish Technical Standards Section 6',
