@@ -296,7 +296,7 @@ importance: 1
   <section class="project-section modifications-section">
     <h2 class="section-header">
       <span class="section-number">4</span>
-      Initial Analysis
+      Energy Efficiency Modifications
     </h2>
 
     <div class="analysis-intro">
