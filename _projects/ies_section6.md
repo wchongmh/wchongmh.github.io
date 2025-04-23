@@ -787,11 +787,21 @@ importance: 1
         <p>The building now provides a comfortable indoor environment while significantly reducing its carbon footprint and operating costs.</p>
       </div>
       
-      <div class="conclusion-image">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-18.png" 
-             alt="Building Elements Details" 
-             loading="lazy">
-        <p>Detailed building elements with optimized values</p>
+      <div class="key-achievements">
+          <h3>Key Achievements</h3>
+          <ul>
+            <li>CO₂ emissions reduced by 87.5% (from 98.5 to 12.2 kgCO₂/m²)</li>
+            <li>Energy consumption reduced by 64% (from 232.48 to 83.78 kWh/m²)</li>
+            <li>U-values improved by 67-75% across all building elements</li>
+            <li>Air permeability reduced by 50% (from 10 to 5 m³/h.m²)</li>
+            <li>11.91 kWh/m² renewable energy generation added</li>
+          </ul>
+        </div>
+        
+        <div class="project-outcome">
+          <h3>Project Outcome</h3>
+          <p>The project demonstrates how comprehensive energy analysis and targeted modifications can achieve regulatory compliance while significantly improving building sustainability. The use of IES VE software proved invaluable in evaluating different compliance strategies and quantifying their impacts.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -1776,6 +1786,40 @@ importance: 1
   font-size: 0.85rem;
   text-align: center;
   color: var(--dark-gray);
+}
+
+/* Conclusion Section */
+.conclusion-content {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.key-achievements {
+  margin: 25px 0;
+}
+
+.key-achievements h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.key-achievements ul {
+  padding-left: 20px;
+}
+
+.key-achievements li {
+  margin-bottom: 10px;
+}
+
+.project-outcome {
+  margin-top: 30px;
+}
+
+.project-outcome h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
 }
 
 /* Responsive Design */
