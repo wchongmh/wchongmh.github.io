@@ -212,12 +212,16 @@ importance: 1
     </div>
   </section>
 
-  <!-- Regulations Section -->
+  <!-- Compliance Requirements Section -->
   <section class="project-section regulations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
-      Regulations & Requirements
+      <span class="section-number">3</span>
+      Compliance Requirements
     </h2>
+
+    <div class="requirements-intro">
+      <p>Section 6 of the Scottish Technical Standards establishes rigorous energy performance criteria for office buildings, including maximum CO₂ emissions, thermal performance standards, and system efficiency requirements.</p>
+    </div>
     
     <div class="regulations-content">
       <div class="regulation-card">
@@ -232,33 +236,60 @@ importance: 1
         </ul>
       </div>
       
-      <div class="regulation-images">
-        <div class="regulation-image">
+      <article class="requirements-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+        </svg>
+        Key Standards
+      </h3>
+      
+      <div class="requirements-grid">
+        <div class="requirement-card">
           <img src="/assets/img/projects/ies-section6/ies_coursework-10.png" 
-               alt="Air Permeability Values" 
+               alt="Air Permeability Standards" 
+               class="requirement-img"
                loading="lazy">
-          <p>Air permeability requirements (5 m³/hr/m² at 50 Pa)</p>
+          <div class="requirement-content">
+            <h4>Air Permeability</h4>
+            <p>Required value of 5 m³/hr/m² at 50 Pa for non-domestic buildings (EN 15242)</p>
+          </div>
         </div>
-        <div class="regulation-image">
+        
+        <div class="requirement-card">
           <img src="/assets/img/projects/ies-section6/ies_coursework-11.png" 
-               alt="U-value Requirements" 
+               alt="U-value Standards" 
+               class="requirement-img"
                loading="lazy">
-          <p>Specified U-values for construction elements</p>
+          <div class="requirement-content">
+            <h4>Building Fabric</h4>
+            <p>U-values calculated per BS EN ISO 6946:2007 with thermal bridge considerations</p>
+          </div>
         </div>
-        <div class="regulation-image">
+        
+        <div class="requirement-card">
           <img src="/assets/img/projects/ies-section6/ies_coursework-12.png" 
-               alt="HVAC Type Options" 
+               alt="HVAC Standards" 
+               class="requirement-img"
                loading="lazy">
-          <p>HVAC system definitions and requirements</p>
+          <div class="requirement-content">
+            <h4>HVAC Systems</h4>
+            <p>EN 15243 defines SCoP for heating and SSEER for cooling efficiency metrics</p>
+          </div>
         </div>
-        <div class="regulation-image">
+        
+        <div class="requirement-card">
           <img src="/assets/img/projects/ies-section6/ies_coursework-13.png" 
-               alt="Lighting Efficacy Standards" 
+               alt="Lighting Standards" 
+               class="requirement-img"
                loading="lazy">
-          <p>Lighting efficacy requirements</p>
+          <div class="requirement-content">
+            <h4>Lighting</h4>
+            <p>Illuminance levels and power density requirements per NCM Activity Database</p>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   </section>
 
   <!-- Modifications Section -->
@@ -851,6 +882,44 @@ importance: 1
   color: var(--dark-gray);
 }
 
+/* Highlights Section */
+.project-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.highlight-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-value {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.highlight-label {
+  font-size: 0.8rem;
+  color: var(--dark-gray);
+}
+  
 /* Geometry Section */
 .geometry-section {
   margin-top: 40px;
@@ -887,6 +956,36 @@ importance: 1
   background: #f5f5f5;
 }
 
+/* Requirements Section */
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.requirement-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.requirement-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.requirement-content {
+  padding: 15px;
+}
+
+.requirement-content h4 {
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+  
 /* Regulations Section */
 .regulations-content {
   margin-top: 25px;
