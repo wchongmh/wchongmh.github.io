@@ -358,15 +358,43 @@ importance: 1
                  loading="lazy">
             <p>Building component categories and descriptions</p>
           </div>
-          <div class="modification-image">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-19.png" 
-                 alt="Post-Fabric Improvement Results" 
-                 loading="lazy">
-            <p>Emissions after fabric improvements</p>
-          </div>
         </div>
       </div>
     </article>
+
+    <div class="fabric-comparison">
+      <div class="comparison-card">
+        <img src="/assets/img/projects/ies-section6/ies_coursework-18.png" 
+             alt="Detailed Fabric Values" 
+             class="comparison-img"
+             loading="lazy">
+        <div class="comparison-content">
+          <h4>Material Upgrades</h4>
+          <ul>
+            <li>External walls: Added insulation (95mm) and changed sheathing</li>
+            <li>Internal partitions: Added 50mm insulation and reduced cavity</li>
+            <li>Exposed floors: Increased insulation to 120mm</li>
+            <li>Roof: Added polyurethane board (74.9mm)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="comparison-card">
+        <img src="/assets/img/projects/ies-section6/ies_coursework-19.png" 
+             alt="Fabric Improvement Results" 
+             class="comparison-img"
+             loading="lazy">
+        <div class="comparison-content">
+          <h4>Performance Impact</h4>
+          <p>Fabric improvements alone reduced:</p>
+          <ul>
+            <li>BER from 97.9 to 75.1 kgCO₂/m²</li>
+            <li>U-values met or exceeded all Section 6 requirements</li>
+            <li>Air permeability improved to 5 m³/hr/m²</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="fabric-stats">
       <div class="stat-item">
