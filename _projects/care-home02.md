@@ -3,7 +3,7 @@ title: "Fire Service System Design - Residential Care Home"
 category: Building Systems
 description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance."
 tech: [BS 5839-1:2017, BS 9999:2017, NHS Firecode SHTM 85, BIM Coordination, Fire Dynamics]
-image: /assets/img/projects/care-home-design/fire_service-18.jpg
+image: /assets/img/projects/care-home-design/fire_service-18.png
 importance: 1
 ---
 
@@ -29,14 +29,14 @@ importance: 1
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/care-home-design/fire_service-18.jpg" 
+        <img src="/assets/img/projects/care-home-design/fire_service-18.png" 
              alt="Care Home 3D Overview" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">3D overview of the care home facility</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/care-home-design/fire_service-21.jpg" 
+        <img src="/assets/img/projects/care-home-design/fire_service-21.png" 
              alt="Care Home Front View" 
              class="visualization-img"
              loading="lazy">
@@ -63,7 +63,7 @@ importance: 1
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/care-home-design/fire_service-4.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-4.png" 
                alt="Fire System Overview Schematic" 
                class="project-image"
                loading="lazy">
@@ -79,7 +79,7 @@ importance: 1
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/care-home-design/fire_service-13.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-13.png" 
                alt="Automatic Suppression System" 
                class="project-image"
                loading="lazy">
@@ -205,22 +205,22 @@ importance: 1
         
         <div class="system-types-grid">
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-73.jpg" alt="Control Panel" class="system-icon-img">
+            <img src="/assets/img/projects/care-home-design/fire_service-73.png" alt="Control Panel" class="system-icon-img">
             <h5>Control Panel</h5>
             <p>Gent Vigilon Plus 1-4 Loop</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-75.jpg" alt="Multi-sensor" class="system-icon-img">
+            <img src="/assets/img/projects/care-home-design/fire_service-75.png" alt="Multi-sensor" class="system-icon-img">
             <h5>S-Quad Detector</h5>
             <p>Optical/heat/CO sensing</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-77.jpg" alt="Call Point" class="system-icon-img">
+            <img src="/assets/img/projects/care-home-design/fire_service-77.png" alt="Call Point" class="system-icon-img">
             <h5>Manual Call Point</h5>
             <p>With resettable element</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-71.jpg" alt="Visual Alarm" class="system-icon-img">
+            <img src="/assets/img/projects/care-home-design/fire_service-71.png" alt="Visual Alarm" class="system-icon-img">
             <h5>Visual Alarm</h5>
             <p>Ceiling-mounted VADs</p>
           </div>
@@ -235,15 +235,15 @@ importance: 1
             <summary>Detection Layout</summary>
             <div class="spec-content-grid">
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-10.jpg" alt="First Floor Detection" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-10.png" alt="First Floor Detection" loading="lazy">
                 <p>First floor detection layout</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-11.jpg" alt="Ground Floor Detection" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-11.png" alt="Ground Floor Detection" loading="lazy">
                 <p>Ground floor detection layout</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-12.jpg" alt="Roof Detection" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-12.png" alt="Roof Detection" loading="lazy">
                 <p>Roof void detection system</p>
               </div>
             </div>
@@ -253,15 +253,15 @@ importance: 1
             <summary>Zoning Strategy</summary>
             <div class="spec-content-grid">
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-7.jpg" alt="Alarm Zones" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-7.png" alt="Alarm Zones" loading="lazy">
                 <p>Fire alarm zone distribution</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-59.jpg" alt="Detection Zones" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-59.png" alt="Detection Zones" loading="lazy">
                 <p>Detection zone schematic</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-66.jpg" alt="Alarm Zones" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-66.png" alt="Alarm Zones" loading="lazy">
                 <p>Alarm zone requirements</p>
               </div>
             </div>
@@ -271,19 +271,19 @@ importance: 1
             <summary>Installation Standards</summary>
             <div class="spec-content-grid">
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-61.jpg" alt="Spacing Standards" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-61.png" alt="Spacing Standards" loading="lazy">
                 <p>Smoke detector spacing</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-63.jpg" alt="Corridor Spacing" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-63.png" alt="Corridor Spacing" loading="lazy">
                 <p>Corridor spacing guidelines</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-64.jpg" alt="Obstruction Rules" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-64.png" alt="Obstruction Rules" loading="lazy">
                 <p>Obstruction requirements</p>
               </div>
               <div>
-                <img src="/assets/img/projects/care-home-design/fire_service-65.jpg" alt="Stairway Mounting" loading="lazy">
+                <img src="/assets/img/projects/care-home-design/fire_service-65.png" alt="Stairway Mounting" loading="lazy">
                 <p>Stairway mounting specs</p>
               </div>
             </div>
@@ -307,7 +307,7 @@ importance: 1
       <div class="diagram-grid">
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-16.jpg" 
+            <img src="/assets/img/projects/care-home-design/fire_service-16.png" 
                  alt="Ground Floor Sprinklers" 
                  class="diagram-image"
                  loading="lazy">
@@ -320,7 +320,7 @@ importance: 1
         
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-17.jpg" 
+            <img src="/assets/img/projects/care-home-design/fire_service-17.png" 
                  alt="First Floor Sprinklers" 
                  class="diagram-image"
                  loading="lazy">
@@ -348,15 +348,15 @@ importance: 1
           <h4>Manual Firefighting Equipment</h4>
           <div class="equipment-grid">
             <div class="equipment-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-78.jpg" alt="Fire Blanket">
+              <img src="/assets/img/projects/care-home-design/fire_service-78.png" alt="Fire Blanket">
               <p>10 fire blankets (1.2m x 1.2m)</p>
             </div>
             <div class="equipment-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-79.jpg" alt="Foam Extinguisher">
+              <img src="/assets/img/projects/care-home-design/fire_service-79.png" alt="Foam Extinguisher">
               <p>28 foam extinguishers</p>
             </div>
             <div class="equipment-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-80.jpg" alt="CO₂ Extinguisher">
+              <img src="/assets/img/projects/care-home-design/fire_service-80.png" alt="CO₂ Extinguisher">
               <p>12 CO₂ extinguishers</p>
             </div>
           </div>
@@ -365,19 +365,19 @@ importance: 1
 
       <div class="suppression-tables">
         <div class="table-card">
-          <img src="/assets/img/projects/care-home-design/fire_service-90.jpg" alt="Sprinkler Categories">
+          <img src="/assets/img/projects/care-home-design/fire_service-90.png" alt="Sprinkler Categories">
           <p>Sprinkler system categories</p>
         </div>
         <div class="table-card">
-          <img src="/assets/img/projects/care-home-design/fire_service-91.jpg" alt="Design Parameters">
+          <img src="/assets/img/projects/care-home-design/fire_service-91.png" alt="Design Parameters">
           <p>Minimum design parameters</p>
         </div>
         <div class="table-card">
-          <img src="/assets/img/projects/care-home-design/fire_service-92.jpg" alt="Flow Rates">
+          <img src="/assets/img/projects/care-home-design/fire_service-92.png" alt="Flow Rates">
           <p>Typical flow rates</p>
         </div>
         <div class="table-card">
-          <img src="/assets/img/projects/care-home-design/fire_service-93.jpg" alt="Temperature Ratings">
+          <img src="/assets/img/projects/care-home-design/fire_service-93.png" alt="Temperature Ratings">
           <p>Operating temperature ratings</p>
         </div>
       </div>
@@ -394,11 +394,11 @@ importance: 1
       <div class="evacuation-content">
         <div class="evacuation-plans">
           <div class="plan-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-5.jpg" alt="First Floor Evacuation">
+            <img src="/assets/img/projects/care-home-design/fire_service-5.png" alt="First Floor Evacuation">
             <p>First floor evacuation routes</p>
           </div>
           <div class="plan-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-6.jpg" alt="Ground Floor Evacuation">
+            <img src="/assets/img/projects/care-home-design/fire_service-6.png" alt="Ground Floor Evacuation">
             <p>Ground floor evacuation routes</p>
           </div>
         </div>
@@ -415,15 +415,15 @@ importance: 1
 
           <div class="evacuation-equipment">
             <div class="equip-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-45.jpg" alt="Evacuation Chair">
+              <img src="/assets/img/projects/care-home-design/fire_service-45.png" alt="Evacuation Chair">
               <p>Exitmaster eGO evacuation chair</p>
             </div>
             <div class="equip-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-52.jpg" alt="EVCS">
+              <img src="/assets/img/projects/care-home-design/fire_service-52.png" alt="EVCS">
               <p>Emergency Voice Communication</p>
             </div>
             <div class="equip-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-40.jpg" alt="Door Retainer">
+              <img src="/assets/img/projects/care-home-design/fire_service-40.png" alt="Door Retainer">
               <p>Dorgard Pro smart door retainer</p>
             </div>
           </div>
@@ -434,19 +434,19 @@ importance: 1
         <h4>Refuge Area Design</h4>
         <div class="refuge-images">
           <div>
-            <img src="/assets/img/projects/care-home-design/fire_service-48.jpg" alt="Refuge Area">
+            <img src="/assets/img/projects/care-home-design/fire_service-48.png" alt="Refuge Area">
             <p>Standard refuge area</p>
           </div>
           <div>
-            <img src="/assets/img/projects/care-home-design/fire_service-49.jpg" alt="Placement Specs">
+            <img src="/assets/img/projects/care-home-design/fire_service-49.png" alt="Placement Specs">
             <p>Strategic placement</p>
           </div>
           <div>
-            <img src="/assets/img/projects/care-home-design/fire_service-50.jpg" alt="Special Requirements">
+            <img src="/assets/img/projects/care-home-design/fire_service-50.png" alt="Special Requirements">
             <p>Special requirements</p>
           </div>
           <div>
-            <img src="/assets/img/projects/care-home-design/fire_service-51.jpg" alt="Accessibility">
+            <img src="/assets/img/projects/care-home-design/fire_service-51.png" alt="Accessibility">
             <p>Accessibility standards</p>
           </div>
         </div>
@@ -466,15 +466,15 @@ importance: 1
           <h4>Fire Doors</h4>
           <div class="door-grid">
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-37.jpg" alt="FD30 Door">
+              <img src="/assets/img/projects/care-home-design/fire_service-37.png" alt="FD30 Door">
               <p>FD30 (30-minute rating)</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-38.jpg" alt="FD60 Door">
+              <img src="/assets/img/projects/care-home-design/fire_service-38.png" alt="FD60 Door">
               <p>FD60 (60-minute rating)</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-2.jpg" alt="Door Specs">
+              <img src="/assets/img/projects/care-home-design/fire_service-2.png" alt="Door Specs">
               <p>Fire door specifications</p>
             </div>
           </div>
@@ -484,15 +484,15 @@ importance: 1
           <h4>Fire Dampers</h4>
           <div class="damper-grid">
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-32.jpg" alt="Model 2530">
+              <img src="/assets/img/projects/care-home-design/fire_service-32.png" alt="Model 2530">
               <p>Fire smoke damper model</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-33.jpg" alt="Electrical Release">
+              <img src="/assets/img/projects/care-home-design/fire_service-33.png" alt="Electrical Release">
               <p>Electrical release damper</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-35.jpg" alt="Installation Plan">
+              <img src="/assets/img/projects/care-home-design/fire_service-35.png" alt="Installation Plan">
               <p>Damper installation plan</p>
             </div>
           </div>
@@ -502,11 +502,11 @@ importance: 1
           <h4>Compartmentation</h4>
           <div class="compartment-images">
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-46.jpg" alt="Wall Requirements">
+              <img src="/assets/img/projects/care-home-design/fire_service-46.png" alt="Wall Requirements">
               <p>Wall category requirements</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-47.jpg" alt="Ceiling Requirements">
+              <img src="/assets/img/projects/care-home-design/fire_service-47.png" alt="Ceiling Requirements">
               <p>Ceiling surface assessment</p>
             </div>
           </div>
@@ -544,15 +544,15 @@ importance: 1
         <div class="tab-content active" id="hydraulic">
           <div class="calculation-grid">
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-84.jpg" alt="Hcalc Software">
+              <img src="/assets/img/projects/care-home-design/fire_service-84.png" alt="Hcalc Software">
               <p>Hcalc friction loss calculations</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-85.jpg" alt="Hcalc Process">
+              <img src="/assets/img/projects/care-home-design/fire_service-85.png" alt="Hcalc Process">
               <p>Software working process</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-86.jpg" alt="Pipe Materials">
+              <img src="/assets/img/projects/care-home-design/fire_service-86.png" alt="Pipe Materials">
               <p>Pipe material standards</p>
             </div>
           </div>
@@ -561,15 +561,15 @@ importance: 1
         <div class="tab-content" id="sound">
           <div class="calculation-grid">
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-68.jpg" alt="Minimum Sound Levels">
+              <img src="/assets/img/projects/care-home-design/fire_service-68.png" alt="Minimum Sound Levels">
               <p>Minimum sound level requirements</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-69.jpg" alt="Sounder Requirements">
+              <img src="/assets/img/projects/care-home-design/fire_service-69.png" alt="Sounder Requirements">
               <p>Sounder device specifications</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-70.jpg" alt="Sound Attenuation">
+              <img src="/assets/img/projects/care-home-design/fire_service-70.png" alt="Sound Attenuation">
               <p>Door sound attenuation</p>
             </div>
           </div>
@@ -578,15 +578,15 @@ importance: 1
         <div class="tab-content" id="fire-growth">
           <div class="calculation-grid">
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-81.jpg" alt="Fire Spread">
+              <img src="/assets/img/projects/care-home-design/fire_service-81.png" alt="Fire Spread">
               <p>Uncontrolled fire spread</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-82.jpg" alt="Sprinkler Action">
+              <img src="/assets/img/projects/care-home-design/fire_service-82.png" alt="Sprinkler Action">
               <p>Sprinkler system activation</p>
             </div>
             <div>
-              <img src="/assets/img/projects/care-home-design/fire_service-57.jpg" alt="L1 Protection">
+              <img src="/assets/img/projects/care-home-design/fire_service-57.png" alt="L1 Protection">
               <p>Category L1 protection</p>
             </div>
           </div>
@@ -597,7 +597,7 @@ importance: 1
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-14.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-14.png" 
                alt="Plant Room" 
                class="calc-image"
                loading="lazy">
@@ -610,7 +610,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-87.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-87.png" 
                alt="Water Tank" 
                class="calc-image"
                loading="lazy">
@@ -623,7 +623,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-88.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-88.png" 
                alt="Pump System" 
                class="calc-image"
                loading="lazy">
@@ -636,7 +636,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-89.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-89.png" 
                alt="Sprinkler Head" 
                class="calc-image"
                loading="lazy">
@@ -649,7 +649,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-15.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-15.png" 
                alt="Section View" 
                class="calc-image"
                loading="lazy">
@@ -662,7 +662,7 @@ importance: 1
       
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-34.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-34.png" 
                alt="Damper Control" 
                class="calc-image"
                loading="lazy">
@@ -728,11 +728,11 @@ importance: 1
     
     <div class="compliance-images">
       <div>
-        <img src="/assets/img/projects/care-home-design/fire_service-58.jpg" alt="Alarm Categories">
+        <img src="/assets/img/projects/care-home-design/fire_service-58.png" alt="Alarm Categories">
         <p>Categorized fire alarm systems</p>
       </div>
       <div>
-        <img src="/assets/img/projects/care-home-design/fire_service-67.jpg" alt="Call Point Placement">
+        <img src="/assets/img/projects/care-home-design/fire_service-67.png" alt="Call Point Placement">
         <p>Manual call point requirements</p>
       </div>
     </div>
@@ -751,7 +751,7 @@ importance: 1
     
     <div class="cost-breakdown">
       <div class="cost-table">
-        <img src="/assets/img/projects/care-home-design/fire_service-83.jpg" alt="Cost Summary">
+        <img src="/assets/img/projects/care-home-design/fire_service-83.png" alt="Cost Summary">
       </div>
       
       <div class="cost-details">
@@ -814,19 +814,19 @@ importance: 1
       <h3>BIM Integration</h3>
       <div class="bim-images">
         <div>
-          <img src="/assets/img/projects/care-home-design/fire_service-8.jpg" alt="First Floor Layout">
+          <img src="/assets/img/projects/care-home-design/fire_service-8.png" alt="First Floor Layout">
           <p>First floor safety devices layout</p>
         </div>
         <div>
-          <img src="/assets/img/projects/care-home-design/fire_service-9.jpg" alt="Ground Floor Layout">
+          <img src="/assets/img/projects/care-home-design/fire_service-9.png" alt="Ground Floor Layout">
           <p>Ground floor devices layout</p>
         </div>
         <div>
-          <img src="/assets/img/projects/care-home-design/fire_service-1.jpg" alt="System Linkage">
+          <img src="/assets/img/projects/care-home-design/fire_service-1.png" alt="System Linkage">
           <p>Automatic devices linkage</p>
         </div>
         <div>
-          <img src="/assets/img/projects/care-home-design/fire_service-3.jpg" alt="Access Control">
+          <img src="/assets/img/projects/care-home-design/fire_service-3.png" alt="Access Control">
           <p>Door retainer integration</p>
         </div>
       </div>
@@ -875,7 +875,7 @@ importance: 1
       </div>
       
       <div class="reflection-image">
-        <img src="/assets/img/projects/care-home-design/fire_service-26.jpg" 
+        <img src="/assets/img/projects/care-home-design/fire_service-26.png" 
              alt="Care Home Structure" 
              class="reflection-img"
              loading="lazy">
