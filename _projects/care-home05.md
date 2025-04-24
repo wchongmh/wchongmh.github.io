@@ -1987,4 +1987,148 @@ importance: 1
 }
 
 .image-caption {
-  margin-top
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .reflection-content, .training-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .reflection-image, .training-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 1.9rem;
+  }
+  
+  .section-header {
+    font-size: 1.6rem;
+  }
+  
+  .image-comparison, .diagram-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-highlights {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .system-types-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .fire-safety-project {
+    padding: 0 15px;
+  }
+  
+  .project-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-header {
+    font-size: 1.4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .calculation-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .project-highlights {
+    grid-template-columns: 1fr;
+  }
+  
+  .system-types-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tab-buttons {
+    flex-direction: column;
+    border-bottom: none;
+  }
+  
+  .tab-button {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab-button.active:after {
+    display: none;
+  }
+}
+</style>
+
+<script>
+// Simple tab functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and content
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding content
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Accordion functionality
+document.querySelectorAll('.spec-group').forEach(details => {
+  details.addEventListener('toggle', () => {
+    if (details.open) {
+      details.style.backgroundColor = '#f5f9ff';
+    } else {
+      details.style.backgroundColor = '';
+    }
+  });
+});
+
+// Image zoom functionality
+document.querySelectorAll('.image-wrapper').forEach(wrapper => {
+  wrapper.addEventListener('click', () => {
+    const imgSrc = wrapper.querySelector('img').src;
+    const overlay = document.createElement('div');
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.backgroundColor = 'rgba(0,0,0,0.9)';
+    overlay.style.display = 'flex';
+    overlay.style.alignItems = 'center';
+    overlay.style.justifyContent = 'center';
+    overlay.style.zIndex = '1000';
+    overlay.style.cursor = 'zoom-out';
+    
+    const zoomedImg = document.createElement('img');
+    zoomedImg.src = imgSrc;
+    zoomedImg.style.maxWidth = '90%';
+    zoomedImg.style.maxHeight = '90%';
+    zoomedImg.style.objectFit = 'contain';
+    
+    overlay.appendChild(zoomedImg);
+    document.body.appendChild(overlay);
+    
+    overlay.addEventListener('click', () => {
+      document.body.removeChild(overlay);
+    });
+  });
+});
+</script>
