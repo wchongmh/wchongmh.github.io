@@ -453,6 +453,11 @@ ninja.data = [{
           description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bms-system/";
+            },},{id: "projects-fire-service-system-design-residential-care-home",
+          title: 'Fire Service System Design - Residential Care Home',
+          description: "Comprehensive fire safety design for a Scottish care home, focusing on vulnerable occupants and regulatory compliance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/care-home/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
