@@ -1018,78 +1018,45 @@ importance: 1
     </div>
   </section>
 
-  <!-- Implementation Plan Section -->
+  <!-- Implementation Section -->
   <section class="project-section implementation-section">
     <h2 class="section-header">
       <span class="section-number">06</span>
-      Implementation Plan
+      Implementation Strategy
     </h2>
     
     <div class="implementation-grid">
-      <div class="phase-card">
-        <div class="phase-number">Phase 1</div>
-        <h3 class="phase-title">Passive Protection</h3>
-        <ul>
-          <li>Fire door installation</li>
-          <li>Fire damper integration</li>
-          <li>Compartmentation completion</li>
-        </ul>
-        <div class="phase-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-38.png" 
-               alt="Fire Door" 
-               class="phase-img"
-               loading="lazy">
-        </div>
+      <div class="implementation-card">
+        <h3>Phased Installation</h3>
+        <ol>
+          <li><strong>Phase 1:</strong> Passive protection (doors/dampers)</li>
+          <li><strong>Phase 2:</strong> Active systems (detection/suppression)</li>
+          <li><strong>Phase 3:</strong> Communication/evacuation systems</li>
+          <li><strong>Phase 4:</strong> Commissioning and staff training</li>
+        </ol>
       </div>
       
-      <div class="phase-card">
-        <div class="phase-number">Phase 2</div>
-        <h3 class="phase-title">Active Systems</h3>
+      <div class="implementation-card">
+        <h3>Staff Training Program</h3>
         <ul>
-          <li>Fire alarm system installation</li>
-          <li>Sprinkler pipework and heads</li>
-          <li>Extinguisher placement</li>
+          <li>8-hour initial fire safety training</li>
+          <li>Quarterly evacuation drills</li>
+          <li>Specialized PEEPs training</li>
+          <li>Annual refresher courses</li>
         </ul>
-        <div class="phase-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-75.png" 
-               alt="Detector" 
-               class="phase-img"
-               loading="lazy">
-        </div>
       </div>
       
-      <div class="phase-card">
-        <div class="phase-number">Phase 3</div>
-        <h3 class="phase-title">Evacuation Systems</h3>
+      <div class="implementation-card">
+        <h3>Documentation</h3>
         <ul>
-          <li>EVCS installation</li>
-          <li>Refuge area setup</li>
-          <li>Evacuation chair mounting</li>
+          <li>Complete O&M manuals</li>
+          <li>Digital twin for facility management</li>
+          <li>Cloud-based monitoring system</li>
+          <li>Regular compliance audits</li>
         </ul>
-        <div class="phase-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-56.png" 
-               alt="Refuge Point" 
-               class="phase-img"
-               loading="lazy">
-        </div>
-      </div>
-      
-      <div class="phase-card">
-        <div class="phase-number">Phase 4</div>
-        <h3 class="phase-title">Commissioning</h3>
-        <ul>
-          <li>System integration testing</li>
-          <li>Staff training program</li>
-          <li>Final certification</li>
-        </ul>
-        <div class="phase-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-74.png" 
-               alt="Control Panel" 
-               class="phase-img"
-               loading="lazy">
-        </div>
       </div>
     </div>
+   </div>
   </section>
 
   <!-- Training & Maintenance Section -->
@@ -2225,20 +2192,36 @@ importance: 1
   color: var(--dark-gray);
 }
 
-/* Implementation Plan */
+/* Implementation Section */
+.implementation-section {
+  margin-top: 40px;
+}
+
 .implementation-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
   margin-top: 25px;
 }
 
-.phase-card {
+.implementation-card {
   background: white;
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-  position: relative;
+}
+
+.implementation-card h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.implementation-card ol, .implementation-card ul {
+  padding-left: 20px;
+}
+
+.implementation-card li {
+  margin-bottom: 8px;
 }
 
 .phase-number {
