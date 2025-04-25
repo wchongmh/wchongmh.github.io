@@ -2,7 +2,7 @@
 title: "Fire Service System Design - Residential Care Home"
 category: Building Systems
 description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance."
-tech: [BS 5839-1:2017, BS 9999:2017, NHS Firecode SHTM 85, BIM Coordination, Fire Safety Engineering]
+tech: [BS 5839-1:2017, BS 9999:2017, NHS Firecode SHTM 85, Fire Dynamics, Fire Safety Engineering]
 image: /assets/img/projects/care-home-design/fire_service-18.png
 importance: 1
 ---
@@ -12,7 +12,7 @@ importance: 1
   <!-- Project Header -->
   <header class="project-header">
     <h1 class="project-title">Fire Service System Design</h1>
-    <p class="project-subtitle">Residential Care Home - Scotland</p>
+    <p class="project-subtitle">Residential Care Home, Scotland</p>
     <div class="project-meta">
       <span class="badge">Life Safety Systems</span>
       <span class="tech-tags">
@@ -52,7 +52,7 @@ importance: 1
   <!-- Project Overview Section -->
   <section class="project-section overview-section">
     <h2 class="section-header">
-      <span class="section-number">01</span>
+      <span class="section-number">1</span>
       Project Overview
     </h2>
     
@@ -168,6 +168,37 @@ importance: 1
         <span class="facility-icon">🏋️</span>
         <span class="facility-name">Activity</span>
         <span class="facility-detail">Recreation spaces</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="facilities-overview">
+    <h3 class="subsection-header">System Components</h3>
+    <div class="facilities-grid">
+      <div class="facility-item">
+        <span class="facility-icon">🔥</span>
+        <span class="facility-name">Detection</span>
+        <span class="facility-detail">163 multi-sensor detectors</span>
+      </div>
+      <div class="facility-item">
+        <span class="facility-icon">💧</span>
+        <span class="facility-name">Suppression</span>
+        <span class="facility-detail">Full sprinkler coverage</span>
+      </div>
+      <div class="facility-item">
+        <span class="facility-icon">🚪</span>
+        <span class="facility-name">Compartmentation</span>
+        <span class="facility-detail">FD30/FD60 fire doors</span>
+      </div>
+      <div class="facility-item">
+        <span class="facility-icon">📢</span>
+        <span class="facility-name">Communication</span>
+        <span class="facility-detail">Emergency Voice System</span>
+      </div>
+      <div class="facility-item">
+        <span class="facility-icon">🪑</span>
+        <span class="facility-name">Evacuation</span>
+        <span class="facility-detail">39 evacuation chairs</span>
       </div>
     </div>
   </div>
