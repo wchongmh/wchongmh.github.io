@@ -883,22 +883,53 @@ importance: 1
       <span class="section-number">05</span>
       Cost Analysis
     </h2>
+
+    <div class="cost-intro">
+      <p>The total system cost was carefully calculated to provide comprehensive protection while maintaining budget constraints. The phased implementation approach allows for cost spreading over multiple fiscal periods.</p>
+    </div>
+    
+    <div class="cost-visualization">
+      <div class="cost-image">
+        <img src="/assets/img/projects/care-home-design/fire_service-83.png" alt="Cost Summary Table" loading="lazy">
+      </div>
+      <div class="cost-breakdown">
+        <h3>System Component Costs</h3>
+        <div class="cost-item">
+          <span class="cost-label">Fire Alarm System</span>
+          <span class="cost-value">£28,000</span>
+        </div>
+        <div class="cost-item">
+          <span class="cost-label">Sprinklers</span>
+          <span class="cost-value">£45,000</span>
+        </div>
+        <div class="cost-item">
+          <span class="cost-label">Fire Dampers</span>
+          <span class="cost-value">£12,600</span>
+        </div>
+        <div class="cost-item">
+          <span class="cost-label">Fire Doors</span>
+          <span class="cost-value">£22,000</span>
+        </div>
+        <div class="cost-item">
+          <span class="cost-label">EVCS</span>
+          <span class="cost-value">£8,500</span>
+        </div>
+        <div class="cost-item total">
+          <span class="cost-label">Total System Cost</span>
+          <span class="cost-value">£116,100</span>
+        </div>
+      </div>
+    </div>
     
     <div class="cost-intro">
       <p>The total fire safety system cost represents approximately 3.2% of the overall construction budget, providing comprehensive protection while maintaining cost-effectiveness through strategic system selection.</p>
     </div>
-    
-    <div class="cost-table">
-      <img src="/assets/img/projects/care-home-design/fire_service-83.png" 
-           alt="Cost Summary Table" 
-           class="cost-table-img"
-           loading="lazy">
       <div class="cost-notes">
         <p><strong>Notes:</strong> Costs include supply and installation with 10-year maintenance estimate. Additional 15% contingency included for potential variations during installation.</p>
       </div>
     </div>
     
-    <div class="cost-breakdown">
+    <div class="cost-breakdown01">
       <h3 class="breakdown-title">Budget Allocation</h3>
       <div class="breakdown-grid">
         <div class="breakdown-item">
@@ -1969,6 +2000,18 @@ importance: 1
 }
 
 /* Cost Analysis */
+.cost-intro {
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.cost-visualization {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
 .cost-table {
   margin: 30px 0;
   text-align: center;
@@ -1981,6 +2024,41 @@ importance: 1
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
+.cost-breakdown {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.cost-breakdown h3 {
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.cost-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cost-item.total {
+  font-weight: 700;
+  border-top: 2px solid var(--primary-color);
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.cost-label {
+  color: var(--text-color);
+}
+
+.cost-value {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
 .cost-notes {
   background: #f0f7ff;
   padding: 15px;
@@ -1989,7 +2067,7 @@ importance: 1
   font-size: 0.95rem;
 }
 
-.cost-breakdown {
+.cost-breakdown01 {
   margin: 30px 0;
 }
 
