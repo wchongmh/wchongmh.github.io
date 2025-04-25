@@ -274,32 +274,43 @@ importance: 1
         
         <div class="specs-accordion">
           <details class="spec-group">
-            <summary>Detection Coverage</summary>
+            <summary>Detection Zones</summary>
+            <div class="zone-diagram">
+              <img src="/assets/img/projects/care-home-design/fire_service-59.png" alt="Detection Zones" loading="lazy">
+            </div>
             <ul>
-              <li>Multi-sensor in every bedroom and common area</li>
-              <li>Max 7.5m spacing in corridors</li>
-              <li>Optical sensors in roof voids</li>
-              <li>Specialized kitchen/laundry detectors</li>
+              <li>75 bedroom zones (individual room coverage)</li>
+              <li>2 corridor zones (7.5m maximum detector spacing)</li>
+              <li>Separate stair pressurization zones</li>
+              <li>High-risk kitchen/laundry zones</li>
             </ul>
           </details>
           
           <details class="spec-group">
-            <summary>Zoning Strategy</summary>
+            <summary>Alarm Zones</summary>
+            <div class="zone-diagram">
+              <img src="/assets/img/projects/care-home-design/fire_service-66.png" alt="Alarm Zones" loading="lazy">
+            </div>
             <ul>
-              <li>75 bedrooms divided into 4 detection zones</li>
-              <li>Separate zones for corridors (2 per floor)</li>
-              <li>High-risk areas as independent zones</li>
-              <li>Stairwells as separate pressurization zones</li>
+              <li>4 bedroom alarm zones</li>
+              <li>2 corridor alarm zones</li>
+              <li>Voice evacuation with 75dB minimum sound level</li>
+              <li>Visual alarm devices (VADs) for hearing impaired</li>
             </ul>
           </details>
           
           <details class="spec-group">
-            <summary>Alarm Signaling</summary>
+            <summary>Device Placement</summary>
+            <div class="placement-diagrams">
+              <img src="/assets/img/projects/care-home-design/fire_service-61.png" alt="Detector Spacing" loading="lazy">
+              <img src="/assets/img/projects/care-home-design/fire_service-64.png" alt="Wall Proximity" loading="lazy">
+              <img src="/assets/img/projects/care-home-design/fire_service-67.png" alt="Call Point Placement" loading="lazy">
+            </div>
             <ul>
-              <li>Minimum 75dB sound level at bedheads</li>
-              <li>Visual alarms in all resident areas</li>
-              <li>Voice evacuation messages</li>
-              <li>Silent alert mode for staff initiation</li>
+              <li>Smoke detectors: 7.5m maximum spacing in corridors</li>
+              <li>Minimum 500mm from walls/obstructions</li>
+              <li>Manual call points: 45m maximum travel distance</li>
+              <li>Visual alarms: ceiling-mounted for maximum coverage</li>
             </ul>
           </details>
         </div>
@@ -1546,6 +1557,23 @@ importance: 1
 
 .spec-group li {
   margin-bottom: 8px;
+}
+
+.zone-diagram, .placement-diagrams {
+  padding: 15px;
+  text-align: center;
+}
+
+.zone-diagram img, .placement-diagrams img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.placement-diagrams {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
 }
 
 /* System Arrangement */
