@@ -416,36 +416,29 @@ importance: 1
         </div>
       </div>
 
-      <div class="image-comparison">
-        <div class="image-card">
-          <div class="image-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-16.png" 
-                 alt="Ground Floor Sprinkler Plan" 
-                 class="project-image"
-                 loading="lazy">
-            <div class="image-overlay">
-              <span class="zoom-icon">🔍</span>
-            </div>
+      <div class="technical-specs">
+        <h4 class="specs-title">Sprinkler System Details</h4>
+        
+        <div class="sprinkler-diagrams">
+          <div class="sprinkler-diagram">
+            <img src="/assets/img/projects/care-home-design/fire_service-16.png" alt="Ground Floor Sprinkler Layout" loading="lazy">
+            <p>Ground floor sprinkler layout</p>
           </div>
-          <div class="image-meta">
-            <span class="image-fig">Fig 6.</span>
-            <span class="image-desc">Ground floor sprinkler system layout</span>
+          <div class="sprinkler-diagram">
+            <img src="/assets/img/projects/care-home-design/fire_service-17.png" alt="First Floor Sprinkler Layout" loading="lazy">
+            <p>First floor sprinkler layout</p>
           </div>
         </div>
         
-        <div class="image-card">
-          <div class="image-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-17.png" 
-                 alt="First Floor Sprinkler Plan" 
-                 class="project-image"
-                 loading="lazy">
-            <div class="image-overlay">
-              <span class="zoom-icon">🔍</span>
-            </div>
+        <div class="sprinkler-tables">
+          <div class="sprinkler-table">
+            <img src="/assets/img/projects/care-home-design/fire_service-90.png" alt="Sprinkler Categories" loading="lazy">
           </div>
-          <div class="image-meta">
-            <span class="image-fig">Fig 7.</span>
-            <span class="image-desc">First floor sprinkler system layout</span>
+          <div class="sprinkler-table">
+            <img src="/assets/img/projects/care-home-design/fire_service-91.png" alt="Design Parameters" loading="lazy">
+          </div>
+          <div class="sprinkler-table">
+            <img src="/assets/img/projects/care-home-design/fire_service-92.png" alt="Flow Rates" loading="lazy">
           </div>
         </div>
       </div>
@@ -1576,6 +1569,46 @@ importance: 1
   gap: 15px;
 }
 
+/* Sprinkler System */
+.sprinkler-diagrams {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.sprinkler-diagram {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.sprinkler-diagram img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sprinkler-tables {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sprinkler-table {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sprinkler-table img {
+  max-width: 100%;
+  height: auto;
+}
+  
 /* System Arrangement */
 .system-arrangement {
   margin: 30px 0;
