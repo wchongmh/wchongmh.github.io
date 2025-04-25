@@ -455,6 +455,11 @@ ninja.data = [{
               window.location.href = "/projects/bms-system/";
             },},{id: "projects-fire-service-system-design-residential-care-home",
           title: 'Fire Service System Design - Residential Care Home',
+          description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/care-home/";
+            },},{id: "projects-fire-service-system-design-residential-care-home",
+          title: 'Fire Service System Design - Residential Care Home',
           description: "Comprehensive fire safety design for a Scottish care home, focusing on vulnerable occupants and regulatory compliance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/care-home01/";
@@ -473,11 +478,6 @@ ninja.data = [{
           description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/care-home04/";
-            },},{id: "projects-fire-service-system-design-residential-care-home",
-          title: 'Fire Service System Design - Residential Care Home',
-          description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/care-home05/";
             },},{id: "projects-daylighting-design-analysis-glasgow-residential-project",
           title: 'Daylighting Design Analysis - Glasgow Residential Project',
           description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation.",
