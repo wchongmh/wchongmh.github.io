@@ -346,6 +346,8 @@ importance: 1
           <h4>Automatic & Manual Suppression</h4>
           <ul class="system-features">
             <li>Full-coverage sprinkler system (BS 9251)</li>
+            <li>V2708 Pendent Sprinklers (155°F)</li>
+            <li>Designed for 45L/min/m² density</li>
             <li>10 fire blankets in high-risk areas</li>
             <li>28 foam extinguishers (Class A/B)</li>
             <li>12 CO₂ extinguishers near electrical risks</li>
