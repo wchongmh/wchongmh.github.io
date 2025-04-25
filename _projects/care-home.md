@@ -387,6 +387,19 @@ importance: 1
           </div>
         </div>
       </div>
+
+      <div class="system-arrangement">
+        <div class="arrangement-image">
+          <img src="/assets/img/projects/care-home-design/fire_service-3.png" 
+               alt="Suppression System Diagram" 
+               class="arrangement-img"
+               loading="lazy">
+          <div class="arrangement-caption">
+            <span class="arrangement-fig">Fig 5.</span>
+            <span class="arrangement-desc">Access control door specification showing integration with fire systems</span>
+          </div>
+        </div>
+      </div>
       
       <div class="system-arrangement">
         <div class="arrangement-image">
@@ -395,7 +408,7 @@ importance: 1
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
-            <span class="arrangement-fig">Fig 5.</span>
+            <span class="arrangement-fig">Fig 6.</span>
             <span class="arrangement-desc">Automatic suppression system operation diagram</span>
           </div>
         </div>
