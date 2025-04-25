@@ -3,7 +3,7 @@ title: "Fire Service System Design - Residential Care Home"
 category: Building Systems
 description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance."
 tech: [BS 5839-1:2017, BS 9999:2017, NHS Firecode SHTM 85, Fire Dynamics, Fire Safety Engineering]
-image: /assets/img/projects/care-home-design/fire_service-18.png
+image: /assets/img/projects/care-home-design/fire_service-0.png
 importance: 2
 ---
 
