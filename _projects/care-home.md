@@ -520,7 +520,7 @@ importance: 1
         <div class="system-type">
           <h4>Compartmentation & Structural Protection</h4>
           <ul class="system-features">
-            <li>21 motorized fire/smoke dampers (Advanced Air Model 2530) in HVAC ducts</li>
+            <li>12 panic exit devices (EN 1125) 376A.SE push bar </li>
             <li>FD30 (30-minute) fire doors for general areas</li>
             <li>FD60 (60-minute) fire doors for high-risk areas</li>
             <li>Dorgard Pro smart door retainers for silent evacuation</li>
@@ -529,9 +529,9 @@ importance: 1
         
         <div class="system-types-grid">
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-32.png" alt="Fire Damper" class="system-image">
+            <img src="/assets/img/projects/care-home-design/fire_service-42.png" alt="Fire Damper" class="system-image">
             <h5>Fire Damper</h5>
-            <p>Model 2530 with 2-hour rating</p>
+            <p>Vertical Panic Bolt Model With Alarm Facility</p>
           </div>
           <div class="system-type-card">
             <img src="/assets/img/projects/care-home-design/fire_service-37.png" alt="FD30 Door" class="system-image">
@@ -547,19 +547,6 @@ importance: 1
             <img src="/assets/img/projects/care-home-design/fire_service-40.png" alt="Door Retainer" class="system-image">
             <h5>Door Retainer</h5>
             <p>Dorgard Pro SmartSound system</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="system-arrangement">
-        <div class="arrangement-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-3.png" 
-               alt="Suppression System Diagram" 
-               class="arrangement-img"
-               loading="lazy">
-          <div class="arrangement-caption">
-            <span class="arrangement-fig">Fig 5.</span>
-            <span class="arrangement-desc">Access control door specification showing integration with fire systems</span>
           </div>
         </div>
       </div>
