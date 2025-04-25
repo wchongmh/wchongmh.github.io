@@ -1607,6 +1607,86 @@ importance: 1
   max-width: 100%;
   height: auto;
 }
+
+/* Damper Installation */
+.damper-installation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.damper-diagram {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.damper-diagram img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fire-door-specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.door-spec {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.door-spec img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Evacuation Plans */
+.evacuation-plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.evacuation-plan {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.evacuation-plan img {
+  max-width: 100%;
+  height: auto;
+}
+
+.evacuation-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.evacuation-detail {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.evacuation-detail img {
+  max-width: 100%;
+  height: auto;
+}
   
 /* System Arrangement */
 .system-arrangement {
