@@ -774,10 +774,85 @@ importance: 1
     </div>
   </section>
 
+  <!-- System Schematics Section -->
+  <section class="project-section schematics-section">
+    <h2 class="section-header">
+      <span class="section-number">4</span>
+      System Schematics
+    </h2>
+    
+    <div class="schematics-intro">
+      <p>The system schematics were developed using BIM coordination to identify and resolve clashes with structural and MEP components during the design phase. All diagrams comply with BS EN standards and NHS Firecode requirements.</p>
+    </div>
+    
+    <div class="schematic-tabs">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-tab="overview">System Overview</button>
+        <button class="tab-button" data-tab="linkage">Device Linkage</button>
+        <button class="tab-button" data-tab="doors">Door Systems</button>
+        <button class="tab-button" data-tab="plant">Plant Room</button>
+      </div>
+      
+      <div class="tab-content active" id="overview">
+        <div class="schematic-card">
+          <img src="/assets/img/projects/care-home-design/fire_service-4.png" alt="Fire System Overview" loading="lazy">
+          <div class="schematic-details">
+            <h4>Fire System Overview</h4>
+            <p>Illustrates the operation process of the fire alarm system bus, including wire lining information and damper integration.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="linkage">
+        <div class="schematic-card">
+          <img src="/assets/img/projects/care-home-design/fire_service-1.png" alt="Automatic Fire Devices Linkage" loading="lazy">
+          <div class="schematic-details">
+            <h4>Device Linkage Specification</h4>
+            <p>Details connection methods, fire bus loops, and various monitoring devices with electrical wire lining.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="doors">
+        <div class="schematic-card">
+          <img src="/assets/img/projects/care-home-design/fire_service-2.png" alt="Fire Door Specification" loading="lazy">
+          <div class="schematic-details">
+            <h4>Fire Door Specification</h4>
+            <p>Presents specifications for fire doors including dimension data and panic exit device details.</p>
+          </div>
+        </div>
+        <div class="schematic-card">
+          <img src="/assets/img/projects/care-home-design/fire_service-3.png" alt="Access Control Door" loading="lazy">
+          <div class="schematic-details">
+            <h4>Access Control System</h4>
+            <p>Illustrates door retainer interaction with door lock device and system structure.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="plant">
+        <div class="schematic-card">
+          <img src="/assets/img/projects/care-home-design/fire_service-14.png" alt="Plant Room Installation" loading="lazy">
+          <div class="schematic-details">
+            <h4>Plant Room Installation</h4>
+            <p>Displays plant layout including fire tank setup and working principles of pumps.</p>
+          </div>
+        </div>
+        <div class="schematic-card">
+          <img src="/assets/img/projects/care-home-design/fire_service-87.png" alt="Water Tank" loading="lazy">
+          <div class="schematic-details">
+            <h4>Water Storage</h4>
+            <p>6000L GRP sectional water tank with internally flanged base.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Regulatory Compliance Section -->
   <section class="project-section compliance-section">
     <h2 class="section-header">
-      <span class="section-number">04</span>
+      <span class="section-number">5</span>
       Regulatory Compliance
     </h2>
     
@@ -1932,6 +2007,68 @@ importance: 1
   margin-bottom: 8px;
 }
 
+/* System Schematics */
+.schematics-intro {
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.schematic-tabs {
+  margin-bottom: 30px;
+}
+
+.schematic-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.schematic-card img {
+  width: 100%;
+  height: auto;
+}
+
+.schematic-details {
+  padding: 15px;
+}
+
+.schematic-details h4 {
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.sectional-views {
+  margin-top: 40px;
+}
+
+.view-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.view-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.view-card img {
+  width: 100%;
+  height: auto;
+}
+
+.view-card p {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  text-align: center;
+  background: #f9f9f9;
+}
+  
 /* Compliance Section */
 .compliance-grid {
   display: grid;
