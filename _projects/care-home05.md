@@ -3,7 +3,7 @@ title: "Fire Service System Design - Residential Care Home"
 category: Building Systems
 description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance."
 tech: [BS 5839-1:2017, BS 9999:2017, NHS Firecode SHTM 85, BIM Coordination, Fire Safety Engineering]
-image: /assets/img/projects/care-home-design/fire_service-18.jpg
+image: /assets/img/projects/care-home-design/fire_service-18.png
 importance: 1
 ---
 
@@ -29,14 +29,14 @@ importance: 1
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/care-home-design/fire_service-18.jpg" 
+        <img src="/assets/img/projects/care-home-design/fire_service-18.png" 
              alt="Care Home 3D Overview" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">3D overview of the care home facility</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/care-home-design/fire_service-21.jpg" 
+        <img src="/assets/img/projects/care-home-design/fire_service-21.png" 
              alt="Care Home Front View" 
              class="visualization-img"
              loading="lazy">
@@ -63,7 +63,7 @@ importance: 1
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/care-home-design/fire_service-25.jpg" 
+          <img src="/assets/img/projects/care-home-design/fire_service-25.png" 
                alt="Care Home Plan View" 
                class="project-image"
                loading="lazy">
