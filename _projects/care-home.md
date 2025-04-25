@@ -387,19 +387,6 @@ importance: 1
           </div>
         </div>
       </div>
-
-      <div class="system-arrangement">
-        <div class="arrangement-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-3.png" 
-               alt="Suppression System Diagram" 
-               class="arrangement-img"
-               loading="lazy">
-          <div class="arrangement-caption">
-            <span class="arrangement-fig">Fig 5.</span>
-            <span class="arrangement-desc">Access control door specification showing integration with fire systems</span>
-          </div>
-        </div>
-      </div>
       
       <div class="system-arrangement">
         <div class="arrangement-image">
@@ -408,7 +395,7 @@ importance: 1
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
-            <span class="arrangement-fig">Fig 6.</span>
+            <span class="arrangement-fig">Fig 5.</span>
             <span class="arrangement-desc">Automatic suppression system operation diagram</span>
           </div>
         </div>
@@ -561,6 +548,19 @@ importance: 1
           </div>
         </div>
       </div>
+
+      <div class="system-arrangement">
+        <div class="arrangement-image">
+          <img src="/assets/img/projects/care-home-design/fire_service-3.png" 
+               alt="Suppression System Diagram" 
+               class="arrangement-img"
+               loading="lazy">
+          <div class="arrangement-caption">
+            <span class="arrangement-fig">Fig 5.</span>
+            <span class="arrangement-desc">Access control door specification showing integration with fire systems</span>
+          </div>
+        </div>
+      </div>
       
       <div class="technical-specs">
         <h4 class="specs-title">Installation Details</h4>
@@ -587,12 +587,35 @@ importance: 1
         </div>
       </div>
     </article>
-  </section>
+    
+    <article class="design-subsection">
+      <h3 class="subsection-header">
+        <svg class="subsection-icon" viewBox="0 0 24 24">
+          <path d="M12,3L2,12H5V20H19V12H22L12,3M12,7.7C14.1,7.7 15.8,9.4 15.8,11.5C15.8,14.5 12,18 12,18C12,18 8.2,14.5 8.2,11.5C8.2,9.4 9.9,7.7 12,7.7M12,10C11.17,10 10.5,10.67 10.5,11.5A1.5,1.5 0 0,0 12,13A1.5,1.5 0 0,0 13.5,11.5C13.5,10.67 12.83,10 12,10Z" />
+        </svg>
+        Specialized Safety Features
+      </h3>
+      
+      <div class="system-arrangement">
+        <div class="arrangement-image">
+          <img src="/assets/img/projects/care-home-design/fire_service-15.png" 
+               alt="Front Section View With Devices" 
+               class="arrangement-img"
+               loading="lazy">
+          <div class="arrangement-caption">
+            <span class="arrangement-fig">Fig 5.</span>
+            <span class="arrangement-desc">Section view showing sprinklers, door retainers, and extinguishers in bedrooms and corridor</span>
+          </div>
+        </div>
+        <div class="arrangement-notes">
+          <p><strong>Design Notes:</strong> The system incorporates specialized features for vulnerable occupants including emergency voice communication, silent evacuation systems, and progressive horizontal evacuation strategies. Refuge areas are provided with two-way communication and emergency assist alarms.</p>
+        </div>
+      </div>
 
   <!-- Engineering Calculations Section -->
   <section class="project-section calculations-section">
     <h2 class="section-header">
-      <span class="section-number">03</span>
+      <span class="section-number">3</span>
       Engineering Calculations
     </h2>
     
