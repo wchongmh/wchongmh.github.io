@@ -2012,6 +2012,13 @@ importance: 1
   gap: 30px;
 }
 
+.cost-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+  
 .cost-table {
   margin: 30px 0;
   text-align: center;
