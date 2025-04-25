@@ -640,15 +640,32 @@ importance: 1
               <span class="consumption-label">Pipe friction loss calculations</span>
             </div>
             <div class="consumption-item">
-              <img src="/assets/img/projects/care-home-design/fire_service-91.png" 
+              <img src="/assets/img/projects/care-home-design/fire_service-85.png" 
                    alt="Design Parameters" 
                    class="calculation-image"
                    loading="lazy">
-              <span class="consumption-value">Design Parameters</span>
-              <span class="consumption-label">Minimum requirements per BS 9251</span>
+              <span class="consumption-value">Hcalc Process</span>
+              <span class="consumption-label">Software calculation workflow</span>
             </div>
           </div>
           <p>Calculated using Hazen-Williams formula (C=140) with 20% safety margin. Most remote area requires 68.5 L/min at 0.5 bar.</p>
+        </div>
+
+        <div class="tab-content" id="water-storage">
+          <h4>Pipe Sizing Methodology</h4>
+          <ul>
+            <li>Hazen-Williams C=140 for all sprinkler piping</li>
+            <li>Velocity maintained between 1.5-2.5 m/s</li>
+            <li>Pressure loss limited to 50 Pa/m for main lines</li>
+            <li>Material selection based on corrosion resistance</li>
+          </ul>
+          <div class="calculation-image">
+            <img src="/assets/img/projects/care-home-design/fire_service-86.png" 
+                 alt="Water Tank" 
+                 class="calculation-image"
+                 loading="lazy">
+            <p class="image-caption">Pipe Materials International standards compliance</p>
+          </div>
         </div>
         
         <div class="tab-content" id="pump-calc">
@@ -667,53 +684,10 @@ importance: 1
             <p class="image-caption">Vertical multistage duty/standby pump</p>
           </div>
         </div>
-        
-        <div class="tab-content" id="water-storage">
-          <h4>Water Storage</h4>
-          <ul>
-            <li>6000L GRP sectional water tank</li>
-            <li>60 minutes duration at design flow</li>
-            <li>Internally flanged base construction</li>
-            <li>Overflow and low-level alarms</li>
-          </ul>
-          <div class="calculation-image">
-            <img src="/assets/img/projects/care-home-design/fire_service-87.png" 
-                 alt="Water Tank" 
-                 class="calculation-image"
-                 loading="lazy">
-            <p class="image-caption">6000L GRP water storage tank</p>
-          </div>
-        </div>
       </div>
     </article>
     
     <div class="calculation-gallery">
-      <div class="calculation-item">
-        <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-14.png" 
-               alt="Plant Room Layout" 
-               class="calc-image"
-               loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Plant Room</span>
-            <span class="calc-detail">Fire pump and tank installation</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="calculation-item">
-        <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-86.png" 
-               alt="Pipe Materials" 
-               class="calc-image"
-               loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Pipe Materials</span>
-            <span class="calc-detail">International standards compliance</span>
-          </div>
-        </div>
-      </div>
-      
       <div class="calculation-item">
         <div class="calc-image-container">
           <img src="/assets/img/projects/care-home-design/fire_service-90.png" 
@@ -723,6 +697,19 @@ importance: 1
           <div class="calc-overlay">
             <span class="calc-title">Sprinkler Categories</span>
             <span class="calc-detail">Classification per risk level</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculation-item">
+        <div class="calc-image-container">
+          <img src="/assets/img/projects/care-home-design/fire_service-91.png" 
+               alt="Hcalc Process" 
+               class="calc-image"
+               loading="lazy">
+          <div class="calc-overlay">
+            <span class="calc-title">Design Parameters</span>
+            <span class="calc-detail">Minimum requirements per BS 9251</span>
           </div>
         </div>
       </div>
@@ -749,19 +736,6 @@ importance: 1
           <div class="calc-overlay">
             <span class="calc-title">Temperature Ratings</span>
             <span class="calc-detail">Sprinkler head classifications</span>
-          </div>
-        </div>
-      </div>
-      
-      <div class="calculation-item">
-        <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-85.png" 
-               alt="Hcalc Process" 
-               class="calc-image"
-               loading="lazy">
-          <div class="calc-overlay">
-            <span class="calc-title">Hcalc Process</span>
-            <span class="calc-detail">Software calculation workflow</span>
           </div>
         </div>
       </div>
@@ -942,7 +916,7 @@ importance: 1
   <!-- Cost Analysis Section -->
   <section class="project-section cost-section">
     <h2 class="section-header">
-      <span class="section-number">05</span>
+      <span class="section-number">6</span>
       Cost Analysis
     </h2>
 
@@ -1021,7 +995,7 @@ importance: 1
   <!-- Implementation Section -->
   <section class="project-section implementation-section">
     <h2 class="section-header">
-      <span class="section-number">06</span>
+      <span class="section-number">7</span>
       Implementation Strategy
     </h2>
     
@@ -1062,7 +1036,7 @@ importance: 1
   <!-- Training & Maintenance Section -->
   <section class="project-section training-section">
     <h2 class="section-header">
-      <span class="section-number">07</span>
+      <span class="section-number">8</span>
       Training & Maintenance
     </h2>
     
@@ -1118,7 +1092,7 @@ importance: 1
   <!-- Project Reflection Section -->
   <section class="project-section reflection-section">
     <h2 class="section-header">
-      <span class="section-number">08</span>
+      <span class="section-number">9</span>
       Project Reflection
     </h2>
     
