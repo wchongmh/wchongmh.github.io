@@ -1095,50 +1095,44 @@ importance: 1
     
     <div class="reflection-content">
       <div class="reflection-text">
-        <p>This care home fire safety design represents a comprehensive approach to protecting vulnerable occupants, combining cutting-edge technology with robust passive protection measures. The solution exceeds regulatory requirements while addressing the specific challenges of elderly care environments.</p>
+        <p>The design process provided valuable experience in applying fire safety engineering principles to real-world care home environments, with special consideration for vulnerable occupants.</p>
         
-        <div class="innovation-highlights">
-          <h3>Innovative Features</h3>
-          <div class="innovation-grid">
-            <div class="innovation-card">
-              <img src="/assets/img/projects/care-home-design/fire_service-75.png" 
-                   alt="Multi-sensor" 
-                   class="innovation-img"
-                   loading="lazy">
-              <h4>Multi-sensor Detection</h4>
-              <p>Combining optical, heat, and CO sensing for early warning</p>
+        <div class="skill-development">
+          <h3>Key Skill Development</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Technical Skills</h4>
+              <ul>
+                <li>Fire safety system design</li>
+                <li>Hydraulic calculations</li>
+                <li>BIM coordination</li>
+                <li>Regulatory compliance</li>
+              </ul>
             </div>
-            <div class="innovation-card">
-              <img src="/assets/img/projects/care-home-design/fire_service-40.png" 
-                   alt="Door Retainer" 
-                   class="innovation-img"
-                   loading="lazy">
-              <h4>Smart Door Retainers</h4>
-              <p>Dorgard Pro allows normal operation with automatic fire closure</p>
-            </div>
-            <div class="innovation-card">
-              <img src="/assets/img/projects/care-home-design/fire_service-52.png" 
-                   alt="EVCS" 
-                   class="innovation-img"
-                   loading="lazy">
-              <h4>EVCS Integration</h4>
-              <p>Two-way communication in refuge areas</p>
+            <div class="skill-category">
+              <h4>Professional Skills</h4>
+              <ul>
+                <li>Stakeholder communication</li>
+                <li>Multidisciplinary teamwork</li>
+                <li>Accessibility considerations</li>
+                <li>Technical documentation</li>
+              </ul>
             </div>
           </div>
         </div>
         
         <div class="project-outcome">
           <h3>Project Outcome</h3>
-          <p>The completed design provides a robust, code-compliant fire safety solution that prioritizes life safety while addressing the unique needs of care home residents. The multi-layered approach ensures redundancy in protection systems, and the focus on early detection/alarm provides maximum evacuation time for vulnerable occupants.</p>
+          <p>The completed design successfully integrated academic learning with practical industry requirements, resulting in a comprehensive fire safety solution that meets all regulatory standards while incorporating innovative features for vulnerable occupants.</p>
         </div>
       </div>
       
       <div class="reflection-image">
-        <img src="/assets/img/projects/care-home-design/fire_service-26.png" 
-             alt="Structural View" 
+        <img src="/assets/img/projects/care-home-design/fire_service-72.png" 
+             alt="Fire Alarm System Circuit" 
              class="reflection-img"
              loading="lazy">
-        <p class="image-caption">3D structural view showing integrated systems</p>
+        <p class="image-caption">Fig 6. Fire alarm system circuit integration</p>
       </div>
     </div>
   </section>
@@ -2221,6 +2215,92 @@ importance: 1
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+/* Reflection Section */
+.reflection-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.reflection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skill-development {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.project-outcome {
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.reflection-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.reflection-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .reflection-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .reflection-image {
+    order: -1;
+    margin-bottom: 30px;
+  }
+  
+  .cost-visualization {
+    grid-template-columns: 1fr;
+  }
+  
+  .suppression-overview {
+    grid-template-columns: 1fr;
+  }
+}
+  
 /* Reflection Section */
 .reflection-content {
   display: grid;
