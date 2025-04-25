@@ -73,7 +73,7 @@ importance: 2
         </div>
         <div class="image-meta">
           <span class="image-fig">Fig 1.</span>
-          <span class="image-desc">3D structural view illustrating the overall facility layout</span>
+          <span class="image-desc">3D structural perspective view illustrating the overall facility layout</span>
         </div>
       </div>
       
