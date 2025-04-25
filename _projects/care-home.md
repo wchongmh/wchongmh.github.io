@@ -447,82 +447,64 @@ importance: 1
     <article class="design-subsection evacuation-system">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
-          <path d="M10,5H14V19H10V5M4,5H8V19H4V5M16,5H20V19H16V5Z" />
+          <path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.89 20.1,3 19,3H18V1M12,10C14,10 15,12.42 13.59,13.83C12.17,15.24 9.75,14.23 9.75,12.25C9.75,11 10.75,10 12,10Z" />
         </svg>
         Evacuation & Refuge Systems
       </h3>
       
       <div class="system-details">
         <div class="system-type">
-          <h4>Progressive Horizontal Evacuation (PHE)</h4>
+          <h4>Specialized Evacuation for Vulnerable Occupants</h4>
           <ul class="system-features">
-            <li>15 designated refuge areas with communication</li>
-            <li>39 evacuation chairs at stair locations</li>
-            <li>Emergency Voice Communication System (EVCS)</li>
-            <li>Silent evacuation mode for staff initiation</li>
+            <li>Progressive Horizontal Evacuation (PHE) primary strategy</li>
+            <li>39 evacuation chairs (Exitmaster eGO) at stair locations</li>
+            <li>15 designated refuge areas with communication systems</li>
+            <li>Emergency Voice Communication System (Honeywell EVCS)</li>
           </ul>
         </div>
         
         <div class="system-types-grid">
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-45.png" 
-                 alt="Evacuation Chair" 
-                 class="system-device-img"
-                 loading="lazy">
+            <img src="/assets/img/projects/care-home-design/fire_service-45.png" alt="Evacuation Chair" class="system-image">
             <h5>Evacuation Chair</h5>
-            <p>Exitmaster eGO model at all stairs</p>
+            <p>Exitmaster eGO with cover & mount</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-56.png" 
-                 alt="Refuge Call Point" 
-                 class="system-device-img"
-                 loading="lazy">
-            <h5>Refuge Call Point</h5>
-            <p>EVCS-HSBG green surface type</p>
-          </div>
-          <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-40.png" 
-                 alt="Door Retainer" 
-                 class="system-device-img"
-                 loading="lazy">
-            <h5>Door Retainer</h5>
-            <p>Dorgard Pro for silent evacuation</p>
-          </div>
-          <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-48.png" 
-                 alt="Refuge Area" 
-                 class="system-device-img"
-                 loading="lazy">
+            <img src="/assets/img/projects/care-home-design/fire_service-48.png" alt="Refuge Area" class="system-image">
             <h5>Refuge Area</h5>
             <p>Designed per SHTM 85 standards</p>
+          </div>
+          <div class="system-type-card">
+            <img src="/assets/img/projects/care-home-design/fire_service-52.png" alt="EVCS" class="system-image">
+            <h5>Emergency Voice System</h5>
+            <p>Honeywell EVCS network</p>
+          </div>
+          <div class="system-type-card">
+            <img src="/assets/img/projects/care-home-design/fire_service-56.png" alt="Refuge Call Point" class="system-image">
+            <h5>Refuge Call Point</h5>
+            <p>Green surface type B outstation</p>
           </div>
         </div>
       </div>
       
-      <div class="diagram-grid">
-        <div class="diagram-card">
-          <div class="diagram-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-5.png" 
-                 alt="First Floor Evacuation Plan" 
-                 class="diagram-image"
-                 loading="lazy">
+      <div class="technical-specs">
+        <h4 class="specs-title">Evacuation Plans</h4>
+        
+        <div class="evacuation-plans">
+          <div class="evacuation-plan">
+            <img src="/assets/img/projects/care-home-design/fire_service-5.png" alt="First Floor Evacuation" loading="lazy">
+            <p>First floor evacuation plan</p>
           </div>
-          <div class="diagram-meta">
-            <span class="diagram-label">Evacuation Plan</span>
-            <span class="diagram-fig">Fig 8. First floor escape routes and refuge points</span>
+          <div class="evacuation-plan">
+            <img src="/assets/img/projects/care-home-design/fire_service-6.png" alt="Ground Floor Evacuation" loading="lazy">
+            <p>Ground floor evacuation plan</p>
           </div>
         </div>
         
-        <div class="diagram-card">
-          <div class="diagram-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-6.png" 
-                 alt="Ground Floor Evacuation Plan" 
-                 class="diagram-image"
-                 loading="lazy">
-          </div>
-          <div class="diagram-meta">
-            <span class="diagram-label">Evacuation Plan</span>
-            <span class="diagram-fig">Fig 9. Ground floor escape routes and assembly points</span>
+        <div class="evacuation-details">
+          <div class="evacuation-detail">
+            <img src="/assets/img/projects/care-home-design/fire_service-53.png" alt="Assist Alarm" loading="lazy">
+            <p>Emergency assist alarm connection</p>
           </div>
         </div>
       </div>
