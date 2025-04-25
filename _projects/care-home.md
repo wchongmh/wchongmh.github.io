@@ -332,7 +332,6 @@ importance: 1
           </details>
         </div>
       </div>
-    </article>
 
     <article class="design-subsection suppression-system">
       <h3 class="subsection-header">
