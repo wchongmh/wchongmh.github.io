@@ -274,32 +274,6 @@ importance: 1
         
         <div class="specs-accordion">
           <details class="spec-group">
-            <summary>Detection Zones</summary>
-            <div class="zone-diagram">
-              <img src="/assets/img/projects/care-home-design/fire_service-59.png" alt="Detection Zones" loading="lazy">
-            </div>
-            <ul>
-              <li>75 bedroom zones (individual room coverage)</li>
-              <li>2 corridor zones (7.5m maximum detector spacing)</li>
-              <li>Separate stair pressurization zones</li>
-              <li>High-risk kitchen/laundry zones</li>
-            </ul>
-          </details>
-          
-          <details class="spec-group">
-            <summary>Alarm Zones</summary>
-            <div class="zone-diagram">
-              <img src="/assets/img/projects/care-home-design/fire_service-66.png" alt="Alarm Zones" loading="lazy">
-            </div>
-            <ul>
-              <li>4 bedroom alarm zones</li>
-              <li>2 corridor alarm zones</li>
-              <li>Voice evacuation with 75dB minimum sound level</li>
-              <li>Visual alarm devices (VADs) for hearing impaired</li>
-            </ul>
-          </details>
-          
-          <details class="spec-group">
             <summary>Device Placement</summary>
             <div class="placement-diagrams">
               <img src="/assets/img/projects/care-home-design/fire_service-61.png" alt="Detector Spacing" loading="lazy">
@@ -313,34 +287,49 @@ importance: 1
               <li>Visual alarms: ceiling-mounted for maximum coverage</li>
             </ul>
           </details>
-        </div>
-      </div>
 
-      <div class="diagram-grid">
-        <div class="diagram-card">
-          <div class="diagram-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-10.png" 
-                 alt="First Floor Detection Plan" 
-                 class="diagram-image"
-                 loading="lazy">
-          </div>
-          <div class="diagram-meta">
-            <span class="diagram-label">Detection Layout</span>
-            <span class="diagram-fig">Fig 3. First floor detection and alarm layout</span>
-          </div>
-        </div>
-        
-        <div class="diagram-card">
-          <div class="diagram-wrapper">
-            <img src="/assets/img/projects/care-home-design/fire_service-7.png" 
-                 alt="Fire Alarm Zone Plan" 
-                 class="diagram-image"
-                 loading="lazy">
-          </div>
-          <div class="diagram-meta">
-            <span class="diagram-label">Zoning Plan</span>
-            <span class="diagram-fig">Fig 4. Fire alarm zoning distribution</span>
-          </div>
+          <div class="specs-accordion">
+          <details class="spec-group">
+            <summary>Detection Layout</summary>
+            <div class="spec-image-grid">
+              <img src="/assets/img/projects/care-home-design/fire_service-10.png" alt="First Floor Detection Layout">
+              <img src="/assets/img/projects/care-home-design/fire_service-11.png" alt="Ground Floor Detection Layout">
+              <img src="/assets/img/projects/care-home-design/fire_service-12.png" alt="Roof Detection System">
+            </div>
+            <ul>
+              <li>Max 7.5m detector spacing in corridors</li>
+              <li>Special optical sensors for roof void areas</li>
+              <li>Separate zones for stairs with pressurization</li>
+            </ul>
+          </details>
+          
+          <details class="spec-group">
+            <summary>Zoning Plan</summary>
+            <div class="spec-image-grid">
+              <img src="/assets/img/projects/care-home-design/fire_service-7.png" alt="Fire Alarm Zone Plan">
+              <img src="/assets/img/projects/care-home-design/fire_service-59.png" alt="Detection Zones Schematic">
+              <img src="/assets/img/projects/care-home-design/fire_service-66.png" alt="Alarm Zones Schematic">
+            </div>
+            <ul>
+              <li>75 bedroom detection zones</li>
+              <li>2 corridor alarm zones per floor</li>
+              <li>Separate high-risk zones for kitchen/laundry</li>
+            </ul>
+          </details>
+          
+          <details class="spec-group">
+            <summary>Alarm Requirements</summary>
+            <div class="spec-image-grid">
+              <img src="/assets/img/projects/care-home-design/fire_service-68.png" alt="Sound Level Requirements">
+              <img src="/assets/img/projects/care-home-design/fire_service-69.png" alt="Sounder Requirements">
+              <img src="/assets/img/projects/care-home-design/fire_service-70.png" alt="Sound Attenuation">
+            </div>
+            <ul>
+              <li>Minimum 65dB sound level at bedheads</li>
+              <li>Visual alarms for hearing impaired</li>
+              <li>Silent evacuation capability for sensitive areas</li>
+            </ul>
+          </details>
         </div>
       </div>
     </article>
