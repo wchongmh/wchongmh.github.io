@@ -87,10 +87,6 @@ importance: 1
             <span class="zoom-icon">🔍</span>
           </div>
         </div>
-        <div class="image-meta">
-          <span class="image-fig">Fig 2.</span>
-          <span class="image-desc">Fire alarm system schematic diagram</span>
-        </div>
       </div>
     </div>
     
@@ -460,13 +456,13 @@ importance: 1
             <p>Exitmaster eGO with cover & mount</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-48.png" alt="Refuge Area" class="system-image">
-            <h5>Refuge Area</h5>
+            <img src="/assets/img/projects/care-home-design/fire_service-55.png" alt="Refuge Area" class="system-image">
+            <h5>Emergency Assist Alarm</h5>
             <p>Designed per SHTM 85 standards</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-52.png" alt="EVCS" class="system-image">
-            <h5>Emergency Voice System</h5>
+            <img src="/assets/img/projects/care-home-design/fire_service-54.png" alt="EVCS" class="system-image">
+            <h5>Emergency Voice System Device</h5>
             <p>Honeywell EVCS network</p>
           </div>
           <div class="system-type-card">
@@ -565,7 +561,7 @@ importance: 1
         
         <div class="fire-door-specs">
           <div class="door-spec">
-            <img src="/assets/img/projects/care-home-design/fire_service-2.png" alt="Fire Door Specification" loading="lazy">
+            <img src="/assets/img/projects/care-home-design/fire_service-41.png" alt="Fire Door Specification" loading="lazy">
           </div>
           <div class="door-spec">
             <img src="/assets/img/projects/care-home-design/fire_service-39.png" alt="Door Retainer Siting" loading="lazy">
