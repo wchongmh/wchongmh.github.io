@@ -540,58 +540,55 @@ importance: 1
         <div class="system-type">
           <h4>Compartmentation & Structural Protection</h4>
           <ul class="system-features">
-            <li>FD30 fire doors throughout general areas</li>
-            <li>FD60 doors for high-risk areas</li>
-            <li>21 motorized fire/smoke dampers in HVAC</li>
-            <li>2-hour rated construction for stairwells</li>
+            <li>21 motorized fire/smoke dampers (Advanced Air Model 2530) in HVAC ducts</li>
+            <li>FD30 (30-minute) fire doors for general areas</li>
+            <li>FD60 (60-minute) fire doors for high-risk areas</li>
+            <li>Dorgard Pro smart door retainers for silent evacuation</li>
           </ul>
         </div>
         
         <div class="system-types-grid">
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-37.png" 
-                 alt="FD30 Fire Door" 
-                 class="system-device-img"
-                 loading="lazy">
-            <h5>FD30 Fire Door</h5>
-            <p>White Capri (44mm) for general areas</p>
-          </div>
-          <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-38.png" 
-                 alt="FD60 Fire Door" 
-                 class="system-device-img"
-                 loading="lazy">
-            <h5>FD60 Fire Door</h5>
-            <p>Plywood flush (54mm) for high-risk</p>
-          </div>
-          <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-32.png" 
-                 alt="Fire Damper" 
-                 class="system-device-img"
-                 loading="lazy">
+            <img src="/assets/img/projects/care-home-design/fire_service-32.png" alt="Fire Damper" class="system-image">
             <h5>Fire Damper</h5>
-            <p>Model 2530 (BS EN 1366)</p>
+            <p>Model 2530 with 2-hour rating</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-2.png" 
-                 alt="Door Specification" 
-                 class="system-device-img"
-                 loading="lazy">
-            <h5>Door Details</h5>
-            <p>Fire door specifications</p>
+            <img src="/assets/img/projects/care-home-design/fire_service-37.png" alt="FD30 Door" class="system-image">
+            <h5>FD30 Fire Door</h5>
+            <p>White Capri (44mm thickness)</p>
+          </div>
+          <div class="system-type-card">
+            <img src="/assets/img/projects/care-home-design/fire_service-38.png" alt="FD60 Door" class="system-image">
+            <h5>FD60 Fire Door</h5>
+            <p>Plywood flush (54mm thickness)</p>
+          </div>
+          <div class="system-type-card">
+            <img src="/assets/img/projects/care-home-design/fire_service-40.png" alt="Door Retainer" class="system-image">
+            <h5>Door Retainer</h5>
+            <p>Dorgard Pro SmartSound system</p>
           </div>
         </div>
       </div>
       
-      <div class="system-arrangement">
-        <div class="arrangement-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-35.png" 
-               alt="Damper Installation Plan" 
-               class="arrangement-img"
-               loading="lazy">
-          <div class="arrangement-caption">
-            <span class="arrangement-fig">Fig 10.</span>
-            <span class="arrangement-desc">Fire damper installation plan (part 1)</span>
+      <div class="technical-specs">
+        <h4 class="specs-title">Installation Details</h4>
+        
+        <div class="damper-installation">
+          <div class="damper-diagram">
+            <img src="/assets/img/projects/care-home-design/fire_service-35.png" alt="Damper Installation Part 1" loading="lazy">
+          </div>
+          <div class="damper-diagram">
+            <img src="/assets/img/projects/care-home-design/fire_service-36.png" alt="Damper Installation Part 2" loading="lazy">
+          </div>
+        </div>
+        
+        <div class="fire-door-specs">
+          <div class="door-spec">
+            <img src="/assets/img/projects/care-home-design/fire_service-2.png" alt="Fire Door Specification" loading="lazy">
+          </div>
+          <div class="door-spec">
+            <img src="/assets/img/projects/care-home-design/fire_service-39.png" alt="Door Retainer Siting" loading="lazy">
           </div>
         </div>
         <div class="arrangement-notes">
@@ -1495,6 +1492,18 @@ importance: 1
   color: var(--secondary-color);
 }
 
+.system-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
+.system-type-card h5 {
+  margin: 10px 0;
+  color: var(--secondary-color);
+}
+  
 /* Technical Specifications */
 .technical-specs {
   margin-top: 30px;
