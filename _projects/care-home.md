@@ -503,8 +503,16 @@ importance: 1
         
         <div class="evacuation-details">
           <div class="evacuation-detail">
-            <img src="/assets/img/projects/care-home-design/fire_service-53.png" alt="Assist Alarm" loading="lazy">
-            <p>Emergency assist alarm connection</p>
+            <img src="/assets/img/projects/care-home-design/fire_service-50.png" alt="Chair Operation" loading="lazy">
+            <p>Disabled Refuge Area Design Specical Requirements </p>
+          </div>
+          <div class="evacuation-detail">
+            <img src="/assets/img/projects/care-home-design/fire_service-51.png" alt="Assist Alarm" loading="lazy">
+            <p>Disabled Refuge Area Design Accessibility and Visibility</p>
+          </div>
+          <div class="evacuation-detail">
+            <img src="/assets/img/projects/care-home-design/fire_service-53.png" alt="Refuge Specs" loading="lazy">
+            <p>Emergency assist alarm connectionRefuge area specifications</p>
           </div>
         </div>
       </div>
