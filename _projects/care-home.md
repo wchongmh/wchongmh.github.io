@@ -1568,6 +1568,21 @@ importance: 1
   gap: 15px;
 }
 
+.spec-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+.spec-image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 /* Sprinkler System */
 .sprinkler-diagrams {
   display: grid;
