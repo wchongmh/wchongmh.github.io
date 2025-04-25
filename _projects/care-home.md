@@ -63,7 +63,7 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/care-home-design/fire_service-27.png" 
+          <img src="/assets/img/projects/care-home-design/fire_service-26.png" 
                alt="Care Home Plan View" 
                class="project-image"
                loading="lazy">
@@ -79,7 +79,7 @@ importance: 2
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/care-home-design/fire_service-20.png" 
+          <img src="/assets/img/projects/care-home-design/fire_service-19.png" 
                alt="Fire System Schematic" 
                class="project-image"
                loading="lazy">
