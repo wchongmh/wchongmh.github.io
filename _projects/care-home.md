@@ -206,7 +206,7 @@ importance: 1
   <!-- System Design Section -->
   <section class="project-section system-design">
     <h2 class="section-header">
-      <span class="section-number">02</span>
+      <span class="section-number">2</span>
       System Design
     </h2>
     
@@ -226,10 +226,10 @@ importance: 1
         <div class="system-type">
           <h4>Gent Vigilon Plus Addressable System</h4>
           <ul class="system-features">
-            <li>163 multi-sensor detectors (optical, heat, CO)</li>
+            <li>Category L1 coverage throughout the building</li>
+            <li>163 multi-sensor detectors (S-Quad series) combining optical, heat, and CO detection</li>
             <li>49 manual call points with resettable elements</li>
-            <li>Category L1 coverage throughout facility</li>
-            <li>Integrated voice evacuation and visual alarms</li>
+            <li>Integrated voice evacuation and visual alarms (VADs)</li>
           </ul>
         </div>
         
@@ -259,12 +259,12 @@ importance: 1
             <p>Vigilon Plus 1-4 Loop system</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-71.png" 
-                 alt="Visual Alarm" 
+            <img src="/assets/img/projects/care-home-design/fire_service-74.png" 
+                 alt="Repeater Panel" 
                  class="system-device-img"
                  loading="lazy">
-            <h5>Visual Alarm</h5>
-            <p>For hearing-impaired residents</p>
+            <h5>Repeater Panel</h5>
+            <p>Loop-wired for system redundancy</p>
           </div>
         </div>
       </div>
