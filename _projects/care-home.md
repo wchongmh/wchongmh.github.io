@@ -29,11 +29,11 @@ importance: 1
     </div>
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/care-home-design/fire_service-18.png" 
+        <img src="/assets/img/projects/care-home-design/fire_service-22.png" 
              alt="Care Home 3D Overview" 
              class="visualization-img"
              loading="lazy">
-        <p class="visualization-caption">3D overview of the care home facility</p>
+        <p class="visualization-caption">Back elevation showing access points</p>
       </div>
       <div class="visualization-card">
         <img src="/assets/img/projects/care-home-design/fire_service-21.png" 
@@ -79,13 +79,17 @@ importance: 1
       
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/care-home-design/fire_service-4.png" 
+          <img src="/assets/img/projects/care-home-design/fire_service-20.png" 
                alt="Fire System Schematic" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
             <span class="zoom-icon">🔍</span>
           </div>
+        </div>
+        <div class="image-meta">
+          <span class="image-fig">Fig 2.</span>
+          <span class="image-desc">High-level 3D perspective of the facility</span>
         </div>
       </div>
     </div>
