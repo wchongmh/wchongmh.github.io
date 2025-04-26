@@ -492,7 +492,7 @@ ninja.data = [{
           title: 'Indoor Air Quality Study - Library Sub-Area 4',
           description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/library-iaq/";
+              window.location.href = "/projects/library-iaq1/";
             },},{id: "projects-noise-assessment-amp-control-laboratory-204",
           title: 'Noise Assessment &amp;amp; Control - Laboratory 204',
           description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning.",
