@@ -21,6 +21,18 @@
   const months = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
   const zeroPad = (n) => (n < 10 ? "0" + n : n);
 
+  const escapeHTML = function (str) {
+    return str.replace(/[&<>"']/g, function (char) {
+      return {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char];
+    });
+  };
+
   const RFC = function (date) {
     const day = days[date.getDay()].substring(0, 3);
     const paddedDate = zeroPad(date.getDate());
@@ -4670,7 +4682,8 @@ d-references {
       const title = el.textContent;
       const link = "#" + el.getAttribute("id");
 
-      let newLine = "<li>" + '<a href="' + link + '">' + title + "</a>" + "</li>";
+      const escapedTitle = escapeHTML(title);
+      let newLine = "<li>" + '<a href="' + link + '">' + escapedTitle + "</a>" + "</li>";
       if (el.tagName == "H3") {
         newLine = "<ul>" + newLine + "</ul>";
       } else {
