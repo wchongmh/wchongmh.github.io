@@ -1,9 +1,11 @@
 ---
 permalink: /assets/js/search-data.js
 ---
-// get the ninja-keys element
+// Safely get the ninja-keys element with null check
 const ninja = document.querySelector('ninja-keys');
-
+if (!ninja) {
+  console.error('ninja-keys element not found');
+} else {
 // add the home and posts menu items
 ninja.data = [
   {%- for page in site.pages -%}
