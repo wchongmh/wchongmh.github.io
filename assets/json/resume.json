@@ -93,7 +93,6 @@
     { "title": "HKIE BSD Outstanding Student Award",
       "date": "2022-05",
       "awarder": "The Hong Kong Institution of Engineers",
-      "url": "https://hkie.org.hk/en/membership/award_detail/29/",
       "summary": "Awarded to top-performing engineering students for exceptional academic performance and significant contributions to Building Services Engineering, recognizing excellence in both coursework and applied research." },
     { "title": "Endeavour Merit Award",
       "date": "2022-01",
@@ -111,19 +110,12 @@
       "summary": "Recognized in multiple Hong Kong media outlets for receiving the Alistair Harvey Foundation Scholarship and pursuing further studies in the UK.", "highlights": [
       "Interviewed by major news platforms about academic achievements and future aspirations.",
       "Showcased in multiple reports as an exemplary scholarship recipient."
-    ], "links": [
-      { "name": "HK01 News", "url": "https://www.hk01.com/18區新聞/794031" },
-      { "name": "Sky Post", "url": "https://skypost.ulifestyle.com.hk/article/3306096" },
-      { "name": "Oriental Daily", "url": "https://orientaldaily.on.cc" },
-      { "name": "Line Today", "url": "https://today.line.me/hk/v2/article/yzLgJ2o" } 
-      ]
     }
   ],
   "volunteer": [
     {
       "organization": "IVE Morrison Hill Engineering Society",
       "position": "Chairman",
-      "url": "https://www.hkie-bsd.org/en/content.php?wid=8",
       "startDate": "2021-01",
       "endDate": "2022-12",
       "highlights": [
@@ -135,7 +127,6 @@
     {
       "organization": "ASHRAE IVE Student Branch",
       "position": "External Vice President",
-      "url": "https://www.hkie-bsd.org/en/content.php?wid=8",
       "startDate": "2020-01",
       "endDate": "2022-12",
       "highlights": [
@@ -146,7 +137,6 @@
     {
       "organization": "HKIE BSE Student Liaison Group",
       "position": "Committee Member",
-      "url": "https://www.hkie-bsd.org/en/content.php?wid=8",
       "startDate": "2021-01",
       "endDate": "2022-12",
       "highlights": [
