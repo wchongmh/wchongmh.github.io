@@ -50,11 +50,18 @@ latest_posts:
       <div class="card-body">
         <div class="d-flex align-items-center mb-3">
           <i class="fas fa-graduation-cap fa-3x me-3 text-primary"></i>
-          <div>
-            <h3 class="mb-1">MSc Smart Buildings and Digital Engineering</h3>
-            <p class="mb-0 text-muted">University College London, UCL</p>
-            <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
-            <p class="mb-0 text-muted">Glasgow Caledonian University</p>
+          <div class="w-100">
+            <!-- First Education Item -->
+            <div class="education-item">
+                <h3 class="mb-1">MSc Smart Buildings and Digital Engineering</h3>
+                <p class="mb-0 text-muted">University College London, UCL</p>
+            </div>
+            
+            <!-- Second Education Item with proper spacing -->
+            <div class="education-item">
+                <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
+                <p class="mb-0 text-muted">Glasgow Caledonian University</p>
+            </div>  
           </div>
         </div>
         
@@ -365,6 +372,17 @@ latest_posts:
   
   .bg-info-light {
     background-color: rgba(23, 162, 184, 0.1);
+  }
+
+  .education-item {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee;
+  }
+  .education-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
   }
   
   /* Technical Expertise */
