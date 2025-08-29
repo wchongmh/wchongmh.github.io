@@ -62,7 +62,7 @@ latest_posts:
             <!-- Second Education Item with proper spacing -->
             <div class="education-item">
                 <a href="https://www.gcu.ac.uk/study/courses/undergraduate-building-services-engineering-glasgow" 
-                   target="_blank" class="education-link">
+              target="_blank" class="education-link">
                 <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
                 <p class="mb-0 text-muted">Glasgow Caledonian University</p>
             </div>  
