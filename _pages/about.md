@@ -57,6 +57,7 @@ latest_posts:
                target="_blank" class="education-link">
                 <h3 class="mb-1">MSc Smart Buildings and Digital Engineering</h3>
                 <p class="mb-0 text-muted">University College London, UCL</p>
+                </a>
             </div>
             
             <!-- Second Education Item with proper spacing -->
@@ -65,6 +66,7 @@ latest_posts:
               target="_blank" class="education-link">
                 <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
                 <p class="mb-0 text-muted">Glasgow Caledonian University</p>
+                </a>
             </div>  
           </div>
         </div>
