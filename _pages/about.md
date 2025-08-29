@@ -51,6 +51,8 @@ latest_posts:
         <div class="d-flex align-items-center mb-3">
           <i class="fas fa-graduation-cap fa-3x me-3 text-primary"></i>
           <div>
+            <h3 class="mb-1">MSc Smart Buildings and Digital Engineering</h3>
+            <p class="mb-0 text-muted">University College London, UCL</p>
             <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
             <p class="mb-0 text-muted">Glasgow Caledonian University</p>
           </div>
