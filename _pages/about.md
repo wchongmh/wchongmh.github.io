@@ -53,12 +53,16 @@ latest_posts:
           <div class="w-100">
             <!-- First Education Item -->
             <div class="education-item">
+                <a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/smart-buildings-and-digital-engineering-msc" 
+               target="_blank" class="education-link">
                 <h3 class="mb-1">MSc Smart Buildings and Digital Engineering</h3>
                 <p class="mb-0 text-muted">University College London, UCL</p>
             </div>
             
             <!-- Second Education Item with proper spacing -->
             <div class="education-item">
+                <a href="https://www.gcu.ac.uk/study/courses/undergraduate-building-services-engineering-glasgow" 
+                   target="_blank" class="education-link">
                 <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
                 <p class="mb-0 text-muted">Glasgow Caledonian University</p>
             </div>  
@@ -383,6 +387,16 @@ latest_posts:
       border-bottom: none;
       padding-bottom: 0;
       margin-bottom: 0;
+  }
+
+  .education-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+  }
+  .education-link:hover {
+      text-decoration: none;
+      color: inherit;
   }
   
   /* Technical Expertise */
