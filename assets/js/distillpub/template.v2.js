@@ -3343,7 +3343,7 @@ d-citation-list .references .title {
       operator: /--|\+\+|\*\*=?|=>|&&|\|\||[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?[.?]?|[~:]/,
     });
 
-    Prism.languages.javascript["class-name"][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/;
+    Prism.languages.javascript["class-name"][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w]+(?:[.\\][\w]+)*/;
 
     Prism.languages.insertBefore("javascript", "keyword", {
       regex: {
