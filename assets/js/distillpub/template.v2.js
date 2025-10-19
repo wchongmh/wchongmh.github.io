@@ -4672,6 +4672,16 @@ d-references {
   <h2>Table of contents</h2>
   <ul>`;
 
+    // Helper to escape HTML special characters
+    function escapeHTML(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
     for (const el of headings) {
       // should element be included in TOC?
       const isInTitle = el.parentElement.tagName == "D-TITLE";
@@ -4681,7 +4691,7 @@ d-references {
       const title = el.textContent;
       const link = "#" + el.getAttribute("id");
 
-      let newLine = "<li>" + '<a href="' + link + '">' + title + "</a>" + "</li>";
+      let newLine = "<li>" + '<a href="' + link + '">' + escapeHTML(title) + "</a>" + "</li>";
       if (el.tagName == "H3") {
         newLine = "<ul>" + newLine + "</ul>";
       } else {
