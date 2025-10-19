@@ -3,7 +3,7 @@
     "@shopify/prettier-plugin-liquid": "1.4.0",
     "prettier": "^3.1.1"
   },
-  "name": "lukasschirren.github.io",
+  "name": "wchongmh.github.io",
   "version": "1.0.0",
   "description": "<div align=\"center\">",
   "main": "purgecss.config.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukasschirren/lukasschirren.github.io.git"
+    "url": "git+https://github.com/wchongmh/wchongmh.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/lukasschirren/lukasschirren.github.io/issues"
+    "url": "https://github.com/wchongmh/wchongmh.github.io/issues"
   },
-  "homepage": "https://github.com/lukasschirren/lukasschirren.github.io#readme"
+  "homepage": "https://github.com/wchongmh/wchongmh.github.io#readme"
 }
