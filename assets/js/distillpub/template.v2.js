@@ -3342,7 +3342,7 @@ d-citation-list .references .title {
       },
       parameter: [
         {
-          pattern: /(function(?:\s+[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)?\s*\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\))/,
+          pattern: /(function(?:\s+[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)?\s*\(\s*)(?!\s)[^)]*(?=\s*\))/,
           lookbehind: true,
           inside: Prism.languages.javascript,
         },
