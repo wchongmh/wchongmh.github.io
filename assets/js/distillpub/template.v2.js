@@ -2695,6 +2695,13 @@ d-citation-list .references .title {
           var rest = grammar.rest;
           if (rest) {
             for (var token in rest) {
+              if (
+                token === "__proto__" ||
+                token === "constructor" ||
+                token === "prototype"
+              ) {
+                continue;
+              }
               grammar[token] = rest[token];
             }
 
