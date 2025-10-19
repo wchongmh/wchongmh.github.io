@@ -64,7 +64,7 @@ jobs:
           chrome-version: ${{ env.CHROMIUM_VERSION }}
       - name: Install chromedriver 🚗
         run: |
-          npm install -g chromedriver@$CHROMIUM_VERSION
+          npm install -g chromedriver
       - name: Run axe 🪓
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
