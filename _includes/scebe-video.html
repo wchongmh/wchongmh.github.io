@@ -1,0 +1,22 @@
+<!-- Include this where you embed the video (e.g., in your page or an include file).
+     Make sure the src path points to the transcoded file you generated with the above script
+     (e.g. /assets/video/awards/scebe-ceremony-safari.mp4).
+-->
+<video
+  id="scebe-ceremony"
+  class="responsive-video"
+  controls
+  playsinline
+  webkit-playsinline
+  preload="metadata"
+  poster="/assets/video/awards/scebe-ceremony-poster.jpg"
+>
+  <source src="/assets/video/awards/scebe-ceremony-safari.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<!-- Notes:
+ - Use `autoplay muted playsinline` if you need autoplay on iOS, but autoplay requires muted.
+ - Confirm the poster path exists; it avoids showing a black first frame while loading.
+ - If you host video on another origin (S3/CDN), use the absolute CDN URL in src and ensure CORS and range support are configured.
+-->
