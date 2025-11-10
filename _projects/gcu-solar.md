@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Rooftop Solar Potential - Glasgow Caledonian University"
 category: Research
 description: "Feasibility analysis for 1MW solar PV system across 12 campus buildings, identifying 800,000 kWh annual generation potential with 7-10 year payback period."

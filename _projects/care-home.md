@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Fire Service System Design - Residential Care Home"
 category: Building Systems
 description: "Comprehensive fire safety design for a Scottish residential care home, focusing on vulnerable occupants and regulatory compliance."

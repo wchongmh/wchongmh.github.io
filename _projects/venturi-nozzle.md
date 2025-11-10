@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Venturi Nozzle Flow Measurement Analysis"
 category: Research
 description: "Experimental analysis of flow rate measurement using Venturi nozzle principles at Glasgow Caledonian University"

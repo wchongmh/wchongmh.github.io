@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "DIALux Lighting Design - Commercial Building Project"
 category: Smart Building
 description: "Comprehensive lighting design for a mixed-use commercial building featuring offices, supermarket, and coffee shop using DIALux software."

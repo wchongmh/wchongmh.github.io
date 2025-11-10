@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "High-Rise Electrical Systems - Cheuk Nang Centre"
 category: Building Systems
 description: "Comprehensive electrical design for 30-storey commercial building in Tsim Sha Tsui, including load calculations and system schematics."

@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Daylighting Design Analysis - Glasgow Residential Project"
 category: Smart Building
 description: "Comprehensive daylight analysis for residential property in Glasgow using Dialux, including manual calculations and energy efficiency evaluation."

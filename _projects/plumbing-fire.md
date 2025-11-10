@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "High-Rise Plumbing & Fire Protection Systems - AXA Center"
 category: Building Systems
 description: "Integrated plumbing and fire protection design for 30-storey commercial office tower in Wan Chai"

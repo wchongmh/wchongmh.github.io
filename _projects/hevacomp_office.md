@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Glasgow Office Building - Hevacomp Design Report"
 category: Smart Building
 description: "Comprehensive HVAC design for a 2-story office building in Glasgow using Hevacomp software, including heating, ventilation and boiler systems."

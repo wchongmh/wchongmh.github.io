@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "BIM Modeling for Primary School Design"
 category: Smart Building
 description: "Autodesk Revit-based BIM modeling exercise for a primary school building, including model development and documentation."

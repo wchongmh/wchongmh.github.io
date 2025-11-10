@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "BMS Dashboard Development"
 category: Smart Building
 description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations."

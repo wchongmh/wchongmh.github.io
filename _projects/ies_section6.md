@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Building Energy Compliance Analysis - Scottish Technical Standards Section 6"
 category: Smart Building
 description: "Comprehensive energy analysis and modifications for a Glasgow office building to comply with Section 6 of Scottish Technical Standards using IES VE software."

@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Noise Assessment & Control - Laboratory 204"
 category: Building Systems
 description: "Comprehensive noise analysis and mitigation strategies for Laboratory 204, including NC chart evaluations and ear protection zoning."

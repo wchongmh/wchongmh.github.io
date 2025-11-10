@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Ultrasonic Flow Rate Measurements - GCU Plant Room"
 category: Research
 description: "Field study of non-invasive flow measurement techniques in HVAC systems using ultrasonic technology."

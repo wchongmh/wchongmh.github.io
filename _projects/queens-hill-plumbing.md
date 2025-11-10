@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Public Housing Plumbing Systems - Queen's Hill Development"
 category: Building Systems
 description: "Comprehensive plumbing design for 3,120-unit HK housing project, including hydraulic calculations and system schematics."

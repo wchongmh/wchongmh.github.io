@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Indoor Air Quality Study - Library Sub-Area 4"
 category: Building Systems
 description: "Comprehensive IAQ assessment and HVAC redesign for library study areas with mould mitigation strategies."
