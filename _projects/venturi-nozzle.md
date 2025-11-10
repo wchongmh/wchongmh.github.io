@@ -135,7 +135,7 @@ importance: 2
         </svg>
         Key Components
       </h3>
-
+      
       <div class="system-types-grid">
         <div class="system-type-card">
           <div class="system-icon">📏</div>
@@ -158,10 +158,10 @@ importance: 2
           <p>Precision flow adjustment</p>
         </div>
       </div>
-
+      
       <div class="technical-specs">
         <h4 class="specs-title">Technical Specifications</h4>
-
+        
         <div class="specs-accordion">
           <details class="spec-group">
             <summary>Venturi Nozzle</summary>
@@ -172,7 +172,7 @@ importance: 2
               <li>Outlet angle: 4°</li>
             </ul>
           </details>
-
+          
           <details class="spec-group">
             <summary>HM 150.13 Module</summary>
             <ul>
@@ -188,35 +188,34 @@ importance: 2
 
     <div class="visualization-images">
       <div class="visualization-card">
-        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-2.png"
-             alt="Venturi Nozzle Close-up"
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-2.png" 
+             alt="Venturi Nozzle Close-up" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">Venturi nozzle cross-section</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-9.png"
-             alt="Venturi Nozzle Installation"
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-9.png" 
+             alt="Venturi Nozzle Installation" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">Venturi nozzle installation</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-7.png"
-             alt="Manometer Measurement"
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-7.png" 
+             alt="Manometer Measurement" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">Pressure measurement with manometer</p>
       </div>
       <div class="visualization-card">
-        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-8.png"
-             alt="Pipeline Connection"
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-8.png" 
+             alt="Pipeline Connection" 
              class="visualization-img"
              loading="lazy">
         <p class="visualization-caption">Connected pipeline with measuring tube</p>
       </div>
     </div>
-
   </section>
 
   <!-- Methodology Section -->
@@ -277,36 +276,35 @@ importance: 2
       <h3>Calculation Methodology</h3>
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-15.png"
-               alt="Bernoulli Equation Application"
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-15.png" 
+               alt="Bernoulli Equation Application" 
                class="project-image"
                loading="lazy">
           <p class="image-caption">Bernoulli's equation application</p>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-16.png"
-               alt="Velocity Calculation"
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-16.png" 
+               alt="Velocity Calculation" 
                class="project-image"
                loading="lazy">
           <p class="image-caption">Velocity calculation methodology</p>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-17.png"
-               alt="Pressure Calculation"
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-17.png" 
+               alt="Pressure Calculation" 
                class="project-image"
                loading="lazy">
           <p class="image-caption">Pressure calculation methodology</p>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-18.png"
-               alt="Pressure Head Calculation"
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-18.png" 
+               alt="Pressure Head Calculation" 
                class="project-image"
                loading="lazy">
           <p class="image-caption">Pressure head calculation</p>
         </div>
       </div>
     </div>
-
   </section>
 
   <!-- Results Section -->
@@ -417,15 +415,15 @@ importance: 2
 
     <div class="results-graphs">
       <div class="graph-card">
-        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-22.png"
-             alt="Theoretical vs Actual Flow Rate"
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-22.png" 
+             alt="Theoretical vs Actual Flow Rate" 
              class="graph-image"
              loading="lazy">
         <p class="graph-caption">Fig 3. Theoretical vs actual flow rate correlation</p>
       </div>
       <div class="graph-card">
-        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-23.png"
-             alt="Discharge Coefficient Trends"
+        <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-23.png" 
+             alt="Discharge Coefficient Trends" 
              class="graph-image"
              loading="lazy">
         <p class="graph-caption">Fig 4. Discharge coefficient variation across trials</p>
@@ -436,22 +434,21 @@ importance: 2
       <h3>Detailed Calculations</h3>
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-19.png"
-               alt="Theoretical Flow Rate Calculation"
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-19.png" 
+               alt="Theoretical Flow Rate Calculation" 
                class="project-image"
                loading="lazy">
           <p class="image-caption">Theoretical flow rate calculation</p>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-20.png"
-               alt="Discharge Coefficient Calculation"
+          <img src="/assets/img/projects/nozzle-lab/venturi_nozzle-20.png" 
+               alt="Discharge Coefficient Calculation" 
                class="project-image"
                loading="lazy">
           <p class="image-caption">Discharge coefficient calculation</p>
         </div>
       </div>
     </div>
-
   </section>
 
   <!-- Conclusion Section -->

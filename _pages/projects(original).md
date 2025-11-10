@@ -67,7 +67,6 @@ horizontal: false
 ---
 
 ---
-
 layout: page
 title: Projects
 permalink: /projects/
@@ -76,7 +75,6 @@ nav: true
 nav_order: 3
 display_categories: [Building Systems, Sustainability, IoT & Automation]
 horizontal: false
-
 ---
 
 <style>
@@ -185,13 +183,10 @@ horizontal: false
   {% endfor %}
 
 {% else %}
-
 <!-- Display projects without categories -->
-
 {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
 
 {% if page.horizontal %}
-
 <div class="container">
   <div class="row row-cols-1 row-cols-lg-2 g-4">
   {% for project in sorted_projects %}
@@ -208,3 +203,4 @@ horizontal: false
 {% endif %}
 {% endif %}
 </div>
+

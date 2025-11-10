@@ -153,7 +153,6 @@ importance: 2
         </div>
       </div>
     </div>
-
   </section>
 
   <section class="project-section">
@@ -231,7 +230,6 @@ importance: 2
       </div>
       <p class="table-caption">Table 3. Hong Kong IAQ Certification Scheme standards</p>
     </div>
-
   </section>
 
   <!-- Methodology Section -->
@@ -267,7 +265,7 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="step-item">
         <div class="step-number">Step 2</div>
         <div class="step-content">
@@ -279,7 +277,7 @@ importance: 2
           </ul>
         </div>
       </div>
-
+      
       <div class="step-item">
         <div class="step-number">Step 3</div>
         <div class="step-content">
@@ -295,8 +293,8 @@ importance: 2
 
     <div class="image-comparison">
       <div class="image-card">
-        <img src="/assets/img/projects/library-iaq/iehvac-2.png"
-             alt="Room B Printer and Air Purifier"
+        <img src="/assets/img/projects/library-iaq/iehvac-2.png" 
+             alt="Room B Printer and Air Purifier" 
              class="project-image"
              loading="lazy">
         <div class="image-meta">
@@ -305,8 +303,8 @@ importance: 2
         </div>
       </div>
       <div class="image-card">
-        <img src="/assets/img/projects/library-iaq/iehvac-3.png"
-             alt="Room A Printers and Air Purifier"
+        <img src="/assets/img/projects/library-iaq/iehvac-3.png" 
+             alt="Room A Printers and Air Purifier" 
              class="project-image"
              loading="lazy">
         <div class="image-meta">
@@ -315,7 +313,6 @@ importance: 2
         </div>
       </div>
     </div>
-
   </section>
 
   <!-- System Analysis Section -->
@@ -399,7 +396,7 @@ importance: 2
         <button class="tab-button" data-tab="subjective">Subjective Feedback</button>
         <button class="tab-button" data-tab="mould">Mould Assessment</button>
       </div>
-
+      
       <div class="tab-content active" id="objective">
         <table class="data-table">
           <thead>
@@ -433,7 +430,7 @@ importance: 2
         </table>
         <p>*Exceeded good class thresholds</p>
       </div>
-
+      
       <div class="tab-content" id="subjective">
         <div class="survey-results">
           <div class="survey-item">
@@ -446,7 +443,7 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="tab-content" id="mould">
         <div class="mould-findings">
           <div class="mould-item">
@@ -460,7 +457,6 @@ importance: 2
         </div>
       </div>
     </div>
-
   </section>
 
   <article class="design-subsection">
@@ -726,7 +722,6 @@ importance: 2
       </div>
       <p class="table-caption">Table 2. Room B detailed measurement results</p>
     </div>
-
   </section>
 
   <section class="project-section">
@@ -808,7 +803,6 @@ importance: 2
         </table>
       </div>
     </div>
-
   </section>
 
   <!-- Redesign Proposal Section -->
@@ -1253,7 +1247,7 @@ importance: 2
         </div>
       </article>
     </section>
-
+    
     <article class="design-subsection">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -1261,11 +1255,11 @@ importance: 2
         </svg>
         HVAC System Upgrade
       </h3>
-
+      
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/library-iaq/iehvac-42.png"
-               alt="Proposed PAU+FCU system"
+          <img src="/assets/img/projects/library-iaq/iehvac-42.png" 
+               alt="Proposed PAU+FCU system" 
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
@@ -1285,12 +1279,12 @@ importance: 2
         </div>
       </div>
     </article>
-
+    
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/library-iaq/iehvac-29.png"
-               alt="Psychrometric chart for energy savings"
+          <img src="/assets/img/projects/library-iaq/iehvac-29.png" 
+               alt="Psychrometric chart for energy savings" 
                class="arrangement-img"
                loading="lazy">
           <div class="calc-overlay">
@@ -1299,11 +1293,11 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/library-iaq/iehvac-30.png"
-               alt="Duct sizing chart"
+          <img src="/assets/img/projects/library-iaq/iehvac-30.png" 
+               alt="Duct sizing chart" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1315,8 +1309,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/library-iaq/iehvac-38.png"
-               alt="Air duct sizing details"
+          <img src="/assets/img/projects/library-iaq/iehvac-38.png" 
+               alt="Air duct sizing details" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1325,11 +1319,11 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/library-iaq/iehvac-36.png"
-               alt="FCU Catalog"
+          <img src="/assets/img/projects/library-iaq/iehvac-36.png" 
+               alt="FCU Catalog" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1339,7 +1333,7 @@ importance: 2
         </div>
       </div>
     </div>
-
+    
     <div class="calculation-summary">
       <h3 class="summary-title">Expected Performance</h3>
       <ul class="safety-factors">
@@ -1349,7 +1343,6 @@ importance: 2
         <li>Mould prevention through humidity control (&lt;70% RH)</li>
       </ul>
     </div>
-
   </section>
 
   <!-- Recommendations Section -->
@@ -1409,7 +1402,7 @@ importance: 2
           <li>New PAU with G4 filtration</li>
         </ul>
       </div>
-
+      
       <div class="recommendation-card">
         <div class="rec-icon">🛠️</div>
         <h3>Immediate Actions</h3>
@@ -1419,7 +1412,7 @@ importance: 2
           <li>Regular HVAC maintenance schedule</li>
         </ul>
       </div>
-
+      
       <div class="recommendation-card">
         <div class="rec-icon">🌳</div>
         <h3>Operational Improvements</h3>
@@ -1430,7 +1423,6 @@ importance: 2
         </ul>
       </div>
     </div>
-
   </section>
 
   <!-- Project Reflection Section -->
@@ -1476,14 +1468,13 @@ importance: 2
       </div>
 
       <div class="reflection-image">
-        <img src="/assets/img/projects/library-iaq/iehvac-32.png"
-             alt="Team presenting findings"
+        <img src="/assets/img/projects/library-iaq/iehvac-32.png" 
+             alt="Team presenting findings" 
              class="reflection-img"
              loading="lazy">
         <p class="image-caption">Fig 7. Presenting Energy savings calculation for mass flow rate and capacity</p>
       </div>
     </div>
-
   </section>
 </div>
 

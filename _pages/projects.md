@@ -17,23 +17,20 @@ horizontal: false
     <hr class="divider">
   </div>
 
-{% if site.enable_project_categories and page.display_categories %}
-
-<!-- Display categorized projects -->
-
-{% for category in page.display_categories %}
-
-<section class="category-section mb-5">
-<a id="{{ category | slugify }}" href=".#{{ category | slugify }}" class="category-anchor">
-<h2 class="category-title">
-<i class="fas fa-{% if category == 'Building Systems' %}building{% elsif category == 'Smart Building' %}microchip{% else %}flask{% endif %} me-2"></i>
-{{ category }}
-</h2>
-</a>
-
+  {% if site.enable_project_categories and page.display_categories %}
+    <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+    <section class="category-section mb-5">
+      <a id="{{ category | slugify }}" href=".#{{ category | slugify }}" class="category-anchor">
+        <h2 class="category-title">
+          <i class="fas fa-{% if category == 'Building Systems' %}building{% elsif category == 'Smart Building' %}microchip{% else %}flask{% endif %} me-2"></i>
+          {{ category }}
+        </h2>
+      </a>
+      
       {% assign categorized_projects = site.projects | where: "category", category %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
-
+      
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {% for project in sorted_projects %}
           <div class="col">
@@ -44,18 +41,18 @@ horizontal: false
                 {% endif %}
                 <div class="project-badge">{{ project.tech | first }}</div>
               </div>
-
+              
               <div class="card-body">
                 <h3 class="card-title">{{ project.title }}</h3>
                 <p class="card-text">{{ project.description }}</p>
-
+                
                 <div class="project-tags mb-3">
                   {% for tech in project.tech %}
                   <span class="badge bg-light text-dark">{{ tech }}</span>
                   {% endfor %}
                 </div>
               </div>
-
+              
               <div class="card-footer bg-transparent">
                 <div class="project-links">
                   {% if project.github %}
@@ -80,19 +77,15 @@ horizontal: false
     </section>
     {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-{% for project in sorted_projects %}
-{% include projects.liquid %}
-{% endfor %}
-</div>
-{% endif %}
-
+  {% else %}
+    <!-- Display projects without categories -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {% for project in sorted_projects %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
 
 <style>
