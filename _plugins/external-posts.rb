@@ -23,10 +23,15 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      begin
+        xml = HTTParty.get(src['rss_url']).body
+        return if xml.nil?
+        feed = Feedjira.parse(xml)
+        process_entries(site, src, feed.entries)
+      rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout => e
+        puts "WARNING: Could not fetch external posts from #{src['name']}: #{e.message}"
+        puts "Continuing build without external posts from this source."
+      end
     end
 
     def process_entries(site, src, entries)
@@ -68,10 +73,15 @@ module ExternalPosts
 
     def fetch_from_urls(site, src)
       src['posts'].each do |post|
-        puts "...fetching #{post['url']}"
-        content = fetch_content_from_url(post['url'])
-        content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content)
+        begin
+          puts "...fetching #{post['url']}"
+          content = fetch_content_from_url(post['url'])
+          content[:published] = parse_published_date(post['published_date'])
+          create_document(site, src['name'], post['url'], content)
+        rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout => e
+          puts "WARNING: Could not fetch external post from #{post['url']}: #{e.message}"
+          puts "Continuing build without this external post."
+        end
       end
     end
 
