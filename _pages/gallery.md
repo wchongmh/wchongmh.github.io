@@ -3,14 +3,15 @@ layout: page
 title: Gallery
 permalink: /gallery/
 description: "Moments from my award journey"
-nav: true  # Add to navigation menu
-nav_order: 5  # Adjust position in menu
+nav: true # Add to navigation menu
+nav_order: 5 # Adjust position in menu
 ---
 
 ## 🏅 SCEBE Annual Celebration Gallery
 
 ### 🎉 Celebrating Engineering Excellence
-*These moments from the Glasgow Caledonian University SCEBE Annual Celebration capture the joy of being recognized alongside peers and mentors.*
+
+_These moments from the Glasgow Caledonian University SCEBE Annual Celebration capture the joy of being recognized alongside peers and mentors._
 
 <style>
 .gallery-container {
@@ -179,7 +180,8 @@ nav_order: 5  # Adjust position in menu
 ## 🏆 HKIE Awards Gallery
 
 ### 🎖️ Prestigious HKIE Recognition Ceremony
-*These photographs capture the April 14, 2023 awards ceremony at The Hong Kong Institution of Engineers headquarters. While I was completing my engineering degree in Scotland, my mother had the honor of representing me at this significant professional milestone - a testament to our family's shared commitment to engineering excellence.*
+
+_These photographs capture the April 14, 2023 awards ceremony at The Hong Kong Institution of Engineers headquarters. While I was completing my engineering degree in Scotland, my mother had the honor of representing me at this significant professional milestone - a testament to our family's shared commitment to engineering excellence._
 
 <style>
 .gallery-container {

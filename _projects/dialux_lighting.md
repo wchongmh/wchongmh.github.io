@@ -179,8 +179,8 @@ importance: 1
     <div class="standards-gallery">
       <div class="standard-card">
         <div class="standard-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-4.png" 
-               alt="Energy Efficient Lighting Guide" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-4.png"
+               alt="Energy Efficient Lighting Guide"
                class="standard-img"
                loading="lazy">
         </div>
@@ -189,11 +189,11 @@ importance: 1
           <p>Guidance on reducing energy consumption and carbon emissions through efficient lighting practices.</p>
         </div>
       </div>
-      
+
       <div class="standard-card">
         <div class="standard-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-5.png" 
-               alt="Health and Safety at Work Act" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-5.png"
+               alt="Health and Safety at Work Act"
                class="standard-img"
                loading="lazy">
         </div>
@@ -202,11 +202,11 @@ importance: 1
           <p>Legal requirements for workplace safety including adequate lighting provisions.</p>
         </div>
       </div>
-      
+
       <div class="standard-card">
         <div class="standard-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-6.png" 
-               alt="Lighting at Work HSG38" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-6.png"
+               alt="Lighting at Work HSG38"
                class="standard-img"
                loading="lazy">
         </div>
@@ -215,11 +215,11 @@ importance: 1
           <p>Guidance on lighting requirements for different workplace tasks and environments.</p>
         </div>
       </div>
-      
+
       <div class="standard-card">
         <div class="standard-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-7.png" 
-               alt="SLL Lighting Handbook" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-7.png"
+               alt="SLL Lighting Handbook"
                class="standard-img"
                loading="lazy">
         </div>
@@ -228,11 +228,11 @@ importance: 1
           <p>Comprehensive reference for lighting design standards and recommended lux levels.</p>
         </div>
       </div>
-      
+
       <div class="standard-card">
         <div class="standard-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-8.png" 
-               alt="SLL Code for Lighting" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-8.png"
+               alt="SLL Code for Lighting"
                class="standard-img"
                loading="lazy">
         </div>
@@ -242,7 +242,7 @@ importance: 1
         </div>
       </div>
     </div>
-    
+
     <div class="lux-requirements">
       <h3 class="subsection-header">Recommended Lux Levels (CIBSE SLL)</h3>
       <div class="lux-table">
@@ -309,6 +309,7 @@ importance: 1
         </table>
       </div>
     </div>
+
   </section>
 
   <!-- Case Studies Section -->
@@ -329,14 +330,14 @@ importance: 1
         </svg>
         Supermarket Lighting
       </h3>
-      
+
       <div class="casestudy-content">
         <div class="casestudy-text">
           <p>Supermarket lighting serves multiple functions including product highlighting and customer guidance. The design incorporates linear luminaires parallel to aisles with specialized lighting for freezer displays. LED illumination inside freezers contrasts with freezer doors to enhance product visibility from a distance.</p>
         </div>
         <div class="casestudy-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-9.png" 
-               alt="Supermarket Case Study" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-9.png"
+               alt="Supermarket Case Study"
                class="casestudy-img"
                loading="lazy">
         </div>
@@ -350,14 +351,14 @@ importance: 1
         </svg>
         Office Lighting
       </h3>
-      
+
       <div class="casestudy-content">
         <div class="casestudy-text">
           <p>Office lighting maximizes natural daylight through windows while providing task lighting for workstations. The design includes daylight dimming controls that adjust artificial lighting based on available natural light. Anti-glare measures such as adjustable blinds and proper luminaire positioning ensure visual comfort for computer users.</p>
         </div>
         <div class="casestudy-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-10.png" 
-               alt="Office Case Study" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-10.png"
+               alt="Office Case Study"
                class="casestudy-img"
                loading="lazy">
         </div>
@@ -371,19 +372,20 @@ importance: 1
         </svg>
         Coffee Shop Lighting
       </h3>
-      
+
       <div class="casestudy-content">
         <div class="casestudy-text">
           <p>Coffee shop lighting creates a welcoming atmosphere while highlighting key areas like the barista station and menu boards. The design combines ambient lighting (200 lux) with task lighting (300 lux for serving areas, 500 lux for production). Accent lighting draws attention to featured products and architectural elements.</p>
         </div>
         <div class="casestudy-image">
-          <img src="/assets/img/projects/lighting-design/dialux_lighting-11.png" 
-               alt="Coffee Shop Case Study" 
+          <img src="/assets/img/projects/lighting-design/dialux_lighting-11.png"
+               alt="Coffee Shop Case Study"
                class="casestudy-img"
                loading="lazy">
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Lighting Performance Section -->
@@ -405,27 +407,27 @@ importance: 1
         <button class="tab-button" data-tab="circulation">Circulation</button>
         <button class="tab-button" data-tab="toilet">Toilet</button>
       </div>
-      
+
       <div class="tab-content active" id="coffee-shop">
         <h3>Coffee Shop Lighting Performance</h3>
-        
+
         <div class="zone-overview">
           <div class="zone-description">
             <p>The coffee shop area was designed to create a comfortable atmosphere with 200 lux general lighting, supplemented by 300 lux in serving areas and 500 lux in food preparation zones. Daylight dimming controls adjust artificial lighting based on natural light availability through windows.</p>
           </div>
           <div class="zone-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-12.png" 
-                 alt="Coffee Shop Floor Plan" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-12.png"
+                 alt="Coffee Shop Floor Plan"
                  class="zone-img"
                  loading="lazy">
           </div>
         </div>
-        
+
         <div class="performance-grid">
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-13.png" 
-                   alt="Coffee Shop 3D View" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-13.png"
+                   alt="Coffee Shop 3D View"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -434,11 +436,11 @@ importance: 1
               <span class="performance-desc">Overall lighting scheme for coffee shop area</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-14.png" 
-                   alt="Coffee Shop Results Overview" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-14.png"
+                   alt="Coffee Shop Results Overview"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -447,11 +449,11 @@ importance: 1
               <span class="performance-desc">Surface lighting calculations</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-15.png" 
-                   alt="Coffee Shop Lux Summary" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-15.png"
+                   alt="Coffee Shop Lux Summary"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -461,15 +463,15 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="detailed-results">
           <h4>Detailed Area Analysis</h4>
-          
+
           <div class="analysis-grid">
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-16.png" 
-                     alt="Production Area" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-16.png"
+                     alt="Production Area"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -478,11 +480,11 @@ importance: 1
                 <span class="analysis-area">Production Area (0.9m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-17.png" 
-                     alt="Serving Area Corner" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-17.png"
+                     alt="Serving Area Corner"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -491,11 +493,11 @@ importance: 1
                 <span class="analysis-area">Serving Area Corner (0.7m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-18.png" 
-                     alt="Serving Area 1" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-18.png"
+                     alt="Serving Area 1"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -504,11 +506,11 @@ importance: 1
                 <span class="analysis-area">Serving Area 1 (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-19.png" 
-                     alt="Serving Area 2" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-19.png"
+                     alt="Serving Area 2"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -517,11 +519,11 @@ importance: 1
                 <span class="analysis-area">Serving Area 2 (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-20.png" 
-                     alt="Window Area 1" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-20.png"
+                     alt="Window Area 1"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -530,11 +532,11 @@ importance: 1
                 <span class="analysis-area">Window Area 1 (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-21.png" 
-                     alt="Window Area 2" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-21.png"
+                     alt="Window Area 2"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -545,38 +547,38 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="fixture-list">
           <h4>Lighting Fixtures Specification</h4>
           <div class="fixture-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-22.png" 
-                 alt="Coffee Shop Fixtures" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-22.png"
+                 alt="Coffee Shop Fixtures"
                  class="fixture-img"
                  loading="lazy">
           </div>
         </div>
       </div>
-      
+
       <div class="tab-content" id="supermarket">
         <h3>Supermarket Lighting Performance</h3>
-        
+
         <div class="zone-overview">
           <div class="zone-description">
             <p>The supermarket area features linear luminaires parallel to aisles with specialized lighting for shelves and freezer displays. The design achieves 1071 lux average lighting, exceeding the 500-1000 lux requirement. Shelf areas maintain 750 lux for optimal product visibility.</p>
           </div>
           <div class="zone-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-23.png" 
-                 alt="Supermarket Floor Plan" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-23.png"
+                 alt="Supermarket Floor Plan"
                  class="zone-img"
                  loading="lazy">
           </div>
         </div>
-        
+
         <div class="performance-grid">
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-24.png" 
-                   alt="Supermarket 3D View" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-24.png"
+                   alt="Supermarket 3D View"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -585,11 +587,11 @@ importance: 1
               <span class="performance-desc">Overall lighting scheme for supermarket</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-25.png" 
-                   alt="Supermarket Results Overview" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-25.png"
+                   alt="Supermarket Results Overview"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -598,11 +600,11 @@ importance: 1
               <span class="performance-desc">Surface lighting calculations</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-26.png" 
-                   alt="Supermarket Lux Summary" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-26.png"
+                   alt="Supermarket Lux Summary"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -612,15 +614,15 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="detailed-results">
           <h4>Detailed Area Analysis</h4>
-          
+
           <div class="analysis-grid">
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-27.png" 
-                     alt="Tills Area" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-27.png"
+                     alt="Tills Area"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -629,11 +631,11 @@ importance: 1
                 <span class="analysis-area">Tills Area (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-28.png" 
-                     alt="Normal Shelf 1" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-28.png"
+                     alt="Normal Shelf 1"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -642,11 +644,11 @@ importance: 1
                 <span class="analysis-area">Normal Shelf 1 (1m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-29.png" 
-                     alt="Normal Shelf 2" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-29.png"
+                     alt="Normal Shelf 2"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -655,11 +657,11 @@ importance: 1
                 <span class="analysis-area">Normal Shelf 2 (1m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-30.png" 
-                     alt="Fridge Shelf 1" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-30.png"
+                     alt="Fridge Shelf 1"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -668,11 +670,11 @@ importance: 1
                 <span class="analysis-area">Fridge Shelf 1 (1m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-31.png" 
-                     alt="Fridge Shelf 2" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-31.png"
+                     alt="Fridge Shelf 2"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -683,38 +685,38 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="fixture-list">
           <h4>Lighting Fixtures Specification</h4>
           <div class="fixture-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-32.png" 
-                 alt="Supermarket Fixtures" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-32.png"
+                 alt="Supermarket Fixtures"
                  class="fixture-img"
                  loading="lazy">
           </div>
         </div>
       </div>
-      
+
       <div class="tab-content" id="office">
         <h3>Office Lighting Performance</h3>
-        
+
         <div class="zone-overview">
           <div class="zone-description">
             <p>The office area features a daylight dimming system that automatically adjusts artificial lighting based on natural light availability. The design achieves 400+ lux average lighting, with workstations maintaining 500+ lux for optimal task performance while minimizing glare on computer screens.</p>
           </div>
           <div class="zone-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-33.png" 
-                 alt="Office Floor Plan" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-33.png"
+                 alt="Office Floor Plan"
                  class="zone-img"
                  loading="lazy">
           </div>
         </div>
-        
+
         <div class="performance-grid">
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-34.png" 
-                   alt="Office 3D View" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-34.png"
+                   alt="Office 3D View"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -723,11 +725,11 @@ importance: 1
               <span class="performance-desc">Overall lighting scheme for office</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-35.png" 
-                   alt="Office Results Overview" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-35.png"
+                   alt="Office Results Overview"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -736,11 +738,11 @@ importance: 1
               <span class="performance-desc">Surface lighting calculations</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-36.png" 
-                   alt="Office Lux Summary" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-36.png"
+                   alt="Office Lux Summary"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -750,15 +752,15 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="detailed-results">
           <h4>Detailed Area Analysis</h4>
-          
+
           <div class="analysis-grid">
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-37.png" 
-                     alt="Meeting Desk" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-37.png"
+                     alt="Meeting Desk"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -767,11 +769,11 @@ importance: 1
                 <span class="analysis-area">Meeting Desk (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-38.png" 
-                     alt="Small Meeting Desk 1" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-38.png"
+                     alt="Small Meeting Desk 1"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -780,11 +782,11 @@ importance: 1
                 <span class="analysis-area">Small Meeting Desk 1 (0.6m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-39.png" 
-                     alt="Working Desk 1" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-39.png"
+                     alt="Working Desk 1"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -793,11 +795,11 @@ importance: 1
                 <span class="analysis-area">Working Desk 1 (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-40.png" 
-                     alt="Working Desk 2" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-40.png"
+                     alt="Working Desk 2"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -806,11 +808,11 @@ importance: 1
                 <span class="analysis-area">Working Desk 2 (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-41.png" 
-                     alt="Small Meeting Desk 2" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-41.png"
+                     alt="Small Meeting Desk 2"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -819,11 +821,11 @@ importance: 1
                 <span class="analysis-area">Small Meeting Desk 2 (0.73m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-42.png" 
-                     alt="Window Desk" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-42.png"
+                     alt="Window Desk"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -832,11 +834,11 @@ importance: 1
                 <span class="analysis-area">Window Desk (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-43.png" 
-                     alt="Corner Desk" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-43.png"
+                     alt="Corner Desk"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -847,38 +849,38 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="fixture-list">
           <h4>Lighting Fixtures Specification</h4>
           <div class="fixture-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-44.png" 
-                 alt="Office Fixtures" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-44.png"
+                 alt="Office Fixtures"
                  class="fixture-img"
                  loading="lazy">
           </div>
         </div>
       </div>
-      
+
       <div class="tab-content" id="circulation">
         <h3>Circulation Area Lighting Performance</h3>
-        
+
         <div class="zone-overview">
           <div class="zone-description">
             <p>Circulation areas and stairways are illuminated with 118 lux average lighting, exceeding the 100 lux requirement. The design ensures even illumination without shadows on landings, with proper contrast between treads and risers for safety.</p>
           </div>
           <div class="zone-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-45.png" 
-                 alt="Circulation Floor Plan" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-45.png"
+                 alt="Circulation Floor Plan"
                  class="zone-img"
                  loading="lazy">
           </div>
         </div>
-        
+
         <div class="performance-grid">
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-46.png" 
-                   alt="Circulation 3D View" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-46.png"
+                   alt="Circulation 3D View"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -887,11 +889,11 @@ importance: 1
               <span class="performance-desc">Overall lighting scheme for circulation</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-54.png" 
-                   alt="Circulation Results Overview" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-54.png"
+                   alt="Circulation Results Overview"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -900,11 +902,11 @@ importance: 1
               <span class="performance-desc">Surface lighting calculations</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-55.png" 
-                   alt="Circulation Lux Summary" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-55.png"
+                   alt="Circulation Lux Summary"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -914,15 +916,15 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="detailed-results">
           <h4>Detailed Area Analysis</h4>
-          
+
           <div class="analysis-grid">
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-47.png" 
-                     alt="Stairway Left Down" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-47.png"
+                     alt="Stairway Left Down"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -931,11 +933,11 @@ importance: 1
                 <span class="analysis-area">Stairway Left Down (0.84m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-48.png" 
-                     alt="Downstairs Area" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-48.png"
+                     alt="Downstairs Area"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -944,11 +946,11 @@ importance: 1
                 <span class="analysis-area">Downstairs Area (0m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-49.png" 
-                     alt="Stairway Left Up" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-49.png"
+                     alt="Stairway Left Up"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -957,11 +959,11 @@ importance: 1
                 <span class="analysis-area">Stairway Left Up (2.35m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-50.png" 
-                     alt="Stairway Right Up" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-50.png"
+                     alt="Stairway Right Up"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -970,11 +972,11 @@ importance: 1
                 <span class="analysis-area">Stairway Right Up (2.35m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-51.png" 
-                     alt="Stairway Right Down" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-51.png"
+                     alt="Stairway Right Down"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -983,11 +985,11 @@ importance: 1
                 <span class="analysis-area">Stairway Right Down (0.84m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-52.png" 
-                     alt="Upstairs Area" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-52.png"
+                     alt="Upstairs Area"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -998,38 +1000,38 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="fixture-list">
           <h4>Lighting Fixtures Specification</h4>
           <div class="fixture-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-53.png" 
-                 alt="Circulation Fixtures" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-53.png"
+                 alt="Circulation Fixtures"
                  class="fixture-img"
                  loading="lazy">
           </div>
         </div>
       </div>
-      
+
       <div class="tab-content" id="toilet">
         <h3>Toilet Lighting Performance</h3>
-        
+
         <div class="zone-overview">
           <div class="zone-description">
             <p>Toilet areas feature motion-activated lighting with 234 lux average illumination, exceeding the 200 lux requirement. Fully enclosed cubicles have independent lighting that activates when occupied. The design ensures proper illumination of basins and emergency buttons.</p>
           </div>
           <div class="zone-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-56.png" 
-                 alt="Toilet Floor Plan" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-56.png"
+                 alt="Toilet Floor Plan"
                  class="zone-img"
                  loading="lazy">
           </div>
         </div>
-        
+
         <div class="performance-grid">
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-57.png" 
-                   alt="Toilet 3D View" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-57.png"
+                   alt="Toilet 3D View"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -1038,11 +1040,11 @@ importance: 1
               <span class="performance-desc">Overall lighting scheme for toilets</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-61.png" 
-                   alt="Toilet Results Overview" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-61.png"
+                   alt="Toilet Results Overview"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -1051,11 +1053,11 @@ importance: 1
               <span class="performance-desc">Surface lighting calculations</span>
             </div>
           </div>
-          
+
           <div class="performance-card">
             <div class="performance-image">
-              <img src="/assets/img/projects/lighting-design/dialux_lighting-62.png" 
-                   alt="Toilet Lux Summary" 
+              <img src="/assets/img/projects/lighting-design/dialux_lighting-62.png"
+                   alt="Toilet Lux Summary"
                    class="performance-img"
                    loading="lazy">
             </div>
@@ -1065,15 +1067,15 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="detailed-results">
           <h4>Detailed Area Analysis</h4>
-          
+
           <div class="analysis-grid">
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-58.png" 
-                     alt="Basin Area" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-58.png"
+                     alt="Basin Area"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -1082,11 +1084,11 @@ importance: 1
                 <span class="analysis-area">Basin Area (0.76m height)</span>
               </div>
             </div>
-            
+
             <div class="analysis-card">
               <div class="analysis-image">
-                <img src="/assets/img/projects/lighting-design/dialux_lighting-59.png" 
-                     alt="Cubicle Area" 
+                <img src="/assets/img/projects/lighting-design/dialux_lighting-59.png"
+                     alt="Cubicle Area"
                      class="analysis-img"
                      loading="lazy">
               </div>
@@ -1097,18 +1099,19 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="fixture-list">
           <h4>Lighting Fixtures Specification</h4>
           <div class="fixture-image">
-            <img src="/assets/img/projects/lighting-design/dialux_lighting-60.png" 
-                 alt="Toilet Fixtures" 
+            <img src="/assets/img/projects/lighting-design/dialux_lighting-60.png"
+                 alt="Toilet Fixtures"
                  class="fixture-img"
                  loading="lazy">
           </div>
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Energy Efficiency Section -->

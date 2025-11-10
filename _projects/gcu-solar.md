@@ -46,7 +46,7 @@ importance: 1
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
             margin-bottom: 2rem;
         }
-        
+
         .tech-list {
             display: flex;
             flex-wrap: wrap;
@@ -277,15 +277,15 @@ importance: 1
             .project-title {
                 font-size: 1.9rem;
             }
-            
+
             .section-header {
                 font-size: 1.6rem;
             }
-            
+
             .image-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .content-card {
                 padding: 20px;
             }
@@ -295,25 +295,26 @@ importance: 1
             body {
                 padding: 0 15px;
             }
-            
+
             .project-title {
                 font-size: 1.7rem;
             }
-            
+
             .section-header {
                 font-size: 1.4rem;
                 margin: 30px 0 20px;
             }
-            
+
             .data-table {
                 font-size: 0.9em;
             }
-            
+
             .data-table th, .data-table td {
                 padding: 8px;
             }
         }
     </style>
+
 </head>
 <body>
         <header class="header-container">
@@ -341,7 +342,7 @@ importance: 1
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">1</span>Executive Summary</h2>
         <p>Glasgow Caledonian University, committed to its "University for the Common Good" mission, seeks to expand its renewable energy capacity through rooftop solar installations. This project:</p>
-        
+
         <div class="key-points">
             <p><strong>Assesses 12 campus buildings</strong> (e.g., Saltire Centre, Hamish Wood) for PV potential using Google Earth, HelioScope, and PVsyst simulations.</p>
             <p><strong>Analyzes Glasgow's climate</strong>, confirming viable solar energy generation (~1,100 sun hours/year) despite cloud cover, with cooler temperatures enhancing panel efficiency.</p>
@@ -370,7 +371,7 @@ importance: 1
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">2</span>Introduction and Background</h2>
         <p>The research addresses the growing importance of renewable energy adoption in higher education institutions, focusing on Glasgow Caledonian University's potential for rooftop solar photovoltaic (PV) installations.</p>
-        
+
         <h3 class="subsection-header">Key Motivations:</h3>
         <ul>
             <li>Universities consume energy comparable to small cities, making them ideal for sustainable energy projects</li>
@@ -392,10 +393,10 @@ importance: 1
 
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">3</span>Methodology and Approach</h2>
-        
+
         <h3 class="subsection-header">3.1 Technical Assessment Framework</h3>
         <p>The study employed a multi-dimensional analytical approach combining geospatial, climatic, and structural analysis:</p>
-        
+
         <h4>Building Selection Criteria:</h4>
         <ul>
             <li>Roof area > 400m² to ensure economic viability</li>
@@ -645,10 +646,10 @@ importance: 1
 
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">4</span>Key Findings and Analysis</h2>
-        
+
         <h3 class="subsection-header">4.1 Glasgow Caledonian University PV Panel Feasibility Analysis</h3>
         <p><strong>Total Potential:</strong> ~1.04 MW solar capacity across 12 buildings, representing 15% of campus electricity demand.</p>
-        
+
         <h4>Building Rooftop Suitability</h4>
         <table class="data-table">
             <tr>
@@ -769,7 +770,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-3.png" alt="Arc Health and Wellbeing Facility 3D View" class="project-image">
                     <div class="image-caption">Arc Health and Wellbeing 3D View</div>
                 </div>
-                
+
                 <!-- Britannia Building -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-4.png" alt="Britannia Building Plan View" class="project-image">
@@ -779,7 +780,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-5.png" alt="Britannia Building 3D View" class="project-image">
                     <div class="image-caption">Britannia Building 3D View</div>
                 </div>
-                
+
                 <!-- Centre for Executive Education -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-84.png" alt="Centre for Executive Education Plan View" class="project-image">
@@ -789,7 +790,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-85.png" alt="Centre for Executive Education 3D View" class="project-image">
                     <div class="image-caption">Centre for Executive Education 3D</div>
                 </div>
-                
+
                 <!-- Charles Oakley Laboratories -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-86.png" alt="Charles Oakley Laboratories Plan View" class="project-image">
@@ -799,7 +800,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-87.png" alt="Charles Oakley Laboratories 3D View" class="project-image">
                     <div class="image-caption">Charles Oakley Labs 3D View</div>
                 </div>
-                
+
                 <!-- George Moore Building -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-88.png" alt="George Moore Building Plan View" class="project-image">
@@ -809,7 +810,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-89.png" alt="George Moore Building 3D View" class="project-image">
                     <div class="image-caption">George Moore Building 3D View</div>
                 </div>
-                
+
                 <!-- Govan Mbeki Building -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-90.png" alt="Govan Mbeki Building Plan View" class="project-image">
@@ -819,7 +820,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-91.png" alt="Govan Mbeki Building 3D View" class="project-image">
                     <div class="image-caption">Govan Mbeki Building 3D View</div>
                 </div>
-                
+
                 <!-- Hamish Wood Building -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-92.png" alt="Hamish Wood Building Plan View" class="project-image">
@@ -829,7 +830,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-93.png" alt="Hamish Wood Building 3D View" class="project-image">
                     <div class="image-caption">Hamish Wood Building 3D View</div>
                 </div>
-                
+
                 <!-- Milton Street -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-94.png" alt="Milton Street Plan View" class="project-image">
@@ -839,7 +840,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-95.png" alt="Milton Street 3D View" class="project-image">
                     <div class="image-caption">Milton Street 3D View</div>
                 </div>
-                
+
                 <!-- Students' Association -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-96.png" alt="Students' Association Plan View" class="project-image">
@@ -849,7 +850,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-97.png" alt="Students' Association 3D View" class="project-image">
                     <div class="image-caption">Students' Association 3D View</div>
                 </div>
-                
+
                  <!-- The Saltire Centre -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-6.png" alt="The Saltire Centre Plan View" class="project-image">
@@ -859,7 +860,7 @@ importance: 1
                     <img src="/assets/img/projects/fyp/pv_design-7.png" alt="The Saltire Centre 3D View" class="project-image">
                     <div class="image-caption">The Saltire Centre 3D View</div>
                 </div>
-                
+
                 <!-- William Harley -->
                 <div class="image-card">
                     <img src="/assets/img/projects/fyp/pv_design-8.png" alt="William Harley Plan View" class="project-image">
@@ -1572,7 +1573,7 @@ importance: 1
 
         <!-- Building-specific PV System Analysis -->
         <h3 class="subsection-header">4.6 Building-Specific PV System Analysis</h3>
-        
+
         <!-- Arc Health and Wellbeing -->
         <div class="building-section">
             <h4>Arc Health and Wellbeing Facility</h4>
@@ -1696,6 +1697,7 @@ importance: 1
         </div>
 
         <!-- Centre for Executive Education -->
+
 <div class="building-section">
     <h4>Centre for Executive Education</h4>
     <div class="image-grid">
@@ -2289,7 +2291,7 @@ importance: 1
 
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">5</span>Implementation Roadmap</h2>
-        
+
         <div class="success-box">
             <h4>5.1 Phased Deployment Schedule</h4>
             <p><strong>Phase 1 (Months 1-12): Pilot Implementation</strong></p>
@@ -2425,10 +2427,10 @@ importance: 1
 
     <div class="content-card">
         <h2 class="section-header"><span class="section-number">6</span>Conclusion and Future Outlook</h2>
-        
+
         <div class="summary-card">
             <h3>Key Outcomes</h3>
-            
+
             <h4>1. Technical Feasibility</h4>
             <ul>
                 <li><strong>South-facing roofs</strong> prioritized, with <strong>60–80% of roof areas</strong> deemed suitable for PV installation</li>
@@ -2543,5 +2545,6 @@ importance: 1
             <p><strong>Recommended Action:</strong> Proceed with Phase 1 implementation as outlined in Section 4, with installation beginning in Month 8 following necessary approvals.</p>
         </div>
     </div>
+
 </body>
 </html>

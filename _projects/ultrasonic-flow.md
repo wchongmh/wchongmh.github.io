@@ -220,7 +220,7 @@ importance: 2
         </ul>
       </p>
     </div>
-      
+
     <div class="calculation-grid">
       <div class="calculation-card">
         <div class="calc-title">Volume Flow Rate</div>
@@ -230,7 +230,7 @@ importance: 2
           <span>A = πr² = 0.00503 m² (80mm pipe)</span>
         </div>
       </div>
-      
+
       <div class="calculation-card">
         <div class="calc-title">Mass Flow Rate</div>
         <div class="calc-formula">Q<sub>m</sub> = Q<sub>v</sub> × ρ</div>
@@ -238,7 +238,7 @@ importance: 2
           <span>ρ = 980 kg/m³ (water density)</span>
         </div>
       </div>
-      
+
       <div class="calculation-card">
         <div class="calc-title">Heat Transfer</div>
         <div class="calc-formula">Q = Q<sub>m</sub> × C<sub>p</sub> × ΔT</div>
@@ -260,6 +260,7 @@ importance: 2
       C<sub>p</sub> = Specific heat capacity<br>
       ΔT = Temperature difference</p>
     </div>
+
   </section>
 
   <!-- Results Visualization -->
@@ -303,7 +304,7 @@ importance: 2
           <p>Flow stability maintained within ±2.5% of mean (0.00392 m³/s) despite minor system fluctuations</p>
         </div>
       </div>
-      
+
       <div class="graph-container">
         <h3>Temperature Difference (ΔT)</h3>
         <div class="graph">
@@ -313,7 +314,7 @@ importance: 2
           <p>Initial negative ΔT indicates measurement anomaly, stabilizing to expected 0.5-1.0°C range after 5 minutes</p>
         </div>
       </div>
-      
+
       <div class="graph-container">
         <h3>Heat Transfer Rate</h3>
         <div class="graph">
@@ -328,14 +329,14 @@ importance: 2
     <div class="data-table">
       <h3>Key Measurement Data</h3>
       <div class="data-table-image">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-8.png" 
-             alt="Data table worksheet with highlighted values" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-8.png"
+             alt="Data table worksheet with highlighted values"
              class="table-img"
              loading="lazy">
         <p class="table-caption">Data table showing measurements with lowest values highlighted in blue (🟦) and highest values in yellow (🟨)</p>
       </div>
     </div>
-    
+
     <div class="key-findings">
       <h3>Key Observations</h3>
       <ul>
@@ -344,6 +345,7 @@ importance: 2
         <li>Average flow velocity stability at 0.78 m/s (±0.02)</li>
       </ul>
     </div>
+
   </section>
 
   <!-- Analysis Section -->
@@ -437,7 +439,7 @@ importance: 2
           <li><strong>⏱️</strong> 1-2% of rate accuracy</li>
         </ul>
       </div>
-      
+
       <div class="tech-card">
         <div class="tech-icon">🔄</div>
         <h3>Positive Displacement</h3>
@@ -447,7 +449,7 @@ importance: 2
           <li><strong>⏱️</strong> 0.5% of reading accuracy</li>
         </ul>
       </div>
-      
+
       <div class="tech-card">
         <div class="tech-icon">🌀</div>
         <h3>Turbine</h3>
@@ -457,7 +459,7 @@ importance: 2
           <li><strong>⏱️</strong> 0.25-0.5% of rate</li>
         </ul>
       </div>
-      
+
       <div class="tech-card highlight">
         <div class="tech-icon">🔊</div>
         <h3>Ultrasonic</h3>
@@ -468,41 +470,42 @@ importance: 2
         </ul>
       </div>
     </div>
-    
+
     <div class="technology-cards">
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-12.png" 
-             alt="Differential Pressure Meter" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-12.png"
+             alt="Differential Pressure Meter"
              class="tech-img"
              loading="lazy">
         <h3>Differential Pressure</h3>
         <p>Measures ΔP across restriction using Bernoulli's principle</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-13.png" 
-             alt="Positive Displacement Flowmeter" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-13.png"
+             alt="Positive Displacement Flowmeter"
              class="tech-img"
              loading="lazy">
         <h3>Positive Displacement</h3>
         <p>Measures exact volume of fluid passing through</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-14.png" 
-             alt="Turbine Flow Meter" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-14.png"
+             alt="Turbine Flow Meter"
              class="tech-img"
              loading="lazy">
         <h3>Turbine</h3>
         <p>Mechanical rotation proportional to flow velocity</p>
       </div>
       <div class="tech-card">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-15.png" 
-             alt="Electromagnetic Flowmeter" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-15.png"
+             alt="Electromagnetic Flowmeter"
              class="tech-img"
              loading="lazy">
         <h3>Electromagnetic</h3>
         <p>Measures voltage induced by conductive fluid flow</p>
       </div>
     </div>
+
   </section>
 
   <!-- Conclusions -->
@@ -534,13 +537,13 @@ importance: 2
           <h3>Calibration Protocol</h3>
           <p>Quarterly verification against master meter with documented zero-flow checks</p>
         </div>
-        
+
         <div class="recommendation-card">
           <div class="rec-icon">📊</div>
           <h3>Data Integration</h3>
           <p>Connect meters to BMS for continuous performance monitoring and fault detection</p>
         </div>
-        
+
         <div class="recommendation-card">
           <div class="rec-icon">🛠️</div>
           <h3>Maintenance Schedule</h3>
@@ -564,7 +567,7 @@ importance: 2
             <p>Add redundant temperature sensors for measurement validation</p>
           </div>
         </div>
-        
+
         <ul>
           <li>Pipe material and wall thickness affect ultrasonic signal transmission</li>
           <li>Minimum straight pipe runs required upstream/downstream (10D/5D)</li>
@@ -572,15 +575,16 @@ importance: 2
           <li>Wireless data transmission reduces installation complexity</li>
         </ul>
       </div>
-      
+
       <div class="conclusion-image">
-        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-7.png" 
-             alt="Measurement System Diagram" 
+        <img src="/assets/img/projects/gcu-plant-room/ultrasonic_flow-7.png"
+             alt="Measurement System Diagram"
              class="conclusion-img"
              loading="lazy">
         <p class="image-caption">Proposed permanent monitoring installation</p>
       </div>
     </div>
+
   </section>
 
   <!-- References Section -->

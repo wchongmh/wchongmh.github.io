@@ -168,6 +168,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
   
   <!-- Laboratory Setup Section -->
@@ -188,7 +189,7 @@ importance: 2
         </svg>
         System Components
       </h3>
-      
+
       <div class="system-types-grid">
         <div class="system-type-card">
           <div class="system-icon">🔄</div>
@@ -211,10 +212,10 @@ importance: 2
           <p>Twin tube manometers (0-1000mmWC)</p>
         </div>
       </div>
-      
+
       <div class="technical-specs">
         <h4 class="specs-title">Technical Parameters</h4>
-        
+
         <div class="specs-accordion">
           <details class="spec-group">
             <summary>Physical Dimensions</summary>
@@ -224,7 +225,7 @@ importance: 2
               <li>PVC piping material</li>
             </ul>
           </details>
-          
+
           <details class="spec-group">
             <summary>Pressure Measurement</summary>
             <ul>
@@ -233,7 +234,7 @@ importance: 2
               <li>10 measurement points</li>
             </ul>
           </details>
-        
+
           <details class="spec-group">
             <summary>Flow Measurement</summary>
             <ul>
@@ -242,7 +243,7 @@ importance: 2
               <li>Accuracy: ±0.5% of reading</li>
             </ul>
           </details>
-        
+
           <details class="spec-group">
             <summary>Environmental Conditions</summary>
             <ul>
@@ -262,11 +263,11 @@ importance: 2
         </svg>
         Experimental Methodology
       </h3>
-      
+
       <div class="methodology-intro">
         <p>The experimental procedure followed a rigorous three-phase approach to ensure accurate measurement of pressure drops across various piping components under controlled flow conditions.</p>
       </div>
-    
+
       <div class="methodology-steps">
         <div class="step-item">
           <div class="step-number">Step 1</div>
@@ -301,8 +302,8 @@ importance: 2
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/pressure-lab/pressure_drop-7.png" 
-                 alt="Complete Laboratory Station" 
+            <img src="/assets/img/projects/pressure-lab/pressure_drop-7.png"
+                 alt="Complete Laboratory Station"
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -314,11 +315,11 @@ importance: 2
             <span class="image-desc">Complete laboratory station setup</span>
           </div>
         </div>
-        
+
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/pressure-lab/pressure_drop-6.png" 
-                 alt="Technical Data" 
+            <img src="/assets/img/projects/pressure-lab/pressure_drop-6.png"
+                 alt="Technical Data"
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -332,6 +333,7 @@ importance: 2
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Results Section -->
@@ -351,7 +353,7 @@ importance: 2
         <span class="result-label">Max Total Pressure Drop</span>
       </div>
     </div>
-    
+
     <div class="calculations-intro">
       <p>The study revealed significant variations in pressure drops across different components, with control valves showing the highest resistance and straight pipes the lowest. The data enables calculation of resistance coefficients for system optimization.</p>
     </div>
@@ -360,8 +362,8 @@ importance: 2
       <div class="results-card">
         <h3>Pressure Drop Analysis</h3>
         <div class="results-image">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-8.png" 
-               alt="Pressure Drop Analysis" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-8.png"
+               alt="Pressure Drop Analysis"
                class="results-img"
                loading="lazy">
         </div>
@@ -375,7 +377,7 @@ importance: 2
         </div>
       </div>
     </div>
-    
+
     <article class="design-subsection calculations">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -383,14 +385,14 @@ importance: 2
         </svg>
         Key Findings
       </h3>
-      
+
       <div class="calculation-tabs">
         <div class="tab-buttons">
           <button class="tab-button active" data-tab="pressure-drops">Pressure Drops</button>
           <button class="tab-button" data-tab="resistance-coefficients">Resistance Coefficients</button>
           <button class="tab-button" data-tab="flow-characteristics">Flow Characteristics</button>
         </div>
-        
+
         <div class="tab-content active" id="pressure-drops">
           <h4>Component Pressure Loss Comparison</h4>
           <div class="consumption-grid">
@@ -409,7 +411,7 @@ importance: 2
           </div>
           <p>Pressure drops followed quadratic relationship with flow rate as predicted by Bernoulli's principle</p>
         </div>
-        
+
         <div class="tab-content" id="resistance-coefficients">
           <h4>Calculated Resistance Coefficients (ζ)</h4>
           <ul>
@@ -420,7 +422,7 @@ importance: 2
             <li>Control valve: 2.5-10 (depending on opening)</li>
           </ul>
         </div>
-        
+
         <div class="tab-content" id="flow-characteristics">
           <h4>Flow Rate Observations</h4>
           <ul>
@@ -431,12 +433,12 @@ importance: 2
         </div>
       </div>
     </article>
-    
+
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-9.png" 
-               alt="90° Elbow Pressure Drop" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-9.png"
+               alt="90° Elbow Pressure Drop"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -445,11 +447,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-10.png" 
-               alt="90° Elbow ζ Coefficient" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-10.png"
+               alt="90° Elbow ζ Coefficient"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -458,11 +460,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-11.png" 
-               alt="Bend Pressure Drop" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-11.png"
+               alt="Bend Pressure Drop"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -474,8 +476,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-12.png" 
-               alt="Bend ζ Coefficient" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-12.png"
+               alt="Bend ζ Coefficient"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -487,8 +489,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-13.png" 
-               alt="Bend Pressure Drop" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-13.png"
+               alt="Bend Pressure Drop"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -500,8 +502,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-14.png" 
-               alt="Bend ζ Coefficient" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-14.png"
+               alt="Bend ζ Coefficient"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -530,51 +532,51 @@ importance: 2
       <div class="large-result-grid">
         <div class="large-result-card">
           <h4>Run 1 Results</h4>
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-15.png" 
-                alt="First Experiment Results" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-15.png"
+                alt="First Experiment Results"
                 class="large-result-img"
                 loading="lazy">
           <p class="result-caption">First experiment results with highlighted minimum and maximum values</p>
         </div>
-        
+
         <div class="large-result-card">
           <h4>Run 2 Results</h4>
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-16.png" 
-               alt="Second Experiment Results" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-16.png"
+               alt="Second Experiment Results"
                class="large-result-img"
                loading="lazy">
           <p class="result-caption">Second experiment results showing pressure measurements with highlighted extremes</p>
         </div>
-        
+
         <div class="large-result-card">
           <h4>Run 3 Results</h4>
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-17.png" 
-               alt="Third Experiment Results" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-17.png"
+               alt="Third Experiment Results"
                class="large-result-img"
                loading="lazy">
           <p class="result-caption">Third experiment results with highlighted data points</p>
         </div>
-        
+
         <div class="large-result-card">
           <h4>Run 4 Results</h4>
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-18.png" 
-               alt="Fourth Experiment Results" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-18.png"
+               alt="Fourth Experiment Results"
                class="large-result-img"
                loading="lazy">
           <p class="result-caption">Fourth experiment results with highlighted data points</p>
         </div>
-        
+
         <div class="large-result-card">
           <h4>Run 5 Results</h4>
-          <img src="/assets/img/projects/pressure-lab/pressure_drop-19.png" 
-               alt="Fifth Experiment Results" 
+          <img src="/assets/img/projects/pressure-lab/pressure_drop-19.png"
+               alt="Fifth Experiment Results"
                class="large-result-img"
                loading="lazy">
           <p class="result-caption">Fifth experiment results showing pressure measurements with highlighted extremes</p>
         </div>
       </div>
     </div>
-    
+
     <div class="equation-box">
       <h3>Local Pressure Drop Calculation</h3>
       <div class="equation">
@@ -588,6 +590,7 @@ importance: 2
         V = Flow velocity (m/s)</p>
       </div>
     </div>
+
   </section>
 
   <!-- Engineering Insights -->
@@ -620,6 +623,7 @@ importance: 2
         </ul>
       </div>
     </div>
+
   </section>
 
   <!-- Conclusions Section -->
@@ -631,7 +635,7 @@ importance: 2
 
     <div class="conclusion-content">
       <p>The experiment successfully quantified pressure losses in various piping components, providing valuable data for fluid system design. The HM 150.11 module proved effective for precise measurements, though several improvements could enhance future studies:</p>
-    
+
       <div class="recommendations-grid">
         <div class="recommendation-card">
           <div class="rec-icon">📊</div>
@@ -643,7 +647,7 @@ importance: 2
             <li>Experimental data validates theoretical predictions</li>
           </ul>
         </div>
-        
+
         <div class="recommendation-card">
           <div class="rec-icon">🛠️</div>
           <h3>Design Implications</h3>
@@ -654,7 +658,7 @@ importance: 2
             <li>Accurate ζ values enable better pump sizing</li>
           </ul>
         </div>
-        
+
         <div class="recommendation-card">
           <div class="rec-icon">💻</div>
           <h3>Future Enhancements</h3>
@@ -668,6 +672,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
 
 <style>

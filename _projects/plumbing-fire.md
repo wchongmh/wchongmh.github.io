@@ -63,8 +63,8 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-36.png" 
-               alt="Typical Floor Core Plan" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-36.png"
+               alt="Typical Floor Core Plan"
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -76,11 +76,11 @@ importance: 2
           <span class="image-desc">Typical floor core with service risers</span>
         </div>
       </div>
-      
+
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-39.png" 
-               alt="Integrated Systems Schematic" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-39.png"
+               alt="Integrated Systems Schematic"
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -93,7 +93,7 @@ importance: 2
         </div>
       </div>
     </div>
-    
+
     <div class="key-specs">
       <h3 class="specs-title">Key System Specifications</h3>
       <div class="specs-grid">
@@ -141,6 +141,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Plumbing Systems Section -->
@@ -191,7 +192,7 @@ importance: 2
               <li>PRVs installed at 3/F, 12/F, 20/F</li>
             </ul>
           </details>
-          
+
           <details class="spec-group">
             <summary>Drainage System</summary>
             <ul>
@@ -213,11 +214,11 @@ importance: 2
           </details>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-46.png" 
-               alt="Fresh Water Schematic" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-46.png"
+               alt="Fresh Water Schematic"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -226,8 +227,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-43.png" 
-               alt="Flush Water Schematic" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-43.png"
+               alt="Flush Water Schematic"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -236,11 +237,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-45.png" 
-               alt="Fresh Water Pipe Sizing" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-45.png"
+               alt="Fresh Water Pipe Sizing"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -249,8 +250,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-42.png" 
-               alt="Flush Water Pipe Sizing" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-42.png"
+               alt="Flush Water Pipe Sizing"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -259,11 +260,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-44.png" 
-               alt="Fresh Water Pipe Details" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-44.png"
+               alt="Fresh Water Pipe Details"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -272,8 +273,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-41.png" 
-               alt="Flush Water Pipe Details" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-41.png"
+               alt="Flush Water Pipe Details"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -282,11 +283,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-37.png" 
-               alt="Flush Water Supply Upper Floors" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-37.png"
+               alt="Flush Water Supply Upper Floors"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -295,8 +296,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-38.png" 
-               alt="Flush Water Supply Ground Floor" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-38.png"
+               alt="Flush Water Supply Ground Floor"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -305,11 +306,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-58.png" 
-               alt="Fresh Water Tank Calculation" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-58.png"
+               alt="Fresh Water Tank Calculation"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -318,8 +319,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-59.png" 
-               alt="Flush Water Tank Calculation" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-59.png"
+               alt="Flush Water Tank Calculation"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -328,11 +329,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-60.png" 
-               alt="Water Storage Tank Materials" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-60.png"
+               alt="Water Storage Tank Materials"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -341,8 +342,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-40.png" 
-               alt="Flush Water Loading Units" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-40.png"
+               alt="Flush Water Loading Units"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -360,7 +361,7 @@ importance: 2
         </svg>
         Stormwater System
       </h3>
-      
+
       <div class="system-details">
         <p>Designed with 700mm² pipe capacity per 10m² roof area:</p>
         <ul>
@@ -370,11 +371,11 @@ importance: 2
           <li>Draining to manholes</li>
         </ul>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-54.png" 
-               alt="Stormwater Schematic" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-54.png"
+               alt="Stormwater Schematic"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -383,8 +384,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-55.png" 
-               alt="Stormwater Details" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-55.png"
+               alt="Stormwater Details"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -393,11 +394,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-56.png" 
-               alt="Upper Roof Stormwater" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-56.png"
+               alt="Upper Roof Stormwater"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -406,8 +407,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-57.png" 
-               alt="Flat Roof Stormwater" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-57.png"
+               alt="Flat Roof Stormwater"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -417,10 +418,10 @@ importance: 2
         </div>
       </div>
     </article>
-    
+
     <article class="design-subsection drainage">
       <h3 class="subsection-header">Drainage Systems</h3>
-      
+
       <div class="system-details">
         <div class="pipe-sizing">
           <h4>Pipe Sizing</h4>
@@ -432,11 +433,11 @@ importance: 2
           </ul>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-47.png" 
-               alt="Soil Water System" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-47.png"
+               alt="Soil Water System"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -445,8 +446,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-48.png" 
-               alt="U Trap & Ventilation" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-48.png"
+               alt="U Trap & Ventilation"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -455,11 +456,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-49.png" 
-               alt="Soil Stack Capacity" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-49.png"
+               alt="Soil Stack Capacity"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -468,8 +469,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-50.png" 
-               alt="Discharge Units" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-50.png"
+               alt="Discharge Units"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -478,11 +479,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-51.png" 
-               alt="Soil Water Details" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-51.png"
+               alt="Soil Water Details"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -491,8 +492,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-52.png" 
-               alt="Urinal and WC Pipes" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-52.png"
+               alt="Urinal and WC Pipes"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -501,11 +502,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-53.png" 
-               alt="Petrol Interceptor" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-53.png"
+               alt="Petrol Interceptor"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -515,6 +516,7 @@ importance: 2
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Fire Protection Section -->
@@ -751,7 +753,7 @@ importance: 2
           <span class="spec-label">Tank capacity</span>
         </div>
       </div>
-      
+
       <div class="design-notes">
         <h4>Design Notes:</h4>
         <ul>
@@ -762,7 +764,7 @@ importance: 2
           <li>Pump sets: duty + standby + jockey for each zone</li>
         </ul>
       </div>
-      
+
       <div class="system-details">
         <div class="zone-details">
           <h4>Zone Configuration</h4>
@@ -772,7 +774,7 @@ importance: 2
             <li>Upper zone: 21/F to roof (41.5m)</li>
           </ul>
         </div>
-        
+
         <div class="pump-details">
           <h4>Pump Specifications</h4>
           <table class="spec-table">
@@ -797,11 +799,11 @@ importance: 2
           </table>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-70.png" 
-               alt="Sprinkler System Schematic" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-70.png"
+               alt="Sprinkler System Schematic"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -810,8 +812,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-20.png" 
-               alt="Hazard Classes" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-20.png"
+               alt="Hazard Classes"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -820,11 +822,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-29.png" 
-               alt="Sprinkler Zone Requirement" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-29.png"
+               alt="Sprinkler Zone Requirement"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -833,8 +835,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-30.png" 
-               alt="Sprinkler Tank" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-30.png"
+               alt="Sprinkler Tank"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -843,11 +845,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-31.png" 
-               alt="Sprinkler Head Spacing" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-31.png"
+               alt="Sprinkler Head Spacing"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -856,8 +858,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-32.png" 
-               alt="Pipe Sizing Reference" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-32.png"
+               alt="Pipe Sizing Reference"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -866,11 +868,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-33.png" 
-               alt="Sprinkler Hydraulic Calculation" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-33.png"
+               alt="Sprinkler Hydraulic Calculation"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -879,8 +881,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-34.png" 
-               alt="Sprinkler Head Selection" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-34.png"
+               alt="Sprinkler Head Selection"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -889,11 +891,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-68.png" 
-               alt="Sprinkler Tank Capacity" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-68.png"
+               alt="Sprinkler Tank Capacity"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -902,8 +904,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-69.png" 
-               alt="Pump Requirements" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-69.png"
+               alt="Pump Requirements"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -912,11 +914,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-71.png" 
-               alt="Sprinkler Head Spacing" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-71.png"
+               alt="Sprinkler Head Spacing"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -925,8 +927,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-72.png" 
-               alt="Pipe Sizing" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-72.png"
+               alt="Pipe Sizing"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -935,11 +937,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-73.png" 
-               alt="G/F Sprinkler Plan" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-73.png"
+               alt="G/F Sprinkler Plan"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -948,8 +950,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-74.png" 
-               alt="G/F Sprinkler Coverage" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-74.png"
+               alt="G/F Sprinkler Coverage"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -958,11 +960,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-75.png" 
-               alt="1/F Sprinkler Plan" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-75.png"
+               alt="1/F Sprinkler Plan"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -971,8 +973,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-76.png" 
-               alt="1/F Sprinkler Coverage" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-76.png"
+               alt="1/F Sprinkler Coverage"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -981,11 +983,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-77.png" 
-               alt="Typical Floors Sprinkler Plan" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-77.png"
+               alt="Typical Floors Sprinkler Plan"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -994,8 +996,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-78.png" 
-               alt="Typical Floors Sprinkler Coverage" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-78.png"
+               alt="Typical Floors Sprinkler Coverage"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -1004,11 +1006,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-79.png" 
-               alt="Roof Sprinkler Plan" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-79.png"
+               alt="Roof Sprinkler Plan"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -1017,8 +1019,8 @@ importance: 2
           </div>
         </div>
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-80.png" 
-               alt="Roof Sprinkler Coverage" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-80.png"
+               alt="Roof Sprinkler Coverage"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -1028,7 +1030,7 @@ importance: 2
         </div>
       </div>
     </article>
-    
+
     <article class="design-subsection fire-extinguisher">
       <h3 class="subsection-header">Fire Extinguishers</h3>
       <div class="extinguisher-details">
@@ -1039,11 +1041,11 @@ importance: 2
           <li>Bilingual signage throughout</li>
         </ul>
       </div>
-      
+
       <div class="image-comparison">
         <div class="image-card">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-35.png" 
-               alt="Fire Extinguisher Selection" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-35.png"
+               alt="Fire Extinguisher Selection"
                class="project-image"
                loading="lazy">
           <div class="image-meta">
@@ -1053,6 +1055,7 @@ importance: 2
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Engineering Calculations Section -->
@@ -1316,8 +1319,8 @@ importance: 2
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-3.png" 
-               alt="Loading Unit Calculation" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-3.png"
+               alt="Loading Unit Calculation"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1328,8 +1331,8 @@ importance: 2
       </div>
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/axa-center/plumbing_fire-19.png" 
-               alt="Hydraulic Calculation" 
+          <img src="/assets/img/projects/axa-center/plumbing_fire-19.png"
+               alt="Hydraulic Calculation"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1339,6 +1342,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
   
   <!-- Project Reflection Section -->

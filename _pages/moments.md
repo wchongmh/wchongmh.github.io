@@ -3,13 +3,14 @@ layout: page
 title: Moments
 permalink: /moments/
 description: "Moments from my award journey"
-nav: false  # Add to navigation menu
-nav_order: 5  # Adjust position in menu
+nav: false # Add to navigation menu
+nav_order: 5 # Adjust position in menu
 ---
 
 <div class="container mt-5">
 
 ### 📸 Photo Gallery
+
 <div class="row g-4">
   <!-- Photo 1 -->
   <div class="col-sm-6 col-lg-4">
@@ -41,6 +42,7 @@ nav_order: 5  # Adjust position in menu
 ---
 
 ### 🎥 Video Highlights
+
 <div class="row g-4 mt-4">
   <!-- Video 1 -->
   <div class="col-sm-6 col-lg-6">

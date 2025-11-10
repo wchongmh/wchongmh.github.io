@@ -129,6 +129,7 @@ importance: 1
         </div>
       </div>
     </div>
+
   </section>
  
   <!-- Building Background Section -->
@@ -151,10 +152,10 @@ importance: 1
         </ul>
       </div>
     </div>
-    
+
     <div class="building-details">
       <h3 class="subsection-header">Property Characteristics</h3>
-      
+
       <div class="detail-grid">
         <div class="detail-item">
           <span class="detail-icon">🏠</span>
@@ -177,18 +178,18 @@ importance: 1
           <span class="detail-value">Primary facade faces North</span>
         </div>
       </div>
-      
+
       <div class="location-images">
         <div class="location-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-3.png" 
-               alt="Property Location Map" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-3.png"
+               alt="Property Location Map"
                class="location-img"
                loading="lazy">
           <p class="location-caption">Location map of the property</p>
         </div>
         <div class="location-card">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-4.png" 
-               alt="Street View" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-4.png"
+               alt="Street View"
                class="location-img"
                loading="lazy">
           <p class="location-caption">Street view of the property</p>
@@ -198,18 +199,19 @@ importance: 1
 
     <div class="room-distribution">
       <h3 class="subsection-header">Room Distribution</h3>
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-30.png" 
-           alt="Room Distribution Table" 
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-30.png"
+           alt="Room Distribution Table"
            class="room-distribution-img"
            loading="lazy">
     </div>
     <div class="room-distribution">
       <h3 class="subsection-header">Room details specification</h3>
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-33.png" 
-           alt="Room details" 
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-33.png"
+           alt="Room details"
            class="room-distribution-img"
            loading="lazy">
     </div>
+
   </section>
 
   <!-- Design Standards Section -->
@@ -244,76 +246,76 @@ importance: 1
         </div>
       </div>
     </div>
-    
+
     <div class="standards-intro">
       <p>The design complies with multiple UK lighting standards and guidelines including BS EN 17037 for daylight in buildings and BS EN 12464-1 for lighting of indoor work places. The following diagrams illustrate key requirements considered in the design process.</p>
     </div>
-    
+
     <div class="standards-grid">
       <div class="standard-card">
         <h3>Lamp Performance Characteristics</h3>
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-5.png" 
-             alt="Lamp Performance Characteristics" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-5.png"
+             alt="Lamp Performance Characteristics"
              loading="lazy">
         <p>Energy efficient lighting guide for installers</p>
       </div>
-      
+
       <div class="standard-card">
         <h3>Lamp Types Comparison</h3>
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-6.png" 
-             alt="Lamp Types Comparison" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-6.png"
+             alt="Lamp Types Comparison"
              loading="lazy">
         <p>Energy efficient lighting guide for installers</p>
       </div>
     </div>
-    
+
     <h3 class="subsection-header">SLL Code for Lighting 2022 Recommendations</h3>
-    
+
     <div class="recommendations-grid">
       <div class="recommendation-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-7.png" 
-             alt="Corridors/Hallways and Stairs" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-7.png"
+             alt="Corridors/Hallways and Stairs"
              loading="lazy">
         <p>Corridors/Hallways and Stairs</p>
       </div>
       <div class="recommendation-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-8.png" 
-             alt="Bathrooms and Bedrooms" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-8.png"
+             alt="Bathrooms and Bedrooms"
              loading="lazy">
         <p>Bathrooms and Bedrooms</p>
       </div>
       <div class="recommendation-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-9.png" 
-             alt="Lounges" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-9.png"
+             alt="Lounges"
              loading="lazy">
         <p>Lounges</p>
       </div>
       <div class="recommendation-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-10.png" 
-             alt="Kitchen" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-10.png"
+             alt="Kitchen"
              loading="lazy">
         <p>Kitchen</p>
       </div>
     </div>
-    
+
     <h3 class="subsection-header">Daylight Recommendations</h3>
-    
+
     <div class="daylight-recommendations">
       <div class="daylight-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-11.png" 
-             alt="Sunlight Exposure" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-11.png"
+             alt="Sunlight Exposure"
              loading="lazy">
         <p>Sunlight exposure recommendations</p>
       </div>
       <div class="daylight-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-12.png" 
-             alt="Daylight Quantity" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-12.png"
+             alt="Daylight Quantity"
              loading="lazy">
         <p>Daylight quantity recommendations</p>
       </div>
       <div class="daylight-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-13.png" 
-             alt="UK Residential Rooms" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-13.png"
+             alt="UK Residential Rooms"
              loading="lazy">
         <p>UK residential room recommendations</p>
       </div>
@@ -333,12 +335,13 @@ importance: 1
           <p>Dirt correction factor of 0.9 was applied for urban setting.</p>
         </div>
         <div class="materials-image">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png"
                alt="Correction Factors Table"
                loading="lazy">
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- 3D Model Visualization -->
@@ -552,83 +555,84 @@ importance: 1
         </ul>
       </div>
     </div>
-    
+
     <div class="obstruction-details">
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-46.png" 
-           alt="Obstruction Details" 
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-46.png"
+           alt="Obstruction Details"
            loading="lazy">
       <p>External obstruction specifications</p>
     </div>
-    
+
     <h3 class="subsection-header">North Direction Obstruction</h3>
-    
+
     <div class="obstruction-grid">
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-47.png" 
-             alt="North Building Distance" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-47.png"
+             alt="North Building Distance"
              loading="lazy">
         <p>Distance measurement from Google Earth</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-48.png" 
-             alt="3D North Obstruction" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-48.png"
+             alt="3D North Obstruction"
              loading="lazy">
         <p>3D view of north obstruction</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-49.png" 
-             alt="Plan View North Obstruction" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-49.png"
+             alt="Plan View North Obstruction"
              loading="lazy">
         <p>Plan view of north obstruction</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-50.png" 
-             alt="North Building Dimensions" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-50.png"
+             alt="North Building Dimensions"
              loading="lazy">
         <p>North building dimensions</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-51.png" 
-             alt="North Geometry Settings" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-51.png"
+             alt="North Geometry Settings"
              loading="lazy">
         <p>North geometry settings in Dialux</p>
       </div>
     </div>
-    
+
     <h3 class="subsection-header">East Direction Obstruction</h3>
-    
+
     <div class="obstruction-grid">
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-52.png" 
-             alt="East Building Distance" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-52.png"
+             alt="East Building Distance"
              loading="lazy">
         <p>Distance measurement from Google Earth</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-53.png" 
-             alt="Plan View East Obstruction" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-53.png"
+             alt="Plan View East Obstruction"
              loading="lazy">
         <p>Plan view of east obstruction</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-54.png" 
-             alt="3D East Obstruction" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-54.png"
+             alt="3D East Obstruction"
              loading="lazy">
         <p>3D view of east obstruction</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-55.png" 
-             alt="East Building Dimensions" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-55.png"
+             alt="East Building Dimensions"
              loading="lazy">
         <p>East building dimensions</p>
       </div>
       <div class="obstruction-card">
-        <img src="/assets/img/projects/daylight-design/dialux_daylight-56.png" 
-             alt="East Geometry Settings" 
+        <img src="/assets/img/projects/daylight-design/dialux_daylight-56.png"
+             alt="East Geometry Settings"
              loading="lazy">
         <p>East geometry settings in Dialux</p>
       </div>
     </div>
+
   </section>
 
   <!-- Luminaire Selection Section -->
@@ -677,8 +681,8 @@ importance: 1
         </div>
         <div class="parameter-card">
           <h5>Correction Factors</h5>
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png" 
-               alt="Dirt Correction Factors" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-14.png"
+               alt="Dirt Correction Factors"
                class="param-img"
                loading="lazy">
         </div>
@@ -703,7 +707,7 @@ importance: 1
         <li>Compute average reflectance of room surfaces</li>
         <li>Apply Daylight Factor formula</li>
       </ol>
-      
+
       <div class="formula-box">
         <p>Daylight Factor Formula:</p>
         <p class="formula">DF<sub>ave</sub> = (Ag × θ × T) / [A × (1 - R<sup>2</sup>)]</p>
@@ -715,55 +719,55 @@ importance: 1
         R = Average reflectance</p>
       </div>
     </div>
-    
+
     <div class="calculations-intro">
       <p>Daylight Factor calculations were performed manually for each room with window openings, considering room dimensions, window properties, surface reflectances, and external obstructions. The following examples demonstrate the calculation methodology.</p>
     </div>
-    
+
     <h3 class="subsection-header">Ground Floor Calculations</h3>
-    
+
     <div class="calculation-room">
       <h4>Lounge (North)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-59.png" 
-               alt="Lounge Diagram" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-59.png"
+               alt="Lounge Diagram"
                loading="lazy">
           <p>Room diagram</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-60.png" 
-               alt="Lounge Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-60.png"
+               alt="Lounge Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-61.png" 
-               alt="Lounge Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-61.png"
+               alt="Lounge Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
       </div>
     </div>
-    
+
     <div class="calculation-room">
       <h4>Cloak (East)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-62.png" 
-               alt="Cloak Diagram" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-62.png"
+               alt="Cloak Diagram"
                loading="lazy">
           <p>Room diagram</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-63.png" 
-               alt="Cloak Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-63.png"
+               alt="Cloak Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-64.png" 
-               alt="Cloak Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-64.png"
+               alt="Cloak Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
@@ -774,14 +778,14 @@ importance: 1
       <h4>Kitchen (South)(With No External Obstruction)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-65.png" 
-               alt="Cloak Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-65.png"
+               alt="Cloak Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-66.png" 
-               alt="Cloak Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-66.png"
+               alt="Cloak Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
@@ -792,42 +796,42 @@ importance: 1
       <h4>Dinning Area (South)(With No External Obstruction)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-67.png" 
-               alt="Cloak Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-67.png"
+               alt="Cloak Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-68.png" 
-               alt="Cloak Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-68.png"
+               alt="Cloak Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
       </div>
     </div>
-    
+
     <!-- Additional ground floor rooms would follow same pattern -->
-    
+
     <h3 class="subsection-header">First Floor Calculations</h3>
-    
+
     <div class="calculation-room">
       <h4>Bedroom 1 (North)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-69.png" 
-               alt="Bedroom 1 Diagram" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-69.png"
+               alt="Bedroom 1 Diagram"
                loading="lazy">
           <p>Room diagram</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-70.png" 
-               alt="Bedroom 1 Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-70.png"
+               alt="Bedroom 1 Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-71.png" 
-               alt="Bedroom 1 Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-71.png"
+               alt="Bedroom 1 Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
@@ -838,20 +842,20 @@ importance: 1
       <h4>En-Suite (North)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-72.png" 
-               alt="Bedroom 1 Diagram" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-72.png"
+               alt="Bedroom 1 Diagram"
                loading="lazy">
           <p>Room diagram</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-73.png" 
-               alt="Bedroom 1 Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-73.png"
+               alt="Bedroom 1 Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-74.png" 
-               alt="Bedroom 1 Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-74.png"
+               alt="Bedroom 1 Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
@@ -862,14 +866,14 @@ importance: 1
       <h4>Bedroom 2 (South)(With No External Obstruction)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-75.png" 
-               alt="Cloak Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-75.png"
+               alt="Cloak Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-76.png" 
-               alt="Cloak Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-76.png"
+               alt="Cloak Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
@@ -880,14 +884,14 @@ importance: 1
       <h4>Bedroom 3 (South)(With No External Obstruction)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-77.png" 
-               alt="Cloak Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-77.png"
+               alt="Cloak Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-78.png" 
-               alt="Cloak Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-78.png"
+               alt="Cloak Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
@@ -898,27 +902,28 @@ importance: 1
       <h4>Bathroom (East)</h4>
       <div class="calculation-steps">
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-79.png" 
-               alt="Bedroom 1 Diagram" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-79.png"
+               alt="Bedroom 1 Diagram"
                loading="lazy">
           <p>Room diagram</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-80.png" 
-               alt="Bedroom 1 Surface Area" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-80.png"
+               alt="Bedroom 1 Surface Area"
                loading="lazy">
           <p>Surface area calculation</p>
         </div>
         <div class="step">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-81.png" 
-               alt="Bedroom 1 Reflectance" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-81.png"
+               alt="Bedroom 1 Reflectance"
                loading="lazy">
           <p>Reflectance & daylight factor</p>
         </div>
       </div>
     </div>
-    
+
     <!-- Additional first floor rooms would follow same pattern -->
+
   </section>
 
   <!-- Dialux Simulation Section -->
@@ -1245,7 +1250,7 @@ importance: 1
     <div class="energy-intro">
       <p>The analysis demonstrates significant energy savings potential through daylight-linked lighting controls:</p>
     </div>
-    
+
     <div class="energy-highlights">
       <div class="energy-card">
         <div class="energy-icon">💡</div>
@@ -1254,7 +1259,7 @@ importance: 1
           <span class="energy-label">Potential Savings</span>
         </div>
       </div>
-      
+
       <div class="energy-card">
         <div class="energy-icon">📉</div>
         <div class="energy-content">
@@ -1263,17 +1268,17 @@ importance: 1
         </div>
       </div>
     </div>
-    
+
     <div class="energy-intro">
       <p>The lighting energy consumption was analyzed comparing manual control with automatic/daylight-dependent control systems. The results demonstrate significant energy savings potential through intelligent lighting control strategies.</p>
     </div>
-    
+
     <div class="energy-summary">
-      <img src="/assets/img/projects/daylight-design/dialux_daylight-158.png" 
-           alt="Energy Efficiency Summary" 
+      <img src="/assets/img/projects/daylight-design/dialux_daylight-158.png"
+           alt="Energy Efficiency Summary"
            loading="lazy">
     </div>
-    
+
    <h3 class="subsection-header">Control Strategy Comparisons</h3>
     
     <div class="control-comparison">
@@ -1306,7 +1311,7 @@ importance: 1
         </div>
       </div>
     </div>
-    
+
     <div class="energy-savings">
       <h3 class="subsection-header">Total Energy Savings</h3>
       <div class="savings-card">
@@ -1315,7 +1320,7 @@ importance: 1
         <p>By implementing automatic/daylight-dependent lighting controls</p>
       </div>
     </div>
-    
+
     <div class="energy-notes">
       <p><strong>Key Findings:</strong></p>
       <ul>
@@ -1325,7 +1330,7 @@ importance: 1
         <li>Automatic controls most effective in frequently used spaces</li>
       </ul>
     </div>
-    
+
     <div class="control-strategies">
       <h3 class="subsection-header">Recommended Control Strategies</h3>
       <div class="strategies-content">
@@ -1339,15 +1344,16 @@ importance: 1
           </ul>
         </div>
         <div class="strategies-images">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-181.png" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-181.png"
                alt="Photocell Sensor"
                loading="lazy">
-          <img src="/assets/img/projects/daylight-design/dialux_daylight-183.png" 
+          <img src="/assets/img/projects/daylight-design/dialux_daylight-183.png"
                alt="T8 Lamps"
                loading="lazy">
         </div>
       </div>
     </div>
+
   </section>
 
    <!-- Safety Considerations -->
@@ -1456,7 +1462,7 @@ importance: 1
             <li>Bedroom 1 performed best while cloakroom performed worst in daylight metrics</li>
           </ul>
         </div>
-        
+
         <div class="findings-grid">
           <div class="finding-category">
             <h4>Key Strengths</h4>
@@ -1475,14 +1481,14 @@ importance: 1
             </ul>
           </div>
         </div>
-        
+
         <div class="project-outcome">
           <h3>Final Outcome</h3>
           <p>The comprehensive analysis combining manual calculations with Dialux simulations provides a robust foundation for optimizing both natural and artificial lighting in the property. The recommendations address safety concerns while maximizing energy efficiency and occupant comfort.</p>
         </div>
       </div>
     </div>
-    
+
     <div class="conclusion-content">
       <div class="conclusion-text">
         <h3>Key Takeaways</h3>
@@ -1492,11 +1498,12 @@ importance: 1
           <li>Automatic lighting controls offer substantial energy savings (225 kWh annually)</li>
           <li>Targeted improvements could enhance both daylight performance and safety</li>
         </ul>
-        
+
         <h3>Project Reflections</h3>
         <p>This comprehensive analysis demonstrated the value of combining manual calculations with simulation tools for robust daylight evaluation. While the property generally meets basic requirements, opportunities exist to optimize both daylight utilization and electric lighting efficiency through strategic design interventions.</p>
       </div>
     </div>
+
   </section>
 </div>
 

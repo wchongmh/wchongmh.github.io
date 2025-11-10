@@ -135,7 +135,7 @@ importance: 2
         </svg>
         Building Components
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <h4>Model Elements Created</h4>
@@ -148,11 +148,11 @@ importance: 2
             <li>Doors, windows, and other architectural components</li>
           </ul>
         </div>
-        
+
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-5.jpg" 
-                 alt="North Elevation Details" 
+            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-5.jpg"
+                 alt="North Elevation Details"
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -174,16 +174,16 @@ importance: 2
         </svg>
         Views and Documentation
       </h3>
-      
+
       <div class="diagram-description">
         <p>Multiple views were created to document the building design, including floor plans, ceiling plans, elevation views, section views, and 3D perspectives. All components were properly tagged for identification and scheduling.</p>
       </div>
-      
+
       <div class="diagram-grid">
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-6.jpg" 
-                 alt="Base Level Annotated Details" 
+            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-6.jpg"
+                 alt="Base Level Annotated Details"
                  class="diagram-image"
                  loading="lazy">
           </div>
@@ -192,11 +192,11 @@ importance: 2
             <span class="diagram-fig">Fig 4. Base level annotated details showing comprehensive documentation</span>
           </div>
         </div>
-        
+
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-7.jpg" 
-                 alt="Software Application Procedure" 
+            <img src="/assets/img/projects/energy-in-buildings/bim_coursework-7.jpg"
+                 alt="Software Application Procedure"
                  class="diagram-image"
                  loading="lazy">
           </div>
@@ -207,6 +207,7 @@ importance: 2
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Task 2: BIM Documentation Section -->
