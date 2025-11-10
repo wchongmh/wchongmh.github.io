@@ -53,24 +53,24 @@ latest_posts:
           <div class="w-100">
             <!-- First Education Item -->
             <div class="education-item">
-                <a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/smart-buildings-and-digital-engineering-msc"
+                <a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/smart-buildings-and-digital-engineering-msc" 
                target="_blank" class="education-link">
                 <h3 class="mb-1">MSc Smart Buildings and Digital Engineering</h3>
                 <p class="mb-0 text-muted">University College London, UCL</p>
                 </a>
             </div>
-
+            
             <!-- Second Education Item with proper spacing -->
             <div class="education-item">
-                <a href="https://www.gcu.ac.uk/study/courses/undergraduate-building-services-engineering-glasgow"
+                <a href="https://www.gcu.ac.uk/study/courses/undergraduate-building-services-engineering-glasgow" 
               target="_blank" class="education-link">
                 <h3 class="mb-1">BEng (Hons) Building Services Engineering</h3>
                 <p class="mb-0 text-muted">Glasgow Caledonian University</p>
                 </a>
-            </div>
+            </div>  
           </div>
         </div>
-
+        
         <div class="achievements mt-4">
           <!-- First Place Badge (Mobile-Fixed) -->
           <div class="achievement-highlight d-flex mb-3 overflow-hidden rounded">
@@ -90,8 +90,8 @@ latest_posts:
                   <i class="fas fa-medal me-1"></i> Distinguished Achievement
                 </span>
               </div>
-              <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment"
-                 target="_blank"
+              <a href="https://www.gcu.ac.uk/aboutgcu/universitynews/celebrating-success-in-the-school-of-computing,-engineering-and-built-environment" 
+                 target="_blank" 
                  class="btn btn-sm btn-outline-success mt-2">
                 <i class="fas fa-external-link-alt me-1"></i>View Scholarship Details
               </a>
@@ -116,8 +116,8 @@ latest_posts:
                   <i class="fas fa-globe-europe me-1"></i> International Recognition
                 </span>
               </div>
-              <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html"
-                 target="_blank"
+              <a href="https://www.vtc.edu.hk/home/en/media-newsroom/vtc-digest/ive-engineering-students-conferred-scholarship-for-pursuing-professional-development-in-uk.html" 
+                 target="_blank" 
                  class="btn btn-sm btn-outline-info mt-2">
                 <i class="fas fa-external-link-alt me-1"></i>View Official Announcement
               </a>
@@ -133,7 +133,7 @@ latest_posts:
         <i class="fas fa-cogs me-2"></i>
         <span class="underline-title">Technical Expertise</span>
       </h3>
-
+      
       <div class="row g-4">
         <!-- HVAC Systems -->
         <div class="col-md-6 col-lg-4">
@@ -152,7 +152,7 @@ latest_posts:
             </div>
           </div>
         </div>
-
+        
         <!-- Acoustic Engineering -->
         <div class="col-md-6 col-lg-4">
           <div class="skill-card p-3 h-100 rounded">
@@ -170,7 +170,7 @@ latest_posts:
             </div>
           </div>
         </div>
-
+        
         <!-- Lighting Design -->
         <div class="col-md-6 col-lg-4">
           <div class="skill-card p-3 h-100 rounded">
@@ -188,7 +188,7 @@ latest_posts:
             </div>
           </div>
         </div>
-
+        
         <!-- Fire Safety -->
         <div class="col-md-6 col-lg-4">
           <div class="skill-card p-3 h-100 rounded">
@@ -224,7 +224,7 @@ latest_posts:
             </div>
           </div>
         </div>
-
+        
         <!-- Pipe Network Optimization -->
         <div class="col-md-6 col-lg-4">
           <div class="skill-card p-3 h-100 rounded">
@@ -252,7 +252,7 @@ latest_posts:
           <i class="fas fa-microchip me-2"></i>
           <span class="underline-title">Technology Integration</span>
         </h3>
-
+        
         <div class="tech-grid">
           <!-- BIM -->
           <div class="tech-card bg-primary-gradient">
@@ -263,7 +263,7 @@ latest_posts:
             <p class="tech-desc">3D modeling with clash detection and construction sequencing</p>
             <div class="tech-badge">Revit | Navisworks</div>
           </div>
-
+          
           <!-- IoT -->
           <div class="tech-card bg-info-gradient">
             <div class="tech-icon">
@@ -273,7 +273,7 @@ latest_posts:
             <p class="tech-desc">Smart building sensors and real-time monitoring</p>
             <div class="tech-badge">BACnet | LoRaWAN</div>
           </div>
-
+          
           <!-- AI Solutions -->
           <div class="tech-card bg-purple-gradient">
             <div class="tech-icon">
@@ -283,7 +283,7 @@ latest_posts:
             <p class="tech-desc">Predictive maintenance and energy optimization</p>
             <div class="tech-badge">Machine Learning</div>
           </div>
-
+          
           <!-- Data Analytics -->
           <div class="tech-card bg-warning-gradient">
             <div class="tech-icon">
@@ -293,7 +293,7 @@ latest_posts:
             <p class="tech-desc">Performance benchmarking and KPI tracking</p>
             <div class="tech-badge text-dark">Power BI | Python</div>
           </div>
-
+          
           <!-- Sustainable Design -->
           <div class="tech-card bg-success-gradient">
             <div class="tech-icon">
@@ -306,7 +306,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -738,11 +737,11 @@ latest_posts:
       <div class="section-header d-flex align-items-center mb-4">
         <h3 class="mb-0 fw-semibold">🎓 Academic Excellence</h3>
       </div>
-
+      
       <div class="intro-text mb-4 p-3 bg-light bg-opacity-10 rounded-3 border-start border-primary border-4">
         <p class="mb-0 lead">
-          Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the
-          <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple
+          Graduated with distinction from both <strong>Glasgow Caledonian University</strong> and the 
+          <strong>Hong Kong Institute of Vocational Education (IVE Morrison Hill)</strong>, earning multiple 
           prestigious scholarships and awards that recognize academic achievement and leadership.
         </p>
       </div>
@@ -839,7 +838,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 
   <!-- Bootstrap JS Bundle with Popper -->
@@ -1122,7 +1120,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 
   <div class="research-summary mt-5 p-4 p-md-5 bg-light bg-opacity-10 rounded-4 text-center position-relative overflow-hidden">
@@ -1298,7 +1295,6 @@ latest_posts:
         This role honed my ability to translate BIM/IAQ theory into large-scale project execution, balancing precision with Hong Kong's high-density urban constraints.
       </p>
     </div>
-
   </div>
 </div>
 
@@ -1960,7 +1956,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -2604,6 +2599,7 @@ latest_posts:
 <!-- ========== Next Section: 🌱 Sustainability Commitment ========== -->
 <hr class="my-5 border-top border-2 border-primary opacity-25">
 
+
 <style>
   /* ===== Color Scheme Update ===== */
   :root {
@@ -2990,7 +2986,7 @@ latest_posts:
   </div>
 
   <!-- Neurodiversity Card (unchanged) -->
-
+  
 <style>
   /* ===== Optimized Color Scheme ===== */
   :root {
@@ -3487,12 +3483,12 @@ latest_posts:
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Animation for feature pills
             const features = document.querySelectorAll('.feature-pill');
-
+            
             features.forEach((feature, index) => {
                 setTimeout(() => {
                     feature.style.opacity = '1';
@@ -3501,7 +3497,6 @@ latest_posts:
             });
         });
     </script>
-
 </body>
 </html>
 
@@ -3685,23 +3680,23 @@ latest_posts:
                gap: 1.5rem;
                margin: 2rem auto;
            }
-
+        
            .progress-milestone {
                flex: 0 0 calc(33% - 1rem);
                min-width: 0;
            }
-
+        
            .milestone-dot {
                width: 36px;
                height: 36px;
            }
-
+        
            .milestone-label {
                font-size: 0.8rem;
                height: auto;
                min-height: 2.5em;
            }
-
+        
            .progress-line,
            .progress-fill {
                display: none;
@@ -3712,13 +3707,13 @@ latest_posts:
            .progress-milestone {
                flex: 0 0 calc(50% - 1rem);
            }
-
+        
            .milestone-label {
                font-size: 0.75rem;
                padding: 0 2px;
            }
         }
-
+        
         /* Animated background elements */
         .banner-bg-element {
             position: absolute;
@@ -3726,39 +3721,39 @@ latest_posts:
             opacity: 0.1;
             animation: float 15s infinite linear;
         }
-
+        
         @keyframes float {
             0% { transform: translateY(0) rotate(0deg); }
             50% { transform: translateY(-15px) rotate(180deg); }
             100% { transform: translateY(0) rotate(360deg); }
         }
-
+        
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
-
+        
         /* Responsive adjustments */
         @media (min-width: 576px) {
             .looking-ahead-banner {
                 padding: 1.5rem 0;
             }
-
+            
             .banner-title {
                 font-size: 1.5rem;
             }
-
+            
             .banner-title i {
                 font-size: 1.8rem;
                 margin-bottom: 0.5rem;
             }
-
+            
             .banner-subtitle {
                 font-size: 0.9rem;
                 padding: 0 0.5rem;
             }
-
+            
             .feature-pill {
                 padding: 0.7rem 1.5rem;
                 font-size: 0.9rem;
@@ -3770,13 +3765,13 @@ latest_posts:
                  gap: 0.5rem;
                 margin: 1.5rem auto;
             }
-
+    
             .progress-milestone {
                 width: 33%;
                 min-width: 80px;
                 margin-bottom: 1.5rem;
             }
-
+    
             .milestone-label {
                 font-size: 0.75rem;
                 word-break: break-word;
@@ -3784,71 +3779,70 @@ latest_posts:
                 padding: 0 5px;
                 line-height: 1.3;
             }
-
+    
             .progress-line,
             .progress-fill {
                 display: block;
                 left: 16%;
                 right: 16%;
             }
-
+    
             /* Feature pills adjustments */
             .banner-features {
                 gap: 0.6rem;
             }
-
+    
             .feature-pill {
                 padding: 0.5rem 1rem;
                 font-size: 0.8rem;
             }
-
+    
             .feature-pill i {
                 font-size: 0.9rem;
             }
         }
-
+        
         @media (min-width: 768px) {
             .looking-ahead-banner {
                 padding: 3rem 0;
             }
-
+            
             .banner-title {
                 font-size: 2.5rem;
             }
-
+            
             .banner-title i {
                 font-size: 2.8rem;
                 margin-right: 1.2rem;
             }
-
+            
             .banner-subtitle {
                 font-size: 1.3rem;
             }
-
+            
             .banner-features {
                 gap: 1.2rem;
             }
-
+            
             .feature-pill {
                 padding: 0.8rem 1.8rem;
                 font-size: 1rem;
             }
-
+            
             .progress-timeline {
                 flex-wrap: nowrap;
             }
-
+            
             .milestone-dot {
                 width: 34px;
                 height: 34px;
             }
-
+            
             .milestone-label {
                 font-size: 0.9rem;
             }
         }
     </style>
-
 </head>
 <body>
   
@@ -4131,26 +4125,26 @@ latest_posts:
             margin-bottom: 3rem;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-
+        
         .looking-ahead-banner i {
             margin-right: 0.75rem;
         }
-
+        
         /* Section Styling */
         .future-goals-section {
             background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f9 100%);
             padding: 2rem 0 4rem 0;
         }
-
+        
         .max-w-800 {
             max-width: 800px;
         }
-
+        
         /* Header Styling */
         .section-header {
             margin-bottom: 3.5rem;
         }
-
+        
         .section-badge {
             display: inline-block;
             background-color: rgba(78, 115, 223, 0.1);
@@ -4160,14 +4154,14 @@ latest_posts:
             padding: 0.5rem 1.25rem;
             margin-bottom: 1rem;
         }
-
+        
         .section-title {
             font-weight: 700;
             margin-bottom: 1rem;
             position: relative;
             display: inline-block;
         }
-
+        
         .section-title:after {
             content: '';
             position: absolute;
@@ -4179,7 +4173,7 @@ latest_posts:
             background: var(--primary);
             border-radius: 3px;
         }
-
+        
         /* Card Styling */
         .card {
             border: none;
@@ -4191,7 +4185,7 @@ latest_posts:
             position: relative;
             z-index: 1;
         }
-
+        
         .card:before {
             content: '';
             position: absolute;
@@ -4203,12 +4197,12 @@ latest_posts:
             z-index: -1;
             border-radius: 0.75rem;
         }
-
+        
         .card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
         }
-
+        
         .card-header {
             padding: 1.75rem;
             border-bottom: none;
@@ -4216,7 +4210,7 @@ latest_posts:
             z-index: 1;
             overflow: hidden;
         }
-
+        
         .card-header:after {
             content: '';
             position: absolute;
@@ -4229,13 +4223,13 @@ latest_posts:
             transform-origin: bottom;
             transform: skewY(-2deg);
         }
-
+        
         .card-header-icon {
             font-size: 2.5rem;
             opacity: 0.2;
             margin-right: 1rem;
         }
-
+        
         .card-badge {
             position: absolute;
             top: 1.5rem;
@@ -4243,24 +4237,24 @@ latest_posts:
             font-weight: 600;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-
+        
         .card-body {
             padding: 2rem;
         }
-
+        
         /* Card Type Specific */
         .professional-cert-card .card-header {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
         }
-
+        
         .training-program-card .card-header {
             background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
         }
-
+        
         .experience-card .card-header {
             background: linear-gradient(135deg, var(--info) 0%, var(--info-dark) 100%);
         }
-
+        
         /* Content Elements */
         .content-icon-box {
             width: 60px;
@@ -4272,45 +4266,45 @@ latest_posts:
             margin-right: 1rem;
             flex-shrink: 0;
         }
-
+        
         .content-title {
             font-weight: 600;
             margin-bottom: 0.25rem;
         }
-
+        
         .content-subtitle {
             font-size: 0.85rem;
             color: #6c757d;
         }
-
+        
         /* Feature List */
         .feature-list {
             margin: 1.5rem 0;
         }
-
+        
         .feature-item {
             display: flex;
             align-items: flex-start;
             margin-bottom: 0.75rem;
         }
-
+        
         .feature-icon {
             color: var(--primary);
             margin-right: 0.75rem;
             margin-top: 0.2rem;
             flex-shrink: 0;
         }
-
+        
         /* Timeline */
         .timeline-container {
             margin: 1.5rem 0;
         }
-
+        
         .timeline {
             position: relative;
             padding-left: 2rem;
         }
-
+        
         .timeline:before {
             content: '';
             position: absolute;
@@ -4320,12 +4314,12 @@ latest_posts:
             width: 2px;
             background: #e9ecef;
         }
-
+        
         .timeline-item {
             position: relative;
             margin-bottom: 1.5rem;
         }
-
+        
         .timeline-badge {
             position: absolute;
             left: -1.95rem;
@@ -4336,17 +4330,17 @@ latest_posts:
             border: 3px solid white;
             z-index: 1;
         }
-
+        
         .timeline-content {
             padding-left: 0.5rem;
         }
-
+        
         .timeline-title {
             font-weight: 600;
             margin-bottom: 0.25rem;
             font-size: 1rem;
         }
-
+        
         /* Sector Grid */
         .sectors-grid {
             display: grid;
@@ -4354,7 +4348,7 @@ latest_posts:
             gap: 0.75rem;
             margin: 1.5rem 0;
         }
-
+        
         .sector-badge {
             display: flex;
             align-items: center;
@@ -4370,7 +4364,7 @@ latest_posts:
             font-size: 0.9rem;
             line-height: 1.3;
         }
-
+        
         .sector-badge i {
             margin-right: 0.5rem;
             flex-shrink: 0;
@@ -4413,18 +4407,18 @@ latest_posts:
             color: var(--pink) !important;
             border: 1px solid rgba(214, 51, 132, 0.2) !important;
         }
-
+        
         .sector-badge.bg-indigo {
             background-color: rgba(102, 16, 242, 0.1) !important;
             color: var(--indigo) !important;
             border: 1px solid rgba(102, 16, 242, 0.2) !important;
         }
-
+        
         .sector-badge:hover {
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
-
+        
         /* Benefits Grid */
         .benefits-grid {
             display: grid;
@@ -4432,7 +4426,7 @@ latest_posts:
             gap: 0.75rem;
             margin: 1.5rem 0;
         }
-
+        
         .benefit-item {
             background-color: rgba(28, 200, 138, 0.05);
             border-radius: 8px;
@@ -4440,18 +4434,18 @@ latest_posts:
             text-align: center;
             transition: var(--transition);
         }
-
+        
         .benefit-item:hover {
             background-color: rgba(28, 200, 138, 0.1);
             transform: translateY(-3px);
         }
-
+        
         .benefit-icon {
             font-size: 1.25rem;
             margin-bottom: 0.5rem;
             color: var(--secondary);
         }
-
+        
         /* Highlight Items */
         .highlight-item {
             display: flex;
@@ -4461,11 +4455,11 @@ latest_posts:
             transition: var(--transition);
             margin-bottom: 0.75rem;
         }
-
+        
         .highlight-item:hover {
             background-color: rgba(54, 185, 204, 0.05);
         }
-
+        
         .highlight-icon {
             width: 40px;
             height: 40px;
@@ -4478,12 +4472,12 @@ latest_posts:
             color: white;
             font-size: 1rem;
         }
-
+        
         .highlight-title {
             font-weight: 600;
             margin-bottom: 0.25rem;
         }
-
+        
         /* Enhanced CIBSE Badge with Larger Logo */
        .cibse-badge {
             padding: 1rem 1.75rem;
@@ -4529,34 +4523,34 @@ latest_posts:
             transform: scale(1.08);
             filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15));
         }
-
+        
         /* Animations */
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
         }
-
+        
         .pulse {
             animation: pulse 2s infinite;
         }
-
+        
         /* Responsive Adjustments */
         @media (max-width: 992px) {
             .card-header {
                 padding: 1.5rem;
             }
-
+            
             .card-header .d-flex {
                 flex-direction: column;
                 text-align: center;
             }
-
+            
             .card-header-icon {
                 margin-right: 0;
                 margin-bottom: 1rem;
             }
-
+            
             .card-badge {
                 position: relative;
                 top: auto;
@@ -4565,34 +4559,34 @@ latest_posts:
                 display: inline-block;
             }
         }
-
+        
         @media (max-width: 768px) {
             .sectors-grid {
                 grid-template-columns: 1fr;
             }
-
+            
             .benefits-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-
+        
         @media (max-width: 576px) {
             .section-header {
                 margin-bottom: 2.5rem;
             }
-
+            
             .content-icon-box {
                 margin: 0 auto 1rem auto;
             }
-
+            
             .benefits-grid {
                 grid-template-columns: 1fr;
             }
-
+            
             .card-body {
                 padding: 1.5rem;
             }
-
+            
             .sector-badge {
                 min-height: 50px;
                 font-size: 0.85rem;
@@ -4610,7 +4604,6 @@ latest_posts:
             }
         }
     </style>
-
 </head>
 <body>
     <!-- Future Goals Section -->
@@ -4652,7 +4645,7 @@ latest_posts:
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Target completion within 5-6 years through structured development</p>
-
+                            
                             <div class="feature-list">
                                 <div class="feature-item">
                                     <i class="feature-icon fas fa-check-circle"></i>
@@ -4667,7 +4660,7 @@ latest_posts:
                                     <span>Commitment to professional development</span>
                                 </div>
                             </div>
-
+                            
                             <div class="border-top pt-4 mt-auto">
                                 <h5 class="h5 mb-3">Key Organizations:</h5>
                                 <div class="d-flex">
@@ -4706,7 +4699,7 @@ latest_posts:
                                 </div>
                             </div>
                             <p class="text-muted mb-4">Seeking accredited program participation with clear milestones</p>
-
+                            
                             <div class="timeline-container">
                                 <div class="timeline">
                                     <div class="timeline-item">
@@ -4734,7 +4727,7 @@ latest_posts:
                                     </div>
                                 </div>
                             </div>
-
+                            
                             <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Program Benefits:</h5>
                                 <div class="benefits-grid">
@@ -4778,7 +4771,7 @@ latest_posts:
                                     <small class="content-subtitle">Target sectors for development</small>
                                 </div>
                             </div>
-
+                            
                             <div class="sectors-grid">
                                 <div class="sector-badge bg-success">
                                     <i class="fas fa-tree-city"></i>
@@ -4805,7 +4798,7 @@ latest_posts:
                                     <span>IoT Integration</span>
                                 </div>
                             </div>
-
+                            
                             <div class="border-top pt-3">
                                 <h5 class="h6 mb-3">Experience Focus:</h5>
                                 <div class="highlight-item">
@@ -4845,7 +4838,6 @@ latest_posts:
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
 

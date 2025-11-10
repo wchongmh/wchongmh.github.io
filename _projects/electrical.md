@@ -97,8 +97,8 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/electrical/cheuk_nang-4.png"
-               alt="2-28/F system description"
+          <img src="/assets/img/projects/electrical/cheuk_nang-4.png" 
+               alt="2-28/F system description" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -110,11 +110,11 @@ importance: 2
           <span class="image-desc">System Description for 2-28/F public area</span>
         </div>
       </div>
-
+      
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/electrical/cheuk_nang-5.png"
-               alt="Roof system description"
+          <img src="/assets/img/projects/electrical/cheuk_nang-5.png" 
+               alt="Roof system description" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -127,7 +127,7 @@ importance: 2
         </div>
       </div>
     </div>
-
+    
     <div class="key-specs">
       <h3 class="specs-title">Key System Specifications</h3>
       <div class="specs-grid">
@@ -153,7 +153,6 @@ importance: 2
         </div>
       </div>
     </div>
-
   </section>
 
   <div class="facilities-overview">
@@ -200,7 +199,7 @@ importance: 2
         </svg>
         Power Distribution
       </h3>
-
+      
       <div class="system-details">
         <div class="system-type">
           <h4>Key Distribution Components</h4>
@@ -232,7 +231,7 @@ importance: 2
             <p>1250A TP&N MCCB protection</p>
           </div>
         </div>
-
+        
         <div class="system-types-grid">
           <div class="system-type-card">
             <div class="system-icon">🏗️</div>
@@ -259,8 +258,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-50.png"
-                   alt="G/F Distribution board"
+              <img src="/assets/img/projects/electrical/cheuk_nang-50.png" 
+                   alt="G/F Distribution board" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -272,11 +271,11 @@ importance: 2
               <span class="image-desc">G/F Non-Essential and essential Distribution board</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-51.png"
-                   alt="1/F Distribution board"
+              <img src="/assets/img/projects/electrical/cheuk_nang-51.png" 
+                   alt="1/F Distribution board" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -293,8 +292,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-52.png"
-                   alt="Typical Floor Tenant DB"
+              <img src="/assets/img/projects/electrical/cheuk_nang-52.png" 
+                   alt="Typical Floor Tenant DB" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -306,11 +305,11 @@ importance: 2
               <span class="image-desc">2-28/F (Typical Floor) Non-Essential tenant Distribution board</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-53.png"
-                   alt="Typical Floor Landlord DB"
+              <img src="/assets/img/projects/electrical/cheuk_nang-53.png" 
+                   alt="Typical Floor Landlord DB" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -327,8 +326,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-54.png"
-                   alt="Roof Distribution board"
+              <img src="/assets/img/projects/electrical/cheuk_nang-54.png" 
+                   alt="Roof Distribution board" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -340,11 +339,11 @@ importance: 2
               <span class="image-desc">R/F Non-Essential Distribution board</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-55.png"
-                   alt="LV Main Schematic"
+              <img src="/assets/img/projects/electrical/cheuk_nang-55.png" 
+                   alt="LV Main Schematic" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -367,11 +366,11 @@ importance: 2
         </svg>
         Emergency Systems
       </h3>
-
+      
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/electrical/cheuk_nang-6.png"
-               alt="Load estimation table"
+          <img src="/assets/img/projects/electrical/cheuk_nang-6.png" 
+               alt="Load estimation table" 
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
@@ -387,8 +386,8 @@ importance: 2
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-44.png"
-                 alt="Motor loading estimation"
+            <img src="/assets/img/projects/electrical/cheuk_nang-44.png" 
+                 alt="Motor loading estimation" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -400,11 +399,11 @@ importance: 2
             <span class="image-desc">Motor loading estimation of the whole building</span>
           </div>
         </div>
-
+        
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-45.png"
-                 alt="Total essential motor load"
+            <img src="/assets/img/projects/electrical/cheuk_nang-45.png" 
+                 alt="Total essential motor load" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -426,7 +425,7 @@ importance: 2
         </svg>
         Lighting System
       </h3>
-
+      
       <div class="system-details">
         <div class="lighting-specs">
           <h4>Lighting Design Standards</h4>
@@ -436,7 +435,7 @@ importance: 2
             <li>Energy-efficient LED fixtures throughout</li>
             <li>LPD meeting BEC code requirements</li>
           </ul>
-
+          
           <div class="lighting-table">
             <table>
               <thead>
@@ -474,8 +473,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-25.png"
-                   alt="Lighting lux requirement"
+              <img src="/assets/img/projects/electrical/cheuk_nang-25.png" 
+                   alt="Lighting lux requirement" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -487,11 +486,11 @@ importance: 2
               <span class="image-desc">Lighting lux requirement from CIBSE handbook</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-33.png"
-                   alt="Lighting schedule"
+              <img src="/assets/img/projects/electrical/cheuk_nang-33.png" 
+                   alt="Lighting schedule" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -508,8 +507,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-36.png"
-                   alt="G/F Lighting plan"
+              <img src="/assets/img/projects/electrical/cheuk_nang-36.png" 
+                   alt="G/F Lighting plan" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -521,11 +520,11 @@ importance: 2
               <span class="image-desc">G/F Lighting Circuit plan drawing</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-37.png"
-                   alt="1/F Lighting plan"
+              <img src="/assets/img/projects/electrical/cheuk_nang-37.png" 
+                   alt="1/F Lighting plan" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -542,8 +541,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-38.png"
-                   alt="Typical Floor Lighting plan"
+              <img src="/assets/img/projects/electrical/cheuk_nang-38.png" 
+                   alt="Typical Floor Lighting plan" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -555,11 +554,11 @@ importance: 2
               <span class="image-desc">2-28/F Typical Floor Lighting Circuit plan drawing</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-39.png"
-                   alt="Roof Lighting plan"
+              <img src="/assets/img/projects/electrical/cheuk_nang-39.png" 
+                   alt="Roof Lighting plan" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -574,7 +573,7 @@ importance: 2
         </div>
       </div>
     </article>
-
+    
     <article class="design-subsection">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -582,7 +581,7 @@ importance: 2
         </svg>
         Ventilation Systems
       </h3>
-
+      
       <div class="ventilation-examples">
         <div class="ventilation-case">
           <h4>Transformer Room Ventilation</h4>
@@ -594,7 +593,7 @@ importance: 2
             <li>Power: 972W</li>
           </ul>
         </div>
-
+        
         <div class="ventilation-case">
           <h4>Office Toilet Ventilation</h4>
           <ul>
@@ -610,8 +609,8 @@ importance: 2
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-13.png"
-                 alt="Ventilation flow rate Guideline"
+            <img src="/assets/img/projects/electrical/cheuk_nang-13.png" 
+                 alt="Ventilation flow rate Guideline" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -623,11 +622,11 @@ importance: 2
             <span class="image-desc">Ventilation flow rate Guideline for bathrooms/toilets/offices</span>
           </div>
         </div>
-
+        
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-14.png"
-                 alt="Engine room ventilation"
+            <img src="/assets/img/projects/electrical/cheuk_nang-14.png" 
+                 alt="Engine room ventilation" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -644,8 +643,8 @@ importance: 2
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-15.png"
-                 alt="Pump room ventilation"
+            <img src="/assets/img/projects/electrical/cheuk_nang-15.png" 
+                 alt="Pump room ventilation" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -657,11 +656,11 @@ importance: 2
             <span class="image-desc">Flow rate and air change standard for pump rooms</span>
           </div>
         </div>
-
+        
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-16.png"
-                 alt="Transformer room ventilation"
+            <img src="/assets/img/projects/electrical/cheuk_nang-16.png" 
+                 alt="Transformer room ventilation" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -678,8 +677,8 @@ importance: 2
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-17.png"
-                 alt="Clipsal MCE200/300"
+            <img src="/assets/img/projects/electrical/cheuk_nang-17.png" 
+                 alt="Clipsal MCE200/300" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -691,11 +690,11 @@ importance: 2
             <span class="image-desc">Catalogue Ventilation of Clipsal for MCE200 and MCE300</span>
           </div>
         </div>
-
+        
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-18.png"
-                 alt="Clipsal 6220-0"
+            <img src="/assets/img/projects/electrical/cheuk_nang-18.png" 
+                 alt="Clipsal 6220-0" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -712,8 +711,8 @@ importance: 2
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-19.png"
-                 alt="Clipsal OW series"
+            <img src="/assets/img/projects/electrical/cheuk_nang-19.png" 
+                 alt="Clipsal OW series" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -725,11 +724,11 @@ importance: 2
             <span class="image-desc">Catalogue Ventilation of Clipsal for OW3709, OW3733 and OW3816</span>
           </div>
         </div>
-
+        
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/electrical/cheuk_nang-20.png"
-                 alt="Clipsal EB series"
+            <img src="/assets/img/projects/electrical/cheuk_nang-20.png" 
+                 alt="Clipsal EB series" 
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -743,7 +742,6 @@ importance: 2
         </div>
       </div>
     </article>
-
   </section>
 
   <!-- Engineering Calculations Section -->
@@ -763,7 +761,7 @@ importance: 2
         <button class="tab-button" data-tab="ventilation">Ventilation</button>
         <button class="tab-button" data-tab="lighting">Lighting</button>
       </div>
-
+      
       <div class="tab-content active" id="load-estimation">
         <h4>ADMD Method Calculation</h4>
         <div class="calculation-grid">
@@ -788,8 +786,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-7.png"
-                   alt="G/F load estimation"
+              <img src="/assets/img/projects/electrical/cheuk_nang-7.png" 
+                   alt="G/F load estimation" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -801,11 +799,11 @@ importance: 2
               <span class="image-desc">Detail of estimation of total load table for G/F</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-8.png"
-                   alt="1/F load estimation"
+              <img src="/assets/img/projects/electrical/cheuk_nang-8.png" 
+                   alt="1/F load estimation" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -822,8 +820,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-9.png"
-                   alt="Typical floor load estimation"
+              <img src="/assets/img/projects/electrical/cheuk_nang-9.png" 
+                   alt="Typical floor load estimation" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -835,11 +833,11 @@ importance: 2
               <span class="image-desc">Detail of estimation of total load table for 2-28/F</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-10.png"
-                   alt="Roof load estimation"
+              <img src="/assets/img/projects/electrical/cheuk_nang-10.png" 
+                   alt="Roof load estimation" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -853,7 +851,7 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="tab-content" id="ventilation">
         <h4>Ventilation System Sizing</h4>
         <div class="specs-accordion">
@@ -879,8 +877,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-21.png"
-                   alt="3 Rows Unit"
+              <img src="/assets/img/projects/electrical/cheuk_nang-21.png" 
+                   alt="3 Rows Unit" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -892,11 +890,11 @@ importance: 2
               <span class="image-desc">Fail coil unit selection for 3 Rows Unit</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-22.png"
-                   alt="2 Rows Unit"
+              <img src="/assets/img/projects/electrical/cheuk_nang-22.png" 
+                   alt="2 Rows Unit" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -913,8 +911,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-23.png"
-                   alt="4 Rows Unit"
+              <img src="/assets/img/projects/electrical/cheuk_nang-23.png" 
+                   alt="4 Rows Unit" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -926,11 +924,11 @@ importance: 2
               <span class="image-desc">Fail coil unit selection for 4 Rows Unit</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-24.png"
-                   alt="AHU selection"
+              <img src="/assets/img/projects/electrical/cheuk_nang-24.png" 
+                   alt="AHU selection" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -944,7 +942,7 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="tab-content" id="lighting">
         <h4>Lighting Design Example</h4>
         <div class="lighting-example">
@@ -961,8 +959,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-26.png"
-                   alt="Light model LT-01"
+              <img src="/assets/img/projects/electrical/cheuk_nang-26.png" 
+                   alt="Light model LT-01" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -974,11 +972,11 @@ importance: 2
               <span class="image-desc">Lighting selection for Light model LT-01</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-27.png"
-                   alt="Light model LT-02"
+              <img src="/assets/img/projects/electrical/cheuk_nang-27.png" 
+                   alt="Light model LT-02" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -995,8 +993,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-28.png"
-                   alt="Light model LT-03"
+              <img src="/assets/img/projects/electrical/cheuk_nang-28.png" 
+                   alt="Light model LT-03" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -1008,11 +1006,11 @@ importance: 2
               <span class="image-desc">Lighting selection for Light model LT-03</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-29.png"
-                   alt="Light model LT-04 part 1"
+              <img src="/assets/img/projects/electrical/cheuk_nang-29.png" 
+                   alt="Light model LT-04 part 1" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -1029,8 +1027,8 @@ importance: 2
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-30.png"
-                   alt="Light model LT-04 part 2"
+              <img src="/assets/img/projects/electrical/cheuk_nang-30.png" 
+                   alt="Light model LT-04 part 2" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -1042,11 +1040,11 @@ importance: 2
               <span class="image-desc">Lighting selection for Light model LT-04 part 2</span>
             </div>
           </div>
-
+          
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/electrical/cheuk_nang-31.png"
-                   alt="Light model LT-05"
+              <img src="/assets/img/projects/electrical/cheuk_nang-31.png" 
+                   alt="Light model LT-05" 
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -1061,7 +1059,7 @@ importance: 2
         </div>
       </div>
     </div>
-
+    
     <article class="design-subsection calculations">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -1069,14 +1067,14 @@ importance: 2
         </svg>
         Load Calculations
       </h3>
-
+      
       <div class="calculation-tabs">
         <div class="tab-buttons">
           <button class="tab-button active" data-tab="admd-method">ADMD Method</button>
           <button class="tab-button" data-tab="cooling-load">Cooling Load</button>
           <button class="tab-button" data-tab="generator">Generator Sizing</button>
         </div>
-
+        
         <div class="tab-content active" id="admd-method">
           <h4>After Diversity Maximum Demand</h4>
           <div class="calculation-grid">
@@ -1105,8 +1103,8 @@ importance: 2
           <div class="image-comparison">
             <div class="image-card">
               <div class="image-wrapper">
-                <img src="/assets/img/projects/electrical/cheuk_nang-47.png"
-                     alt="ADMD method calculation"
+                <img src="/assets/img/projects/electrical/cheuk_nang-47.png" 
+                     alt="ADMD method calculation" 
                      class="project-image"
                      loading="lazy">
                 <div class="image-overlay">
@@ -1118,11 +1116,11 @@ importance: 2
                 <span class="image-desc">Load estimation for the whole building by ADMD method (1500kVA for each Transformer)</span>
               </div>
             </div>
-
+            
             <div class="image-card">
               <div class="image-wrapper">
-                <img src="/assets/img/projects/electrical/cheuk_nang-49.png"
-                     alt="Total loading demand"
+                <img src="/assets/img/projects/electrical/cheuk_nang-49.png" 
+                     alt="Total loading demand" 
                      class="project-image"
                      loading="lazy">
                 <div class="image-overlay">
@@ -1136,7 +1134,7 @@ importance: 2
             </div>
           </div>
         </div>
-
+        
         <div class="tab-content" id="cooling-load">
           <h4>Cooling Load Calculation</h4>
           <ul>
@@ -1146,7 +1144,7 @@ importance: 2
             <li>At PF=0.85 → 997.56kVA</li>
           </ul>
         </div>
-
+        
         <div class="tab-content" id="generator">
           <h4>Essential Load Calculation</h4>
           <ul>
@@ -1160,12 +1158,12 @@ importance: 2
         </div>
       </div>
     </article>
-
+    
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/electrical/cheuk_nang-11.png"
-               alt="Public Supply Feeders"
+          <img src="/assets/img/projects/electrical/cheuk_nang-11.png" 
+               alt="Public Supply Feeders" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1174,11 +1172,11 @@ importance: 2
           </div>
         </div>
       </div>
-
+      
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/electrical/cheuk_nang-12.png"
-               alt="Cable Sizing"
+          <img src="/assets/img/projects/electrical/cheuk_nang-12.png" 
+               alt="Cable Sizing" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1190,8 +1188,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/electrical/cheuk_nang-35.png"
-               alt="Lighting level data"
+          <img src="/assets/img/projects/electrical/cheuk_nang-35.png" 
+               alt="Lighting level data" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1203,8 +1201,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/electrical/cheuk_nang-46.png"
-               alt="Cable sizing data"
+          <img src="/assets/img/projects/electrical/cheuk_nang-46.png" 
+               alt="Cable sizing data" 
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -1214,7 +1212,6 @@ importance: 2
         </div>
       </div>
     </div>
-
   </section>
 
   <!-- Design Methodology Section -->
@@ -1299,8 +1296,8 @@ importance: 2
      <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/electrical/cheuk_nang-40.png"
-               alt="Roof Socket plan"
+          <img src="/assets/img/projects/electrical/cheuk_nang-40.png" 
+               alt="Roof Socket plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -1317,8 +1314,8 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/electrical/cheuk_nang-41.png"
-               alt="G/F Pump Room Socket plan"
+          <img src="/assets/img/projects/electrical/cheuk_nang-41.png" 
+               alt="G/F Pump Room Socket plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -1330,11 +1327,11 @@ importance: 2
           <span class="image-desc">G/F Typical Electrical Socket plan drawing (Pump Room)</span>
         </div>
       </div>
-
+      
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/electrical/cheuk_nang-42.png"
-               alt="Typical Floor Socket plan"
+          <img src="/assets/img/projects/electrical/cheuk_nang-42.png" 
+               alt="Typical Floor Socket plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -1351,8 +1348,8 @@ importance: 2
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/electrical/cheuk_nang-43.png"
-               alt="Roof Socket plan"
+          <img src="/assets/img/projects/electrical/cheuk_nang-43.png" 
+               alt="Roof Socket plan" 
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -1365,7 +1362,6 @@ importance: 2
         </div>
       </div>
     </div>
-
   </section>
   
   <!-- Project Reflection Section -->
