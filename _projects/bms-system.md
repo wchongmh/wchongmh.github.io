@@ -1,13 +1,13 @@
 ---
-title: "BMS Dashboard Development"  
+title: "BMS Dashboard Development"
 category: Smart Building
-description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations."  
-tech: [BMS, Siemens Desigo CC, Data Visualization, IoT Sensors, LoRaWAN]  
+description: "Engineered an interactive BMS dashboard enabling real-time monitoring, control, and data visualization of building systems, including alarm management. Integrated IoT sensors with legacy infrastructure to deliver a unified, scalable platform for commercial facility operations."
+tech: [BMS, Siemens Desigo CC, Data Visualization, IoT Sensors, LoRaWAN]
 image: /assets/img/projects/bms_system-1.jpg
 importance: 2
-github: # Optional link  
-demo: # Optional live demo link  
----  
+github: # Optional link
+demo: # Optional live demo link
+---
 
 <div class="bms-project">
   <h1 class="project-title">BMS Dashboard Development</h1>
@@ -96,6 +96,7 @@ demo: # Optional live demo link
         <li>Historical alarm trending</li>
       </ul>
     </div>
+
   </div>
 
   <div class="section-header">
@@ -563,4 +564,3 @@ demo: # Optional live demo link
   line-height: 1.7;
 }
 </style>
-

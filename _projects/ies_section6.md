@@ -137,6 +137,7 @@ importance: 1
         </div>
       </div>
     </div>
+
   </section>
 
   <div class="project-highlights">
@@ -169,48 +170,49 @@ importance: 1
 
     <div class="geometry-gallery">
       <div class="geometry-item">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-4.png" 
-             alt="Building Left View" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-4.png"
+             alt="Building Left View"
              class="geometry-img"
              loading="lazy">
         <p class="geometry-caption">Left View</p>
       </div>
       <div class="geometry-item">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-5.png" 
-             alt="Building Right View" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-5.png"
+             alt="Building Right View"
              class="geometry-img"
              loading="lazy">
         <p class="geometry-caption">Right View</p>
       </div>
       <div class="geometry-item">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-6.png" 
-             alt="Building Plan View" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-6.png"
+             alt="Building Plan View"
              class="geometry-img"
              loading="lazy">
         <p class="geometry-caption">Plan View</p>
       </div>
       <div class="geometry-item">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-7.png" 
-             alt="Building Axonometric View" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-7.png"
+             alt="Building Axonometric View"
              class="geometry-img"
              loading="lazy">
         <p class="geometry-caption">Axonometric View</p>
       </div>
       <div class="geometry-item">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-8.png" 
-             alt="Building Front View" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-8.png"
+             alt="Building Front View"
              class="geometry-img"
              loading="lazy">
         <p class="geometry-caption">Front View</p>
       </div>
       <div class="geometry-item">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-9.png" 
-             alt="Building Back View" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-9.png"
+             alt="Building Back View"
              class="geometry-img"
              loading="lazy">
         <p class="geometry-caption">Back View</p>
       </div>
     </div>
+
   </section>
 
   <!-- Compliance Requirements Section -->
@@ -223,7 +225,7 @@ importance: 1
     <div class="requirements-intro">
       <p>Section 6 of the Scottish Technical Standards establishes rigorous energy performance criteria for office buildings, including maximum CO₂ emissions, thermal performance standards, and system efficiency requirements.</p>
     </div>
-    
+
     <div class="regulations-content">
       <div class="regulation-card">
         <h3>Section 6 Key Requirements</h3>
@@ -236,7 +238,7 @@ importance: 1
           <li>Efficient lighting meeting visual environment standards</li>
         </ul>
       </div>
-      
+
       <article class="requirements-subsection">
         <h3 class="subsection-header">
           <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -244,11 +246,11 @@ importance: 1
           </svg>
           Key Standards
         </h3>
-        
+
         <div class="requirements-grid">
           <div class="requirement-card">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-10.png" 
-                 alt="Air Permeability Standards" 
+            <img src="/assets/img/projects/ies-section6/ies_coursework-10.png"
+                 alt="Air Permeability Standards"
                  class="requirement-img"
                  loading="lazy">
             <div class="requirement-content">
@@ -256,10 +258,10 @@ importance: 1
               <p>Required value of 5 m³/hr/m² at 50 Pa for non-domestic buildings (EN 15242)</p>
             </div>
           </div>
-          
+
           <div class="requirement-card">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-11.png" 
-                 alt="U-value Standards" 
+            <img src="/assets/img/projects/ies-section6/ies_coursework-11.png"
+                 alt="U-value Standards"
                  class="requirement-img"
                  loading="lazy">
             <div class="requirement-content">
@@ -267,10 +269,10 @@ importance: 1
               <p>U-values calculated per BS EN ISO 6946:2007 with thermal bridge considerations</p>
             </div>
           </div>
-          
+
           <div class="requirement-card">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-12.png" 
-                 alt="HVAC Standards" 
+            <img src="/assets/img/projects/ies-section6/ies_coursework-12.png"
+                 alt="HVAC Standards"
                  class="requirement-img"
                  loading="lazy">
             <div class="requirement-content">
@@ -278,10 +280,10 @@ importance: 1
               <p>EN 15243 defines SCoP for heating and SSEER for cooling efficiency metrics</p>
             </div>
           </div>
-          
+
           <div class="requirement-card">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-13.png" 
-                 alt="Lighting Standards" 
+            <img src="/assets/img/projects/ies-section6/ies_coursework-13.png"
+                 alt="Lighting Standards"
                  class="requirement-img"
                  loading="lazy">
             <div class="requirement-content">
@@ -292,6 +294,7 @@ importance: 1
         </div>
       </article>
     </div>
+
   </section>
 
   <!-- Modifications Section -->
@@ -304,36 +307,36 @@ importance: 1
     <div class="analysis-intro">
       <p>The initial energy simulation revealed significant non-compliance with Section 6 requirements, primarily due to inefficient building fabric and HVAC systems.</p>
     </div>
-    
+
     <div class="analysis-grid">
       <div class="analysis-card critical">
         <h3>Energy Consumption</h3>
         <p class="analysis-value">232.48 kWh/m²</p>
         <p class="analysis-comparison">vs 53.56 kWh/m² target</p>
       </div>
-      
+
       <div class="analysis-card critical">
         <h3>CO₂ Emissions</h3>
         <p class="analysis-value">98.5 kgCO₂/m²</p>
         <p class="analysis-comparison">vs 50 kgCO₂/m² limit</p>
       </div>
-      
+
       <div class="analysis-card">
         <h3>Average U-value</h3>
         <p class="analysis-value">0.83 W/m²K</p>
         <p class="analysis-comparison">vs 0.27 W/m²K target</p>
       </div>
-      
+
       <div class="analysis-card">
         <h3>Air Permeability</h3>
         <p class="analysis-value">10 m³/h.m²</p>
         <p class="analysis-comparison">vs 5 m³/h.m² target</p>
       </div>
     </div>
-    
+
     <article class="modification-subsection">
       <h3 class="subsection-header">Building Fabric Improvements</h3>
-      
+
       <div class="modification-content">
         <div class="modification-text">
           <p>Significant improvements were made to the building fabric to reduce heat loss and improve thermal performance:</p>
@@ -346,17 +349,17 @@ importance: 1
           </ul>
           <p>These changes resulted in a 22.8 kgCO₂/m² reduction in Building Emissions Rate (BER).</p>
         </div>
-        
+
         <div class="modification-images">
           <div class="modification-image">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-16.png" 
-                 alt="U-value Comparison" 
+            <img src="/assets/img/projects/ies-section6/ies_coursework-16.png"
+                 alt="U-value Comparison"
                  loading="lazy">
             <p>U-value comparison with Section 6 guidance</p>
           </div>
           <div class="modification-image">
-            <img src="/assets/img/projects/ies-section6/ies_coursework-17.png" 
-                 alt="Building Components" 
+            <img src="/assets/img/projects/ies-section6/ies_coursework-17.png"
+                 alt="Building Components"
                  loading="lazy">
             <p>Building component categories and descriptions</p>
           </div>
@@ -366,8 +369,8 @@ importance: 1
 
     <div class="fabric-comparison">
       <div class="comparison-card">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-18.png" 
-             alt="Detailed Fabric Values" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-18.png"
+             alt="Detailed Fabric Values"
              class="comparison-img"
              loading="lazy">
         <div class="comparison-content">
@@ -380,10 +383,10 @@ importance: 1
           </ul>
         </div>
       </div>
-      
+
       <div class="comparison-card">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-19.png" 
-             alt="Fabric Improvement Results" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-19.png"
+             alt="Fabric Improvement Results"
              class="comparison-img"
              loading="lazy">
         <div class="comparison-content">
@@ -416,8 +419,8 @@ importance: 1
         <span class="stat-label">Air Permeability</span>
       </div>
     </div>
-  </section>
 
+  </section>
 
     <article class="hvac-subsection">
       <h3 class="subsection-header">
@@ -430,7 +433,7 @@ importance: 1
       <div class="hvac-intro">
         <p>The HVAC system redesign focused on zone-specific solutions incorporating biomass energy sources and heat recovery, achieving a 17.7 kgCO₂/m² reduction in BER.</p>
       </div>
-      
+
       <div class="system-tabs">
         <div class="tab-buttons">
           <button class="tab-button active" data-tab="fan-coil">Fan Coil System</button>
@@ -439,7 +442,7 @@ importance: 1
           <button class="tab-button" data-tab="electric-heater">Electric Heater</button>
           <button class="tab-button" data-tab="dhw">DHW System</button>
         </div>
-        
+
         <div class="tab-content active" id="fan-coil">
           <div class="system-details">
             <div class="system-description">
@@ -452,16 +455,16 @@ importance: 1
               </ul>
             </div>
             <div class="system-images">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-20.png" 
-                   alt="Fan Coil System Data" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-20.png"
+                   alt="Fan Coil System Data"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-21.png" 
-                   alt="Fan Coil Emissions Impact" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-21.png"
+                   alt="Fan Coil Emissions Impact"
                    loading="lazy">
             </div>
           </div>
         </div>
-        
+
         <div class="tab-content" id="radiator">
           <div class="system-details">
             <div class="system-description">
@@ -474,16 +477,16 @@ importance: 1
               </ul>
             </div>
             <div class="system-images">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-22.png" 
-                   alt="Radiator Circuit Data" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-22.png"
+                   alt="Radiator Circuit Data"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-23.png" 
-                   alt="Radiator Emissions Impact" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-23.png"
+                   alt="Radiator Emissions Impact"
                    loading="lazy">
             </div>
           </div>
         </div>
-        
+
         <div class="tab-content" id="vav">
           <div class="system-details">
             <div class="system-description">
@@ -496,16 +499,16 @@ importance: 1
               </ul>
             </div>
             <div class="system-images">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-24.png" 
-                   alt="VAV System Data" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-24.png"
+                   alt="VAV System Data"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-25.png" 
-                   alt="VAV Emissions Impact" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-25.png"
+                   alt="VAV Emissions Impact"
                    loading="lazy">
             </div>
           </div>
         </div>
-        
+
         <div class="tab-content" id="electric-heater">
           <div class="system-details">
             <div class="system-description">
@@ -518,19 +521,19 @@ importance: 1
               </ul>
             </div>
             <div class="system-images">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-26.png" 
-                   alt="SFP Values" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-26.png"
+                   alt="SFP Values"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-27.png" 
-                   alt="Electric Heater Data" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-27.png"
+                   alt="Electric Heater Data"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-28.png" 
-                   alt="Electric Heater Emissions Impact" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-28.png"
+                   alt="Electric Heater Emissions Impact"
                    loading="lazy">
             </div>
           </div>
         </div>
-        
+
         <div class="tab-content" id="dhw">
           <div class="system-details">
             <div class="system-description">
@@ -543,24 +546,24 @@ importance: 1
               </ul>
             </div>
             <div class="system-images">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-29.png" 
-                   alt="DHW System Data" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-29.png"
+                   alt="DHW System Data"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-30.png" 
-                   alt="Aux Vent Equipment" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-30.png"
+                   alt="Aux Vent Equipment"
                    loading="lazy">
-              <img src="/assets/img/projects/ies-section6/ies_coursework-31.png" 
-                   alt="DHW Emissions Impact" 
+              <img src="/assets/img/projects/ies-section6/ies_coursework-31.png"
+                   alt="DHW Emissions Impact"
                    loading="lazy">
             </div>
           </div>
         </div>
       </div>
     </article>
-    
+
     <article class="modification-subsection">
       <h3 class="subsection-header">Lighting System Upgrade</h3>
-      
+
       <div class="lighting-content">
         <div class="lighting-text">
           <p>The lighting system was comprehensively redesigned to improve efficiency:</p>
@@ -572,16 +575,17 @@ importance: 1
           </ul>
           <p>These changes resulted in a 12.5 kgCO₂/m² reduction in BER.</p>
         </div>
-        
+
         <div class="lighting-images">
-          <img src="/assets/img/projects/ies-section6/ies_coursework-32.png" 
-               alt="Lighting Efficacy Data" 
+          <img src="/assets/img/projects/ies-section6/ies_coursework-32.png"
+               alt="Lighting Efficacy Data"
                loading="lazy">
-          <img src="/assets/img/projects/ies-section6/ies_coursework-33.png" 
-               alt="Lighting Emissions Impact" 
+          <img src="/assets/img/projects/ies-section6/ies_coursework-33.png"
+               alt="Lighting Emissions Impact"
                loading="lazy">
         </div>
       </div>
+
    </article>
 
   <!-- Renewables Section -->
@@ -643,7 +647,7 @@ importance: 1
     <div class="outcomes-intro">
       <p>The comprehensive energy efficiency improvements transformed the building from significant non-compliance to full adherence with Section 6 standards while enhancing occupant comfort and operational efficiency.</p>
     </div>
-    
+
     <div class="outcomes-grid">
       <div class="outcome-card">
         <div class="outcome-icon">📉</div>
@@ -654,7 +658,7 @@ importance: 1
           <li>11.91 kWh/m² renewable energy generation</li>
         </ul>
       </div>
-      
+
       <div class="outcome-card">
         <div class="outcome-icon">🏆</div>
         <h3>Compliance Achievements</h3>
@@ -664,7 +668,7 @@ importance: 1
           <li>Satisfied Scottish Technical Standards (2015-2023)</li>
         </ul>
       </div>
-      
+
       <div class="outcome-card">
         <div class="outcome-icon">🔄</div>
         <h3>System Improvements</h3>
@@ -676,7 +680,7 @@ importance: 1
         </ul>
       </div>
     </div>
-    
+
     <div class="results-content">
       <div class="results-text">
         <p>After implementing all modifications, the building achieved full compliance with Section 6 requirements:</p>
@@ -688,7 +692,7 @@ importance: 1
           <li>Renewable energy contributes significantly to energy needs</li>
         </ul>
       </div>
-      
+
       <div class="results-comparison">
         <div class="old-data">
           <h3>Initial Performance</h3>
@@ -699,7 +703,7 @@ importance: 1
             <li>U-value avg: 0.83 W/m²K</li>
           </ul>
         </div>
-        
+
         <div class="new-data">
           <h3>Final Performance</h3>
           <img src="/assets/img/projects/ies-section6/ies_coursework-40.png" alt="New Data">
@@ -710,10 +714,10 @@ importance: 1
           </ul>
         </div>
       </div>
-      
+
       <div class="final-compliance">
-        <img src="/assets/img/projects/ies-section6/ies_coursework-38.png" 
-             alt="Final Compliance Data" 
+        <img src="/assets/img/projects/ies-section6/ies_coursework-38.png"
+             alt="Final Compliance Data"
              loading="lazy">
         <p>The building now fully complies with Section 6 requirements with BER equal to the limit of 12.2 kgCO₂/m²</p>
       </div>
@@ -740,6 +744,7 @@ importance: 1
         </div>
       </div>
     </div>
+
   </section>
 
  <!-- Conclusion Section -->

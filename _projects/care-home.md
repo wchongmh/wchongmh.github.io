@@ -221,7 +221,7 @@ importance: 2
         </svg>
         Detection & Alarm Systems
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <h4>Gent Vigilon Plus Addressable System</h4>
@@ -232,35 +232,35 @@ importance: 2
             <li>Integrated voice evacuation and visual alarms (VADs)</li>
           </ul>
         </div>
-        
+
         <div class="system-types-grid">
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-75.png" 
-                 alt="Multi-sensor Detector" 
+            <img src="/assets/img/projects/care-home-design/fire_service-75.png"
+                 alt="Multi-sensor Detector"
                  class="system-device-img"
                  loading="lazy">
             <h5>Multi-sensor Detector</h5>
             <p>S-Quad series combining multiple detection methods</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-77.png" 
-                 alt="Manual Call Point" 
+            <img src="/assets/img/projects/care-home-design/fire_service-77.png"
+                 alt="Manual Call Point"
                  class="system-device-img"
                  loading="lazy">
             <h5>Manual Call Point</h5>
             <p>Resettable elements for reduced false alarms</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-73.png" 
-                 alt="Control Panel" 
+            <img src="/assets/img/projects/care-home-design/fire_service-73.png"
+                 alt="Control Panel"
                  class="system-device-img"
                  loading="lazy">
             <h5>Control Panel</h5>
             <p>Vigilon Plus 1-4 Loop system</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-74.png" 
-                 alt="Repeater Panel" 
+            <img src="/assets/img/projects/care-home-design/fire_service-74.png"
+                 alt="Repeater Panel"
                  class="system-device-img"
                  loading="lazy">
             <h5>Repeater Panel</h5>
@@ -268,10 +268,10 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="technical-specs">
         <h4 class="specs-title">Technical Specifications</h4>
-        
+
         <div class="specs-accordion">
           <details class="spec-group">
             <summary>Device Placement</summary>
@@ -301,7 +301,7 @@ importance: 2
               <li>Separate zones for stairs with pressurization</li>
             </ul>
           </details>
-          
+
           <details class="spec-group">
             <summary>Zoning Plan</summary>
             <div class="spec-image-grid">
@@ -315,7 +315,7 @@ importance: 2
               <li>Separate high-risk zones for kitchen/laundry</li>
             </ul>
           </details>
-          
+
           <details class="spec-group">
             <summary>Alarm Requirements</summary>
             <div class="spec-image-grid">
@@ -340,7 +340,7 @@ importance: 2
         </svg>
         Suppression Systems
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <h4>Automatic & Manual Suppression</h4>
@@ -353,35 +353,35 @@ importance: 2
             <li>12 CO₂ extinguishers near electrical risks</li>
           </ul>
         </div>
-        
+
         <div class="system-types-grid">
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-89.png" 
-                 alt="Sprinkler Head" 
+            <img src="/assets/img/projects/care-home-design/fire_service-89.png"
+                 alt="Sprinkler Head"
                  class="system-device-img"
                  loading="lazy">
             <h5>Sprinkler Heads</h5>
             <p>V2708 Pendent (155°F) throughout facility</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-78.png" 
-                 alt="Fire Blanket" 
+            <img src="/assets/img/projects/care-home-design/fire_service-78.png"
+                 alt="Fire Blanket"
                  class="system-device-img"
                  loading="lazy">
             <h5>Fire Blankets</h5>
             <p>1.2m x 1.2m in kitchens/laundry</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-79.png" 
-                 alt="Foam Extinguisher" 
+            <img src="/assets/img/projects/care-home-design/fire_service-79.png"
+                 alt="Foam Extinguisher"
                  class="system-device-img"
                  loading="lazy">
             <h5>Foam Extinguisher</h5>
             <p>2L film-forming foam (30m spacing)</p>
           </div>
           <div class="system-type-card">
-            <img src="/assets/img/projects/care-home-design/fire_service-80.png" 
-                 alt="CO2 Extinguisher" 
+            <img src="/assets/img/projects/care-home-design/fire_service-80.png"
+                 alt="CO2 Extinguisher"
                  class="system-device-img"
                  loading="lazy">
             <h5>CO₂ Extinguisher</h5>
@@ -389,11 +389,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-13.png" 
-               alt="Suppression System Diagram" 
+          <img src="/assets/img/projects/care-home-design/fire_service-13.png"
+               alt="Suppression System Diagram"
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
@@ -408,7 +408,7 @@ importance: 2
 
       <div class="technical-specs">
         <h4 class="specs-title">Sprinkler System Details</h4>
-        
+
         <div class="sprinkler-diagrams">
           <div class="sprinkler-diagram">
             <img src="/assets/img/projects/care-home-design/fire_service-16.png" alt="Ground Floor Sprinkler Layout" loading="lazy">
@@ -419,7 +419,7 @@ importance: 2
             <p>First floor sprinkler layout</p>
           </div>
         </div>
-        
+
         <div class="sprinkler-tables">
           <div class="sprinkler-table">
             <img src="/assets/img/projects/care-home-design/fire_service-90.png" alt="Sprinkler Categories" loading="lazy">
@@ -441,7 +441,7 @@ importance: 2
         </svg>
         Evacuation & Refuge Systems
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <h4>Specialized Evacuation for Vulnerable Occupants</h4>
@@ -452,7 +452,7 @@ importance: 2
             <li>Emergency Voice Communication System (Honeywell EVCS)</li>
           </ul>
         </div>
-        
+
         <div class="system-types-grid">
           <div class="system-type-card">
             <img src="/assets/img/projects/care-home-design/fire_service-45.png" alt="Evacuation Chair" class="system-device-img">
@@ -476,10 +476,10 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="technical-specs">
         <h4 class="specs-title">Evacuation Plans</h4>
-        
+
         <div class="evacuation-plans">
           <div class="evacuation-plan">
             <img src="/assets/img/projects/care-home-design/fire_service-5.png" alt="First Floor Evacuation" loading="lazy">
@@ -490,7 +490,7 @@ importance: 2
             <p>Ground floor evacuation plan</p>
           </div>
         </div>
-        
+
         <div class="evacuation-details">
           <div class="evacuation-detail">
             <img src="/assets/img/projects/care-home-design/fire_service-50.png" alt="Chair Operation" loading="lazy">
@@ -515,7 +515,7 @@ importance: 2
         </svg>
         Passive Protection
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <h4>Compartmentation & Structural Protection</h4>
@@ -526,7 +526,7 @@ importance: 2
             <li>Dorgard Pro smart door retainers for silent evacuation</li>
           </ul>
         </div>
-        
+
         <div class="system-types-grid">
           <div class="system-type-card">
             <img src="/assets/img/projects/care-home-design/fire_service-42.png" alt="Fire Damper" class="system-device-img">
@@ -550,10 +550,10 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="technical-specs">
         <h4 class="specs-title">Installation Details</h4>
-        
+
         <div class="damper-installation">
           <div class="damper-diagram">
             <img src="/assets/img/projects/care-home-design/fire_service-35.png" alt="Damper Installation Part 1" loading="lazy">
@@ -562,7 +562,7 @@ importance: 2
             <img src="/assets/img/projects/care-home-design/fire_service-36.png" alt="Damper Installation Part 2" loading="lazy">
           </div>
         </div>
-        
+
         <div class="fire-door-specs">
           <div class="door-spec">
             <img src="/assets/img/projects/care-home-design/fire_service-41.png" alt="Fire Door Specification" loading="lazy">
@@ -576,7 +576,7 @@ importance: 2
         </div>
       </div>
     </article>
-    
+
     <article class="design-subsection">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -584,11 +584,11 @@ importance: 2
         </svg>
         Specialized Safety Features
       </h3>
-      
+
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/care-home-design/fire_service-15.png" 
-               alt="Front Section View With Devices" 
+          <img src="/assets/img/projects/care-home-design/fire_service-15.png"
+               alt="Front Section View With Devices"
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
@@ -601,6 +601,7 @@ importance: 2
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Engineering Calculations Section -->
@@ -662,14 +663,14 @@ importance: 2
             <li>Material selection based on corrosion resistance</li>
           </ul>
           <div class="calculation-image">
-            <img src="/assets/img/projects/care-home-design/fire_service-86.png" 
-                 alt="Water Tank" 
+            <img src="/assets/img/projects/care-home-design/fire_service-86.png"
+                 alt="Water Tank"
                  class="calculation-image"
                  loading="lazy">
             <p class="image-caption">Pipe Materials International standards compliance</p>
           </div>
         </div>
-        
+
         <div class="tab-content" id="pump-calc">
           <h4>Pump Sizing</h4>
           <ul>
@@ -679,8 +680,8 @@ importance: 2
             <li>N+1 redundancy for critical systems</li>
           </ul>
           <div class="calculation-image">
-            <img src="/assets/img/projects/care-home-design/fire_service-88.png" 
-                 alt="Pump System" 
+            <img src="/assets/img/projects/care-home-design/fire_service-88.png"
+                 alt="Pump System"
                  class="calculation-image"
                  loading="lazy">
             <p class="image-caption">Vertical multistage duty/standby pump</p>
@@ -688,12 +689,12 @@ importance: 2
         </div>
       </div>
     </article>
-    
+
     <div class="calculation-gallery">
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-90.png" 
-               alt="Sprinkler Categories" 
+          <img src="/assets/img/projects/care-home-design/fire_service-90.png"
+               alt="Sprinkler Categories"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -705,8 +706,8 @@ importance: 2
 
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-91.png" 
-               alt="Hcalc Process" 
+          <img src="/assets/img/projects/care-home-design/fire_service-91.png"
+               alt="Hcalc Process"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -715,11 +716,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-92.png" 
-               alt="Flow Rates" 
+          <img src="/assets/img/projects/care-home-design/fire_service-92.png"
+               alt="Flow Rates"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -728,11 +729,11 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="calculation-item">
         <div class="calc-image-container">
-          <img src="/assets/img/projects/care-home-design/fire_service-93.png" 
-               alt="Temperature Ratings" 
+          <img src="/assets/img/projects/care-home-design/fire_service-93.png"
+               alt="Temperature Ratings"
                class="calc-image"
                loading="lazy">
           <div class="calc-overlay">
@@ -742,7 +743,7 @@ importance: 2
         </div>
       </div>
     </div>
-    
+
     <div class="calculation-summary">
       <h3 class="summary-title">Design Safety Factors</h3>
       <ul class="safety-factors">
@@ -752,6 +753,7 @@ importance: 2
         <li>Redundant power supplies for critical systems</li>
       </ul>
     </div>
+
   </section>
 
   <!-- System Schematics Section -->
@@ -925,7 +927,7 @@ importance: 2
     <div class="cost-intro">
       <p>The total system cost was carefully calculated to provide comprehensive protection while maintaining budget constraints. The phased implementation approach allows for cost spreading over multiple fiscal periods.</p>
     </div>
-    
+
     <div class="cost-visualization">
       <div class="cost-image">
         <img src="/assets/img/projects/care-home-design/fire_service-83.png" alt="Cost Summary Table" loading="lazy">
@@ -958,14 +960,14 @@ importance: 2
         </div>
       </div>
     </div>
-    
+
     <div class="cost-intro">
       <p>The total fire safety system cost represents approximately 3.2% of the overall construction budget, providing comprehensive protection while maintaining cost-effectiveness through strategic system selection.</p>
     </div>
       <div class="cost-notes">
         <p><strong>Notes:</strong> Costs include supply and installation with 10-year maintenance estimate. Additional 15% contingency included for potential variations during installation.</p>
       </div>
-    
+
     <div class="cost-breakdown01">
       <h3 class="breakdown-title">Budget Allocation</h3>
       <div class="breakdown-grid">
@@ -991,6 +993,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Implementation Section -->

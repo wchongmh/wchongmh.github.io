@@ -183,7 +183,7 @@ importance: 1
         </svg>
         Water Supply Systems
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <h4>Indirect Plumbing System</h4>
@@ -194,7 +194,7 @@ importance: 1
             <li>Dedicated booster pumps for top floors</li>
           </ul>
         </div>
-        
+
         <div class="system-types-grid">
           <div class="system-type-card">
             <div class="system-icon">💧</div>
@@ -218,10 +218,10 @@ importance: 1
           </div>
         </div>
       </div>
-      
+
       <div class="technical-specs">
         <h4 class="specs-title">Technical Specifications</h4>
-        
+
         <div class="specs-accordion">
           <details class="spec-group">
             <summary>Piping Systems</summary>
@@ -232,7 +232,7 @@ importance: 1
               <li>Color-coded insulation for easy identification</li>
             </ul>
           </details>
-          
+
           <details class="spec-group">
             <summary>Storage Tanks</summary>
             <ul>
@@ -242,7 +242,7 @@ importance: 1
               <li>Stainless steel construction with overflow protection</li>
             </ul>
           </details>
-          
+
           <details class="spec-group">
             <summary>Pumping Systems</summary>
             <ul>
@@ -263,16 +263,16 @@ importance: 1
         </svg>
         Schematic Diagrams
       </h3>
-      
+
       <div class="diagram-description">
         <p>The system schematics were developed using AutoCAD MEP with BIM coordination to identify and resolve clashes with structural and MEP components during the design phase. All diagrams comply with Hong Kong Water Supplies Department standards for public housing projects.</p>
       </div>
-      
+
       <div class="diagram-grid">
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/intern/plumbing_design-7.png" 
-                 alt="Fresh Water System Process Flow" 
+            <img src="/assets/img/projects/intern/plumbing_design-7.png"
+                 alt="Fresh Water System Process Flow"
                  class="diagram-image"
                  loading="lazy">
           </div>
@@ -281,11 +281,11 @@ importance: 1
             <span class="diagram-fig">Fig 3. Fresh water supply process from mains to rooftop tanks with intermediate boosting</span>
           </div>
         </div>
-        
+
         <div class="diagram-card">
           <div class="diagram-wrapper">
-            <img src="/assets/img/projects/intern/plumbing_design-6.jpg" 
-                 alt="Vertical Plumbing Line Diagram" 
+            <img src="/assets/img/projects/intern/plumbing_design-6.jpg"
+                 alt="Vertical Plumbing Line Diagram"
                  class="diagram-image"
                  loading="lazy">
           </div>
@@ -296,7 +296,7 @@ importance: 1
         </div>
       </div>
     </article>
-    
+
     <article class="design-subsection">
       <h3 class="subsection-header">
         <svg class="subsection-icon" viewBox="0 0 24 24">
@@ -304,11 +304,11 @@ importance: 1
         </svg>
         System Arrangement
       </h3>
-      
+
       <div class="system-arrangement">
         <div class="arrangement-image">
-          <img src="/assets/img/projects/intern/plumbing_design-8.jpg" 
-               alt="Fresh Water System Arrangement" 
+          <img src="/assets/img/projects/intern/plumbing_design-8.jpg"
+               alt="Fresh Water System Arrangement"
                class="arrangement-img"
                loading="lazy">
           <div class="arrangement-caption">
@@ -321,6 +321,7 @@ importance: 1
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Engineering Calculations Section -->
@@ -500,8 +501,8 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 1</div>
         <div class="step-image">
-          <img src="/assets/img/projects/intern/plumbing_design-16.jpg" 
-               alt="Pipe Sizing Step 1" 
+          <img src="/assets/img/projects/intern/plumbing_design-16.jpg"
+               alt="Pipe Sizing Step 1"
                class="step-img"
                loading="lazy">
         </div>
@@ -509,8 +510,8 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 2</div>
         <div class="step-image">
-          <img src="/assets/img/projects/intern/plumbing_design-17.jpg" 
-               alt="Pipe Sizing Step 2" 
+          <img src="/assets/img/projects/intern/plumbing_design-17.jpg"
+               alt="Pipe Sizing Step 2"
                class="step-img"
                loading="lazy">
         </div>
@@ -518,8 +519,8 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 3</div>
         <div class="step-image">
-          <img src="/assets/img/projects/intern/plumbing_design-18.jpg" 
-               alt="Pipe Sizing Step 3" 
+          <img src="/assets/img/projects/intern/plumbing_design-18.jpg"
+               alt="Pipe Sizing Step 3"
                class="step-img"
                loading="lazy">
         </div>
@@ -527,8 +528,8 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 4</div>
         <div class="step-image">
-          <img src="/assets/img/projects/intern/plumbing_design-19.jpg" 
-               alt="Pipe Sizing Step 4" 
+          <img src="/assets/img/projects/intern/plumbing_design-19.jpg"
+               alt="Pipe Sizing Step 4"
                class="step-img"
                loading="lazy">
         </div>
@@ -536,8 +537,8 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 5</div>
         <div class="step-image">
-          <img src="/assets/img/projects/intern/plumbing_design-20.jpg" 
-               alt="Pipe Sizing Step 5" 
+          <img src="/assets/img/projects/intern/plumbing_design-20.jpg"
+               alt="Pipe Sizing Step 5"
                class="step-img"
                loading="lazy">
         </div>
@@ -545,18 +546,19 @@ importance: 1
       <div class="step-item">
         <div class="step-number">Step 6</div>
         <div class="step-image">
-          <img src="/assets/img/projects/intern/plumbing_design-21.jpg" 
-               alt="Pipe Sizing Step 6" 
+          <img src="/assets/img/projects/intern/plumbing_design-21.jpg"
+               alt="Pipe Sizing Step 6"
                class="step-img"
                loading="lazy">
         </div>
       </div>
     </div>
-    
+
     <div class="methodology-conclusion">
       <h3 class="conclusion-title">Design Validation</h3>
       <p>The completed design was validated through hydraulic modeling software (Bentley WaterGEMS) to simulate various demand scenarios. The model confirmed adequate pressure at all fixtures during peak morning demand while maintaining pipe velocities below erosional thresholds during low-flow periods.</p>
     </div>
+
   </section>
   
   <!-- Supplementary Information Section -->

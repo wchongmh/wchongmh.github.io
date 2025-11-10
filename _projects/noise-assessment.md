@@ -113,6 +113,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Methodology Section -->
@@ -126,7 +127,7 @@ importance: 2
       <img src="/assets/img/projects/noise_assessment/lab204-environment-3.png" alt="RION NL-32 Sound Level Meter" loading="lazy">
       <p>Fig 1. The Sound Level Meter NL-32 by RION was used in this project to measure sound pressure level (dB/dBA) and sound frequency (Hz)</p>
     </div>
-    
+
     <div class="methodology-steps">
       <div class="step">
         <div class="step-number">1</div>
@@ -139,7 +140,7 @@ importance: 2
           </ul>
         </div>
       </div>
-      
+
       <div class="step">
         <div class="step-number">2</div>
         <div class="step-content">
@@ -150,7 +151,7 @@ importance: 2
           </ul>
         </div>
       </div>
-      
+
       <div class="step">
         <div class="step-number">3</div>
         <div class="step-content">
@@ -168,6 +169,7 @@ importance: 2
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Background Noise Section -->
@@ -197,8 +199,9 @@ importance: 2
         <button class="tab-button active" data-tab="background">Background Noise</button>
         <button class="tab-button" data-tab="workplace">Workplace Noise</button>
       </div>
-      
+
       <!-- Replace the existing "NC Compliance Failure" section with this: -->
+
 <div class="tab-content active" id="background">
 <div class="nc-compliance">
   <h4>NC Compliance Failure</h4>
@@ -236,13 +239,13 @@ importance: 2
             <img src="/assets/img/projects/noise_assessment/lab204-environment-4.png" alt="1st Inlet Photo" loading="lazy">
             <img src="/assets/img/projects/noise_assessment/lab204-environment-5.png" alt="1st Inlet Data" loading="lazy">
           </div>
-          
+
           <div class="location-analysis">
             <h5>Room Center</h5>
             <img src="/assets/img/projects/noise_assessment/lab204-environment-6.png" alt="Room Center Photo" loading="lazy">
             <img src="/assets/img/projects/noise_assessment/lab204-environment-7.png" alt="Room Center Data" loading="lazy">
           </div>
-          
+
           <div class="location-analysis">
             <h5>Under Motor</h5>
             <img src="/assets/img/projects/noise_assessment/lab204-environment-8.png" alt="Motor Location Photo" loading="lazy">
@@ -250,7 +253,7 @@ importance: 2
           </div>
         </div>
       </div>
-      
+
       <div class="tab-content" id="workplace">
         <div class="machine-results">
           <div class="machine-card">
@@ -332,8 +335,8 @@ importance: 2
 
     <div class="zone-diagrams">
       <div class="diagram-card">
-        <img src="/assets/img/projects/noise_assessment/lab204-environment-19.png" 
-             alt="Machine A Protection Zones" 
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-19.png"
+             alt="Machine A Protection Zones"
              class="diagram-image"
              loading="lazy">
         <div class="diagram-meta">
@@ -342,8 +345,8 @@ importance: 2
         </div>
       </div>
       <div class="diagram-card">
-        <img src="/assets/img/projects/noise_assessment/lab204-environment-20.png" 
-             alt="Machine B Protection Zones" 
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-20.png"
+             alt="Machine B Protection Zones"
              class="diagram-image"
              loading="lazy">
         <div class="diagram-meta">
@@ -352,8 +355,8 @@ importance: 2
         </div>
       </div>
       <div class="diagram-card">
-        <img src="/assets/img/projects/noise_assessment/lab204-environment-21.png" 
-             alt="Machine C Protection Zones" 
+        <img src="/assets/img/projects/noise_assessment/lab204-environment-21.png"
+             alt="Machine C Protection Zones"
              class="diagram-image"
              loading="lazy">
         <div class="diagram-meta">
@@ -371,6 +374,7 @@ importance: 2
       </div>
       <p>This exceeds the <strong>Second Action Level (90 dB(A))</strong> per Cap. 59T regulations.</p>
     </div>
+
   </section>
 
   <!-- Recommendations Section -->
@@ -431,6 +435,7 @@ importance: 2
     </article>
 
     <!-- In the Recommendations Section - Replace the existing PPE section with this: -->
+
 <article class="design-subsection">
   <h3 class="subsection-header">Personal Protective Equipment</h3>
   

@@ -135,17 +135,17 @@ importance: 1
         </svg>
         Window Specifications
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <p>Each room has at least one window on an external wall. Rooms numbered 0-4 and 1-4 have two windows each, while rooms numbered 0-11 and 1-11 serve as corridors without windows. The building has 11 windows per floor (22 total). The north and south vertical surfaces have about 50% glazing, with window height of 1.5m and 1m from base to window sill.</p>
         </div>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-6.png" 
-                   alt="Double Glazed Window Details" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-6.png"
+                   alt="Double Glazed Window Details"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -157,11 +157,11 @@ importance: 1
               <span class="image-desc">Details of double glazed type 6 windows</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-8.png" 
-                   alt="Window U-values Table" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-8.png"
+                   alt="Window U-values Table"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -184,17 +184,17 @@ importance: 1
         </svg>
         Wall Specifications
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <p>The wall design criteria include thermal insulation, thermal bridging, and air tightness. Thermal insulation is crucial for reducing heat loss through walls. The U-value of the wall is 0.27 W/m²K (slightly above the standard of 0.23 W/m²K). Air tightness is critical for reducing heat loss through walls.</p>
         </div>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-9.png" 
-                   alt="New Wall Details" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-9.png"
+                   alt="New Wall Details"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -206,11 +206,11 @@ importance: 1
               <span class="image-desc">Details of 'New Wall' type</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-11.png" 
-                   alt="Wall U-values Table" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-11.png"
+                   alt="Wall U-values Table"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -225,6 +225,7 @@ importance: 1
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Building Fabric Section -->
@@ -276,17 +277,17 @@ importance: 1
         </svg>
         U-value Calculations
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <p>Accurate input data is vital for U-value calculations in HEVACOMP. Dimensions, components, and glazing are all part of the design structure. Thermal bridging caused by conductive materials can lead to higher U-values and heat loss.</p>
         </div>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-7.png" 
-                   alt="U-value Calculation Method" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-7.png"
+                   alt="U-value Calculation Method"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -298,11 +299,11 @@ importance: 1
               <span class="image-desc">U-value calculation method for windows</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-10.png" 
-                   alt="U-value Regulations" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-10.png"
+                   alt="U-value Regulations"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -317,6 +318,7 @@ importance: 1
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Heat Loss Analysis Section -->
@@ -337,17 +339,17 @@ importance: 1
         </svg>
         Heat Loss Distribution
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <p>The total heat loss for the building is 35,144W. The pie chart shows that the largest proportion of heat losses is due to infiltration (38%), followed by glazing (28%). These two factors combined make up more than half of the heat loss in the building.</p>
         </div>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-12.png" 
-                   alt="Heat Loss Pie Chart" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-12.png"
+                   alt="Heat Loss Pie Chart"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -359,11 +361,11 @@ importance: 1
               <span class="image-desc">Heat loss distribution pie chart</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-13.png" 
-                   alt="Heat Loss Summary" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-13.png"
+                   alt="Heat Loss Summary"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -381,8 +383,8 @@ importance: 1
       <div class="image-comparison">
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/glasgow-office/hevacomp-14.png" 
-                 alt="Heat Loss Requirements" 
+            <img src="/assets/img/projects/glasgow-office/hevacomp-14.png"
+                 alt="Heat Loss Requirements"
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -394,11 +396,11 @@ importance: 1
             <span class="image-desc">Heat loss requirements and regulations</span>
           </div>
         </div>
-        
+
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/glasgow-office/hevacomp-15.png" 
-                 alt="System Performance Definitions" 
+            <img src="/assets/img/projects/glasgow-office/hevacomp-15.png"
+                 alt="System Performance Definitions"
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -420,17 +422,17 @@ importance: 1
         </svg>
         Room Heat Loss Examples
       </h3>
-      
+
       <div class="system-details">
         <div class="system-type">
           <p>Room 0-1 on ground floor has total heat losses of 2,017W with 1 radiator installed. Room 1-4 on first floor has total heat losses of 6,448W with 2 radiators installed. The difference is due to occupancy requirements between rooms.</p>
         </div>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-16.png" 
-                   alt="Room 0-1 Heat Loss" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-16.png"
+                   alt="Room 0-1 Heat Loss"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -442,11 +444,11 @@ importance: 1
               <span class="image-desc">Heat losses data for room 0-1 (ground floor)</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-17.png" 
-                   alt="Room 1-4 Heat Loss" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-17.png"
+                   alt="Room 1-4 Heat Loss"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -461,6 +463,7 @@ importance: 1
         </div>
       </div>
     </article>
+
   </section>
 
   <!-- Radiator System Section -->
@@ -478,8 +481,8 @@ importance: 1
       <div class="supplementary-card">
         <h3 class="supplementary-title">Radiator Specifications</h3>
         <div class="supplementary-image">
-          <img src="/assets/img/projects/glasgow-office/hevacomp-18.png" 
-               alt="Radiator Type Data" 
+          <img src="/assets/img/projects/glasgow-office/hevacomp-18.png"
+               alt="Radiator Type Data"
                class="supplementary-img"
                loading="lazy">
         </div>
@@ -493,12 +496,12 @@ importance: 1
           </ul>
         </div>
       </div>
-      
+
       <div class="supplementary-card">
         <h3 class="supplementary-title">Radiator Details</h3>
         <div class="supplementary-image">
-          <img src="/assets/img/projects/glasgow-office/hevacomp-19.png" 
-               alt="Radiator Photos" 
+          <img src="/assets/img/projects/glasgow-office/hevacomp-19.png"
+               alt="Radiator Photos"
                class="supplementary-img"
                loading="lazy">
         </div>
@@ -517,8 +520,8 @@ importance: 1
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/glasgow-office/hevacomp-20.png" 
-               alt="Radiator Data" 
+          <img src="/assets/img/projects/glasgow-office/hevacomp-20.png"
+               alt="Radiator Data"
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -530,11 +533,11 @@ importance: 1
           <span class="image-desc">CARADON STELRAD Elite K2 radiator data</span>
         </div>
       </div>
-      
+
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/glasgow-office/hevacomp-22.png" 
-               alt="Radiator Catalogue" 
+          <img src="/assets/img/projects/glasgow-office/hevacomp-22.png"
+               alt="Radiator Catalogue"
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -550,8 +553,8 @@ importance: 1
 
     <div class="image-card full-width">
       <div class="image-wrapper">
-        <img src="/assets/img/projects/glasgow-office/hevacomp-23.png" 
-             alt="EN 442 Certification" 
+        <img src="/assets/img/projects/glasgow-office/hevacomp-23.png"
+             alt="EN 442 Certification"
              class="project-image"
              loading="lazy">
         <div class="image-overlay">
@@ -563,6 +566,7 @@ importance: 1
         <span class="image-desc">EN 442 Certification Data by CETIAT</span>
       </div>
     </div>
+
   </section>
 
   <!-- Heating System Design Section -->
@@ -615,8 +619,8 @@ importance: 1
 
         <div class="image-card">
           <div class="image-wrapper">
-            <img src="/assets/img/projects/glasgow-office/hevacomp-26.png" 
-                 alt="Boiler Arrangement" 
+            <img src="/assets/img/projects/glasgow-office/hevacomp-26.png"
+                 alt="Boiler Arrangement"
                  class="project-image"
                  loading="lazy">
             <div class="image-overlay">
@@ -635,8 +639,8 @@ importance: 1
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-27.png" 
-                   alt="Heating Pipe System" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-27.png"
+                   alt="Heating Pipe System"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -648,11 +652,11 @@ importance: 1
               <span class="image-desc">Heating pipe system data</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-28.png" 
-                   alt="Heating Pump Data" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-28.png"
+                   alt="Heating Pump Data"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -669,8 +673,8 @@ importance: 1
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-29.png" 
-                   alt="Pipework Quantities" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-29.png"
+                   alt="Pipework Quantities"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -682,11 +686,11 @@ importance: 1
               <span class="image-desc">Pipework quantities for boiler system</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-30.png" 
-                   alt="Data Input" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-30.png"
+                   alt="Data Input"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -701,6 +705,7 @@ importance: 1
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Ventilation System Design Section -->
@@ -716,8 +721,8 @@ importance: 1
 
     <div class="image-card full-width">
       <div class="image-wrapper">
-        <img src="/assets/img/projects/glasgow-office/hevacomp-31.png" 
-             alt="Ventilation Rates" 
+        <img src="/assets/img/projects/glasgow-office/hevacomp-31.png"
+             alt="Ventilation Rates"
              class="project-image"
              loading="lazy">
         <div class="image-overlay">
@@ -733,8 +738,8 @@ importance: 1
     <div class="image-comparison">
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/glasgow-office/hevacomp-32.png" 
-               alt="Airflow Calculation" 
+          <img src="/assets/img/projects/glasgow-office/hevacomp-32.png"
+               alt="Airflow Calculation"
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -746,11 +751,11 @@ importance: 1
           <span class="image-desc">Airflow rate calculation for each space</span>
         </div>
       </div>
-      
+
       <div class="image-card">
         <div class="image-wrapper">
-          <img src="/assets/img/projects/glasgow-office/hevacomp-33.png" 
-               alt="Mechanical Ventilation" 
+          <img src="/assets/img/projects/glasgow-office/hevacomp-33.png"
+               alt="Mechanical Ventilation"
                class="project-image"
                loading="lazy">
           <div class="image-overlay">
@@ -766,8 +771,8 @@ importance: 1
 
     <div class="image-card full-width">
       <div class="image-wrapper">
-        <img src="/assets/img/projects/glasgow-office/hevacomp-35.png" 
-             alt="Ventilation System Plan" 
+        <img src="/assets/img/projects/glasgow-office/hevacomp-35.png"
+             alt="Ventilation System Plan"
              class="project-image"
              loading="lazy">
         <div class="image-overlay">
@@ -785,12 +790,12 @@ importance: 1
         <div class="rec-icon">💨</div>
         <h3>Supply Ventilation System</h3>
         <p>The occupied spaces are supplied with fresh external air through supply ventilation systems. The system was designed to reduce pressure drops and ensure even distribution throughout the building.</p>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-36.png" 
-                   alt="Supply Ductwork" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-36.png"
+                   alt="Supply Ductwork"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -802,11 +807,11 @@ importance: 1
               <span class="image-desc">Isometric view of supply ductwork</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-37.png" 
-                   alt="Supply Duct Sizing" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-37.png"
+                   alt="Supply Duct Sizing"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -823,8 +828,8 @@ importance: 1
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-38.png" 
-                   alt="Index Running Value" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-38.png"
+                   alt="Index Running Value"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -836,11 +841,11 @@ importance: 1
               <span class="image-desc">Index running value for supply system</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-39.png" 
-                   alt="Damper Losses" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-39.png"
+                   alt="Damper Losses"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -857,8 +862,8 @@ importance: 1
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-40.png" 
-                   alt="Ductwork Quantities" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-40.png"
+                   alt="Ductwork Quantities"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -870,11 +875,11 @@ importance: 1
               <span class="image-desc">Supply system ductwork quantities</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-41.png" 
-                   alt="Data Input" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-41.png"
+                   alt="Data Input"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -888,17 +893,17 @@ importance: 1
           </div>
         </div>
       </div>
-      
+
       <div class="recommendation-card">
         <div class="rec-icon">🌀</div>
         <h3>Extract Ventilation System</h3>
         <p>The extract system removes stale air from the building. Extract points are placed where pollutants are produced. The ductwork prevents recirculation or contamination of supply air.</p>
-        
+
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-42.png" 
-                   alt="Extract Ductwork" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-42.png"
+                   alt="Extract Ductwork"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -910,11 +915,11 @@ importance: 1
               <span class="image-desc">Isometric view of extract ductwork</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-43.png" 
-                   alt="Extract Duct Sizing" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-43.png"
+                   alt="Extract Duct Sizing"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -931,8 +936,8 @@ importance: 1
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-44.png" 
-                   alt="Extract Duct Data" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-44.png"
+                   alt="Extract Duct Data"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -944,11 +949,11 @@ importance: 1
               <span class="image-desc">Additional extract duct sizing data</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-45.png" 
-                   alt="Index Running Value" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-45.png"
+                   alt="Index Running Value"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -965,8 +970,8 @@ importance: 1
         <div class="image-comparison">
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-46.png" 
-                   alt="Ductwork Quantities" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-46.png"
+                   alt="Ductwork Quantities"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -978,11 +983,11 @@ importance: 1
               <span class="image-desc">Extract system ductwork quantities</span>
             </div>
           </div>
-          
+
           <div class="image-card">
             <div class="image-wrapper">
-              <img src="/assets/img/projects/glasgow-office/hevacomp-47.png" 
-                   alt="Data Input" 
+              <img src="/assets/img/projects/glasgow-office/hevacomp-47.png"
+                   alt="Data Input"
                    class="project-image"
                    loading="lazy">
               <div class="image-overlay">
@@ -997,6 +1002,7 @@ importance: 1
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Boiler Sizing Section -->
@@ -1021,7 +1027,7 @@ importance: 1
           <li>90% efficient boiler required</li>
         </ul>
       </div>
-      
+
       <div class="recommendation-card">
         <div class="rec-icon">⚖️</div>
         <h3>Final Boiler Size</h3>
@@ -1060,6 +1066,7 @@ importance: 1
       <h3 class="conclusion-title">Boiler Selection</h3>
       <p>Based on the analysis, the CARADON STELRAD Elite K2 boiler was selected with a size of 75.7kW to account for 90% efficiency. This ensures the boiler can meet both the LTHW and preheating supply air demands of the building.</p>
     </div>
+
   </section>
 
   <!-- Conclusion Section -->
@@ -1103,7 +1110,7 @@ importance: 1
             </div>
           </div>
         </div>
-        
+
         <div class="project-outcome">
           <h3>Final Assessment</h3>
           <p>The designed systems meet all regulatory requirements including Building Regulations Part F and the Boiler Efficiency Directive. With the recommended improvements, the building could achieve 15-20% greater energy efficiency while maintaining excellent indoor environmental quality.</p>
@@ -1111,8 +1118,8 @@ importance: 1
       </div>
 
       <p>These changes would significantly reduce heating losses, resulting in energy savings and cost effectiveness while maintaining indoor air quality.</p>
-</section>
 
+</section>
 
 <style>
 /* Base Styles */
