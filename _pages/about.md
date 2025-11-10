@@ -318,14 +318,14 @@ latest_posts:
     line-height: 1.2;
     margin-bottom: 1.5rem;
   }
-
+  
   .text-gradient {
     background: linear-gradient(135deg, #007bff, #00b894);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
-
+  
   .hero-divider {
     width: 120px;
     height: 5px;
@@ -334,14 +334,14 @@ latest_posts:
     border-radius: 3px;
     opacity: 0.8;
   }
-
+  
   .highlight {
     background-color: rgba(0, 184, 148, 0.15);
     padding: 0.15rem 0.4rem;
     border-radius: 4px;
     font-weight: 600;
   }
-
+  
   /* Achievement Badges - Now Mobile-Friendly */
   .badge-ribbon {
     width: 60px;
@@ -351,7 +351,7 @@ latest_posts:
     flex-shrink: 0;
     clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%);
   }
-
+  
   .badge-ribbon:after {
     content: "";
     position: absolute;
@@ -363,7 +363,7 @@ latest_posts:
     border-width: 0 15px 15px 0;
     border-color: transparent rgba(0,0,0,0.1) transparent transparent;
   }
-
+  
   .badge-sm-pill {
     display: inline-flex;
     align-items: center;
@@ -372,11 +372,11 @@ latest_posts:
     font-size: 0.75rem;
     font-weight: 500;
   }
-
+  
   .bg-success-light {
     background-color: rgba(40, 167, 69, 0.1);
   }
-
+  
   .bg-info-light {
     background-color: rgba(23, 162, 184, 0.1);
   }
@@ -401,7 +401,7 @@ latest_posts:
       text-decoration: none;
       color: inherit;
   }
-
+  
   /* Technical Expertise */
   .skill-badge {
     width: 36px;
@@ -412,13 +412,13 @@ latest_posts:
     justify-content: center;
     flex-shrink: 0;
   }
-
+  
   .skill-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
   }
-
+  
   .skill-tag {
     background-color: rgba(0, 0, 0, 0.05);
     padding: 0.2rem 0.6rem;
@@ -426,25 +426,25 @@ latest_posts:
     font-size: 0.7rem;
     color: #6c757d;
   }
-
+  
   .skill-card {
     background-color: white;
     border: 1px solid rgba(0,0,0,0.05);
     transition: all 0.3s ease;
   }
-
+  
   .skill-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   }
-
+  
   /* Technology Integration */
   .tech-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 20px;
   }
-
+  
   .tech-card {
     padding: 1.5rem;
     border-radius: 10px;
@@ -454,24 +454,24 @@ latest_posts:
     display: flex;
     flex-direction: column;
   }
-
+  
   .tech-card:hover {
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
   }
-
+  
   .tech-icon {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-
+  
   .tech-desc {
     font-size: 0.85rem;
     opacity: 0.9;
     margin-bottom: 1rem;
     flex-grow: 1;
   }
-
+  
   .tech-badge {
     background-color: rgba(255,255,255,0.2);
     padding: 0.3rem 0.8rem;
@@ -480,20 +480,20 @@ latest_posts:
     display: inline-block;
     backdrop-filter: blur(5px);
   }
-
+  
   /* Gradient Backgrounds */
   .bg-primary-gradient {
     background: linear-gradient(135deg, #007bff, #3d8bfd);
   }
-
+  
   .bg-info-gradient {
     background: linear-gradient(135deg, #17a2b8, #39b9d1);
   }
-
+  
   .bg-purple-gradient {
     background: linear-gradient(135deg, #6f42c1, #8e63e2);
   }
-
+  
   .bg-warning-gradient {
     background: linear-gradient(135deg, #ffc107, #ffca2c);
     color: white !important;
@@ -506,7 +506,7 @@ latest_posts:
   color: #000 !important;
   background-color: rgba(255,255,255,0.7) !important;
   }
-
+  
   .bg-success-gradient {
     background: linear-gradient(135deg, #28a745, #48c569);
   }
@@ -522,46 +522,46 @@ latest_posts:
     .achievement-highlight {
       flex-direction: column !important;
     }
-
+    
     /* Ribbon Reshapes for Mobile */
     .badge-ribbon {
       width: 100% !important;
       height: 50px !important;
       clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%) !important;
     }
-
+    
     /* Smaller Icon on Mobile */
     .badge-ribbon i {
       font-size: 1.5rem !important;
     }
-
+    
     /* Reduce Padding */
     .achievement-highlight .p-3 {
       padding: 1rem !important;
     }
-
+    
     /* Full-Width Buttons */
     .achievement-highlight .btn {
       width: 100% !important;
       margin-top: 0.5rem !important;
     }
-
+    
     /* Adjust Badge Spacing */
     .d-flex.flex-wrap.gap-2 {
       gap: 0.5rem !important;
     }
-
+    
     /* Smaller Badges */
     .badge-sm-pill {
       font-size: 0.65rem !important;
       padding: 0.2rem 0.5rem !important;
     }
-
+    
     /* Hero Title Scaling */
     .hero-title {
       font-size: 2rem !important;
     }
-
+    
     /* Tech Grid -> 1 Column */
     .tech-grid {
       grid-template-columns: 1fr !important;
@@ -595,37 +595,37 @@ latest_posts:
     :root {
       --bs-primary-rgb: 13, 110, 253;
     }
-
+    
     /* Enhanced animations and transitions */
     .transition-all {
       transition: all 0.25s ease-in-out;
     }
-
+    
     /* Award card hover effect */
     .award-card:hover {
       transform: translateY(-3px);
       box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1) !important;
     }
-
+    
     /* List item hover */
     .hover-bg-light:hover {
       background-color: rgba(var(--bs-primary-rgb), 0.05) !important;
     }
-
+    
     /* Gallery improvements */
     .gallery-preview-section {
       border-top: 4px solid var(--bs-primary);
       background: linear-gradient(to bottom, rgba(248, 249, 250, 0.5), white 90%);
     }
-
+    
     .gallery-item {
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-
+    
     .gallery-item:hover {
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-
+    
     .gallery-caption {
       font-size: 0.9rem;
       padding: 0.75rem;
@@ -639,34 +639,34 @@ latest_posts:
       transform: translateY(100%);
       transition: transform 0.3s ease;
     }
-
+    
     .gallery-item:hover .gallery-caption {
       transform: translateY(0);
     }
-
+    
     /* Responsive tweaks */
     @media (max-width: 992px) {
       .gallery-preview-section {
         text-align: center;
         padding: 2rem 0;
       }
-
+      
       .gallery-preview .col-12 .gallery-item {
         margin-top: 1rem;
       }
     }
-
+    
     @media (max-width: 576px) {
       .professional-journey-header h2 {
         font-size: 1.75rem;
       }
     }
-
+    
     /* Custom utilities */
     .bg-gradient-primary {
       background: linear-gradient(135deg, rgba(var(--bs-primary-rgb), 1) 0%, rgba(var(--bs-primary-rgb), 0.9) 100%) !important;
     }
-
+    
     /* Gallery styles moved here from the bottom */
     .gallery-preview-section {
       background-color: #f8f9fa;
@@ -674,22 +674,22 @@ latest_posts:
       border-radius: 0.5rem;
       border-top: 4px solid var(--bs-primary);
     }
-
+    
     .gallery-item {
       display: block;
       position: relative;
       transition: all 0.3s ease;
       overflow: hidden;
     }
-
+    
     .gallery-item img {
       transition: transform 0.5s ease;
     }
-
+    
     .gallery-item:hover img {
       transform: scale(1.03);
     }
-
+    
     .gallery-caption {
       position: absolute;
       bottom: 0;
@@ -702,21 +702,20 @@ latest_posts:
       transform: translateY(100%);
       transition: transform 0.3s ease;
     }
-
+    
     .gallery-item:hover .gallery-caption {
       transform: translateY(0);
     }
-
+    
     @media (max-width: 992px) {
       .gallery-preview-section {
         text-align: center;
       }
-
+      
       .gallery-preview .col-12 img {
         max-height: 200px; /* Adjust for mobile */
       }
     }
-
   </style>
 </head>
 <body>
@@ -849,7 +848,7 @@ latest_posts:
     // Simple animation trigger for elements
     document.addEventListener('DOMContentLoaded', function() {
       const animateElements = document.querySelectorAll('.animate-on-scroll');
-
+      
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
@@ -871,7 +870,7 @@ latest_posts:
 <!-- 📰 Media Recognition & Press Features -->
 <div class="press-section mb-5">
   <h4 class="mb-4">📰 Media Recognition & Press Features</h4>
-
+  
   <div class="lead mb-4">
     My achievements have been featured in <strong>Hong Kong's leading newspapers</strong>, recognizing my academic excellence and the prestigious <strong>Alistair Harvey Foundation Scholarship</strong>. These features highlight my contributions to STEM accessibility and vocational education success.
   </div>
@@ -1227,11 +1226,11 @@ latest_posts:
         </div>
       </div>
     </div>
-
+    
     <!-- Card Body with Refined Spacing -->
     <div class="card-body px-4 py-4">
       <!-- Project Highlight Section -->
-      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded position-relative"
+      <div class="project-highlight mb-4 p-3 bg-light bg-opacity-10 rounded position-relative" 
            style="box-shadow: inset 0 0 12px rgba(255, 193, 7, 0.05);">
         <div class="position-absolute top-0 start-0 h-100 bg-warning opacity-10" style="width: 3px;"></div>
         <h6 class="text-uppercase text-muted mb-2 fs-7 d-flex align-items-center">
@@ -1310,23 +1309,23 @@ latest_posts:
   .industry-experience-section {
     position: relative;
   }
-
+  
   .experience-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 0.75rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     overflow: hidden;
   }
-
+  
   .experience-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
   }
-
+  
   .card-header.bg-warning {
     background-color: #ffc107 !important;
   }
-
+  
   .contribution-badge {
     display: inline-flex;
     align-items: center;
@@ -1339,7 +1338,7 @@ latest_posts:
     flex-shrink: 0;
     margin-top: 0.25rem;
   }
-
+  
   .highlight-stat {
     background-color: rgba(255, 193, 7, 0.2);
     padding: 0.15rem 0.4rem;
@@ -1347,30 +1346,30 @@ latest_posts:
     font-weight: 600;
     transition: background-color 0.2s;
   }
-
+  
   .highlight-stat:hover {
     background-color: rgba(255, 193, 7, 0.3);
   }
-
+  
   .project-highlight {
     transition: all 0.3s ease;
     background-color: rgba(248, 249, 250, 0.5);
   }
-
+  
   .project-highlight:hover {
     box-shadow: inset 0 0 15px rgba(255, 193, 7, 0.1);
   }
-
+  
   .tools-section .badge {
     transition: all 0.25s ease;
   }
-
+  
   .tools-section .badge:hover {
     background-color: rgba(255,255,255,0.9) !important;
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
-
+  
   /* Fixed badge styles */
   .theme-icon {
     color: #ffc107 !important;
@@ -1422,33 +1421,33 @@ latest_posts:
   .experience-card .card-header {
     background: rgba(255, 193, 7, 0.1) !important;
   }
-
+  
   /* Mobile-specific fixes */
   @media (max-width: 768px) {
     .card-header > div {
       flex-direction: column;
       align-items: flex-start !important;
     }
-
+    
     .card-header .badge {
       margin-top: 0.5rem;
       align-self: flex-start;
     }
-
+    
     /* Perfect alignment for icon and text */
     .badge.d-inline-flex {
       display: inline-flex !important;
       align-items: center;
       height: auto;
     }
-
+    
     .theme-icon {
       position: relative;
       top: 0;
       margin-right: 0.5rem;
       line-height: normal;
     }
-
+    
     .theme-date-text {
       line-height: normal;
     }
@@ -1514,23 +1513,23 @@ latest_posts:
   .industry-experience-section {
     position: relative;
   }
-
+  
   .experience-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 0.75rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     overflow: hidden;
   }
-
+  
   .experience-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
   }
-
+  
   .card-header.bg-warning {
     background-color: #ffc107 !important;
   }
-
+  
   .contribution-badge {
     display: inline-flex;
     align-items: center;
@@ -1543,7 +1542,7 @@ latest_posts:
     flex-shrink: 0;
     margin-top: 0.25rem;
   }
-
+  
   .highlight-stat {
     background-color: rgba(255, 193, 7, 0.2);
     padding: 0.15rem 0.4rem;
@@ -1551,37 +1550,37 @@ latest_posts:
     font-weight: 600;
     transition: background-color 0.2s;
   }
-
+  
   .highlight-stat:hover {
     background-color: rgba(255, 193, 7, 0.3);
   }
-
+  
   .project-highlight {
     transition: all 0.3s ease;
     background-color: rgba(248, 249, 250, 0.5);
   }
-
+  
   .project-highlight:hover {
     box-shadow: inset 0 0 15px rgba(255, 193, 7, 0.1);
   }
-
+  
   .tools-section .badge {
     transition: all 0.25s ease;
   }
-
+  
   .tools-section .badge:hover {
     background-color: rgba(255,255,255,0.9) !important;
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
-
+  
   /* Improved responsive behavior */
   @media (max-width: 768px) {
     .card-header > div {
       flex-direction: column;
       align-items: flex-start !important;
     }
-
+    
     .card-header .badge {
       align-self: flex-start;
       margin-top: 0.5rem;
@@ -1652,7 +1651,7 @@ latest_posts:
       background-color: white !important;
       color: #212529 !important;
     }
-
+    
     /* Ensures text is never white */
     .theme-header-text,
     .theme-header-small,
@@ -1691,23 +1690,23 @@ latest_posts:
   .industry-experience-section {
     position: relative;
   }
-
+  
   .experience-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 0.75rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     overflow: hidden;
   }
-
+  
   .experience-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
   }
-
+  
   .card-header.bg-warning {
     background-color: #ffc107 !important;
   }
-
+  
   .contribution-badge {
     display: inline-flex;
     align-items: center;
@@ -1720,7 +1719,7 @@ latest_posts:
     flex-shrink: 0;
     margin-top: 0.25rem;
   }
-
+  
   .highlight-stat {
     background-color: rgba(255, 193, 7, 0.2);
     padding: 0.15rem 0.4rem;
@@ -1728,30 +1727,30 @@ latest_posts:
     font-weight: 600;
     transition: background-color 0.2s;
   }
-
+  
   .highlight-stat:hover {
     background-color: rgba(255, 193, 7, 0.3);
   }
-
+  
   .project-highlight {
     transition: all 0.3s ease;
     background-color: rgba(248, 249, 250, 0.5);
   }
-
+  
   .project-highlight:hover {
     box-shadow: inset 0 0 15px rgba(255, 193, 7, 0.1);
   }
-
+  
   .tools-section .badge {
     transition: all 0.25s ease;
   }
-
+  
   .tools-section .badge:hover {
     background-color: rgba(255,255,255,0.9) !important;
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
-
+  
   /* Fixed badge styles */
   .theme-icon {
     color: #ffc107 !important;
@@ -1799,14 +1798,14 @@ latest_posts:
   .experience-card .card-header {
     background: rgba(255, 193, 7, 0.1) !important;
   }
-
+  
   /* Improved responsive behavior */
   @media (max-width: 768px) {
     .card-header > div {
       flex-direction: column;
       align-items: flex-start !important;
     }
-
+    
     .card-header .badge {
       align-self: flex-start;
       margin-top: 0.5rem;
@@ -1825,7 +1824,7 @@ latest_posts:
       Leadership & Advocacy
     </h2>
   </div>
-
+  
   <div class="intro-text mb-5 p-4 rounded-4 border-start border-primary border-5" style="background-color: rgba(248, 249, 250, 0.9);">
     <p class="mb-0 fs-5">
       Beyond technical expertise, my <strong class="text-gradient-primary">leadership and advocacy</strong> within the engineering community have driven meaningful change and professional development.
@@ -1974,7 +1973,7 @@ latest_posts:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
   }
-
+  
   /* Original styles remain unchanged */
   .leadership-section { position: relative; }
   .text-gradient-primary {
@@ -1999,20 +1998,20 @@ latest_posts:
   .leadership-section {
     position: relative;
   }
-
+  
   .section-header .divider {
     height: 4px;
     width: 80px;
     opacity: 1;
   }
-
+  
   .text-gradient-primary {
     background: linear-gradient(45deg, #0d6efd, #20c997);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  
   .leadership-card {
     transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     border-radius: 12px;
@@ -2020,34 +2019,34 @@ latest_posts:
     border: 1px solid rgba(0,0,0,0.05);
     background-color: #ffffff !important;
   }
-
+  
   .leadership-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.15) !important;
     border-color: rgba(0,0,0,0.1);
   }
-
+  
   .transition-all {
     transition: all 0.3s ease;
   }
-
+  
   .leadership-list {
     list-style: none;
     padding-left: 0;
   }
-
+  
   .leadership-list li {
     position: relative;
   }
-
+  
   .card-header a:hover {
     opacity: 0.8;
   }
-
+  
   .hover-text-white-80:hover {
     opacity: 0.8;
   }
-
+  
   /* Button Enhancements */
   .btn-outline-primary {
     border-width: 2px;
@@ -2055,32 +2054,32 @@ latest_posts:
     color: #0d6efd;
     border-color: #0d6efd;
   }
-
+  
   .btn-outline-info {
     border-width: 2px;
     transition: all 0.3s ease;
     color: #0aa2c0;
     border-color: #0aa2c0;
   }
-
+  
   .btn-outline-warning {
     border-width: 2px;
     transition: all 0.3s ease;
     color: #e6a800;
     border-color: #e6a800;
   }
-
+  
   .btn-outline-success {
     border-width: 2px;
     transition: all 0.3s ease;
     color: #157347;
     border-color: #157347;
   }
-
+  
   .btn:hover {
     transform: translateY(-2px);
   }
-
+  
   .rounded-4 {
     border-radius: 1rem !important;
   }
@@ -2091,11 +2090,11 @@ latest_posts:
       padding: 1.5rem !important;
       background-color: rgba(248, 249, 250, 0.95) !important;
     }
-
+    
     .card-body, .card-footer {
       padding: 1rem !important;
     }
-
+    
     .leadership-card {
       border: 1px solid rgba(0,0,0,0.08) !important;
     }
@@ -2116,7 +2115,7 @@ latest_posts:
       .intro-text {
         background-color: rgba(248, 249, 250, 0.95) !important; /* Slightly more opaque on mobile */
     }
-
+  
     .leadership-card {
       border: 1px solid rgba(0,0,0,0.08) !important; /* Slightly more visible border on mobile */
     }
@@ -2128,46 +2127,46 @@ latest_posts:
   .leadership-section {
     position: relative;
   }
-
+  
   .text-globe {
     font-size: 1.5rem;
     vertical-align: middle;
     margin-left: 0.5rem;
   }
-
+  
   .leadership-card {
     transition: all 0.3s ease;
     border-radius: 0.5rem;
     overflow: hidden;
   }
-
+  
   .leadership-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   }
-
+  
   .leadership-list {
     list-style: none;
     padding-left: 0;
   }
-
+  
   .leadership-list li {
     margin-bottom: 0.75rem;
     position: relative;
     padding-left: 0.5rem;
   }
-
+  
   .card-header a:hover {
     text-decoration: underline !important;
   }
-
+  
   /* Responsive Adjustments */
   @media (max-width: 768px) {
     .leadership-card {
       margin-bottom: 1.5rem;
     }
   }
-
+  
   /* Button Enhancements */
   .btn-outline-primary {
     border-width: 2px;
@@ -2258,7 +2257,7 @@ latest_posts:
           </div>
         </div>
       </div>
-
+      
       <!-- Building Systems Card -->
       <div class="col-md-4">
         <div class="skill-card h-100">
@@ -2317,7 +2316,7 @@ latest_posts:
           </div>
         </div>
       </div>
-
+      
       <!-- Automation Card -->
       <div class="col-md-4">
         <div class="skill-card h-100">
@@ -2377,7 +2376,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -2478,7 +2476,7 @@ latest_posts:
   .skills-container {
     position: relative;
   }
-
+  
   .skill-card {
     background: white;
     border-radius: 12px;
@@ -2487,12 +2485,12 @@ latest_posts:
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.05);
   }
-
+  
   .skill-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
   }
-
+  
   .skill-header {
     color: white;
     padding: 1.25rem 1.5rem;
@@ -2500,38 +2498,38 @@ latest_posts:
     align-items: center;
     gap: 0.75rem;
   }
-
+  
   .skill-header i {
     font-size: 1.5rem;
   }
-
+  
   .skill-header h5 {
     margin: 0;
     font-weight: 600;
     font-size: 1.1rem;
   }
-
+  
   .skill-body {
     padding: 1.25rem 1.5rem;
   }
-
+  
   .skill-list {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-
+  
   .skill-list li {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 1rem;
   }
-
+  
   .skill-list li:last-child {
     margin-bottom: 0;
   }
-
+  
   .skill-badge {
     width: 26px;
     height: 26px;
@@ -2542,12 +2540,12 @@ latest_posts:
     color: white;
     font-size: 0.7rem;
   }
-
+  
   .skill-list li > div {
     flex: 1;
     min-width: 0; /* Prevent overflow */
   }
-
+  
   .skill-bar {
     height: 6px;
     background: rgba(0, 0, 0, 0.08);
@@ -2556,7 +2554,7 @@ latest_posts:
     overflow: hidden;
     position: relative;
   }
-
+  
   .skill-bar::after {
     content: '';
     position: absolute;
@@ -2568,7 +2566,7 @@ latest_posts:
     background: currentColor;
     transition: width 1s ease-out;
   }
-
+  
   /* Gradient Headers */
   .bg-primary-gradient {
     background: linear-gradient(135deg, #3a7bd5, #00d2ff);
@@ -2579,7 +2577,7 @@ latest_posts:
   .bg-danger-gradient {
     background: linear-gradient(135deg, #ff416c, #ff4b2b);
   }
-
+  
   /* Mobile Adjustments */
   @media (max-width: 768px) {
     .skill-card {
@@ -2772,7 +2770,7 @@ latest_posts:
       margin-right: 0 !important;
     }
   }
-
+  
   /* ===== Optimized Modern Enhancements ===== */
   /* Core Colors */
   :root {
@@ -2924,7 +2922,7 @@ latest_posts:
     <h2 class="mb-0 animate-float">🌱 Sustainability Commitment</h2>
     <div class="header-divider mx-auto my-3"></div>
   </div>
-
+  
   <!-- Intro Text with Subtle Background -->
   <div class="intro-text mb-4 p-4 rounded-4 bg-soft-green border-start border-4 border-success">
     <p class="lead mb-0 text-center">
@@ -2952,7 +2950,7 @@ latest_posts:
           </div>
         </div>
       </div>
-
+      
       <!-- Active Efficiency -->
       <div class="col-lg-4 col-md-6">
         <div class="pillar-card active-efficiency h-100 p-4 rounded-4 hover-scale">
@@ -2970,7 +2968,7 @@ latest_posts:
           </div>
         </div>
       </div>
-
+      
       <!-- Renewable Integration -->
       <div class="col-lg-4 col-md-6">
         <div class="pillar-card renewable-integration h-100 p-4 rounded-4 hover-scale">
@@ -2989,7 +2987,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 
   <!-- Neurodiversity Card (unchanged) -->
@@ -3131,7 +3128,7 @@ latest_posts:
     overflow: hidden;
     position: relative;
   }
-
+  
   .neurodiversity-card::before {
     content: '';
     position: absolute;
@@ -3144,22 +3141,22 @@ latest_posts:
     transition: all 0.6s ease;
     opacity: 0;
   }
-
+  
   .neurodiversity-card:hover {
     transform: translateY(-5px) scale(1.02);
     box-shadow: 0 12px 28px rgba(31, 38, 135, 0.1);
   }
-
+  
   .neurodiversity-card:hover::before {
     opacity: 1;
     animation: neuro-shine 3s ease infinite;
   }
-
+  
   @keyframes neuro-shine {
     0% { transform: rotate(30deg) translateX(-30%); }
     100% { transform: rotate(30deg) translateX(30%); }
   }
-
+  
   .neuro-icon {
     font-size: 1.75rem;
     transition: all 0.3s ease;
@@ -3173,12 +3170,12 @@ latest_posts:
     justify-content: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   }
-
+  
   .neurodiversity-card:hover .neuro-icon {
     transform: rotate(10deg) scale(1.1);
     background: linear-gradient(135deg, rgba(155,89,182,0.15) 0%, rgba(52,152,219,0.15) 100%);
   }
-
+  
   /* ===== Closing Statement Enhancements ===== */
   .closing-statement {
     background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%);
@@ -3188,7 +3185,7 @@ latest_posts:
     box-shadow: 0 5px 15px rgba(0,0,0,0.03);
     border-radius: 16px !important;
   }
-
+  
   .closing-statement::after {
     content: '';
     position: absolute;
@@ -3199,12 +3196,12 @@ latest_posts:
     background: linear-gradient(90deg, rgba(46,204,113,0.03) 0%, rgba(0,0,0,0) 30%);
     pointer-events: none;
   }
-
+  
   .closing-statement p {
     position: relative;
     z-index: 1;
   }
-
+  
   .closing-statement strong {
     background: linear-gradient(to right, var(--passive-color), var(--active-color));
     -webkit-background-clip: text;
@@ -3212,22 +3209,22 @@ latest_posts:
     color: transparent;
     transition: all 0.3s ease;
   }
-
+  
   .closing-statement:hover strong {
     text-shadow: 0 2px 8px rgba(46,204,113,0.2);
   }
-
+  
   /* ===== Responsive Adjustments ===== */
   @media (max-width: 768px) {
     .neurodiversity-card .d-flex {
       flex-direction: column;
       text-align: center;
     }
-
+    
     .neuro-icon {
       margin: 0 auto 1rem auto;
     }
-
+    
     .closing-statement {
       padding: 1.5rem !important;
     }
@@ -3296,7 +3293,7 @@ latest_posts:
             --gold: #ffc107;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-
+        
         /* Enhanced Looking Ahead Banner */
         .looking-ahead-banner {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -3308,7 +3305,7 @@ latest_posts:
             margin-bottom: 2rem;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
-
+        
         .looking-ahead-content {
             position: relative;
             z-index: 2;
@@ -3316,7 +3313,7 @@ latest_posts:
             margin: 0 auto;
             padding: 0 1rem;
         }
-
+        
         .banner-title {
             display: flex;
             align-items: center;
@@ -3327,7 +3324,7 @@ latest_posts:
             letter-spacing: 1px;
             flex-wrap: wrap;
         }
-
+        
         .banner-title i {
             margin-right: 1rem;
             font-size: 2.2rem;
@@ -3335,7 +3332,7 @@ latest_posts:
             flex: 0 0 100%;
             margin-bottom: 0.5rem;
         }
-
+        
         .banner-subtitle {
             font-size: 1.1rem;
             margin-bottom: 1.5rem;
@@ -3343,7 +3340,7 @@ latest_posts:
             line-height: 1.5;
             padding: 0 0.5rem;
         }
-
+        
         .banner-features {
             display: flex;
             justify-content: center;
@@ -3351,7 +3348,7 @@ latest_posts:
             gap: 0.8rem;
             margin-top: 1.5rem;
         }
-
+        
         .feature-pill {
             background: rgba(255,255,255,0.15);
             backdrop-filter: blur(5px);
@@ -3365,18 +3362,18 @@ latest_posts:
             font-size: 0.85rem;
             white-space: nowrap;
         }
-
+        
         .feature-pill:hover {
             transform: translateY(-3px);
             background: rgba(255,255,255,0.25);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
-
+        
         .feature-pill i {
             margin-right: 0.5rem;
             font-size: 1rem;
         }
-
+        
         /* Animated background elements */
         .banner-bg-element {
             position: absolute;
@@ -3384,74 +3381,73 @@ latest_posts:
             opacity: 0.1;
             animation: float 15s infinite linear;
         }
-
+        
         @keyframes float {
             0% { transform: translateY(0) rotate(0deg); }
             50% { transform: translateY(-15px) rotate(180deg); }
             100% { transform: translateY(0) rotate(360deg); }
         }
-
+        
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
-
+        
         /* Responsive adjustments */
         @media (min-width: 576px) {
             .looking-ahead-banner {
                 padding: 2.5rem 0;
             }
-
+            
             .banner-title {
                 font-size: 2.2rem;
                 flex-direction: row;
             }
-
+            
             .banner-title i {
                 flex: 0 0 auto;
                 margin-bottom: 0;
             }
-
+            
             .banner-subtitle {
                 font-size: 1.2rem;
             }
-
+            
             .feature-pill {
                 padding: 0.7rem 1.5rem;
                 font-size: 0.9rem;
             }
         }
-
+        
         @media (min-width: 768px) {
             .looking-ahead-banner {
                 padding: 3rem 0;
             }
-
+            
             .banner-title {
                 font-size: 2.5rem;
             }
-
+            
             .banner-title i {
                 font-size: 2.8rem;
                 margin-right: 1.2rem;
             }
-
+            
             .banner-subtitle {
                 font-size: 1.3rem;
             }
-
+            
             .banner-features {
                 gap: 1.2rem;
             }
-
+            
             .feature-pill {
                 padding: 0.8rem 1.8rem;
                 font-size: 1rem;
             }
         }
     </style>
-
 </head>
 <body>
     <!-- Enhanced Looking Ahead Banner -->
@@ -3460,14 +3456,14 @@ latest_posts:
         <div class="banner-bg-element" style="width: 150px; height: 150px; background: white; top: -50px; left: -50px; animation-delay: 0s;"></div>
         <div class="banner-bg-element" style="width: 120px; height: 120px; background: var(--secondary); bottom: -30px; right: 30px; animation-delay: 2s;"></div>
         <div class="banner-bg-element" style="width: 80px; height: 80px; background: var(--info); top: 30%; right: 10%; animation-delay: 4s;"></div>
-
+        
         <div class="looking-ahead-content">
             <div class="banner-title">
                 <i class="fas fa-binoculars"></i>
                 <span>LOOKING AHEAD</span>
             </div>
             <p class="banner-subtitle">Charting the course for professional excellence and innovation in building services engineering</p>
-
+            
             <div class="banner-features">
                 <div class="feature-pill">
                     <i class="fas fa-rocket"></i>
@@ -3536,7 +3532,7 @@ latest_posts:
             --gold: #ffc107;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-
+        
         /* Enhanced Looking Ahead Banner */
         .looking-ahead-banner {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -3548,7 +3544,7 @@ latest_posts:
             margin-bottom: 2rem;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
-
+        
         .looking-ahead-content {
             position: relative;
             z-index: 2;
@@ -3556,7 +3552,7 @@ latest_posts:
             margin: 0 auto;
             padding: 0 1rem;
         }
-
+        
         .banner-title {
             display: flex;
             align-items: center;
@@ -3567,7 +3563,7 @@ latest_posts:
             letter-spacing: 1px;
             flex-wrap: wrap;
         }
-
+        
         .banner-title i {
             margin-right: 1rem;
             font-size: 2.2rem;
@@ -3575,7 +3571,7 @@ latest_posts:
             flex: 0 0 100%;
             margin-bottom: 0.5rem;
         }
-
+        
         .banner-subtitle {
             font-size: 1.1rem;
             margin-bottom: 1.5rem;
@@ -3583,7 +3579,7 @@ latest_posts:
             line-height: 1.5;
             padding: 0 0.5rem;
         }
-
+        
         .banner-features {
             display: flex;
             justify-content: center;
@@ -3591,7 +3587,7 @@ latest_posts:
             gap: 0.8rem;
             margin-top: 1.5rem;
         }
-
+        
         .feature-pill {
             background: rgba(255,255,255,0.15);
             backdrop-filter: blur(5px);
@@ -3605,18 +3601,18 @@ latest_posts:
             font-size: 0.85rem;
             white-space: nowrap;
         }
-
+        
         .feature-pill:hover {
             transform: translateY(-3px);
             background: rgba(255,255,255,0.25);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
-
+        
         .feature-pill i {
             margin-right: 0.5rem;
             font-size: 1rem;
         }
-
+        
         /* Updated Progress Timeline - Works on all devices */
         .progress-timeline {
             display: flex;
@@ -3625,7 +3621,7 @@ latest_posts:
             max-width: 800px;
             justify-content: space-between;
          }
-
+    
         .progress-line {
             position: absolute;
             top: 20px;
@@ -3635,7 +3631,7 @@ latest_posts:
             background: rgba(255,255,255,0.3);
             z-index: 1;
         }
-
+    
         .progress-fill {
             position: absolute;
             top: 20px;
@@ -3645,7 +3641,7 @@ latest_posts:
             z-index: 2;
             transition: width 1s ease;
        }
-
+    
        .progress-milestone {
            position: relative;
            z-index: 3;
@@ -3653,7 +3649,7 @@ latest_posts:
            min-width: 60px;
            flex: 1;
        }
-
+    
        .milestone-dot {
            width: 40px;
            height: 40px;
@@ -3668,7 +3664,7 @@ latest_posts:
            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
            transition: var(--transition);
        }
-
+    
        .milestone-label {
            font-size: 0.85rem;
            opacity: 0.9;
@@ -3855,28 +3851,28 @@ latest_posts:
 
 </head>
 <body>
-
+  
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    
     <script>
         // Simple animation for the progress timeline
         document.addEventListener('DOMContentLoaded', function() {
             const milestones = document.querySelectorAll('.progress-milestone');
-
+            
             milestones.forEach((milestone, index) => {
                 // Add delay for each milestone animation
                 setTimeout(() => {
                     milestone.style.opacity = '1';
                 }, index * 300);
-
+                
                 // Click handler for interactive timeline
                 milestone.addEventListener('click', function() {
                     document.querySelectorAll('.milestone-dot').forEach(dot => {
                         dot.classList.remove('active');
                     });
                     this.querySelector('.milestone-dot').classList.add('active');
-
+                    
                     // Update progress fill width
                     const fill = document.querySelector('.progress-fill');
                     fill.style.width = `${(index / (milestones.length - 1)) * 80}%`;
@@ -3884,7 +3880,6 @@ latest_posts:
             });
         });
     </script>
-
 </body>
 </html>
 
@@ -3915,7 +3910,7 @@ latest_posts:
             --gold: #ffc107;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-
+        
         /* Enhanced Looking Ahead Banner */
         .looking-ahead-banner {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
@@ -3927,7 +3922,7 @@ latest_posts:
             margin-bottom: 2rem;
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
         }
-
+        
         .looking-ahead-content {
             position: relative;
             z-index: 2;
@@ -3935,7 +3930,7 @@ latest_posts:
             margin: 0 auto;
             padding: 0 1rem;
         }
-
+        
         .banner-title {
             display: flex;
             align-items: center;
@@ -3946,7 +3941,7 @@ latest_posts:
             letter-spacing: 1px;
             flex-wrap: wrap;
         }
-
+        
         .banner-title i {
             margin-right: 1rem;
             font-size: 2.2rem;
@@ -3954,7 +3949,7 @@ latest_posts:
             flex: 0 0 100%;
             margin-bottom: 0.5rem;
         }
-
+        
         .banner-subtitle {
             font-size: 1.1rem;
             margin-bottom: 1.5rem;
@@ -3962,7 +3957,7 @@ latest_posts:
             line-height: 1.5;
             padding: 0 0.5rem;
         }
-
+        
         .banner-features {
             display: flex;
             justify-content: center;
@@ -3970,7 +3965,7 @@ latest_posts:
             gap: 0.8rem;
             margin-top: 1.5rem;
         }
-
+        
         .feature-pill {
             background: rgba(255,255,255,0.15);
             backdrop-filter: blur(5px);
@@ -3984,18 +3979,18 @@ latest_posts:
             font-size: 0.85rem;
             white-space: nowrap;
         }
-
+        
         .feature-pill:hover {
             transform: translateY(-3px);
             background: rgba(255,255,255,0.25);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
-
+        
         .feature-pill i {
             margin-right: 0.5rem;
             font-size: 1rem;
         }
-
+        
         /* Animated background elements */
         .banner-bg-element {
             position: absolute;
@@ -4003,85 +3998,84 @@ latest_posts:
             opacity: 0.1;
             animation: float 15s infinite linear;
         }
-
+        
         @keyframes float {
             0% { transform: translateY(0) rotate(0deg); }
             50% { transform: translateY(-15px) rotate(180deg); }
             100% { transform: translateY(0) rotate(360deg); }
         }
-
+        
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
-
+        
         /* Responsive adjustments */
         @media (min-width: 576px) {
             .looking-ahead-banner {
                 padding: 2.5rem 0;
             }
-
+            
             .banner-title {
                 font-size: 2.2rem;
                 flex-direction: row;
             }
-
+            
             .banner-title i {
                 flex: 0 0 auto;
                 margin-bottom: 0;
             }
-
+            
             .banner-subtitle {
                 font-size: 1.2rem;
             }
-
+            
             .feature-pill {
                 padding: 0.7rem 1.5rem;
                 font-size: 0.9rem;
             }
         }
-
+        
         @media (min-width: 768px) {
             .looking-ahead-banner {
                 padding: 3rem 0;
             }
-
+            
             .banner-title {
                 font-size: 2.5rem;
             }
-
+            
             .banner-title i {
                 font-size: 2.8rem;
                 margin-right: 1.2rem;
             }
-
+            
             .banner-subtitle {
                 font-size: 1.3rem;
             }
-
+            
             .banner-features {
                 gap: 1.2rem;
             }
-
+            
             .feature-pill {
                 padding: 0.8rem 1.8rem;
                 font-size: 1rem;
             }
         }
     </style>
-
 </head>
 <body>
-
+   
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Animation for feature pills
             const features = document.querySelectorAll('.feature-pill');
-
+            
             features.forEach((feature, index) => {
                 setTimeout(() => {
                     feature.style.opacity = '1';
@@ -4090,7 +4084,6 @@ latest_posts:
             });
         });
     </script>
-
 </body>
 </html>
 
@@ -4120,7 +4113,7 @@ latest_posts:
             --blue: #0d6efd;
             --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-
+        
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             line-height: 1.6;
@@ -4627,9 +4620,9 @@ latest_posts:
             <div class="section-header text-center">
                 <h2 class="section-title display-5">Future Goals & Professional Journey</h2>
                 <p class="lead text-muted max-w-800 mx-auto">
-                    My passion is driven by the aspiration to become a professional Building Services Engineer,
-                    eager to tackle complex challenges and contribute to global progress through innovative,
-                    forward-thinking solutions. I am dedicated to advancing sustainable building practices
+                    My passion is driven by the aspiration to become a professional Building Services Engineer, 
+                    eager to tackle complex challenges and contribute to global progress through innovative, 
+                    forward-thinking solutions. I am dedicated to advancing sustainable building practices 
                     by integrating cutting-edge technologies like AI, IoT, and renewable energy systems.
                 </p>
             </div>
@@ -4874,7 +4867,7 @@ latest_posts:
         <i class="fas fa-language fa-2x text-primary me-3"></i>
         <h4 class="mb-0 text-gradient-primary">Language Proficiency</h4>
       </div>
-
+      
       <div class="row g-3">
         <!-- English -->
         <div class="col-4 text-center">
@@ -4884,7 +4877,7 @@ latest_posts:
             <div class="badge bg-danger-light text-danger rounded-pill">Fluent</div>
           </div>
         </div>
-
+        
         <!-- Mandarin -->
         <div class="col-4 text-center">
           <div class="lang-card p-3 rounded bg-white shadow-xs hover-transform-up">
@@ -4893,7 +4886,7 @@ latest_posts:
             <div class="badge bg-success-light text-success rounded-pill">Native</div>
           </div>
         </div>
-
+        
         <!-- Cantonese -->
         <div class="col-4 text-center">
           <div class="lang-card p-3 rounded bg-white shadow-xs hover-transform-up">
@@ -4903,7 +4896,7 @@ latest_posts:
           </div>
         </div>
       </div>
-
+      
       <div class="mt-4 pt-2 border-top">
         <p class="mb-0 text-muted d-flex align-items-center">
           <i class="fas fa-comments me-2 text-primary"></i>
@@ -4911,7 +4904,6 @@ latest_posts:
         </p>
       </div>
     </div>
-
   </div>
 
   <!-- Work Eligibility Card - More polished with status indicators -->
@@ -4921,7 +4913,7 @@ latest_posts:
         <i class="fas fa-user-check fa-2x text-success me-3"></i>
         <h4 class="mb-0 text-gradient-success">Work Authorization</h4>
       </div>
-
+      
       <div class="d-flex align-items-start bg-success-soft p-3 rounded-3 mb-3 border border-success border-opacity-10">
         <i class="fas fa-passport fa-3x text-success me-3"></i>
         <div>
@@ -4934,7 +4926,7 @@ latest_posts:
           <p class="mb-0 small text-success-dark">No visa sponsorship required • Full working rights</p>
         </div>
       </div>
-
+      
       <div class="alert alert-success-soft border border-success border-opacity-10 d-flex align-items-center">
         <i class="fa-solid fa-clock text-success me-3"></i>
         <div>
@@ -4942,7 +4934,6 @@ latest_posts:
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -4954,46 +4945,46 @@ latest_posts:
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  
   .text-gradient-success {
     background: linear-gradient(90deg, #1cc88a 0%, #13855c 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  
   .hover-shadow {
     transition: box-shadow 0.3s ease;
   }
-
+  
   .hover-shadow:hover {
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1) !important;
   }
-
+  
   .hover-transform-up {
     transition: transform 0.2s ease;
   }
-
+  
   .hover-transform-up:hover {
     transform: translateY(-3px);
   }
-
+  
   .shadow-xs {
     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.05);
   }
-
+  
   .bg-success-soft {
     background-color: rgba(28, 200, 138, 0.1);
   }
-
+  
   .bg-danger-light {
     background-color: rgba(231, 74, 59, 0.1);
   }
-
+  
   .bg-success-light {
     background-color: rgba(28, 200, 138, 0.1);
   }
-
+  
   .bg-warning-light {
     background-color: rgba(240, 173, 78, 0.1);
   }
@@ -5012,12 +5003,12 @@ latest_posts:
     margin: 0 auto;
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   }
-
+  
   .section-header h3 {
     font-weight: 600;
     color: #212529;
   }
-
+  
   .connect-card {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     border: 1px solid rgba(0,0,0,0.05);
@@ -5025,12 +5016,12 @@ latest_posts:
     backdrop-filter: blur(4px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-
+  
   .connect-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.12);
   }
-
+  
   .highlight-green {
     background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.3));
     padding: 0.15rem 0.4rem;
@@ -5038,26 +5029,26 @@ latest_posts:
     font-weight: 600;
     transition: background 0.3s ease;
   }
-
+  
   /* ===== Animated Background Icons ===== */
   .globe-spin {
     animation: spin 20s linear infinite;
   }
-
+  
   .leaf-float {
     animation: float 6s ease-in-out infinite;
   }
-
+  
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-
+  
   @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-15px); }
   }
-
+  
   /* ===== Enhanced Buttons ===== */
   .connect-btn {
     display: inline-flex;
@@ -5073,14 +5064,13 @@ latest_posts:
     box-shadow: 0 4px 20px rgba(0,0,0,0.12);
     border: 1px solid rgba(255,255,255,0.2);
   }
-</style>
-
+  
 <!--📬 Let's Connect Section -->
 <div class="connect-section mb-5">
   <div class="section-header d-flex align-items-center mb-4">
     <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
   </div>
-
+  
   <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
     <!-- Background elements (subtle animated) -->
     <div class="position-absolute top-0 end-0 me-4 mt-3 opacity-10 globe-spin">
@@ -5089,7 +5079,7 @@ latest_posts:
     <div class="position-absolute bottom-0 start-0 ms-4 mb-3 opacity-10 leaf-float">
       <i class="fas fa-leaf fa-4x text-success"></i>
     </div>
-
+      
     <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
       <!-- Email Button -->
       <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
@@ -5103,7 +5093,7 @@ latest_posts:
           <span>wchongmh@gmail.com</span>
         </div>
       </a>
-
+      
       <!-- LinkedIn Button -->
       <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
         <div class="btn-content">
@@ -5117,10 +5107,441 @@ latest_posts:
         </div>
       </a>
     </div>
-
+    
     <p class="mb-0 connect-message text-center">
-      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together!
+      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
     </p>
-
   </div>
 </div>
+
+<style>
+  /* ===== Modern Layout Improvements ===== */
+  .connect-section {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .connect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  }
+  
+  .highlight-green {
+    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.3));
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  /* ===== Animated Background Icons ===== */
+  .globe-spin {
+    animation: spin 20s linear infinite;
+  }
+  
+  .leaf-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* ===== Enhanced Buttons ===== */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .connect-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2rem !important;
+    }
+    
+    .connect-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+    
+    .connect-message {
+      font-size: 1rem;
+    }
+  }
+
+  /* Connect Section Styles */
+  .connect-section {
+    position: relative;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .highlight-green {
+    background-color: rgba(40, 167, 69, 0.2);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  /* Connect Buttons */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-content {
+    top: 0;
+  }
+  
+  .btn-hover-content {
+    top: 100%;
+  }
+  
+  .connect-btn:hover .btn-content {
+    top: -100%;
+  }
+  
+  .connect-btn:hover .btn-hover-content {
+    top: 0;
+  }
+  
+  .btn-icon {
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  /* Email Button */
+  .email-btn {
+    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
+    color: white;
+  }
+  
+  .email-btn .btn-hover-content {
+    background: linear-gradient(135deg, #0b5ed7, #2b78e0);
+    color: white;
+  }
+  
+  /* LinkedIn Button */
+  .linkedin-btn {
+    background: linear-gradient(135deg, #0077b5, #00a0dc);
+    color: white;
+  }
+  
+  .linkedin-btn .btn-hover-content {
+    background: linear-gradient(135deg, #006097, #008cc9);
+    color: white;
+  }
+  
+  /* Connect Message */
+  .connect-message {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2.5rem 1.5rem;
+    }
+    
+    .connect-btn {
+      width: 160px;
+      height: 50px;
+    }
+  }
+</style>
+
+<!--📬 Let's Connect Section -->
+<div class="connect-section mb-5">
+  <div class="section-header d-flex align-items-center mb-4">
+    <h3 class="mb-0"><i class="fas fa-paper-plane me-3 text-primary"></i>Let's Connect</h3>
+  </div>
+  
+  <div class="connect-card p-5 rounded-4 position-relative overflow-hidden">
+    <!-- Background elements (subtle animated) -->
+    <div class="position-absolute top-0 end-0 me-4 mt-3 globe-spin">
+      <i class="fas fa-globe-americas fa-4x text-primary"></i>
+    </div>
+    <div class="position-absolute bottom-0 start-0 ms-4 mb-3 leaf-float">
+      <i class="fas fa-leaf fa-4x text-success"></i>
+    </div>
+      
+    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+      <!-- Email Button -->
+      <a href="mailto:wchongmh@gmail.com" class="connect-btn email-btn">
+        <div class="btn-content">
+          <div class="btn-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <span>Email Me</span>
+        </div>
+        <div class="btn-hover-content">
+          <span>wchongmh@gmail.com</span>
+        </div>
+      </a>
+      
+      <!-- LinkedIn Button -->
+      <a href="https://linkedin.com/in/wchongmh" target="_blank" class="connect-btn linkedin-btn">
+        <div class="btn-content">
+          <div class="btn-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <span>LinkedIn</span>
+        </div>
+        <div class="btn-hover-content">
+          <span>linkedin.com/in/wchongmh</span>
+        </div>
+      </a>
+    </div>
+    
+    <p class="mb-0 connect-message text-center">
+      Let's collaborate to build a <strong class="highlight-green">greener, smarter future</strong> together! 
+    </p>
+  </div>
+</div>
+
+<style>
+  /* ===== Base Styles ===== */
+  .connect-section {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .connect-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .connect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  }
+  
+  .highlight-green {
+    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.3));
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  /* ===== Animated Background Icons ===== */
+  .globe-spin {
+    opacity: 0.15;
+    z-index: 0;
+    right: 20px;
+    top: 20px;
+    animation: spin 20s linear infinite;
+  }
+  
+  .leaf-float {
+    opacity: 0.15;
+    z-index: 0;
+    left: 20px;
+    bottom: 20px;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* ===== Enhanced Buttons ===== */
+  .connect-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    width: 180px;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    z-index: 2;
+  }
+  
+  .btn-content, .btn-hover-content {
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-content {
+    top: 0;
+  }
+  
+  .btn-hover-content {
+    top: 100%;
+  }
+  
+  .connect-btn:hover .btn-content {
+    top: -100%;
+  }
+  
+  .connect-btn:hover .btn-hover-content {
+    top: 0;
+  }
+  
+  .btn-icon {
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  /* Email Button */
+  .email-btn {
+    background: linear-gradient(135deg, #0d6efd, #3d8bfd);
+    color: white;
+  }
+  
+  .email-btn .btn-hover-content {
+    background: linear-gradient(135deg, #0b5ed7, #2b78e0);
+    color: white;
+  }
+  
+  /* LinkedIn Button */
+  .linkedin-btn {
+    background: linear-gradient(135deg, #0077b5, #00a0dc);
+    color: white;
+  }
+  
+  .linkedin-btn .btn-hover-content {
+    background: linear-gradient(135deg, #006097, #008cc9);
+    color: white;
+  }
+  
+  /* Connect Message */
+  .connect-message {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* ===== Responsive Design ===== */
+  @media (max-width: 768px) {
+    .connect-card {
+      padding: 2rem !important;
+    }
+    
+    .connect-btn {
+      width: 100%;
+      max-width: 200px;
+      height: 50px;
+    }
+    
+    .connect-message {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+    
+    .fa-globe-americas, .fa-leaf {
+      font-size: 2.5rem !important;
+    }
+    
+    .globe-spin {
+      right: 10px !important;
+      top: 10px !important;
+    }
+    
+    .leaf-float {
+      left: 10px !important;
+      bottom: 10px !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .position-absolute {
+      display: none; /* Hide decorative icons on very small screens */
+    }
+    
+    .connect-card {
+      padding: 1.5rem !important;
+    }
+  }
+</style>
