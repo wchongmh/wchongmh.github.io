@@ -1934,6 +1934,12 @@ document.addEventListener('DOMContentLoaded', function() {
   color: #7f8c8d;
 }
 
+.machine-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .lep-calculation {
   background: #f5f5f5;
   padding: 15px;
