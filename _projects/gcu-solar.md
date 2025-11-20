@@ -314,8 +314,7 @@ importance: 1
             }
         }
     </style>
-</head>
-<body>
+    
         <header class="header-container">
             <h1>Rooftop Solar Potential - Glasgow Caledonian University</h1>
             <div class="tech-list">
