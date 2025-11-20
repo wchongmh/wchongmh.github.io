@@ -24,34 +24,25 @@ module ExternalPosts
 
     def fetch_from_rss(site, src)
       begin
-        xml = HTTParty.get(src['rss_url'], timeout: 10).body
-        return if xml.nil? || xml.empty?
+        xml = HTTParty.get(src['rss_url']).body
+        return if xml.nil?
         feed = Feedjira.parse(xml)
-        return if feed.nil? || feed.entries.nil?
         process_entries(site, src, feed.entries)
-      rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout, Timeout::Error => e
+      rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout => e
         puts "WARNING: Could not fetch external posts from #{src['name']}: #{e.message}"
-        puts "Continuing build without external posts from this source."
-      rescue StandardError => e
-        puts "WARNING: Error processing external posts from #{src['name']}: #{e.message}"
         puts "Continuing build without external posts from this source."
       end
     end
 
     def process_entries(site, src, entries)
       entries.each do |e|
-        begin
-          puts "...fetching #{e.url}"
-          create_document(site, src['name'], e.url, {
-            title: e.title,
-            content: e.content,
-            summary: e.summary,
-            published: e.published
-          })
-        rescue StandardError => e_inner
-          puts "WARNING: Could not process entry from #{src['name']}: #{e_inner.message}"
-          puts "Continuing with next entry."
-        end
+        puts "...fetching #{e.url}"
+        create_document(site, src['name'], e.url, {
+          title: e.title,
+          content: e.content,
+          summary: e.summary,
+          published: e.published
+        })
       end
     end
 
@@ -87,11 +78,8 @@ module ExternalPosts
           content = fetch_content_from_url(post['url'])
           content[:published] = parse_published_date(post['published_date'])
           create_document(site, src['name'], post['url'], content)
-        rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout, Net::ReadTimeout, Timeout::Error => e
+        rescue SocketError, Errno::ECONNREFUSED, Net::OpenTimeout => e
           puts "WARNING: Could not fetch external post from #{post['url']}: #{e.message}"
-          puts "Continuing build without this external post."
-        rescue StandardError => e
-          puts "WARNING: Error processing external post from #{post['url']}: #{e.message}"
           puts "Continuing build without this external post."
         end
       end
@@ -109,7 +97,7 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url, timeout: 10).body
+      html = HTTParty.get(url).body
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
