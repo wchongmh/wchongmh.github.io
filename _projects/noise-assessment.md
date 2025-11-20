@@ -2383,3 +2383,29 @@ document.querySelectorAll('.spec-group').forEach(details => {
   });
 });
 </script>
+
+<style>
+/* 1. Fix Grid Layout */
+.machine-results {
+  display: grid !important; /* !important ensures this overrides previous settings */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 20px;
+  width: 100%;
+}
+
+/* 2. Constrain the Card Container */
+.machine-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;      /* Critical CSS Grid fix prevents overflow */
+  overflow: hidden;  /* Ensures images don't poke out of rounded corners */
+}
+
+/* 3. Force Images to Fit */
+.machine-card img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto;
+  object-fit: contain;
+}
+</style>
