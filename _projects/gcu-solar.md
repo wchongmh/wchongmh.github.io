@@ -194,7 +194,12 @@ importance: 1
             margin: 25px 0;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
             border-radius: 8px;
-            overflow: hidden;
+    
+            /* NEW RESPONSIVE STYLES */
+            display: block;              /* Allows the table to behave like a block container */
+            overflow-x: auto;            /* Adds horizontal scrollbar if content is too wide */
+            -webkit-overflow-scrolling: touch; /* CRITICAL: Enables smooth "momentum" scrolling on iOS */
+            white-space: nowrap;         /* Optional: Prevents text from wrapping awkwardly */
         }
 
         .data-table th, .data-table td {
