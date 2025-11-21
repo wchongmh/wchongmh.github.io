@@ -6,6 +6,7 @@ tech: [PVsyst, HelioScope, AutoCAD, SolarGIS, Financial Modeling, Carbon Account
 image: /assets/img/projects/fyp/pv_design-0.png
 importance: 1
 ---
+
     <style>
         /* Base Styles */
         :root {
