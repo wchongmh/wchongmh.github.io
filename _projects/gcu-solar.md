@@ -7,6 +7,12 @@ image: /assets/img/projects/fyp/pv_design-0.png
 importance: 1
 ---
 
+<!-- DOCTYPE html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooftop Solar Potential - Glasgow Caledonian University</title>
     <style>
         /* Base Styles */
         :root {
