@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.1.1)
+    activesupport (8.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.3.1)
@@ -86,25 +86,25 @@ GEM
     forwardable (1.4.0)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    google-protobuf (4.33.2)
+    google-protobuf (4.33.4)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.33.2-aarch64-linux-gnu)
+    google-protobuf (4.33.4-aarch64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.33.2-aarch64-linux-musl)
+    google-protobuf (4.33.4-aarch64-linux-musl)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.33.2-arm64-darwin)
+    google-protobuf (4.33.4-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.33.2-x86_64-darwin)
+    google-protobuf (4.33.4-x86_64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.33.2-x86_64-linux-gnu)
+    google-protobuf (4.33.4-x86_64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.33.2-x86_64-linux-musl)
+    google-protobuf (4.33.4-x86_64-linux-musl)
       bigdecimal
       rake (>= 13)
     html-pipeline (2.14.3)
@@ -112,12 +112,16 @@ GEM
       nokogiri (>= 1.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.1)
-    httparty (0.24.0)
+    httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
+    jekyll-3rd-party-libraries (0.0.1)
+      css_parser (>= 1.6, < 2.0)
+      jekyll (>= 3.6, < 5.0)
+      nokogiri (>= 1.8, < 2.0)
     jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
@@ -137,8 +141,10 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-archives-v2 (0.0.6)
+    jekyll-archives-v2 (0.0.7)
       activesupport
+      jekyll (>= 3.6, < 5.0)
+    jekyll-cache-bust (0.0.1)
       jekyll (>= 3.6, < 5.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
@@ -162,13 +168,15 @@ GEM
     jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
-    jekyll-scholar (7.2.3)
+    jekyll-scholar (7.3.0)
       bibtex-ruby (~> 6.0)
       citeproc-ruby (>= 2.1.6)
       csl-styles (~> 2.0)
       jekyll (~> 4.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-socials (0.0.6)
+      jekyll (>= 3.6, < 5.0)
     jekyll-tabs (1.2.1)
       jekyll (>= 3.0, < 5.0)
     jekyll-toc (0.19.0)
@@ -184,13 +192,14 @@ GEM
     json (2.18.0)
     json-minify (0.0.3)
       json (> 0)
-    kramdown (2.5.1)
-      rexml (>= 3.3.9)
+    kramdown (2.5.2)
+      rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    latex-decode (0.4.0)
+    latex-decode (0.4.2)
     liquid (4.0.4)
-    listen (3.9.0)
+    listen (3.10.0)
+      logger
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
@@ -202,7 +211,7 @@ GEM
     mini_mime (1.1.5)
     minitest (6.0.1)
       prism (~> 1.5)
-    multi_xml (0.8.0)
+    multi_xml (0.8.1)
       bigdecimal (>= 3.1, < 5)
     namae (1.2.0)
       racc (~> 1.7)
@@ -230,8 +239,8 @@ GEM
     ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    prism (1.7.0)
-    public_suffix (7.0.0)
+    prism (1.8.0)
+    public_suffix (7.0.2)
     racc (1.8.1)
     rake (13.3.1)
     rb-fsevent (0.11.2)
@@ -240,21 +249,21 @@ GEM
     rexml (3.4.4)
     rouge (4.7.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.97.1-aarch64-linux-gnu)
+    sass-embedded (1.97.2-aarch64-linux-gnu)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-aarch64-linux-musl)
+    sass-embedded (1.97.2-aarch64-linux-musl)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-arm-linux-gnueabihf)
+    sass-embedded (1.97.2-arm-linux-gnueabihf)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-arm-linux-musleabihf)
+    sass-embedded (1.97.2-arm-linux-musleabihf)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-arm64-darwin)
+    sass-embedded (1.97.2-arm64-darwin)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-x86_64-darwin)
+    sass-embedded (1.97.2-x86_64-darwin)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-x86_64-linux-gnu)
+    sass-embedded (1.97.2-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
-    sass-embedded (1.97.1-x86_64-linux-musl)
+    sass-embedded (1.97.2-x86_64-linux-musl)
       google-protobuf (~> 4.31)
     sax-machine (1.3.2)
     securerandom (0.4.1)
@@ -293,7 +302,9 @@ DEPENDENCIES
   feedjira
   httparty
   jekyll
+  jekyll-3rd-party-libraries
   jekyll-archives-v2
+  jekyll-cache-bust
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json
@@ -305,6 +316,7 @@ DEPENDENCIES
   jekyll-regex-replace
   jekyll-scholar
   jekyll-sitemap
+  jekyll-socials
   jekyll-tabs
   jekyll-terser!
   jekyll-toc
@@ -314,4 +326,4 @@ DEPENDENCIES
   ostruct
 
 BUNDLED WITH
-  4.0.3
+  4.0.4
