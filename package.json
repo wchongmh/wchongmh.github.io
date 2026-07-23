@@ -1,25 +1,15 @@
 {
-  "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.10.0",
-    "prettier": "^3.8.0"
-  },
-  "name": "wchongmh.github.io",
-  "version": "1.0.0",
-  "description": "<div align=\"center\">",
-  "main": "purgecss.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:prettier": "prettier . --check",
+    "lint:style-contract": "node test/style_contract.js",
+    "test:visual": "playwright test --config test/visual/playwright.config.js",
+    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wchongmh/wchongmh.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/wchongmh/wchongmh.github.io/issues"
-  },
-  "homepage": "https://github.com/wchongmh/wchongmh.github.io#readme"
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@shopify/prettier-plugin-liquid": "^1.10.0",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "prettier": "^3.8.0"
+  }
 }
