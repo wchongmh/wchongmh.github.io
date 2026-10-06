@@ -221,16 +221,16 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - AGENTS.md
+  - al-folio-upgrade-report.md
   - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
+  - CLAUDE.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
-  - FAQ.md
+  - docs/
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
   - lighthouse_results/
   - package.json
@@ -239,7 +239,13 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - gems/
+  - migrations/
   - vendor
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - FAQ.md
+  - INSTALL.md
   - _pages/publications.md
   - _pages/repositories.md
   - _pages/dropdown.md
@@ -272,6 +278,27 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+
+  # al-folio plugins
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_folio_distill
+  - al_folio_upgrade
+  - al_folio_bootstrap_compat
+  - al_cookie
+  - al_analytics
+  - al_citations
+  - al_ext_posts
+  - al_img_tools
+  - al_search
+  - al_charts
+  - al_math
+  - al_comments
+  - al_newsletter
+  - al_email_protect
+  - al_marimo
+  - al_rtl
 
 # Sitemap settings
 defaults:
